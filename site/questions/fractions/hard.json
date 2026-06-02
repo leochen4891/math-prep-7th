@@ -1,307 +1,11 @@
 [
   {
-    "q": "A $40 item is marked up by 75%. What is the new price?",
+    "q": "3/4 ÷ 2/3 = ?",
     "type": "typed",
     "accept": [
-      "70"
+      "9/8"
     ],
-    "solution": "Add 75%: 40 × 1.75 = $70."
-  },
-  {
-    "q": "A $80 item is marked up by 50%. What is the new price?",
-    "type": "typed",
-    "accept": [
-      "120"
-    ],
-    "solution": "Add 50%: 80 × 1.5 = $120."
-  },
-  {
-    "q": "A $120 item is marked up by 75%. What is the new price?",
-    "type": "typed",
-    "accept": [
-      "210"
-    ],
-    "solution": "Add 75%: 120 × 1.75 = $210."
-  },
-  {
-    "q": "If 2/5 of a number is 16, what is the number?",
-    "type": "typed",
-    "accept": [
-      "40"
-    ],
-    "solution": "Undo it: 16 ÷ 2 × 5 = 40."
-  },
-  {
-    "q": "A $80 item is marked up by 75%. What is the new price?",
-    "type": "typed",
-    "accept": [
-      "140"
-    ],
-    "solution": "Add 75%: 80 × 1.75 = $140."
-  },
-  {
-    "q": "1/2 × 2/4 = ?",
-    "type": "typed",
-    "accept": [
-      "1/4",
-      "2/8"
-    ],
-    "solution": "Multiply straight across: 2/8 = 1/4."
-  },
-  {
-    "q": "1/4 ÷ 1/2 = ?",
-    "type": "typed",
-    "accept": [
-      "1/2",
-      "2/4"
-    ],
-    "solution": "Keep-Change-Flip: 1/4 × 2/1 = 2/4 = 1/2."
-  },
-  {
-    "q": "A $60 item is marked up by 50%. What is the new price?",
-    "type": "typed",
-    "accept": [
-      "90"
-    ],
-    "solution": "Add 50%: 60 × 1.5 = $90."
-  },
-  {
-    "q": "1/2 × 1/3 = ?",
-    "type": "typed",
-    "accept": [
-      "1/6"
-    ],
-    "solution": "Multiply straight across: 1/6 = 1/6."
-  },
-  {
-    "q": "3/5 ÷ 1/3 = ?",
-    "type": "typed",
-    "accept": [
-      "9/5"
-    ],
-    "solution": "Keep-Change-Flip: 3/5 × 3/1 = 9/5 = 9/5."
-  },
-  {
-    "q": "A $40 item is marked up by 10%. What is the new price?",
-    "type": "typed",
-    "accept": [
-      "44"
-    ],
-    "solution": "Add 10%: 40 × 1.1 = $44."
-  },
-  {
-    "q": "A $120 item is marked up by 25%. What is the new price?",
-    "type": "typed",
-    "accept": [
-      "150"
-    ],
-    "solution": "Add 25%: 120 × 1.25 = $150."
-  },
-  {
-    "q": "A $60 item is marked up by 25%. What is the new price?",
-    "type": "typed",
-    "accept": [
-      "75"
-    ],
-    "solution": "Add 25%: 60 × 1.25 = $75."
-  },
-  {
-    "q": "If 1/2 of a number is 5, what is the number?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Undo it: 5 ÷ 1 × 2 = 10."
-  },
-  {
-    "q": "A $60 item is marked up by 75%. What is the new price?",
-    "type": "typed",
-    "accept": [
-      "105"
-    ],
-    "solution": "Add 75%: 60 × 1.75 = $105."
-  },
-  {
-    "q": "1/4 × 1/3 = ?",
-    "type": "typed",
-    "accept": [
-      "1/12"
-    ],
-    "solution": "Multiply straight across: 1/12 = 1/12."
-  },
-  {
-    "q": "If 1/5 of a number is 4, what is the number?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Undo it: 4 ÷ 1 × 5 = 20."
-  },
-  {
-    "q": "1/3 ÷ 3/5 = ?",
-    "type": "typed",
-    "accept": [
-      "5/9"
-    ],
-    "solution": "Keep-Change-Flip: 1/3 × 5/3 = 5/9 = 5/9."
-  },
-  {
-    "q": "A $80 item is marked up by 10%. What is the new price?",
-    "type": "typed",
-    "accept": [
-      "88"
-    ],
-    "solution": "Add 10%: 80 × 1.1 = $88."
-  },
-  {
-    "q": "1/2 ÷ 4/5 = ?",
-    "type": "typed",
-    "accept": [
-      "5/8"
-    ],
-    "solution": "Keep-Change-Flip: 1/2 × 5/4 = 5/8 = 5/8."
-  },
-  {
-    "q": "If 1/2 of a number is 9, what is the number?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Undo it: 9 ÷ 1 × 2 = 18."
-  },
-  {
-    "q": "A $80 item is marked up by 25%. What is the new price?",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "Add 25%: 80 × 1.25 = $100."
-  },
-  {
-    "q": "1/5 × 1/3 = ?",
-    "type": "typed",
-    "accept": [
-      "1/15"
-    ],
-    "solution": "Multiply straight across: 1/15 = 1/15."
-  },
-  {
-    "q": "1/3 × 4/5 = ?",
-    "type": "typed",
-    "accept": [
-      "4/15"
-    ],
-    "solution": "Multiply straight across: 4/15 = 4/15."
-  },
-  {
-    "q": "2/4 × 4/5 = ?",
-    "type": "typed",
-    "accept": [
-      "2/5",
-      "8/20"
-    ],
-    "solution": "Multiply straight across: 8/20 = 2/5."
-  },
-  {
-    "q": "1/4 ÷ 4/5 = ?",
-    "type": "typed",
-    "accept": [
-      "5/16"
-    ],
-    "solution": "Keep-Change-Flip: 1/4 × 5/4 = 5/16 = 5/16."
-  },
-  {
-    "q": "If 1/3 of a number is 8, what is the number?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "Undo it: 8 ÷ 1 × 3 = 24."
-  },
-  {
-    "q": "2/5 ÷ 4/5 = ?",
-    "type": "typed",
-    "accept": [
-      "1/2",
-      "10/20"
-    ],
-    "solution": "Keep-Change-Flip: 2/5 × 5/4 = 10/20 = 1/2."
-  },
-  {
-    "q": "1/2 × 3/4 = ?",
-    "type": "typed",
-    "accept": [
-      "3/8"
-    ],
-    "solution": "Multiply straight across: 3/8 = 3/8."
-  },
-  {
-    "q": "1/5 ÷ 4/5 = ?",
-    "type": "typed",
-    "accept": [
-      "1/4",
-      "5/20"
-    ],
-    "solution": "Keep-Change-Flip: 1/5 × 5/4 = 5/20 = 1/4."
-  },
-  {
-    "q": "If 2/3 of a number is 12, what is the number?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Undo it: 12 ÷ 2 × 3 = 18."
-  },
-  {
-    "q": "4/5 ÷ 4/5 = ?",
-    "type": "typed",
-    "accept": [
-      "1/1",
-      "20/20"
-    ],
-    "solution": "Keep-Change-Flip: 4/5 × 5/4 = 20/20 = 1/1."
-  },
-  {
-    "q": "If 1/2 of a number is 4, what is the number?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Undo it: 4 ÷ 1 × 2 = 8."
-  },
-  {
-    "q": "1/3 ÷ 2/5 = ?",
-    "type": "typed",
-    "accept": [
-      "5/6"
-    ],
-    "solution": "Keep-Change-Flip: 1/3 × 5/2 = 5/6 = 5/6."
-  },
-  {
-    "q": "2/3 × 3/4 = ?",
-    "type": "typed",
-    "accept": [
-      "1/2",
-      "6/12"
-    ],
-    "solution": "Multiply straight across: 6/12 = 1/2."
-  },
-  {
-    "q": "1/5 ÷ 2/3 = ?",
-    "type": "typed",
-    "accept": [
-      "3/10"
-    ],
-    "solution": "Keep-Change-Flip: 1/5 × 3/2 = 3/10 = 3/10."
-  },
-  {
-    "q": "3/4 × 2/3 = ?",
-    "type": "typed",
-    "accept": [
-      "1/2",
-      "6/12"
-    ],
-    "solution": "Multiply straight across: 6/12 = 1/2."
+    "solution": "Keep-Change-Flip: 3/4 × 3/2 = 9/8 = 9/8."
   },
   {
     "q": "2/5 × 2/3 = ?",
@@ -312,12 +16,248 @@
     "solution": "Multiply straight across: 4/15 = 4/15."
   },
   {
-    "q": "If 1/2 of a number is 7, what is the number?",
+    "q": "If 1/2 of a number is 8, what is the number?",
     "type": "typed",
     "accept": [
-      "14"
+      "16"
     ],
-    "solution": "Undo it: 7 ÷ 1 × 2 = 14."
+    "solution": "Undo it: 8 ÷ 1 × 2 = 16."
+  },
+  {
+    "q": "If 2/3 of a number is 8, what is the number?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Undo it: 8 ÷ 2 × 3 = 12."
+  },
+  {
+    "q": "2/3 ÷ 1/2 = ?",
+    "type": "typed",
+    "accept": [
+      "4/3"
+    ],
+    "solution": "Keep-Change-Flip: 2/3 × 2/1 = 4/3 = 4/3."
+  },
+  {
+    "q": "A $60 item is marked up by 50%. What is the new price?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Add 50%: 60 × 1.5 = $90."
+  },
+  {
+    "q": "A $40 item is marked up by 50%. What is the new price?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "Add 50%: 40 × 1.5 = $60."
+  },
+  {
+    "q": "1/2 ÷ 3/5 = ?",
+    "type": "typed",
+    "accept": [
+      "5/6"
+    ],
+    "solution": "Keep-Change-Flip: 1/2 × 5/3 = 5/6 = 5/6."
+  },
+  {
+    "q": "A $60 item is marked up by 25%. What is the new price?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "Add 25%: 60 × 1.25 = $75."
+  },
+  {
+    "q": "1/2 × 1/5 = ?",
+    "type": "typed",
+    "accept": [
+      "1/10"
+    ],
+    "solution": "Multiply straight across: 1/10 = 1/10."
+  },
+  {
+    "q": "A $80 item is marked up by 25%. What is the new price?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "Add 25%: 80 × 1.25 = $100."
+  },
+  {
+    "q": "If 1/3 of a number is 4, what is the number?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Undo it: 4 ÷ 1 × 3 = 12."
+  },
+  {
+    "q": "If 1/4 of a number is 8, what is the number?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Undo it: 8 ÷ 1 × 4 = 32."
+  },
+  {
+    "q": "1/5 × 2/5 = ?",
+    "type": "typed",
+    "accept": [
+      "2/25"
+    ],
+    "solution": "Multiply straight across: 2/25 = 2/25."
+  },
+  {
+    "q": "1/2 × 3/5 = ?",
+    "type": "typed",
+    "accept": [
+      "3/10"
+    ],
+    "solution": "Multiply straight across: 3/10 = 3/10."
+  },
+  {
+    "q": "2/3 × 2/3 = ?",
+    "type": "typed",
+    "accept": [
+      "4/9"
+    ],
+    "solution": "Multiply straight across: 4/9 = 4/9."
+  },
+  {
+    "q": "1/3 × 2/3 = ?",
+    "type": "typed",
+    "accept": [
+      "2/9"
+    ],
+    "solution": "Multiply straight across: 2/9 = 2/9."
+  },
+  {
+    "q": "A $80 item is marked up by 10%. What is the new price?",
+    "type": "typed",
+    "accept": [
+      "88"
+    ],
+    "solution": "Add 10%: 80 × 1.1 = $88."
+  },
+  {
+    "q": "1/4 × 1/4 = ?",
+    "type": "typed",
+    "accept": [
+      "1/16"
+    ],
+    "solution": "Multiply straight across: 1/16 = 1/16."
+  },
+  {
+    "q": "2/3 ÷ 2/3 = ?",
+    "type": "typed",
+    "accept": [
+      "1/1",
+      "6/6"
+    ],
+    "solution": "Keep-Change-Flip: 2/3 × 3/2 = 6/6 = 1/1."
+  },
+  {
+    "q": "1/2 × 1/2 = ?",
+    "type": "typed",
+    "accept": [
+      "1/4"
+    ],
+    "solution": "Multiply straight across: 1/4 = 1/4."
+  },
+  {
+    "q": "1/3 ÷ 1/4 = ?",
+    "type": "typed",
+    "accept": [
+      "4/3"
+    ],
+    "solution": "Keep-Change-Flip: 1/3 × 4/1 = 4/3 = 4/3."
+  },
+  {
+    "q": "If 4/5 of a number is 36, what is the number?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "Undo it: 36 ÷ 4 × 5 = 45."
+  },
+  {
+    "q": "1/4 × 4/5 = ?",
+    "type": "typed",
+    "accept": [
+      "1/5",
+      "4/20"
+    ],
+    "solution": "Multiply straight across: 4/20 = 1/5."
+  },
+  {
+    "q": "1/3 × 2/4 = ?",
+    "type": "typed",
+    "accept": [
+      "1/6",
+      "2/12"
+    ],
+    "solution": "Multiply straight across: 2/12 = 1/6."
+  },
+  {
+    "q": "1/3 ÷ 1/2 = ?",
+    "type": "typed",
+    "accept": [
+      "2/3"
+    ],
+    "solution": "Keep-Change-Flip: 1/3 × 2/1 = 2/3 = 2/3."
+  },
+  {
+    "q": "1/2 ÷ 2/5 = ?",
+    "type": "typed",
+    "accept": [
+      "5/4"
+    ],
+    "solution": "Keep-Change-Flip: 1/2 × 5/2 = 5/4 = 5/4."
+  },
+  {
+    "q": "1/4 × 1/2 = ?",
+    "type": "typed",
+    "accept": [
+      "1/8"
+    ],
+    "solution": "Multiply straight across: 1/8 = 1/8."
+  },
+  {
+    "q": "3/5 × 3/4 = ?",
+    "type": "typed",
+    "accept": [
+      "9/20"
+    ],
+    "solution": "Multiply straight across: 9/20 = 9/20."
+  },
+  {
+    "q": "A $80 item is marked up by 50%. What is the new price?",
+    "type": "typed",
+    "accept": [
+      "120"
+    ],
+    "solution": "Add 50%: 80 × 1.5 = $120."
+  },
+  {
+    "q": "2/3 ÷ 1/3 = ?",
+    "type": "typed",
+    "accept": [
+      "2/1",
+      "6/3"
+    ],
+    "solution": "Keep-Change-Flip: 2/3 × 3/1 = 6/3 = 2/1."
+  },
+  {
+    "q": "A $60 item is marked up by 10%. What is the new price?",
+    "type": "typed",
+    "accept": [
+      "66"
+    ],
+    "solution": "Add 10%: 60 × 1.1 = $66."
   },
   {
     "q": "A $120 item is marked up by 50%. What is the new price?",
@@ -328,61 +268,37 @@
     "solution": "Add 50%: 120 × 1.5 = $180."
   },
   {
-    "q": "If 3/4 of a number is 12, what is the number?",
+    "q": "2/3 × 3/5 = ?",
     "type": "typed",
     "accept": [
-      "16"
+      "2/5",
+      "6/15"
     ],
-    "solution": "Undo it: 12 ÷ 3 × 4 = 16."
+    "solution": "Multiply straight across: 6/15 = 2/5."
   },
   {
-    "q": "3/5 ÷ 2/3 = ?",
+    "q": "A $40 item is marked up by 25%. What is the new price?",
     "type": "typed",
     "accept": [
-      "9/10"
+      "50"
     ],
-    "solution": "Keep-Change-Flip: 3/5 × 3/2 = 9/10 = 9/10."
+    "solution": "Add 25%: 40 × 1.25 = $50."
   },
   {
-    "q": "If 1/2 of a number is 3, what is the number?",
+    "q": "If 1/4 of a number is 3, what is the number?",
     "type": "typed",
     "accept": [
-      "6"
+      "12"
     ],
-    "solution": "Undo it: 3 ÷ 1 × 2 = 6."
+    "solution": "Undo it: 3 ÷ 1 × 4 = 12."
   },
   {
-    "q": "If 2/4 of a number is 16, what is the number?",
+    "q": "1/2 ÷ 1/3 = ?",
     "type": "typed",
     "accept": [
-      "32"
+      "3/2"
     ],
-    "solution": "Undo it: 16 ÷ 2 × 4 = 32."
-  },
-  {
-    "q": "If 2/3 of a number is 14, what is the number?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Undo it: 14 ÷ 2 × 3 = 21."
-  },
-  {
-    "q": "2/4 × 3/5 = ?",
-    "type": "typed",
-    "accept": [
-      "3/10",
-      "6/20"
-    ],
-    "solution": "Multiply straight across: 6/20 = 3/10."
-  },
-  {
-    "q": "4/5 × 3/5 = ?",
-    "type": "typed",
-    "accept": [
-      "12/25"
-    ],
-    "solution": "Multiply straight across: 12/25 = 12/25."
+    "solution": "Keep-Change-Flip: 1/2 × 3/1 = 3/2 = 3/2."
   },
   {
     "q": "1/2 ÷ 1/2 = ?",
@@ -394,78 +310,171 @@
     "solution": "Keep-Change-Flip: 1/2 × 2/1 = 2/2 = 1/1."
   },
   {
-    "q": "If 2/4 of a number is 14, what is the number?",
+    "q": "A $80 item is marked up by 75%. What is the new price?",
     "type": "typed",
     "accept": [
-      "28"
+      "140"
     ],
-    "solution": "Undo it: 14 ÷ 2 × 4 = 28."
+    "solution": "Add 75%: 80 × 1.75 = $140."
   },
   {
-    "q": "1/2 ÷ 1/4 = ?",
+    "q": "A $120 item is marked up by 10%. What is the new price?",
     "type": "typed",
     "accept": [
-      "2/1",
-      "4/2"
+      "132"
     ],
-    "solution": "Keep-Change-Flip: 1/2 × 4/1 = 4/2 = 2/1."
+    "solution": "Add 10%: 120 × 1.1 = $132."
   },
   {
-    "q": "1/3 × 1/5 = ?",
+    "q": "3/4 ÷ 3/4 = ?",
     "type": "typed",
     "accept": [
-      "1/15"
+      "1/1",
+      "12/12"
     ],
-    "solution": "Multiply straight across: 1/15 = 1/15."
+    "solution": "Keep-Change-Flip: 3/4 × 4/3 = 12/12 = 1/1."
   },
   {
-    "q": "3/4 × 1/3 = ?",
+    "q": "1/2 × 1/3 = ?",
     "type": "typed",
     "accept": [
-      "1/4",
-      "3/12"
+      "1/6"
     ],
-    "solution": "Multiply straight across: 3/12 = 1/4."
+    "solution": "Multiply straight across: 1/6 = 1/6."
   },
   {
-    "q": "If 2/4 of a number is 18, what is the number?",
+    "q": "1/4 ÷ 1/2 = ?",
     "type": "typed",
     "accept": [
-      "36"
+      "1/2",
+      "2/4"
     ],
-    "solution": "Undo it: 18 ÷ 2 × 4 = 36."
+    "solution": "Keep-Change-Flip: 1/4 × 2/1 = 2/4 = 1/2."
   },
   {
-    "q": "1/2 ÷ 1/5 = ?",
+    "q": "A $40 item is marked up by 75%. What is the new price?",
     "type": "typed",
     "accept": [
-      "5/2"
+      "70"
     ],
-    "solution": "Keep-Change-Flip: 1/2 × 5/1 = 5/2 = 5/2."
+    "solution": "Add 75%: 40 × 1.75 = $70."
   },
   {
-    "q": "If 1/3 of a number is 3, what is the number?",
+    "q": "2/4 ÷ 1/2 = ?",
     "type": "typed",
     "accept": [
-      "9"
+      "1/1",
+      "4/4"
     ],
-    "solution": "Undo it: 3 ÷ 1 × 3 = 9."
+    "solution": "Keep-Change-Flip: 2/4 × 2/1 = 4/4 = 1/1."
   },
   {
-    "q": "If 2/3 of a number is 10, what is the number?",
+    "q": "1/3 × 1/3 = ?",
+    "type": "typed",
+    "accept": [
+      "1/9"
+    ],
+    "solution": "Multiply straight across: 1/9 = 1/9."
+  },
+  {
+    "q": "4/5 × 2/4 = ?",
+    "type": "typed",
+    "accept": [
+      "2/5",
+      "8/20"
+    ],
+    "solution": "Multiply straight across: 8/20 = 2/5."
+  },
+  {
+    "q": "4/5 ÷ 3/4 = ?",
+    "type": "typed",
+    "accept": [
+      "16/15"
+    ],
+    "solution": "Keep-Change-Flip: 4/5 × 4/3 = 16/15 = 16/15."
+  },
+  {
+    "q": "2/3 ÷ 2/4 = ?",
+    "type": "typed",
+    "accept": [
+      "4/3",
+      "8/6"
+    ],
+    "solution": "Keep-Change-Flip: 2/3 × 4/2 = 8/6 = 4/3."
+  },
+  {
+    "q": "If 1/3 of a number is 7, what is the number?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Undo it: 7 ÷ 1 × 3 = 21."
+  },
+  {
+    "q": "If 1/3 of a number is 5, what is the number?",
     "type": "typed",
     "accept": [
       "15"
     ],
-    "solution": "Undo it: 10 ÷ 2 × 3 = 15."
+    "solution": "Undo it: 5 ÷ 1 × 3 = 15."
   },
   {
-    "q": "If 2/5 of a number is 18, what is the number?",
+    "q": "2/3 × 1/2 = ?",
     "type": "typed",
     "accept": [
-      "45"
+      "1/3",
+      "2/6"
     ],
-    "solution": "Undo it: 18 ÷ 2 × 5 = 45."
+    "solution": "Multiply straight across: 2/6 = 1/3."
+  },
+  {
+    "q": "2/5 ÷ 2/4 = ?",
+    "type": "typed",
+    "accept": [
+      "4/5",
+      "8/10"
+    ],
+    "solution": "Keep-Change-Flip: 2/5 × 4/2 = 8/10 = 4/5."
+  },
+  {
+    "q": "If 2/5 of a number is 16, what is the number?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Undo it: 16 ÷ 2 × 5 = 40."
+  },
+  {
+    "q": "A $120 item is marked up by 75%. What is the new price?",
+    "type": "typed",
+    "accept": [
+      "210"
+    ],
+    "solution": "Add 75%: 120 × 1.75 = $210."
+  },
+  {
+    "q": "1/2 ÷ 2/3 = ?",
+    "type": "typed",
+    "accept": [
+      "3/4"
+    ],
+    "solution": "Keep-Change-Flip: 1/2 × 3/2 = 3/4 = 3/4."
+  },
+  {
+    "q": "If 2/5 of a number is 14, what is the number?",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "Undo it: 14 ÷ 2 × 5 = 35."
+  },
+  {
+    "q": "If 3/5 of a number is 12, what is the number?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Undo it: 12 ÷ 3 × 5 = 20."
   },
   {
     "q": "2/5 ÷ 2/3 = ?",
@@ -477,19 +486,11 @@
     "solution": "Keep-Change-Flip: 2/5 × 3/2 = 6/10 = 3/5."
   },
   {
-    "q": "1/2 × 1/2 = ?",
+    "q": "A $60 item is marked up by 75%. What is the new price?",
     "type": "typed",
     "accept": [
-      "1/4"
+      "105"
     ],
-    "solution": "Multiply straight across: 1/4 = 1/4."
-  },
-  {
-    "q": "2/5 × 3/5 = ?",
-    "type": "typed",
-    "accept": [
-      "6/25"
-    ],
-    "solution": "Multiply straight across: 6/25 = 6/25."
+    "solution": "Add 75%: 60 × 1.75 = $105."
   }
 ]

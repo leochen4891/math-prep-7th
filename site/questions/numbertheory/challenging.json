@@ -1,35 +1,251 @@
 [
   {
-    "q": "Two numbers are 6 and 10. What is (their GCF) × (their LCM)?",
+    "q": "Two lights blink every 6 seconds and every 9 seconds. They just blinked together. After how many seconds will they next blink together?",
     "type": "typed",
     "accept": [
-      "60"
+      "18"
     ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 10 = 60."
+    "solution": "They sync again at the LCM of 6 and 9, which is 18 seconds."
   },
   {
-    "q": "Two numbers are 10 and 12. What is (their GCF) × (their LCM)?",
+    "q": "What is the side length of the largest square tile that can exactly tile a 108-by-12 floor with no cutting?",
     "type": "typed",
     "accept": [
-      "120"
+      "12"
     ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 12 = 120."
+    "solution": "The tile's side must divide both 108 and 12, and the largest such number is the GCF = 12."
   },
   {
-    "q": "Two numbers are 9 and 7. What is (their GCF) × (their LCM)?",
+    "q": "Two numbers are 8 and 8. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 8 × 8 = 64."
+  },
+  {
+    "q": "Two numbers are 6 and 12. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 12 = 72."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 48-by-12 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "The tile's side must divide both 48 and 12, and the largest such number is the GCF = 12."
+  },
+  {
+    "q": "Two lights blink every 8 seconds and every 12 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "They sync again at the LCM of 8 and 12, which is 24 seconds."
+  },
+  {
+    "q": "Two lights blink every 8 seconds and every 10 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "They sync again at the LCM of 8 and 10, which is 40 seconds."
+  },
+  {
+    "q": "Two numbers are 11 and 9. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "99"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 9 = 99."
+  },
+  {
+    "q": "Two numbers are 11 and 6. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "66"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 6 = 66."
+  },
+  {
+    "q": "Two numbers are 7 and 9. What is (their GCF) × (their LCM)?",
     "type": "typed",
     "accept": [
       "63"
     ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 9 × 7 = 63."
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 9 = 63."
   },
   {
-    "q": "What is the side length of the largest square tile that can exactly tile a 24-by-4 floor with no cutting?",
+    "q": "Two numbers are 7 and 12. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 12 = 84."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 84-by-12 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "The tile's side must divide both 84 and 12, and the largest such number is the GCF = 12."
+  },
+  {
+    "q": "Two lights blink every 6 seconds and every 12 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "They sync again at the LCM of 6 and 12, which is 12 seconds."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 18-by-6 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "The tile's side must divide both 18 and 6, and the largest such number is the GCF = 6."
+  },
+  {
+    "q": "Two lights blink every 4 seconds and every 10 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "They sync again at the LCM of 4 and 10, which is 20 seconds."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 40-by-8 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "The tile's side must divide both 40 and 8, and the largest such number is the GCF = 8."
+  },
+  {
+    "q": "Two numbers are 7 and 7. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "49"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 7 = 49."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 132-by-12 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "The tile's side must divide both 132 and 12, and the largest such number is the GCF = 12."
+  },
+  {
+    "q": "Two lights blink every 4 seconds and every 9 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "They sync again at the LCM of 4 and 9, which is 36 seconds."
+  },
+  {
+    "q": "Two numbers are 10 and 6. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 6 = 60."
+  },
+  {
+    "q": "Two numbers are 7 and 11. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "77"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 11 = 77."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 96-by-8 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "The tile's side must divide both 96 and 8, and the largest such number is the GCF = 8."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 44-by-4 floor with no cutting?",
     "type": "typed",
     "accept": [
       "4"
     ],
-    "solution": "The tile's side must divide both 24 and 4, and the largest such number is the GCF = 4."
+    "solution": "The tile's side must divide both 44 and 4, and the largest such number is the GCF = 4."
+  },
+  {
+    "q": "Two lights blink every 8 seconds and every 6 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "They sync again at the LCM of 8 and 6, which is 24 seconds."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 8-by-4 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "The tile's side must divide both 8 and 4, and the largest such number is the GCF = 4."
+  },
+  {
+    "q": "Two numbers are 11 and 11. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "121"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 11 = 121."
+  },
+  {
+    "q": "Two lights blink every 4 seconds and every 6 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "They sync again at the LCM of 4 and 6, which is 12 seconds."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 88-by-8 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "The tile's side must divide both 88 and 8, and the largest such number is the GCF = 8."
+  },
+  {
+    "q": "Two numbers are 8 and 10. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 8 × 10 = 80."
+  },
+  {
+    "q": "Two numbers are 6 and 9. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "54"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 9 = 54."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 40-by-4 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "The tile's side must divide both 40 and 4, and the largest such number is the GCF = 4."
   },
   {
     "q": "What is the side length of the largest square tile that can exactly tile a 24-by-8 floor with no cutting?",
@@ -48,268 +264,12 @@
     "solution": "They sync again at the LCM of 6 and 10, which is 30 seconds."
   },
   {
-    "q": "Two lights blink every 8 seconds and every 12 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "They sync again at the LCM of 8 and 12, which is 24 seconds."
-  },
-  {
-    "q": "Two lights blink every 6 seconds and every 9 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "They sync again at the LCM of 6 and 9, which is 18 seconds."
-  },
-  {
-    "q": "Two numbers are 11 and 9. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "99"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 9 = 99."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 80-by-8 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The tile's side must divide both 80 and 8, and the largest such number is the GCF = 8."
-  },
-  {
-    "q": "Two numbers are 11 and 6. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "66"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 6 = 66."
-  },
-  {
-    "q": "Two numbers are 10 and 6. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 6 = 60."
-  },
-  {
-    "q": "Two numbers are 6 and 6. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 6 = 36."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 48-by-8 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The tile's side must divide both 48 and 8, and the largest such number is the GCF = 8."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 84-by-12 floor with no cutting?",
+    "q": "What is the side length of the largest square tile that can exactly tile a 120-by-12 floor with no cutting?",
     "type": "typed",
     "accept": [
       "12"
     ],
-    "solution": "The tile's side must divide both 84 and 12, and the largest such number is the GCF = 12."
-  },
-  {
-    "q": "Two numbers are 10 and 11. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "110"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 11 = 110."
-  },
-  {
-    "q": "Two numbers are 6 and 12. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 12 = 72."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 88-by-8 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The tile's side must divide both 88 and 8, and the largest such number is the GCF = 8."
-  },
-  {
-    "q": "Two lights blink every 8 seconds and every 10 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "40"
-    ],
-    "solution": "They sync again at the LCM of 8 and 10, which is 40 seconds."
-  },
-  {
-    "q": "Two lights blink every 4 seconds and every 12 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "They sync again at the LCM of 4 and 12, which is 12 seconds."
-  },
-  {
-    "q": "Two numbers are 9 and 11. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "99"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 9 × 11 = 99."
-  },
-  {
-    "q": "Two numbers are 7 and 8. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "56"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 8 = 56."
-  },
-  {
-    "q": "Two numbers are 12 and 6. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 12 × 6 = 72."
-  },
-  {
-    "q": "Two numbers are 7 and 6. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "42"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 6 = 42."
-  },
-  {
-    "q": "Two numbers are 6 and 9. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "54"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 9 = 54."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 16-by-4 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The tile's side must divide both 16 and 4, and the largest such number is the GCF = 4."
-  },
-  {
-    "q": "Two numbers are 7 and 9. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "63"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 9 = 63."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 64-by-8 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The tile's side must divide both 64 and 8, and the largest such number is the GCF = 8."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 24-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 24 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "Two numbers are 7 and 12. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "84"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 12 = 84."
-  },
-  {
-    "q": "Two lights blink every 4 seconds and every 6 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "They sync again at the LCM of 4 and 6, which is 12 seconds."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 12-by-4 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The tile's side must divide both 12 and 4, and the largest such number is the GCF = 4."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 42-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 42 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "Two lights blink every 8 seconds and every 6 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "They sync again at the LCM of 8 and 6, which is 24 seconds."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 36-by-12 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "The tile's side must divide both 36 and 12, and the largest such number is the GCF = 12."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 8-by-4 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The tile's side must divide both 8 and 4, and the largest such number is the GCF = 4."
-  },
-  {
-    "q": "Two numbers are 10 and 10. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 10 = 100."
-  },
-  {
-    "q": "Two lights blink every 4 seconds and every 9 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "They sync again at the LCM of 4 and 9, which is 36 seconds."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 28-by-4 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The tile's side must divide both 28 and 4, and the largest such number is the GCF = 4."
+    "solution": "The tile's side must divide both 120 and 12, and the largest such number is the GCF = 12."
   },
   {
     "q": "What is the side length of the largest square tile that can exactly tile a 72-by-12 floor with no cutting?",
@@ -320,140 +280,12 @@
     "solution": "The tile's side must divide both 72 and 12, and the largest such number is the GCF = 12."
   },
   {
-    "q": "Two numbers are 6 and 11. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "66"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 11 = 66."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 24-by-12 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "The tile's side must divide both 24 and 12, and the largest such number is the GCF = 12."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 16-by-8 floor with no cutting?",
+    "q": "What is the side length of the largest square tile that can exactly tile a 80-by-8 floor with no cutting?",
     "type": "typed",
     "accept": [
       "8"
     ],
-    "solution": "The tile's side must divide both 16 and 8, and the largest such number is the GCF = 8."
-  },
-  {
-    "q": "Two lights blink every 8 seconds and every 9 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "They sync again at the LCM of 8 and 9, which is 72 seconds."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 48-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 48 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "Two numbers are 12 and 12. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "144"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 12 × 12 = 144."
-  },
-  {
-    "q": "Two numbers are 9 and 6. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "54"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 9 × 6 = 54."
-  },
-  {
-    "q": "Two numbers are 7 and 7. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "49"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 7 = 49."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 72-by-8 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The tile's side must divide both 72 and 8, and the largest such number is the GCF = 8."
-  },
-  {
-    "q": "Two numbers are 12 and 9. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "108"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 12 × 9 = 108."
-  },
-  {
-    "q": "Two lights blink every 6 seconds and every 6 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "They sync again at the LCM of 6 and 6, which is 6 seconds."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 18-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 18 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 96-by-12 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "The tile's side must divide both 96 and 12, and the largest such number is the GCF = 12."
-  },
-  {
-    "q": "Two numbers are 12 and 10. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "120"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 12 × 10 = 120."
-  },
-  {
-    "q": "Two lights blink every 6 seconds and every 12 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "They sync again at the LCM of 6 and 12, which is 12 seconds."
-  },
-  {
-    "q": "Two numbers are 11 and 12. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "132"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 12 = 132."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 54-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 54 and 6, and the largest such number is the GCF = 6."
+    "solution": "The tile's side must divide both 80 and 8, and the largest such number is the GCF = 8."
   },
   {
     "q": "Two numbers are 8 and 11. What is (their GCF) × (their LCM)?",
@@ -464,20 +296,188 @@
     "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 8 × 11 = 88."
   },
   {
-    "q": "Two lights blink every 4 seconds and every 10 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "They sync again at the LCM of 4 and 10, which is 20 seconds."
-  },
-  {
     "q": "Two numbers are 10 and 7. What is (their GCF) × (their LCM)?",
     "type": "typed",
     "accept": [
       "70"
     ],
     "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 7 = 70."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 54-by-6 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "The tile's side must divide both 54 and 6, and the largest such number is the GCF = 6."
+  },
+  {
+    "q": "Two lights blink every 6 seconds and every 6 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "They sync again at the LCM of 6 and 6, which is 6 seconds."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 56-by-8 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "The tile's side must divide both 56 and 8, and the largest such number is the GCF = 8."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 64-by-8 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "The tile's side must divide both 64 and 8, and the largest such number is the GCF = 8."
+  },
+  {
+    "q": "Two numbers are 11 and 8. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "88"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 8 = 88."
+  },
+  {
+    "q": "Two numbers are 6 and 7. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "42"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 7 = 42."
+  },
+  {
+    "q": "Two numbers are 6 and 6. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 6 = 36."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 24-by-6 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "The tile's side must divide both 24 and 6, and the largest such number is the GCF = 6."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 144-by-12 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "The tile's side must divide both 144 and 12, and the largest such number is the GCF = 12."
+  },
+  {
+    "q": "Two numbers are 12 and 7. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 12 × 7 = 84."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 32-by-4 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "The tile's side must divide both 32 and 4, and the largest such number is the GCF = 4."
+  },
+  {
+    "q": "Two numbers are 12 and 9. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "108"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 12 × 9 = 108."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 60-by-12 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "The tile's side must divide both 60 and 12, and the largest such number is the GCF = 12."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 60-by-6 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "The tile's side must divide both 60 and 6, and the largest such number is the GCF = 6."
+  },
+  {
+    "q": "Two numbers are 6 and 10. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 10 = 60."
+  },
+  {
+    "q": "Two numbers are 7 and 10. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "70"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 10 = 70."
+  },
+  {
+    "q": "What is the side length of the largest square tile that can exactly tile a 32-by-8 floor with no cutting?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "The tile's side must divide both 32 and 8, and the largest such number is the GCF = 8."
+  },
+  {
+    "q": "Two numbers are 12 and 10. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "120"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 12 × 10 = 120."
+  },
+  {
+    "q": "Two numbers are 8 and 12. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "96"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 8 × 12 = 96."
+  },
+  {
+    "q": "Two numbers are 11 and 7. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "77"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 7 = 77."
+  },
+  {
+    "q": "Two numbers are 9 and 8. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 9 × 8 = 72."
+  },
+  {
+    "q": "Two numbers are 11 and 10. What is (their GCF) × (their LCM)?",
+    "type": "typed",
+    "accept": [
+      "110"
+    ],
+    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 10 = 110."
   },
   {
     "q": "What is the smallest whole number greater than 1 that is both a perfect square AND a perfect cube?",

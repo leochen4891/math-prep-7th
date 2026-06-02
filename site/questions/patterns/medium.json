@@ -1,11 +1,115 @@
 [
   {
-    "q": "What comes next?<br>7, 13, 19, 25, ?",
+    "q": "A function rule is y = 4x + 7. If x = 7, what is y?",
     "type": "typed",
     "accept": [
-      "31"
+      "35"
     ],
-    "solution": "Each term goes up by 6: 25 + 6 = 31."
+    "solution": "Substitute x = 7: 4(7) + 7 = 35."
+  },
+  {
+    "q": "A function rule is y = 2x + 3. If x = 5, what is y?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Substitute x = 5: 2(5) + 3 = 13."
+  },
+  {
+    "q": "A function rule is y = 3x + 8. If x = 9, what is y?",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "Substitute x = 9: 3(9) + 8 = 35."
+  },
+  {
+    "q": "A function rule is y = 5x + 2. If x = 5, what is y?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Substitute x = 5: 5(5) + 2 = 27."
+  },
+  {
+    "q": "A function rule is y = 5x + 1. If x = 3, what is y?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Substitute x = 3: 5(3) + 1 = 16."
+  },
+  {
+    "q": "What comes next?<br>2, 6, 10, 14, ?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Each term goes up by 4: 14 + 4 = 18."
+  },
+  {
+    "q": "A function rule is y = 5x + 7. If x = 6, what is y?",
+    "type": "typed",
+    "accept": [
+      "37"
+    ],
+    "solution": "Substitute x = 6: 5(6) + 7 = 37."
+  },
+  {
+    "q": "What comes next?<br>8, 14, 20, 26, ?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Each term goes up by 6: 26 + 6 = 32."
+  },
+  {
+    "q": "What comes next?<br>4, 9, 14, 19, ?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Each term goes up by 5: 19 + 5 = 24."
+  },
+  {
+    "q": "What comes next?<br>1, 3, 9, 27, ?",
+    "type": "typed",
+    "accept": [
+      "81"
+    ],
+    "solution": "Each term is multiplied by 3: 27 × 3 = 81."
+  },
+  {
+    "q": "A function rule is y = 2x + 9. If x = 9, what is y?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Substitute x = 9: 2(9) + 9 = 27."
+  },
+  {
+    "q": "What comes next?<br>8, 13, 18, 23, ?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Each term goes up by 5: 23 + 5 = 28."
+  },
+  {
+    "q": "A function rule is y = 2x + 9. If x = 8, what is y?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Substitute x = 8: 2(8) + 9 = 25."
+  },
+  {
+    "q": "A function rule is y = 2x + 1. If x = 5, what is y?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Substitute x = 5: 2(5) + 1 = 11."
   },
   {
     "q": "What comes next?<br>3, 6, 12, 24, ?",
@@ -24,84 +128,12 @@
     "solution": "Each term is multiplied by 2: 16 × 2 = 32."
   },
   {
-    "q": "What comes next?<br>6, 11, 16, 21, ?",
+    "q": "A function rule is y = 2x + 9. If x = 6, what is y?",
     "type": "typed",
     "accept": [
-      "26"
+      "21"
     ],
-    "solution": "Each term goes up by 5: 21 + 5 = 26."
-  },
-  {
-    "q": "A function rule is y = 2x + 6. If x = 5, what is y?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Substitute x = 5: 2(5) + 6 = 16."
-  },
-  {
-    "q": "A function rule is y = 2x + 5. If x = 2, what is y?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Substitute x = 2: 2(2) + 5 = 9."
-  },
-  {
-    "q": "What comes next?<br>1, 2, 4, 8, ?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Each term is multiplied by 2: 8 × 2 = 16."
-  },
-  {
-    "q": "A function rule is y = 5x + 3. If x = 4, what is y?",
-    "type": "typed",
-    "accept": [
-      "23"
-    ],
-    "solution": "Substitute x = 4: 5(4) + 3 = 23."
-  },
-  {
-    "q": "What comes next?<br>3, 9, 27, 81, ?",
-    "type": "typed",
-    "accept": [
-      "243"
-    ],
-    "solution": "Each term is multiplied by 3: 81 × 3 = 243."
-  },
-  {
-    "q": "A function rule is y = 5x + 7. If x = 9, what is y?",
-    "type": "typed",
-    "accept": [
-      "52"
-    ],
-    "solution": "Substitute x = 9: 5(9) + 7 = 52."
-  },
-  {
-    "q": "A function rule is y = 2x + 5. If x = 4, what is y?",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "Substitute x = 4: 2(4) + 5 = 13."
-  },
-  {
-    "q": "What comes next?<br>9, 13, 17, 21, ?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Each term goes up by 4: 21 + 4 = 25."
-  },
-  {
-    "q": "What comes next?<br>5, 11, 17, 23, ?",
-    "type": "typed",
-    "accept": [
-      "29"
-    ],
-    "solution": "Each term goes up by 6: 23 + 6 = 29."
+    "solution": "Substitute x = 6: 2(6) + 9 = 21."
   },
   {
     "q": "What comes next?<br>2, 6, 18, 54, ?",
@@ -112,196 +144,36 @@
     "solution": "Each term is multiplied by 3: 54 × 3 = 162."
   },
   {
-    "q": "What comes next?<br>1, 3, 9, 27, ?",
+    "q": "A function rule is y = 2x + 5. If x = 2, what is y?",
     "type": "typed",
     "accept": [
-      "81"
+      "9"
     ],
-    "solution": "Each term is multiplied by 3: 27 × 3 = 81."
+    "solution": "Substitute x = 2: 2(2) + 5 = 9."
   },
   {
-    "q": "A function rule is y = 4x + 3. If x = 9, what is y?",
-    "type": "typed",
-    "accept": [
-      "39"
-    ],
-    "solution": "Substitute x = 9: 4(9) + 3 = 39."
-  },
-  {
-    "q": "A function rule is y = 5x + 5. If x = 4, what is y?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Substitute x = 4: 5(4) + 5 = 25."
-  },
-  {
-    "q": "A function rule is y = 5x + 1. If x = 4, what is y?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Substitute x = 4: 5(4) + 1 = 21."
-  },
-  {
-    "q": "A function rule is y = 3x + 5. If x = 5, what is y?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Substitute x = 5: 3(5) + 5 = 20."
-  },
-  {
-    "q": "What comes next?<br>4, 9, 14, 19, ?",
+    "q": "What comes next?<br>8, 12, 16, 20, ?",
     "type": "typed",
     "accept": [
       "24"
     ],
-    "solution": "Each term goes up by 5: 19 + 5 = 24."
+    "solution": "Each term goes up by 4: 20 + 4 = 24."
   },
   {
-    "q": "A function rule is y = 5x + 9. If x = 3, what is y?",
+    "q": "What comes next?<br>3, 9, 27, 81, ?",
     "type": "typed",
     "accept": [
-      "24"
+      "243"
     ],
-    "solution": "Substitute x = 3: 5(3) + 9 = 24."
+    "solution": "Each term is multiplied by 3: 81 × 3 = 243."
   },
   {
-    "q": "What comes next?<br>3, 6, 9, 12, ?",
+    "q": "A function rule is y = 5x + 8. If x = 6, what is y?",
     "type": "typed",
     "accept": [
-      "15"
+      "38"
     ],
-    "solution": "Each term goes up by 3: 12 + 3 = 15."
-  },
-  {
-    "q": "A function rule is y = 3x + 9. If x = 7, what is y?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Substitute x = 7: 3(7) + 9 = 30."
-  },
-  {
-    "q": "A function rule is y = 5x + 6. If x = 3, what is y?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Substitute x = 3: 5(3) + 6 = 21."
-  },
-  {
-    "q": "What comes next?<br>2, 6, 10, 14, ?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Each term goes up by 4: 14 + 4 = 18."
-  },
-  {
-    "q": "A function rule is y = 3x + 7. If x = 4, what is y?",
-    "type": "typed",
-    "accept": [
-      "19"
-    ],
-    "solution": "Substitute x = 4: 3(4) + 7 = 19."
-  },
-  {
-    "q": "What comes next?<br>4, 7, 10, 13, ?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Each term goes up by 3: 13 + 3 = 16."
-  },
-  {
-    "q": "A function rule is y = 3x + 5. If x = 7, what is y?",
-    "type": "typed",
-    "accept": [
-      "26"
-    ],
-    "solution": "Substitute x = 7: 3(7) + 5 = 26."
-  },
-  {
-    "q": "A function rule is y = 4x + 9. If x = 3, what is y?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Substitute x = 3: 4(3) + 9 = 21."
-  },
-  {
-    "q": "What comes next?<br>2, 5, 8, 11, ?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Each term goes up by 3: 11 + 3 = 14."
-  },
-  {
-    "q": "What comes next?<br>6, 9, 12, 15, ?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Each term goes up by 3: 15 + 3 = 18."
-  },
-  {
-    "q": "A function rule is y = 4x + 5. If x = 3, what is y?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Substitute x = 3: 4(3) + 5 = 17."
-  },
-  {
-    "q": "A function rule is y = 5x + 2. If x = 3, what is y?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Substitute x = 3: 5(3) + 2 = 17."
-  },
-  {
-    "q": "A function rule is y = 4x + 2. If x = 3, what is y?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Substitute x = 3: 4(3) + 2 = 14."
-  },
-  {
-    "q": "What comes next?<br>7, 10, 13, 16, ?",
-    "type": "typed",
-    "accept": [
-      "19"
-    ],
-    "solution": "Each term goes up by 3: 16 + 3 = 19."
-  },
-  {
-    "q": "A function rule is y = 5x + 9. If x = 4, what is y?",
-    "type": "typed",
-    "accept": [
-      "29"
-    ],
-    "solution": "Substitute x = 4: 5(4) + 9 = 29."
-  },
-  {
-    "q": "A function rule is y = 2x + 3. If x = 7, what is y?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Substitute x = 7: 2(7) + 3 = 17."
-  },
-  {
-    "q": "What comes next?<br>4, 6, 8, 10, ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Each term goes up by 2: 10 + 2 = 12."
+    "solution": "Substitute x = 6: 5(6) + 8 = 38."
   },
   {
     "q": "What comes next?<br>4, 10, 16, 22, ?",
@@ -312,100 +184,28 @@
     "solution": "Each term goes up by 6: 22 + 6 = 28."
   },
   {
-    "q": "What comes next?<br>3, 9, 15, 21, ?",
+    "q": "What comes next?<br>4, 8, 12, 16, ?",
     "type": "typed",
     "accept": [
-      "27"
+      "20"
     ],
-    "solution": "Each term goes up by 6: 21 + 6 = 27."
+    "solution": "Each term goes up by 4: 16 + 4 = 20."
   },
   {
-    "q": "What comes next?<br>3, 8, 13, 18, ?",
+    "q": "What comes next?<br>3, 7, 11, 15, ?",
     "type": "typed",
     "accept": [
-      "23"
+      "19"
     ],
-    "solution": "Each term goes up by 5: 18 + 5 = 23."
+    "solution": "Each term goes up by 4: 15 + 4 = 19."
   },
   {
-    "q": "What comes next?<br>2, 4, 6, 8, ?",
+    "q": "What comes next?<br>4, 6, 8, 10, ?",
     "type": "typed",
     "accept": [
-      "10"
+      "12"
     ],
-    "solution": "Each term goes up by 2: 8 + 2 = 10."
-  },
-  {
-    "q": "A function rule is y = 3x + 5. If x = 6, what is y?",
-    "type": "typed",
-    "accept": [
-      "23"
-    ],
-    "solution": "Substitute x = 6: 3(6) + 5 = 23."
-  },
-  {
-    "q": "What comes next?<br>6, 10, 14, 18, ?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "Each term goes up by 4: 18 + 4 = 22."
-  },
-  {
-    "q": "What comes next?<br>8, 10, 12, 14, ?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Each term goes up by 2: 14 + 2 = 16."
-  },
-  {
-    "q": "A function rule is y = 3x + 6. If x = 7, what is y?",
-    "type": "typed",
-    "accept": [
-      "27"
-    ],
-    "solution": "Substitute x = 7: 3(7) + 6 = 27."
-  },
-  {
-    "q": "A function rule is y = 5x + 4. If x = 9, what is y?",
-    "type": "typed",
-    "accept": [
-      "49"
-    ],
-    "solution": "Substitute x = 9: 5(9) + 4 = 49."
-  },
-  {
-    "q": "A function rule is y = 3x + 4. If x = 2, what is y?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Substitute x = 2: 3(2) + 4 = 10."
-  },
-  {
-    "q": "What comes next?<br>7, 9, 11, 13, ?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Each term goes up by 2: 13 + 2 = 15."
-  },
-  {
-    "q": "What comes next?<br>9, 15, 21, 27, ?",
-    "type": "typed",
-    "accept": [
-      "33"
-    ],
-    "solution": "Each term goes up by 6: 27 + 6 = 33."
-  },
-  {
-    "q": "What comes next?<br>5, 8, 11, 14, ?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Each term goes up by 3: 14 + 3 = 17."
+    "solution": "Each term goes up by 2: 10 + 2 = 12."
   },
   {
     "q": "What comes next?<br>6, 8, 10, 12, ?",
@@ -416,36 +216,100 @@
     "solution": "Each term goes up by 2: 12 + 2 = 14."
   },
   {
-    "q": "A function rule is y = 3x + 2. If x = 9, what is y?",
+    "q": "What comes next?<br>4, 7, 10, 13, ?",
     "type": "typed",
     "accept": [
-      "29"
+      "16"
     ],
-    "solution": "Substitute x = 9: 3(9) + 2 = 29."
+    "solution": "Each term goes up by 3: 13 + 3 = 16."
   },
   {
-    "q": "A function rule is y = 3x + 9. If x = 6, what is y?",
+    "q": "What comes next?<br>2, 7, 12, 17, ?",
     "type": "typed",
     "accept": [
-      "27"
+      "22"
     ],
-    "solution": "Substitute x = 6: 3(6) + 9 = 27."
+    "solution": "Each term goes up by 5: 17 + 5 = 22."
   },
   {
-    "q": "What comes next?<br>9, 11, 13, 15, ?",
+    "q": "A function rule is y = 5x + 5. If x = 6, what is y?",
     "type": "typed",
     "accept": [
-      "17"
+      "35"
     ],
-    "solution": "Each term goes up by 2: 15 + 2 = 17."
+    "solution": "Substitute x = 6: 5(6) + 5 = 35."
   },
   {
-    "q": "A function rule is y = 2x + 5. If x = 7, what is y?",
+    "q": "What comes next?<br>5, 10, 15, 20, ?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Each term goes up by 5: 20 + 5 = 25."
+  },
+  {
+    "q": "A function rule is y = 2x + 3. If x = 8, what is y?",
     "type": "typed",
     "accept": [
       "19"
     ],
-    "solution": "Substitute x = 7: 2(7) + 5 = 19."
+    "solution": "Substitute x = 8: 2(8) + 3 = 19."
+  },
+  {
+    "q": "What comes next?<br>3, 5, 7, 9, ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Each term goes up by 2: 9 + 2 = 11."
+  },
+  {
+    "q": "What comes next?<br>8, 11, 14, 17, ?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Each term goes up by 3: 17 + 3 = 20."
+  },
+  {
+    "q": "A function rule is y = 3x + 4. If x = 6, what is y?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Substitute x = 6: 3(6) + 4 = 22."
+  },
+  {
+    "q": "A function rule is y = 5x + 5. If x = 7, what is y?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Substitute x = 7: 5(7) + 5 = 40."
+  },
+  {
+    "q": "What comes next?<br>1, 2, 4, 8, ?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Each term is multiplied by 2: 8 × 2 = 16."
+  },
+  {
+    "q": "What comes next?<br>6, 12, 18, 24, ?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Each term goes up by 6: 24 + 6 = 30."
+  },
+  {
+    "q": "What comes next?<br>5, 7, 9, 11, ?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Each term goes up by 2: 11 + 2 = 13."
   },
   {
     "q": "A function rule is y = 5x + 4. If x = 2, what is y?",
@@ -456,27 +320,163 @@
     "solution": "Substitute x = 2: 5(2) + 4 = 14."
   },
   {
-    "q": "A function rule is y = 4x + 5. If x = 4, what is y?",
+    "q": "What comes next?<br>3, 8, 13, 18, ?",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "Each term goes up by 5: 18 + 5 = 23."
+  },
+  {
+    "q": "What comes next?<br>9, 11, 13, 15, ?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "Each term goes up by 2: 15 + 2 = 17."
+  },
+  {
+    "q": "What comes next?<br>5, 9, 13, 17, ?",
     "type": "typed",
     "accept": [
       "21"
     ],
-    "solution": "Substitute x = 4: 4(4) + 5 = 21."
+    "solution": "Each term goes up by 4: 17 + 4 = 21."
   },
   {
-    "q": "What comes next?<br>9, 14, 19, 24, ?",
+    "q": "A function rule is y = 3x + 5. If x = 7, what is y?",
     "type": "typed",
     "accept": [
-      "29"
+      "26"
     ],
-    "solution": "Each term goes up by 5: 24 + 5 = 29."
+    "solution": "Substitute x = 7: 3(7) + 5 = 26."
   },
   {
-    "q": "A function rule is y = 3x + 3. If x = 7, what is y?",
+    "q": "A function rule is y = 2x + 1. If x = 6, what is y?",
     "type": "typed",
     "accept": [
-      "24"
+      "13"
     ],
-    "solution": "Substitute x = 7: 3(7) + 3 = 24."
+    "solution": "Substitute x = 6: 2(6) + 1 = 13."
+  },
+  {
+    "q": "What comes next?<br>5, 8, 11, 14, ?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "Each term goes up by 3: 14 + 3 = 17."
+  },
+  {
+    "q": "What comes next?<br>6, 9, 12, 15, ?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Each term goes up by 3: 15 + 3 = 18."
+  },
+  {
+    "q": "A function rule is y = 3x + 7. If x = 3, what is y?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Substitute x = 3: 3(3) + 7 = 16."
+  },
+  {
+    "q": "A function rule is y = 5x + 3. If x = 4, what is y?",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "Substitute x = 4: 5(4) + 3 = 23."
+  },
+  {
+    "q": "A function rule is y = 2x + 6. If x = 5, what is y?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Substitute x = 5: 2(5) + 6 = 16."
+  },
+  {
+    "q": "A function rule is y = 3x + 6. If x = 8, what is y?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Substitute x = 8: 3(8) + 6 = 30."
+  },
+  {
+    "q": "A function rule is y = 4x + 1. If x = 8, what is y?",
+    "type": "typed",
+    "accept": [
+      "33"
+    ],
+    "solution": "Substitute x = 8: 4(8) + 1 = 33."
+  },
+  {
+    "q": "What comes next?<br>8, 10, 12, 14, ?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Each term goes up by 2: 14 + 2 = 16."
+  },
+  {
+    "q": "A function rule is y = 3x + 2. If x = 2, what is y?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Substitute x = 2: 3(2) + 2 = 8."
+  },
+  {
+    "q": "A function rule is y = 2x + 7. If x = 2, what is y?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Substitute x = 2: 2(2) + 7 = 11."
+  },
+  {
+    "q": "A function rule is y = 2x + 2. If x = 4, what is y?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Substitute x = 4: 2(4) + 2 = 10."
+  },
+  {
+    "q": "A function rule is y = 4x + 4. If x = 7, what is y?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Substitute x = 7: 4(7) + 4 = 32."
+  },
+  {
+    "q": "A function rule is y = 2x + 2. If x = 3, what is y?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Substitute x = 3: 2(3) + 2 = 8."
+  },
+  {
+    "q": "A function rule is y = 4x + 1. If x = 9, what is y?",
+    "type": "typed",
+    "accept": [
+      "37"
+    ],
+    "solution": "Substitute x = 9: 4(9) + 1 = 37."
+  },
+  {
+    "q": "What comes next?<br>3, 9, 15, 21, ?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Each term goes up by 6: 21 + 6 = 27."
   }
 ]

@@ -1,83 +1,19 @@
 [
   {
-    "q": "9 + 2 × (-6) = ?",
-    "type": "typed",
-    "accept": [
-      "-3"
-    ],
-    "solution": "Multiply first: 2×(-6) = -12, then 9−12 = -3."
-  },
-  {
-    "q": "|5 − 16| = ?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "5 − 16 = -11, and |-11| = 11."
-  },
-  {
-    "q": "What is (-5)²?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "(-5) multiplied 2 times = 25. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "-2 + 4 × (-5) = ?",
-    "type": "typed",
-    "accept": [
-      "-22"
-    ],
-    "solution": "Multiply first: 4×(-5) = -20, then -2−20 = -22."
-  },
-  {
-    "q": "8 − 2 × 4 = ?",
-    "type": "typed",
-    "accept": [
-      "0"
-    ],
-    "solution": "Multiply first: (-2)×4 = -8, then 8−8 = 0."
-  },
-  {
-    "q": "|2 − 17| = ?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "2 − 17 = -15, and |-15| = 15."
-  },
-  {
-    "q": "What is (-3)³?",
+    "q": "-2 + 5 × (-5) = ?",
     "type": "typed",
     "accept": [
       "-27"
     ],
-    "solution": "(-3) multiplied 3 times = -27. (Even power → positive, odd → negative.)"
+    "solution": "Multiply first: 5×(-5) = -25, then -2−25 = -27."
   },
   {
-    "q": "|8 − 14| = ?",
+    "q": "|8 − 15| = ?",
     "type": "typed",
     "accept": [
-      "6"
+      "7"
     ],
-    "solution": "8 − 14 = -6, and |-6| = 6."
-  },
-  {
-    "q": "|4 − 17| = ?",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "4 − 17 = -13, and |-13| = 13."
-  },
-  {
-    "q": "3 − 3 × (-5) = ?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Multiply first: (-3)×(-5) = 15, then 3+15 = 18."
+    "solution": "8 − 15 = -7, and |-7| = 7."
   },
   {
     "q": "What is (-3)²?",
@@ -88,12 +24,28 @@
     "solution": "(-3) multiplied 2 times = 9. (Even power → positive, odd → negative.)"
   },
   {
-    "q": "8 + 6 × 3 = ?",
+    "q": "What is (-2)⁴?",
     "type": "typed",
     "accept": [
-      "26"
+      "16"
     ],
-    "solution": "Multiply first: 6×3 = 18, then 8+18 = 26."
+    "solution": "(-2) multiplied 4 times = 16. (Even power → positive, odd → negative.)"
+  },
+  {
+    "q": "|4 − 13| = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "4 − 13 = -9, and |-9| = 9."
+  },
+  {
+    "q": "-3 + 2 × (-2) = ?",
+    "type": "typed",
+    "accept": [
+      "-7"
+    ],
+    "solution": "Multiply first: 2×(-2) = -4, then -3−4 = -7."
   },
   {
     "q": "What is (-4)²?",
@@ -104,212 +56,52 @@
     "solution": "(-4) multiplied 2 times = 16. (Even power → positive, odd → negative.)"
   },
   {
-    "q": "-5 + 6 × (-2) = ?",
+    "q": "-7 − 6 × 6 = ?",
+    "type": "typed",
+    "accept": [
+      "-43"
+    ],
+    "solution": "Multiply first: (-6)×6 = -36, then -7−36 = -43."
+  },
+  {
+    "q": "7 − 4 × 6 = ?",
     "type": "typed",
     "accept": [
       "-17"
     ],
-    "solution": "Multiply first: 6×(-2) = -12, then -5−12 = -17."
+    "solution": "Multiply first: (-4)×6 = -24, then 7−24 = -17."
   },
   {
-    "q": "6 + 5 × (-5) = ?",
-    "type": "typed",
-    "accept": [
-      "-19"
-    ],
-    "solution": "Multiply first: 5×(-5) = -25, then 6−25 = -19."
-  },
-  {
-    "q": "What is (-2)⁴?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "(-2) multiplied 4 times = 16. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "-4 + 3 × 5 = ?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Multiply first: 3×5 = 15, then -4+15 = 11."
-  },
-  {
-    "q": "7 + 3 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "Multiply first: 3×2 = 6, then 7+6 = 13."
-  },
-  {
-    "q": "|8 − 10| = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "8 − 10 = -2, and |-2| = 2."
-  },
-  {
-    "q": "5 − 5 × (-5) = ?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Multiply first: (-5)×(-5) = 25, then 5+25 = 30."
-  },
-  {
-    "q": "-4 + 5 × 3 = ?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Multiply first: 5×3 = 15, then -4+15 = 11."
-  },
-  {
-    "q": "|5 − 12| = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "5 − 12 = -7, and |-7| = 7."
-  },
-  {
-    "q": "What is (-2)⁵?",
-    "type": "typed",
-    "accept": [
-      "-32"
-    ],
-    "solution": "(-2) multiplied 5 times = -32. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "9 + 4 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Multiply first: 4×2 = 8, then 9+8 = 17."
-  },
-  {
-    "q": "|4 − 10| = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "4 − 10 = -6, and |-6| = 6."
-  },
-  {
-    "q": "-7 + 4 × (-5) = ?",
-    "type": "typed",
-    "accept": [
-      "-27"
-    ],
-    "solution": "Multiply first: 4×(-5) = -20, then -7−20 = -27."
-  },
-  {
-    "q": "-5 − 4 × (-3) = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Multiply first: (-4)×(-3) = 12, then -5+12 = 7."
-  },
-  {
-    "q": "6 + 3 × (-2) = ?",
-    "type": "typed",
-    "accept": [
-      "0"
-    ],
-    "solution": "Multiply first: 3×(-2) = -6, then 6−6 = 0."
-  },
-  {
-    "q": "|2 − 11| = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "2 − 11 = -9, and |-9| = 9."
-  },
-  {
-    "q": "|7 − 12| = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "7 − 12 = -5, and |-5| = 5."
-  },
-  {
-    "q": "7 + 3 × (-4) = ?",
-    "type": "typed",
-    "accept": [
-      "-5"
-    ],
-    "solution": "Multiply first: 3×(-4) = -12, then 7−12 = -5."
-  },
-  {
-    "q": "-6 + 5 × 4 = ?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Multiply first: 5×4 = 20, then -6+20 = 14."
-  },
-  {
-    "q": "-3 − 5 × 5 = ?",
-    "type": "typed",
-    "accept": [
-      "-28"
-    ],
-    "solution": "Multiply first: (-5)×5 = -25, then -3−25 = -28."
-  },
-  {
-    "q": "-9 + 3 × 3 = ?",
-    "type": "typed",
-    "accept": [
-      "0"
-    ],
-    "solution": "Multiply first: 3×3 = 9, then -9+9 = 0."
-  },
-  {
-    "q": "|3 − 11| = ?",
+    "q": "|6 − 14| = ?",
     "type": "typed",
     "accept": [
       "8"
     ],
-    "solution": "3 − 11 = -8, and |-8| = 8."
+    "solution": "6 − 14 = -8, and |-8| = 8."
   },
   {
-    "q": "4 − 4 × (-6) = ?",
+    "q": "-3 + 6 × 6 = ?",
     "type": "typed",
     "accept": [
-      "28"
+      "33"
     ],
-    "solution": "Multiply first: (-4)×(-6) = 24, then 4+24 = 28."
+    "solution": "Multiply first: 6×6 = 36, then -3+36 = 33."
   },
   {
-    "q": "7 + 6 × 2 = ?",
+    "q": "4 − 6 × 6 = ?",
     "type": "typed",
     "accept": [
-      "19"
+      "-32"
     ],
-    "solution": "Multiply first: 6×2 = 12, then 7+12 = 19."
+    "solution": "Multiply first: (-6)×6 = -36, then 4−36 = -32."
   },
   {
-    "q": "-3 − 6 × (-3) = ?",
+    "q": "|2 − 10| = ?",
     "type": "typed",
     "accept": [
-      "15"
+      "8"
     ],
-    "solution": "Multiply first: (-6)×(-3) = 18, then -3+18 = 15."
-  },
-  {
-    "q": "-9 + 2 × (-2) = ?",
-    "type": "typed",
-    "accept": [
-      "-13"
-    ],
-    "solution": "Multiply first: 2×(-2) = -4, then -9−4 = -13."
+    "solution": "2 − 10 = -8, and |-8| = 8."
   },
   {
     "q": "What is (-2)³?",
@@ -320,108 +112,124 @@
     "solution": "(-2) multiplied 3 times = -8. (Even power → positive, odd → negative.)"
   },
   {
-    "q": "-6 − 6 × 3 = ?",
-    "type": "typed",
-    "accept": [
-      "-24"
-    ],
-    "solution": "Multiply first: (-6)×3 = -18, then -6−18 = -24."
-  },
-  {
-    "q": "|3 − 13| = ?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "3 − 13 = -10, and |-10| = 10."
-  },
-  {
-    "q": "|7 − 17| = ?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "7 − 17 = -10, and |-10| = 10."
-  },
-  {
-    "q": "-2 − 2 × (-5) = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiply first: (-2)×(-5) = 10, then -2+10 = 8."
-  },
-  {
-    "q": "|3 − 12| = ?",
+    "q": "|5 − 14| = ?",
     "type": "typed",
     "accept": [
       "9"
     ],
-    "solution": "3 − 12 = -9, and |-9| = 9."
+    "solution": "5 − 14 = -9, and |-9| = 9."
   },
   {
-    "q": "-8 − 2 × 5 = ?",
+    "q": "-4 − 3 × (-3) = ?",
     "type": "typed",
     "accept": [
-      "-18"
+      "5"
     ],
-    "solution": "Multiply first: (-2)×5 = -10, then -8−10 = -18."
+    "solution": "Multiply first: (-3)×(-3) = 9, then -4+9 = 5."
   },
   {
-    "q": "|4 − 14| = ?",
+    "q": "-3 − 3 × 6 = ?",
     "type": "typed",
     "accept": [
-      "10"
+      "-21"
     ],
-    "solution": "4 − 14 = -10, and |-10| = 10."
+    "solution": "Multiply first: (-3)×6 = -18, then -3−18 = -21."
   },
   {
-    "q": "-2 + 3 × 3 = ?",
+    "q": "2 − 3 × (-6) = ?",
     "type": "typed",
     "accept": [
-      "7"
+      "20"
     ],
-    "solution": "Multiply first: 3×3 = 9, then -2+9 = 7."
+    "solution": "Multiply first: (-3)×(-6) = 18, then 2+18 = 20."
   },
   {
-    "q": "5 − 6 × 6 = ?",
+    "q": "What is (-2)⁵?",
     "type": "typed",
     "accept": [
-      "-31"
+      "-32"
     ],
-    "solution": "Multiply first: (-6)×6 = -36, then 5−36 = -31."
+    "solution": "(-2) multiplied 5 times = -32. (Even power → positive, odd → negative.)"
   },
   {
-    "q": "2 + 5 × (-2) = ?",
+    "q": "5 + 3 × (-4) = ?",
     "type": "typed",
     "accept": [
-      "-8"
+      "-7"
     ],
-    "solution": "Multiply first: 5×(-2) = -10, then 2−10 = -8."
+    "solution": "Multiply first: 3×(-4) = -12, then 5−12 = -7."
   },
   {
-    "q": "|5 − 18| = ?",
+    "q": "What is (-5)²?",
     "type": "typed",
     "accept": [
-      "13"
+      "25"
     ],
-    "solution": "5 − 18 = -13, and |-13| = 13."
+    "solution": "(-5) multiplied 2 times = 25. (Even power → positive, odd → negative.)"
   },
   {
-    "q": "-7 + 5 × 2 = ?",
+    "q": "|5 − 13| = ?",
     "type": "typed",
     "accept": [
-      "3"
+      "8"
     ],
-    "solution": "Multiply first: 5×2 = 10, then -7+10 = 3."
+    "solution": "5 − 13 = -8, and |-8| = 8."
   },
   {
-    "q": "|7 − 14| = ?",
+    "q": "7 + 3 × (-6) = ?",
     "type": "typed",
     "accept": [
-      "7"
+      "-11"
     ],
-    "solution": "7 − 14 = -7, and |-7| = 7."
+    "solution": "Multiply first: 3×(-6) = -18, then 7−18 = -11."
+  },
+  {
+    "q": "|8 − 14| = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "8 − 14 = -6, and |-6| = 6."
+  },
+  {
+    "q": "-2 + 6 × (-5) = ?",
+    "type": "typed",
+    "accept": [
+      "-32"
+    ],
+    "solution": "Multiply first: 6×(-5) = -30, then -2−30 = -32."
+  },
+  {
+    "q": "|2 − 17| = ?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "2 − 17 = -15, and |-15| = 15."
+  },
+  {
+    "q": "3 − 3 × 4 = ?",
+    "type": "typed",
+    "accept": [
+      "-9"
+    ],
+    "solution": "Multiply first: (-3)×4 = -12, then 3−12 = -9."
+  },
+  {
+    "q": "|2 − 13| = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "2 − 13 = -11, and |-11| = 11."
+  },
+  {
+    "q": "-6 + 4 × 6 = ?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Multiply first: 4×6 = 24, then -6+24 = 18."
   },
   {
     "q": "|2 − 15| = ?",
@@ -432,51 +240,243 @@
     "solution": "2 − 15 = -13, and |-13| = 13."
   },
   {
-    "q": "|3 − 15| = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "3 − 15 = -12, and |-12| = 12."
-  },
-  {
-    "q": "|3 − 16| = ?",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "3 − 16 = -13, and |-13| = 13."
-  },
-  {
-    "q": "|6 − 17| = ?",
+    "q": "-7 + 3 × 6 = ?",
     "type": "typed",
     "accept": [
       "11"
     ],
-    "solution": "6 − 17 = -11, and |-11| = 11."
+    "solution": "Multiply first: 3×6 = 18, then -7+18 = 11."
   },
   {
-    "q": "|9 − 10| = ?",
+    "q": "-7 − 2 × (-4) = ?",
     "type": "typed",
     "accept": [
       "1"
     ],
-    "solution": "9 − 10 = -1, and |-1| = 1."
+    "solution": "Multiply first: (-2)×(-4) = 8, then -7+8 = 1."
   },
   {
-    "q": "|6 − 16| = ?",
+    "q": "-2 + 3 × 4 = ?",
     "type": "typed",
     "accept": [
       "10"
     ],
-    "solution": "6 − 16 = -10, and |-10| = 10."
+    "solution": "Multiply first: 3×4 = 12, then -2+12 = 10."
   },
   {
-    "q": "8 − 6 × (-3) = ?",
+    "q": "-8 − 6 × (-5) = ?",
     "type": "typed",
     "accept": [
-      "26"
+      "22"
     ],
-    "solution": "Multiply first: (-6)×(-3) = 18, then 8+18 = 26."
+    "solution": "Multiply first: (-6)×(-5) = 30, then -8+30 = 22."
+  },
+  {
+    "q": "-9 + 6 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Multiply first: 6×2 = 12, then -9+12 = 3."
+  },
+  {
+    "q": "-3 − 4 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "-11"
+    ],
+    "solution": "Multiply first: (-4)×2 = -8, then -3−8 = -11."
+  },
+  {
+    "q": "What is (-3)³?",
+    "type": "typed",
+    "accept": [
+      "-27"
+    ],
+    "solution": "(-3) multiplied 3 times = -27. (Even power → positive, odd → negative.)"
+  },
+  {
+    "q": "-9 − 5 × (-5) = ?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Multiply first: (-5)×(-5) = 25, then -9+25 = 16."
+  },
+  {
+    "q": "3 + 4 × (-3) = ?",
+    "type": "typed",
+    "accept": [
+      "-9"
+    ],
+    "solution": "Multiply first: 4×(-3) = -12, then 3−12 = -9."
+  },
+  {
+    "q": "5 + 2 × (-4) = ?",
+    "type": "typed",
+    "accept": [
+      "-3"
+    ],
+    "solution": "Multiply first: 2×(-4) = -8, then 5−8 = -3."
+  },
+  {
+    "q": "9 + 6 × (-6) = ?",
+    "type": "typed",
+    "accept": [
+      "-27"
+    ],
+    "solution": "Multiply first: 6×(-6) = -36, then 9−36 = -27."
+  },
+  {
+    "q": "-9 + 3 × (-2) = ?",
+    "type": "typed",
+    "accept": [
+      "-15"
+    ],
+    "solution": "Multiply first: 3×(-2) = -6, then -9−6 = -15."
+  },
+  {
+    "q": "-8 + 5 × (-3) = ?",
+    "type": "typed",
+    "accept": [
+      "-23"
+    ],
+    "solution": "Multiply first: 5×(-3) = -15, then -8−15 = -23."
+  },
+  {
+    "q": "|6 − 10| = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "6 − 10 = -4, and |-4| = 4."
+  },
+  {
+    "q": "5 + 2 × 3 = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Multiply first: 2×3 = 6, then 5+6 = 11."
+  },
+  {
+    "q": "|8 − 13| = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "8 − 13 = -5, and |-5| = 5."
+  },
+  {
+    "q": "|4 − 18| = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "4 − 18 = -14, and |-14| = 14."
+  },
+  {
+    "q": "|6 − 18| = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "6 − 18 = -12, and |-12| = 12."
+  },
+  {
+    "q": "|2 − 14| = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "2 − 14 = -12, and |-12| = 12."
+  },
+  {
+    "q": "-2 + 2 × (-5) = ?",
+    "type": "typed",
+    "accept": [
+      "-12"
+    ],
+    "solution": "Multiply first: 2×(-5) = -10, then -2−10 = -12."
+  },
+  {
+    "q": "2 − 6 × (-5) = ?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Multiply first: (-6)×(-5) = 30, then 2+30 = 32."
+  },
+  {
+    "q": "|9 − 15| = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "9 − 15 = -6, and |-6| = 6."
+  },
+  {
+    "q": "9 − 4 × 5 = ?",
+    "type": "typed",
+    "accept": [
+      "-11"
+    ],
+    "solution": "Multiply first: (-4)×5 = -20, then 9−20 = -11."
+  },
+  {
+    "q": "5 − 5 × (-5) = ?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Multiply first: (-5)×(-5) = 25, then 5+25 = 30."
+  },
+  {
+    "q": "4 + 5 × (-2) = ?",
+    "type": "typed",
+    "accept": [
+      "-6"
+    ],
+    "solution": "Multiply first: 5×(-2) = -10, then 4−10 = -6."
+  },
+  {
+    "q": "|7 − 17| = ?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "7 − 17 = -10, and |-10| = 10."
+  },
+  {
+    "q": "|3 − 10| = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "3 − 10 = -7, and |-7| = 7."
+  },
+  {
+    "q": "|7 − 11| = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "7 − 11 = -4, and |-4| = 4."
+  },
+  {
+    "q": "|7 − 10| = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "7 − 10 = -3, and |-3| = 3."
+  },
+  {
+    "q": "3 + 3 × 4 = ?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Multiply first: 3×4 = 12, then 3+12 = 15."
   }
 ]

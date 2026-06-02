@@ -1,167 +1,35 @@
 [
   {
-    "q": "Solve the inequality: −2x < -4  (watch the sign!)",
-    "type": "mc",
-    "choices": [
-      "x < 2",
-      "x > -4",
-      "x > 2",
-      "x < -4"
-    ],
-    "answer": 2,
-    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 2."
-  },
-  {
-    "q": "Solve: (x + 3)/2 = 6<br>x = ?",
+    "q": "Solve: (x + 5)/3 = 6<br>x = ?",
     "type": "typed",
     "accept": [
-      "9"
+      "13"
     ],
-    "solution": "Multiply both sides by 2: x + 3 = 12. Subtract 3: x = 9."
+    "solution": "Multiply both sides by 3: x + 5 = 18. Subtract 5: x = 13."
   },
   {
-    "q": "Solve: 4x + 3 = 2x + 19<br>x = ?",
+    "q": "Solve: 5x + 1 = x + 29<br>x = ?",
     "type": "typed",
     "accept": [
-      "8"
+      "7"
     ],
-    "solution": "Move variables to one side: 2x = 19 − 3 = 16, so x = 8."
+    "solution": "Move variables to one side: 4x = 29 − 1 = 28, so x = 7."
   },
   {
-    "q": "Solve: (x + 4)/2 = 5<br>x = ?",
+    "q": "Solve: 3(x − 1) = x + 11<br>x = ?",
     "type": "typed",
     "accept": [
-      "6"
+      "7"
     ],
-    "solution": "Multiply both sides by 2: x + 4 = 10. Subtract 4: x = 6."
+    "solution": "Distribute: 3x − 3 = x + 11. Then 2x = 14, x = 7."
   },
   {
-    "q": "Solve: 4x + 5 = 2x + 9<br>x = ?",
+    "q": "Solve: 3x + 8 = 2x + 10<br>x = ?",
     "type": "typed",
     "accept": [
       "2"
     ],
-    "solution": "Move variables to one side: 2x = 9 − 5 = 4, so x = 2."
-  },
-  {
-    "q": "Solve: 5x + 7 = x + 39<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Move variables to one side: 4x = 39 − 7 = 32, so x = 8."
-  },
-  {
-    "q": "Solve the inequality: −2x < -6  (watch the sign!)",
-    "type": "mc",
-    "choices": [
-      "x < -6",
-      "x > -6",
-      "x > 3",
-      "x < 3"
-    ],
-    "answer": 2,
-    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 3."
-  },
-  {
-    "q": "Solve: 4x + 7 = 2x + 17<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Move variables to one side: 2x = 17 − 7 = 10, so x = 5."
-  },
-  {
-    "q": "Solve: 3x + 6 = x + 16<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Move variables to one side: 2x = 16 − 6 = 10, so x = 5."
-  },
-  {
-    "q": "Solve the inequality: 2x + 3 < x + 9",
-    "type": "mc",
-    "choices": [
-      "x < 9",
-      "x > 9",
-      "x < 6",
-      "x > 6"
-    ],
-    "answer": 2,
-    "solution": "Subtract x and 3 from both sides: 1x < 6, so x < 6."
-  },
-  {
-    "q": "Solve: 2(x − 1) = x + 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Distribute: 2x − 2 = x + 2. Then 1x = 4, x = 4."
-  },
-  {
-    "q": "Solve: 2(x − 1) = x + 1<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Distribute: 2x − 2 = x + 1. Then 1x = 3, x = 3."
-  },
-  {
-    "q": "Solve the inequality: −2x < -12  (watch the sign!)",
-    "type": "mc",
-    "choices": [
-      "x > 6",
-      "x > -12",
-      "x < 6",
-      "x < -12"
-    ],
-    "answer": 0,
-    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 6."
-  },
-  {
-    "q": "Solve: (x + 2)/3 = 8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "Multiply both sides by 3: x + 2 = 24. Subtract 2: x = 22."
-  },
-  {
-    "q": "Solve the inequality: 2x + 5 < x + 8",
-    "type": "mc",
-    "choices": [
-      "x > 3",
-      "x > 8",
-      "x < 3",
-      "x < 8"
-    ],
-    "answer": 2,
-    "solution": "Subtract x and 5 from both sides: 1x < 3, so x < 3."
-  },
-  {
-    "q": "Solve: (x + 4)/2 = 4<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Multiply both sides by 2: x + 4 = 8. Subtract 4: x = 4."
-  },
-  {
-    "q": "Solve: 3(x − 1) = x + 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Distribute: 3x − 3 = x + 7. Then 2x = 10, x = 5."
-  },
-  {
-    "q": "Solve: 4x + 6 = 2x + 12<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Move variables to one side: 2x = 12 − 6 = 6, so x = 3."
+    "solution": "Move variables to one side: 1x = 10 − 8 = 2, so x = 2."
   },
   {
     "q": "Solve: 3(x − 1) = x + 13<br>x = ?",
@@ -172,60 +40,216 @@
     "solution": "Distribute: 3x − 3 = x + 13. Then 2x = 16, x = 8."
   },
   {
-    "q": "Solve: (x + 4)/2 = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "10"
+    "q": "Solve the inequality: 2x + 3 < x + 6",
+    "type": "mc",
+    "choices": [
+      "x < 3",
+      "x > 6",
+      "x < 6",
+      "x > 3"
     ],
-    "solution": "Multiply both sides by 2: x + 4 = 14. Subtract 4: x = 10."
+    "answer": 0,
+    "solution": "Subtract x and 3 from both sides: 1x < 3, so x < 3."
   },
   {
-    "q": "Solve: 3x + 9 = x + 13<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Move variables to one side: 2x = 13 − 9 = 4, so x = 2."
-  },
-  {
-    "q": "Solve: 3(x − 1) = x + 9<br>x = ?",
+    "q": "Solve: 2(x − 1) = x + 4<br>x = ?",
     "type": "typed",
     "accept": [
       "6"
     ],
-    "solution": "Distribute: 3x − 3 = x + 9. Then 2x = 12, x = 6."
+    "solution": "Distribute: 2x − 2 = x + 4. Then 1x = 6, x = 6."
   },
   {
-    "q": "Solve the inequality: 3x + 3 < x + 7",
-    "type": "mc",
-    "choices": [
-      "x > 2",
-      "x < 7",
-      "x > 7",
-      "x < 2"
-    ],
-    "answer": 3,
-    "solution": "Subtract x and 3 from both sides: 2x < 4, so x < 2."
-  },
-  {
-    "q": "Solve: (x + 5)/2 = 3<br>x = ?",
+    "q": "Solve: 3x + 4 = x + 12<br>x = ?",
     "type": "typed",
     "accept": [
-      "1"
+      "4"
     ],
-    "solution": "Multiply both sides by 2: x + 5 = 6. Subtract 5: x = 1."
+    "solution": "Move variables to one side: 2x = 12 − 4 = 8, so x = 4."
   },
   {
-    "q": "Solve the inequality: 2x + 6 < x + 8",
+    "q": "Solve the inequality: −2x < -4  (watch the sign!)",
     "type": "mc",
     "choices": [
-      "x < 8",
-      "x > 8",
-      "x > 2",
-      "x < 2"
+      "x < 2",
+      "x < -4",
+      "x > -4",
+      "x > 2"
     ],
     "answer": 3,
-    "solution": "Subtract x and 6 from both sides: 1x < 2, so x < 2."
+    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 2."
+  },
+  {
+    "q": "Solve the inequality: −2x < -12  (watch the sign!)",
+    "type": "mc",
+    "choices": [
+      "x > 6",
+      "x < 6",
+      "x > -12",
+      "x < -12"
+    ],
+    "answer": 0,
+    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 6."
+  },
+  {
+    "q": "Solve: (x + 1)/3 = 4<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Multiply both sides by 3: x + 1 = 12. Subtract 1: x = 11."
+  },
+  {
+    "q": "Solve the inequality: 2x + 5 < x + 7",
+    "type": "mc",
+    "choices": [
+      "x > 7",
+      "x > 2",
+      "x < 2",
+      "x < 7"
+    ],
+    "answer": 2,
+    "solution": "Subtract x and 5 from both sides: 1x < 2, so x < 2."
+  },
+  {
+    "q": "Solve: 3x + 4 = x + 8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Move variables to one side: 2x = 8 − 4 = 4, so x = 2."
+  },
+  {
+    "q": "Solve the inequality: 2x + 2 < x + 5",
+    "type": "mc",
+    "choices": [
+      "x < 3",
+      "x > 3",
+      "x < 5",
+      "x > 5"
+    ],
+    "answer": 0,
+    "solution": "Subtract x and 2 from both sides: 1x < 3, so x < 3."
+  },
+  {
+    "q": "Solve: (x + 3)/4 = 6<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Multiply both sides by 4: x + 3 = 24. Subtract 3: x = 21."
+  },
+  {
+    "q": "Solve: 3x + 7 = 2x + 14<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Move variables to one side: 1x = 14 − 7 = 7, so x = 7."
+  },
+  {
+    "q": "Solve: (x + 2)/4 = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Multiply both sides by 4: x + 2 = 12. Subtract 2: x = 10."
+  },
+  {
+    "q": "Solve the inequality: 2x + 3 < x + 5",
+    "type": "mc",
+    "choices": [
+      "x < 5",
+      "x > 2",
+      "x < 2",
+      "x > 5"
+    ],
+    "answer": 2,
+    "solution": "Subtract x and 3 from both sides: 1x < 2, so x < 2."
+  },
+  {
+    "q": "Solve the inequality: −2x < -6  (watch the sign!)",
+    "type": "mc",
+    "choices": [
+      "x > 3",
+      "x < 3",
+      "x > -6",
+      "x < -6"
+    ],
+    "answer": 0,
+    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 3."
+  },
+  {
+    "q": "Solve: 3x + 5 = 2x + 12<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Move variables to one side: 1x = 12 − 5 = 7, so x = 7."
+  },
+  {
+    "q": "Solve: (x + 4)/3 = 4<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Multiply both sides by 3: x + 4 = 12. Subtract 4: x = 8."
+  },
+  {
+    "q": "Solve the inequality: 3x + 2 < x + 16",
+    "type": "mc",
+    "choices": [
+      "x < 16",
+      "x > 16",
+      "x > 7",
+      "x < 7"
+    ],
+    "answer": 3,
+    "solution": "Subtract x and 2 from both sides: 2x < 14, so x < 7."
+  },
+  {
+    "q": "Solve the inequality: 2x + 1 < x + 3",
+    "type": "mc",
+    "choices": [
+      "x > 3",
+      "x < 2",
+      "x < 3",
+      "x > 2"
+    ],
+    "answer": 1,
+    "solution": "Subtract x and 1 from both sides: 1x < 2, so x < 2."
+  },
+  {
+    "q": "Solve: 5x + 9 = x + 37<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Move variables to one side: 4x = 37 − 9 = 28, so x = 7."
+  },
+  {
+    "q": "Solve: 5x + 4 = x + 24<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Move variables to one side: 4x = 24 − 4 = 20, so x = 5."
+  },
+  {
+    "q": "Solve: 2(x − 1) = x + 1<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Distribute: 2x − 2 = x + 1. Then 1x = 3, x = 3."
+  },
+  {
+    "q": "Solve: 4x + 1 = 2x + 13<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Move variables to one side: 2x = 13 − 1 = 12, so x = 6."
   },
   {
     "q": "Solve the inequality: −2x < -8  (watch the sign!)",
@@ -240,160 +264,28 @@
     "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 4."
   },
   {
-    "q": "Solve the inequality: 3x + 6 < x + 12",
-    "type": "mc",
-    "choices": [
-      "x > 12",
-      "x > 3",
-      "x < 3",
-      "x < 12"
-    ],
-    "answer": 2,
-    "solution": "Subtract x and 6 from both sides: 2x < 6, so x < 3."
-  },
-  {
-    "q": "Solve: (x + 5)/3 = 5<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Multiply both sides by 3: x + 5 = 15. Subtract 5: x = 10."
-  },
-  {
     "q": "Solve the inequality: 2x + 5 < x + 10",
     "type": "mc",
     "choices": [
-      "x > 10",
-      "x > 5",
       "x < 10",
-      "x < 5"
+      "x > 5",
+      "x < 5",
+      "x > 10"
     ],
-    "answer": 3,
+    "answer": 2,
     "solution": "Subtract x and 5 from both sides: 1x < 5, so x < 5."
   },
   {
-    "q": "Solve: 5x + 7 = 2x + 16<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Move variables to one side: 3x = 16 − 7 = 9, so x = 3."
-  },
-  {
-    "q": "Solve the inequality: 3x + 4 < x + 18",
+    "q": "Solve the inequality: 3x + 6 < x + 20",
     "type": "mc",
     "choices": [
-      "x < 18",
-      "x > 7",
+      "x < 20",
+      "x > 20",
       "x < 7",
-      "x > 18"
+      "x > 7"
     ],
     "answer": 2,
-    "solution": "Subtract x and 4 from both sides: 2x < 14, so x < 7."
-  },
-  {
-    "q": "Solve: 4x + 5 = x + 11<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Move variables to one side: 3x = 11 − 5 = 6, so x = 2."
-  },
-  {
-    "q": "Solve: 3x + 6 = x + 20<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Move variables to one side: 2x = 20 − 6 = 14, so x = 7."
-  },
-  {
-    "q": "Solve: 5x + 1 = 2x + 13<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Move variables to one side: 3x = 13 − 1 = 12, so x = 4."
-  },
-  {
-    "q": "Solve the inequality: −2x < -10  (watch the sign!)",
-    "type": "mc",
-    "choices": [
-      "x < -10",
-      "x > -10",
-      "x > 5",
-      "x < 5"
-    ],
-    "answer": 2,
-    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 5."
-  },
-  {
-    "q": "Solve: 4x + 1 = x + 22<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Move variables to one side: 3x = 22 − 1 = 21, so x = 7."
-  },
-  {
-    "q": "Solve the inequality: 3x + 1 < x + 13",
-    "type": "mc",
-    "choices": [
-      "x < 6",
-      "x > 6",
-      "x < 13",
-      "x > 13"
-    ],
-    "answer": 0,
-    "solution": "Subtract x and 1 from both sides: 2x < 12, so x < 6."
-  },
-  {
-    "q": "Solve the inequality: 3x + 2 < x + 8",
-    "type": "mc",
-    "choices": [
-      "x > 8",
-      "x < 8",
-      "x < 3",
-      "x > 3"
-    ],
-    "answer": 2,
-    "solution": "Subtract x and 2 from both sides: 2x < 6, so x < 3."
-  },
-  {
-    "q": "Solve: (x + 4)/3 = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Multiply both sides by 3: x + 4 = 21. Subtract 4: x = 17."
-  },
-  {
-    "q": "Solve the inequality: 3x + 6 < x + 10",
-    "type": "mc",
-    "choices": [
-      "x < 2",
-      "x > 10",
-      "x < 10",
-      "x > 2"
-    ],
-    "answer": 0,
-    "solution": "Subtract x and 6 from both sides: 2x < 4, so x < 2."
-  },
-  {
-    "q": "Solve: (x + 3)/4 = 6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Multiply both sides by 4: x + 3 = 24. Subtract 3: x = 21."
-  },
-  {
-    "q": "Solve: 2(x − 1) = x + 5<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Distribute: 2x − 2 = x + 5. Then 1x = 7, x = 7."
+    "solution": "Subtract x and 6 from both sides: 2x < 14, so x < 7."
   },
   {
     "q": "Solve: 3(x − 1) = x + 3<br>x = ?",
@@ -404,144 +296,84 @@
     "solution": "Distribute: 3x − 3 = x + 3. Then 2x = 6, x = 3."
   },
   {
-    "q": "Solve the inequality: 3x + 2 < x + 16",
+    "q": "Solve the inequality: 3x + 3 < x + 17",
     "type": "mc",
     "choices": [
+      "x > 17",
+      "x > 7",
       "x < 7",
-      "x < 16",
-      "x > 7",
-      "x > 16"
-    ],
-    "answer": 0,
-    "solution": "Subtract x and 2 from both sides: 2x < 14, so x < 7."
-  },
-  {
-    "q": "Solve the inequality: 2x + 1 < x + 7",
-    "type": "mc",
-    "choices": [
-      "x > 6",
-      "x > 7",
-      "x < 6",
-      "x < 7"
+      "x < 17"
     ],
     "answer": 2,
-    "solution": "Subtract x and 1 from both sides: 1x < 6, so x < 6."
+    "solution": "Subtract x and 3 from both sides: 2x < 14, so x < 7."
   },
   {
-    "q": "Solve the inequality: 2x + 1 < x + 3",
+    "q": "Solve the inequality: 2x + 1 < x + 5",
     "type": "mc",
     "choices": [
-      "x > 3",
-      "x < 2",
-      "x > 2",
-      "x < 3"
-    ],
-    "answer": 1,
-    "solution": "Subtract x and 1 from both sides: 1x < 2, so x < 2."
-  },
-  {
-    "q": "Solve: (x + 6)/4 = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "Multiply both sides by 4: x + 6 = 28. Subtract 6: x = 22."
-  },
-  {
-    "q": "Solve: 3(x − 1) = x + 5<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Distribute: 3x − 3 = x + 5. Then 2x = 8, x = 4."
-  },
-  {
-    "q": "Solve the inequality: 2x + 6 < x + 10",
-    "type": "mc",
-    "choices": [
-      "x < 4",
+      "x > 5",
       "x > 4",
-      "x > 10",
-      "x < 10"
+      "x < 5",
+      "x < 4"
     ],
-    "answer": 0,
-    "solution": "Subtract x and 6 from both sides: 1x < 4, so x < 4."
+    "answer": 3,
+    "solution": "Subtract x and 1 from both sides: 1x < 4, so x < 4."
   },
   {
-    "q": "Solve: (x + 4)/3 = 5<br>x = ?",
+    "q": "Solve: (x + 1)/2 = 6<br>x = ?",
     "type": "typed",
     "accept": [
       "11"
     ],
-    "solution": "Multiply both sides by 3: x + 4 = 15. Subtract 4: x = 11."
+    "solution": "Multiply both sides by 2: x + 1 = 12. Subtract 1: x = 11."
   },
   {
-    "q": "Solve the inequality: 2x + 6 < x + 11",
+    "q": "Solve the inequality: 2x + 2 < x + 6",
     "type": "mc",
     "choices": [
-      "x > 5",
-      "x < 11",
-      "x > 11",
-      "x < 5"
+      "x < 4",
+      "x > 6",
+      "x > 4",
+      "x < 6"
     ],
-    "answer": 3,
-    "solution": "Subtract x and 6 from both sides: 1x < 5, so x < 5."
+    "answer": 0,
+    "solution": "Subtract x and 2 from both sides: 1x < 4, so x < 4."
   },
   {
-    "q": "Solve the inequality: 3x + 6 < x + 16",
+    "q": "Solve the inequality: 2x + 2 < x + 7",
     "type": "mc",
     "choices": [
-      "x > 16",
+      "x > 7",
       "x < 5",
       "x > 5",
-      "x < 16"
+      "x < 7"
     ],
     "answer": 1,
-    "solution": "Subtract x and 6 from both sides: 2x < 10, so x < 5."
+    "solution": "Subtract x and 2 from both sides: 1x < 5, so x < 5."
   },
   {
-    "q": "Solve: (x + 4)/2 = 8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Multiply both sides by 2: x + 4 = 16. Subtract 4: x = 12."
-  },
-  {
-    "q": "Solve: (x + 2)/4 = 4<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Multiply both sides by 4: x + 2 = 16. Subtract 2: x = 14."
-  },
-  {
-    "q": "Solve: 4x + 4 = x + 16<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Move variables to one side: 3x = 16 − 4 = 12, so x = 4."
-  },
-  {
-    "q": "Solve: 5x + 5 = x + 13<br>x = ?",
+    "q": "Solve: 4x + 9 = x + 15<br>x = ?",
     "type": "typed",
     "accept": [
       "2"
     ],
-    "solution": "Move variables to one side: 4x = 13 − 5 = 8, so x = 2."
+    "solution": "Move variables to one side: 3x = 15 − 9 = 6, so x = 2."
   },
   {
-    "q": "Solve the inequality: 3x + 1 < x + 11",
-    "type": "mc",
-    "choices": [
-      "x < 11",
-      "x > 5",
-      "x > 11",
-      "x < 5"
+    "q": "Solve: (x + 2)/2 = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
     ],
-    "answer": 3,
-    "solution": "Subtract x and 1 from both sides: 2x < 10, so x < 5."
+    "solution": "Multiply both sides by 2: x + 2 = 6. Subtract 2: x = 4."
+  },
+  {
+    "q": "Solve: 5x + 5 = x + 33<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Move variables to one side: 4x = 33 − 5 = 28, so x = 7."
   },
   {
     "q": "Solve: 2(x − 1) = x + 6<br>x = ?",
@@ -552,6 +384,146 @@
     "solution": "Distribute: 2x − 2 = x + 6. Then 1x = 8, x = 8."
   },
   {
+    "q": "Solve: 4x + 4 = 2x + 16<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Move variables to one side: 2x = 16 − 4 = 12, so x = 6."
+  },
+  {
+    "q": "Solve: 2(x − 1) = x + 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Distribute: 2x − 2 = x + 3. Then 1x = 5, x = 5."
+  },
+  {
+    "q": "Solve: 3(x − 1) = x + 9<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Distribute: 3x − 3 = x + 9. Then 2x = 12, x = 6."
+  },
+  {
+    "q": "Solve: 3x + 3 = x + 15<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Move variables to one side: 2x = 15 − 3 = 12, so x = 6."
+  },
+  {
+    "q": "Solve: 4x + 8 = x + 23<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Move variables to one side: 3x = 23 − 8 = 15, so x = 5."
+  },
+  {
+    "q": "Solve the inequality: 2x + 2 < x + 9",
+    "type": "mc",
+    "choices": [
+      "x > 7",
+      "x > 9",
+      "x < 9",
+      "x < 7"
+    ],
+    "answer": 3,
+    "solution": "Subtract x and 2 from both sides: 1x < 7, so x < 7."
+  },
+  {
+    "q": "Solve the inequality: 3x + 1 < x + 5",
+    "type": "mc",
+    "choices": [
+      "x < 2",
+      "x > 5",
+      "x < 5",
+      "x > 2"
+    ],
+    "answer": 0,
+    "solution": "Subtract x and 1 from both sides: 2x < 4, so x < 2."
+  },
+  {
+    "q": "Solve: (x + 3)/4 = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Multiply both sides by 4: x + 3 = 12. Subtract 3: x = 9."
+  },
+  {
+    "q": "Solve the inequality: 3x + 3 < x + 9",
+    "type": "mc",
+    "choices": [
+      "x < 3",
+      "x > 3",
+      "x > 9",
+      "x < 9"
+    ],
+    "answer": 0,
+    "solution": "Subtract x and 3 from both sides: 2x < 6, so x < 3."
+  },
+  {
+    "q": "Solve: (x + 1)/2 = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Multiply both sides by 2: x + 1 = 14. Subtract 1: x = 13."
+  },
+  {
+    "q": "Solve: 4x + 9 = x + 30<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Move variables to one side: 3x = 30 − 9 = 21, so x = 7."
+  },
+  {
+    "q": "Solve: 3(x − 1) = x + 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Distribute: 3x − 3 = x + 7. Then 2x = 10, x = 5."
+  },
+  {
+    "q": "Solve: 4x + 6 = 2x + 18<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Move variables to one side: 2x = 18 − 6 = 12, so x = 6."
+  },
+  {
+    "q": "Solve: 3(x − 1) = x + 5<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Distribute: 3x − 3 = x + 5. Then 2x = 8, x = 4."
+  },
+  {
+    "q": "Solve: 4x + 1 = 2x + 9<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Move variables to one side: 2x = 9 − 1 = 8, so x = 4."
+  },
+  {
+    "q": "Solve: (x + 3)/3 = 4<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Multiply both sides by 3: x + 3 = 12. Subtract 3: x = 9."
+  },
+  {
     "q": "Solve: (x + 5)/4 = 8<br>x = ?",
     "type": "typed",
     "accept": [
@@ -560,12 +532,32 @@
     "solution": "Multiply both sides by 4: x + 5 = 32. Subtract 5: x = 27."
   },
   {
-    "q": "Solve: 5x + 2 = 2x + 17<br>x = ?",
+    "q": "Solve: (x + 3)/3 = 8<br>x = ?",
     "type": "typed",
     "accept": [
-      "5"
+      "21"
     ],
-    "solution": "Move variables to one side: 3x = 17 − 2 = 15, so x = 5."
+    "solution": "Multiply both sides by 3: x + 3 = 24. Subtract 3: x = 21."
+  },
+  {
+    "q": "Solve: 5x + 6 = x + 14<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Move variables to one side: 4x = 14 − 6 = 8, so x = 2."
+  },
+  {
+    "q": "Solve the inequality: 3x + 6 < x + 18",
+    "type": "mc",
+    "choices": [
+      "x < 6",
+      "x > 6",
+      "x < 18",
+      "x > 18"
+    ],
+    "answer": 0,
+    "solution": "Subtract x and 6 from both sides: 2x < 12, so x < 6."
   },
   {
     "q": "Solve: 2(x + 3) = 3(x − 1).",

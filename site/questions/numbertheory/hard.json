@@ -1,510 +1,510 @@
 [
   {
-    "q": "Which is the prime factorization of 40?",
-    "type": "mc",
-    "choices": [
-      "2³ × 5",
-      "3 × 13.333333333333334",
-      "2 × 40",
-      "40 × 1"
-    ],
-    "answer": 0,
-    "solution": "Break 40 down into prime factors only → 2³ × 5."
-  },
-  {
-    "q": "Find the GCF of 44 and 24.",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The greatest common factor of 44 and 24 is 4."
-  },
-  {
-    "q": "Find the GCF of 60 and 42.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The greatest common factor of 60 and 42 is 6."
-  },
-  {
-    "q": "Find the LCM of 6 and 10.",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (6 × 10) ÷ 2 = 30."
-  },
-  {
-    "q": "Find the LCM of 15 and 10.",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (15 × 10) ÷ 5 = 30."
-  },
-  {
-    "q": "Find the LCM of 5 and 15.",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (5 × 15) ÷ 5 = 15."
-  },
-  {
-    "q": "Find the GCF of 28 and 17.",
+    "q": "Find the GCF of 22 and 51.",
     "type": "typed",
     "accept": [
       "1"
     ],
-    "solution": "The greatest common factor of 28 and 17 is 1."
-  },
-  {
-    "q": "Find the LCM of 4 and 4.",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (4 × 4) ÷ 4 = 4."
-  },
-  {
-    "q": "Find the GCF of 23 and 24.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 23 and 24 is 1."
-  },
-  {
-    "q": "Find the LCM of 6 and 5.",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (6 × 5) ÷ 1 = 30."
-  },
-  {
-    "q": "Find the LCM of 10 and 14.",
-    "type": "typed",
-    "accept": [
-      "70"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (10 × 14) ÷ 2 = 70."
-  },
-  {
-    "q": "Find the GCF of 28 and 32.",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The greatest common factor of 28 and 32 is 4."
-  },
-  {
-    "q": "Which is the prime factorization of 60?",
-    "type": "mc",
-    "choices": [
-      "60 × 1",
-      "3 × 20",
-      "2² × 3 × 5",
-      "2 × 60"
-    ],
-    "answer": 2,
-    "solution": "Break 60 down into prime factors only → 2² × 3 × 5."
-  },
-  {
-    "q": "Find the LCM of 5 and 7.",
-    "type": "typed",
-    "accept": [
-      "35"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (5 × 7) ÷ 1 = 35."
-  },
-  {
-    "q": "Which is the prime factorization of 18?",
-    "type": "mc",
-    "choices": [
-      "2 × 18",
-      "2 × 3²",
-      "3 × 6",
-      "18 × 1"
-    ],
-    "answer": 1,
-    "solution": "Break 18 down into prime factors only → 2 × 3²."
-  },
-  {
-    "q": "Find the LCM of 11 and 13.",
-    "type": "typed",
-    "accept": [
-      "143"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (11 × 13) ÷ 1 = 143."
-  },
-  {
-    "q": "Find the GCF of 16 and 57.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 16 and 57 is 1."
-  },
-  {
-    "q": "Find the LCM of 4 and 13.",
-    "type": "typed",
-    "accept": [
-      "52"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (4 × 13) ÷ 1 = 52."
-  },
-  {
-    "q": "Find the LCM of 4 and 7.",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (4 × 7) ÷ 1 = 28."
-  },
-  {
-    "q": "Find the LCM of 8 and 11.",
-    "type": "typed",
-    "accept": [
-      "88"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (8 × 11) ÷ 1 = 88."
-  },
-  {
-    "q": "Find the LCM of 11 and 14.",
-    "type": "typed",
-    "accept": [
-      "154"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (11 × 14) ÷ 1 = 154."
-  },
-  {
-    "q": "Find the GCF of 50 and 36.",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "The greatest common factor of 50 and 36 is 2."
-  },
-  {
-    "q": "Find the LCM of 7 and 12.",
-    "type": "typed",
-    "accept": [
-      "84"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (7 × 12) ÷ 1 = 84."
-  },
-  {
-    "q": "Which is the prime factorization of 24?",
-    "type": "mc",
-    "choices": [
-      "24 × 1",
-      "3 × 8",
-      "2 × 24",
-      "2³ × 3"
-    ],
-    "answer": 3,
-    "solution": "Break 24 down into prime factors only → 2³ × 3."
+    "solution": "The greatest common factor of 22 and 51 is 1."
   },
   {
     "q": "Which is the prime factorization of 30?",
     "type": "mc",
     "choices": [
       "2 × 3 × 5",
-      "3 × 10",
-      "2 × 30",
-      "30 × 1"
+      "2 × 15",
+      "3² × 5",
+      "5 × 6"
     ],
     "answer": 0,
     "solution": "Break 30 down into prime factors only → 2 × 3 × 5."
   },
   {
-    "q": "Find the LCM of 9 and 15.",
+    "q": "Find the LCM of 4, 5, and 8.",
     "type": "typed",
     "accept": [
-      "45"
+      "40"
     ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (9 × 15) ÷ 3 = 45."
+    "solution": "Find the smallest number that 4, 5, and 8 all divide into evenly: 40."
   },
   {
-    "q": "Find the LCM of 12 and 6.",
+    "q": "Find the LCM of 4, 4, and 8.",
     "type": "typed",
     "accept": [
-      "12"
+      "8"
     ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (12 × 6) ÷ 6 = 12."
-  },
-  {
-    "q": "Find the GCF of 56 and 58.",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "The greatest common factor of 56 and 58 is 2."
-  },
-  {
-    "q": "Find the GCF of 26 and 22.",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "The greatest common factor of 26 and 22 is 2."
-  },
-  {
-    "q": "Find the LCM of 11 and 11.",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (11 × 11) ÷ 11 = 11."
-  },
-  {
-    "q": "Which is the prime factorization of 12?",
-    "type": "mc",
-    "choices": [
-      "12 × 1",
-      "2 × 12",
-      "2² × 3",
-      "3 × 4"
-    ],
-    "answer": 2,
-    "solution": "Break 12 down into prime factors only → 2² × 3."
-  },
-  {
-    "q": "Find the GCF of 27 and 56.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 27 and 56 is 1."
-  },
-  {
-    "q": "Find the GCF of 56 and 56.",
-    "type": "typed",
-    "accept": [
-      "56"
-    ],
-    "solution": "The greatest common factor of 56 and 56 is 56."
-  },
-  {
-    "q": "Find the GCF of 27 and 45.",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "The greatest common factor of 27 and 45 is 9."
+    "solution": "Find the smallest number that 4, 4, and 8 all divide into evenly: 8."
   },
   {
     "q": "Which is the prime factorization of 36?",
     "type": "mc",
     "choices": [
+      "2 × 3³",
+      "2³ × 3",
       "2² × 3²",
-      "2 × 36",
-      "36 × 1",
-      "3 × 12"
+      "6 × 6"
     ],
-    "answer": 0,
+    "answer": 2,
     "solution": "Break 36 down into prime factors only → 2² × 3²."
   },
   {
-    "q": "Find the GCF of 30 and 37.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 30 and 37 is 1."
-  },
-  {
-    "q": "Find the LCM of 11 and 6.",
-    "type": "typed",
-    "accept": [
-      "66"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (11 × 6) ÷ 1 = 66."
-  },
-  {
-    "q": "Find the LCM of 4 and 15.",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (4 × 15) ÷ 1 = 60."
-  },
-  {
-    "q": "Find the GCF of 30 and 16.",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "The greatest common factor of 30 and 16 is 2."
-  },
-  {
-    "q": "Find the LCM of 13 and 14.",
-    "type": "typed",
-    "accept": [
-      "182"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (13 × 14) ÷ 1 = 182."
-  },
-  {
-    "q": "Find the GCF of 37 and 50.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 37 and 50 is 1."
-  },
-  {
-    "q": "Find the GCF of 17 and 34.",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "The greatest common factor of 17 and 34 is 17."
-  },
-  {
-    "q": "Find the GCF of 36 and 26.",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "The greatest common factor of 36 and 26 is 2."
-  },
-  {
-    "q": "Find the GCF of 34 and 55.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 34 and 55 is 1."
-  },
-  {
-    "q": "Find the LCM of 4 and 8.",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (4 × 8) ÷ 4 = 8."
-  },
-  {
-    "q": "Find the GCF of 46 and 33.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 46 and 33 is 1."
-  },
-  {
-    "q": "Find the LCM of 8 and 6.",
+    "q": "Find the LCM of 3, 4, and 8.",
     "type": "typed",
     "accept": [
       "24"
     ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (8 × 6) ÷ 2 = 24."
+    "solution": "Find the smallest number that 3, 4, and 8 all divide into evenly: 24."
   },
   {
-    "q": "Find the GCF of 15 and 16.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 15 and 16 is 1."
-  },
-  {
-    "q": "Find the LCM of 14 and 6.",
-    "type": "typed",
-    "accept": [
-      "42"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (14 × 6) ÷ 2 = 42."
-  },
-  {
-    "q": "Find the LCM of 10 and 13.",
-    "type": "typed",
-    "accept": [
-      "130"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (10 × 13) ÷ 1 = 130."
-  },
-  {
-    "q": "Find the GCF of 55 and 21.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 55 and 21 is 1."
-  },
-  {
-    "q": "Find the GCF of 56 and 15.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 56 and 15 is 1."
-  },
-  {
-    "q": "Find the LCM of 8 and 14.",
-    "type": "typed",
-    "accept": [
-      "56"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (8 × 14) ÷ 2 = 56."
-  },
-  {
-    "q": "Find the GCF of 37 and 51.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 37 and 51 is 1."
-  },
-  {
-    "q": "Find the LCM of 12 and 15.",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (12 × 15) ÷ 3 = 60."
-  },
-  {
-    "q": "Find the LCM of 14 and 9.",
-    "type": "typed",
-    "accept": [
-      "126"
-    ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (14 × 9) ÷ 1 = 126."
-  },
-  {
-    "q": "Find the GCF of 23 and 30.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 23 and 30 is 1."
-  },
-  {
-    "q": "Find the GCF of 22 and 37.",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "The greatest common factor of 22 and 37 is 1."
-  },
-  {
-    "q": "Find the GCF of 56 and 20.",
+    "q": "Find the GCF of 32 and 12.",
     "type": "typed",
     "accept": [
       "4"
     ],
-    "solution": "The greatest common factor of 56 and 20 is 4."
+    "solution": "The greatest common factor of 32 and 12 is 4."
   },
   {
-    "q": "Find the LCM of 8 and 15.",
+    "q": "Find the LCM of 2, 6, and 10.",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Find the smallest number that 2, 6, and 10 all divide into evenly: 30."
+  },
+  {
+    "q": "Which is the prime factorization of 60?",
+    "type": "mc",
+    "choices": [
+      "6 × 10",
+      "2² × 3 × 5",
+      "2 × 30",
+      "2³ × 3 × 5"
+    ],
+    "answer": 1,
+    "solution": "Break 60 down into prime factors only → 2² × 3 × 5."
+  },
+  {
+    "q": "Find the GCF of 55 and 29.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 55 and 29 is 1."
+  },
+  {
+    "q": "Find the LCM of 3, 4, and 9.",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Find the smallest number that 3, 4, and 9 all divide into evenly: 36."
+  },
+  {
+    "q": "Find the LCM of 3, 4, and 6.",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Find the smallest number that 3, 4, and 6 all divide into evenly: 12."
+  },
+  {
+    "q": "Which is the prime factorization of 12?",
+    "type": "mc",
+    "choices": [
+      "2² × 3",
+      "3 × 4",
+      "2 × 6",
+      "2 × 3²"
+    ],
+    "answer": 0,
+    "solution": "Break 12 down into prime factors only → 2² × 3."
+  },
+  {
+    "q": "Find the GCF of 26 and 33.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 26 and 33 is 1."
+  },
+  {
+    "q": "Find the GCF of 46 and 18.",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "The greatest common factor of 46 and 18 is 2."
+  },
+  {
+    "q": "Find the GCF of 16 and 55.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 16 and 55 is 1."
+  },
+  {
+    "q": "Which is the prime factorization of 18?",
+    "type": "mc",
+    "choices": [
+      "3 × 6",
+      "2 × 3²",
+      "2 × 9",
+      "2² × 3"
+    ],
+    "answer": 1,
+    "solution": "Break 18 down into prime factors only → 2 × 3²."
+  },
+  {
+    "q": "Find the GCF of 36 and 51.",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "The greatest common factor of 36 and 51 is 3."
+  },
+  {
+    "q": "Find the LCM of 2, 4, and 9.",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Find the smallest number that 2, 4, and 9 all divide into evenly: 36."
+  },
+  {
+    "q": "Find the GCF of 54 and 27.",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "The greatest common factor of 54 and 27 is 27."
+  },
+  {
+    "q": "Find the LCM of 4, 6, and 8.",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Find the smallest number that 4, 6, and 8 all divide into evenly: 24."
+  },
+  {
+    "q": "Find the LCM of 3, 6, and 8.",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Find the smallest number that 3, 6, and 8 all divide into evenly: 24."
+  },
+  {
+    "q": "Find the GCF of 34 and 28.",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "The greatest common factor of 34 and 28 is 2."
+  },
+  {
+    "q": "Which is the prime factorization of 40?",
+    "type": "mc",
+    "choices": [
+      "4 × 10",
+      "2 × 4 × 5",
+      "2² × 10",
+      "2³ × 5"
+    ],
+    "answer": 3,
+    "solution": "Break 40 down into prime factors only → 2³ × 5."
+  },
+  {
+    "q": "Find the GCF of 26 and 41.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 26 and 41 is 1."
+  },
+  {
+    "q": "Find the LCM of 3, 4, and 10.",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "Find the smallest number that 3, 4, and 10 all divide into evenly: 60."
+  },
+  {
+    "q": "Which is the prime factorization of 24?",
+    "type": "mc",
+    "choices": [
+      "2² × 6",
+      "2³ × 3",
+      "4 × 6",
+      "2 × 3³"
+    ],
+    "answer": 1,
+    "solution": "Break 24 down into prime factors only → 2³ × 3."
+  },
+  {
+    "q": "Find the GCF of 21 and 15.",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "The greatest common factor of 21 and 15 is 3."
+  },
+  {
+    "q": "Find the LCM of 4, 5, and 6.",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "Find the smallest number that 4, 5, and 6 all divide into evenly: 60."
+  },
+  {
+    "q": "Find the LCM of 4, 5, and 10.",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Find the smallest number that 4, 5, and 10 all divide into evenly: 20."
+  },
+  {
+    "q": "Find the GCF of 51 and 13.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 51 and 13 is 1."
+  },
+  {
+    "q": "Find the LCM of 4, 6, and 6.",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Find the smallest number that 4, 6, and 6 all divide into evenly: 12."
+  },
+  {
+    "q": "Find the GCF of 57 and 59.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 57 and 59 is 1."
+  },
+  {
+    "q": "Find the LCM of 2, 5, and 8.",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Find the smallest number that 2, 5, and 8 all divide into evenly: 40."
+  },
+  {
+    "q": "Find the GCF of 29 and 36.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 29 and 36 is 1."
+  },
+  {
+    "q": "Find the GCF of 32 and 22.",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "The greatest common factor of 32 and 22 is 2."
+  },
+  {
+    "q": "Find the LCM of 4, 4, and 9.",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Find the smallest number that 4, 4, and 9 all divide into evenly: 36."
+  },
+  {
+    "q": "Find the GCF of 15 and 44.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 15 and 44 is 1."
+  },
+  {
+    "q": "Find the LCM of 3, 6, and 9.",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Find the smallest number that 3, 6, and 9 all divide into evenly: 18."
+  },
+  {
+    "q": "Find the GCF of 20 and 57.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 20 and 57 is 1."
+  },
+  {
+    "q": "Find the GCF of 28 and 23.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 28 and 23 is 1."
+  },
+  {
+    "q": "Find the LCM of 3, 5, and 8.",
     "type": "typed",
     "accept": [
       "120"
     ],
-    "solution": "A shortcut: LCM = (a × b) ÷ GCF = (8 × 15) ÷ 1 = 120."
+    "solution": "Find the smallest number that 3, 5, and 8 all divide into evenly: 120."
+  },
+  {
+    "q": "Find the GCF of 52 and 17.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 52 and 17 is 1."
+  },
+  {
+    "q": "Find the GCF of 18 and 51.",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "The greatest common factor of 18 and 51 is 3."
+  },
+  {
+    "q": "Find the GCF of 46 and 26.",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "The greatest common factor of 46 and 26 is 2."
+  },
+  {
+    "q": "Find the LCM of 3, 5, and 9.",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "Find the smallest number that 3, 5, and 9 all divide into evenly: 45."
+  },
+  {
+    "q": "Find the GCF of 34 and 26.",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "The greatest common factor of 34 and 26 is 2."
+  },
+  {
+    "q": "Find the LCM of 2, 6, and 6.",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Find the smallest number that 2, 6, and 6 all divide into evenly: 6."
+  },
+  {
+    "q": "Find the GCF of 17 and 56.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 17 and 56 is 1."
+  },
+  {
+    "q": "Find the LCM of 2, 5, and 9.",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Find the smallest number that 2, 5, and 9 all divide into evenly: 90."
+  },
+  {
+    "q": "Find the LCM of 2, 5, and 6.",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Find the smallest number that 2, 5, and 6 all divide into evenly: 30."
+  },
+  {
+    "q": "Find the GCF of 21 and 55.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 21 and 55 is 1."
+  },
+  {
+    "q": "Find the GCF of 23 and 49.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 23 and 49 is 1."
+  },
+  {
+    "q": "Find the LCM of 2, 5, and 10.",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Find the smallest number that 2, 5, and 10 all divide into evenly: 10."
+  },
+  {
+    "q": "Find the LCM of 3, 6, and 10.",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Find the smallest number that 3, 6, and 10 all divide into evenly: 30."
+  },
+  {
+    "q": "Find the GCF of 29 and 21.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The greatest common factor of 29 and 21 is 1."
+  },
+  {
+    "q": "Find the GCF of 27 and 51.",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "The greatest common factor of 27 and 51 is 3."
+  },
+  {
+    "q": "Find the GCF of 40 and 40.",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "The greatest common factor of 40 and 40 is 40."
+  },
+  {
+    "q": "Find the GCF of 54 and 50.",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "The greatest common factor of 54 and 50 is 2."
+  },
+  {
+    "q": "Find the LCM of 4, 6, and 9.",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Find the smallest number that 4, 6, and 9 all divide into evenly: 36."
   }
 ]

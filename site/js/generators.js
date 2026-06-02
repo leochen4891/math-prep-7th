@@ -108,7 +108,7 @@
       function () { const speed = pick([40, 50, 60]); const t1 = pick([2, 3]); const t2 = pick([4, 5, 6]); return typed("A car drives " + (speed * t1) + " miles in " + t1 + " hours. At that rate, how far in " + t2 + " hours?", speed * t2, "Speed = " + (speed * t1) + "÷" + t1 + " = " + speed + " mph. In " + t2 + " h: " + speed + "×" + t2 + " = " + (speed * t2) + " miles.", "Type a number"); }
     ],
     [ // CHALLENGE
-      function () { const a = rand(1, 3), b = rand(2, 4), c = rand(3, 6); const k = pick([2, 3, 4]); const total = (a + b + c) * k; return typed("Three numbers are in the ratio " + a + ":" + b + ":" + c + " and add up to " + total + ". What is the largest one?", c * k, "Total parts = " + (a + b + c) + ". One part = " + total + " ÷ " + (a + b + c) + " = " + k + ". Largest = " + c + " × " + k + " = " + (c * k) + ".", "Type a number"); },
+      function () { const a = rand(1, 3), b = rand(2, 4), c = rand(3, 6), k = pick([2, 3, 4]), total = (a + b + c) * k, mx = Math.max(a, b, c); return typed("Three numbers are in the ratio " + a + ":" + b + ":" + c + " and add up to " + total + ". What is the largest one?", mx * k, "Total parts = " + (a + b + c) + ". One part = " + total + " ÷ " + (a + b + c) + " = " + k + ". The biggest part is " + mx + ", so the largest number is " + mx + " × " + k + " = " + (mx * k) + ".", "Type a number"); },
       function () { const old = pick([20, 40, 80]); const p = pick([10, 25, 50]); const nw = old * (100 + p) / 100; return typed("A price went from $" + old + " to $" + nw + ". What was the percent increase?", p, "Increase = " + (nw - old) + ". As a percent of the original: " + (nw - old) + " ÷ " + old + " = " + fmt(p / 100) + " = " + p + "%.", "Type a number (the %)"); },
       function () { const orig = pick([40, 60, 80, 100]); const d = pick([10, 20, 25]); const final = orig * (100 - d) / 100; return typed("After a " + d + "% discount, a bike costs $" + final + ". What was the original price?", orig, final + " is " + (100 - d) + "% of the original: " + final + " ÷ " + fmt((100 - d) / 100) + " = $" + orig + ".", "Type a dollar amount"); }
     ]
@@ -123,7 +123,9 @@
     ],
     [ // ADVANCED
       function () { const s = pick([[2, 5, 32], [2, 6, 64], [3, 4, 81], [4, 3, 64], [5, 3, 125], [2, 7, 128], [2, 8, 256], [3, 5, 243]]); return typed("What is " + s[0] + SUP[s[1]] + "?", s[2], s[0] + " multiplied " + s[1] + " times = " + s[2] + ".", "Type a number"); },
-      function () { const a = rand(6, 12), b = rand(2, 5); return typed("What is " + a + SUP[2] + " − " + b + SUP[2] + "?", a * a - b * b, a * a + " − " + b * b + " = " + (a * a - b * b) + ".", "Type a number"); },
+      function () { const s = pick([[-2, 3, -8], [-3, 2, 9], [-4, 2, 16], [-2, 4, 16], [-5, 2, 25], [-2, 5, -32], [-3, 3, -27], [-6, 2, 36]]); return typed("What is (" + s[0] + ")" + SUP[s[1]] + "?", s[2], "(" + s[0] + ") multiplied by itself " + s[1] + " times = " + s[2] + ". (Even power → positive, odd → negative.)", "Type a number"); },
+      function () { const a = rand(6, 12), b = rand(2, 5); return typed("What is " + a + SUP[2] + " − " + b + SUP[2] + "?", a * a - b * b, "Square each first: " + a + "² = " + (a * a) + ", " + b + "² = " + (b * b) + ". Then " + (a * a) + " − " + (b * b) + " = " + (a * a - b * b) + ".", "Type a number"); },
+      function () { const a = rand(2, 4), b = rand(2, 4); return typed("What is " + a + SUP[3] + " − " + b + SUP[2] + "?", a * a * a - b * b, "Powers first: " + a + "³ = " + (a * a * a) + " and " + b + "² = " + (b * b) + ". Then " + (a * a * a) + " − " + (b * b) + " = " + (a * a * a - b * b) + ".", "Type a number"); },
       function () { const n = rand(4, 12); return typed("If x" + SUP[2] + " = " + (n * n) + ", what is the positive value of x?", n, "√" + (n * n) + " = " + n + ", since " + n + "² = " + (n * n) + ".", "Type a number"); }
     ],
     [ // CHALLENGE
@@ -173,11 +175,11 @@
 
   /* ---- Inequalities folded into the Equations chapter ---- */
   equations[0].push(
-    function () { const a = rand(1, 9), x = rand(1, 9); return mcText("Solve the inequality: x + " + a + " > " + (x + a), ["x > " + x, "x < " + x, "x > " + (x + a), "x < " + (x + a)], "x > " + x, "Subtract " + a + " from both sides: x > " + (x + a) + " − " + a + ", so x > " + x + "."); }
+    function () { const a = rand(1, 9), x = rand(1, 9); return mcText("Solve the inequality: x + " + a + " > " + (x + a), ["x > " + x, "x < " + x, "x > " + (x + a), "x < " + (x + a)], "x > " + x, "Subtract " + a + " from both sides: x > " + (x + a) + " − " + a + ", so x > " + x + "."); },
+    function () { const a = rand(1, 8), thr = rand(4, 10), need = thr - a; return mcText("Which value of x makes  x + " + a + " > " + thr + "  true?", ["x = " + (need + 1), "x = " + need, "x = " + (need - 1), "x = " + (need - 2)], "x = " + (need + 1), "x + " + a + " > " + thr + " means x > " + need + ". The smallest whole number greater than " + need + " is " + (need + 1) + "."); }
   );
   equations[1].push(
-    function () { const a = pick([2, 3, 4]), x = rand(2, 8); return mcText("Solve the inequality: " + a + "x ≤ " + (a * x), ["x ≤ " + x, "x ≥ " + x, "x ≤ " + (a * x), "x ≥ " + (a * x)], "x ≤ " + x, "Divide both sides by " + a + " (a positive number, so the sign stays): x ≤ " + x + "."); },
-    function () { const a = rand(1, 8), thr = rand(4, 10), need = thr - a; return mcText("Which value of x makes  x + " + a + " > " + thr + "  true?", ["x = " + (need + 1), "x = " + need, "x = " + (need - 1), "x = " + (need - 2)], "x = " + (need + 1), "x + " + a + " > " + thr + " means x > " + need + ". The smallest whole number greater than " + need + " is " + (need + 1) + "."); }
+    function () { const a = pick([2, 3, 4]), x = rand(2, 8); return mcText("Solve the inequality: " + a + "x ≤ " + (a * x), ["x ≤ " + x, "x ≥ " + x, "x ≤ " + (a * x), "x ≥ " + (a * x)], "x ≤ " + x, "Divide both sides by " + a + " (a positive number, so the sign stays): x ≤ " + x + "."); }
   );
   equations[2].push(
     function () { const x = rand(2, 6); return mcText("Solve the inequality: −2x < " + (-2 * x) + "  (watch the sign!)", ["x > " + x, "x < " + x, "x > " + (-2 * x), "x < " + (-2 * x)], "x > " + x, "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > " + x + "."); },
@@ -193,8 +195,8 @@
     ],
     [ // HARD
       function () { const a = rand(12, 60), b = rand(12, 60); return typed("Find the GCF of " + a + " and " + b + ".", gcd(a, b), "The greatest common factor of " + a + " and " + b + " is " + gcd(a, b) + ".", "Type a number"); },
-      function () { const a = rand(4, 15), b = rand(4, 15); const l = a * b / gcd(a, b); return typed("Find the LCM of " + a + " and " + b + ".", l, "A shortcut: LCM = (a × b) ÷ GCF = (" + a + " × " + b + ") ÷ " + gcd(a, b) + " = " + l + ".", "Type a number"); },
-      function () { const s = pick([{ n: 12, f: "2² × 3" }, { n: 18, f: "2 × 3²" }, { n: 24, f: "2³ × 3" }, { n: 36, f: "2² × 3²" }, { n: 30, f: "2 × 3 × 5" }, { n: 40, f: "2³ × 5" }, { n: 60, f: "2² × 3 × 5" }]); return mcText("Which is the prime factorization of " + s.n + "?", [s.f, "2 × " + s.n, "3 × " + (s.n / 3), s.n + " × 1"], s.f, "Break " + s.n + " down into prime factors only → " + s.f + "."); }
+      function () { const a = pick([2, 3, 4]), b = pick([4, 5, 6]), c = pick([6, 8, 9, 10]); const l1 = a * b / gcd(a, b), l = l1 * c / gcd(l1, c); return typed("Find the LCM of " + a + ", " + b + ", and " + c + ".", l, "Find the smallest number that " + a + ", " + b + ", and " + c + " all divide into evenly: " + l + ".", "Type a number"); },
+      function () { const s = pick([{ n: 12, f: "2² × 3", w: ["2 × 6", "3 × 4", "2 × 3²"] }, { n: 18, f: "2 × 3²", w: ["3 × 6", "2² × 3", "2 × 9"] }, { n: 24, f: "2³ × 3", w: ["2² × 6", "4 × 6", "2 × 3³"] }, { n: 36, f: "2² × 3²", w: ["6 × 6", "2³ × 3", "2 × 3³"] }, { n: 30, f: "2 × 3 × 5", w: ["2 × 15", "5 × 6", "3² × 5"] }, { n: 40, f: "2³ × 5", w: ["2² × 10", "4 × 10", "2 × 4 × 5"] }, { n: 60, f: "2² × 3 × 5", w: ["2 × 30", "6 × 10", "2³ × 3 × 5"] }]); return mcText("Which is the prime factorization of " + s.n + "?", [s.f].concat(s.w), s.f, "Break " + s.n + " down into prime factors only → " + s.f + "."); }
     ],
     [ // CHALLENGING
       function () { const a = pick([4, 6, 8]), b = pick([6, 9, 10, 12]); const l = a * b / gcd(a, b); return typed("Two lights blink every " + a + " seconds and every " + b + " seconds. They just blinked together. After how many seconds will they next blink together?", l, "They sync again at the LCM of " + a + " and " + b + ", which is " + l + " seconds.", "Type a number"); },
@@ -217,7 +219,8 @@
     ],
     [ // CHALLENGING
       function () { const m = pick([2, 3, 4]), b = rand(1, 6), y = m * rand(3, 8) + b, x = (y - b) / m; return typed("A machine does: input × " + m + ", then + " + b + " = output. The output is " + y + ". What was the input?", x, "Work backwards: (" + y + " − " + b + ") ÷ " + m + " = " + x + ".", "Type a number"); },
-      function () { const m = pick([2, 3, 4]), b = rand(1, 6), x = rand(8, 20); return typed("For the rule y = " + m + "x + " + b + ", what is y when x = " + x + "?", m * x + b, m + "(" + x + ") + " + b + " = " + (m * x) + " + " + b + " = " + (m * x + b) + ".", "Type a number"); },
+      function () { const d = pick([2, 3, 4, 5]), a1 = rand(2, 9), p1 = rand(2, 3), p2 = p1 + rand(2, 4), t1 = a1 + d * (p1 - 1), t2 = a1 + d * (p2 - 1); return typed("In an arithmetic sequence, term #" + p1 + " is " + t1 + " and term #" + p2 + " is " + t2 + ". What is the common difference?", d, "From term #" + p1 + " to term #" + p2 + " is " + (p2 - p1) + " steps, and the value rose by " + (t2 - t1) + ". Common difference = " + (t2 - t1) + " ÷ " + (p2 - p1) + " = " + d + ".", "Type a number"); },
+      function () { const n = pick([8, 10, 12, 14]); return typed("What is the sum  2 + 4 + 6 + … + " + (2 * n) + "?", n * (n + 1), "There are " + n + " even numbers. Pair the first and last: 2 + " + (2 * n) + " = " + (2 + 2 * n) + ", and there are " + (n / 2) + " such pairs → " + (n / 2) + " × " + (2 + 2 * n) + " = " + (n * (n + 1)) + ".", "Type a number"); },
       function () { const s = pick([{ t: "1, 3, 6, 10, 15, ?", a: 21, e: "Triangular numbers — the gaps grow +2, +3, +4, +5, so next is +6: 15 + 6 = 21." }, { t: "2, 5, 10, 17, 26, ?", a: 37, e: "The differences are 3, 5, 7, 9 (odd numbers); next is 11: 26 + 11 = 37. (These are n² + 1.)" }, { t: "1, 2, 4, 7, 11, 16, ?", a: 22, e: "The gaps grow 1, 2, 3, 4, 5; next is 6: 16 + 6 = 22." }, { t: "1, 1, 2, 3, 5, 8, 13, ?", a: 21, e: "Each term is the sum of the two before it: 8 + 13 = 21 (Fibonacci)." }]); return typed("What number comes next?<br>" + s.t, s.a, s.e, "Type a number"); }
     ]
   ];
@@ -231,14 +234,18 @@
     ],
     [ // HARD
       function () { const l = rand(2, 10), w = rand(2, 10), h = rand(2, 10); return typed("A box measures " + l + " × " + w + " × " + h + ". What is its volume?", l * w * h, "Volume = length × width × height = " + l + " × " + w + " × " + h + " = " + (l * w * h) + ".", "Type a number"); },
-      function () { const r = pick([5, 10, 20, 50]), a = Number((3.14 * r * r).toFixed(2)); return typed("A circle has radius " + r + ". What is its area? (Use π ≈ 3.14)", a, "Area = π × r² ≈ 3.14 × " + r + "² = 3.14 × " + (r * r) + " = " + a + ".", "Type a number"); },
-      function () { const r = pick([5, 10, 25, 50, 100]), c = Number((2 * 3.14 * r).toFixed(2)); return typed("A circle has radius " + r + ". What is its circumference? (Use π ≈ 3.14)", c, "Circumference = 2 × π × r ≈ 2 × 3.14 × " + r + " = " + c + ".", "Type a number"); }
+      function () { const r = rand(2, 20), a = Number((3.14 * r * r).toFixed(2)); return typed("A circle has radius " + r + ". What is its area? (Use π ≈ 3.14)", a, "Area = π × r² ≈ 3.14 × " + r + "² = 3.14 × " + (r * r) + " = " + a + ".", "Type a number"); },
+      function () { const r = rand(2, 20), c = Number((2 * 3.14 * r).toFixed(2)); return typed("A circle has radius " + r + ". What is its circumference? (Use π ≈ 3.14)", c, "Circumference = 2 × π × r ≈ 2 × 3.14 × " + r + " = " + c + ".", "Type a number"); },
+      function () { const b = rand(3, 15), h = rand(3, 15); return typed("A parallelogram has base " + b + " and height " + h + ". What is its area?", b * h, "Area of a parallelogram = base × height = " + b + " × " + h + " = " + (b * h) + ".", "Type a number"); },
+      function () { const h = pick([2, 4, 6, 8]), b1 = rand(2, 12), b2 = rand(2, 12); return typed("A trapezoid has parallel sides " + b1 + " and " + b2 + " and height " + h + ". What is its area?", (b1 + b2) * h / 2, "Area of a trapezoid = ½ × (b₁ + b₂) × height = ½ × (" + b1 + " + " + b2 + ") × " + h + " = " + ((b1 + b2) * h / 2) + ".", "Type a number"); },
+      function () { const a1 = rand(20, 70); return typed("Two angles are complementary. One measures " + a1 + "°. What is the other?", 90 - a1, "Complementary angles add to 90°: 90 − " + a1 + " = " + (90 - a1) + "°.", "Type a number"); },
+      function () { const a1 = rand(30, 140); return typed("Two angles are supplementary. One measures " + a1 + "°. What is the other?", 180 - a1, "Supplementary angles add to 180°: 180 − " + a1 + " = " + (180 - a1) + "°.", "Type a number"); }
     ],
     [ // CHALLENGING
-      function () { const a1 = rand(20, 70); return typed("Two angles are complementary. One measures " + a1 + "°. What is the other?", 90 - a1, "Complementary angles add to 90°: 90 − " + a1 + " = " + (90 - a1) + "°.", "Type a number"); },
-      function () { const a1 = rand(30, 140); return typed("Two angles are supplementary. One measures " + a1 + "°. What is the other?", 180 - a1, "Supplementary angles add to 180°: 180 − " + a1 + " = " + (180 - a1) + "°.", "Type a number"); },
-      function () { const l = pick([4, 6, 8, 12]), w = rand(2, 12), area = l * w; return typed("A rectangle has area " + area + " and length " + l + ". What is its width?", w, "Width = area ÷ length = " + area + " ÷ " + l + " = " + w + ".", "Type a number"); },
-      function () { const l = rand(2, 6), w = rand(2, 6), h = rand(2, 6), sa = 2 * (l * w + l * h + w * h); return typed("A box is " + l + " × " + w + " × " + h + ". What is its surface area?", sa, "Surface area = 2(lw + lh + wh) = 2(" + (l * w) + " + " + (l * h) + " + " + (w * h) + ") = " + sa + ".", "Type a number"); }
+      function () { const l = rand(2, 6), w = rand(2, 6), h = rand(2, 6), sa = 2 * (l * w + l * h + w * h); return typed("A box is " + l + " × " + w + " × " + h + ". What is its surface area?", sa, "Surface area = 2(lw + lh + wh) = 2(" + (l * w) + " + " + (l * h) + " + " + (w * h) + ") = " + sa + ".", "Type a number"); },
+      function () { const s = pick([{ r: "1 : 2 : 3", p: 6, mx: 3 }, { r: "2 : 3 : 4", p: 9, mx: 4 }, { r: "1 : 2 : 2", p: 5, mx: 2 }, { r: "1 : 3 : 5", p: 9, mx: 5 }, { r: "2 : 2 : 5", p: 9, mx: 5 }]); const one = 180 / s.p; return typed("The three angles of a triangle are in the ratio " + s.r + ". What is the largest angle? (They add to 180°.)", one * s.mx, "Parts total " + s.p + ", so one part = 180 ÷ " + s.p + " = " + one + "°. The largest is " + s.mx + " × " + one + "° = " + (one * s.mx) + "°.", "Type a number"); },
+      function () { const big = pick([8, 10, 12]), cut = rand(2, big - 3); return typed("A " + big + "-by-" + big + " square has a " + cut + "-by-" + cut + " square cut out of one corner. What area is left?", big * big - cut * cut, "Subtract the small square from the big one: " + (big * big) + " − " + (cut * cut) + " = " + (big * big - cut * cut) + ".", "Type a number"); },
+      function () { const l = pick([4, 6, 8, 12]), w = rand(2, 12), area = l * w; return typed("A rectangle has area " + area + " and length " + l + ". What is its width?", w, "Width = area ÷ length = " + area + " ÷ " + l + " = " + w + ".", "Type a number"); }
     ]
   ];
 

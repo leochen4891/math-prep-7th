@@ -1,13 +1,29 @@
 [
   {
-    "q": "Is 3 prime or composite?",
+    "q": "What is the GCF (greatest common factor) of 31 and 26?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 1."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 34 and 15?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 1."
+  },
+  {
+    "q": "Is 13 prime or composite?",
     "type": "mc",
     "choices": [
-      "Composite",
-      "Prime"
+      "Prime",
+      "Composite"
     ],
-    "answer": 1,
-    "solution": "3 has exactly two factors (1 and itself), so it is prime."
+    "answer": 0,
+    "solution": "13 has exactly two factors (1 and itself), so it is prime."
   },
   {
     "q": "What is the LCM (least common multiple) of 4 and 6?",
@@ -18,185 +34,25 @@
     "solution": "The smallest number that both 4 and 6 divide into evenly is 12."
   },
   {
-    "q": "What is the LCM (least common multiple) of 9 and 8?",
+    "q": "What is the GCF (greatest common factor) of 35 and 21?",
     "type": "typed",
     "accept": [
-      "72"
+      "7"
     ],
-    "solution": "The smallest number that both 9 and 8 divide into evenly is 72."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 9 and 40?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 8 and 3?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "The smallest number that both 8 and 3 divide into evenly is 24."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 38 and 21?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
+    "solution": "List the factors of each; the largest factor they share is 7."
   },
   {
     "q": "Is 4 prime or composite?",
     "type": "mc",
     "choices": [
-      "Composite",
-      "Prime"
+      "Prime",
+      "Composite"
     ],
-    "answer": 0,
+    "answer": 1,
     "solution": "4 has factors besides 1 and itself, so it is composite."
   },
   {
-    "q": "What is the LCM (least common multiple) of 6 and 8?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "The smallest number that both 6 and 8 divide into evenly is 24."
-  },
-  {
-    "q": "Is 11 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Prime",
-      "Composite"
-    ],
-    "answer": 0,
-    "solution": "11 has exactly two factors (1 and itself), so it is prime."
-  },
-  {
-    "q": "Is 12 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Prime",
-      "Composite"
-    ],
-    "answer": 1,
-    "solution": "12 has factors besides 1 and itself, so it is composite."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 6 and 7?",
-    "type": "typed",
-    "accept": [
-      "42"
-    ],
-    "solution": "The smallest number that both 6 and 7 divide into evenly is 42."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 38 and 22?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 2."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 3 and 7?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "The smallest number that both 3 and 7 divide into evenly is 21."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 3 and 9?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "The smallest number that both 3 and 9 divide into evenly is 9."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 2 and 3?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The smallest number that both 2 and 3 divide into evenly is 6."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 9 and 5?",
-    "type": "typed",
-    "accept": [
-      "45"
-    ],
-    "solution": "The smallest number that both 9 and 5 divide into evenly is 45."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 9 and 33?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 3."
-  },
-  {
-    "q": "Is 16 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Prime",
-      "Composite"
-    ],
-    "answer": 1,
-    "solution": "16 has factors besides 1 and itself, so it is composite."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 2 and 9?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "The smallest number that both 2 and 9 divide into evenly is 18."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 28 and 16?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 4."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 8 and 4?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The smallest number that both 8 and 4 divide into evenly is 8."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 35 and 40?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 5."
-  },
-  {
-    "q": "Is 2 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Prime",
-      "Composite"
-    ],
-    "answer": 0,
-    "solution": "2 has exactly two factors (1 and itself), so it is prime."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 10 and 38?",
+    "q": "What is the GCF (greatest common factor) of 22 and 10?",
     "type": "typed",
     "accept": [
       "2"
@@ -207,45 +63,63 @@
     "q": "Is 23 prime or composite?",
     "type": "mc",
     "choices": [
+      "Prime",
+      "Composite"
+    ],
+    "answer": 0,
+    "solution": "23 has exactly two factors (1 and itself), so it is prime."
+  },
+  {
+    "q": "What is the LCM (least common multiple) of 2 and 8?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "The smallest number that both 2 and 8 divide into evenly is 8."
+  },
+  {
+    "q": "Is 5 prime or composite?",
+    "type": "mc",
+    "choices": [
       "Composite",
       "Prime"
     ],
     "answer": 1,
-    "solution": "23 has exactly two factors (1 and itself), so it is prime."
+    "solution": "5 has exactly two factors (1 and itself), so it is prime."
   },
   {
-    "q": "Is 22 prime or composite?",
+    "q": "What is the GCF (greatest common factor) of 20 and 23?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 1."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 35 and 38?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 1."
+  },
+  {
+    "q": "Is 9 prime or composite?",
     "type": "mc",
     "choices": [
-      "Prime",
-      "Composite"
+      "Composite",
+      "Prime"
     ],
-    "answer": 1,
-    "solution": "22 has factors besides 1 and itself, so it is composite."
+    "answer": 0,
+    "solution": "9 has factors besides 1 and itself, so it is composite."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 19 and 32?",
+    "q": "What is the LCM (least common multiple) of 2 and 2?",
     "type": "typed",
     "accept": [
-      "1"
+      "2"
     ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 33 and 34?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 3 and 8?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "The smallest number that both 3 and 8 divide into evenly is 24."
+    "solution": "The smallest number that both 2 and 2 divide into evenly is 2."
   },
   {
     "q": "What is the LCM (least common multiple) of 9 and 6?",
@@ -256,25 +130,25 @@
     "solution": "The smallest number that both 9 and 6 divide into evenly is 18."
   },
   {
-    "q": "Is 29 prime or composite?",
+    "q": "Is 7 prime or composite?",
     "type": "mc",
     "choices": [
-      "Prime",
-      "Composite"
+      "Composite",
+      "Prime"
     ],
-    "answer": 0,
-    "solution": "29 has exactly two factors (1 and itself), so it is prime."
+    "answer": 1,
+    "solution": "7 has exactly two factors (1 and itself), so it is prime."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 21 and 14?",
+    "q": "What is the LCM (least common multiple) of 6 and 3?",
     "type": "typed",
     "accept": [
-      "7"
+      "6"
     ],
-    "solution": "List the factors of each; the largest factor they share is 7."
+    "solution": "The smallest number that both 6 and 3 divide into evenly is 6."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 19 and 9?",
+    "q": "What is the GCF (greatest common factor) of 23 and 39?",
     "type": "typed",
     "accept": [
       "1"
@@ -282,7 +156,25 @@
     "solution": "List the factors of each; the largest factor they share is 1."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 18 and 32?",
+    "q": "Is 21 prime or composite?",
+    "type": "mc",
+    "choices": [
+      "Prime",
+      "Composite"
+    ],
+    "answer": 1,
+    "solution": "21 has factors besides 1 and itself, so it is composite."
+  },
+  {
+    "q": "What is the LCM (least common multiple) of 6 and 9?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "The smallest number that both 6 and 9 divide into evenly is 18."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 12 and 10?",
     "type": "typed",
     "accept": [
       "2"
@@ -290,15 +182,67 @@
     "solution": "List the factors of each; the largest factor they share is 2."
   },
   {
-    "q": "What is the LCM (least common multiple) of 2 and 6?",
-    "type": "typed",
-    "accept": [
-      "6"
+    "q": "Is 11 prime or composite?",
+    "type": "mc",
+    "choices": [
+      "Composite",
+      "Prime"
     ],
-    "solution": "The smallest number that both 2 and 6 divide into evenly is 6."
+    "answer": 1,
+    "solution": "11 has exactly two factors (1 and itself), so it is prime."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 30 and 19?",
+    "q": "What is the LCM (least common multiple) of 9 and 8?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "The smallest number that both 9 and 8 divide into evenly is 72."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 35 and 40?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 5."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 15 and 40?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 5."
+  },
+  {
+    "q": "What is the LCM (least common multiple) of 9 and 2?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "The smallest number that both 9 and 2 divide into evenly is 18."
+  },
+  {
+    "q": "Is 3 prime or composite?",
+    "type": "mc",
+    "choices": [
+      "Prime",
+      "Composite"
+    ],
+    "answer": 0,
+    "solution": "3 has exactly two factors (1 and itself), so it is prime."
+  },
+  {
+    "q": "What is the LCM (least common multiple) of 7 and 8?",
+    "type": "typed",
+    "accept": [
+      "56"
+    ],
+    "solution": "The smallest number that both 7 and 8 divide into evenly is 56."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 38 and 27?",
     "type": "typed",
     "accept": [
       "1"
@@ -306,17 +250,133 @@
     "solution": "List the factors of each; the largest factor they share is 1."
   },
   {
-    "q": "Is 17 prime or composite?",
+    "q": "What is the LCM (least common multiple) of 7 and 6?",
+    "type": "typed",
+    "accept": [
+      "42"
+    ],
+    "solution": "The smallest number that both 7 and 6 divide into evenly is 42."
+  },
+  {
+    "q": "What is the LCM (least common multiple) of 7 and 4?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "The smallest number that both 7 and 4 divide into evenly is 28."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 13 and 35?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 1."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 23 and 13?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 1."
+  },
+  {
+    "q": "What is the LCM (least common multiple) of 4 and 4?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "The smallest number that both 4 and 4 divide into evenly is 4."
+  },
+  {
+    "q": "Is 12 prime or composite?",
+    "type": "mc",
+    "choices": [
+      "Composite",
+      "Prime"
+    ],
+    "answer": 0,
+    "solution": "12 has factors besides 1 and itself, so it is composite."
+  },
+  {
+    "q": "Is 10 prime or composite?",
+    "type": "mc",
+    "choices": [
+      "Composite",
+      "Prime"
+    ],
+    "answer": 0,
+    "solution": "10 has factors besides 1 and itself, so it is composite."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 10 and 28?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 2."
+  },
+  {
+    "q": "What is the LCM (least common multiple) of 5 and 8?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "The smallest number that both 5 and 8 divide into evenly is 40."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 8 and 31?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 1."
+  },
+  {
+    "q": "What is the LCM (least common multiple) of 3 and 7?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "The smallest number that both 3 and 7 divide into evenly is 21."
+  },
+  {
+    "q": "What is the LCM (least common multiple) of 3 and 3?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "The smallest number that both 3 and 3 divide into evenly is 3."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 29 and 23?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 1."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 31 and 15?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 1."
+  },
+  {
+    "q": "Is 29 prime or composite?",
     "type": "mc",
     "choices": [
       "Composite",
       "Prime"
     ],
     "answer": 1,
-    "solution": "17 has exactly two factors (1 and itself), so it is prime."
+    "solution": "29 has exactly two factors (1 and itself), so it is prime."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 22 and 27?",
+    "q": "What is the GCF (greatest common factor) of 17 and 13?",
     "type": "typed",
     "accept": [
       "1"
@@ -334,23 +394,7 @@
     "solution": "19 has exactly two factors (1 and itself), so it is prime."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 10 and 10?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 10."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 15 and 10?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 5."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 18 and 37?",
+    "q": "What is the GCF (greatest common factor) of 27 and 34?",
     "type": "typed",
     "accept": [
       "1"
@@ -358,41 +402,7 @@
     "solution": "List the factors of each; the largest factor they share is 1."
   },
   {
-    "q": "What is the LCM (least common multiple) of 5 and 5?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "The smallest number that both 5 and 5 divide into evenly is 5."
-  },
-  {
-    "q": "Is 6 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Prime",
-      "Composite"
-    ],
-    "answer": 1,
-    "solution": "6 has factors besides 1 and itself, so it is composite."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 3 and 4?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "The smallest number that both 3 and 4 divide into evenly is 12."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 6 and 5?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "The smallest number that both 6 and 5 divide into evenly is 30."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 25 and 16?",
+    "q": "What is the GCF (greatest common factor) of 39 and 23?",
     "type": "typed",
     "accept": [
       "1"
@@ -400,17 +410,33 @@
     "solution": "List the factors of each; the largest factor they share is 1."
   },
   {
-    "q": "Is 8 prime or composite?",
+    "q": "What is the LCM (least common multiple) of 2 and 4?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "The smallest number that both 2 and 4 divide into evenly is 4."
+  },
+  {
+    "q": "What is the GCF (greatest common factor) of 38 and 23?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "List the factors of each; the largest factor they share is 1."
+  },
+  {
+    "q": "Is 16 prime or composite?",
     "type": "mc",
     "choices": [
       "Composite",
       "Prime"
     ],
     "answer": 0,
-    "solution": "8 has factors besides 1 and itself, so it is composite."
+    "solution": "16 has factors besides 1 and itself, so it is composite."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 26 and 19?",
+    "q": "What is the GCF (greatest common factor) of 20 and 39?",
     "type": "typed",
     "accept": [
       "1"
@@ -418,7 +444,7 @@
     "solution": "List the factors of each; the largest factor they share is 1."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 10 and 39?",
+    "q": "What is the GCF (greatest common factor) of 23 and 34?",
     "type": "typed",
     "accept": [
       "1"
@@ -426,63 +452,49 @@
     "solution": "List the factors of each; the largest factor they share is 1."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 12 and 24?",
+    "q": "What is the LCM (least common multiple) of 4 and 7?",
     "type": "typed",
     "accept": [
-      "12"
+      "28"
     ],
-    "solution": "List the factors of each; the largest factor they share is 12."
+    "solution": "The smallest number that both 4 and 7 divide into evenly is 28."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 15 and 24?",
+    "q": "Is 14 prime or composite?",
+    "type": "mc",
+    "choices": [
+      "Composite",
+      "Prime"
+    ],
+    "answer": 0,
+    "solution": "14 has factors besides 1 and itself, so it is composite."
+  },
+  {
+    "q": "What is the LCM (least common multiple) of 7 and 7?",
     "type": "typed",
     "accept": [
-      "3"
+      "7"
     ],
-    "solution": "List the factors of each; the largest factor they share is 3."
+    "solution": "The smallest number that both 7 and 7 divide into evenly is 7."
   },
   {
-    "q": "What is the LCM (least common multiple) of 8 and 8?",
+    "q": "What is the GCF (greatest common factor) of 36 and 18?",
     "type": "typed",
     "accept": [
-      "8"
+      "18"
     ],
-    "solution": "The smallest number that both 8 and 8 divide into evenly is 8."
+    "solution": "List the factors of each; the largest factor they share is 18."
   },
   {
-    "q": "What is the LCM (least common multiple) of 2 and 5?",
+    "q": "What is the LCM (least common multiple) of 3 and 9?",
     "type": "typed",
     "accept": [
-      "10"
+      "9"
     ],
-    "solution": "The smallest number that both 2 and 5 divide into evenly is 10."
+    "solution": "The smallest number that both 3 and 9 divide into evenly is 9."
   },
   {
-    "q": "What is the GCF (greatest common factor) of 16 and 18?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 2."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 10 and 18?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 2."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 26 and 10?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 2."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 37 and 31?",
+    "q": "What is the GCF (greatest common factor) of 39 and 34?",
     "type": "typed",
     "accept": [
       "1"
@@ -490,15 +502,7 @@
     "solution": "List the factors of each; the largest factor they share is 1."
   },
   {
-    "q": "What is the LCM (least common multiple) of 7 and 2?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "The smallest number that both 7 and 2 divide into evenly is 14."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 24 and 25?",
+    "q": "What is the GCF (greatest common factor) of 21 and 40?",
     "type": "typed",
     "accept": [
       "1"
