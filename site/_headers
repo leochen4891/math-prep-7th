@@ -1,0 +1,4 @@
+# Always let the browser revalidate (cheap 304s via etag) so new deploys
+# and merged question PRs show up immediately — no more hard-refresh needed.
+/*
+  Cache-Control: public, max-age=0, must-revalidate
