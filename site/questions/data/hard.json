@@ -1,0 +1,490 @@
+[
+  {
+    "q": "Find the median of 3, 4, 4, 5, 7, 9.",
+    "type": "typed",
+    "accept": [
+      "4.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 5) ÷ 2 = 4.5."
+  },
+  {
+    "q": "Find the median of 1, 2, 4, 4, 7, 8.",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 4) ÷ 2 = 4."
+  },
+  {
+    "q": "A bag has 4 red and 3 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "4/7"
+    ],
+    "solution": "P(red) = red ÷ total = 4/7."
+  },
+  {
+    "q": "The mean of four numbers is 10. Three of them are 4, 3, 7. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "The four must total 10 × 4 = 40. Subtract the known sum: 40 − 14 = 26."
+  },
+  {
+    "q": "Find the median of 2, 5, 6, 7, 8, 9.",
+    "type": "typed",
+    "accept": [
+      "6.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (6 + 7) ÷ 2 = 6.5."
+  },
+  {
+    "q": "A bag has 6 red and 2 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "3/4",
+      "6/8"
+    ],
+    "solution": "P(red) = red ÷ total = 6/8 = 3/4."
+  },
+  {
+    "q": "Find the median of 1, 2, 4, 4, 4, 4.",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 4) ÷ 2 = 4."
+  },
+  {
+    "q": "Find the median of 1, 1, 2, 5, 6, 9.",
+    "type": "typed",
+    "accept": [
+      "3.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (2 + 5) ÷ 2 = 3.5."
+  },
+  {
+    "q": "Find the median of 1, 1, 3, 3, 3, 3.",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (3 + 3) ÷ 2 = 3."
+  },
+  {
+    "q": "Find the median of 2, 3, 3, 7, 7, 8.",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (3 + 7) ÷ 2 = 5."
+  },
+  {
+    "q": "A bag has 6 red and 5 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "6/11"
+    ],
+    "solution": "P(red) = red ÷ total = 6/11."
+  },
+  {
+    "q": "Find the median of 1, 2, 4, 7, 7, 8.",
+    "type": "typed",
+    "accept": [
+      "5.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 7) ÷ 2 = 5.5."
+  },
+  {
+    "q": "Find the median of 2, 5, 5, 7, 8, 8.",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (5 + 7) ÷ 2 = 6."
+  },
+  {
+    "q": "Find the median of 1, 3, 3, 4, 5, 6.",
+    "type": "typed",
+    "accept": [
+      "3.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (3 + 4) ÷ 2 = 3.5."
+  },
+  {
+    "q": "The mean of four numbers is 8. Three of them are 2, 4, 3. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "The four must total 8 × 4 = 32. Subtract the known sum: 32 − 9 = 23."
+  },
+  {
+    "q": "A bag has 4 red and 5 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "4/9"
+    ],
+    "solution": "P(red) = red ÷ total = 4/9."
+  },
+  {
+    "q": "Find the median of 1, 3, 4, 5, 8, 9.",
+    "type": "typed",
+    "accept": [
+      "4.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 5) ÷ 2 = 4.5."
+  },
+  {
+    "q": "The mean of four numbers is 5. Three of them are 1, 9, 9. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The four must total 5 × 4 = 20. Subtract the known sum: 20 − 19 = 1."
+  },
+  {
+    "q": "The mean of four numbers is 8. Three of them are 1, 9, 5. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "The four must total 8 × 4 = 32. Subtract the known sum: 32 − 15 = 17."
+  },
+  {
+    "q": "The mean of four numbers is 7. Three of them are 8, 1, 7. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "The four must total 7 × 4 = 28. Subtract the known sum: 28 − 16 = 12."
+  },
+  {
+    "q": "The mean of four numbers is 7. Three of them are 2, 5, 7. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "The four must total 7 × 4 = 28. Subtract the known sum: 28 − 14 = 14."
+  },
+  {
+    "q": "Find the median of 1, 3, 4, 5, 6, 7.",
+    "type": "typed",
+    "accept": [
+      "4.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 5) ÷ 2 = 4.5."
+  },
+  {
+    "q": "The mean of four numbers is 6. Three of them are 7, 1, 8. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "The four must total 6 × 4 = 24. Subtract the known sum: 24 − 16 = 8."
+  },
+  {
+    "q": "A bag has 5 red and 5 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/2",
+      "5/10"
+    ],
+    "solution": "P(red) = red ÷ total = 5/10 = 1/2."
+  },
+  {
+    "q": "A bag has 2 red and 3 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "2/5"
+    ],
+    "solution": "P(red) = red ÷ total = 2/5."
+  },
+  {
+    "q": "The mean of four numbers is 5. Three of them are 6, 8, 9. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "-3"
+    ],
+    "solution": "The four must total 5 × 4 = 20. Subtract the known sum: 20 − 23 = -3."
+  },
+  {
+    "q": "Find the median of 2, 3, 4, 7, 7, 8.",
+    "type": "typed",
+    "accept": [
+      "5.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 7) ÷ 2 = 5.5."
+  },
+  {
+    "q": "Find the median of 1, 1, 2, 4, 6, 8.",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (2 + 4) ÷ 2 = 3."
+  },
+  {
+    "q": "A bag has 6 red and 6 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/2",
+      "6/12"
+    ],
+    "solution": "P(red) = red ÷ total = 6/12 = 1/2."
+  },
+  {
+    "q": "Find the median of 3, 3, 3, 6, 8, 8.",
+    "type": "typed",
+    "accept": [
+      "4.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (3 + 6) ÷ 2 = 4.5."
+  },
+  {
+    "q": "The mean of four numbers is 6. Three of them are 4, 4, 4. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "The four must total 6 × 4 = 24. Subtract the known sum: 24 − 12 = 12."
+  },
+  {
+    "q": "The mean of four numbers is 10. Three of them are 7, 3, 9. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "The four must total 10 × 4 = 40. Subtract the known sum: 40 − 19 = 21."
+  },
+  {
+    "q": "Find the median of 2, 3, 5, 5, 9, 9.",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (5 + 5) ÷ 2 = 5."
+  },
+  {
+    "q": "A bag has 5 red and 3 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "5/8"
+    ],
+    "solution": "P(red) = red ÷ total = 5/8."
+  },
+  {
+    "q": "A bag has 5 red and 6 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "5/11"
+    ],
+    "solution": "P(red) = red ÷ total = 5/11."
+  },
+  {
+    "q": "Find the median of 2, 3, 4, 5, 6, 8.",
+    "type": "typed",
+    "accept": [
+      "4.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 5) ÷ 2 = 4.5."
+  },
+  {
+    "q": "A bag has 2 red and 5 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "2/7"
+    ],
+    "solution": "P(red) = red ÷ total = 2/7."
+  },
+  {
+    "q": "The mean of four numbers is 6. Three of them are 3, 5, 9. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "The four must total 6 × 4 = 24. Subtract the known sum: 24 − 17 = 7."
+  },
+  {
+    "q": "Find the median of 1, 2, 6, 6, 9, 9.",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (6 + 6) ÷ 2 = 6."
+  },
+  {
+    "q": "Find the median of 1, 2, 4, 5, 7, 8.",
+    "type": "typed",
+    "accept": [
+      "4.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 5) ÷ 2 = 4.5."
+  },
+  {
+    "q": "A bag has 3 red and 6 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/3",
+      "3/9"
+    ],
+    "solution": "P(red) = red ÷ total = 3/9 = 1/3."
+  },
+  {
+    "q": "Find the median of 1, 1, 4, 7, 8, 9.",
+    "type": "typed",
+    "accept": [
+      "5.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 7) ÷ 2 = 5.5."
+  },
+  {
+    "q": "Find the median of 3, 3, 4, 7, 9, 9.",
+    "type": "typed",
+    "accept": [
+      "5.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 7) ÷ 2 = 5.5."
+  },
+  {
+    "q": "The mean of four numbers is 6. Three of them are 6, 4, 4. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "The four must total 6 × 4 = 24. Subtract the known sum: 24 − 14 = 10."
+  },
+  {
+    "q": "A bag has 4 red and 4 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/2",
+      "4/8"
+    ],
+    "solution": "P(red) = red ÷ total = 4/8 = 1/2."
+  },
+  {
+    "q": "The mean of four numbers is 10. Three of them are 4, 1, 7. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "The four must total 10 × 4 = 40. Subtract the known sum: 40 − 12 = 28."
+  },
+  {
+    "q": "A bag has 6 red and 3 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "2/3",
+      "6/9"
+    ],
+    "solution": "P(red) = red ÷ total = 6/9 = 2/3."
+  },
+  {
+    "q": "The mean of four numbers is 10. Three of them are 6, 4, 5. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "The four must total 10 × 4 = 40. Subtract the known sum: 40 − 15 = 25."
+  },
+  {
+    "q": "Find the median of 1, 3, 3, 4, 9, 9.",
+    "type": "typed",
+    "accept": [
+      "3.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (3 + 4) ÷ 2 = 3.5."
+  },
+  {
+    "q": "A bag has 4 red and 2 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "2/3",
+      "4/6"
+    ],
+    "solution": "P(red) = red ÷ total = 4/6 = 2/3."
+  },
+  {
+    "q": "Find the median of 1, 2, 4, 7, 8, 9.",
+    "type": "typed",
+    "accept": [
+      "5.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 7) ÷ 2 = 5.5."
+  },
+  {
+    "q": "The mean of four numbers is 7. Three of them are 4, 9, 6. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "The four must total 7 × 4 = 28. Subtract the known sum: 28 − 19 = 9."
+  },
+  {
+    "q": "The mean of four numbers is 10. Three of them are 3, 9, 6. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "The four must total 10 × 4 = 40. Subtract the known sum: 40 − 18 = 22."
+  },
+  {
+    "q": "Find the median of 1, 4, 4, 6, 8, 9.",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (4 + 6) ÷ 2 = 5."
+  },
+  {
+    "q": "Find the median of 1, 3, 6, 7, 8, 9.",
+    "type": "typed",
+    "accept": [
+      "6.5"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (6 + 7) ÷ 2 = 6.5."
+  },
+  {
+    "q": "The mean of four numbers is 5. Three of them are 4, 5, 7. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "The four must total 5 × 4 = 20. Subtract the known sum: 20 − 16 = 4."
+  },
+  {
+    "q": "The mean of four numbers is 8. Three of them are 9, 5, 5. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "The four must total 8 × 4 = 32. Subtract the known sum: 32 − 19 = 13."
+  },
+  {
+    "q": "Find the median of 1, 3, 6, 8, 8, 8.",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "With 6 numbers there are two middle ones — average them: (6 + 8) ÷ 2 = 7."
+  },
+  {
+    "q": "The mean of four numbers is 7. Three of them are 2, 4, 5. What is the fourth?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "The four must total 7 × 4 = 28. Subtract the known sum: 28 − 11 = 17."
+  },
+  {
+    "q": "A bag has 4 red and 6 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "2/5",
+      "4/10"
+    ],
+    "solution": "P(red) = red ÷ total = 4/10 = 2/5."
+  }
+]

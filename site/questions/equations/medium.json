@@ -1,235 +1,27 @@
 [
   {
-    "q": "Solve: 4x − 7 = 17<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
+    "q": "Solve the inequality: x + 6 > 9",
+    "type": "mc",
+    "choices": [
+      "x < 9",
+      "x < 3",
+      "x > 9",
+      "x > 3"
     ],
-    "solution": "Add 7 → 4x = 24. Divide by 4 → x = 6."
+    "answer": 3,
+    "solution": "Subtract 6 from both sides: x > 9 − 6, so x > 3."
   },
   {
-    "q": "Solve: 3x − 8 = 13<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
+    "q": "Solve the inequality: x + 1 > 10",
+    "type": "mc",
+    "choices": [
+      "x > 10",
+      "x < 9",
+      "x > 9",
+      "x < 10"
     ],
-    "solution": "Add 8 → 3x = 21. Divide by 3 → x = 7."
-  },
-  {
-    "q": "Solve: 3x − 7 = 17<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Add 7 → 3x = 24. Divide by 3 → x = 8."
-  },
-  {
-    "q": "Solve: 2x − 4 = 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Add 4 → 2x = 6. Divide by 2 → x = 3."
-  },
-  {
-    "q": "Solve: x/3 = 8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "Multiply both sides by 3: x = 24."
-  },
-  {
-    "q": "Solve: 2x + 9 = 21<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Subtract 9 → 2x = 12. Divide by 2 → x = 6."
-  },
-  {
-    "q": "Solve: x/4 = 6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "Multiply both sides by 4: x = 24."
-  },
-  {
-    "q": "Solve: 2x − 4 = 4<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Add 4 → 2x = 8. Divide by 2 → x = 4."
-  },
-  {
-    "q": "Solve: 4x − 2 = 14<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Add 2 → 4x = 16. Divide by 4 → x = 4."
-  },
-  {
-    "q": "Solve: 2x − 2 = 12<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Add 2 → 2x = 14. Divide by 2 → x = 7."
-  },
-  {
-    "q": "Solve: x/2 = 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Multiply both sides by 2: x = 4."
-  },
-  {
-    "q": "Solve: x/3 = 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Multiply both sides by 3: x = 6."
-  },
-  {
-    "q": "Solve: x/3 = 6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Multiply both sides by 3: x = 18."
-  },
-  {
-    "q": "Solve: 2x − 7 = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Add 7 → 2x = 14. Divide by 2 → x = 7."
-  },
-  {
-    "q": "Solve: 4x − 2 = 30<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Add 2 → 4x = 32. Divide by 4 → x = 8."
-  },
-  {
-    "q": "Solve: 3x − 4 = 20<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Add 4 → 3x = 24. Divide by 3 → x = 8."
-  },
-  {
-    "q": "Solve: x/2 = 3<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Multiply both sides by 2: x = 6."
-  },
-  {
-    "q": "Solve: 2x + 6 = 20<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Subtract 6 → 2x = 14. Divide by 2 → x = 7."
-  },
-  {
-    "q": "Solve: 3x − 1 = 11<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Add 1 → 3x = 12. Divide by 3 → x = 4."
-  },
-  {
-    "q": "Solve: 4x − 1 = 31<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Add 1 → 4x = 32. Divide by 4 → x = 8."
-  },
-  {
-    "q": "Solve: 4x − 7 = 25<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Add 7 → 4x = 32. Divide by 4 → x = 8."
-  },
-  {
-    "q": "Solve: 4x − 3 = 33<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Add 3 → 4x = 36. Divide by 4 → x = 9."
-  },
-  {
-    "q": "Solve: 4x − 2 = 26<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Add 2 → 4x = 28. Divide by 4 → x = 7."
-  },
-  {
-    "q": "Solve: x/4 = 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiply both sides by 4: x = 8."
-  },
-  {
-    "q": "Solve: 4x − 8 = 0<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Add 8 → 4x = 8. Divide by 4 → x = 2."
-  },
-  {
-    "q": "Solve: x/4 = 8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "Multiply both sides by 4: x = 32."
-  },
-  {
-    "q": "Solve: 3x + 8 = 35<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Subtract 8 → 3x = 27. Divide by 3 → x = 9."
-  },
-  {
-    "q": "Solve: 3x − 6 = 12<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Add 6 → 3x = 18. Divide by 3 → x = 6."
-  },
-  {
-    "q": "Solve: 2x − 3 = 9<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Add 3 → 2x = 12. Divide by 2 → x = 6."
+    "answer": 2,
+    "solution": "Subtract 1 from both sides: x > 10 − 1, so x > 9."
   },
   {
     "q": "Solve: x/4 = 3<br>x = ?",
@@ -240,52 +32,92 @@
     "solution": "Multiply both sides by 4: x = 12."
   },
   {
-    "q": "Solve: 5x + 4 = 39<br>x = ?",
+    "q": "Solve: 2x + 3 = 11<br>x = ?",
     "type": "typed",
     "accept": [
-      "7"
+      "4"
     ],
-    "solution": "Subtract 4 → 5x = 35. Divide by 5 → x = 7."
+    "solution": "Subtract 3 → 2x = 8. Divide by 2 → x = 4."
   },
   {
-    "q": "Solve: 4x − 3 = 25<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Add 3 → 4x = 28. Divide by 4 → x = 7."
-  },
-  {
-    "q": "Solve: 4x − 6 = 6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Add 6 → 4x = 12. Divide by 4 → x = 3."
-  },
-  {
-    "q": "Solve: 3x − 7 = 11<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Add 7 → 3x = 18. Divide by 3 → x = 6."
-  },
-  {
-    "q": "Solve: 2x − 2 = 2<br>x = ?",
+    "q": "Solve: 2x + 5 = 9<br>x = ?",
     "type": "typed",
     "accept": [
       "2"
     ],
-    "solution": "Add 2 → 2x = 4. Divide by 2 → x = 2."
+    "solution": "Subtract 5 → 2x = 4. Divide by 2 → x = 2."
   },
   {
-    "q": "Solve: x/3 = 3<br>x = ?",
+    "q": "Solve: 4x − 6 = 18<br>x = ?",
     "type": "typed",
     "accept": [
-      "9"
+      "6"
     ],
-    "solution": "Multiply both sides by 3: x = 9."
+    "solution": "Add 6 → 4x = 24. Divide by 4 → x = 6."
+  },
+  {
+    "q": "Solve the inequality: x + 5 > 6",
+    "type": "mc",
+    "choices": [
+      "x < 1",
+      "x < 6",
+      "x > 1",
+      "x > 6"
+    ],
+    "answer": 2,
+    "solution": "Subtract 5 from both sides: x > 6 − 5, so x > 1."
+  },
+  {
+    "q": "Solve the inequality: x + 9 > 10",
+    "type": "mc",
+    "choices": [
+      "x < 1",
+      "x < 10",
+      "x > 1",
+      "x > 10"
+    ],
+    "answer": 2,
+    "solution": "Subtract 9 from both sides: x > 10 − 9, so x > 1."
+  },
+  {
+    "q": "Solve the inequality: x + 1 > 2",
+    "type": "mc",
+    "choices": [
+      "x > 2",
+      "x < 1",
+      "x > 1",
+      "x < 2"
+    ],
+    "answer": 2,
+    "solution": "Subtract 1 from both sides: x > 2 − 1, so x > 1."
+  },
+  {
+    "q": "Solve the inequality: x + 5 > 14",
+    "type": "mc",
+    "choices": [
+      "x < 9",
+      "x < 14",
+      "x > 9",
+      "x > 14"
+    ],
+    "answer": 2,
+    "solution": "Subtract 5 from both sides: x > 14 − 5, so x > 9."
+  },
+  {
+    "q": "Solve: 2x − 3 = 11<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Add 3 → 2x = 14. Divide by 2 → x = 7."
+  },
+  {
+    "q": "Solve: x/3 = 2<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Multiply both sides by 3: x = 6."
   },
   {
     "q": "Solve: x/4 = 7<br>x = ?",
@@ -296,44 +128,28 @@
     "solution": "Multiply both sides by 4: x = 28."
   },
   {
-    "q": "Solve: 3x + 4 = 22<br>x = ?",
+    "q": "Solve: 4x − 5 = 31<br>x = ?",
     "type": "typed",
     "accept": [
-      "6"
+      "9"
     ],
-    "solution": "Subtract 4 → 3x = 18. Divide by 3 → x = 6."
+    "solution": "Add 5 → 4x = 36. Divide by 4 → x = 9."
   },
   {
-    "q": "Solve: 2x + 6 = 10<br>x = ?",
+    "q": "Solve: x/2 = 8<br>x = ?",
     "type": "typed",
     "accept": [
-      "2"
+      "16"
     ],
-    "solution": "Subtract 6 → 2x = 4. Divide by 2 → x = 2."
+    "solution": "Multiply both sides by 2: x = 16."
   },
   {
-    "q": "Solve: 3x + 9 = 33<br>x = ?",
+    "q": "Solve: x/3 = 8<br>x = ?",
     "type": "typed",
     "accept": [
-      "8"
+      "24"
     ],
-    "solution": "Subtract 9 → 3x = 24. Divide by 3 → x = 8."
-  },
-  {
-    "q": "Solve: 3x + 7 = 13<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Subtract 7 → 3x = 6. Divide by 3 → x = 2."
-  },
-  {
-    "q": "Solve: 2x − 8 = 6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Add 8 → 2x = 14. Divide by 2 → x = 7."
+    "solution": "Multiply both sides by 3: x = 24."
   },
   {
     "q": "Solve: 3x + 8 = 17<br>x = ?",
@@ -344,60 +160,92 @@
     "solution": "Subtract 8 → 3x = 9. Divide by 3 → x = 3."
   },
   {
-    "q": "Solve: 2x + 3 = 7<br>x = ?",
+    "q": "Solve: 4x − 8 = 16<br>x = ?",
     "type": "typed",
     "accept": [
-      "2"
+      "6"
     ],
-    "solution": "Subtract 3 → 2x = 4. Divide by 2 → x = 2."
+    "solution": "Add 8 → 4x = 24. Divide by 4 → x = 6."
   },
   {
-    "q": "Solve: 2x − 5 = 9<br>x = ?",
+    "q": "Solve: x/4 = 8<br>x = ?",
     "type": "typed",
     "accept": [
-      "7"
+      "32"
     ],
-    "solution": "Add 5 → 2x = 14. Divide by 2 → x = 7."
+    "solution": "Multiply both sides by 4: x = 32."
   },
   {
-    "q": "Solve: 3x − 8 = 16<br>x = ?",
+    "q": "Solve: x/3 = 5<br>x = ?",
     "type": "typed",
     "accept": [
-      "8"
+      "15"
     ],
-    "solution": "Add 8 → 3x = 24. Divide by 3 → x = 8."
+    "solution": "Multiply both sides by 3: x = 15."
   },
   {
-    "q": "Solve: 4x + 8 = 44<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Subtract 8 → 4x = 36. Divide by 4 → x = 9."
-  },
-  {
-    "q": "Solve: 3x + 2 = 17<br>x = ?",
+    "q": "Solve: 2x − 7 = 3<br>x = ?",
     "type": "typed",
     "accept": [
       "5"
     ],
-    "solution": "Subtract 2 → 3x = 15. Divide by 3 → x = 5."
+    "solution": "Add 7 → 2x = 10. Divide by 2 → x = 5."
   },
   {
-    "q": "Solve: x/2 = 9<br>x = ?",
+    "q": "Solve the inequality: x + 9 > 12",
+    "type": "mc",
+    "choices": [
+      "x < 3",
+      "x > 12",
+      "x < 12",
+      "x > 3"
+    ],
+    "answer": 3,
+    "solution": "Subtract 9 from both sides: x > 12 − 9, so x > 3."
+  },
+  {
+    "q": "Solve: x/3 = 6<br>x = ?",
     "type": "typed",
     "accept": [
       "18"
     ],
-    "solution": "Multiply both sides by 2: x = 18."
+    "solution": "Multiply both sides by 3: x = 18."
   },
   {
-    "q": "Solve: 2x + 7 = 17<br>x = ?",
+    "q": "Solve the inequality: x + 7 > 11",
+    "type": "mc",
+    "choices": [
+      "x < 4",
+      "x < 11",
+      "x > 4",
+      "x > 11"
+    ],
+    "answer": 2,
+    "solution": "Subtract 7 from both sides: x > 11 − 7, so x > 4."
+  },
+  {
+    "q": "Solve: 3x − 1 = 17<br>x = ?",
     "type": "typed",
     "accept": [
-      "5"
+      "6"
     ],
-    "solution": "Subtract 7 → 2x = 10. Divide by 2 → x = 5."
+    "solution": "Add 1 → 3x = 18. Divide by 3 → x = 6."
+  },
+  {
+    "q": "Solve: 2x − 4 = 10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Add 4 → 2x = 14. Divide by 2 → x = 7."
+  },
+  {
+    "q": "Solve: 2x − 6 = 2<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Add 6 → 2x = 8. Divide by 2 → x = 4."
   },
   {
     "q": "Solve: x/2 = 5<br>x = ?",
@@ -408,28 +256,24 @@
     "solution": "Multiply both sides by 2: x = 10."
   },
   {
-    "q": "Solve: x/3 = 7<br>x = ?",
+    "q": "Solve: 2x + 9 = 23<br>x = ?",
     "type": "typed",
     "accept": [
-      "21"
+      "7"
     ],
-    "solution": "Multiply both sides by 3: x = 21."
+    "solution": "Subtract 9 → 2x = 14. Divide by 2 → x = 7."
   },
   {
-    "q": "Solve: 5x + 1 = 11<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
+    "q": "Solve the inequality: x + 2 > 7",
+    "type": "mc",
+    "choices": [
+      "x < 5",
+      "x > 7",
+      "x > 5",
+      "x < 7"
     ],
-    "solution": "Subtract 1 → 5x = 10. Divide by 5 → x = 2."
-  },
-  {
-    "q": "Solve: 2x + 9 = 27<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Subtract 9 → 2x = 18. Divide by 2 → x = 9."
+    "answer": 2,
+    "solution": "Subtract 2 from both sides: x > 7 − 2, so x > 5."
   },
   {
     "q": "Solve: x/4 = 9<br>x = ?",
@@ -440,6 +284,22 @@
     "solution": "Multiply both sides by 4: x = 36."
   },
   {
+    "q": "Solve: 3x − 8 = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Add 8 → 3x = 15. Divide by 3 → x = 5."
+  },
+  {
+    "q": "Solve: 3x − 2 = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Add 2 → 3x = 9. Divide by 3 → x = 3."
+  },
+  {
     "q": "Solve: x/2 = 7<br>x = ?",
     "type": "typed",
     "accept": [
@@ -448,35 +308,239 @@
     "solution": "Multiply both sides by 2: x = 14."
   },
   {
-    "q": "Solve: 4x − 2 = 6<br>x = ?",
+    "q": "Solve: 3x − 4 = 17<br>x = ?",
     "type": "typed",
     "accept": [
-      "2"
+      "7"
     ],
-    "solution": "Add 2 → 4x = 8. Divide by 4 → x = 2."
+    "solution": "Add 4 → 3x = 21. Divide by 3 → x = 7."
   },
   {
-    "q": "Solve: 3x + 5 = 32<br>x = ?",
+    "q": "Solve: x/3 = 3<br>x = ?",
     "type": "typed",
     "accept": [
       "9"
     ],
-    "solution": "Subtract 5 → 3x = 27. Divide by 3 → x = 9."
+    "solution": "Multiply both sides by 3: x = 9."
   },
   {
-    "q": "Solve: x/2 = 4<br>x = ?",
+    "q": "Solve: 3x + 5 = 17<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 5 → 3x = 12. Divide by 3 → x = 4."
+  },
+  {
+    "q": "Solve: x/3 = 4<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Multiply both sides by 3: x = 12."
+  },
+  {
+    "q": "Solve: 2x − 7 = 11<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Add 7 → 2x = 18. Divide by 2 → x = 9."
+  },
+  {
+    "q": "Solve the inequality: x + 2 > 5",
+    "type": "mc",
+    "choices": [
+      "x > 5",
+      "x > 3",
+      "x < 3",
+      "x < 5"
+    ],
+    "answer": 1,
+    "solution": "Subtract 2 from both sides: x > 5 − 2, so x > 3."
+  },
+  {
+    "q": "Solve the inequality: x + 8 > 14",
+    "type": "mc",
+    "choices": [
+      "x < 14",
+      "x > 14",
+      "x > 6",
+      "x < 6"
+    ],
+    "answer": 2,
+    "solution": "Subtract 8 from both sides: x > 14 − 8, so x > 6."
+  },
+  {
+    "q": "Solve: 4x + 1 = 17<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 1 → 4x = 16. Divide by 4 → x = 4."
+  },
+  {
+    "q": "Solve: 2x + 6 = 22<br>x = ?",
     "type": "typed",
     "accept": [
       "8"
     ],
-    "solution": "Multiply both sides by 2: x = 8."
+    "solution": "Subtract 6 → 2x = 16. Divide by 2 → x = 8."
   },
   {
-    "q": "Solve: 3x − 5 = 1<br>x = ?",
+    "q": "Solve: 5x + 1 = 16<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Subtract 1 → 5x = 15. Divide by 5 → x = 3."
+  },
+  {
+    "q": "Solve: 2x − 8 = 10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Add 8 → 2x = 18. Divide by 2 → x = 9."
+  },
+  {
+    "q": "Solve the inequality: x + 6 > 7",
+    "type": "mc",
+    "choices": [
+      "x > 1",
+      "x > 7",
+      "x < 1",
+      "x < 7"
+    ],
+    "answer": 0,
+    "solution": "Subtract 6 from both sides: x > 7 − 6, so x > 1."
+  },
+  {
+    "q": "Solve: 4x − 7 = 1<br>x = ?",
     "type": "typed",
     "accept": [
       "2"
     ],
-    "solution": "Add 5 → 3x = 6. Divide by 3 → x = 2."
+    "solution": "Add 7 → 4x = 8. Divide by 4 → x = 2."
+  },
+  {
+    "q": "Solve: 3x + 5 = 23<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract 5 → 3x = 18. Divide by 3 → x = 6."
+  },
+  {
+    "q": "Solve: 3x + 8 = 32<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Subtract 8 → 3x = 24. Divide by 3 → x = 8."
+  },
+  {
+    "q": "Solve: x/3 = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Multiply both sides by 3: x = 21."
+  },
+  {
+    "q": "Solve the inequality: x + 8 > 12",
+    "type": "mc",
+    "choices": [
+      "x < 4",
+      "x > 4",
+      "x < 12",
+      "x > 12"
+    ],
+    "answer": 1,
+    "solution": "Subtract 8 from both sides: x > 12 − 8, so x > 4."
+  },
+  {
+    "q": "Solve: 4x + 4 = 20<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 4 → 4x = 16. Divide by 4 → x = 4."
+  },
+  {
+    "q": "Solve: 3x − 8 = 1<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Add 8 → 3x = 9. Divide by 3 → x = 3."
+  },
+  {
+    "q": "Solve: 3x − 4 = 23<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Add 4 → 3x = 27. Divide by 3 → x = 9."
+  },
+  {
+    "q": "Solve the inequality: x + 5 > 8",
+    "type": "mc",
+    "choices": [
+      "x > 3",
+      "x < 8",
+      "x > 8",
+      "x < 3"
+    ],
+    "answer": 0,
+    "solution": "Subtract 5 from both sides: x > 8 − 5, so x > 3."
+  },
+  {
+    "q": "Solve: 4x − 3 = 29<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Add 3 → 4x = 32. Divide by 4 → x = 8."
+  },
+  {
+    "q": "Solve: 2x − 4 = 4<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Add 4 → 2x = 8. Divide by 2 → x = 4."
+  },
+  {
+    "q": "Solve the inequality: x + 5 > 10",
+    "type": "mc",
+    "choices": [
+      "x < 10",
+      "x < 5",
+      "x > 10",
+      "x > 5"
+    ],
+    "answer": 3,
+    "solution": "Subtract 5 from both sides: x > 10 − 5, so x > 5."
+  },
+  {
+    "q": "Solve the inequality: x + 9 > 15",
+    "type": "mc",
+    "choices": [
+      "x < 6",
+      "x > 6",
+      "x > 15",
+      "x < 15"
+    ],
+    "answer": 1,
+    "solution": "Subtract 9 from both sides: x > 15 − 9, so x > 6."
+  },
+  {
+    "q": "Solve: 2x − 6 = 8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Add 6 → 2x = 14. Divide by 2 → x = 7."
   }
 ]

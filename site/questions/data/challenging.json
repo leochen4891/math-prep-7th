@@ -1,0 +1,491 @@
+[
+  {
+    "q": "Three numbers are 4, 6, 7. What value must be added so that the mean of all four is 7?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Four numbers averaging 7 total 28. The new value = 28 − 17 = 11."
+  },
+  {
+    "q": "A spinner has 8 equal sections, 3 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "3/8"
+    ],
+    "solution": "P(blue) = blue ÷ total = 3/8."
+  },
+  {
+    "q": "Three numbers are 2, 2, 3. What value must be added so that the mean of all four is 8?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 7 = 25."
+  },
+  {
+    "q": "Three numbers are 7, 5, 2. What value must be added so that the mean of all four is 5?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Four numbers averaging 5 total 20. The new value = 20 − 14 = 6."
+  },
+  {
+    "q": "Your average on 4 tests is 82. What must you score on the next test to raise your average to 85?",
+    "type": "typed",
+    "accept": [
+      "97"
+    ],
+    "solution": "You need a total of 5 × 85 = 425. You already have 4 × 82 = 328. So you need 425 − 328 = 97."
+  },
+  {
+    "q": "A spinner has 6 equal sections, 4 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "2/3",
+      "4/6"
+    ],
+    "solution": "P(blue) = blue ÷ total = 4/6 = 2/3."
+  },
+  {
+    "q": "Your average on 5 tests is 84. What must you score on the next test to raise your average to 86?",
+    "type": "typed",
+    "accept": [
+      "96"
+    ],
+    "solution": "You need a total of 6 × 86 = 516. You already have 5 × 84 = 420. So you need 516 − 420 = 96."
+  },
+  {
+    "q": "Your average on 4 tests is 84. What must you score on the next test to raise your average to 85?",
+    "type": "typed",
+    "accept": [
+      "89"
+    ],
+    "solution": "You need a total of 5 × 85 = 425. You already have 4 × 84 = 336. So you need 425 − 336 = 89."
+  },
+  {
+    "q": "A spinner has 8 equal sections, 6 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "3/4",
+      "6/8"
+    ],
+    "solution": "P(blue) = blue ÷ total = 6/8 = 3/4."
+  },
+  {
+    "q": "Three numbers are 9, 9, 3. What value must be added so that the mean of all four is 7?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Four numbers averaging 7 total 28. The new value = 28 − 21 = 7."
+  },
+  {
+    "q": "Three numbers are 5, 8, 6. What value must be added so that the mean of all four is 5?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Four numbers averaging 5 total 20. The new value = 20 − 19 = 1."
+  },
+  {
+    "q": "Your average on 5 tests is 82. What must you score on the next test to raise your average to 85?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "You need a total of 6 × 85 = 510. You already have 5 × 82 = 410. So you need 510 − 410 = 100."
+  },
+  {
+    "q": "Three numbers are 8, 9, 4. What value must be added so that the mean of all four is 8?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 21 = 11."
+  },
+  {
+    "q": "A spinner has 10 equal sections, 3 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "3/10"
+    ],
+    "solution": "P(blue) = blue ÷ total = 3/10."
+  },
+  {
+    "q": "Three numbers are 7, 2, 4. What value must be added so that the mean of all four is 6?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 13 = 11."
+  },
+  {
+    "q": "Three numbers are 8, 2, 9. What value must be added so that the mean of all four is 7?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Four numbers averaging 7 total 28. The new value = 28 − 19 = 9."
+  },
+  {
+    "q": "Three numbers are 3, 8, 4. What value must be added so that the mean of all four is 6?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 15 = 9."
+  },
+  {
+    "q": "Your average on 4 tests is 78. What must you score on the next test to raise your average to 81?",
+    "type": "typed",
+    "accept": [
+      "93"
+    ],
+    "solution": "You need a total of 5 × 81 = 405. You already have 4 × 78 = 312. So you need 405 − 312 = 93."
+  },
+  {
+    "q": "Your average on 5 tests is 78. What must you score on the next test to raise your average to 81?",
+    "type": "typed",
+    "accept": [
+      "96"
+    ],
+    "solution": "You need a total of 6 × 81 = 486. You already have 5 × 78 = 390. So you need 486 − 390 = 96."
+  },
+  {
+    "q": "Your average on 4 tests is 80. What must you score on the next test to raise your average to 82?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "You need a total of 5 × 82 = 410. You already have 4 × 80 = 320. So you need 410 − 320 = 90."
+  },
+  {
+    "q": "A spinner has 10 equal sections, 6 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "3/5",
+      "6/10"
+    ],
+    "solution": "P(blue) = blue ÷ total = 6/10 = 3/5."
+  },
+  {
+    "q": "A spinner has 12 equal sections, 4 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/3",
+      "4/12"
+    ],
+    "solution": "P(blue) = blue ÷ total = 4/12 = 1/3."
+  },
+  {
+    "q": "Three numbers are 5, 2, 4. What value must be added so that the mean of all four is 6?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 11 = 13."
+  },
+  {
+    "q": "A spinner has 8 equal sections, 5 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "5/8"
+    ],
+    "solution": "P(blue) = blue ÷ total = 5/8."
+  },
+  {
+    "q": "A spinner has 8 equal sections, 2 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/4",
+      "2/8"
+    ],
+    "solution": "P(blue) = blue ÷ total = 2/8 = 1/4."
+  },
+  {
+    "q": "Your average on 4 tests is 78. What must you score on the next test to raise your average to 79?",
+    "type": "typed",
+    "accept": [
+      "83"
+    ],
+    "solution": "You need a total of 5 × 79 = 395. You already have 4 × 78 = 312. So you need 395 − 312 = 83."
+  },
+  {
+    "q": "Three numbers are 6, 7, 3. What value must be added so that the mean of all four is 5?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Four numbers averaging 5 total 20. The new value = 20 − 16 = 4."
+  },
+  {
+    "q": "A spinner has 12 equal sections, 2 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/6",
+      "2/12"
+    ],
+    "solution": "P(blue) = blue ÷ total = 2/12 = 1/6."
+  },
+  {
+    "q": "A spinner has 12 equal sections, 1 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/12"
+    ],
+    "solution": "P(blue) = blue ÷ total = 1/12."
+  },
+  {
+    "q": "Your average on 4 tests is 82. What must you score on the next test to raise your average to 83?",
+    "type": "typed",
+    "accept": [
+      "87"
+    ],
+    "solution": "You need a total of 5 × 83 = 415. You already have 4 × 82 = 328. So you need 415 − 328 = 87."
+  },
+  {
+    "q": "Your average on 5 tests is 78. What must you score on the next test to raise your average to 79?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "You need a total of 6 × 79 = 474. You already have 5 × 78 = 390. So you need 474 − 390 = 84."
+  },
+  {
+    "q": "A spinner has 8 equal sections, 1 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/8"
+    ],
+    "solution": "P(blue) = blue ÷ total = 1/8."
+  },
+  {
+    "q": "Three numbers are 2, 2, 5. What value must be added so that the mean of all four is 6?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 9 = 15."
+  },
+  {
+    "q": "Three numbers are 2, 9, 6. What value must be added so that the mean of all four is 8?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 17 = 15."
+  },
+  {
+    "q": "Three numbers are 8, 6, 7. What value must be added so that the mean of all four is 8?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 21 = 11."
+  },
+  {
+    "q": "Three numbers are 8, 8, 4. What value must be added so that the mean of all four is 8?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 20 = 12."
+  },
+  {
+    "q": "A spinner has 12 equal sections, 9 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "3/4",
+      "9/12"
+    ],
+    "solution": "P(blue) = blue ÷ total = 9/12 = 3/4."
+  },
+  {
+    "q": "Your average on 5 tests is 84. What must you score on the next test to raise your average to 87?",
+    "type": "typed",
+    "accept": [
+      "102"
+    ],
+    "solution": "You need a total of 6 × 87 = 522. You already have 5 × 84 = 420. So you need 522 − 420 = 102."
+  },
+  {
+    "q": "Your average on 4 tests is 80. What must you score on the next test to raise your average to 81?",
+    "type": "typed",
+    "accept": [
+      "85"
+    ],
+    "solution": "You need a total of 5 × 81 = 405. You already have 4 × 80 = 320. So you need 405 − 320 = 85."
+  },
+  {
+    "q": "Three numbers are 9, 6, 6. What value must be added so that the mean of all four is 6?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 21 = 3."
+  },
+  {
+    "q": "Three numbers are 6, 7, 2. What value must be added so that the mean of all four is 7?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Four numbers averaging 7 total 28. The new value = 28 − 15 = 13."
+  },
+  {
+    "q": "Three numbers are 8, 3, 7. What value must be added so that the mean of all four is 8?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 18 = 14."
+  },
+  {
+    "q": "Your average on 4 tests is 84. What must you score on the next test to raise your average to 88?",
+    "type": "typed",
+    "accept": [
+      "104"
+    ],
+    "solution": "You need a total of 5 × 88 = 440. You already have 4 × 84 = 336. So you need 440 − 336 = 104."
+  },
+  {
+    "q": "A spinner has 12 equal sections, 11 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "11/12"
+    ],
+    "solution": "P(blue) = blue ÷ total = 11/12."
+  },
+  {
+    "q": "A spinner has 6 equal sections, 5 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "5/6"
+    ],
+    "solution": "P(blue) = blue ÷ total = 5/6."
+  },
+  {
+    "q": "A spinner has 8 equal sections, 7 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "7/8"
+    ],
+    "solution": "P(blue) = blue ÷ total = 7/8."
+  },
+  {
+    "q": "Your average on 5 tests is 78. What must you score on the next test to raise your average to 80?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "You need a total of 6 × 80 = 480. You already have 5 × 78 = 390. So you need 480 − 390 = 90."
+  },
+  {
+    "q": "Three numbers are 3, 8, 7. What value must be added so that the mean of all four is 6?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 18 = 6."
+  },
+  {
+    "q": "Three numbers are 2, 6, 5. What value must be added so that the mean of all four is 6?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 13 = 11."
+  },
+  {
+    "q": "Your average on 5 tests is 78. What must you score on the next test to raise your average to 82?",
+    "type": "typed",
+    "accept": [
+      "102"
+    ],
+    "solution": "You need a total of 6 × 82 = 492. You already have 5 × 78 = 390. So you need 492 − 390 = 102."
+  },
+  {
+    "q": "A spinner has 12 equal sections, 3 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/4",
+      "3/12"
+    ],
+    "solution": "P(blue) = blue ÷ total = 3/12 = 1/4."
+  },
+  {
+    "q": "Three numbers are 5, 3, 4. What value must be added so that the mean of all four is 5?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Four numbers averaging 5 total 20. The new value = 20 − 12 = 8."
+  },
+  {
+    "q": "A spinner has 12 equal sections, 5 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "5/12"
+    ],
+    "solution": "P(blue) = blue ÷ total = 5/12."
+  },
+  {
+    "q": "Three numbers are 5, 2, 3. What value must be added so that the mean of all four is 5?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Four numbers averaging 5 total 20. The new value = 20 − 10 = 10."
+  },
+  {
+    "q": "A spinner has 12 equal sections, 10 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "5/6",
+      "10/12"
+    ],
+    "solution": "P(blue) = blue ÷ total = 10/12 = 5/6."
+  },
+  {
+    "q": "A spinner has 6 equal sections, 1 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/6"
+    ],
+    "solution": "P(blue) = blue ÷ total = 1/6."
+  },
+  {
+    "q": "Three numbers are 6, 9, 7. What value must be added so that the mean of all four is 8?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 22 = 10."
+  },
+  {
+    "q": "Three numbers are 8, 4, 5. What value must be added so that the mean of all four is 6?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 17 = 7."
+  },
+  {
+    "q": "Three numbers are 8, 8, 7. What value must be added so that the mean of all four is 5?",
+    "type": "typed",
+    "accept": [
+      "-3"
+    ],
+    "solution": "Four numbers averaging 5 total 20. The new value = 20 − 23 = -3."
+  },
+  {
+    "q": "Three numbers are 5, 4, 3. What value must be added so that the mean of all four is 6?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 12 = 12."
+  }
+]

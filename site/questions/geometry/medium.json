@@ -1,0 +1,482 @@
+[
+  {
+    "q": "A rectangle is 12 by 3. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (12 + 3) = 30."
+  },
+  {
+    "q": "A rectangle is 9 by 12. What is its area?",
+    "type": "typed",
+    "accept": [
+      "108"
+    ],
+    "solution": "Area = length × width = 9 × 12 = 108."
+  },
+  {
+    "q": "A triangle has base 6 and height 9. What is its area?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 6 × 9 = 27."
+  },
+  {
+    "q": "A rectangle is 8 by 10. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (8 + 10) = 36."
+  },
+  {
+    "q": "A rectangle is 13 by 15. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "56"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (13 + 15) = 56."
+  },
+  {
+    "q": "A rectangle is 3 by 8. What is its area?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Area = length × width = 3 × 8 = 24."
+  },
+  {
+    "q": "A rectangle is 14 by 12. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "52"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (14 + 12) = 52."
+  },
+  {
+    "q": "A rectangle is 10 by 15. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (10 + 15) = 50."
+  },
+  {
+    "q": "A triangle has base 14 and height 3. What is its area?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 14 × 3 = 21."
+  },
+  {
+    "q": "A triangle has base 11 and height 2. What is its area?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 11 × 2 = 11."
+  },
+  {
+    "q": "A rectangle is 13 by 4. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "34"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (13 + 4) = 34."
+  },
+  {
+    "q": "A rectangle is 5 by 15. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (5 + 15) = 40."
+  },
+  {
+    "q": "A triangle has base 4 and height 12. What is its area?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 4 × 12 = 24."
+  },
+  {
+    "q": "A rectangle is 10 by 9. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "38"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (10 + 9) = 38."
+  },
+  {
+    "q": "A triangle has base 10 and height 5. What is its area?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 10 × 5 = 25."
+  },
+  {
+    "q": "A triangle has base 5 and height 6. What is its area?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 5 × 6 = 15."
+  },
+  {
+    "q": "A rectangle is 3 by 4. What is its area?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Area = length × width = 3 × 4 = 12."
+  },
+  {
+    "q": "A rectangle is 4 by 7. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (4 + 7) = 22."
+  },
+  {
+    "q": "A rectangle is 5 by 8. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (5 + 8) = 26."
+  },
+  {
+    "q": "A rectangle is 5 by 3. What is its area?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Area = length × width = 5 × 3 = 15."
+  },
+  {
+    "q": "A rectangle is 10 by 3. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (10 + 3) = 26."
+  },
+  {
+    "q": "A triangle has base 7 and height 2. What is its area?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 7 × 2 = 7."
+  },
+  {
+    "q": "A triangle has base 12 and height 14. What is its area?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 12 × 14 = 84."
+  },
+  {
+    "q": "A rectangle is 14 by 13. What is its area?",
+    "type": "typed",
+    "accept": [
+      "182"
+    ],
+    "solution": "Area = length × width = 14 × 13 = 182."
+  },
+  {
+    "q": "A triangle has base 5 and height 9. What is its area?",
+    "type": "typed",
+    "accept": [
+      "22.5"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 5 × 9 = 22.5."
+  },
+  {
+    "q": "A rectangle is 8 by 3. What is its area?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Area = length × width = 8 × 3 = 24."
+  },
+  {
+    "q": "A triangle has base 9 and height 14. What is its area?",
+    "type": "typed",
+    "accept": [
+      "63"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 9 × 14 = 63."
+  },
+  {
+    "q": "A rectangle is 7 by 4. What is its area?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Area = length × width = 7 × 4 = 28."
+  },
+  {
+    "q": "A rectangle is 9 by 12. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "42"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (9 + 12) = 42."
+  },
+  {
+    "q": "A rectangle is 6 by 12. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (6 + 12) = 36."
+  },
+  {
+    "q": "A rectangle is 14 by 5. What is its area?",
+    "type": "typed",
+    "accept": [
+      "70"
+    ],
+    "solution": "Area = length × width = 14 × 5 = 70."
+  },
+  {
+    "q": "A triangle has base 4 and height 16. What is its area?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 4 × 16 = 32."
+  },
+  {
+    "q": "A rectangle is 4 by 3. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (4 + 3) = 14."
+  },
+  {
+    "q": "A triangle has base 2 and height 16. What is its area?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 2 × 16 = 16."
+  },
+  {
+    "q": "A rectangle is 10 by 6. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (10 + 6) = 32."
+  },
+  {
+    "q": "A rectangle is 11 by 11. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "44"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (11 + 11) = 44."
+  },
+  {
+    "q": "A triangle has base 15 and height 16. What is its area?",
+    "type": "typed",
+    "accept": [
+      "120"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 15 × 16 = 120."
+  },
+  {
+    "q": "A rectangle is 15 by 8. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "46"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (15 + 8) = 46."
+  },
+  {
+    "q": "A rectangle is 14 by 15. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "58"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (14 + 15) = 58."
+  },
+  {
+    "q": "A rectangle is 5 by 12. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "34"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (5 + 12) = 34."
+  },
+  {
+    "q": "A triangle has base 9 and height 15. What is its area?",
+    "type": "typed",
+    "accept": [
+      "67.5"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 9 × 15 = 67.5."
+  },
+  {
+    "q": "A rectangle is 7 by 9. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (7 + 9) = 32."
+  },
+  {
+    "q": "A triangle has base 14 and height 13. What is its area?",
+    "type": "typed",
+    "accept": [
+      "91"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 14 × 13 = 91."
+  },
+  {
+    "q": "A rectangle is 6 by 10. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (6 + 10) = 32."
+  },
+  {
+    "q": "A triangle has base 13 and height 15. What is its area?",
+    "type": "typed",
+    "accept": [
+      "97.5"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 13 × 15 = 97.5."
+  },
+  {
+    "q": "A rectangle is 4 by 4. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (4 + 4) = 16."
+  },
+  {
+    "q": "A rectangle is 13 by 9. What is its area?",
+    "type": "typed",
+    "accept": [
+      "117"
+    ],
+    "solution": "Area = length × width = 13 × 9 = 117."
+  },
+  {
+    "q": "A rectangle is 9 by 13. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "44"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (9 + 13) = 44."
+  },
+  {
+    "q": "A rectangle is 9 by 3. What is its area?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Area = length × width = 9 × 3 = 27."
+  },
+  {
+    "q": "A triangle has base 3 and height 5. What is its area?",
+    "type": "typed",
+    "accept": [
+      "7.5"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 3 × 5 = 7.5."
+  },
+  {
+    "q": "A rectangle is 3 by 14. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "34"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (3 + 14) = 34."
+  },
+  {
+    "q": "A triangle has base 10 and height 14. What is its area?",
+    "type": "typed",
+    "accept": [
+      "70"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 10 × 14 = 70."
+  },
+  {
+    "q": "A rectangle is 13 by 15. What is its area?",
+    "type": "typed",
+    "accept": [
+      "195"
+    ],
+    "solution": "Area = length × width = 13 × 15 = 195."
+  },
+  {
+    "q": "A rectangle is 14 by 4. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (14 + 4) = 36."
+  },
+  {
+    "q": "A rectangle is 5 by 12. What is its area?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "Area = length × width = 5 × 12 = 60."
+  },
+  {
+    "q": "A rectangle is 6 by 5. What is its perimeter?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Perimeter = 2 × (length + width) = 2 × (6 + 5) = 22."
+  },
+  {
+    "q": "A triangle has base 5 and height 10. What is its area?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 5 × 10 = 25."
+  },
+  {
+    "q": "A triangle has base 9 and height 10. What is its area?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 9 × 10 = 45."
+  },
+  {
+    "q": "A triangle has base 15 and height 6. What is its area?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 15 × 6 = 45."
+  },
+  {
+    "q": "A rectangle is 7 by 9. What is its area?",
+    "type": "typed",
+    "accept": [
+      "63"
+    ],
+    "solution": "Area = length × width = 7 × 9 = 63."
+  }
+]

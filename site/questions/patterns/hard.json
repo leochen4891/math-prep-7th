@@ -1,0 +1,538 @@
+[
+  {
+    "q": "A pattern starts at 3 and adds 3 each step. What is the 10th term?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Term = start + step×(N−1) = 3 + 3×9 = 30."
+  },
+  {
+    "q": "Rule: multiply the input by 3, then add 5. What is the output when the input is 5?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "3 × 5 + 5 = 20."
+  },
+  {
+    "q": "A pattern starts at 6 and adds 6 each step. What is the 8th term?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Term = start + step×(N−1) = 6 + 6×7 = 48."
+  },
+  {
+    "q": "Rule: multiply the input by 3, then add 1. What is the output when the input is 3?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "3 × 3 + 1 = 10."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 8, 12, 16, 20. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 5x + 4",
+      "y = x + 8",
+      "y = 4x + 4",
+      "y = 4x + 5"
+    ],
+    "answer": 2,
+    "solution": "y goes up by 4 each step (so the coefficient is 4), and the pattern gives y = 4x + 4."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 9, 13, 17, 21. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 5x + 5",
+      "y = x + 9",
+      "y = 4x + 6",
+      "y = 4x + 5"
+    ],
+    "answer": 3,
+    "solution": "y goes up by 4 each step (so the coefficient is 4), and the pattern gives y = 4x + 5."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 5, 7, 9, 11. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 2x + 4",
+      "y = x + 5",
+      "y = 3x + 3",
+      "y = 2x + 3"
+    ],
+    "answer": 3,
+    "solution": "y goes up by 2 each step (so the coefficient is 2), and the pattern gives y = 2x + 3."
+  },
+  {
+    "q": "A pattern starts at 4 and adds 3 each step. What is the 9th term?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Term = start + step×(N−1) = 4 + 3×8 = 28."
+  },
+  {
+    "q": "Rule: multiply the input by 3, then add 6. What is the output when the input is 2?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "3 × 2 + 6 = 12."
+  },
+  {
+    "q": "Rule: multiply the input by 3, then add 3. What is the output when the input is 2?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "3 × 2 + 3 = 9."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 6, 9, 12, 15. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 3x + 4",
+      "y = x + 6",
+      "y = 3x + 3",
+      "y = 4x + 3"
+    ],
+    "answer": 2,
+    "solution": "y goes up by 3 each step (so the coefficient is 3), and the pattern gives y = 3x + 3."
+  },
+  {
+    "q": "Rule: multiply the input by 2, then add 6. What is the output when the input is 2?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "2 × 2 + 6 = 10."
+  },
+  {
+    "q": "Rule: multiply the input by 3, then add 3. What is the output when the input is 7?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "3 × 7 + 3 = 24."
+  },
+  {
+    "q": "A pattern starts at 4 and adds 4 each step. What is the 15th term?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "Term = start + step×(N−1) = 4 + 4×14 = 60."
+  },
+  {
+    "q": "Rule: multiply the input by 2, then add 2. What is the output when the input is 7?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "2 × 7 + 2 = 16."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 7, 12, 17, 22. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 5x + 2",
+      "y = 6x + 2",
+      "y = x + 7",
+      "y = 5x + 3"
+    ],
+    "answer": 0,
+    "solution": "y goes up by 5 each step (so the coefficient is 5), and the pattern gives y = 5x + 2."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 7, 11, 15, 19. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = x + 7",
+      "y = 4x + 4",
+      "y = 4x + 3",
+      "y = 5x + 3"
+    ],
+    "answer": 2,
+    "solution": "y goes up by 4 each step (so the coefficient is 4), and the pattern gives y = 4x + 3."
+  },
+  {
+    "q": "Rule: multiply the input by 2, then add 3. What is the output when the input is 3?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "2 × 3 + 3 = 9."
+  },
+  {
+    "q": "A pattern starts at 4 and adds 2 each step. What is the 8th term?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Term = start + step×(N−1) = 4 + 2×7 = 18."
+  },
+  {
+    "q": "A pattern starts at 4 and adds 6 each step. What is the 10th term?",
+    "type": "typed",
+    "accept": [
+      "58"
+    ],
+    "solution": "Term = start + step×(N−1) = 4 + 6×9 = 58."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 10, 15, 20, 25. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = x + 10",
+      "y = 5x + 6",
+      "y = 6x + 5",
+      "y = 5x + 5"
+    ],
+    "answer": 3,
+    "solution": "y goes up by 5 each step (so the coefficient is 5), and the pattern gives y = 5x + 5."
+  },
+  {
+    "q": "A pattern starts at 7 and adds 2 each step. What is the 8th term?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Term = start + step×(N−1) = 7 + 2×7 = 21."
+  },
+  {
+    "q": "A pattern starts at 5 and adds 6 each step. What is the 8th term?",
+    "type": "typed",
+    "accept": [
+      "47"
+    ],
+    "solution": "Term = start + step×(N−1) = 5 + 6×7 = 47."
+  },
+  {
+    "q": "A pattern starts at 7 and adds 3 each step. What is the 9th term?",
+    "type": "typed",
+    "accept": [
+      "31"
+    ],
+    "solution": "Term = start + step×(N−1) = 7 + 3×8 = 31."
+  },
+  {
+    "q": "Rule: multiply the input by 4, then add 5. What is the output when the input is 7?",
+    "type": "typed",
+    "accept": [
+      "33"
+    ],
+    "solution": "4 × 7 + 5 = 33."
+  },
+  {
+    "q": "A pattern starts at 8 and adds 4 each step. What is the 12th term?",
+    "type": "typed",
+    "accept": [
+      "52"
+    ],
+    "solution": "Term = start + step×(N−1) = 8 + 4×11 = 52."
+  },
+  {
+    "q": "A pattern starts at 2 and adds 4 each step. What is the 15th term?",
+    "type": "typed",
+    "accept": [
+      "58"
+    ],
+    "solution": "Term = start + step×(N−1) = 2 + 4×14 = 58."
+  },
+  {
+    "q": "A pattern starts at 7 and adds 6 each step. What is the 14th term?",
+    "type": "typed",
+    "accept": [
+      "85"
+    ],
+    "solution": "Term = start + step×(N−1) = 7 + 6×13 = 85."
+  },
+  {
+    "q": "A pattern starts at 2 and adds 5 each step. What is the 15th term?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "Term = start + step×(N−1) = 2 + 5×14 = 72."
+  },
+  {
+    "q": "A pattern starts at 2 and adds 5 each step. What is the 11th term?",
+    "type": "typed",
+    "accept": [
+      "52"
+    ],
+    "solution": "Term = start + step×(N−1) = 2 + 5×10 = 52."
+  },
+  {
+    "q": "A pattern starts at 8 and adds 6 each step. What is the 12th term?",
+    "type": "typed",
+    "accept": [
+      "74"
+    ],
+    "solution": "Term = start + step×(N−1) = 8 + 6×11 = 74."
+  },
+  {
+    "q": "A pattern starts at 4 and adds 4 each step. What is the 13th term?",
+    "type": "typed",
+    "accept": [
+      "52"
+    ],
+    "solution": "Term = start + step×(N−1) = 4 + 4×12 = 52."
+  },
+  {
+    "q": "A pattern starts at 7 and adds 6 each step. What is the 9th term?",
+    "type": "typed",
+    "accept": [
+      "55"
+    ],
+    "solution": "Term = start + step×(N−1) = 7 + 6×8 = 55."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 9, 14, 19, 24. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 5x + 4",
+      "y = x + 9",
+      "y = 5x + 5",
+      "y = 6x + 4"
+    ],
+    "answer": 0,
+    "solution": "y goes up by 5 each step (so the coefficient is 5), and the pattern gives y = 5x + 4."
+  },
+  {
+    "q": "Rule: multiply the input by 4, then add 3. What is the output when the input is 3?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "4 × 3 + 3 = 15."
+  },
+  {
+    "q": "A pattern starts at 2 and adds 5 each step. What is the 8th term?",
+    "type": "typed",
+    "accept": [
+      "37"
+    ],
+    "solution": "Term = start + step×(N−1) = 2 + 5×7 = 37."
+  },
+  {
+    "q": "A pattern starts at 7 and adds 4 each step. What is the 14th term?",
+    "type": "typed",
+    "accept": [
+      "59"
+    ],
+    "solution": "Term = start + step×(N−1) = 7 + 4×13 = 59."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 8, 13, 18, 23. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 5x + 3",
+      "y = x + 8",
+      "y = 5x + 4",
+      "y = 6x + 3"
+    ],
+    "answer": 0,
+    "solution": "y goes up by 5 each step (so the coefficient is 5), and the pattern gives y = 5x + 3."
+  },
+  {
+    "q": "Rule: multiply the input by 3, then add 5. What is the output when the input is 7?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "3 × 7 + 5 = 26."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 6, 8, 10, 12. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 2x + 4",
+      "y = 2x + 5",
+      "y = 3x + 4",
+      "y = x + 6"
+    ],
+    "answer": 0,
+    "solution": "y goes up by 2 each step (so the coefficient is 2), and the pattern gives y = 2x + 4."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 3, 5, 7, 9. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 2x + 1",
+      "y = 3x + 1",
+      "y = x + 3",
+      "y = 2x + 2"
+    ],
+    "answer": 0,
+    "solution": "y goes up by 2 each step (so the coefficient is 2), and the pattern gives y = 2x + 1."
+  },
+  {
+    "q": "Rule: multiply the input by 2, then add 3. What is the output when the input is 6?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "2 × 6 + 3 = 15."
+  },
+  {
+    "q": "Rule: multiply the input by 2, then add 4. What is the output when the input is 5?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "2 × 5 + 4 = 14."
+  },
+  {
+    "q": "Rule: multiply the input by 4, then add 3. What is the output when the input is 5?",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "4 × 5 + 3 = 23."
+  },
+  {
+    "q": "A pattern starts at 7 and adds 5 each step. What is the 8th term?",
+    "type": "typed",
+    "accept": [
+      "42"
+    ],
+    "solution": "Term = start + step×(N−1) = 7 + 5×7 = 42."
+  },
+  {
+    "q": "Rule: multiply the input by 2, then add 6. What is the output when the input is 5?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "2 × 5 + 6 = 16."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 7, 10, 13, 16. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 3x + 5",
+      "y = 4x + 4",
+      "y = 3x + 4",
+      "y = x + 7"
+    ],
+    "answer": 2,
+    "solution": "y goes up by 3 each step (so the coefficient is 3), and the pattern gives y = 3x + 4."
+  },
+  {
+    "q": "Rule: multiply the input by 4, then add 5. What is the output when the input is 6?",
+    "type": "typed",
+    "accept": [
+      "29"
+    ],
+    "solution": "4 × 6 + 5 = 29."
+  },
+  {
+    "q": "A pattern starts at 5 and adds 4 each step. What is the 9th term?",
+    "type": "typed",
+    "accept": [
+      "37"
+    ],
+    "solution": "Term = start + step×(N−1) = 5 + 4×8 = 37."
+  },
+  {
+    "q": "A pattern starts at 5 and adds 6 each step. What is the 10th term?",
+    "type": "typed",
+    "accept": [
+      "59"
+    ],
+    "solution": "Term = start + step×(N−1) = 5 + 6×9 = 59."
+  },
+  {
+    "q": "Rule: multiply the input by 2, then add 6. What is the output when the input is 8?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "2 × 8 + 6 = 22."
+  },
+  {
+    "q": "A pattern starts at 7 and adds 2 each step. What is the 12th term?",
+    "type": "typed",
+    "accept": [
+      "29"
+    ],
+    "solution": "Term = start + step×(N−1) = 7 + 2×11 = 29."
+  },
+  {
+    "q": "Rule: multiply the input by 2, then add 5. What is the output when the input is 4?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "2 × 4 + 5 = 13."
+  },
+  {
+    "q": "Rule: multiply the input by 4, then add 2. What is the output when the input is 6?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "4 × 6 + 2 = 26."
+  },
+  {
+    "q": "A pattern starts at 4 and adds 2 each step. What is the 11th term?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Term = start + step×(N−1) = 4 + 2×10 = 24."
+  },
+  {
+    "q": "A pattern starts at 8 and adds 6 each step. What is the 11th term?",
+    "type": "typed",
+    "accept": [
+      "68"
+    ],
+    "solution": "Term = start + step×(N−1) = 8 + 6×10 = 68."
+  },
+  {
+    "q": "Rule: multiply the input by 3, then add 4. What is the output when the input is 5?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "3 × 5 + 4 = 19."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 7, 9, 11, 13. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 2x + 6",
+      "y = 3x + 5",
+      "y = x + 7",
+      "y = 2x + 5"
+    ],
+    "answer": 3,
+    "solution": "y goes up by 2 each step (so the coefficient is 2), and the pattern gives y = 2x + 5."
+  },
+  {
+    "q": "A pattern starts at 3 and adds 5 each step. What is the 8th term?",
+    "type": "typed",
+    "accept": [
+      "38"
+    ],
+    "solution": "Term = start + step×(N−1) = 3 + 5×7 = 38."
+  },
+  {
+    "q": "A table shows x: 1, 2, 3, 4 and y: 5, 9, 13, 17. What is the rule?",
+    "type": "mc",
+    "choices": [
+      "y = 4x + 1",
+      "y = 5x + 1",
+      "y = x + 5",
+      "y = 4x + 2"
+    ],
+    "answer": 0,
+    "solution": "y goes up by 4 each step (so the coefficient is 4), and the pattern gives y = 4x + 1."
+  }
+]

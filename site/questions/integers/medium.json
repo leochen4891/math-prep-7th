@@ -1,347 +1,163 @@
 [
   {
-    "q": "|−5| + |4| = ?",
+    "q": "10 − 7 + 9 = ?",
     "type": "typed",
     "accept": [
-      "9"
+      "12"
     ],
-    "solution": "Absolute value makes it positive: 5 + 4 = 9."
+    "solution": "Work left to right: 10−7+9 = 12."
   },
   {
-    "q": "|−8| + |5| = ?",
+    "q": "|−5| + |7| = ?",
     "type": "typed",
     "accept": [
-      "13"
+      "12"
     ],
-    "solution": "Absolute value makes it positive: 8 + 5 = 13."
+    "solution": "Absolute value makes it positive: 5 + 7 = 12."
   },
   {
-    "q": "|−5| + |8| = ?",
+    "q": "|−9| + |3| = ?",
     "type": "typed",
     "accept": [
-      "13"
+      "12"
     ],
-    "solution": "Absolute value makes it positive: 5 + 8 = 13."
+    "solution": "Absolute value makes it positive: 9 + 3 = 12."
   },
   {
-    "q": "-14 − 10 + 14 = ?",
+    "q": "(-7) × 11 = ?",
     "type": "typed",
     "accept": [
-      "-10"
+      "-77"
     ],
-    "solution": "Work left to right: -14−10+14 = -10."
+    "solution": "One negative → negative: -77."
   },
   {
-    "q": "|−6| + |3| = ?",
+    "q": "7 × (-12) = ?",
     "type": "typed",
     "accept": [
-      "9"
+      "-84"
     ],
-    "solution": "Absolute value makes it positive: 6 + 3 = 9."
+    "solution": "One negative → negative: -84."
   },
   {
-    "q": "|−2| + |4| = ?",
+    "q": "-11 − 10 + 12 = ?",
     "type": "typed",
     "accept": [
-      "6"
+      "-9"
     ],
-    "solution": "Absolute value makes it positive: 2 + 4 = 6."
+    "solution": "Work left to right: -11−10+12 = -9."
   },
   {
-    "q": "|−2| + |9| = ?",
+    "q": "-10 − 8 − 10 = ?",
     "type": "typed",
     "accept": [
-      "11"
+      "-28"
     ],
-    "solution": "Absolute value makes it positive: 2 + 9 = 11."
+    "solution": "Work left to right: -10−8−10 = -28."
   },
   {
-    "q": "12 × (-12) = ?",
+    "q": "-3 + 8 − 8 = ?",
     "type": "typed",
     "accept": [
-      "-144"
+      "-3"
     ],
-    "solution": "One negative → negative: -144."
+    "solution": "Work left to right: -3+8−8 = -3."
   },
   {
-    "q": "(-4) × 12 = ?",
+    "q": "7 × (-7) = ?",
     "type": "typed",
     "accept": [
-      "-48"
+      "-49"
     ],
-    "solution": "One negative → negative: -48."
+    "solution": "One negative → negative: -49."
   },
   {
-    "q": "(-11) × 9 = ?",
+    "q": "(-10) × 3 = ?",
     "type": "typed",
     "accept": [
-      "-99"
+      "-30"
     ],
-    "solution": "One negative → negative: -99."
+    "solution": "One negative → negative: -30."
   },
   {
-    "q": "|−3| + |8| = ?",
+    "q": "3 × (-10) = ?",
     "type": "typed",
     "accept": [
-      "11"
+      "-30"
     ],
-    "solution": "Absolute value makes it positive: 3 + 8 = 11."
+    "solution": "One negative → negative: -30."
   },
   {
-    "q": "(-5) × 7 = ?",
+    "q": "-9 − 2 − 11 = ?",
     "type": "typed",
     "accept": [
-      "-35"
+      "-22"
     ],
-    "solution": "One negative → negative: -35."
+    "solution": "Work left to right: -9−2−11 = -22."
   },
   {
-    "q": "-13 + 2 − 9 = ?",
+    "q": "|−8| + |4| = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Absolute value makes it positive: 8 + 4 = 12."
+  },
+  {
+    "q": "5 × (-3) = ?",
+    "type": "typed",
+    "accept": [
+      "-15"
+    ],
+    "solution": "One negative → negative: -15."
+  },
+  {
+    "q": "5 × (-9) = ?",
+    "type": "typed",
+    "accept": [
+      "-45"
+    ],
+    "solution": "One negative → negative: -45."
+  },
+  {
+    "q": "11 × (-12) = ?",
+    "type": "typed",
+    "accept": [
+      "-132"
+    ],
+    "solution": "One negative → negative: -132."
+  },
+  {
+    "q": "|−9| + |7| = ?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Absolute value makes it positive: 9 + 7 = 16."
+  },
+  {
+    "q": "5 × (-4) = ?",
     "type": "typed",
     "accept": [
       "-20"
     ],
-    "solution": "Work left to right: -13+2−9 = -20."
+    "solution": "One negative → negative: -20."
   },
   {
-    "q": "|−7| + |8| = ?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Absolute value makes it positive: 7 + 8 = 15."
-  },
-  {
-    "q": "|−9| + |2| = ?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Absolute value makes it positive: 9 + 2 = 11."
-  },
-  {
-    "q": "|−3| + |4| = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Absolute value makes it positive: 3 + 4 = 7."
-  },
-  {
-    "q": "|−5| + |2| = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Absolute value makes it positive: 5 + 2 = 7."
-  },
-  {
-    "q": "-14 + 10 + 5 = ?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "Work left to right: -14+10+5 = 1."
-  },
-  {
-    "q": "(-4) × (-12) = ?",
-    "type": "typed",
-    "accept": [
-      "48"
-    ],
-    "solution": "Negative × negative = positive: 48."
-  },
-  {
-    "q": "|−4| + |7| = ?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Absolute value makes it positive: 4 + 7 = 11."
-  },
-  {
-    "q": "(-12) × (-10) = ?",
-    "type": "typed",
-    "accept": [
-      "120"
-    ],
-    "solution": "Negative × negative = positive: 120."
-  },
-  {
-    "q": "(-12) × (-9) = ?",
-    "type": "typed",
-    "accept": [
-      "108"
-    ],
-    "solution": "Negative × negative = positive: 108."
-  },
-  {
-    "q": "10 − 2 + 11 = ?",
-    "type": "typed",
-    "accept": [
-      "19"
-    ],
-    "solution": "Work left to right: 10−2+11 = 19."
-  },
-  {
-    "q": "|−3| + |7| = ?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Absolute value makes it positive: 3 + 7 = 10."
-  },
-  {
-    "q": "(-8) × 4 = ?",
-    "type": "typed",
-    "accept": [
-      "-32"
-    ],
-    "solution": "One negative → negative: -32."
-  },
-  {
-    "q": "|−5| + |6| = ?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Absolute value makes it positive: 5 + 6 = 11."
-  },
-  {
-    "q": "9 + 6 + 13 = ?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "Work left to right: 9+6+13 = 28."
-  },
-  {
-    "q": "-13 + 7 + 6 = ?",
-    "type": "typed",
-    "accept": [
-      "0"
-    ],
-    "solution": "Work left to right: -13+7+6 = 0."
-  },
-  {
-    "q": "|−2| + |7| = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Absolute value makes it positive: 2 + 7 = 9."
-  },
-  {
-    "q": "-9 − 11 − 9 = ?",
-    "type": "typed",
-    "accept": [
-      "-29"
-    ],
-    "solution": "Work left to right: -9−11−9 = -29."
-  },
-  {
-    "q": "10 + 14 − 6 = ?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Work left to right: 10+14−6 = 18."
-  },
-  {
-    "q": "-3 + 13 + 2 = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Work left to right: -3+13+2 = 12."
-  },
-  {
-    "q": "|−4| + |8| = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Absolute value makes it positive: 4 + 8 = 12."
-  },
-  {
-    "q": "(-6) × (-7) = ?",
-    "type": "typed",
-    "accept": [
-      "42"
-    ],
-    "solution": "Negative × negative = positive: 42."
-  },
-  {
-    "q": "4 − 3 + 7 = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Work left to right: 4−3+7 = 8."
-  },
-  {
-    "q": "3 × (-6) = ?",
-    "type": "typed",
-    "accept": [
-      "-18"
-    ],
-    "solution": "One negative → negative: -18."
-  },
-  {
-    "q": "|−6| + |9| = ?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Absolute value makes it positive: 6 + 9 = 15."
-  },
-  {
-    "q": "9 × (-3) = ?",
-    "type": "typed",
-    "accept": [
-      "-27"
-    ],
-    "solution": "One negative → negative: -27."
-  },
-  {
-    "q": "|−4| + |3| = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Absolute value makes it positive: 4 + 3 = 7."
-  },
-  {
-    "q": "|−3| + |6| = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Absolute value makes it positive: 3 + 6 = 9."
-  },
-  {
-    "q": "4 × (-4) = ?",
-    "type": "typed",
-    "accept": [
-      "-16"
-    ],
-    "solution": "One negative → negative: -16."
-  },
-  {
-    "q": "|−2| + |3| = ?",
+    "q": "14 − 14 + 5 = ?",
     "type": "typed",
     "accept": [
       "5"
     ],
-    "solution": "Absolute value makes it positive: 2 + 3 = 5."
+    "solution": "Work left to right: 14−14+5 = 5."
   },
   {
-    "q": "3 − 8 − 5 = ?",
+    "q": "(-6) × (-11) = ?",
     "type": "typed",
     "accept": [
-      "-10"
+      "66"
     ],
-    "solution": "Work left to right: 3−8−5 = -10."
+    "solution": "Negative × negative = positive: 66."
   },
   {
     "q": "-4 + 7 − 7 = ?",
@@ -352,55 +168,71 @@
     "solution": "Work left to right: -4+7−7 = -4."
   },
   {
-    "q": "(-3) × (-8) = ?",
+    "q": "|−4| + |5| = ?",
     "type": "typed",
     "accept": [
-      "24"
+      "9"
     ],
-    "solution": "Negative × negative = positive: 24."
+    "solution": "Absolute value makes it positive: 4 + 5 = 9."
   },
   {
-    "q": "|−7| + |4| = ?",
+    "q": "-11 + 6 + 14 = ?",
     "type": "typed",
     "accept": [
-      "11"
+      "9"
     ],
-    "solution": "Absolute value makes it positive: 7 + 4 = 11."
+    "solution": "Work left to right: -11+6+14 = 9."
   },
   {
-    "q": "(-9) × (-4) = ?",
+    "q": "(-7) × 6 = ?",
     "type": "typed",
     "accept": [
-      "36"
+      "-42"
     ],
-    "solution": "Negative × negative = positive: 36."
+    "solution": "One negative → negative: -42."
   },
   {
-    "q": "|−2| + |5| = ?",
+    "q": "(-7) × 3 = ?",
     "type": "typed",
     "accept": [
-      "7"
+      "-21"
     ],
-    "solution": "Absolute value makes it positive: 2 + 5 = 7."
+    "solution": "One negative → negative: -21."
   },
   {
-    "q": "(-9) × (-11) = ?",
+    "q": "(-10) × 4 = ?",
     "type": "typed",
     "accept": [
-      "99"
+      "-40"
     ],
-    "solution": "Negative × negative = positive: 99."
+    "solution": "One negative → negative: -40."
   },
   {
-    "q": "|−7| + |7| = ?",
+    "q": "|−8| + |7| = ?",
     "type": "typed",
     "accept": [
-      "14"
+      "15"
     ],
-    "solution": "Absolute value makes it positive: 7 + 7 = 14."
+    "solution": "Absolute value makes it positive: 8 + 7 = 15."
   },
   {
-    "q": "6 × (-8) = ?",
+    "q": "(-4) × (-10) = ?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Negative × negative = positive: 40."
+  },
+  {
+    "q": "(-3) × (-10) = ?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Negative × negative = positive: 30."
+  },
+  {
+    "q": "4 × (-12) = ?",
     "type": "typed",
     "accept": [
       "-48"
@@ -408,28 +240,92 @@
     "solution": "One negative → negative: -48."
   },
   {
-    "q": "|−6| + |7| = ?",
+    "q": "(-4) × 8 = ?",
     "type": "typed",
     "accept": [
-      "13"
+      "-32"
     ],
-    "solution": "Absolute value makes it positive: 6 + 7 = 13."
+    "solution": "One negative → negative: -32."
   },
   {
-    "q": "-2 − 8 + 7 = ?",
+    "q": "7 + 14 + 8 = ?",
     "type": "typed",
     "accept": [
-      "-3"
+      "29"
     ],
-    "solution": "Work left to right: -2−8+7 = -3."
+    "solution": "Work left to right: 7+14+8 = 29."
   },
   {
-    "q": "13 − 7 − 3 = ?",
+    "q": "-9 − 7 + 6 = ?",
     "type": "typed",
     "accept": [
-      "3"
+      "-10"
     ],
-    "solution": "Work left to right: 13−7−3 = 3."
+    "solution": "Work left to right: -9−7+6 = -10."
+  },
+  {
+    "q": "|−9| + |5| = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Absolute value makes it positive: 9 + 5 = 14."
+  },
+  {
+    "q": "-12 − 13 − 6 = ?",
+    "type": "typed",
+    "accept": [
+      "-31"
+    ],
+    "solution": "Work left to right: -12−13−6 = -31."
+  },
+  {
+    "q": "(-9) × 6 = ?",
+    "type": "typed",
+    "accept": [
+      "-54"
+    ],
+    "solution": "One negative → negative: -54."
+  },
+  {
+    "q": "-14 − 13 − 7 = ?",
+    "type": "typed",
+    "accept": [
+      "-34"
+    ],
+    "solution": "Work left to right: -14−13−7 = -34."
+  },
+  {
+    "q": "-13 + 9 − 12 = ?",
+    "type": "typed",
+    "accept": [
+      "-16"
+    ],
+    "solution": "Work left to right: -13+9−12 = -16."
+  },
+  {
+    "q": "(-5) × 5 = ?",
+    "type": "typed",
+    "accept": [
+      "-25"
+    ],
+    "solution": "One negative → negative: -25."
+  },
+  {
+    "q": "-3 + 12 − 5 = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Work left to right: -3+12−5 = 4."
+  },
+  {
+    "q": "-13 + 9 + 4 = ?",
+    "type": "typed",
+    "accept": [
+      "0"
+    ],
+    "solution": "Work left to right: -13+9+4 = 0."
   },
   {
     "q": "|−7| + |3| = ?",
@@ -440,43 +336,147 @@
     "solution": "Absolute value makes it positive: 7 + 3 = 10."
   },
   {
-    "q": "|−4| + |2| = ?",
+    "q": "-9 − 6 + 9 = ?",
     "type": "typed",
     "accept": [
-      "6"
+      "-6"
     ],
-    "solution": "Absolute value makes it positive: 4 + 2 = 6."
+    "solution": "Work left to right: -9−6+9 = -6."
   },
   {
-    "q": "5 × (-5) = ?",
+    "q": "|−8| + |8| = ?",
     "type": "typed",
     "accept": [
-      "-25"
+      "16"
     ],
-    "solution": "One negative → negative: -25."
+    "solution": "Absolute value makes it positive: 8 + 8 = 16."
   },
   {
-    "q": "-5 − 14 + 11 = ?",
+    "q": "|−6| + |7| = ?",
     "type": "typed",
     "accept": [
-      "-8"
+      "13"
     ],
-    "solution": "Work left to right: -5−14+11 = -8."
+    "solution": "Absolute value makes it positive: 6 + 7 = 13."
   },
   {
-    "q": "(-9) × 5 = ?",
+    "q": "(-6) × 3 = ?",
     "type": "typed",
     "accept": [
-      "-45"
+      "-18"
     ],
-    "solution": "One negative → negative: -45."
+    "solution": "One negative → negative: -18."
   },
   {
-    "q": "8 × (-11) = ?",
+    "q": "|−8| + |3| = ?",
     "type": "typed",
     "accept": [
-      "-88"
+      "11"
     ],
-    "solution": "One negative → negative: -88."
+    "solution": "Absolute value makes it positive: 8 + 3 = 11."
+  },
+  {
+    "q": "(-5) × 11 = ?",
+    "type": "typed",
+    "accept": [
+      "-55"
+    ],
+    "solution": "One negative → negative: -55."
+  },
+  {
+    "q": "9 − 2 + 12 = ?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Work left to right: 9−2+12 = 19."
+  },
+  {
+    "q": "(-6) × 5 = ?",
+    "type": "typed",
+    "accept": [
+      "-30"
+    ],
+    "solution": "One negative → negative: -30."
+  },
+  {
+    "q": "8 − 11 − 10 = ?",
+    "type": "typed",
+    "accept": [
+      "-13"
+    ],
+    "solution": "Work left to right: 8−11−10 = -13."
+  },
+  {
+    "q": "|−3| + |8| = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Absolute value makes it positive: 3 + 8 = 11."
+  },
+  {
+    "q": "(-6) × 8 = ?",
+    "type": "typed",
+    "accept": [
+      "-48"
+    ],
+    "solution": "One negative → negative: -48."
+  },
+  {
+    "q": "(-4) × (-12) = ?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Negative × negative = positive: 48."
+  },
+  {
+    "q": "14 − 2 + 7 = ?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Work left to right: 14−2+7 = 19."
+  },
+  {
+    "q": "(-7) × 8 = ?",
+    "type": "typed",
+    "accept": [
+      "-56"
+    ],
+    "solution": "One negative → negative: -56."
+  },
+  {
+    "q": "9 × (-11) = ?",
+    "type": "typed",
+    "accept": [
+      "-99"
+    ],
+    "solution": "One negative → negative: -99."
+  },
+  {
+    "q": "10 × (-8) = ?",
+    "type": "typed",
+    "accept": [
+      "-80"
+    ],
+    "solution": "One negative → negative: -80."
+  },
+  {
+    "q": "5 × (-7) = ?",
+    "type": "typed",
+    "accept": [
+      "-35"
+    ],
+    "solution": "One negative → negative: -35."
+  },
+  {
+    "q": "|−5| + |9| = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Absolute value makes it positive: 5 + 9 = 14."
   }
 ]

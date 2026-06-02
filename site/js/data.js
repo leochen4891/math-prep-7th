@@ -217,7 +217,7 @@ const TOPICS = [
 
   /* ---------------- DAY 6 ---------------- */
   {
-    id: "equations", day: 6, emoji: "🧩", title: "Equations (Solving for x)",
+    id: "equations", day: 6, emoji: "🧩", title: "Equations & Inequalities",
     lesson: `
       <h2>🧩 Solving Equations</h2>
       <p>An equation is a <b>balance scale</b>: the "=" means both sides weigh the same. Your job is to get the variable alone on one side. The golden rule: <b>whatever you do to one side, do to the other</b> — that keeps the scale balanced.</p>
@@ -240,6 +240,14 @@ const TOPICS = [
 
       <h3>Equations with fractions</h3>
       <div class="worked">(x + 3)/2 = 8<br>Multiply both sides by 2: x + 3 = 16<br>Subtract 3: x = <b class="ans">13</b></div>
+
+      <h3>Inequalities — solved almost the same way</h3>
+      <p>An inequality uses <b>&lt;, &gt;, ≤, ≥</b> instead of =. You isolate the variable exactly like an equation — but there's <b>one special rule</b>.</p>
+      <div class="worked">x + 3 &gt; 7 → subtract 3 → x &gt; <b class="ans">4</b> &nbsp;(every number bigger than 4 is a solution)</div>
+      <div class="worked">2x ≤ 10 → divide by 2 → x ≤ <b class="ans">5</b></div>
+      <h4>⚠️ The flip rule</h4>
+      <p>When you <b>multiply or divide both sides by a negative number, flip the inequality sign.</b></p>
+      <div class="worked">−2x &lt; 6 → divide both sides by −2 and flip → x &gt; <b class="ans">−3</b></div>
 
       <div class="pitfall">⚠️ <b>Common mistakes:</b> (1) Only doing the operation to one side. (2) Undoing the ×/÷ before the +/−. (3) Dropping a negative sign when moving a term across. Always <b>check</b> your answer by plugging it back in.</div>
       <div class="tip">💡 The check isn't optional bonus work — it catches almost every mistake in seconds. Substitute your x and make sure both sides match.</div>
@@ -284,6 +292,134 @@ const TOPICS = [
 
       <div class="pitfall">⚠️ <b>Common mistakes:</b> (1) Reversing coordinates — (3, 2) is NOT (2, 3). (2) Grabbing the keyword without thinking ("less than" often flips the order: "5 less than x" is x − 5, not 5 − x). (3) Forgetting to answer the actual question (it may ask for the smaller integer, not x).</div>
       <div class="tip">💡 For word problems: define your variable in words first ("let x = the brother's age"), write the equation, solve, then re-read the question to give the exact thing it asked for.</div>
+    `
+  },
+
+  /* ---------------- CHAPTER 8 ---------------- */
+  {
+    id: "numbertheory", day: 8, emoji: "🧮", title: "Factors, Multiples & Number Theory",
+    lesson: `
+      <h2>🧮 Factors, Multiples &amp; Number Theory</h2>
+      <p>Before algebra, you need to be quick with the building blocks of numbers: <b>factors</b> (what divides into a number) and <b>multiples</b> (its times table). Two ideas show up constantly — GCF and LCM.</p>
+
+      <h3>Factors vs. multiples</h3>
+      <ul>
+        <li><b>Factors</b> of 12: 1, 2, 3, 4, 6, 12 (they divide 12 evenly).</li>
+        <li><b>Multiples</b> of 12: 12, 24, 36, 48, … (12×1, 12×2, …).</li>
+      </ul>
+
+      <h3>Prime vs. composite</h3>
+      <p>A <b>prime</b> has exactly two factors — 1 and itself (2, 3, 5, 7, 11, …). A <b>composite</b> has more (4, 6, 8, 9, …). The number 1 is neither.</p>
+
+      <h3>Prime factorization</h3>
+      <p>Every whole number breaks into a unique product of primes.</p>
+      <div class="worked">36 = 4 × 9 = (2×2) × (3×3) = <b class="ans">2² × 3²</b></div>
+
+      <h3>GCF — Greatest Common Factor</h3>
+      <p>The biggest number that divides into <b>both</b>. Use it for "split into equal groups" problems.</p>
+      <div class="worked">GCF of 18 and 24:<br>factors of 18 = 1, 2, 3, 6, 9, 18 · factors of 24 = 1, 2, 3, 4, 6, 8, 12, 24<br>Largest shared = <b class="ans">6</b></div>
+
+      <h3>LCM — Least Common Multiple</h3>
+      <p>The smallest number that <b>both</b> divide into. Use it for "when do they line up again" problems.</p>
+      <div class="worked">LCM of 6 and 8:<br>multiples of 6 = 6, 12, 18, 24… · multiples of 8 = 8, 16, 24…<br>First shared = <b class="ans">24</b></div>
+      <div class="tip">💡 Fast LCM: <b>LCM(a, b) = (a × b) ÷ GCF(a, b)</b>. For 6 and 8: 48 ÷ 2 = 24.</div>
+
+      <div class="pitfall">⚠️ Don't mix them up: <b>GCF</b> is for <i>splitting/sharing</i> (it's ≤ your numbers); <b>LCM</b> is for <i>repeating/lining up</i> (it's ≥ your numbers).</div>
+    `
+  },
+
+  /* ---------------- CHAPTER 9 ---------------- */
+  {
+    id: "patterns", day: 9, emoji: "🔁", title: "Patterns, Sequences & Function Tables",
+    lesson: `
+      <h2>🔁 Patterns, Sequences &amp; Function Tables</h2>
+      <p>This is the heart of algebra readiness: finding the <b>rule</b> behind numbers. Readiness tests (especially the IAAT) lean heavily on "find the next term," "find the formula," and "fill in the table."</p>
+
+      <h3>Arithmetic sequences — add the same amount</h3>
+      <div class="worked">3, 7, 11, 15, … &nbsp;(+4 each time) → next is 15 + 4 = <b class="ans">19</b></div>
+
+      <h3>Geometric sequences — multiply by the same amount</h3>
+      <div class="worked">2, 6, 18, 54, … &nbsp;(×3 each time) → next is 54 × 3 = <b class="ans">162</b></div>
+
+      <h3>Find the nth term without listing them all</h3>
+      <p>For an arithmetic pattern: <b>term = start + step × (n − 1)</b>.</p>
+      <div class="worked">Start 5, add 3, find the 10th term: 5 + 3 × (10 − 1) = 5 + 27 = <b class="ans">32</b></div>
+
+      <h3>Function rules &amp; input-output tables</h3>
+      <p>A rule turns an input (x) into an output (y). Read the table to discover the rule.</p>
+      <table class="convert"><tr><th>x</th><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><th>y</th><td>5</td><td>7</td><td>9</td><td>11</td></tr></table>
+      <p>y goes up by 2 each step → the coefficient is 2; checking the start gives <b>y = 2x + 3</b>.</p>
+
+      <h3>Reverse a rule (work backwards)</h3>
+      <div class="worked">Rule: × 3, then + 2. The output is 17 → input = (17 − 2) ÷ 3 = <b class="ans">5</b></div>
+
+      <div class="tip">💡 Stuck on a sequence? Write the <b>differences</b> between terms. Constant differences → arithmetic. Differences that grow evenly (1, 2, 3, 4…) → patterns like 1, 3, 6, 10 (triangular numbers).</div>
+    `
+  },
+
+  /* ---------------- CHAPTER 10 ---------------- */
+  {
+    id: "geometry", day: 10, emoji: "📐", title: "Geometry & Measurement",
+    lesson: `
+      <h2>📐 Geometry &amp; Measurement</h2>
+      <p>Readiness tests include measurement: area, perimeter, volume, circles, and angles. Memorize a handful of formulas and these become fast, reliable points.</p>
+
+      <h3>Rectangles &amp; squares</h3>
+      <p>Area = length × width. &nbsp; Perimeter = 2 × (length + width).</p>
+      <div class="worked">An 8 × 5 rectangle: area = 8 × 5 = <b class="ans">40</b>, perimeter = 2 × (8 + 5) = <b class="ans">26</b></div>
+
+      <h3>Triangles</h3>
+      <p>Area = ½ × base × height.</p>
+      <div class="worked">Base 6, height 4 → ½ × 6 × 4 = <b class="ans">12</b></div>
+
+      <h3>Circles (use π ≈ 3.14)</h3>
+      <p>Area = π × r². &nbsp; Circumference = 2 × π × r. &nbsp;(r is the radius.)</p>
+      <div class="worked">Radius 10: area ≈ 3.14 × 10² = <b class="ans">314</b>, circumference ≈ 2 × 3.14 × 10 = <b class="ans">62.8</b></div>
+
+      <h3>Volume &amp; surface area of a box</h3>
+      <p>Volume = l × w × h. &nbsp; Surface area = 2(lw + lh + wh).</p>
+      <div class="worked">A 3 × 4 × 2 box: volume = <b class="ans">24</b>, surface area = 2(12 + 6 + 8) = <b class="ans">52</b></div>
+
+      <h3>Angle pairs</h3>
+      <ul>
+        <li><b>Complementary</b> angles add to <b>90°</b>.</li>
+        <li><b>Supplementary</b> angles add to <b>180°</b>.</li>
+      </ul>
+      <div class="worked">One of two complementary angles is 35° → the other is 90 − 35 = <b class="ans">55°</b></div>
+
+      <div class="pitfall">⚠️ Don't confuse <b>area</b> (space inside, square units) with <b>perimeter</b> (distance around). And if you're given a circle's <i>diameter</i>, halve it to get the radius first.</div>
+    `
+  },
+
+  /* ---------------- CHAPTER 11 ---------------- */
+  {
+    id: "data", day: 11, emoji: "📊", title: "Data & Statistics",
+    lesson: `
+      <h2>📊 Data &amp; Statistics</h2>
+      <p>You'll see "averages" and simple probability. These are quick once you know the three M's and the basic probability idea.</p>
+
+      <h3>Mean (the average)</h3>
+      <p>Add all the values, then divide by how many there are.</p>
+      <div class="worked">4, 8, 6, 2 → (4 + 8 + 6 + 2) ÷ 4 = 20 ÷ 4 = <b class="ans">5</b></div>
+
+      <h3>Median (the middle)</h3>
+      <p>Put the numbers <b>in order</b>, then take the middle. With an even count, average the two middle ones.</p>
+      <div class="worked">3, 9, 1, 7, 5 → ordered 1, 3, 5, 7, 9 → middle = <b class="ans">5</b><br>2, 4, 6, 10 → average the two middles: (4 + 6) ÷ 2 = <b class="ans">5</b></div>
+
+      <h3>Mode &amp; Range</h3>
+      <ul>
+        <li><b>Mode</b> = the value that appears most often.</li>
+        <li><b>Range</b> = largest − smallest.</li>
+      </ul>
+
+      <h3>Working backwards with the mean</h3>
+      <div class="worked">The mean of 4 numbers is 10, so they total 4 × 10 = 40. If three are 8, 12, 9 (sum 29), the fourth is 40 − 29 = <b class="ans">11</b></div>
+
+      <h3>Basic probability</h3>
+      <p>P(event) = favorable outcomes ÷ total outcomes.</p>
+      <div class="worked">A bag has 3 red and 5 blue marbles. P(red) = 3 ÷ 8 = <b class="ans">3/8</b></div>
+
+      <div class="tip">💡 Always put the numbers <b>in order</b> before finding the median — skipping that step is the most common slip.</div>
     `
   }
 ];

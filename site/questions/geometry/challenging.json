@@ -1,0 +1,482 @@
+[
+  {
+    "q": "Two angles are complementary. One measures 29°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "61"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 29 = 61°."
+  },
+  {
+    "q": "A box is 6 × 3 × 4. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "108"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(18 + 24 + 12) = 108."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 50°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "130"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 50 = 130°."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 140°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 140 = 40°."
+  },
+  {
+    "q": "A rectangle has area 108 and length 12. What is its width?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Width = area ÷ length = 108 ÷ 12 = 9."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 67°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "113"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 67 = 113°."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 69°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "111"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 69 = 111°."
+  },
+  {
+    "q": "Two angles are complementary. One measures 60°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 60 = 30°."
+  },
+  {
+    "q": "A box is 2 × 5 × 2. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(10 + 4 + 10) = 48."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 90°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 90 = 90°."
+  },
+  {
+    "q": "A rectangle has area 32 and length 4. What is its width?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Width = area ÷ length = 32 ÷ 4 = 8."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 96°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 96 = 84°."
+  },
+  {
+    "q": "Two angles are complementary. One measures 22°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "68"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 22 = 68°."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 136°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "44"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 136 = 44°."
+  },
+  {
+    "q": "A box is 5 × 5 × 4. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "130"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(25 + 20 + 20) = 130."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 103°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "77"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 103 = 77°."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 30°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "150"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 30 = 150°."
+  },
+  {
+    "q": "A box is 6 × 6 × 2. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "120"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(36 + 12 + 12) = 120."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 87°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "93"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 87 = 93°."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 52°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "128"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 52 = 128°."
+  },
+  {
+    "q": "A rectangle has area 30 and length 6. What is its width?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Width = area ÷ length = 30 ÷ 6 = 5."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 81°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "99"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 81 = 99°."
+  },
+  {
+    "q": "Two angles are complementary. One measures 23°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "67"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 23 = 67°."
+  },
+  {
+    "q": "A rectangle has area 48 and length 4. What is its width?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Width = area ÷ length = 48 ÷ 4 = 12."
+  },
+  {
+    "q": "Two angles are complementary. One measures 21°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "69"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 21 = 69°."
+  },
+  {
+    "q": "A rectangle has area 56 and length 8. What is its width?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Width = area ÷ length = 56 ÷ 8 = 7."
+  },
+  {
+    "q": "A rectangle has area 12 and length 4. What is its width?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Width = area ÷ length = 12 ÷ 4 = 3."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 92°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "88"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 92 = 88°."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 31°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "149"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 31 = 149°."
+  },
+  {
+    "q": "A rectangle has area 24 and length 8. What is its width?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Width = area ÷ length = 24 ÷ 8 = 3."
+  },
+  {
+    "q": "A rectangle has area 96 and length 8. What is its width?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Width = area ÷ length = 96 ÷ 8 = 12."
+  },
+  {
+    "q": "A box is 6 × 5 × 3. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "126"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(30 + 18 + 15) = 126."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 106°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "74"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 106 = 74°."
+  },
+  {
+    "q": "A box is 4 × 4 × 4. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "96"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(16 + 16 + 16) = 96."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 107°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "73"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 107 = 73°."
+  },
+  {
+    "q": "A box is 5 × 4 × 2. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "76"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(20 + 10 + 8) = 76."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 135°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 135 = 45°."
+  },
+  {
+    "q": "A rectangle has area 96 and length 12. What is its width?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Width = area ÷ length = 96 ÷ 12 = 8."
+  },
+  {
+    "q": "A box is 3 × 4 × 5. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "94"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(12 + 15 + 20) = 94."
+  },
+  {
+    "q": "A box is 4 × 6 × 5. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "148"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(24 + 20 + 30) = 148."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 76°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "104"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 76 = 104°."
+  },
+  {
+    "q": "A box is 4 × 5 × 5. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "130"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(20 + 20 + 25) = 130."
+  },
+  {
+    "q": "Two angles are complementary. One measures 25°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "65"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 25 = 65°."
+  },
+  {
+    "q": "Two angles are complementary. One measures 31°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "59"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 31 = 59°."
+  },
+  {
+    "q": "A rectangle has area 12 and length 6. What is its width?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Width = area ÷ length = 12 ÷ 6 = 2."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 74°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "106"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 74 = 106°."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 133°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "47"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 133 = 47°."
+  },
+  {
+    "q": "Two angles are complementary. One measures 51°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "39"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 51 = 39°."
+  },
+  {
+    "q": "A rectangle has area 64 and length 8. What is its width?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Width = area ÷ length = 64 ÷ 8 = 8."
+  },
+  {
+    "q": "A box is 3 × 3 × 5. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "78"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(9 + 15 + 15) = 78."
+  },
+  {
+    "q": "Two angles are complementary. One measures 39°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "51"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 39 = 51°."
+  },
+  {
+    "q": "Two angles are complementary. One measures 32°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "58"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 32 = 58°."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 78°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "102"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 78 = 102°."
+  },
+  {
+    "q": "Two angles are complementary. One measures 26°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "Complementary angles add to 90°: 90 − 26 = 64°."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 79°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "101"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 79 = 101°."
+  },
+  {
+    "q": "Two angles are supplementary. One measures 57°. What is the other?",
+    "type": "typed",
+    "accept": [
+      "123"
+    ],
+    "solution": "Supplementary angles add to 180°: 180 − 57 = 123°."
+  },
+  {
+    "q": "A rectangle has area 40 and length 4. What is its width?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Width = area ÷ length = 40 ÷ 4 = 10."
+  },
+  {
+    "q": "A box is 6 × 4 × 6. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "168"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(24 + 36 + 24) = 168."
+  },
+  {
+    "q": "A box is 6 × 4 × 2. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "88"
+    ],
+    "solution": "Surface area = 2(lw + lh + wh) = 2(24 + 12 + 8) = 88."
+  },
+  {
+    "q": "A rectangle has area 120 and length 12. What is its width?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Width = area ÷ length = 120 ÷ 12 = 10."
+  }
+]

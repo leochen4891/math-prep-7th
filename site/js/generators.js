@@ -171,7 +171,101 @@
     ]
   ];
 
-  const GEN = { fractions: fractions, integers: integers, order: order, ratios: ratios, exponents: exponents, equations: equations, graphing: graphing };
+  /* ---- Inequalities folded into the Equations chapter ---- */
+  equations[0].push(
+    function () { const a = rand(1, 9), x = rand(1, 9); return mcText("Solve the inequality: x + " + a + " > " + (x + a), ["x > " + x, "x < " + x, "x > " + (x + a), "x < " + (x + a)], "x > " + x, "Subtract " + a + " from both sides: x > " + (x + a) + " − " + a + ", so x > " + x + "."); }
+  );
+  equations[1].push(
+    function () { const a = pick([2, 3, 4]), x = rand(2, 8); return mcText("Solve the inequality: " + a + "x ≤ " + (a * x), ["x ≤ " + x, "x ≥ " + x, "x ≤ " + (a * x), "x ≥ " + (a * x)], "x ≤ " + x, "Divide both sides by " + a + " (a positive number, so the sign stays): x ≤ " + x + "."); },
+    function () { const a = rand(1, 8), thr = rand(4, 10), need = thr - a; return mcText("Which value of x makes  x + " + a + " > " + thr + "  true?", ["x = " + (need + 1), "x = " + need, "x = " + (need - 1), "x = " + (need - 2)], "x = " + (need + 1), "x + " + a + " > " + thr + " means x > " + need + ". The smallest whole number greater than " + need + " is " + (need + 1) + "."); }
+  );
+  equations[2].push(
+    function () { const x = rand(2, 6); return mcText("Solve the inequality: −2x < " + (-2 * x) + "  (watch the sign!)", ["x > " + x, "x < " + x, "x > " + (-2 * x), "x < " + (-2 * x)], "x > " + x, "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > " + x + "."); },
+    function () { const a = pick([2, 3]), b = rand(1, 6), x = rand(2, 7), c = (a - 1) * x + b; return mcText("Solve the inequality: " + a + "x + " + b + " < x + " + c, ["x < " + x, "x > " + x, "x < " + c, "x > " + c], "x < " + x, "Subtract x and " + b + " from both sides: " + (a - 1) + "x < " + (c - b) + ", so x < " + x + "."); }
+  );
+
+  /* ============================ NUMBER THEORY (GCF / LCM / PRIMES) ============================ */
+  const numbertheory = [
+    [ // MEDIUM
+      function () { const a = rand(8, 40), b = rand(8, 40); return typed("What is the GCF (greatest common factor) of " + a + " and " + b + "?", gcd(a, b), "List the factors of each; the largest factor they share is " + gcd(a, b) + ".", "Type a number"); },
+      function () { const a = rand(2, 9), b = rand(2, 9); const l = a * b / gcd(a, b); return typed("What is the LCM (least common multiple) of " + a + " and " + b + "?", l, "The smallest number that both " + a + " and " + b + " divide into evenly is " + l + ".", "Type a number"); },
+      function () { const primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29], comp = [4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 21, 22, 25, 27]; const isP = pick([true, false]); const n = isP ? pick(primes) : pick(comp); return mcText("Is " + n + " prime or composite?", ["Prime", "Composite"], isP ? "Prime" : "Composite", isP ? n + " has exactly two factors (1 and itself), so it is prime." : n + " has factors besides 1 and itself, so it is composite."); }
+    ],
+    [ // HARD
+      function () { const a = rand(12, 60), b = rand(12, 60); return typed("Find the GCF of " + a + " and " + b + ".", gcd(a, b), "The greatest common factor of " + a + " and " + b + " is " + gcd(a, b) + ".", "Type a number"); },
+      function () { const a = rand(4, 15), b = rand(4, 15); const l = a * b / gcd(a, b); return typed("Find the LCM of " + a + " and " + b + ".", l, "A shortcut: LCM = (a × b) ÷ GCF = (" + a + " × " + b + ") ÷ " + gcd(a, b) + " = " + l + ".", "Type a number"); },
+      function () { const s = pick([{ n: 12, f: "2² × 3" }, { n: 18, f: "2 × 3²" }, { n: 24, f: "2³ × 3" }, { n: 36, f: "2² × 3²" }, { n: 30, f: "2 × 3 × 5" }, { n: 40, f: "2³ × 5" }, { n: 60, f: "2² × 3 × 5" }]); return mcText("Which is the prime factorization of " + s.n + "?", [s.f, "2 × " + s.n, "3 × " + (s.n / 3), s.n + " × 1"], s.f, "Break " + s.n + " down into prime factors only → " + s.f + "."); }
+    ],
+    [ // CHALLENGING
+      function () { const a = pick([4, 6, 8]), b = pick([6, 9, 10, 12]); const l = a * b / gcd(a, b); return typed("Two lights blink every " + a + " seconds and every " + b + " seconds. They just blinked together. After how many seconds will they next blink together?", l, "They sync again at the LCM of " + a + " and " + b + ", which is " + l + " seconds.", "Type a number"); },
+      function () { const l = pick([4, 6, 8, 12]), w = rand(2, 12); const area = l * w; return typed("What is the side length of the largest square tile that can exactly tile a " + area + "-by-" + l + " floor with no cutting?", gcd(area, l), "The tile's side must divide both " + area + " and " + l + ", and the largest such number is the GCF = " + gcd(area, l) + ".", "Type a number"); },
+      function () { const a = rand(6, 12), b = rand(6, 12); return typed("Two numbers are " + a + " and " + b + ". What is (their GCF) × (their LCM)?", a * b, "A neat fact: GCF × LCM always equals the product of the two numbers, so " + a + " × " + b + " = " + (a * b) + ".", "Type a number"); }
+    ]
+  ];
+
+  /* ============================ PATTERNS, SEQUENCES & TABLES ============================ */
+  const patterns = [
+    [ // MEDIUM
+      function () { const start = rand(2, 9), d = rand(2, 6), seq = [start, start + d, start + 2 * d, start + 3 * d]; return typed("What comes next?<br>" + seq.join(", ") + ", ?", start + 4 * d, "Each term goes up by " + d + ": " + (start + 3 * d) + " + " + d + " = " + (start + 4 * d) + ".", "Type a number"); },
+      function () { const start = pick([1, 2, 3]), r = pick([2, 3]), seq = [start, start * r, start * r * r, start * r * r * r]; return typed("What comes next?<br>" + seq.join(", ") + ", ?", start * r * r * r * r, "Each term is multiplied by " + r + ": " + (start * r * r * r) + " × " + r + " = " + (start * r * r * r * r) + ".", "Type a number"); },
+      function () { const m = rand(2, 5), b = rand(1, 9), x = rand(2, 9); return typed("A function rule is y = " + m + "x + " + b + ". If x = " + x + ", what is y?", m * x + b, "Substitute x = " + x + ": " + m + "(" + x + ") + " + b + " = " + (m * x + b) + ".", "Type a number"); }
+    ],
+    [ // HARD
+      function () { const start = rand(2, 8), d = rand(2, 6), N = rand(8, 15); return typed("A pattern starts at " + start + " and adds " + d + " each step. What is the " + N + "th term?", start + d * (N - 1), "Term = start + step×(N−1) = " + start + " + " + d + "×" + (N - 1) + " = " + (start + d * (N - 1)) + ".", "Type a number"); },
+      function () { const m = pick([2, 3, 4]), b = rand(1, 6), x = rand(2, 8); return typed("Rule: multiply the input by " + m + ", then add " + b + ". What is the output when the input is " + x + "?", m * x + b, m + " × " + x + " + " + b + " = " + (m * x + b) + ".", "Type a number"); },
+      function () { const m = pick([2, 3, 4, 5]), b = rand(1, 5), ys = [1, 2, 3, 4].map(x => m * x + b); return mcText("A table shows x: 1, 2, 3, 4 and y: " + ys.join(", ") + ". What is the rule?", ["y = " + m + "x + " + b, "y = " + (m + 1) + "x + " + b, "y = " + m + "x + " + (b + 1), "y = x + " + (m + b)], "y = " + m + "x + " + b, "y goes up by " + m + " each step (so the coefficient is " + m + "), and the pattern gives y = " + m + "x + " + b + "."); }
+    ],
+    [ // CHALLENGING
+      function () { const m = pick([2, 3, 4]), b = rand(1, 6), y = m * rand(3, 8) + b, x = (y - b) / m; return typed("A machine does: input × " + m + ", then + " + b + " = output. The output is " + y + ". What was the input?", x, "Work backwards: (" + y + " − " + b + ") ÷ " + m + " = " + x + ".", "Type a number"); },
+      function () { const m = pick([2, 3, 4]), b = rand(1, 6), x = rand(8, 20); return typed("For the rule y = " + m + "x + " + b + ", what is y when x = " + x + "?", m * x + b, m + "(" + x + ") + " + b + " = " + (m * x) + " + " + b + " = " + (m * x + b) + ".", "Type a number"); },
+      function () { const s = pick([{ t: "1, 3, 6, 10, 15, ?", a: 21, e: "Triangular numbers — the gaps grow +2, +3, +4, +5, so next is +6: 15 + 6 = 21." }, { t: "2, 5, 10, 17, 26, ?", a: 37, e: "The differences are 3, 5, 7, 9 (odd numbers); next is 11: 26 + 11 = 37. (These are n² + 1.)" }, { t: "1, 2, 4, 7, 11, 16, ?", a: 22, e: "The gaps grow 1, 2, 3, 4, 5; next is 6: 16 + 6 = 22." }, { t: "1, 1, 2, 3, 5, 8, 13, ?", a: 21, e: "Each term is the sum of the two before it: 8 + 13 = 21 (Fibonacci)." }]); return typed("What number comes next?<br>" + s.t, s.a, s.e, "Type a number"); }
+    ]
+  ];
+
+  /* ============================ GEOMETRY & MEASUREMENT ============================ */
+  const geometry = [
+    [ // MEDIUM
+      function () { const l = rand(3, 15), w = rand(3, 15); return typed("A rectangle is " + l + " by " + w + ". What is its area?", l * w, "Area = length × width = " + l + " × " + w + " = " + (l * w) + ".", "Type a number"); },
+      function () { const l = rand(3, 15), w = rand(3, 15); return typed("A rectangle is " + l + " by " + w + ". What is its perimeter?", 2 * (l + w), "Perimeter = 2 × (length + width) = 2 × (" + l + " + " + w + ") = " + (2 * (l + w)) + ".", "Type a number"); },
+      function () { const b = rand(2, 16), h = rand(2, 16), area = b * h / 2; return typed("A triangle has base " + b + " and height " + h + ". What is its area?", area, "Area = ½ × base × height = ½ × " + b + " × " + h + " = " + area + ".", "Type a number"); }
+    ],
+    [ // HARD
+      function () { const l = rand(2, 10), w = rand(2, 10), h = rand(2, 10); return typed("A box measures " + l + " × " + w + " × " + h + ". What is its volume?", l * w * h, "Volume = length × width × height = " + l + " × " + w + " × " + h + " = " + (l * w * h) + ".", "Type a number"); },
+      function () { const r = pick([5, 10, 20, 50]), a = Number((3.14 * r * r).toFixed(2)); return typed("A circle has radius " + r + ". What is its area? (Use π ≈ 3.14)", a, "Area = π × r² ≈ 3.14 × " + r + "² = 3.14 × " + (r * r) + " = " + a + ".", "Type a number"); },
+      function () { const r = pick([5, 10, 25, 50, 100]), c = Number((2 * 3.14 * r).toFixed(2)); return typed("A circle has radius " + r + ". What is its circumference? (Use π ≈ 3.14)", c, "Circumference = 2 × π × r ≈ 2 × 3.14 × " + r + " = " + c + ".", "Type a number"); }
+    ],
+    [ // CHALLENGING
+      function () { const a1 = rand(20, 70); return typed("Two angles are complementary. One measures " + a1 + "°. What is the other?", 90 - a1, "Complementary angles add to 90°: 90 − " + a1 + " = " + (90 - a1) + "°.", "Type a number"); },
+      function () { const a1 = rand(30, 140); return typed("Two angles are supplementary. One measures " + a1 + "°. What is the other?", 180 - a1, "Supplementary angles add to 180°: 180 − " + a1 + " = " + (180 - a1) + "°.", "Type a number"); },
+      function () { const l = pick([4, 6, 8, 12]), w = rand(2, 12), area = l * w; return typed("A rectangle has area " + area + " and length " + l + ". What is its width?", w, "Width = area ÷ length = " + area + " ÷ " + l + " = " + w + ".", "Type a number"); },
+      function () { const l = rand(2, 6), w = rand(2, 6), h = rand(2, 6), sa = 2 * (l * w + l * h + w * h); return typed("A box is " + l + " × " + w + " × " + h + ". What is its surface area?", sa, "Surface area = 2(lw + lh + wh) = 2(" + (l * w) + " + " + (l * h) + " + " + (w * h) + ") = " + sa + ".", "Type a number"); }
+    ]
+  ];
+
+  /* ============================ DATA & STATISTICS ============================ */
+  const data = [
+    [ // MEDIUM
+      function () { const a = [rand(2, 9), rand(2, 9), rand(2, 9), rand(2, 9)], s = a.reduce((x, y) => x + y, 0), m = fmt(s / 4); return typed("Find the mean (average) of " + a.join(", ") + ".", m, "Add them: " + a.join(" + ") + " = " + s + ", then divide by 4: " + s + " ÷ 4 = " + m + ".", "Type a number"); },
+      function () { const a = [rand(1, 9), rand(1, 9), rand(1, 9), rand(1, 9), rand(1, 9)].sort((x, y) => x - y); return typed("Find the median of " + a.join(", ") + ".", a[2], "Put them in order, then take the middle value: " + a[2] + ".", "Type a number"); },
+      function () { const a = [rand(1, 20), rand(1, 20), rand(1, 20), rand(1, 20)], r = Math.max.apply(null, a) - Math.min.apply(null, a); return typed("Find the range of " + a.join(", ") + ".", r, "Range = largest − smallest = " + Math.max.apply(null, a) + " − " + Math.min.apply(null, a) + " = " + r + ".", "Type a number"); }
+    ],
+    [ // HARD
+      function () { const a = [rand(1, 9), rand(1, 9), rand(1, 9), rand(1, 9), rand(1, 9), rand(1, 9)].sort((x, y) => x - y), med = (a[2] + a[3]) / 2; return typed("Find the median of " + a.join(", ") + ".", med, "With 6 numbers there are two middle ones — average them: (" + a[2] + " + " + a[3] + ") ÷ 2 = " + med + ".", "Type a number"); },
+      function () { const m = pick([5, 6, 7, 8, 9, 10]), known = [rand(1, 9), rand(1, 9), rand(1, 9)], ks = known.reduce((x, y) => x + y, 0), missing = m * 4 - ks; return typed("The mean of four numbers is " + m + ". Three of them are " + known.join(", ") + ". What is the fourth?", missing, "The four must total " + m + " × 4 = " + (m * 4) + ". Subtract the known sum: " + (m * 4) + " − " + ks + " = " + missing + ".", "Type a number"); },
+      function () { const red = rand(2, 6), blue = rand(2, 6); return typedFrac("A bag has " + red + " red and " + blue + " blue marbles. What is the probability of drawing red? (as a fraction)", red + "/" + (red + blue), fracStr(red, red + blue), "P(red) = red ÷ total = " + red + "/" + (red + blue) + (fracStr(red, red + blue) !== red + "/" + (red + blue) ? " = " + fracStr(red, red + blue) : "") + "."); }
+    ],
+    [ // CHALLENGING
+      function () { const k = pick([4, 5]), cur = pick([78, 80, 82, 84]), target = cur + rand(1, 4), need = target * (k + 1) - cur * k; return typed("Your average on " + k + " tests is " + cur + ". What must you score on the next test to raise your average to " + target + "?", need, "You need a total of " + (k + 1) + " × " + target + " = " + (target * (k + 1)) + ". You already have " + k + " × " + cur + " = " + (cur * k) + ". So you need " + (target * (k + 1)) + " − " + (cur * k) + " = " + need + ".", "Type a number"); },
+      function () { const a = [rand(2, 9), rand(2, 9), rand(2, 9)], os = a.reduce((x, y) => x + y, 0), nm = pick([5, 6, 7, 8]), v = nm * 4 - os; return typed("Three numbers are " + a.join(", ") + ". What value must be added so that the mean of all four is " + nm + "?", v, "Four numbers averaging " + nm + " total " + (nm * 4) + ". The new value = " + (nm * 4) + " − " + os + " = " + v + ".", "Type a number"); },
+      function () { const total = pick([6, 8, 10, 12]), fav = rand(1, total - 1); return typedFrac("A spinner has " + total + " equal sections, " + fav + " of them blue. What is the probability of landing on blue? (as a fraction)", fav + "/" + total, fracStr(fav, total), "P(blue) = blue ÷ total = " + fav + "/" + total + (fracStr(fav, total) !== fav + "/" + total ? " = " + fracStr(fav, total) : "") + "."); }
+    ]
+  ];
+
+  const GEN = {
+    fractions: fractions, integers: integers, order: order, ratios: ratios,
+    exponents: exponents, equations: equations, graphing: graphing,
+    numbertheory: numbertheory, patterns: patterns, geometry: geometry, data: data
+  };
 
   function titleFor(id) { const t = (typeof TOPICS !== "undefined") ? TOPICS.find(x => x.id === id) : null; return t ? t.title : ""; }
   function clampLvl(l) { return Math.max(1, Math.min(3, l)); }

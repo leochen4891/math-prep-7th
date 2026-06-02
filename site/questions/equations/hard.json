@@ -1,171 +1,95 @@
 [
   {
-    "q": "Solve: 11 − 3x = 5<br>x = ?",
+    "q": "Solve: 10 − 3x = 4<br>x = ?",
     "type": "typed",
     "accept": [
       "2"
     ],
-    "solution": "Subtract 11: −3x = -6. Divide by −3: x = 2."
+    "solution": "Subtract 10: −3x = -6. Divide by −3: x = 2."
   },
   {
-    "q": "Solve: 4(x + 5) = 48<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Divide by 4: x + 5 = 12. Subtract 5: x = 7."
-  },
-  {
-    "q": "Solve: 4x + 2 = x + 11<br>x = ?",
+    "q": "Solve: 2(x + 1) = 8<br>x = ?",
     "type": "typed",
     "accept": [
       "3"
     ],
-    "solution": "Subtract x from both sides: 3x + 2 = 11. Then 3x = 9, x = 3."
+    "solution": "Divide by 2: x + 1 = 4. Subtract 1: x = 3."
   },
   {
-    "q": "Solve: 22 − 3x = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
+    "q": "Which value of x makes  x + 2 > 5  true?",
+    "type": "mc",
+    "choices": [
+      "x = 3",
+      "x = 2",
+      "x = 1",
+      "x = 4"
     ],
-    "solution": "Subtract 22: −3x = -15. Divide by −3: x = 5."
+    "answer": 3,
+    "solution": "x + 2 > 5 means x > 3. The smallest whole number greater than 3 is 4."
   },
   {
-    "q": "Solve: 12 − 2x = 8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Subtract 12: −2x = -4. Divide by −2: x = 2."
-  },
-  {
-    "q": "Solve: 2x + 8 = x + 12<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Subtract x from both sides: 1x + 8 = 12. Then 1x = 4, x = 4."
-  },
-  {
-    "q": "Solve: 18 − 4x = 10<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Subtract 18: −4x = -8. Divide by −4: x = 2."
-  },
-  {
-    "q": "Solve: 3(x + 5) = 39<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Divide by 3: x + 5 = 13. Subtract 5: x = 8."
-  },
-  {
-    "q": "Solve: 3(x + 3) = 30<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Divide by 3: x + 3 = 10. Subtract 3: x = 7."
-  },
-  {
-    "q": "Solve: 18 − 4x = 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Subtract 18: −4x = -16. Divide by −4: x = 4."
-  },
-  {
-    "q": "Solve: 3x + 1 = x + 13<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Subtract x from both sides: 2x + 1 = 13. Then 2x = 12, x = 6."
-  },
-  {
-    "q": "Solve: 20 − 4x = 8<br>x = ?",
+    "q": "Solve: 3x + 8 = x + 14<br>x = ?",
     "type": "typed",
     "accept": [
       "3"
     ],
-    "solution": "Subtract 20: −4x = -12. Divide by −4: x = 3."
+    "solution": "Subtract x from both sides: 2x + 8 = 14. Then 2x = 6, x = 3."
   },
   {
-    "q": "Solve: 13 − 4x = 9<br>x = ?",
+    "q": "Solve: 4x + 8 = x + 11<br>x = ?",
     "type": "typed",
     "accept": [
       "1"
     ],
-    "solution": "Subtract 13: −4x = -4. Divide by −4: x = 1."
+    "solution": "Subtract x from both sides: 3x + 8 = 11. Then 3x = 3, x = 1."
   },
   {
-    "q": "Solve: 2(x + 4) = 16<br>x = ?",
+    "q": "Solve the inequality: 3x ≤ 12",
+    "type": "mc",
+    "choices": [
+      "x ≤ 4",
+      "x ≥ 4",
+      "x ≤ 12",
+      "x ≥ 12"
+    ],
+    "answer": 0,
+    "solution": "Divide both sides by 3 (a positive number, so the sign stays): x ≤ 4."
+  },
+  {
+    "q": "Solve: 3x + 5 = x + 9<br>x = ?",
     "type": "typed",
     "accept": [
-      "4"
+      "2"
     ],
-    "solution": "Divide by 2: x + 4 = 8. Subtract 4: x = 4."
+    "solution": "Subtract x from both sides: 2x + 5 = 9. Then 2x = 4, x = 2."
   },
   {
-    "q": "Solve: 4(x + 3) = 36<br>x = ?",
+    "q": "Solve: 5 − 2x = 3<br>x = ?",
     "type": "typed",
     "accept": [
-      "6"
+      "1"
     ],
-    "solution": "Divide by 4: x + 3 = 9. Subtract 3: x = 6."
+    "solution": "Subtract 5: −2x = -2. Divide by −2: x = 1."
   },
   {
-    "q": "Solve: 3(x + 4) = 30<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
+    "q": "Solve the inequality: 3x ≤ 6",
+    "type": "mc",
+    "choices": [
+      "x ≤ 2",
+      "x ≤ 6",
+      "x ≥ 6",
+      "x ≥ 2"
     ],
-    "solution": "Divide by 3: x + 4 = 10. Subtract 4: x = 6."
+    "answer": 0,
+    "solution": "Divide both sides by 3 (a positive number, so the sign stays): x ≤ 2."
   },
   {
-    "q": "Solve: 3(x + 1) = 27<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Divide by 3: x + 1 = 9. Subtract 1: x = 8."
-  },
-  {
-    "q": "Solve: 3x + 5 = x + 15<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Subtract x from both sides: 2x + 5 = 15. Then 2x = 10, x = 5."
-  },
-  {
-    "q": "Solve: 4(x + 5) = 36<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Divide by 4: x + 5 = 9. Subtract 5: x = 4."
-  },
-  {
-    "q": "Solve: 4x + 2 = x + 14<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Subtract x from both sides: 3x + 2 = 14. Then 3x = 12, x = 4."
-  },
-  {
-    "q": "Solve: 4x + 3 = x + 21<br>x = ?",
+    "q": "Solve: 4x + 1 = x + 19<br>x = ?",
     "type": "typed",
     "accept": [
       "6"
     ],
-    "solution": "Subtract x from both sides: 3x + 3 = 21. Then 3x = 18, x = 6."
+    "solution": "Subtract x from both sides: 3x + 1 = 19. Then 3x = 18, x = 6."
   },
   {
     "q": "Solve: 23 − 3x = 5<br>x = ?",
@@ -176,20 +100,416 @@
     "solution": "Subtract 23: −3x = -18. Divide by −3: x = 6."
   },
   {
-    "q": "Solve: 2x + 9 = x + 13<br>x = ?",
+    "q": "Solve the inequality: 3x ≤ 9",
+    "type": "mc",
+    "choices": [
+      "x ≥ 9",
+      "x ≤ 9",
+      "x ≤ 3",
+      "x ≥ 3"
+    ],
+    "answer": 2,
+    "solution": "Divide both sides by 3 (a positive number, so the sign stays): x ≤ 3."
+  },
+  {
+    "q": "Solve: 2x + 7 = x + 11<br>x = ?",
     "type": "typed",
     "accept": [
       "4"
     ],
-    "solution": "Subtract x from both sides: 1x + 9 = 13. Then 1x = 4, x = 4."
+    "solution": "Subtract x from both sides: 1x + 7 = 11. Then 1x = 4, x = 4."
   },
   {
-    "q": "Solve: 3(x + 3) = 33<br>x = ?",
+    "q": "Which value of x makes  x + 2 > 10  true?",
+    "type": "mc",
+    "choices": [
+      "x = 6",
+      "x = 8",
+      "x = 9",
+      "x = 7"
+    ],
+    "answer": 2,
+    "solution": "x + 2 > 10 means x > 8. The smallest whole number greater than 8 is 9."
+  },
+  {
+    "q": "Solve: 2(x + 1) = 10<br>x = ?",
     "type": "typed",
     "accept": [
-      "8"
+      "4"
     ],
-    "solution": "Divide by 3: x + 3 = 11. Subtract 3: x = 8."
+    "solution": "Divide by 2: x + 1 = 5. Subtract 1: x = 4."
+  },
+  {
+    "q": "Solve the inequality: 2x ≤ 10",
+    "type": "mc",
+    "choices": [
+      "x ≥ 5",
+      "x ≥ 10",
+      "x ≤ 10",
+      "x ≤ 5"
+    ],
+    "answer": 3,
+    "solution": "Divide both sides by 2 (a positive number, so the sign stays): x ≤ 5."
+  },
+  {
+    "q": "Solve: 6 − 3x = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Subtract 6: −3x = -3. Divide by −3: x = 1."
+  },
+  {
+    "q": "Which value of x makes  x + 3 > 6  true?",
+    "type": "mc",
+    "choices": [
+      "x = 1",
+      "x = 4",
+      "x = 3",
+      "x = 2"
+    ],
+    "answer": 1,
+    "solution": "x + 3 > 6 means x > 3. The smallest whole number greater than 3 is 4."
+  },
+  {
+    "q": "Solve: 2(x + 5) = 24<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Divide by 2: x + 5 = 12. Subtract 5: x = 7."
+  },
+  {
+    "q": "Solve: 11 − 4x = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract 11: −4x = -8. Divide by −4: x = 2."
+  },
+  {
+    "q": "Solve the inequality: 2x ≤ 8",
+    "type": "mc",
+    "choices": [
+      "x ≤ 4",
+      "x ≥ 4",
+      "x ≤ 8",
+      "x ≥ 8"
+    ],
+    "answer": 0,
+    "solution": "Divide both sides by 2 (a positive number, so the sign stays): x ≤ 4."
+  },
+  {
+    "q": "Which value of x makes  x + 7 > 9  true?",
+    "type": "mc",
+    "choices": [
+      "x = 3",
+      "x = 2",
+      "x = 1",
+      "x = 0"
+    ],
+    "answer": 0,
+    "solution": "x + 7 > 9 means x > 2. The smallest whole number greater than 2 is 3."
+  },
+  {
+    "q": "Solve the inequality: 4x ≤ 16",
+    "type": "mc",
+    "choices": [
+      "x ≥ 4",
+      "x ≤ 16",
+      "x ≥ 16",
+      "x ≤ 4"
+    ],
+    "answer": 3,
+    "solution": "Divide both sides by 4 (a positive number, so the sign stays): x ≤ 4."
+  },
+  {
+    "q": "Solve: 19 − 3x = 10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Subtract 19: −3x = -9. Divide by −3: x = 3."
+  },
+  {
+    "q": "Solve: 4(x + 5) = 48<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Divide by 4: x + 5 = 12. Subtract 5: x = 7."
+  },
+  {
+    "q": "Solve: 2x + 8 = x + 10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract x from both sides: 1x + 8 = 10. Then 1x = 2, x = 2."
+  },
+  {
+    "q": "Solve: 4(x + 4) = 40<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Divide by 4: x + 4 = 10. Subtract 4: x = 6."
+  },
+  {
+    "q": "Which value of x makes  x + 1 > 10  true?",
+    "type": "mc",
+    "choices": [
+      "x = 8",
+      "x = 10",
+      "x = 9",
+      "x = 7"
+    ],
+    "answer": 1,
+    "solution": "x + 1 > 10 means x > 9. The smallest whole number greater than 9 is 10."
+  },
+  {
+    "q": "Solve the inequality: 3x ≤ 15",
+    "type": "mc",
+    "choices": [
+      "x ≥ 15",
+      "x ≥ 5",
+      "x ≤ 5",
+      "x ≤ 15"
+    ],
+    "answer": 2,
+    "solution": "Divide both sides by 3 (a positive number, so the sign stays): x ≤ 5."
+  },
+  {
+    "q": "Solve: 4(x + 5) = 36<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Divide by 4: x + 5 = 9. Subtract 5: x = 4."
+  },
+  {
+    "q": "Which value of x makes  x + 5 > 4  true?",
+    "type": "mc",
+    "choices": [
+      "x = -2",
+      "x = -1",
+      "x = 0",
+      "x = -3"
+    ],
+    "answer": 2,
+    "solution": "x + 5 > 4 means x > -1. The smallest whole number greater than -1 is 0."
+  },
+  {
+    "q": "Solve the inequality: 3x ≤ 24",
+    "type": "mc",
+    "choices": [
+      "x ≥ 8",
+      "x ≤ 8",
+      "x ≥ 24",
+      "x ≤ 24"
+    ],
+    "answer": 1,
+    "solution": "Divide both sides by 3 (a positive number, so the sign stays): x ≤ 8."
+  },
+  {
+    "q": "Solve: 2x + 9 = x + 10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Subtract x from both sides: 1x + 9 = 10. Then 1x = 1, x = 1."
+  },
+  {
+    "q": "Solve: 2(x + 1) = 16<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Divide by 2: x + 1 = 8. Subtract 1: x = 7."
+  },
+  {
+    "q": "Solve the inequality: 2x ≤ 16",
+    "type": "mc",
+    "choices": [
+      "x ≥ 16",
+      "x ≤ 8",
+      "x ≤ 16",
+      "x ≥ 8"
+    ],
+    "answer": 1,
+    "solution": "Divide both sides by 2 (a positive number, so the sign stays): x ≤ 8."
+  },
+  {
+    "q": "Solve: 3(x + 2) = 24<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Divide by 3: x + 2 = 8. Subtract 2: x = 6."
+  },
+  {
+    "q": "Solve: 16 − 3x = 1<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Subtract 16: −3x = -15. Divide by −3: x = 5."
+  },
+  {
+    "q": "Solve: 4x + 9 = x + 24<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Subtract x from both sides: 3x + 9 = 24. Then 3x = 15, x = 5."
+  },
+  {
+    "q": "Solve: 4x + 2 = x + 14<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract x from both sides: 3x + 2 = 14. Then 3x = 12, x = 4."
+  },
+  {
+    "q": "Which value of x makes  x + 8 > 6  true?",
+    "type": "mc",
+    "choices": [
+      "x = -1",
+      "x = -2",
+      "x = -4",
+      "x = -3"
+    ],
+    "answer": 0,
+    "solution": "x + 8 > 6 means x > -2. The smallest whole number greater than -2 is -1."
+  },
+  {
+    "q": "Solve: 13 − 3x = 1<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 13: −3x = -12. Divide by −3: x = 4."
+  },
+  {
+    "q": "Solve: 4x + 3 = x + 9<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract x from both sides: 3x + 3 = 9. Then 3x = 6, x = 2."
+  },
+  {
+    "q": "Solve: 32 − 4x = 8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract 32: −4x = -24. Divide by −4: x = 6."
+  },
+  {
+    "q": "Solve: 2x + 9 = x + 14<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Subtract x from both sides: 1x + 9 = 14. Then 1x = 5, x = 5."
+  },
+  {
+    "q": "Solve: 4x + 4 = x + 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Subtract x from both sides: 3x + 4 = 7. Then 3x = 3, x = 1."
+  },
+  {
+    "q": "Solve: 16 − 3x = 4<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 16: −3x = -12. Divide by −3: x = 4."
+  },
+  {
+    "q": "Solve: 2(x + 5) = 16<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Divide by 2: x + 5 = 8. Subtract 5: x = 3."
+  },
+  {
+    "q": "Solve: 4(x + 3) = 36<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Divide by 4: x + 3 = 9. Subtract 3: x = 6."
+  },
+  {
+    "q": "Solve: 3(x + 2) = 12<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Divide by 3: x + 2 = 4. Subtract 2: x = 2."
+  },
+  {
+    "q": "Solve: 18 − 4x = 2<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 18: −4x = -16. Divide by −4: x = 4."
+  },
+  {
+    "q": "Solve the inequality: 4x ≤ 32",
+    "type": "mc",
+    "choices": [
+      "x ≤ 32",
+      "x ≥ 32",
+      "x ≥ 8",
+      "x ≤ 8"
+    ],
+    "answer": 3,
+    "solution": "Divide both sides by 4 (a positive number, so the sign stays): x ≤ 8."
+  },
+  {
+    "q": "Solve: 3x + 7 = x + 11<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract x from both sides: 2x + 7 = 11. Then 2x = 4, x = 2."
+  },
+  {
+    "q": "Solve: 4(x + 2) = 28<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Divide by 4: x + 2 = 7. Subtract 2: x = 5."
+  },
+  {
+    "q": "Which value of x makes  x + 5 > 9  true?",
+    "type": "mc",
+    "choices": [
+      "x = 5",
+      "x = 2",
+      "x = 3",
+      "x = 4"
+    ],
+    "answer": 0,
+    "solution": "x + 5 > 9 means x > 4. The smallest whole number greater than 4 is 5."
+  },
+  {
+    "q": "Solve: 4(x + 1) = 20<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Divide by 4: x + 1 = 5. Subtract 1: x = 4."
   },
   {
     "q": "Solve: 3(x + 1) = 24<br>x = ?",
@@ -200,283 +520,43 @@
     "solution": "Divide by 3: x + 1 = 8. Subtract 1: x = 7."
   },
   {
-    "q": "Solve: 4x + 5 = x + 17<br>x = ?",
+    "q": "Solve: 22 − 3x = 10<br>x = ?",
     "type": "typed",
     "accept": [
       "4"
     ],
-    "solution": "Subtract x from both sides: 3x + 5 = 17. Then 3x = 12, x = 4."
+    "solution": "Subtract 22: −3x = -12. Divide by −3: x = 4."
   },
   {
-    "q": "Solve: 26 − 4x = 10<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
+    "q": "Which value of x makes  x + 4 > 9  true?",
+    "type": "mc",
+    "choices": [
+      "x = 5",
+      "x = 3",
+      "x = 4",
+      "x = 6"
     ],
-    "solution": "Subtract 26: −4x = -16. Divide by −4: x = 4."
+    "answer": 3,
+    "solution": "x + 4 > 9 means x > 5. The smallest whole number greater than 5 is 6."
   },
   {
-    "q": "Solve: 19 − 3x = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
+    "q": "Solve the inequality: 2x ≤ 12",
+    "type": "mc",
+    "choices": [
+      "x ≤ 12",
+      "x ≤ 6",
+      "x ≥ 6",
+      "x ≥ 12"
     ],
-    "solution": "Subtract 19: −3x = -12. Divide by −3: x = 4."
+    "answer": 1,
+    "solution": "Divide both sides by 2 (a positive number, so the sign stays): x ≤ 6."
   },
   {
-    "q": "Solve: 4(x + 4) = 48<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Divide by 4: x + 4 = 12. Subtract 4: x = 8."
-  },
-  {
-    "q": "Solve: 11 − 2x = 3<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Subtract 11: −2x = -8. Divide by −2: x = 4."
-  },
-  {
-    "q": "Solve: 4x + 8 = x + 14<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Subtract x from both sides: 3x + 8 = 14. Then 3x = 6, x = 2."
-  },
-  {
-    "q": "Solve: 26 − 3x = 8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Subtract 26: −3x = -18. Divide by −3: x = 6."
-  },
-  {
-    "q": "Solve: 2(x + 4) = 22<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Divide by 2: x + 4 = 11. Subtract 4: x = 7."
-  },
-  {
-    "q": "Solve: 5 − 3x = 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "Subtract 5: −3x = -3. Divide by −3: x = 1."
-  },
-  {
-    "q": "Solve: 11 − 2x = 1<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Subtract 11: −2x = -10. Divide by −2: x = 5."
-  },
-  {
-    "q": "Solve: 2x + 7 = x + 13<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Subtract x from both sides: 1x + 7 = 13. Then 1x = 6, x = 6."
-  },
-  {
-    "q": "Solve: 13 − 2x = 1<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Subtract 13: −2x = -12. Divide by −2: x = 6."
-  },
-  {
-    "q": "Solve: 18 − 3x = 3<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Subtract 18: −3x = -15. Divide by −3: x = 5."
-  },
-  {
-    "q": "Solve: 12 − 2x = 4<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Subtract 12: −2x = -8. Divide by −2: x = 4."
-  },
-  {
-    "q": "Solve: 4x + 4 = x + 10<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Subtract x from both sides: 3x + 4 = 10. Then 3x = 6, x = 2."
-  },
-  {
-    "q": "Solve: 4x + 1 = x + 16<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Subtract x from both sides: 3x + 1 = 16. Then 3x = 15, x = 5."
-  },
-  {
-    "q": "Solve: 17 − 4x = 1<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Subtract 17: −4x = -16. Divide by −4: x = 4."
-  },
-  {
-    "q": "Solve: 8 − 3x = 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Subtract 8: −3x = -6. Divide by −3: x = 2."
-  },
-  {
-    "q": "Solve: 3x + 3 = x + 15<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Subtract x from both sides: 2x + 3 = 15. Then 2x = 12, x = 6."
-  },
-  {
-    "q": "Solve: 22 − 4x = 10<br>x = ?",
+    "q": "Solve: 3(x + 5) = 24<br>x = ?",
     "type": "typed",
     "accept": [
       "3"
     ],
-    "solution": "Subtract 22: −4x = -12. Divide by −4: x = 3."
-  },
-  {
-    "q": "Solve: 3x + 6 = x + 8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "Subtract x from both sides: 2x + 6 = 8. Then 2x = 2, x = 1."
-  },
-  {
-    "q": "Solve: 3(x + 5) = 33<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Divide by 3: x + 5 = 11. Subtract 5: x = 6."
-  },
-  {
-    "q": "Solve: 17 − 3x = 5<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Subtract 17: −3x = -12. Divide by −3: x = 4."
-  },
-  {
-    "q": "Solve: 3x + 5 = x + 17<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Subtract x from both sides: 2x + 5 = 17. Then 2x = 12, x = 6."
-  },
-  {
-    "q": "Solve: 2(x + 4) = 20<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Divide by 2: x + 4 = 10. Subtract 4: x = 6."
-  },
-  {
-    "q": "Solve: 4(x + 1) = 28<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Divide by 4: x + 1 = 7. Subtract 1: x = 6."
-  },
-  {
-    "q": "Solve: 2(x + 2) = 14<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Divide by 2: x + 2 = 7. Subtract 2: x = 5."
-  },
-  {
-    "q": "Solve: 3(x + 2) = 15<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Divide by 3: x + 2 = 5. Subtract 2: x = 3."
-  },
-  {
-    "q": "Solve: 23 − 4x = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Subtract 23: −4x = -16. Divide by −4: x = 4."
-  },
-  {
-    "q": "Solve: 3(x + 4) = 18<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Divide by 3: x + 4 = 6. Subtract 4: x = 2."
-  },
-  {
-    "q": "Solve: 15 − 2x = 3<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Subtract 15: −2x = -12. Divide by −2: x = 6."
-  },
-  {
-    "q": "Solve: 4x + 6 = x + 12<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Subtract x from both sides: 3x + 6 = 12. Then 3x = 6, x = 2."
-  },
-  {
-    "q": "Solve: 4(x + 3) = 28<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Divide by 4: x + 3 = 7. Subtract 3: x = 4."
-  },
-  {
-    "q": "Solve: 8 − 3x = 5<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "Subtract 8: −3x = -3. Divide by −3: x = 1."
-  },
-  {
-    "q": "Solve: 3(x + 1) = 9<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Divide by 3: x + 1 = 3. Subtract 1: x = 2."
+    "solution": "Divide by 3: x + 5 = 8. Subtract 5: x = 3."
   }
 ]
