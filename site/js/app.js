@@ -65,7 +65,7 @@ function screenHome() {
     <section class="hero">
       <div style="font-size:46px">🚀📘</div>
       <h1>Math Placement Prep</h1>
-      <p>Seven chapters. Each has a full lesson and a 20-question test — choose your level: 🟢 Medium, 🟠 Hard, or 🔴 Challenging.</p>
+      <p>${TOPICS.length} chapters. Each has a full lesson and a 20-question test. Choose your level: 🟢 Medium, 🟠 Hard, or 🔴 Challenging.</p>
     </section>
     <h2 style="margin:18px 6px 8px">Chapters</h2>
     <div class="grid">${cards}</div>

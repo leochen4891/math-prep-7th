@@ -6,7 +6,7 @@ A free, open practice site for the Livingston (NJ) 7th-grade math placement test
 
 ## What it is
 
-Seven chapters. Each chapter has:
+Eleven chapters. Each chapter has:
 
 1. **A full lesson** ("Learn It") — taught in an Art-of-Problem-Solving style: the *why*, worked examples, common mistakes, and pro tips.
 2. **A 20-question test** at one of three difficulty levels you choose:
@@ -23,8 +23,12 @@ Tests let you navigate freely (Previous / Next / jump to any question), change a
 3. Order of Operations & Expressions
 4. Ratios, Rates & Proportions
 5. Exponents & Powers
-6. Equations (Solving for x)
+6. Equations & Inequalities
 7. Coordinate Plane & Word Problems
+8. Factors, Multiples & Number Theory
+9. Patterns, Sequences & Function Tables
+10. Geometry & Measurement
+11. Data & Statistics
 
 ## The question bank lives here — contributions welcome!
 
