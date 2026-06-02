@@ -99,6 +99,62 @@ const COMP = {
       "Let Jerry = j, Tom = 2j. Together: j + 2j = 3j = 18, so j = 6 and Tom = 2 × 6 = 12."),
     T("What is the next number in the pattern 1, 3, 6, 10, 15, … ?", ["21"],
       "The gaps grow by one each time: +2, +3, +4, +5, so the next gap is +6. 15 + 6 = 21. (These are the 'triangular numbers.')")
+  ],
+  numbertheory: [
+    T("What is the smallest whole number greater than 1 that is both a perfect square AND a perfect cube?", ["64"],
+      "To be both a square and a cube, a number must be a 6th power. The smallest is 2⁶ = 64 (it equals 8² and also 4³)."),
+    T("How many factors does 36 have?", ["9"],
+      "36 = 2² × 3². The number of factors is (2+1) × (2+1) = 9. (They are 1, 2, 3, 4, 6, 9, 12, 18, 36.)"),
+    T("Two numbers have a GCF of 4 and an LCM of 60. If one of the numbers is 12, what is the other?", ["20"],
+      "GCF × LCM = product of the numbers, so 4 × 60 = 240 = 12 × other. The other number is 240 ÷ 12 = 20."),
+    T("What is the sum of the first five prime numbers?", ["28"],
+      "The first five primes are 2, 3, 5, 7, 11. Their sum is 2 + 3 + 5 + 7 + 11 = 28."),
+    T("What is the smallest number greater than 1 that leaves a remainder of 1 when divided by 2, 3, and 4?", ["13"],
+      "A number 1 more than a common multiple of 2, 3, 4 works. LCM(2, 3, 4) = 12, so 12 + 1 = 13."),
+    M("Which of these numbers is prime?", ["51", "57", "59", "91"], 2,
+      "51 = 3×17, 57 = 3×19, 91 = 7×13 — all composite. 59 has no factors but 1 and itself, so 59 is prime.")
+  ],
+  patterns: [
+    T("In the sequence 2, 5, 8, 11, …, what is the 20th term?", ["59"],
+      "It adds 3 each time, starting at 2. Term = 2 + 3 × (20 − 1) = 2 + 57 = 59."),
+    T("What is the sum 1 + 2 + 3 + … + 10?", ["55"],
+      "Pair them: (1+10)+(2+9)+…+(5+6) = five pairs of 11 = 55."),
+    T("Toothpick squares share sides: 1 square needs 4 toothpicks, 2 squares need 7, 3 squares need 10. How many toothpicks for 6 squares?", ["19"],
+      "Each new square adds 3 toothpicks: the rule is 3n + 1. For n = 6: 3(6) + 1 = 19."),
+    T("Each term is double the previous one plus 1, starting at 1: 1, 3, 7, 15, … What is the next term?", ["31"],
+      "15 × 2 + 1 = 31."),
+    T("Numbers are arranged in rows: row 1 has 1 number, row 2 has 2, row 3 has 3, and so on. How many numbers are in the first 6 rows altogether?", ["21"],
+      "Total = 1 + 2 + 3 + 4 + 5 + 6 = 21."),
+    T("What is the 8th term of the pattern 1, 4, 9, 16, 25, … ?", ["64"],
+      "These are perfect squares (1², 2², 3², …), so the 8th term is 8² = 64.")
+  ],
+  geometry: [
+    T("A square has a perimeter of 36. What is its area?", ["81"],
+      "All four sides are equal: side = 36 ÷ 4 = 9. Area = 9 × 9 = 81."),
+    T("A rectangle has an area of 24 and a perimeter of 20. What is its longer side?", ["6"],
+      "The two sides add to 10 (half the perimeter) and multiply to 24. The numbers 6 and 4 work, so the longer side is 6."),
+    T("A square garden has side 10. A path 1 unit wide runs inside it along all four edges. What is the area of the path?", ["36"],
+      "The whole square is 10 × 10 = 100. The inner region is 8 × 8 = 64. The path is 100 − 64 = 36."),
+    T("The three angles of a triangle are in the ratio 1 : 2 : 3. What is the largest angle (in degrees)?", ["90", "90°"],
+      "The angles total 180°. Parts: 1 + 2 + 3 = 6, so one part = 30°. The largest is 3 × 30° = 90°."),
+    T("A cube has a volume of 27. What is its surface area?", ["54"],
+      "Side = ∛27 = 3. Each face is 3 × 3 = 9, and a cube has 6 faces: 6 × 9 = 54."),
+    T("A rectangle is 8 by 6. One diagonal splits it into two triangles. What is the area of ONE triangle?", ["24"],
+      "The rectangle's area is 8 × 6 = 48, and the diagonal cuts it into two equal triangles: 48 ÷ 2 = 24.")
+  ],
+  data: [
+    T("The mean of five numbers is 12. Four of them are 10, 14, 8, and 16. What is the fifth number?", ["12"],
+      "The five must total 5 × 12 = 60. The four known ones sum to 48, so the fifth is 60 − 48 = 12."),
+    T("A student scored 85, 90, and 95 on three tests. What score on a fourth test gives a mean of 90?", ["90"],
+      "Four tests averaging 90 total 360. The first three sum to 270, so the fourth must be 360 − 270 = 90."),
+    T("The mean of six numbers is 5. If the number 10 is removed, what is the mean of the remaining five?", ["4"],
+      "Six numbers averaging 5 total 30. Remove 10 → 20 left, shared by 5 numbers: 20 ÷ 5 = 4."),
+    T("Five friends have a mean age of 10. A sixth friend joins and the mean becomes 11. How old is the sixth friend?", ["16"],
+      "Six people averaging 11 total 66. The first five totaled 5 × 10 = 50, so the sixth is 66 − 50 = 16."),
+    T("The numbers 4, 7, 7, 10, and x have a mean of 8. What is x?", ["12"],
+      "Five numbers averaging 8 total 40. The four known ones sum to 28, so x = 40 − 28 = 12."),
+    T("A bag has 4 red, 3 blue, and 5 green marbles. What is the probability of NOT drawing a blue marble? (as a fraction)", ["3/4", "9/12"],
+      "There are 12 marbles, and 12 − 3 = 9 are not blue. P(not blue) = 9/12 = 3/4.")
   ]
 };
 
@@ -107,8 +163,9 @@ const qdir = path.join(__dirname, "..", "site", "questions");
 for (const chapter of Object.keys(COMP)) {
   const file = path.join(qdir, chapter, "challenging.json");
   const existing = JSON.parse(fs.readFileSync(file, "utf8"));
-  // de-dup by question text, drop any items flagged ||OVERRIDE (authoring mistakes)
-  const clean = COMP[chapter].filter(x => !x.solution.includes("||OVERRIDE"));
+  // idempotent: skip items already present (by question text) and any ||OVERRIDE authoring flags
+  const have = new Set(existing.map(x => x.q));
+  const clean = COMP[chapter].filter(x => !x.solution.includes("||OVERRIDE") && !have.has(x.q));
   const merged = existing.concat(clean);
   fs.writeFileSync(file, JSON.stringify(merged, null, 2) + "\n");
   added += clean.length;

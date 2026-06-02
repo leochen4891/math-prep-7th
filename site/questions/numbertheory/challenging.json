@@ -478,5 +478,63 @@
       "70"
     ],
     "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 7 = 70."
+  },
+  {
+    "q": "What is the smallest whole number greater than 1 that is both a perfect square AND a perfect cube?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "To be both a square and a cube, a number must be a 6th power. The smallest is 2⁶ = 64 (it equals 8² and also 4³).",
+    "source": "competition"
+  },
+  {
+    "q": "How many factors does 36 have?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "36 = 2² × 3². The number of factors is (2+1) × (2+1) = 9. (They are 1, 2, 3, 4, 6, 9, 12, 18, 36.)",
+    "source": "competition"
+  },
+  {
+    "q": "Two numbers have a GCF of 4 and an LCM of 60. If one of the numbers is 12, what is the other?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "GCF × LCM = product of the numbers, so 4 × 60 = 240 = 12 × other. The other number is 240 ÷ 12 = 20.",
+    "source": "competition"
+  },
+  {
+    "q": "What is the sum of the first five prime numbers?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "The first five primes are 2, 3, 5, 7, 11. Their sum is 2 + 3 + 5 + 7 + 11 = 28.",
+    "source": "competition"
+  },
+  {
+    "q": "What is the smallest number greater than 1 that leaves a remainder of 1 when divided by 2, 3, and 4?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "A number 1 more than a common multiple of 2, 3, 4 works. LCM(2, 3, 4) = 12, so 12 + 1 = 13.",
+    "source": "competition"
+  },
+  {
+    "q": "Which of these numbers is prime?",
+    "type": "mc",
+    "choices": [
+      "51",
+      "57",
+      "59",
+      "91"
+    ],
+    "answer": 2,
+    "solution": "51 = 3×17, 57 = 3×19, 91 = 7×13 — all composite. 59 has no factors but 1 and itself, so 59 is prime.",
+    "source": "competition"
   }
 ]

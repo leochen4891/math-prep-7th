@@ -487,5 +487,60 @@
       "12"
     ],
     "solution": "Four numbers averaging 6 total 24. The new value = 24 − 12 = 12."
+  },
+  {
+    "q": "The mean of five numbers is 12. Four of them are 10, 14, 8, and 16. What is the fifth number?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "The five must total 5 × 12 = 60. The four known ones sum to 48, so the fifth is 60 − 48 = 12.",
+    "source": "competition"
+  },
+  {
+    "q": "A student scored 85, 90, and 95 on three tests. What score on a fourth test gives a mean of 90?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Four tests averaging 90 total 360. The first three sum to 270, so the fourth must be 360 − 270 = 90.",
+    "source": "competition"
+  },
+  {
+    "q": "The mean of six numbers is 5. If the number 10 is removed, what is the mean of the remaining five?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Six numbers averaging 5 total 30. Remove 10 → 20 left, shared by 5 numbers: 20 ÷ 5 = 4.",
+    "source": "competition"
+  },
+  {
+    "q": "Five friends have a mean age of 10. A sixth friend joins and the mean becomes 11. How old is the sixth friend?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Six people averaging 11 total 66. The first five totaled 5 × 10 = 50, so the sixth is 66 − 50 = 16.",
+    "source": "competition"
+  },
+  {
+    "q": "The numbers 4, 7, 7, 10, and x have a mean of 8. What is x?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Five numbers averaging 8 total 40. The four known ones sum to 28, so x = 40 − 28 = 12.",
+    "source": "competition"
+  },
+  {
+    "q": "A bag has 4 red, 3 blue, and 5 green marbles. What is the probability of NOT drawing a blue marble? (as a fraction)",
+    "type": "typed",
+    "accept": [
+      "3/4",
+      "9/12"
+    ],
+    "solution": "There are 12 marbles, and 12 − 3 = 9 are not blue. P(not blue) = 9/12 = 3/4.",
+    "source": "competition"
   }
 ]

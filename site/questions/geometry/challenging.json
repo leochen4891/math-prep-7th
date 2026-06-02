@@ -478,5 +478,60 @@
       "10"
     ],
     "solution": "Width = area ÷ length = 120 ÷ 12 = 10."
+  },
+  {
+    "q": "A square has a perimeter of 36. What is its area?",
+    "type": "typed",
+    "accept": [
+      "81"
+    ],
+    "solution": "All four sides are equal: side = 36 ÷ 4 = 9. Area = 9 × 9 = 81.",
+    "source": "competition"
+  },
+  {
+    "q": "A rectangle has an area of 24 and a perimeter of 20. What is its longer side?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "The two sides add to 10 (half the perimeter) and multiply to 24. The numbers 6 and 4 work, so the longer side is 6.",
+    "source": "competition"
+  },
+  {
+    "q": "A square garden has side 10. A path 1 unit wide runs inside it along all four edges. What is the area of the path?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "The whole square is 10 × 10 = 100. The inner region is 8 × 8 = 64. The path is 100 − 64 = 36.",
+    "source": "competition"
+  },
+  {
+    "q": "The three angles of a triangle are in the ratio 1 : 2 : 3. What is the largest angle (in degrees)?",
+    "type": "typed",
+    "accept": [
+      "90",
+      "90°"
+    ],
+    "solution": "The angles total 180°. Parts: 1 + 2 + 3 = 6, so one part = 30°. The largest is 3 × 30° = 90°.",
+    "source": "competition"
+  },
+  {
+    "q": "A cube has a volume of 27. What is its surface area?",
+    "type": "typed",
+    "accept": [
+      "54"
+    ],
+    "solution": "Side = ∛27 = 3. Each face is 3 × 3 = 9, and a cube has 6 faces: 6 × 9 = 54.",
+    "source": "competition"
+  },
+  {
+    "q": "A rectangle is 8 by 6. One diagonal splits it into two triangles. What is the area of ONE triangle?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "The rectangle's area is 8 × 6 = 48, and the diagonal cuts it into two equal triangles: 48 ÷ 2 = 24.",
+    "source": "competition"
   }
 ]
