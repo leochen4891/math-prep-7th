@@ -1,0 +1,540 @@
+[
+  {
+    "q": "Evaluate 3x² when x = -5.",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "Square first: (-5)² = 25. Then ×3 = 75. (Note: 3x² means 3·x², not (3x)².)"
+  },
+  {
+    "q": "Evaluate 2x + 4 when x = -3.",
+    "type": "typed",
+    "accept": [
+      "-2"
+    ],
+    "solution": "2(-3) + 4 = -6+4 = -2."
+  },
+  {
+    "q": "Evaluate 4x + 2 when x = -5.",
+    "type": "typed",
+    "accept": [
+      "-18"
+    ],
+    "solution": "4(-5) + 2 = -20+2 = -18."
+  },
+  {
+    "q": "Evaluate 5x + 3 when x = -5.",
+    "type": "typed",
+    "accept": [
+      "-22"
+    ],
+    "solution": "5(-5) + 3 = -25+3 = -22."
+  },
+  {
+    "q": "Evaluate 5x + 5 when x = -4.",
+    "type": "typed",
+    "accept": [
+      "-15"
+    ],
+    "solution": "5(-4) + 5 = -20+5 = -15."
+  },
+  {
+    "q": "Evaluate 3x² when x = -2.",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Square first: (-2)² = 4. Then ×3 = 12. (Note: 3x² means 3·x², not (3x)².)"
+  },
+  {
+    "q": "Evaluate 4x + 5 when x = -4.",
+    "type": "typed",
+    "accept": [
+      "-11"
+    ],
+    "solution": "4(-4) + 5 = -16+5 = -11."
+  },
+  {
+    "q": "2 − 5(6 − 8) = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Parentheses: 6−8 = -2. Then 2 − 5×(-2) = 2 − (-10) = 12."
+  },
+  {
+    "q": "Evaluate 2x + 9 when x = -3.",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "2(-3) + 9 = -6+9 = 3."
+  },
+  {
+    "q": "Evaluate 4x + 3 when x = -6.",
+    "type": "typed",
+    "accept": [
+      "-21"
+    ],
+    "solution": "4(-6) + 3 = -24+3 = -21."
+  },
+  {
+    "q": "4 − 2(5 − 8) = ?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Parentheses: 5−8 = -3. Then 4 − 2×(-3) = 4 − (-6) = 10."
+  },
+  {
+    "q": "Evaluate 2x + 1 when x = -6.",
+    "type": "typed",
+    "accept": [
+      "-11"
+    ],
+    "solution": "2(-6) + 1 = -12+1 = -11."
+  },
+  {
+    "q": "Evaluate 3x + 4 when x = -3.",
+    "type": "typed",
+    "accept": [
+      "-5"
+    ],
+    "solution": "3(-3) + 4 = -9+4 = -5."
+  },
+  {
+    "q": "Evaluate 2x + 3 when x = -6.",
+    "type": "typed",
+    "accept": [
+      "-9"
+    ],
+    "solution": "2(-6) + 3 = -12+3 = -9."
+  },
+  {
+    "q": "2 − 2(5 − 6) = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Parentheses: 5−6 = -1. Then 2 − 2×(-1) = 2 − (-2) = 4."
+  },
+  {
+    "q": "Evaluate 5x + 6 when x = -3.",
+    "type": "typed",
+    "accept": [
+      "-9"
+    ],
+    "solution": "5(-3) + 6 = -15+6 = -9."
+  },
+  {
+    "q": "Evaluate 5x + 8 when x = -5.",
+    "type": "typed",
+    "accept": [
+      "-17"
+    ],
+    "solution": "5(-5) + 8 = -25+8 = -17."
+  },
+  {
+    "q": "8 − 4(5 − 8) = ?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Parentheses: 5−8 = -3. Then 8 − 4×(-3) = 8 − (-12) = 20."
+  },
+  {
+    "q": "Evaluate 2x + 1 when x = -2.",
+    "type": "typed",
+    "accept": [
+      "-3"
+    ],
+    "solution": "2(-2) + 1 = -4+1 = -3."
+  },
+  {
+    "q": "Evaluate 5x + 9 when x = -2.",
+    "type": "typed",
+    "accept": [
+      "-1"
+    ],
+    "solution": "5(-2) + 9 = -10+9 = -1."
+  },
+  {
+    "q": "6 − 4(1 − 5) = ?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Parentheses: 1−5 = -4. Then 6 − 4×(-4) = 6 − (-16) = 22."
+  },
+  {
+    "q": "Evaluate 2x² when x = -4.",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Square first: (-4)² = 16. Then ×2 = 32. (Note: 2x² means 2·x², not (2x)².)"
+  },
+  {
+    "q": "4 − 3(4 − 8) = ?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Parentheses: 4−8 = -4. Then 4 − 3×(-4) = 4 − (-12) = 16."
+  },
+  {
+    "q": "Evaluate 5x + 3 when x = -3.",
+    "type": "typed",
+    "accept": [
+      "-12"
+    ],
+    "solution": "5(-3) + 3 = -15+3 = -12."
+  },
+  {
+    "q": "Evaluate 3x² when x = -3.",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Square first: (-3)² = 9. Then ×3 = 27. (Note: 3x² means 3·x², not (3x)².)"
+  },
+  {
+    "q": "7 − 2(1 − 3) = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Parentheses: 1−3 = -2. Then 7 − 2×(-2) = 7 − (-4) = 11."
+  },
+  {
+    "q": "7 − 5(4 − 6) = ?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "Parentheses: 4−6 = -2. Then 7 − 5×(-2) = 7 − (-10) = 17."
+  },
+  {
+    "q": "2 − 2(3 − 8) = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Parentheses: 3−8 = -5. Then 2 − 2×(-5) = 2 − (-10) = 12."
+  },
+  {
+    "q": "Evaluate 4x + 5 when x = -3.",
+    "type": "typed",
+    "accept": [
+      "-7"
+    ],
+    "solution": "4(-3) + 5 = -12+5 = -7."
+  },
+  {
+    "q": "4 − 3(3 − 7) = ?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Parentheses: 3−7 = -4. Then 4 − 3×(-4) = 4 − (-12) = 16."
+  },
+  {
+    "q": "3 − 4(5 − 9) = ?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Parentheses: 5−9 = -4. Then 3 − 4×(-4) = 3 − (-16) = 19."
+  },
+  {
+    "q": "Evaluate 2x² when x = -3.",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Square first: (-3)² = 9. Then ×2 = 18. (Note: 2x² means 2·x², not (2x)².)"
+  },
+  {
+    "q": "1 − 3(5 − 6) = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Parentheses: 5−6 = -1. Then 1 − 3×(-1) = 1 − (-3) = 4."
+  },
+  {
+    "q": "Evaluate 5x + 7 when x = -2.",
+    "type": "typed",
+    "accept": [
+      "-3"
+    ],
+    "solution": "5(-2) + 7 = -10+7 = -3."
+  },
+  {
+    "q": "Evaluate 3x² when x = -4.",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Square first: (-4)² = 16. Then ×3 = 48. (Note: 3x² means 3·x², not (3x)².)"
+  },
+  {
+    "q": "8 − 4(2 − 7) = ?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Parentheses: 2−7 = -5. Then 8 − 4×(-5) = 8 − (-20) = 28."
+  },
+  {
+    "q": "Evaluate 2x + 6 when x = -5.",
+    "type": "typed",
+    "accept": [
+      "-4"
+    ],
+    "solution": "2(-5) + 6 = -10+6 = -4."
+  },
+  {
+    "q": "5 − 5(3 − 6) = ?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Parentheses: 3−6 = -3. Then 5 − 5×(-3) = 5 − (-15) = 20."
+  },
+  {
+    "q": "Evaluate 2x² when x = -5.",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "Square first: (-5)² = 25. Then ×2 = 50. (Note: 2x² means 2·x², not (2x)².)"
+  },
+  {
+    "q": "Evaluate 3x + 5 when x = -4.",
+    "type": "typed",
+    "accept": [
+      "-7"
+    ],
+    "solution": "3(-4) + 5 = -12+5 = -7."
+  },
+  {
+    "q": "Evaluate 5x + 5 when x = -5.",
+    "type": "typed",
+    "accept": [
+      "-20"
+    ],
+    "solution": "5(-5) + 5 = -25+5 = -20."
+  },
+  {
+    "q": "Evaluate 4x + 9 when x = -2.",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "4(-2) + 9 = -8+9 = 1."
+  },
+  {
+    "q": "1 − 3(2 − 8) = ?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Parentheses: 2−8 = -6. Then 1 − 3×(-6) = 1 − (-18) = 19."
+  },
+  {
+    "q": "8 − 5(1 − 5) = ?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Parentheses: 1−5 = -4. Then 8 − 5×(-4) = 8 − (-20) = 28."
+  },
+  {
+    "q": "Evaluate 2x + 3 when x = -3.",
+    "type": "typed",
+    "accept": [
+      "-3"
+    ],
+    "solution": "2(-3) + 3 = -6+3 = -3."
+  },
+  {
+    "q": "Evaluate 5x + 9 when x = -3.",
+    "type": "typed",
+    "accept": [
+      "-6"
+    ],
+    "solution": "5(-3) + 9 = -15+9 = -6."
+  },
+  {
+    "q": "Evaluate 2x + 5 when x = -4.",
+    "type": "typed",
+    "accept": [
+      "-3"
+    ],
+    "solution": "2(-4) + 5 = -8+5 = -3."
+  },
+  {
+    "q": "Evaluate 4x + 3 when x = -4.",
+    "type": "typed",
+    "accept": [
+      "-13"
+    ],
+    "solution": "4(-4) + 3 = -16+3 = -13."
+  },
+  {
+    "q": "Evaluate 2x + 7 when x = -5.",
+    "type": "typed",
+    "accept": [
+      "-3"
+    ],
+    "solution": "2(-5) + 7 = -10+7 = -3."
+  },
+  {
+    "q": "Evaluate 5x + 2 when x = -4.",
+    "type": "typed",
+    "accept": [
+      "-18"
+    ],
+    "solution": "5(-4) + 2 = -20+2 = -18."
+  },
+  {
+    "q": "8 − 2(5 − 8) = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Parentheses: 5−8 = -3. Then 8 − 2×(-3) = 8 − (-6) = 14."
+  },
+  {
+    "q": "6 − 3(4 − 5) = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Parentheses: 4−5 = -1. Then 6 − 3×(-1) = 6 − (-3) = 9."
+  },
+  {
+    "q": "Evaluate 4x + 8 when x = -2.",
+    "type": "typed",
+    "accept": [
+      "0"
+    ],
+    "solution": "4(-2) + 8 = -8+8 = 0."
+  },
+  {
+    "q": "6 − 5(1 − 5) = ?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "Parentheses: 1−5 = -4. Then 6 − 5×(-4) = 6 − (-20) = 26."
+  },
+  {
+    "q": "Evaluate 2x + 9 when x = -5.",
+    "type": "typed",
+    "accept": [
+      "-1"
+    ],
+    "solution": "2(-5) + 9 = -10+9 = -1."
+  },
+  {
+    "q": "Evaluate 2x + 8 when x = -6.",
+    "type": "typed",
+    "accept": [
+      "-4"
+    ],
+    "solution": "2(-6) + 8 = -12+8 = -4."
+  },
+  {
+    "q": "1 − 2(4 − 9) = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Parentheses: 4−9 = -5. Then 1 − 2×(-5) = 1 − (-10) = 11."
+  },
+  {
+    "q": "Evaluate 3x + 9 when x = -5.",
+    "type": "typed",
+    "accept": [
+      "-6"
+    ],
+    "solution": "3(-5) + 9 = -15+9 = -6."
+  },
+  {
+    "q": "3 − 5(1 − 3) = ?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Parentheses: 1−3 = -2. Then 3 − 5×(-2) = 3 − (-10) = 13."
+  },
+  {
+    "q": "6 − 4(6 − 8) = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Parentheses: 6−8 = -2. Then 6 − 4×(-2) = 6 − (-8) = 14."
+  },
+  {
+    "q": "The product of three integers is negative. At most how many of them can be negative?",
+    "type": "mc",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "answer": 2,
+    "solution": "A product is negative only when an ODD number of factors are negative — so 1 or 3 of them. The largest possibility is 3 (negative × negative × negative = negative).",
+    "source": "competition"
+  },
+  {
+    "q": "What is (−1) + (−1)² + (−1)³ + (−1)⁴?",
+    "type": "typed",
+    "accept": [
+      "0"
+    ],
+    "solution": "Evaluate each power: (−1)¹ = −1, (−1)² = +1, (−1)³ = −1, (−1)⁴ = +1. Sum: −1 + 1 − 1 + 1 = 0.",
+    "source": "competition"
+  },
+  {
+    "q": "The sum of three consecutive integers is −6. What is the largest of them?",
+    "type": "typed",
+    "accept": [
+      "-1"
+    ],
+    "solution": "Three consecutive integers can be written n−1, n, n+1. They add to 3n = −6, so n = −2. The integers are −3, −2, −1, and the largest is −1.",
+    "source": "competition"
+  },
+  {
+    "q": "If a = −3, what is a − a²?",
+    "type": "typed",
+    "accept": [
+      "-12"
+    ],
+    "solution": "First a² = (−3)² = 9. Then a − a² = −3 − 9 = −12. (Be careful: a² is positive even though a is negative.)",
+    "source": "competition"
+  },
+  {
+    "q": "How many integers are strictly between −5 and 4?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "The integers strictly between are −4, −3, −2, −1, 0, 1, 2, 3 — that's 8 of them (endpoints −5 and 4 are not counted).",
+    "source": "competition"
+  },
+  {
+    "q": "Compute −2 − (−2) − (−2).",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtracting a negative adds: −2 − (−2) − (−2) = −2 + 2 + 2 = 2.",
+    "source": "competition"
+  }
+]

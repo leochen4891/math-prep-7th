@@ -1,0 +1,408 @@
+[
+  {
+    "q": "Simplify: (5/8 − 1/4) × 16",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Do the parentheses first, then the outside operation → 6."
+  },
+  {
+    "q": "A $100 item is 20% off, then 10% off the new price. What is the final price?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "Apply the discounts one after the other (not added together) → $72."
+  },
+  {
+    "q": "What percent of 80 is 8?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "8 ÷ 80 = 0.1 = 10%."
+  },
+  {
+    "q": "Simplify: (3/4 − 1/2) ÷ 1/8",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Do the parentheses first, then the outside operation → 2."
+  },
+  {
+    "q": "A $80 item is 25% off, then 20% off. What is the final price?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Apply the discounts one after the other (not added together) → $48."
+  },
+  {
+    "q": "Simplify: (2/5 + 1/2) ÷ 1/10",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Do the parentheses first, then the outside operation → 9."
+  },
+  {
+    "q": "Simplify: (1/2 + 1/4) × 8",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Do the parentheses first, then the outside operation → 6."
+  },
+  {
+    "q": "Simplify: (1/2 + 1/3) × 6",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Do the parentheses first, then the outside operation → 5."
+  },
+  {
+    "q": "A $200 item is 50% off, then 10% off. What is the final price?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Apply the discounts one after the other (not added together) → $90."
+  },
+  {
+    "q": "After a 10% discount, an item costs $36. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "It sold for 90% of the original: 36 ÷ 0.9 = $40."
+  },
+  {
+    "q": "A $100 item is 10% off, then 50% off. What is the final price?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "Apply the discounts one after the other (not added together) → $45."
+  },
+  {
+    "q": "What percent of 20 is 8?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "8 ÷ 20 = 0.4 = 40%."
+  },
+  {
+    "q": "After a 10% discount, an item costs $54. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "It sold for 90% of the original: 54 ÷ 0.9 = $60."
+  },
+  {
+    "q": "After a 20% discount, an item costs $32. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "It sold for 80% of the original: 32 ÷ 0.8 = $40."
+  },
+  {
+    "q": "Simplify: (2/3 + 1/6) × 12",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Do the parentheses first, then the outside operation → 10."
+  },
+  {
+    "q": "What percent of 40 is 16?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "16 ÷ 40 = 0.4 = 40%."
+  },
+  {
+    "q": "A $120 item is 25% off, then 20% off. What is the final price?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "Apply the discounts one after the other (not added together) → $72."
+  },
+  {
+    "q": "What percent of 20 is 2?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "2 ÷ 20 = 0.1 = 10%."
+  },
+  {
+    "q": "After a 25% discount, an item costs $75. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "It sold for 75% of the original: 75 ÷ 0.75 = $100."
+  },
+  {
+    "q": "What percent of 40 is 30?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "30 ÷ 40 = 0.75 = 75%."
+  },
+  {
+    "q": "After a 20% discount, an item costs $80. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "It sold for 80% of the original: 80 ÷ 0.8 = $100."
+  },
+  {
+    "q": "What percent of 100 is 50?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "50 ÷ 100 = 0.5 = 50%."
+  },
+  {
+    "q": "After a 25% discount, an item costs $60. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "It sold for 75% of the original: 60 ÷ 0.75 = $80."
+  },
+  {
+    "q": "What percent of 40 is 20?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "20 ÷ 40 = 0.5 = 50%."
+  },
+  {
+    "q": "What percent of 100 is 40?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "40 ÷ 100 = 0.4 = 40%."
+  },
+  {
+    "q": "After a 10% discount, an item costs $72. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "It sold for 90% of the original: 72 ÷ 0.9 = $80."
+  },
+  {
+    "q": "What percent of 20 is 5?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "5 ÷ 20 = 0.25 = 25%."
+  },
+  {
+    "q": "What percent of 80 is 32?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "32 ÷ 80 = 0.4 = 40%."
+  },
+  {
+    "q": "After a 25% discount, an item costs $30. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "It sold for 75% of the original: 30 ÷ 0.75 = $40."
+  },
+  {
+    "q": "What percent of 20 is 15?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "15 ÷ 20 = 0.75 = 75%."
+  },
+  {
+    "q": "What percent of 80 is 60?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "60 ÷ 80 = 0.75 = 75%."
+  },
+  {
+    "q": "What percent of 20 is 10?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "10 ÷ 20 = 0.5 = 50%."
+  },
+  {
+    "q": "After a 20% discount, an item costs $64. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "It sold for 80% of the original: 64 ÷ 0.8 = $80."
+  },
+  {
+    "q": "What percent of 100 is 75?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "75 ÷ 100 = 0.75 = 75%."
+  },
+  {
+    "q": "What percent of 40 is 10?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "10 ÷ 40 = 0.25 = 25%."
+  },
+  {
+    "q": "What percent of 100 is 25?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "25 ÷ 100 = 0.25 = 25%."
+  },
+  {
+    "q": "What percent of 80 is 20?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "20 ÷ 80 = 0.25 = 25%."
+  },
+  {
+    "q": "After a 10% discount, an item costs $90. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "It sold for 90% of the original: 90 ÷ 0.9 = $100."
+  },
+  {
+    "q": "What percent of 100 is 10?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "10 ÷ 100 = 0.1 = 10%."
+  },
+  {
+    "q": "After a 25% discount, an item costs $45. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "It sold for 75% of the original: 45 ÷ 0.75 = $60."
+  },
+  {
+    "q": "After a 20% discount, an item costs $48. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "It sold for 80% of the original: 48 ÷ 0.8 = $60."
+  },
+  {
+    "q": "What percent of 80 is 40?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "40 ÷ 80 = 0.5 = 50%."
+  },
+  {
+    "q": "What percent of 40 is 4?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "4 ÷ 40 = 0.1 = 10%."
+  },
+  {
+    "q": "A jacket's price is raised by 20%, then that new price is lowered by 20%. Compared to the start, the final price is:",
+    "type": "mc",
+    "choices": [
+      "Exactly the same",
+      "4% lower",
+      "4% higher",
+      "20% lower"
+    ],
+    "answer": 1,
+    "solution": "Raising by 20% multiplies by 1.20; lowering by 20% multiplies by 0.80. Together: 1.20 × 0.80 = 0.96, which is 96% of the original — that's 4% lower. The two 20%s do NOT cancel, because the second one is taken off a bigger number.",
+    "source": "competition"
+  },
+  {
+    "q": "Compute 1/2 + 1/4 + 1/8 + 1/16.",
+    "type": "typed",
+    "accept": [
+      "15/16"
+    ],
+    "solution": "Use a common denominator of 16: 8/16 + 4/16 + 2/16 + 1/16 = 15/16. (Notice it's just one sixteenth short of a whole.)",
+    "source": "competition"
+  },
+  {
+    "q": "In a class, 3/5 of the students are girls. If there are 12 boys, how many students are in the class?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Boys make up the other 2/5 of the class. So 2/5 of the class = 12, meaning 1/5 = 6, and the whole class = 5 × 6 = 30.",
+    "source": "competition"
+  },
+  {
+    "q": "What is 1/2 of 1/3 of 1/4 of 240?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Multiply the fractions together: (1/2)(1/3)(1/4) = 1/24. Then 1/24 of 240 = 240 ÷ 24 = 10.",
+    "source": "competition"
+  },
+  {
+    "q": "If 30% of a number is 45, what is 50% of the same number?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "If 30% is 45, then 10% is 45 ÷ 3 = 15. So 50% is 5 × 15 = 75. (The whole number is 150.)",
+    "source": "competition"
+  },
+  {
+    "q": "A store advertises 'Buy 3, get 1 free.' Buying 4 identical items, what percent do you save?",
+    "type": "mc",
+    "choices": [
+      "20%",
+      "25%",
+      "33%",
+      "50%"
+    ],
+    "answer": 1,
+    "solution": "You receive 4 items but pay for only 3. You save 1 out of 4, and 1/4 = 25%.",
+    "source": "competition"
+  }
+]

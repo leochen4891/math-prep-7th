@@ -1,0 +1,538 @@
+[
+  {
+    "q": "45 − 5 × 6 = ?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Multiply first: 30, then 45 − 30 = 15."
+  },
+  {
+    "q": "(4 + 9) × 3 = ?",
+    "type": "mc",
+    "choices": [
+      "39",
+      "31",
+      "42",
+      "21"
+    ],
+    "answer": 0,
+    "solution": "Parentheses first: 13 × 3 = 39."
+  },
+  {
+    "q": "12 ÷ 4 + 8 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Divide and multiply first: 3 + 16 = 19."
+  },
+  {
+    "q": "16 ÷ 2 + 8 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Divide and multiply first: 8 + 16 = 24."
+  },
+  {
+    "q": "(2 + 9) × 6 = ?",
+    "type": "mc",
+    "choices": [
+      "72",
+      "21",
+      "66",
+      "56"
+    ],
+    "answer": 2,
+    "solution": "Parentheses first: 11 × 6 = 66."
+  },
+  {
+    "q": "45 ÷ 5 + 8 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Divide and multiply first: 9 + 16 = 25."
+  },
+  {
+    "q": "(6 + 2) × 4 = ?",
+    "type": "mc",
+    "choices": [
+      "32",
+      "36",
+      "14",
+      "26"
+    ],
+    "answer": 0,
+    "solution": "Parentheses first: 8 × 4 = 32."
+  },
+  {
+    "q": "36 ÷ 4 + 3 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Divide and multiply first: 9 + 6 = 15."
+  },
+  {
+    "q": "12 ÷ 4 + 3 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Divide and multiply first: 3 + 6 = 9."
+  },
+  {
+    "q": "(5 + 5) × 6 = ?",
+    "type": "mc",
+    "choices": [
+      "35",
+      "66",
+      "60",
+      "59"
+    ],
+    "answer": 2,
+    "solution": "Parentheses first: 10 × 6 = 60."
+  },
+  {
+    "q": "25 ÷ 5 + 3 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Divide and multiply first: 5 + 6 = 11."
+  },
+  {
+    "q": "18 ÷ 3 + 4 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Divide and multiply first: 6 + 8 = 14."
+  },
+  {
+    "q": "10 ÷ 2 + 2 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Divide and multiply first: 5 + 4 = 9."
+  },
+  {
+    "q": "6 ÷ 2 + 5 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Divide and multiply first: 3 + 10 = 13."
+  },
+  {
+    "q": "16 ÷ 4 + 9 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Divide and multiply first: 4 + 18 = 22."
+  },
+  {
+    "q": "13 − 3 × 4 = ?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Multiply first: 12, then 13 − 12 = 1."
+  },
+  {
+    "q": "(5 + 7) × 4 = ?",
+    "type": "mc",
+    "choices": [
+      "48",
+      "33",
+      "27",
+      "52"
+    ],
+    "answer": 0,
+    "solution": "Parentheses first: 12 × 4 = 48."
+  },
+  {
+    "q": "29 − 4 × 4 = ?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Multiply first: 16, then 29 − 16 = 13."
+  },
+  {
+    "q": "(8 + 9) × 4 = ?",
+    "type": "mc",
+    "choices": [
+      "68",
+      "41",
+      "72",
+      "44"
+    ],
+    "answer": 0,
+    "solution": "Parentheses first: 17 × 4 = 68."
+  },
+  {
+    "q": "(4 + 8) × 2 = ?",
+    "type": "mc",
+    "choices": [
+      "16",
+      "26",
+      "24",
+      "20"
+    ],
+    "answer": 2,
+    "solution": "Parentheses first: 12 × 2 = 24."
+  },
+  {
+    "q": "38 − 6 × 4 = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Multiply first: 24, then 38 − 24 = 14."
+  },
+  {
+    "q": "32 ÷ 4 + 3 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Divide and multiply first: 8 + 6 = 14."
+  },
+  {
+    "q": "24 ÷ 4 + 8 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Divide and multiply first: 6 + 16 = 22."
+  },
+  {
+    "q": "24 ÷ 3 + 4 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Divide and multiply first: 8 + 8 = 16."
+  },
+  {
+    "q": "15 − 3 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Multiply first: 6, then 15 − 6 = 9."
+  },
+  {
+    "q": "(5 + 8) × 4 = ?",
+    "type": "mc",
+    "choices": [
+      "37",
+      "52",
+      "28",
+      "56"
+    ],
+    "answer": 1,
+    "solution": "Parentheses first: 13 × 4 = 52."
+  },
+  {
+    "q": "12 ÷ 4 + 7 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "Divide and multiply first: 3 + 14 = 17."
+  },
+  {
+    "q": "(2 + 3) × 3 = ?",
+    "type": "mc",
+    "choices": [
+      "11",
+      "15",
+      "18",
+      "9"
+    ],
+    "answer": 1,
+    "solution": "Parentheses first: 5 × 3 = 15."
+  },
+  {
+    "q": "16 − 2 × 3 = ?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Multiply first: 6, then 16 − 6 = 10."
+  },
+  {
+    "q": "32 − 6 × 5 = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Multiply first: 30, then 32 − 30 = 2."
+  },
+  {
+    "q": "30 − 4 × 6 = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Multiply first: 24, then 30 − 24 = 6."
+  },
+  {
+    "q": "(5 + 5) × 2 = ?",
+    "type": "mc",
+    "choices": [
+      "15",
+      "22",
+      "25",
+      "20"
+    ],
+    "answer": 3,
+    "solution": "Parentheses first: 10 × 2 = 20."
+  },
+  {
+    "q": "27 − 3 × 6 = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Multiply first: 18, then 27 − 18 = 9."
+  },
+  {
+    "q": "12 ÷ 2 + 6 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Divide and multiply first: 6 + 12 = 18."
+  },
+  {
+    "q": "5 − 2 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Multiply first: 4, then 5 − 4 = 1."
+  },
+  {
+    "q": "(4 + 2) × 3 = ?",
+    "type": "mc",
+    "choices": [
+      "14",
+      "18",
+      "10",
+      "21"
+    ],
+    "answer": 1,
+    "solution": "Parentheses first: 6 × 3 = 18."
+  },
+  {
+    "q": "12 ÷ 3 + 5 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Divide and multiply first: 4 + 10 = 14."
+  },
+  {
+    "q": "29 − 5 × 4 = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Multiply first: 20, then 29 − 20 = 9."
+  },
+  {
+    "q": "(6 + 4) × 2 = ?",
+    "type": "mc",
+    "choices": [
+      "22",
+      "14",
+      "16",
+      "20"
+    ],
+    "answer": 3,
+    "solution": "Parentheses first: 10 × 2 = 20."
+  },
+  {
+    "q": "9 − 4 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Multiply first: 8, then 9 − 8 = 1."
+  },
+  {
+    "q": "12 ÷ 4 + 6 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Divide and multiply first: 3 + 12 = 15."
+  },
+  {
+    "q": "20 ÷ 4 + 6 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "Divide and multiply first: 5 + 12 = 17."
+  },
+  {
+    "q": "45 ÷ 5 + 9 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Divide and multiply first: 9 + 18 = 27."
+  },
+  {
+    "q": "21 − 6 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Multiply first: 12, then 21 − 12 = 9."
+  },
+  {
+    "q": "23 − 5 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Multiply first: 10, then 23 − 10 = 13."
+  },
+  {
+    "q": "34 − 5 × 5 = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Multiply first: 25, then 34 − 25 = 9."
+  },
+  {
+    "q": "24 − 3 × 4 = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Multiply first: 12, then 24 − 12 = 12."
+  },
+  {
+    "q": "(8 + 6) × 5 = ?",
+    "type": "mc",
+    "choices": [
+      "38",
+      "46",
+      "70",
+      "75"
+    ],
+    "answer": 2,
+    "solution": "Parentheses first: 14 × 5 = 70."
+  },
+  {
+    "q": "27 − 4 × 5 = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Multiply first: 20, then 27 − 20 = 7."
+  },
+  {
+    "q": "9 ÷ 3 + 2 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Divide and multiply first: 3 + 4 = 7."
+  },
+  {
+    "q": "28 − 6 × 4 = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Multiply first: 24, then 28 − 24 = 4."
+  },
+  {
+    "q": "31 − 4 × 6 = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Multiply first: 24, then 31 − 24 = 7."
+  },
+  {
+    "q": "21 ÷ 3 + 9 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Divide and multiply first: 7 + 18 = 25."
+  },
+  {
+    "q": "(6 + 7) × 6 = ?",
+    "type": "mc",
+    "choices": [
+      "43",
+      "48",
+      "84",
+      "78"
+    ],
+    "answer": 3,
+    "solution": "Parentheses first: 13 × 6 = 78."
+  },
+  {
+    "q": "16 ÷ 4 + 8 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Divide and multiply first: 4 + 16 = 20."
+  },
+  {
+    "q": "28 ÷ 4 + 6 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Divide and multiply first: 7 + 12 = 19."
+  },
+  {
+    "q": "30 − 3 × 5 = ?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Multiply first: 15, then 30 − 15 = 15."
+  },
+  {
+    "q": "9 ÷ 3 + 7 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "Divide and multiply first: 3 + 14 = 17."
+  },
+  {
+    "q": "16 − 4 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Multiply first: 8, then 16 − 8 = 8."
+  },
+  {
+    "q": "32 ÷ 4 + 8 × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Divide and multiply first: 8 + 16 = 24."
+  }
+]

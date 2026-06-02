@@ -1,0 +1,202 @@
+[
+  {
+    "q": "What is √169?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "13 × 13 = 169, so √169 = 13."
+  },
+  {
+    "q": "What is √289?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "17 × 17 = 289, so √289 = 17."
+  },
+  {
+    "q": "What is 5³?",
+    "type": "typed",
+    "accept": [
+      "125"
+    ],
+    "solution": "5×5×5 = 125."
+  },
+  {
+    "q": "What is √144?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "12 × 12 = 144, so √144 = 12."
+  },
+  {
+    "q": "What is √400?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "20 × 20 = 400, so √400 = 20."
+  },
+  {
+    "q": "What is 7²?",
+    "type": "typed",
+    "accept": [
+      "49"
+    ],
+    "solution": "7 × 7 = 49."
+  },
+  {
+    "q": "What is 9²?",
+    "type": "typed",
+    "accept": [
+      "81"
+    ],
+    "solution": "9 × 9 = 81."
+  },
+  {
+    "q": "What is 3³?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "3×3×3 = 27."
+  },
+  {
+    "q": "What is √121?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "11 × 11 = 121, so √121 = 11."
+  },
+  {
+    "q": "What is 15²?",
+    "type": "typed",
+    "accept": [
+      "225"
+    ],
+    "solution": "15 × 15 = 225."
+  },
+  {
+    "q": "What is 2³?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "2×2×2 = 8."
+  },
+  {
+    "q": "What is 6³?",
+    "type": "typed",
+    "accept": [
+      "216"
+    ],
+    "solution": "6×6×6 = 216."
+  },
+  {
+    "q": "What is 10²?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "10 × 10 = 100."
+  },
+  {
+    "q": "What is 6²?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "6 × 6 = 36."
+  },
+  {
+    "q": "What is 12²?",
+    "type": "typed",
+    "accept": [
+      "144"
+    ],
+    "solution": "12 × 12 = 144."
+  },
+  {
+    "q": "What is √324?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "18 × 18 = 324, so √324 = 18."
+  },
+  {
+    "q": "What is 11²?",
+    "type": "typed",
+    "accept": [
+      "121"
+    ],
+    "solution": "11 × 11 = 121."
+  },
+  {
+    "q": "What is √361?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "19 × 19 = 361, so √361 = 19."
+  },
+  {
+    "q": "What is 14²?",
+    "type": "typed",
+    "accept": [
+      "196"
+    ],
+    "solution": "14 × 14 = 196."
+  },
+  {
+    "q": "What is √256?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "16 × 16 = 256, so √256 = 16."
+  },
+  {
+    "q": "What is 8²?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "8 × 8 = 64."
+  },
+  {
+    "q": "What is √196?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "14 × 14 = 196, so √196 = 14."
+  },
+  {
+    "q": "What is 13²?",
+    "type": "typed",
+    "accept": [
+      "169"
+    ],
+    "solution": "13 × 13 = 169."
+  },
+  {
+    "q": "What is √225?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "15 × 15 = 225, so √225 = 15."
+  },
+  {
+    "q": "What is 4³?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "4×4×4 = 64."
+  }
+]

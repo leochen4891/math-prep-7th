@@ -1,0 +1,531 @@
+[
+  {
+    "q": "A number is multiplied by 3, then increased by 5. The result is 35. What is the number?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Work backwards: 35 − 5 = 30, ÷ 3 = 10. (Equation: 3x + 5 = 35.)"
+  },
+  {
+    "q": "The sum of two consecutive integers is 17. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 17, so x = 8."
+  },
+  {
+    "q": "Maria is 2 times as old as her brother. Together they are 33. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Brother = x, Maria = 2x. x + 2x = 3x = 33, so x = 11."
+  },
+  {
+    "q": "The sum of two consecutive integers is 43. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 43, so x = 21."
+  },
+  {
+    "q": "Maria is 4 times as old as her brother. Together they are 30. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 30, so x = 6."
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 5. The result is 27. What is the number?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Work backwards: 27 − 5 = 22, ÷ 2 = 11. (Equation: 2x + 5 = 27.)"
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 5. The result is 23. What is the number?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Work backwards: 23 − 5 = 18, ÷ 2 = 9. (Equation: 2x + 5 = 23.)"
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 3. The result is 19. What is the number?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Work backwards: 19 − 3 = 16, ÷ 4 = 4. (Equation: 4x + 3 = 19.)"
+  },
+  {
+    "q": "The sum of two consecutive integers is 35. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 35, so x = 17."
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 7. The result is 35. What is the number?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Work backwards: 35 − 7 = 28, ÷ 4 = 7. (Equation: 4x + 7 = 35.)"
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 4. The result is 52. What is the number?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Work backwards: 52 − 4 = 48, ÷ 4 = 12. (Equation: 4x + 4 = 52.)"
+  },
+  {
+    "q": "The sum of two consecutive integers is 33. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 33, so x = 16."
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 7. The result is 43. What is the number?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Work backwards: 43 − 7 = 36, ÷ 4 = 9. (Equation: 4x + 7 = 43.)"
+  },
+  {
+    "q": "A number is multiplied by 3, then increased by 8. The result is 26. What is the number?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Work backwards: 26 − 8 = 18, ÷ 3 = 6. (Equation: 3x + 8 = 26.)"
+  },
+  {
+    "q": "The sum of two consecutive integers is 47. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 47, so x = 23."
+  },
+  {
+    "q": "The sum of two consecutive integers is 31. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 31, so x = 15."
+  },
+  {
+    "q": "Maria is 4 times as old as her brother. Together they are 50. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 50, so x = 10."
+  },
+  {
+    "q": "Maria is 3 times as old as her brother. Together they are 52. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Brother = x, Maria = 3x. x + 3x = 4x = 52, so x = 13."
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 3. The result is 11. What is the number?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Work backwards: 11 − 3 = 8, ÷ 2 = 4. (Equation: 2x + 3 = 11.)"
+  },
+  {
+    "q": "Maria is 4 times as old as her brother. Together they are 60. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 60, so x = 12."
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 5. The result is 37. What is the number?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Work backwards: 37 − 5 = 32, ÷ 4 = 8. (Equation: 4x + 5 = 37.)"
+  },
+  {
+    "q": "The sum of two consecutive integers is 21. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 21, so x = 10."
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 2. The result is 10. What is the number?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Work backwards: 10 − 2 = 8, ÷ 2 = 4. (Equation: 2x + 2 = 10.)"
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 6. The result is 46. What is the number?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Work backwards: 46 − 6 = 40, ÷ 4 = 10. (Equation: 4x + 6 = 46.)"
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 4. The result is 22. What is the number?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Work backwards: 22 − 4 = 18, ÷ 2 = 9. (Equation: 2x + 4 = 22.)"
+  },
+  {
+    "q": "A number is multiplied by 3, then increased by 8. The result is 32. What is the number?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Work backwards: 32 − 8 = 24, ÷ 3 = 8. (Equation: 3x + 8 = 32.)"
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 9. The result is 33. What is the number?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Work backwards: 33 − 9 = 24, ÷ 2 = 12. (Equation: 2x + 9 = 33.)"
+  },
+  {
+    "q": "A number is multiplied by 3, then increased by 3. The result is 39. What is the number?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Work backwards: 39 − 3 = 36, ÷ 3 = 12. (Equation: 3x + 3 = 39.)"
+  },
+  {
+    "q": "Maria is 4 times as old as her brother. Together they are 35. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 35, so x = 7."
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 6. The result is 50. What is the number?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Work backwards: 50 − 6 = 44, ÷ 4 = 11. (Equation: 4x + 6 = 50.)"
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 3. The result is 47. What is the number?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Work backwards: 47 − 3 = 44, ÷ 4 = 11. (Equation: 4x + 3 = 47.)"
+  },
+  {
+    "q": "The sum of two consecutive integers is 41. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 41, so x = 20."
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 9. The result is 29. What is the number?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Work backwards: 29 − 9 = 20, ÷ 2 = 10. (Equation: 2x + 9 = 29.)"
+  },
+  {
+    "q": "Maria is 2 times as old as her brother. Together they are 24. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Brother = x, Maria = 2x. x + 2x = 3x = 24, so x = 8."
+  },
+  {
+    "q": "The sum of two consecutive integers is 39. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 39, so x = 19."
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 9. The result is 53. What is the number?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Work backwards: 53 − 9 = 44, ÷ 4 = 11. (Equation: 4x + 9 = 53.)"
+  },
+  {
+    "q": "A number is multiplied by 3, then increased by 5. The result is 20. What is the number?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Work backwards: 20 − 5 = 15, ÷ 3 = 5. (Equation: 3x + 5 = 20.)"
+  },
+  {
+    "q": "Maria is 4 times as old as her brother. Together they are 55. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 55, so x = 11."
+  },
+  {
+    "q": "Maria is 4 times as old as her brother. Together they are 40. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 40, so x = 8."
+  },
+  {
+    "q": "Maria is 3 times as old as her brother. Together they are 44. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Brother = x, Maria = 3x. x + 3x = 4x = 44, so x = 11."
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 7. The result is 39. What is the number?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Work backwards: 39 − 7 = 32, ÷ 4 = 8. (Equation: 4x + 7 = 39.)"
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 9. The result is 37. What is the number?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Work backwards: 37 − 9 = 28, ÷ 4 = 7. (Equation: 4x + 9 = 37.)"
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 9. The result is 19. What is the number?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Work backwards: 19 − 9 = 10, ÷ 2 = 5. (Equation: 2x + 9 = 19.)"
+  },
+  {
+    "q": "The sum of two consecutive integers is 23. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 23, so x = 11."
+  },
+  {
+    "q": "A number is multiplied by 3, then increased by 2. The result is 32. What is the number?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Work backwards: 32 − 2 = 30, ÷ 3 = 10. (Equation: 3x + 2 = 32.)"
+  },
+  {
+    "q": "Maria is 2 times as old as her brother. Together they are 21. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Brother = x, Maria = 2x. x + 2x = 3x = 21, so x = 7."
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 6. The result is 38. What is the number?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Work backwards: 38 − 6 = 32, ÷ 4 = 8. (Equation: 4x + 6 = 38.)"
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 6. The result is 22. What is the number?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Work backwards: 22 − 6 = 16, ÷ 2 = 8. (Equation: 2x + 6 = 22.)"
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 2. The result is 22. What is the number?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Work backwards: 22 − 2 = 20, ÷ 2 = 10. (Equation: 2x + 2 = 22.)"
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 2. The result is 18. What is the number?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Work backwards: 18 − 2 = 16, ÷ 4 = 4. (Equation: 4x + 2 = 18.)"
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 6. The result is 26. What is the number?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Work backwards: 26 − 6 = 20, ÷ 2 = 10. (Equation: 2x + 6 = 26.)"
+  },
+  {
+    "q": "Maria is 2 times as old as her brother. Together they are 18. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Brother = x, Maria = 2x. x + 2x = 3x = 18, so x = 6."
+  },
+  {
+    "q": "The sum of two consecutive integers is 27. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 27, so x = 13."
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 3. The result is 21. What is the number?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Work backwards: 21 − 3 = 18, ÷ 2 = 9. (Equation: 2x + 3 = 21.)"
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 2. The result is 42. What is the number?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Work backwards: 42 − 2 = 40, ÷ 4 = 10. (Equation: 4x + 2 = 42.)"
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 9. The result is 33. What is the number?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Work backwards: 33 − 9 = 24, ÷ 4 = 6. (Equation: 4x + 9 = 33.)"
+  },
+  {
+    "q": "The sum of two consecutive integers is 29. What is the smaller one?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Consecutive integers x and x+1: 2x + 1 = 29, so x = 14."
+  },
+  {
+    "q": "Maria is 3 times as old as her brother. Together they are 40. How old is her brother?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Brother = x, Maria = 3x. x + 3x = 4x = 40, so x = 10."
+  },
+  {
+    "q": "A number is multiplied by 2, then increased by 5. The result is 15. What is the number?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Work backwards: 15 − 5 = 10, ÷ 2 = 5. (Equation: 2x + 5 = 15.)"
+  },
+  {
+    "q": "A number is multiplied by 4, then increased by 2. The result is 50. What is the number?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Work backwards: 50 − 2 = 48, ÷ 4 = 12. (Equation: 4x + 2 = 50.)"
+  },
+  {
+    "q": "A rectangle's length is twice its width, and its perimeter is 36. What is the width?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Let width = w, so length = 2w. Perimeter = 2(w + 2w) = 6w = 36, giving w = 6. (Length is 12.)",
+    "source": "competition"
+  },
+  {
+    "q": "Anna is 4 years older than Ben. In 3 years, the sum of their ages will be 30. How old is Ben now?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Let Ben = b now, Anna = b + 4. In 3 years: (b + 3) + (b + 7) = 30, so 2b + 10 = 30, 2b = 20, b = 10.",
+    "source": "competition"
+  },
+  {
+    "q": "The point (a, b) lies in Quadrant II. What are the signs of a and b?",
+    "type": "mc",
+    "choices": [
+      "a > 0, b > 0",
+      "a < 0, b > 0",
+      "a < 0, b < 0",
+      "a > 0, b < 0"
+    ],
+    "answer": 1,
+    "solution": "Quadrant II is the top-left region: x is negative and y is positive. So a < 0 and b > 0.",
+    "source": "competition"
+  },
+  {
+    "q": "Tom has twice as many marbles as Jerry. Together they have 18. How many does Tom have?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Let Jerry = j, Tom = 2j. Together: j + 2j = 3j = 18, so j = 6 and Tom = 2 × 6 = 12.",
+    "source": "competition"
+  },
+  {
+    "q": "What is the next number in the pattern 1, 3, 6, 10, 15, … ?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "The gaps grow by one each time: +2, +3, +4, +5, so the next gap is +6. 15 + 6 = 21. (These are the 'triangular numbers.')",
+    "source": "competition"
+  }
+]

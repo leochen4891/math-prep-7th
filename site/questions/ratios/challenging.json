@@ -1,0 +1,528 @@
+[
+  {
+    "q": "After a 10% discount, a bike costs $90. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "90 is 90% of the original: 90 ÷ 0.9 = $100."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:2:4 and add up to 16. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Total parts = 8. One part = 16 ÷ 8 = 2. Largest = 4 × 2 = 8."
+  },
+  {
+    "q": "A price went from $80 to $100. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Increase = 20. As a percent of the original: 20 ÷ 80 = 0.25 = 25%."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:4:5 and add up to 30. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Total parts = 10. One part = 30 ÷ 10 = 3. Largest = 5 × 3 = 15."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:4:3 and add up to 18. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Total parts = 9. One part = 18 ÷ 9 = 2. Largest = 3 × 2 = 6."
+  },
+  {
+    "q": "A price went from $40 to $60. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "Increase = 20. As a percent of the original: 20 ÷ 40 = 0.5 = 50%."
+  },
+  {
+    "q": "After a 20% discount, a bike costs $48. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "48 is 80% of the original: 48 ÷ 0.8 = $60."
+  },
+  {
+    "q": "After a 10% discount, a bike costs $72. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "72 is 90% of the original: 72 ÷ 0.9 = $80."
+  },
+  {
+    "q": "A price went from $20 to $25. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Increase = 5. As a percent of the original: 5 ÷ 20 = 0.25 = 25%."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:3:3 and add up to 16. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Total parts = 8. One part = 16 ÷ 8 = 2. Largest = 3 × 2 = 6."
+  },
+  {
+    "q": "A price went from $80 to $120. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "Increase = 40. As a percent of the original: 40 ÷ 80 = 0.5 = 50%."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:2:4 and add up to 24. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Total parts = 8. One part = 24 ÷ 8 = 3. Largest = 4 × 3 = 12."
+  },
+  {
+    "q": "After a 10% discount, a bike costs $36. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "36 is 90% of the original: 36 ÷ 0.9 = $40."
+  },
+  {
+    "q": "After a 20% discount, a bike costs $64. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "64 is 80% of the original: 64 ÷ 0.8 = $80."
+  },
+  {
+    "q": "A price went from $80 to $88. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Increase = 8. As a percent of the original: 8 ÷ 80 = 0.1 = 10%."
+  },
+  {
+    "q": "Three numbers are in the ratio 3:4:4 and add up to 44. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Total parts = 11. One part = 44 ÷ 11 = 4. Largest = 4 × 4 = 16."
+  },
+  {
+    "q": "After a 25% discount, a bike costs $45. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "45 is 75% of the original: 45 ÷ 0.75 = $60."
+  },
+  {
+    "q": "After a 25% discount, a bike costs $60. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "60 is 75% of the original: 60 ÷ 0.75 = $80."
+  },
+  {
+    "q": "After a 20% discount, a bike costs $80. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "80 is 80% of the original: 80 ÷ 0.8 = $100."
+  },
+  {
+    "q": "After a 25% discount, a bike costs $75. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "75 is 75% of the original: 75 ÷ 0.75 = $100."
+  },
+  {
+    "q": "Three numbers are in the ratio 3:2:3 and add up to 32. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Total parts = 8. One part = 32 ÷ 8 = 4. Largest = 3 × 4 = 12."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:4:4 and add up to 30. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Total parts = 10. One part = 30 ÷ 10 = 3. Largest = 4 × 3 = 12."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:4:4 and add up to 20. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Total parts = 10. One part = 20 ÷ 10 = 2. Largest = 4 × 2 = 8."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:4:4 and add up to 36. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Total parts = 9. One part = 36 ÷ 9 = 4. Largest = 4 × 4 = 16."
+  },
+  {
+    "q": "After a 25% discount, a bike costs $30. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "30 is 75% of the original: 30 ÷ 0.75 = $40."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:2:4 and add up to 28. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Total parts = 7. One part = 28 ÷ 7 = 4. Largest = 4 × 4 = 16."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:3:6 and add up to 40. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Total parts = 10. One part = 40 ÷ 10 = 4. Largest = 6 × 4 = 24."
+  },
+  {
+    "q": "After a 20% discount, a bike costs $32. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "32 is 80% of the original: 32 ÷ 0.8 = $40."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:2:6 and add up to 20. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Total parts = 10. One part = 20 ÷ 10 = 2. Largest = 6 × 2 = 12."
+  },
+  {
+    "q": "After a 10% discount, a bike costs $54. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "54 is 90% of the original: 54 ÷ 0.9 = $60."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:2:3 and add up to 12. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Total parts = 6. One part = 12 ÷ 6 = 2. Largest = 3 × 2 = 6."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:4:3 and add up to 27. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Total parts = 9. One part = 27 ÷ 9 = 3. Largest = 3 × 3 = 9."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:2:4 and add up to 14. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Total parts = 7. One part = 14 ÷ 7 = 2. Largest = 4 × 2 = 8."
+  },
+  {
+    "q": "A price went from $20 to $22. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Increase = 2. As a percent of the original: 2 ÷ 20 = 0.1 = 10%."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:4:5 and add up to 40. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Total parts = 10. One part = 40 ÷ 10 = 4. Largest = 5 × 4 = 20."
+  },
+  {
+    "q": "A price went from $40 to $44. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Increase = 4. As a percent of the original: 4 ÷ 40 = 0.1 = 10%."
+  },
+  {
+    "q": "Three numbers are in the ratio 3:2:4 and add up to 18. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Total parts = 9. One part = 18 ÷ 9 = 2. Largest = 4 × 2 = 8."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:2:3 and add up to 28. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Total parts = 7. One part = 28 ÷ 7 = 4. Largest = 3 × 4 = 12."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:3:5 and add up to 30. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Total parts = 10. One part = 30 ÷ 10 = 3. Largest = 5 × 3 = 15."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:3:4 and add up to 36. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Total parts = 9. One part = 36 ÷ 9 = 4. Largest = 4 × 4 = 16."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:3:3 and add up to 14. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Total parts = 7. One part = 14 ÷ 7 = 2. Largest = 3 × 2 = 6."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:4:6 and add up to 44. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Total parts = 11. One part = 44 ÷ 11 = 4. Largest = 6 × 4 = 24."
+  },
+  {
+    "q": "A price went from $20 to $30. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "Increase = 10. As a percent of the original: 10 ÷ 20 = 0.5 = 50%."
+  },
+  {
+    "q": "Three numbers are in the ratio 3:2:3 and add up to 16. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Total parts = 8. One part = 16 ÷ 8 = 2. Largest = 3 × 2 = 6."
+  },
+  {
+    "q": "Three numbers are in the ratio 3:4:6 and add up to 52. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Total parts = 13. One part = 52 ÷ 13 = 4. Largest = 6 × 4 = 24."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:4:4 and add up to 18. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Total parts = 9. One part = 18 ÷ 9 = 2. Largest = 4 × 2 = 8."
+  },
+  {
+    "q": "Three numbers are in the ratio 3:2:3 and add up to 24. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Total parts = 8. One part = 24 ÷ 8 = 3. Largest = 3 × 3 = 9."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:4:5 and add up to 33. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Total parts = 11. One part = 33 ÷ 11 = 3. Largest = 5 × 3 = 15."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:4:4 and add up to 40. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Total parts = 10. One part = 40 ÷ 10 = 4. Largest = 4 × 4 = 16."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:3:6 and add up to 33. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Total parts = 11. One part = 33 ÷ 11 = 3. Largest = 6 × 3 = 18."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:4:3 and add up to 36. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Total parts = 9. One part = 36 ÷ 9 = 4. Largest = 3 × 4 = 12."
+  },
+  {
+    "q": "Three numbers are in the ratio 3:3:3 and add up to 18. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Total parts = 9. One part = 18 ÷ 9 = 2. Largest = 3 × 2 = 6."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:3:6 and add up to 20. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Total parts = 10. One part = 20 ÷ 10 = 2. Largest = 6 × 2 = 12."
+  },
+  {
+    "q": "A price went from $40 to $50. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Increase = 10. As a percent of the original: 10 ÷ 40 = 0.25 = 25%."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:3:5 and add up to 40. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Total parts = 10. One part = 40 ÷ 10 = 4. Largest = 5 × 4 = 20."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:2:5 and add up to 32. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Total parts = 8. One part = 32 ÷ 8 = 4. Largest = 5 × 4 = 20."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:2:6 and add up to 40. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Total parts = 10. One part = 40 ÷ 10 = 4. Largest = 6 × 4 = 24."
+  },
+  {
+    "q": "Three numbers are in the ratio 3:4:3 and add up to 30. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Total parts = 10. One part = 30 ÷ 10 = 3. Largest = 3 × 3 = 9."
+  },
+  {
+    "q": "Three numbers are in the ratio 2:4:6 and add up to 48. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Total parts = 12. One part = 48 ÷ 12 = 4. Largest = 6 × 4 = 24."
+  },
+  {
+    "q": "Three numbers are in the ratio 1:3:3 and add up to 21. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Total parts = 7. One part = 21 ÷ 7 = 3. Largest = 3 × 3 = 9."
+  },
+  {
+    "q": "A recipe for 4 people needs 6 eggs. How many eggs are needed for 10 people?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Eggs per person: 6 ÷ 4 = 1.5. For 10 people: 1.5 × 10 = 15. (Or set up 6/4 = x/10 and cross-multiply.)",
+    "source": "competition"
+  },
+  {
+    "q": "Two numbers are in the ratio 3 : 4 and their sum is 35. What is the larger number?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "There are 3 + 4 = 7 equal parts. Each part = 35 ÷ 7 = 5. The larger number is 4 parts: 4 × 5 = 20.",
+    "source": "competition"
+  },
+  {
+    "q": "A car travels 60 km in 45 minutes. What is its speed in km per hour?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "45 minutes is 3/4 of an hour. Speed = distance ÷ time = 60 ÷ (3/4) = 60 × 4/3 = 80 km/h.",
+    "source": "competition"
+  },
+  {
+    "q": "If 5 workers build a wall in 12 days, how many days would 6 workers take at the same rate?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "The job takes 5 × 12 = 60 worker-days. With 6 workers: 60 ÷ 6 = 10 days. (More workers → fewer days — an inverse relationship.)",
+    "source": "competition"
+  },
+  {
+    "q": "A shirt costs $20 after a 20% discount. What was the original price?",
+    "type": "typed",
+    "accept": [
+      "25",
+      "$25"
+    ],
+    "solution": "$20 is 80% of the original price. So the original = 20 ÷ 0.80 = $25.",
+    "source": "competition"
+  }
+]

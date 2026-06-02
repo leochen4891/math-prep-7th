@@ -1,0 +1,482 @@
+[
+  {
+    "q": "Solve: 11 − 3x = 5<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract 11: −3x = -6. Divide by −3: x = 2."
+  },
+  {
+    "q": "Solve: 4(x + 5) = 48<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Divide by 4: x + 5 = 12. Subtract 5: x = 7."
+  },
+  {
+    "q": "Solve: 4x + 2 = x + 11<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Subtract x from both sides: 3x + 2 = 11. Then 3x = 9, x = 3."
+  },
+  {
+    "q": "Solve: 22 − 3x = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Subtract 22: −3x = -15. Divide by −3: x = 5."
+  },
+  {
+    "q": "Solve: 12 − 2x = 8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract 12: −2x = -4. Divide by −2: x = 2."
+  },
+  {
+    "q": "Solve: 2x + 8 = x + 12<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract x from both sides: 1x + 8 = 12. Then 1x = 4, x = 4."
+  },
+  {
+    "q": "Solve: 18 − 4x = 10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract 18: −4x = -8. Divide by −4: x = 2."
+  },
+  {
+    "q": "Solve: 3(x + 5) = 39<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Divide by 3: x + 5 = 13. Subtract 5: x = 8."
+  },
+  {
+    "q": "Solve: 3(x + 3) = 30<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Divide by 3: x + 3 = 10. Subtract 3: x = 7."
+  },
+  {
+    "q": "Solve: 18 − 4x = 2<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 18: −4x = -16. Divide by −4: x = 4."
+  },
+  {
+    "q": "Solve: 3x + 1 = x + 13<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract x from both sides: 2x + 1 = 13. Then 2x = 12, x = 6."
+  },
+  {
+    "q": "Solve: 20 − 4x = 8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Subtract 20: −4x = -12. Divide by −4: x = 3."
+  },
+  {
+    "q": "Solve: 13 − 4x = 9<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Subtract 13: −4x = -4. Divide by −4: x = 1."
+  },
+  {
+    "q": "Solve: 2(x + 4) = 16<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Divide by 2: x + 4 = 8. Subtract 4: x = 4."
+  },
+  {
+    "q": "Solve: 4(x + 3) = 36<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Divide by 4: x + 3 = 9. Subtract 3: x = 6."
+  },
+  {
+    "q": "Solve: 3(x + 4) = 30<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Divide by 3: x + 4 = 10. Subtract 4: x = 6."
+  },
+  {
+    "q": "Solve: 3(x + 1) = 27<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Divide by 3: x + 1 = 9. Subtract 1: x = 8."
+  },
+  {
+    "q": "Solve: 3x + 5 = x + 15<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Subtract x from both sides: 2x + 5 = 15. Then 2x = 10, x = 5."
+  },
+  {
+    "q": "Solve: 4(x + 5) = 36<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Divide by 4: x + 5 = 9. Subtract 5: x = 4."
+  },
+  {
+    "q": "Solve: 4x + 2 = x + 14<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract x from both sides: 3x + 2 = 14. Then 3x = 12, x = 4."
+  },
+  {
+    "q": "Solve: 4x + 3 = x + 21<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract x from both sides: 3x + 3 = 21. Then 3x = 18, x = 6."
+  },
+  {
+    "q": "Solve: 23 − 3x = 5<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract 23: −3x = -18. Divide by −3: x = 6."
+  },
+  {
+    "q": "Solve: 2x + 9 = x + 13<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract x from both sides: 1x + 9 = 13. Then 1x = 4, x = 4."
+  },
+  {
+    "q": "Solve: 3(x + 3) = 33<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Divide by 3: x + 3 = 11. Subtract 3: x = 8."
+  },
+  {
+    "q": "Solve: 3(x + 1) = 24<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Divide by 3: x + 1 = 8. Subtract 1: x = 7."
+  },
+  {
+    "q": "Solve: 4x + 5 = x + 17<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract x from both sides: 3x + 5 = 17. Then 3x = 12, x = 4."
+  },
+  {
+    "q": "Solve: 26 − 4x = 10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 26: −4x = -16. Divide by −4: x = 4."
+  },
+  {
+    "q": "Solve: 19 − 3x = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 19: −3x = -12. Divide by −3: x = 4."
+  },
+  {
+    "q": "Solve: 4(x + 4) = 48<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Divide by 4: x + 4 = 12. Subtract 4: x = 8."
+  },
+  {
+    "q": "Solve: 11 − 2x = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 11: −2x = -8. Divide by −2: x = 4."
+  },
+  {
+    "q": "Solve: 4x + 8 = x + 14<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract x from both sides: 3x + 8 = 14. Then 3x = 6, x = 2."
+  },
+  {
+    "q": "Solve: 26 − 3x = 8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract 26: −3x = -18. Divide by −3: x = 6."
+  },
+  {
+    "q": "Solve: 2(x + 4) = 22<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Divide by 2: x + 4 = 11. Subtract 4: x = 7."
+  },
+  {
+    "q": "Solve: 5 − 3x = 2<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Subtract 5: −3x = -3. Divide by −3: x = 1."
+  },
+  {
+    "q": "Solve: 11 − 2x = 1<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Subtract 11: −2x = -10. Divide by −2: x = 5."
+  },
+  {
+    "q": "Solve: 2x + 7 = x + 13<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract x from both sides: 1x + 7 = 13. Then 1x = 6, x = 6."
+  },
+  {
+    "q": "Solve: 13 − 2x = 1<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract 13: −2x = -12. Divide by −2: x = 6."
+  },
+  {
+    "q": "Solve: 18 − 3x = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Subtract 18: −3x = -15. Divide by −3: x = 5."
+  },
+  {
+    "q": "Solve: 12 − 2x = 4<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 12: −2x = -8. Divide by −2: x = 4."
+  },
+  {
+    "q": "Solve: 4x + 4 = x + 10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract x from both sides: 3x + 4 = 10. Then 3x = 6, x = 2."
+  },
+  {
+    "q": "Solve: 4x + 1 = x + 16<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Subtract x from both sides: 3x + 1 = 16. Then 3x = 15, x = 5."
+  },
+  {
+    "q": "Solve: 17 − 4x = 1<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 17: −4x = -16. Divide by −4: x = 4."
+  },
+  {
+    "q": "Solve: 8 − 3x = 2<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract 8: −3x = -6. Divide by −3: x = 2."
+  },
+  {
+    "q": "Solve: 3x + 3 = x + 15<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract x from both sides: 2x + 3 = 15. Then 2x = 12, x = 6."
+  },
+  {
+    "q": "Solve: 22 − 4x = 10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Subtract 22: −4x = -12. Divide by −4: x = 3."
+  },
+  {
+    "q": "Solve: 3x + 6 = x + 8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Subtract x from both sides: 2x + 6 = 8. Then 2x = 2, x = 1."
+  },
+  {
+    "q": "Solve: 3(x + 5) = 33<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Divide by 3: x + 5 = 11. Subtract 5: x = 6."
+  },
+  {
+    "q": "Solve: 17 − 3x = 5<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 17: −3x = -12. Divide by −3: x = 4."
+  },
+  {
+    "q": "Solve: 3x + 5 = x + 17<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract x from both sides: 2x + 5 = 17. Then 2x = 12, x = 6."
+  },
+  {
+    "q": "Solve: 2(x + 4) = 20<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Divide by 2: x + 4 = 10. Subtract 4: x = 6."
+  },
+  {
+    "q": "Solve: 4(x + 1) = 28<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Divide by 4: x + 1 = 7. Subtract 1: x = 6."
+  },
+  {
+    "q": "Solve: 2(x + 2) = 14<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Divide by 2: x + 2 = 7. Subtract 2: x = 5."
+  },
+  {
+    "q": "Solve: 3(x + 2) = 15<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Divide by 3: x + 2 = 5. Subtract 2: x = 3."
+  },
+  {
+    "q": "Solve: 23 − 4x = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 23: −4x = -16. Divide by −4: x = 4."
+  },
+  {
+    "q": "Solve: 3(x + 4) = 18<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Divide by 3: x + 4 = 6. Subtract 4: x = 2."
+  },
+  {
+    "q": "Solve: 15 − 2x = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract 15: −2x = -12. Divide by −2: x = 6."
+  },
+  {
+    "q": "Solve: 4x + 6 = x + 12<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Subtract x from both sides: 3x + 6 = 12. Then 3x = 6, x = 2."
+  },
+  {
+    "q": "Solve: 4(x + 3) = 28<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Divide by 4: x + 3 = 7. Subtract 3: x = 4."
+  },
+  {
+    "q": "Solve: 8 − 3x = 5<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "Subtract 8: −3x = -3. Divide by −3: x = 1."
+  },
+  {
+    "q": "Solve: 3(x + 1) = 9<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Divide by 3: x + 1 = 3. Subtract 1: x = 2."
+  }
+]

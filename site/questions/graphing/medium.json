@@ -1,0 +1,558 @@
+[
+  {
+    "q": "Maya buys 7 packs of 8 markers, then gives away 8. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "7×8 = 56, − 8 = 48."
+  },
+  {
+    "q": "Which quadrant is (2, -2) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant I",
+      "Quadrant IV",
+      "Quadrant III",
+      "Quadrant II"
+    ],
+    "answer": 1,
+    "solution": "x +, y − → Quadrant IV."
+  },
+  {
+    "q": "Maya buys 7 packs of 8 markers, then gives away 7. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "49"
+    ],
+    "solution": "7×8 = 56, − 7 = 49."
+  },
+  {
+    "q": "Which quadrant is (1, -4) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV",
+      "Quadrant I"
+    ],
+    "answer": 2,
+    "solution": "x +, y − → Quadrant IV."
+  },
+  {
+    "q": "Maya buys 6 packs of 8 markers, then gives away 3. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "6×8 = 48, − 3 = 45."
+  },
+  {
+    "q": "A taxi costs $3 plus $3 per mile. How much for a 5-mile trip?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "3×5 = 15, + $3 = $18."
+  },
+  {
+    "q": "Which quadrant is (-5, -5) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant IV",
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III"
+    ],
+    "answer": 3,
+    "solution": "x −, y − → Quadrant III."
+  },
+  {
+    "q": "A taxi costs $4 plus $2 per mile. How much for a 6-mile trip?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "2×6 = 12, + $4 = $16."
+  },
+  {
+    "q": "Maya buys 5 packs of 6 markers, then gives away 4. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "5×6 = 30, − 4 = 26."
+  },
+  {
+    "q": "Maya buys 5 packs of 10 markers, then gives away 5. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "5×10 = 50, − 5 = 45."
+  },
+  {
+    "q": "Maya buys 5 packs of 6 markers, then gives away 10. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "5×6 = 30, − 10 = 20."
+  },
+  {
+    "q": "Maya buys 4 packs of 8 markers, then gives away 6. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "4×8 = 32, − 6 = 26."
+  },
+  {
+    "q": "Maya buys 7 packs of 12 markers, then gives away 5. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "79"
+    ],
+    "solution": "7×12 = 84, − 5 = 79."
+  },
+  {
+    "q": "A taxi costs $4 plus $3 per mile. How much for a 6-mile trip?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "3×6 = 18, + $4 = $22."
+  },
+  {
+    "q": "Which quadrant is (3, 3) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant IV",
+      "Quadrant III",
+      "Quadrant II",
+      "Quadrant I"
+    ],
+    "answer": 3,
+    "solution": "x +, y + → Quadrant I."
+  },
+  {
+    "q": "A taxi costs $6 plus $3 per mile. How much for a 7-mile trip?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "3×7 = 21, + $6 = $27."
+  },
+  {
+    "q": "Which quadrant is (1, 2) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant III",
+      "Quadrant II",
+      "Quadrant I",
+      "Quadrant IV"
+    ],
+    "answer": 2,
+    "solution": "x +, y + → Quadrant I."
+  },
+  {
+    "q": "Maya buys 5 packs of 8 markers, then gives away 5. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "5×8 = 40, − 5 = 35."
+  },
+  {
+    "q": "Maya buys 3 packs of 12 markers, then gives away 7. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "29"
+    ],
+    "solution": "3×12 = 36, − 7 = 29."
+  },
+  {
+    "q": "A taxi costs $3 plus $3 per mile. How much for a 7-mile trip?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "3×7 = 21, + $3 = $24."
+  },
+  {
+    "q": "Which quadrant is (-6, 1) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant III",
+      "Quadrant I",
+      "Quadrant IV",
+      "Quadrant II"
+    ],
+    "answer": 3,
+    "solution": "x −, y + → Quadrant II."
+  },
+  {
+    "q": "Maya buys 3 packs of 8 markers, then gives away 4. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "3×8 = 24, − 4 = 20."
+  },
+  {
+    "q": "A taxi costs $5 plus $4 per mile. How much for a 8-mile trip?",
+    "type": "typed",
+    "accept": [
+      "37"
+    ],
+    "solution": "4×8 = 32, + $5 = $37."
+  },
+  {
+    "q": "Maya buys 5 packs of 8 markers, then gives away 8. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "5×8 = 40, − 8 = 32."
+  },
+  {
+    "q": "Which quadrant is (-1, -4) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant II",
+      "Quadrant IV",
+      "Quadrant III",
+      "Quadrant I"
+    ],
+    "answer": 2,
+    "solution": "x −, y − → Quadrant III."
+  },
+  {
+    "q": "Maya buys 7 packs of 10 markers, then gives away 6. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "7×10 = 70, − 6 = 64."
+  },
+  {
+    "q": "A taxi costs $3 plus $4 per mile. How much for a 8-mile trip?",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "4×8 = 32, + $3 = $35."
+  },
+  {
+    "q": "Which quadrant is (5, 3) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant I",
+      "Quadrant III",
+      "Quadrant IV",
+      "Quadrant II"
+    ],
+    "answer": 0,
+    "solution": "x +, y + → Quadrant I."
+  },
+  {
+    "q": "Which quadrant is (5, 1) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant I",
+      "Quadrant III",
+      "Quadrant II",
+      "Quadrant IV"
+    ],
+    "answer": 0,
+    "solution": "x +, y + → Quadrant I."
+  },
+  {
+    "q": "A taxi costs $5 plus $3 per mile. How much for a 7-mile trip?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "3×7 = 21, + $5 = $26."
+  },
+  {
+    "q": "Which quadrant is (-3, 3) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant II",
+      "Quadrant IV",
+      "Quadrant I",
+      "Quadrant III"
+    ],
+    "answer": 0,
+    "solution": "x −, y + → Quadrant II."
+  },
+  {
+    "q": "Which quadrant is (-6, 3) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant I",
+      "Quadrant III",
+      "Quadrant II",
+      "Quadrant IV"
+    ],
+    "answer": 2,
+    "solution": "x −, y + → Quadrant II."
+  },
+  {
+    "q": "Which quadrant is (-3, 2) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant III",
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant IV"
+    ],
+    "answer": 2,
+    "solution": "x −, y + → Quadrant II."
+  },
+  {
+    "q": "A taxi costs $5 plus $3 per mile. How much for a 9-mile trip?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "3×9 = 27, + $5 = $32."
+  },
+  {
+    "q": "A taxi costs $5 plus $2 per mile. How much for a 6-mile trip?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "2×6 = 12, + $5 = $17."
+  },
+  {
+    "q": "A taxi costs $6 plus $3 per mile. How much for a 6-mile trip?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "3×6 = 18, + $6 = $24."
+  },
+  {
+    "q": "A taxi costs $3 plus $2 per mile. How much for a 7-mile trip?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "2×7 = 14, + $3 = $17."
+  },
+  {
+    "q": "A taxi costs $2 plus $4 per mile. How much for a 7-mile trip?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "4×7 = 28, + $2 = $30."
+  },
+  {
+    "q": "Which quadrant is (-3, -1) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant IV",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant I"
+    ],
+    "answer": 2,
+    "solution": "x −, y − → Quadrant III."
+  },
+  {
+    "q": "A taxi costs $5 plus $2 per mile. How much for a 7-mile trip?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "2×7 = 14, + $5 = $19."
+  },
+  {
+    "q": "Which quadrant is (-1, 5) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant I",
+      "Quadrant III",
+      "Quadrant II",
+      "Quadrant IV"
+    ],
+    "answer": 2,
+    "solution": "x −, y + → Quadrant II."
+  },
+  {
+    "q": "Maya buys 5 packs of 12 markers, then gives away 3. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "57"
+    ],
+    "solution": "5×12 = 60, − 3 = 57."
+  },
+  {
+    "q": "A taxi costs $6 plus $4 per mile. How much for a 8-mile trip?",
+    "type": "typed",
+    "accept": [
+      "38"
+    ],
+    "solution": "4×8 = 32, + $6 = $38."
+  },
+  {
+    "q": "A taxi costs $2 plus $2 per mile. How much for a 8-mile trip?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "2×8 = 16, + $2 = $18."
+  },
+  {
+    "q": "Maya buys 7 packs of 12 markers, then gives away 7. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "77"
+    ],
+    "solution": "7×12 = 84, − 7 = 77."
+  },
+  {
+    "q": "Maya buys 6 packs of 6 markers, then gives away 11. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "6×6 = 36, − 11 = 25."
+  },
+  {
+    "q": "A taxi costs $6 plus $2 per mile. How much for a 5-mile trip?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "2×5 = 10, + $6 = $16."
+  },
+  {
+    "q": "Maya buys 6 packs of 12 markers, then gives away 4. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "68"
+    ],
+    "solution": "6×12 = 72, − 4 = 68."
+  },
+  {
+    "q": "Which quadrant is (-5, 1) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant II",
+      "Quadrant IV",
+      "Quadrant I",
+      "Quadrant III"
+    ],
+    "answer": 0,
+    "solution": "x −, y + → Quadrant II."
+  },
+  {
+    "q": "Which quadrant is (-4, -1) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant III",
+      "Quadrant II",
+      "Quadrant IV",
+      "Quadrant I"
+    ],
+    "answer": 0,
+    "solution": "x −, y − → Quadrant III."
+  },
+  {
+    "q": "A taxi costs $5 plus $3 per mile. How much for a 5-mile trip?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "3×5 = 15, + $5 = $20."
+  },
+  {
+    "q": "Maya buys 7 packs of 6 markers, then gives away 5. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "37"
+    ],
+    "solution": "7×6 = 42, − 5 = 37."
+  },
+  {
+    "q": "Which quadrant is (-2, -5) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant III",
+      "Quadrant IV",
+      "Quadrant II",
+      "Quadrant I"
+    ],
+    "answer": 0,
+    "solution": "x −, y − → Quadrant III."
+  },
+  {
+    "q": "Maya buys 7 packs of 12 markers, then gives away 6. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "78"
+    ],
+    "solution": "7×12 = 84, − 6 = 78."
+  },
+  {
+    "q": "Maya buys 5 packs of 8 markers, then gives away 4. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "5×8 = 40, − 4 = 36."
+  },
+  {
+    "q": "Maya buys 7 packs of 8 markers, then gives away 9. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "47"
+    ],
+    "solution": "7×8 = 56, − 9 = 47."
+  },
+  {
+    "q": "Which quadrant is (2, -6) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant IV",
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III"
+    ],
+    "answer": 0,
+    "solution": "x +, y − → Quadrant IV."
+  },
+  {
+    "q": "Maya buys 7 packs of 10 markers, then gives away 7. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "63"
+    ],
+    "solution": "7×10 = 70, − 7 = 63."
+  },
+  {
+    "q": "Maya buys 5 packs of 10 markers, then gives away 4. How many does she have now?",
+    "type": "typed",
+    "accept": [
+      "46"
+    ],
+    "solution": "5×10 = 50, − 4 = 46."
+  },
+  {
+    "q": "Which quadrant is (1, 6) in?",
+    "type": "mc",
+    "choices": [
+      "Quadrant I",
+      "Quadrant IV",
+      "Quadrant II",
+      "Quadrant III"
+    ],
+    "answer": 0,
+    "solution": "x +, y + → Quadrant I."
+  }
+]
