@@ -19,6 +19,8 @@ function toSchema(q) {
   return { q: q.q, type: "typed", accept: q.accept, solution: q.explain };
 }
 
+function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[a[i], a[j]] = [a[j], a[i]]; } return a; }
+
 const outRoot = path.join(__dirname, "..", "site", "questions");
 let grand = 0;
 const summary = [];
@@ -26,19 +28,27 @@ const summary = [];
 for (const chapter of G.topics) {
   const dir = path.join(outRoot, chapter);
   fs.mkdirSync(dir, { recursive: true });
+  const tiers = G.genTiers(chapter); // [ mediumFns, hardFns, challengeFns ]
   for (let level = 1; level <= 3; level++) {
+    const templates = tiers[level - 1];
+    // BALANCED: collect roughly equal questions from EACH template so no single
+    // template can dominate the pool (templates with more number-combos used to backfill).
+    const perTemplate = Math.ceil(PER_POOL / templates.length);
     const seen = new Set();
     const out = [];
-    let guard = 0;
-    while (out.length < PER_POOL && guard < PER_POOL * 80) {
-      const q = G.questionForTopic(chapter, level);
-      if (!seen.has(q.q)) { seen.add(q.q); out.push(toSchema(q)); }
-      guard++;
+    for (const fn of templates) {
+      let count = 0, guard = 0;
+      while (count < perTemplate && guard < perTemplate * 300) {
+        const q = fn();
+        if (!seen.has(q.q)) { seen.add(q.q); out.push(toSchema(q)); count++; }
+        guard++;
+      }
     }
+    shuffle(out); // mix templates together
     const file = path.join(dir, LEVEL_NAME[level] + ".json");
     fs.writeFileSync(file, JSON.stringify(out, null, 2) + "\n");
     grand += out.length;
-    summary.push(chapter.padEnd(12) + " " + LEVEL_NAME[level].padEnd(12) + " " + out.length);
+    summary.push(chapter.padEnd(12) + " " + LEVEL_NAME[level].padEnd(12) + out.length + " (" + templates.length + " templates × ~" + perTemplate + ")");
   }
 }
 

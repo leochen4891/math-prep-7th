@@ -1,75 +1,11 @@
 [
   {
-    "q": "3³ + 2² × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "35"
-    ],
-    "solution": "Exponents first: 3³ = 27, 2² = 4. Then 27 + 4×2 = 35."
-  },
-  {
-    "q": "What is 3⁴ ÷ 3²?",
+    "q": "x⁴ · x⁵ = xⁿ.  What is n?",
     "type": "typed",
     "accept": [
       "9"
     ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 9."
-  },
-  {
-    "q": "What is 10³ ÷ 10?",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 100."
-  },
-  {
-    "q": "3³ + 3² × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "45"
-    ],
-    "solution": "Exponents first: 3³ = 27, 3² = 9. Then 27 + 9×2 = 45."
-  },
-  {
-    "q": "What is 2⁵ ÷ 2²?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 8."
-  },
-  {
-    "q": "x² · x³ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Multiplying same bases → add exponents: 2 + 3 = 5."
-  },
-  {
-    "q": "What is (3²)² ÷ 9?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 9."
-  },
-  {
-    "q": "What is 2³ × 2²?",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 32."
-  },
-  {
-    "q": "2³ + 3² × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "26"
-    ],
-    "solution": "Exponents first: 2³ = 8, 3² = 9. Then 8 + 9×2 = 26."
+    "solution": "Multiplying same bases → add exponents: 4 + 5 = 9."
   },
   {
     "q": "x³ · x⁴ = xⁿ.  What is n?",
@@ -80,108 +16,12 @@
     "solution": "Multiplying same bases → add exponents: 3 + 4 = 7."
   },
   {
-    "q": "x⁴ · x⁶ = xⁿ.  What is n?",
+    "q": "x⁵ · x⁵ = xⁿ.  What is n?",
     "type": "typed",
     "accept": [
       "10"
     ],
-    "solution": "Multiplying same bases → add exponents: 4 + 6 = 10."
-  },
-  {
-    "q": "x³ · x² = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Multiplying same bases → add exponents: 3 + 2 = 5."
-  },
-  {
-    "q": "x² · x⁶ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiplying same bases → add exponents: 2 + 6 = 8."
-  },
-  {
-    "q": "x² · x² = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Multiplying same bases → add exponents: 2 + 2 = 4."
-  },
-  {
-    "q": "x³ · x⁶ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Multiplying same bases → add exponents: 3 + 6 = 9."
-  },
-  {
-    "q": "x⁴ · x⁵ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Multiplying same bases → add exponents: 4 + 5 = 9."
-  },
-  {
-    "q": "4³ + 3² × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "82"
-    ],
-    "solution": "Exponents first: 4³ = 64, 3² = 9. Then 64 + 9×2 = 82."
-  },
-  {
-    "q": "2³ + 2² × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Exponents first: 2³ = 8, 2² = 4. Then 8 + 4×2 = 16."
-  },
-  {
-    "q": "4³ + 2² × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "Exponents first: 4³ = 64, 2² = 4. Then 64 + 4×2 = 72."
-  },
-  {
-    "q": "What is (2²)³?",
-    "type": "typed",
-    "accept": [
-      "64"
-    ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 64."
-  },
-  {
-    "q": "x⁵ · x³ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiplying same bases → add exponents: 5 + 3 = 8."
-  },
-  {
-    "q": "x³ · x⁵ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiplying same bases → add exponents: 3 + 5 = 8."
-  },
-  {
-    "q": "x⁶ · x⁶ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Multiplying same bases → add exponents: 6 + 6 = 12."
+    "solution": "Multiplying same bases → add exponents: 5 + 5 = 10."
   },
   {
     "q": "x⁴ · x³ = xⁿ.  What is n?",
@@ -192,36 +32,76 @@
     "solution": "Multiplying same bases → add exponents: 4 + 3 = 7."
   },
   {
-    "q": "x⁵ · x⁴ = xⁿ.  What is n?",
+    "q": "What is 10³ ÷ 10?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 100."
+  },
+  {
+    "q": "3³ + 2² × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "Exponents first: 3³ = 27, 2² = 4. Then 27 + 4×2 = 35."
+  },
+  {
+    "q": "x² · x² = xⁿ.  What is n?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Multiplying same bases → add exponents: 2 + 2 = 4."
+  },
+  {
+    "q": "2³ + 3² × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "Exponents first: 2³ = 8, 3² = 9. Then 8 + 9×2 = 26."
+  },
+  {
+    "q": "What is (3²)² ÷ 9?",
     "type": "typed",
     "accept": [
       "9"
     ],
-    "solution": "Multiplying same bases → add exponents: 5 + 4 = 9."
+    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 9."
   },
   {
-    "q": "x⁵ · x⁶ = xⁿ.  What is n?",
+    "q": "x³ · x⁵ = xⁿ.  What is n?",
     "type": "typed",
     "accept": [
-      "11"
+      "8"
     ],
-    "solution": "Multiplying same bases → add exponents: 5 + 6 = 11."
+    "solution": "Multiplying same bases → add exponents: 3 + 5 = 8."
   },
   {
-    "q": "x⁵ · x⁵ = xⁿ.  What is n?",
+    "q": "What is 2³ × 2²?",
     "type": "typed",
     "accept": [
-      "10"
+      "32"
     ],
-    "solution": "Multiplying same bases → add exponents: 5 + 5 = 10."
+    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 32."
   },
   {
-    "q": "x² · x⁵ = xⁿ.  What is n?",
+    "q": "x⁶ · x² = xⁿ.  What is n?",
     "type": "typed",
     "accept": [
-      "7"
+      "8"
     ],
-    "solution": "Multiplying same bases → add exponents: 2 + 5 = 7."
+    "solution": "Multiplying same bases → add exponents: 6 + 2 = 8."
+  },
+  {
+    "q": "What is 3⁴ ÷ 3²?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 9."
   },
   {
     "q": "x⁶ · x⁴ = xⁿ.  What is n?",
@@ -240,20 +120,12 @@
     "solution": "Multiplying same bases → add exponents: 3 + 3 = 6."
   },
   {
-    "q": "x⁶ · x² = xⁿ.  What is n?",
+    "q": "x² · x³ = xⁿ.  What is n?",
     "type": "typed",
     "accept": [
-      "8"
+      "5"
     ],
-    "solution": "Multiplying same bases → add exponents: 6 + 2 = 8."
-  },
-  {
-    "q": "x² · x⁴ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Multiplying same bases → add exponents: 2 + 4 = 6."
+    "solution": "Multiplying same bases → add exponents: 2 + 3 = 5."
   },
   {
     "q": "x⁵ · x² = xⁿ.  What is n?",
@@ -264,12 +136,52 @@
     "solution": "Multiplying same bases → add exponents: 5 + 2 = 7."
   },
   {
+    "q": "x⁴ · x⁶ = xⁿ.  What is n?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Multiplying same bases → add exponents: 4 + 6 = 10."
+  },
+  {
+    "q": "What is (2²)³?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 64."
+  },
+  {
+    "q": "2³ + 2² × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Exponents first: 2³ = 8, 2² = 4. Then 8 + 4×2 = 16."
+  },
+  {
     "q": "x⁴ · x² = xⁿ.  What is n?",
     "type": "typed",
     "accept": [
       "6"
     ],
     "solution": "Multiplying same bases → add exponents: 4 + 2 = 6."
+  },
+  {
+    "q": "4³ + 3² × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "82"
+    ],
+    "solution": "Exponents first: 4³ = 64, 3² = 9. Then 64 + 9×2 = 82."
+  },
+  {
+    "q": "x⁵ · x⁴ = xⁿ.  What is n?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Multiplying same bases → add exponents: 5 + 4 = 9."
   },
   {
     "q": "x⁴ · x⁴ = xⁿ.  What is n?",
@@ -280,12 +192,28 @@
     "solution": "Multiplying same bases → add exponents: 4 + 4 = 8."
   },
   {
-    "q": "x⁶ · x³ = xⁿ.  What is n?",
+    "q": "3³ + 3² × 2 = ?",
     "type": "typed",
     "accept": [
-      "9"
+      "45"
     ],
-    "solution": "Multiplying same bases → add exponents: 6 + 3 = 9."
+    "solution": "Exponents first: 3³ = 27, 3² = 9. Then 27 + 9×2 = 45."
+  },
+  {
+    "q": "4³ + 2² × 2 = ?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "Exponents first: 4³ = 64, 2² = 4. Then 64 + 4×2 = 72."
+  },
+  {
+    "q": "x³ · x² = xⁿ.  What is n?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Multiplying same bases → add exponents: 3 + 2 = 5."
   },
   {
     "q": "x⁶ · x⁵ = xⁿ.  What is n?",
@@ -294,6 +222,38 @@
       "11"
     ],
     "solution": "Multiplying same bases → add exponents: 6 + 5 = 11."
+  },
+  {
+    "q": "x⁵ · x⁶ = xⁿ.  What is n?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Multiplying same bases → add exponents: 5 + 6 = 11."
+  },
+  {
+    "q": "x⁶ · x⁶ = xⁿ.  What is n?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Multiplying same bases → add exponents: 6 + 6 = 12."
+  },
+  {
+    "q": "What is 2⁵ ÷ 2²?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 8."
+  },
+  {
+    "q": "x² · x⁴ = xⁿ.  What is n?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Multiplying same bases → add exponents: 2 + 4 = 6."
   },
   {
     "q": "What is 2¹⁰?",

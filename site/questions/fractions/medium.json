@@ -1,12 +1,47 @@
 [
   {
-    "q": "Write 9/16 as a decimal.",
+    "q": "What is 45% of 100?",
     "type": "typed",
     "accept": [
-      "0.5625",
-      ".5625"
+      "45"
     ],
-    "solution": "9 ÷ 16 = 0.5625."
+    "solution": "0.45 × 100 = 45."
+  },
+  {
+    "q": "Write 14/20 as a decimal.",
+    "type": "typed",
+    "accept": [
+      "0.7",
+      ".7"
+    ],
+    "solution": "14 ÷ 20 = 0.7."
+  },
+  {
+    "q": "Write 2/8 as a decimal.",
+    "type": "typed",
+    "accept": [
+      "0.25",
+      ".25"
+    ],
+    "solution": "2 ÷ 8 = 0.25."
+  },
+  {
+    "q": "Write 3/50 as a decimal.",
+    "type": "typed",
+    "accept": [
+      "0.06",
+      ".06"
+    ],
+    "solution": "3 ÷ 50 = 0.06."
+  },
+  {
+    "q": "1/2 + 3/6 = ?",
+    "type": "typed",
+    "accept": [
+      "1/1",
+      "12/12"
+    ],
+    "solution": "Common denominator 12: 6/12 + 6/12 = 1/1."
   },
   {
     "q": "What is 25% of 100?",
@@ -17,97 +52,135 @@
     "solution": "0.25 × 100 = 25."
   },
   {
-    "q": "What is 45% of 60?",
+    "q": "Write 7/8 as a decimal.",
     "type": "typed",
     "accept": [
-      "27"
+      "0.875",
+      ".875"
     ],
-    "solution": "0.45 × 60 = 27."
+    "solution": "7 ÷ 8 = 0.875."
   },
   {
-    "q": "Write 1/40 as a decimal.",
+    "q": "Write 2/50 as a decimal.",
     "type": "typed",
     "accept": [
-      "0.025",
-      ".025"
+      "0.04",
+      ".04"
     ],
-    "solution": "1 ÷ 40 = 0.025."
+    "solution": "2 ÷ 50 = 0.04."
   },
   {
-    "q": "Write 5/8 as a decimal.",
+    "q": "Write 40/50 as a decimal.",
     "type": "typed",
     "accept": [
-      "0.625",
-      ".625"
+      "0.8",
+      ".8"
     ],
-    "solution": "5 ÷ 8 = 0.625."
+    "solution": "40 ÷ 50 = 0.8."
   },
   {
-    "q": "What is 5% of 100?",
+    "q": "Write 7/40 as a decimal.",
     "type": "typed",
     "accept": [
-      "5"
+      "0.175",
+      ".175"
     ],
-    "solution": "0.05 × 100 = 5."
+    "solution": "7 ÷ 40 = 0.175."
   },
   {
-    "q": "Write 7/16 as a decimal.",
+    "q": "Write 2/25 as a decimal.",
     "type": "typed",
     "accept": [
-      "0.4375",
-      ".4375"
+      "0.08",
+      ".08"
     ],
-    "solution": "7 ÷ 16 = 0.4375."
+    "solution": "2 ÷ 25 = 0.08."
   },
   {
-    "q": "2/3 + 3/4 = ?",
+    "q": "What is 15% of 100?",
     "type": "typed",
     "accept": [
-      "17/12"
+      "15"
     ],
-    "solution": "Common denominator 12: 8/12 + 9/12 = 17/12."
+    "solution": "0.15 × 100 = 15."
   },
   {
-    "q": "What is 45% of 80?",
+    "q": "6/8 + 1/2 = ?",
     "type": "typed",
     "accept": [
-      "36"
+      "5/4",
+      "20/16"
     ],
-    "solution": "0.45 × 80 = 36."
+    "solution": "Common denominator 16: 12/16 + 8/16 = 5/4."
   },
   {
-    "q": "1/3 + 6/8 = ?",
+    "q": "What is 25% of 80?",
     "type": "typed",
     "accept": [
-      "13/12",
-      "26/24"
+      "20"
     ],
-    "solution": "Common denominator 24: 8/24 + 18/24 = 13/12."
+    "solution": "0.25 × 80 = 20."
   },
   {
-    "q": "2/3 + 1/2 = ?",
+    "q": "Write 8/16 as a decimal.",
     "type": "typed",
     "accept": [
-      "7/6"
+      "0.5",
+      ".5"
     ],
-    "solution": "Common denominator 6: 4/6 + 3/6 = 7/6."
+    "solution": "8 ÷ 16 = 0.5."
   },
   {
-    "q": "3/4 + 4/6 = ?",
+    "q": "Write 19/25 as a decimal.",
     "type": "typed",
     "accept": [
-      "17/12",
-      "34/24"
+      "0.76",
+      ".76"
     ],
-    "solution": "Common denominator 24: 18/24 + 16/24 = 17/12."
+    "solution": "19 ÷ 25 = 0.76."
   },
   {
-    "q": "What is 15% of 60?",
+    "q": "5/6 + 3/5 = ?",
     "type": "typed",
     "accept": [
-      "9"
+      "43/30"
     ],
-    "solution": "0.15 × 60 = 9."
+    "solution": "Common denominator 30: 25/30 + 18/30 = 43/30."
+  },
+  {
+    "q": "1/8 + 4/6 = ?",
+    "type": "typed",
+    "accept": [
+      "19/24",
+      "38/48"
+    ],
+    "solution": "Common denominator 48: 6/48 + 32/48 = 19/24."
+  },
+  {
+    "q": "5/6 + 3/4 = ?",
+    "type": "typed",
+    "accept": [
+      "19/12",
+      "38/24"
+    ],
+    "solution": "Common denominator 24: 20/24 + 18/24 = 19/12."
+  },
+  {
+    "q": "What is 45% of 40?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "0.45 × 40 = 18."
+  },
+  {
+    "q": "Write 4/8 as a decimal.",
+    "type": "typed",
+    "accept": [
+      "0.5",
+      ".5"
+    ],
+    "solution": "4 ÷ 8 = 0.5."
   },
   {
     "q": "What is 35% of 80?",
@@ -118,13 +191,210 @@
     "solution": "0.35 × 80 = 28."
   },
   {
-    "q": "1/4 + 5/8 = ?",
+    "q": "Write 3/40 as a decimal.",
     "type": "typed",
     "accept": [
-      "7/8",
-      "28/32"
+      "0.075",
+      ".075"
     ],
-    "solution": "Common denominator 32: 8/32 + 20/32 = 7/8."
+    "solution": "3 ÷ 40 = 0.075."
+  },
+  {
+    "q": "1/2 + 3/5 = ?",
+    "type": "typed",
+    "accept": [
+      "11/10"
+    ],
+    "solution": "Common denominator 10: 5/10 + 6/10 = 11/10."
+  },
+  {
+    "q": "What is 45% of 80?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "0.45 × 80 = 36."
+  },
+  {
+    "q": "What is 15% of 80?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "0.15 × 80 = 12."
+  },
+  {
+    "q": "Write 20/25 as a decimal.",
+    "type": "typed",
+    "accept": [
+      "0.8",
+      ".8"
+    ],
+    "solution": "20 ÷ 25 = 0.8."
+  },
+  {
+    "q": "Write 29/50 as a decimal.",
+    "type": "typed",
+    "accept": [
+      "0.58",
+      ".58"
+    ],
+    "solution": "29 ÷ 50 = 0.58."
+  },
+  {
+    "q": "7/8 + 1/2 = ?",
+    "type": "typed",
+    "accept": [
+      "11/8",
+      "22/16"
+    ],
+    "solution": "Common denominator 16: 14/16 + 8/16 = 11/8."
+  },
+  {
+    "q": "2/4 + 1/6 = ?",
+    "type": "typed",
+    "accept": [
+      "2/3",
+      "16/24"
+    ],
+    "solution": "Common denominator 24: 12/24 + 4/24 = 2/3."
+  },
+  {
+    "q": "1/3 + 1/4 = ?",
+    "type": "typed",
+    "accept": [
+      "7/12"
+    ],
+    "solution": "Common denominator 12: 4/12 + 3/12 = 7/12."
+  },
+  {
+    "q": "What is 35% of 40?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "0.35 × 40 = 14."
+  },
+  {
+    "q": "What is 5% of 100?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "0.05 × 100 = 5."
+  },
+  {
+    "q": "2/4 + 1/2 = ?",
+    "type": "typed",
+    "accept": [
+      "1/1",
+      "8/8"
+    ],
+    "solution": "Common denominator 8: 4/8 + 4/8 = 1/1."
+  },
+  {
+    "q": "1/2 + 6/8 = ?",
+    "type": "typed",
+    "accept": [
+      "5/4",
+      "20/16"
+    ],
+    "solution": "Common denominator 16: 8/16 + 12/16 = 5/4."
+  },
+  {
+    "q": "1/4 + 2/5 = ?",
+    "type": "typed",
+    "accept": [
+      "13/20"
+    ],
+    "solution": "Common denominator 20: 5/20 + 8/20 = 13/20."
+  },
+  {
+    "q": "3/8 + 5/6 = ?",
+    "type": "typed",
+    "accept": [
+      "29/24",
+      "58/48"
+    ],
+    "solution": "Common denominator 48: 18/48 + 40/48 = 29/24."
+  },
+  {
+    "q": "Write 45/50 as a decimal.",
+    "type": "typed",
+    "accept": [
+      "0.9",
+      ".9"
+    ],
+    "solution": "45 ÷ 50 = 0.9."
+  },
+  {
+    "q": "Write 21/50 as a decimal.",
+    "type": "typed",
+    "accept": [
+      "0.42",
+      ".42"
+    ],
+    "solution": "21 ÷ 50 = 0.42."
+  },
+  {
+    "q": "What is 35% of 60?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "0.35 × 60 = 21."
+  },
+  {
+    "q": "What is 5% of 20?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "0.05 × 20 = 1."
+  },
+  {
+    "q": "What is 45% of 60?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "0.45 × 60 = 27."
+  },
+  {
+    "q": "Write 11/50 as a decimal.",
+    "type": "typed",
+    "accept": [
+      "0.22",
+      ".22"
+    ],
+    "solution": "11 ÷ 50 = 0.22."
+  },
+  {
+    "q": "2/4 + 4/5 = ?",
+    "type": "typed",
+    "accept": [
+      "13/10",
+      "26/20"
+    ],
+    "solution": "Common denominator 20: 10/20 + 16/20 = 13/10."
+  },
+  {
+    "q": "2/8 + 1/2 = ?",
+    "type": "typed",
+    "accept": [
+      "3/4",
+      "12/16"
+    ],
+    "solution": "Common denominator 16: 4/16 + 8/16 = 3/4."
+  },
+  {
+    "q": "Write 10/25 as a decimal.",
+    "type": "typed",
+    "accept": [
+      "0.4",
+      ".4"
+    ],
+    "solution": "10 ÷ 25 = 0.4."
   },
   {
     "q": "What is 5% of 40?",
@@ -143,315 +413,12 @@
     "solution": "0.15 × 20 = 3."
   },
   {
-    "q": "What is 25% of 40?",
+    "q": "4/5 + 1/2 = ?",
     "type": "typed",
     "accept": [
-      "10"
+      "13/10"
     ],
-    "solution": "0.25 × 40 = 10."
-  },
-  {
-    "q": "6/8 + 1/5 = ?",
-    "type": "typed",
-    "accept": [
-      "19/20",
-      "38/40"
-    ],
-    "solution": "Common denominator 40: 30/40 + 8/40 = 19/20."
-  },
-  {
-    "q": "Write 4/8 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.5",
-      ".5"
-    ],
-    "solution": "4 ÷ 8 = 0.5."
-  },
-  {
-    "q": "Write 2/8 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.25",
-      ".25"
-    ],
-    "solution": "2 ÷ 8 = 0.25."
-  },
-  {
-    "q": "2/8 + 2/3 = ?",
-    "type": "typed",
-    "accept": [
-      "11/12",
-      "22/24"
-    ],
-    "solution": "Common denominator 24: 6/24 + 16/24 = 11/12."
-  },
-  {
-    "q": "Write 28/40 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.7",
-      ".7"
-    ],
-    "solution": "28 ÷ 40 = 0.7."
-  },
-  {
-    "q": "3/4 + 1/2 = ?",
-    "type": "typed",
-    "accept": [
-      "5/4",
-      "10/8"
-    ],
-    "solution": "Common denominator 8: 6/8 + 4/8 = 5/4."
-  },
-  {
-    "q": "What is 5% of 80?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "0.05 × 80 = 4."
-  },
-  {
-    "q": "Write 14/20 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.7",
-      ".7"
-    ],
-    "solution": "14 ÷ 20 = 0.7."
-  },
-  {
-    "q": "Write 19/20 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.95",
-      ".95"
-    ],
-    "solution": "19 ÷ 20 = 0.95."
-  },
-  {
-    "q": "3/6 + 1/4 = ?",
-    "type": "typed",
-    "accept": [
-      "3/4",
-      "18/24"
-    ],
-    "solution": "Common denominator 24: 12/24 + 6/24 = 3/4."
-  },
-  {
-    "q": "1/6 + 1/2 = ?",
-    "type": "typed",
-    "accept": [
-      "2/3",
-      "8/12"
-    ],
-    "solution": "Common denominator 12: 2/12 + 6/12 = 2/3."
-  },
-  {
-    "q": "Write 15/20 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.75",
-      ".75"
-    ],
-    "solution": "15 ÷ 20 = 0.75."
-  },
-  {
-    "q": "Write 9/40 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.225",
-      ".225"
-    ],
-    "solution": "9 ÷ 40 = 0.225."
-  },
-  {
-    "q": "Write 39/50 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.78",
-      ".78"
-    ],
-    "solution": "39 ÷ 50 = 0.78."
-  },
-  {
-    "q": "Write 18/20 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.9",
-      ".9"
-    ],
-    "solution": "18 ÷ 20 = 0.9."
-  },
-  {
-    "q": "What is 35% of 20?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "0.35 × 20 = 7."
-  },
-  {
-    "q": "Write 16/20 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.8",
-      ".8"
-    ],
-    "solution": "16 ÷ 20 = 0.8."
-  },
-  {
-    "q": "Write 4/40 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.1",
-      ".1"
-    ],
-    "solution": "4 ÷ 40 = 0.1."
-  },
-  {
-    "q": "7/8 + 2/3 = ?",
-    "type": "typed",
-    "accept": [
-      "37/24"
-    ],
-    "solution": "Common denominator 24: 21/24 + 16/24 = 37/24."
-  },
-  {
-    "q": "5/8 + 1/3 = ?",
-    "type": "typed",
-    "accept": [
-      "23/24"
-    ],
-    "solution": "Common denominator 24: 15/24 + 8/24 = 23/24."
-  },
-  {
-    "q": "7/8 + 3/5 = ?",
-    "type": "typed",
-    "accept": [
-      "59/40"
-    ],
-    "solution": "Common denominator 40: 35/40 + 24/40 = 59/40."
-  },
-  {
-    "q": "Write 6/20 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.3",
-      ".3"
-    ],
-    "solution": "6 ÷ 20 = 0.3."
-  },
-  {
-    "q": "What is 15% of 40?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "0.15 × 40 = 6."
-  },
-  {
-    "q": "Write 31/50 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.62",
-      ".62"
-    ],
-    "solution": "31 ÷ 50 = 0.62."
-  },
-  {
-    "q": "What is 25% of 20?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "0.25 × 20 = 5."
-  },
-  {
-    "q": "4/8 + 1/5 = ?",
-    "type": "typed",
-    "accept": [
-      "7/10",
-      "28/40"
-    ],
-    "solution": "Common denominator 40: 20/40 + 8/40 = 7/10."
-  },
-  {
-    "q": "What is 15% of 80?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "0.15 × 80 = 12."
-  },
-  {
-    "q": "Write 13/20 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.65",
-      ".65"
-    ],
-    "solution": "13 ÷ 20 = 0.65."
-  },
-  {
-    "q": "1/4 + 2/5 = ?",
-    "type": "typed",
-    "accept": [
-      "13/20"
-    ],
-    "solution": "Common denominator 20: 5/20 + 8/20 = 13/20."
-  },
-  {
-    "q": "1/2 + 7/8 = ?",
-    "type": "typed",
-    "accept": [
-      "11/8",
-      "22/16"
-    ],
-    "solution": "Common denominator 16: 8/16 + 14/16 = 11/8."
-  },
-  {
-    "q": "Write 48/50 as a decimal.",
-    "type": "typed",
-    "accept": [
-      "0.96",
-      ".96"
-    ],
-    "solution": "48 ÷ 50 = 0.96."
-  },
-  {
-    "q": "What is 35% of 60?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "0.35 × 60 = 21."
-  },
-  {
-    "q": "1/6 + 4/5 = ?",
-    "type": "typed",
-    "accept": [
-      "29/30"
-    ],
-    "solution": "Common denominator 30: 5/30 + 24/30 = 29/30."
-  },
-  {
-    "q": "1/5 + 2/4 = ?",
-    "type": "typed",
-    "accept": [
-      "7/10",
-      "14/20"
-    ],
-    "solution": "Common denominator 20: 4/20 + 10/20 = 7/10."
-  },
-  {
-    "q": "1/3 + 2/5 = ?",
-    "type": "typed",
-    "accept": [
-      "11/15"
-    ],
-    "solution": "Common denominator 15: 5/15 + 6/15 = 11/15."
+    "solution": "Common denominator 10: 8/10 + 5/10 = 13/10."
   },
   {
     "q": "What is 25% of 60?",
@@ -462,55 +429,85 @@
     "solution": "0.25 × 60 = 15."
   },
   {
-    "q": "3/6 + 4/5 = ?",
+    "q": "2/3 + 3/4 = ?",
     "type": "typed",
     "accept": [
-      "13/10",
-      "39/30"
+      "17/12"
     ],
-    "solution": "Common denominator 30: 15/30 + 24/30 = 13/10."
+    "solution": "Common denominator 12: 8/12 + 9/12 = 17/12."
   },
   {
-    "q": "Write 4/25 as a decimal.",
+    "q": "What is 25% of 20?",
     "type": "typed",
     "accept": [
-      "0.16",
-      ".16"
+      "5"
     ],
-    "solution": "4 ÷ 25 = 0.16."
+    "solution": "0.25 × 20 = 5."
   },
   {
-    "q": "Write 6/16 as a decimal.",
+    "q": "Write 23/40 as a decimal.",
     "type": "typed",
     "accept": [
-      "0.375",
-      ".375"
+      "0.575",
+      ".575"
     ],
-    "solution": "6 ÷ 16 = 0.375."
+    "solution": "23 ÷ 40 = 0.575."
   },
   {
-    "q": "What is 25% of 80?",
+    "q": "Write 5/8 as a decimal.",
     "type": "typed",
     "accept": [
-      "20"
+      "0.625",
+      ".625"
     ],
-    "solution": "0.25 × 80 = 20."
+    "solution": "5 ÷ 8 = 0.625."
   },
   {
-    "q": "2/6 + 5/7 = ?",
+    "q": "What is 35% of 100?",
     "type": "typed",
     "accept": [
-      "22/21",
-      "44/42"
+      "35"
     ],
-    "solution": "Common denominator 42: 14/42 + 30/42 = 22/21."
+    "solution": "0.35 × 100 = 35."
   },
   {
-    "q": "1/4 + 2/3 = ?",
+    "q": "1/4 + 3/5 = ?",
     "type": "typed",
     "accept": [
-      "11/12"
+      "17/20"
     ],
-    "solution": "Common denominator 12: 3/12 + 8/12 = 11/12."
+    "solution": "Common denominator 20: 5/20 + 12/20 = 17/20."
+  },
+  {
+    "q": "1/2 + 2/3 = ?",
+    "type": "typed",
+    "accept": [
+      "7/6"
+    ],
+    "solution": "Common denominator 6: 3/6 + 4/6 = 7/6."
+  },
+  {
+    "q": "4/5 + 1/4 = ?",
+    "type": "typed",
+    "accept": [
+      "21/20"
+    ],
+    "solution": "Common denominator 20: 16/20 + 5/20 = 21/20."
+  },
+  {
+    "q": "What is 15% of 60?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "0.15 × 60 = 9."
+  },
+  {
+    "q": "What is 35% of 20?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "0.35 × 20 = 7."
   }
 ]

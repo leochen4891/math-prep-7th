@@ -67,12 +67,17 @@
     [ // ADVANCED
       function () { const a = snz(2, 9), b = snz(2, 6), c = snz(2, 6); return typed(a + " " + withSign(b) + " × " + parn(c) + " = ?", a + b * c, "Multiply first: " + parn(b) + "×" + parn(c) + " = " + (b * c) + ", then " + a + (b * c < 0 ? "−" + Math.abs(b * c) : "+" + b * c) + " = " + (a + b * c) + ".", "Type a number"); },
       function () { const s = pick([{ b: -2, e: 3, a: -8 }, { b: -2, e: 4, a: 16 }, { b: -3, e: 3, a: -27 }, { b: -4, e: 2, a: 16 }, { b: -5, e: 2, a: 25 }, { b: -2, e: 5, a: -32 }, { b: -3, e: 2, a: 9 }]); return typed("What is (" + s.b + ")" + SUP[s.e] + "?", s.a, "(" + s.b + ") multiplied " + s.e + " times = " + s.a + ". (Even power → positive, odd → negative.)", "Type a number"); },
-      function () { const a = rand(2, 9), b = rand(10, 18); return typed("|" + a + " − " + b + "| = ?", b - a, a + " − " + b + " = " + (a - b) + ", and |" + (a - b) + "| = " + (b - a) + ".", "Type a number"); }
+      function () { const a = rand(2, 9), b = rand(10, 18); return typed("|" + a + " − " + b + "| = ?", b - a, a + " − " + b + " = " + (a - b) + ", and |" + (a - b) + "| = " + (b - a) + ".", "Type a number"); },
+      function () { const q = pick([-1, 1]) * rand(2, 9), b = rand(2, 6), a = b * q, c = pick([-1, 1]) * rand(2, 9); return typed(a + " ÷ " + b + " " + withSign(c) + " = ?", q + c, "Divide first: " + parn(a) + " ÷ " + b + " = " + q + ". Then " + q + " " + withSign(c) + " = " + (q + c) + ".", "Type a number"); }
     ],
     [ // CHALLENGE
       function () { const a = rand(1, 8), b = rand(2, 5), c = rand(1, 6), d = rand(c + 1, 9); return typed(a + " − " + b + "(" + c + " − " + d + ") = ?", a - b * (c - d), "Parentheses: " + c + "−" + d + " = " + (c - d) + ". Then " + a + " − " + b + "×" + parn(c - d) + " = " + a + " − " + parn(b * (c - d)) + " = " + (a - b * (c - d)) + ".", "Type a number"); },
       function () { const x = -rand(2, 5); const k = pick([2, 3]); return typed("Evaluate " + k + "x" + SUP[2] + " when x = " + x + ".", k * x * x, "Square first: (" + x + ")² = " + (x * x) + ". Then ×" + k + " = " + (k * x * x) + ". (Note: " + k + "x² means " + k + "·x², not (" + k + "x)².)", "Type a number"); },
-      function () { const x = -rand(2, 6); const m = rand(2, 5); const b = rand(1, 9); return typed("Evaluate " + m + "x " + withSign(b) + " when x = " + x + ".", m * x + b, m + "(" + x + ") " + withSign(b) + " = " + (m * x) + (b < 0 ? "−" + Math.abs(b) : "+" + b) + " = " + (m * x + b) + ".", "Type a number"); }
+      function () { const x = -rand(2, 6); const m = rand(2, 5); const b = rand(1, 9); return typed("Evaluate " + m + "x " + withSign(b) + " when x = " + x + ".", m * x + b, m + "(" + x + ") " + withSign(b) + " = " + (m * x) + (b < 0 ? "−" + Math.abs(b) : "+" + b) + " = " + (m * x + b) + ".", "Type a number"); },
+      function () { const a = pick([-1, 1]) * rand(2, 6), b = pick([-1, 1]) * rand(2, 6), c = pick([-1, 1]) * rand(2, 6), d = pick([-1, 1]) * rand(2, 6); return typed(parn(a) + " × " + parn(b) + " + " + parn(c) + " × " + parn(d) + " = ?", a * b + c * d, "Multiply first: " + parn(a) + "×" + parn(b) + " = " + (a * b) + " and " + parn(c) + "×" + parn(d) + " = " + (c * d) + ". Then " + (a * b) + (c * d < 0 ? " − " + Math.abs(c * d) : " + " + (c * d)) + " = " + (a * b + c * d) + ".", "Type a number"); },
+      function () { const b1 = pick([-2, -3, -4]), e1 = pick([2, 3]), b2 = pick([-2, -3, -4]), e2 = pick([2, 3]); const v1 = Math.pow(b1, e1), v2 = Math.pow(b2, e2); return typed("(" + b1 + ")" + SUP[e1] + " + (" + b2 + ")" + SUP[e2] + " = ?", v1 + v2, "(" + b1 + ")" + SUP[e1] + " = " + v1 + " and (" + b2 + ")" + SUP[e2] + " = " + v2 + ". Sum: " + (v1 + v2) + ". (Even power → positive, odd → negative.)", "Type a number"); },
+      function () { const a = -rand(3, 12), b = rand(1, 6), c = rand(7, 14); return typed("|" + a + "| − |" + b + " − " + c + "| = ?", Math.abs(a) - Math.abs(b - c), "|" + a + "| = " + Math.abs(a) + ", and |" + b + " − " + c + "| = |" + (b - c) + "| = " + Math.abs(b - c) + ". Then " + Math.abs(a) + " − " + Math.abs(b - c) + " = " + (Math.abs(a) - Math.abs(b - c)) + ".", "Type a number"); },
+      function () { const av = pick([-1, 1]) * rand(2, 9), bv = pick([-1, 1]) * rand(2, 9); return typed("Evaluate a − b when a = " + av + " and b = " + bv + ".", av - bv, "a − b = " + parn(av) + " − " + parn(bv) + " = " + (av - bv) + ". (Remember: subtracting a negative adds.)", "Type a number"); }
     ]
   ];
 
@@ -109,8 +114,8 @@
     ],
     [ // CHALLENGE
       function () { const a = rand(1, 3), b = rand(2, 4), c = rand(3, 6), k = pick([2, 3, 4]), total = (a + b + c) * k, mx = Math.max(a, b, c); return typed("Three numbers are in the ratio " + a + ":" + b + ":" + c + " and add up to " + total + ". What is the largest one?", mx * k, "Total parts = " + (a + b + c) + ". One part = " + total + " ÷ " + (a + b + c) + " = " + k + ". The biggest part is " + mx + ", so the largest number is " + mx + " × " + k + " = " + (mx * k) + ".", "Type a number"); },
-      function () { const old = pick([20, 40, 80]); const p = pick([10, 25, 50]); const nw = old * (100 + p) / 100; return typed("A price went from $" + old + " to $" + nw + ". What was the percent increase?", p, "Increase = " + (nw - old) + ". As a percent of the original: " + (nw - old) + " ÷ " + old + " = " + fmt(p / 100) + " = " + p + "%.", "Type a number (the %)"); },
-      function () { const orig = pick([40, 60, 80, 100]); const d = pick([10, 20, 25]); const final = orig * (100 - d) / 100; return typed("After a " + d + "% discount, a bike costs $" + final + ". What was the original price?", orig, final + " is " + (100 - d) + "% of the original: " + final + " ÷ " + fmt((100 - d) / 100) + " = $" + orig + ".", "Type a dollar amount"); }
+      function () { const old = pick([20, 40, 60, 80, 100, 120]); const p = pick([10, 20, 25, 50]); const nw = old * (100 + p) / 100; return typed("A price went from $" + old + " to $" + nw + ". What was the percent increase?", p, "Increase = " + (nw - old) + ". As a percent of the original: " + (nw - old) + " ÷ " + old + " = " + fmt(p / 100) + " = " + p + "%.", "Type a number (the %)"); },
+      function () { const orig = pick([40, 60, 80, 100, 120, 160, 200]); const d = pick([10, 20, 25]); const final = orig * (100 - d) / 100; return typed("After a " + d + "% discount, a bike costs $" + final + ". What was the original price?", orig, final + " is " + (100 - d) + "% of the original: " + final + " ÷ " + fmt((100 - d) / 100) + " = $" + orig + ".", "Type a dollar amount"); }
     ]
   ];
 
@@ -209,8 +214,9 @@
   const patterns = [
     [ // MEDIUM
       function () { const start = rand(2, 9), d = rand(2, 6), seq = [start, start + d, start + 2 * d, start + 3 * d]; return typed("What comes next?<br>" + seq.join(", ") + ", ?", start + 4 * d, "Each term goes up by " + d + ": " + (start + 3 * d) + " + " + d + " = " + (start + 4 * d) + ".", "Type a number"); },
-      function () { const start = pick([1, 2, 3]), r = pick([2, 3]), seq = [start, start * r, start * r * r, start * r * r * r]; return typed("What comes next?<br>" + seq.join(", ") + ", ?", start * r * r * r * r, "Each term is multiplied by " + r + ": " + (start * r * r * r) + " × " + r + " = " + (start * r * r * r * r) + ".", "Type a number"); },
-      function () { const m = rand(2, 5), b = rand(1, 9), x = rand(2, 9); return typed("A function rule is y = " + m + "x + " + b + ". If x = " + x + ", what is y?", m * x + b, "Substitute x = " + x + ": " + m + "(" + x + ") + " + b + " = " + (m * x + b) + ".", "Type a number"); }
+      function () { const start = pick([1, 2, 3, 4]), r = pick([2, 3, 4]), seq = [start, start * r, start * r * r, start * r * r * r]; return typed("What comes next?<br>" + seq.join(", ") + ", ?", start * r * r * r * r, "Each term is multiplied by " + r + ": " + (start * r * r * r) + " × " + r + " = " + (start * r * r * r * r) + ".", "Type a number"); },
+      function () { const m = rand(2, 5), b = rand(1, 9), x = rand(2, 9); return typed("A function rule is y = " + m + "x + " + b + ". If x = " + x + ", what is y?", m * x + b, "Substitute x = " + x + ": " + m + "(" + x + ") + " + b + " = " + (m * x + b) + ".", "Type a number"); },
+      function () { const start = rand(2, 9), d = rand(2, 6), seq = [start, start + d, start + 2 * d, start + 3 * d], miss = rand(1, 2), shown = seq.map((v, i) => i === miss ? "___" : v); return typed("Find the missing number in the pattern:<br>" + shown.join(", "), seq[miss], "The pattern adds " + d + " each step, so the missing term is " + seq[miss] + ".", "Type a number"); }
     ],
     [ // HARD
       function () { const start = rand(2, 8), d = rand(2, 6), N = rand(8, 15); return typed("A pattern starts at " + start + " and adds " + d + " each step. What is the " + N + "th term?", start + d * (N - 1), "Term = start + step×(N−1) = " + start + " + " + d + "×" + (N - 1) + " = " + (start + d * (N - 1)) + ".", "Type a number"); },
@@ -292,5 +298,5 @@
     return out;
   }
 
-  window.MathGen = { question: question, questionForTopic: questionForTopic, generate: generate, mixed: mixed, topics: Object.keys(GEN) };
+  window.MathGen = { question: question, questionForTopic: questionForTopic, generate: generate, mixed: mixed, topics: Object.keys(GEN), genTiers: function (id) { return GEN[id]; } };
 })();

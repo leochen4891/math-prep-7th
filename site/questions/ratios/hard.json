@@ -1,27 +1,27 @@
 [
   {
-    "q": "If 3 notebooks cost $18, how much do 9 notebooks cost?",
+    "q": "A car drives 120 miles in 2 hours. At that rate, how far in 6 hours?",
     "type": "typed",
     "accept": [
-      "54"
+      "360"
     ],
-    "solution": "Each is $6, so 9 × $6 = $54."
+    "solution": "Speed = 120÷2 = 60 mph. In 6 h: 60×6 = 360 miles."
   },
   {
-    "q": "A $80 jacket is 20% off. What is the sale price?",
+    "q": "A $100 jacket is 50% off. What is the sale price?",
     "type": "typed",
     "accept": [
-      "64"
+      "50"
     ],
-    "solution": "Pay 80%: 80 × 0.8 = $64."
+    "solution": "Pay 50%: 100 × 0.5 = $50."
   },
   {
-    "q": "A $80 jacket is 50% off. What is the sale price?",
+    "q": "A car drives 150 miles in 3 hours. At that rate, how far in 6 hours?",
     "type": "typed",
     "accept": [
-      "40"
+      "300"
     ],
-    "solution": "Pay 50%: 80 × 0.5 = $40."
+    "solution": "Speed = 150÷3 = 50 mph. In 6 h: 50×6 = 300 miles."
   },
   {
     "q": "A car drives 180 miles in 3 hours. At that rate, how far in 6 hours?",
@@ -32,6 +32,14 @@
     "solution": "Speed = 180÷3 = 60 mph. In 6 h: 60×6 = 360 miles."
   },
   {
+    "q": "A car drives 80 miles in 2 hours. At that rate, how far in 6 hours?",
+    "type": "typed",
+    "accept": [
+      "240"
+    ],
+    "solution": "Speed = 80÷2 = 40 mph. In 6 h: 40×6 = 240 miles."
+  },
+  {
     "q": "A $80 jacket is 25% off. What is the sale price?",
     "type": "typed",
     "accept": [
@@ -40,44 +48,12 @@
     "solution": "Pay 75%: 80 × 0.75 = $60."
   },
   {
-    "q": "A car drives 100 miles in 2 hours. At that rate, how far in 4 hours?",
+    "q": "If 2 notebooks cost $10, how much do 7 notebooks cost?",
     "type": "typed",
     "accept": [
-      "200"
+      "35"
     ],
-    "solution": "Speed = 100÷2 = 50 mph. In 4 h: 50×4 = 200 miles."
-  },
-  {
-    "q": "If 3 notebooks cost $12, how much do 11 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "44"
-    ],
-    "solution": "Each is $4, so 11 × $4 = $44."
-  },
-  {
-    "q": "A car drives 150 miles in 3 hours. At that rate, how far in 5 hours?",
-    "type": "typed",
-    "accept": [
-      "250"
-    ],
-    "solution": "Speed = 150÷3 = 50 mph. In 5 h: 50×5 = 250 miles."
-  },
-  {
-    "q": "A $40 jacket is 50% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Pay 50%: 40 × 0.5 = $20."
-  },
-  {
-    "q": "If 4 notebooks cost $24, how much do 11 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "66"
-    ],
-    "solution": "Each is $6, so 11 × $6 = $66."
+    "solution": "Each is $5, so 7 × $5 = $35."
   },
   {
     "q": "A car drives 100 miles in 2 hours. At that rate, how far in 5 hours?",
@@ -96,215 +72,7 @@
     "solution": "Pay 75%: 60 × 0.75 = $45."
   },
   {
-    "q": "A $40 jacket is 20% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "Pay 80%: 40 × 0.8 = $32."
-  },
-  {
-    "q": "If 4 notebooks cost $12, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Each is $3, so 7 × $3 = $21."
-  },
-  {
-    "q": "If 3 notebooks cost $12, how much do 9 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "Each is $4, so 9 × $4 = $36."
-  },
-  {
-    "q": "If 4 notebooks cost $20, how much do 11 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "55"
-    ],
-    "solution": "Each is $5, so 11 × $5 = $55."
-  },
-  {
-    "q": "If 3 notebooks cost $9, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Each is $3, so 7 × $3 = $21."
-  },
-  {
-    "q": "If 3 notebooks cost $6, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Each is $2, so 7 × $2 = $14."
-  },
-  {
-    "q": "If 3 notebooks cost $12, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "Each is $4, so 7 × $4 = $28."
-  },
-  {
-    "q": "If 4 notebooks cost $24, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "42"
-    ],
-    "solution": "Each is $6, so 7 × $6 = $42."
-  },
-  {
-    "q": "If 4 notebooks cost $12, how much do 11 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "33"
-    ],
-    "solution": "Each is $3, so 11 × $3 = $33."
-  },
-  {
-    "q": "A car drives 80 miles in 2 hours. At that rate, how far in 6 hours?",
-    "type": "typed",
-    "accept": [
-      "240"
-    ],
-    "solution": "Speed = 80÷2 = 40 mph. In 6 h: 40×6 = 240 miles."
-  },
-  {
-    "q": "If 3 notebooks cost $6, how much do 9 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Each is $2, so 9 × $2 = $18."
-  },
-  {
-    "q": "If 3 notebooks cost $18, how much do 11 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "66"
-    ],
-    "solution": "Each is $6, so 11 × $6 = $66."
-  },
-  {
-    "q": "A $40 jacket is 10% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "Pay 90%: 40 × 0.9 = $36."
-  },
-  {
-    "q": "A $60 jacket is 20% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "48"
-    ],
-    "solution": "Pay 80%: 60 × 0.8 = $48."
-  },
-  {
-    "q": "A car drives 150 miles in 3 hours. At that rate, how far in 4 hours?",
-    "type": "typed",
-    "accept": [
-      "200"
-    ],
-    "solution": "Speed = 150÷3 = 50 mph. In 4 h: 50×4 = 200 miles."
-  },
-  {
-    "q": "A $100 jacket is 50% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "50"
-    ],
-    "solution": "Pay 50%: 100 × 0.5 = $50."
-  },
-  {
-    "q": "If 4 notebooks cost $8, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Each is $2, so 5 × $2 = $10."
-  },
-  {
-    "q": "A $100 jacket is 25% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "75"
-    ],
-    "solution": "Pay 75%: 100 × 0.75 = $75."
-  },
-  {
-    "q": "If 4 notebooks cost $24, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Each is $6, so 5 × $6 = $30."
-  },
-  {
-    "q": "If 3 notebooks cost $12, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Each is $4, so 5 × $4 = $20."
-  },
-  {
-    "q": "If 2 notebooks cost $6, how much do 9 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "27"
-    ],
-    "solution": "Each is $3, so 9 × $3 = $27."
-  },
-  {
-    "q": "A car drives 180 miles in 3 hours. At that rate, how far in 5 hours?",
-    "type": "typed",
-    "accept": [
-      "300"
-    ],
-    "solution": "Speed = 180÷3 = 60 mph. In 5 h: 60×5 = 300 miles."
-  },
-  {
-    "q": "If 3 notebooks cost $15, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Each is $5, so 5 × $5 = $25."
-  },
-  {
-    "q": "A $60 jacket is 50% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Pay 50%: 60 × 0.5 = $30."
-  },
-  {
-    "q": "If 4 notebooks cost $8, how much do 11 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "Each is $2, so 11 × $2 = $22."
-  },
-  {
-    "q": "If 2 notebooks cost $8, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Each is $4, so 5 × $4 = $20."
-  },
-  {
-    "q": "If 3 notebooks cost $9, how much do 5 notebooks cost?",
+    "q": "If 2 notebooks cost $6, how much do 5 notebooks cost?",
     "type": "typed",
     "accept": [
       "15"
@@ -312,52 +80,12 @@
     "solution": "Each is $3, so 5 × $3 = $15."
   },
   {
-    "q": "If 4 notebooks cost $16, how much do 7 notebooks cost?",
+    "q": "A $60 jacket is 10% off. What is the sale price?",
     "type": "typed",
     "accept": [
-      "28"
+      "54"
     ],
-    "solution": "Each is $4, so 7 × $4 = $28."
-  },
-  {
-    "q": "If 2 notebooks cost $8, how much do 9 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "Each is $4, so 9 × $4 = $36."
-  },
-  {
-    "q": "A $100 jacket is 20% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "80"
-    ],
-    "solution": "Pay 80%: 100 × 0.8 = $80."
-  },
-  {
-    "q": "A car drives 80 miles in 2 hours. At that rate, how far in 4 hours?",
-    "type": "typed",
-    "accept": [
-      "160"
-    ],
-    "solution": "Speed = 80÷2 = 40 mph. In 4 h: 40×4 = 160 miles."
-  },
-  {
-    "q": "A car drives 120 miles in 3 hours. At that rate, how far in 4 hours?",
-    "type": "typed",
-    "accept": [
-      "160"
-    ],
-    "solution": "Speed = 120÷3 = 40 mph. In 4 h: 40×4 = 160 miles."
-  },
-  {
-    "q": "If 2 notebooks cost $12, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Each is $6, so 5 × $6 = $30."
+    "solution": "Pay 90%: 60 × 0.9 = $54."
   },
   {
     "q": "A car drives 120 miles in 3 hours. At that rate, how far in 5 hours?",
@@ -368,76 +96,28 @@
     "solution": "Speed = 120÷3 = 40 mph. In 5 h: 40×5 = 200 miles."
   },
   {
-    "q": "A $80 jacket is 10% off. What is the sale price?",
+    "q": "If 2 notebooks cost $10, how much do 5 notebooks cost?",
     "type": "typed",
     "accept": [
-      "72"
+      "25"
     ],
-    "solution": "Pay 90%: 80 × 0.9 = $72."
+    "solution": "Each is $5, so 5 × $5 = $25."
   },
   {
-    "q": "A $40 jacket is 25% off. What is the sale price?",
+    "q": "If 2 notebooks cost $12, how much do 9 notebooks cost?",
     "type": "typed",
     "accept": [
-      "30"
+      "54"
     ],
-    "solution": "Pay 75%: 40 × 0.75 = $30."
+    "solution": "Each is $6, so 9 × $6 = $54."
   },
   {
-    "q": "If 3 notebooks cost $15, how much do 11 notebooks cost?",
+    "q": "If 3 notebooks cost $9, how much do 11 notebooks cost?",
     "type": "typed",
     "accept": [
-      "55"
+      "33"
     ],
-    "solution": "Each is $5, so 11 × $5 = $55."
-  },
-  {
-    "q": "If 2 notebooks cost $8, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "Each is $4, so 7 × $4 = $28."
-  },
-  {
-    "q": "If 2 notebooks cost $10, how much do 9 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "45"
-    ],
-    "solution": "Each is $5, so 9 × $5 = $45."
-  },
-  {
-    "q": "A car drives 120 miles in 2 hours. At that rate, how far in 5 hours?",
-    "type": "typed",
-    "accept": [
-      "300"
-    ],
-    "solution": "Speed = 120÷2 = 60 mph. In 5 h: 60×5 = 300 miles."
-  },
-  {
-    "q": "If 4 notebooks cost $12, how much do 9 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "27"
-    ],
-    "solution": "Each is $3, so 9 × $3 = $27."
-  },
-  {
-    "q": "A car drives 120 miles in 3 hours. At that rate, how far in 6 hours?",
-    "type": "typed",
-    "accept": [
-      "240"
-    ],
-    "solution": "Speed = 120÷3 = 40 mph. In 6 h: 40×6 = 240 miles."
-  },
-  {
-    "q": "A $100 jacket is 10% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "90"
-    ],
-    "solution": "Pay 90%: 100 × 0.9 = $90."
+    "solution": "Each is $3, so 11 × $3 = $33."
   },
   {
     "q": "A car drives 180 miles in 3 hours. At that rate, how far in 4 hours?",
@@ -448,20 +128,68 @@
     "solution": "Speed = 180÷3 = 60 mph. In 4 h: 60×4 = 240 miles."
   },
   {
-    "q": "If 2 notebooks cost $6, how much do 7 notebooks cost?",
+    "q": "If 2 notebooks cost $8, how much do 9 notebooks cost?",
     "type": "typed",
     "accept": [
-      "21"
+      "36"
     ],
-    "solution": "Each is $3, so 7 × $3 = $21."
+    "solution": "Each is $4, so 9 × $4 = $36."
   },
   {
-    "q": "If 3 notebooks cost $9, how much do 9 notebooks cost?",
+    "q": "If 4 notebooks cost $24, how much do 5 notebooks cost?",
     "type": "typed",
     "accept": [
-      "27"
+      "30"
     ],
-    "solution": "Each is $3, so 9 × $3 = $27."
+    "solution": "Each is $6, so 5 × $6 = $30."
+  },
+  {
+    "q": "If 4 notebooks cost $24, how much do 7 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "42"
+    ],
+    "solution": "Each is $6, so 7 × $6 = $42."
+  },
+  {
+    "q": "If 4 notebooks cost $16, how much do 7 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Each is $4, so 7 × $4 = $28."
+  },
+  {
+    "q": "A $60 jacket is 20% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Pay 80%: 60 × 0.8 = $48."
+  },
+  {
+    "q": "A car drives 150 miles in 3 hours. At that rate, how far in 5 hours?",
+    "type": "typed",
+    "accept": [
+      "250"
+    ],
+    "solution": "Speed = 150÷3 = 50 mph. In 5 h: 50×5 = 250 miles."
+  },
+  {
+    "q": "A car drives 80 miles in 2 hours. At that rate, how far in 4 hours?",
+    "type": "typed",
+    "accept": [
+      "160"
+    ],
+    "solution": "Speed = 80÷2 = 40 mph. In 4 h: 40×4 = 160 miles."
+  },
+  {
+    "q": "A car drives 100 miles in 2 hours. At that rate, how far in 6 hours?",
+    "type": "typed",
+    "accept": [
+      "300"
+    ],
+    "solution": "Speed = 100÷2 = 50 mph. In 6 h: 50×6 = 300 miles."
   },
   {
     "q": "A car drives 120 miles in 2 hours. At that rate, how far in 4 hours?",
@@ -472,11 +200,235 @@
     "solution": "Speed = 120÷2 = 60 mph. In 4 h: 60×4 = 240 miles."
   },
   {
-    "q": "If 3 notebooks cost $15, how much do 9 notebooks cost?",
+    "q": "A $40 jacket is 10% off. What is the sale price?",
     "type": "typed",
     "accept": [
-      "45"
+      "36"
     ],
-    "solution": "Each is $5, so 9 × $5 = $45."
+    "solution": "Pay 90%: 40 × 0.9 = $36."
+  },
+  {
+    "q": "A car drives 120 miles in 3 hours. At that rate, how far in 6 hours?",
+    "type": "typed",
+    "accept": [
+      "240"
+    ],
+    "solution": "Speed = 120÷3 = 40 mph. In 6 h: 40×6 = 240 miles."
+  },
+  {
+    "q": "A car drives 80 miles in 2 hours. At that rate, how far in 5 hours?",
+    "type": "typed",
+    "accept": [
+      "200"
+    ],
+    "solution": "Speed = 80÷2 = 40 mph. In 5 h: 40×5 = 200 miles."
+  },
+  {
+    "q": "If 3 notebooks cost $12, how much do 11 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "44"
+    ],
+    "solution": "Each is $4, so 11 × $4 = $44."
+  },
+  {
+    "q": "A $80 jacket is 50% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Pay 50%: 80 × 0.5 = $40."
+  },
+  {
+    "q": "If 3 notebooks cost $12, how much do 7 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Each is $4, so 7 × $4 = $28."
+  },
+  {
+    "q": "A $40 jacket is 20% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Pay 80%: 40 × 0.8 = $32."
+  },
+  {
+    "q": "A $100 jacket is 10% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Pay 90%: 100 × 0.9 = $90."
+  },
+  {
+    "q": "A car drives 120 miles in 3 hours. At that rate, how far in 4 hours?",
+    "type": "typed",
+    "accept": [
+      "160"
+    ],
+    "solution": "Speed = 120÷3 = 40 mph. In 4 h: 40×4 = 160 miles."
+  },
+  {
+    "q": "If 4 notebooks cost $20, how much do 7 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "Each is $5, so 7 × $5 = $35."
+  },
+  {
+    "q": "A $40 jacket is 25% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Pay 75%: 40 × 0.75 = $30."
+  },
+  {
+    "q": "A $100 jacket is 20% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "Pay 80%: 100 × 0.8 = $80."
+  },
+  {
+    "q": "If 2 notebooks cost $4, how much do 5 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Each is $2, so 5 × $2 = $10."
+  },
+  {
+    "q": "A $80 jacket is 10% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "Pay 90%: 80 × 0.9 = $72."
+  },
+  {
+    "q": "A car drives 150 miles in 3 hours. At that rate, how far in 4 hours?",
+    "type": "typed",
+    "accept": [
+      "200"
+    ],
+    "solution": "Speed = 150÷3 = 50 mph. In 4 h: 50×4 = 200 miles."
+  },
+  {
+    "q": "If 3 notebooks cost $15, how much do 7 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "Each is $5, so 7 × $5 = $35."
+  },
+  {
+    "q": "If 4 notebooks cost $20, how much do 5 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Each is $5, so 5 × $5 = $25."
+  },
+  {
+    "q": "If 2 notebooks cost $6, how much do 11 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "33"
+    ],
+    "solution": "Each is $3, so 11 × $3 = $33."
+  },
+  {
+    "q": "If 2 notebooks cost $12, how much do 7 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "42"
+    ],
+    "solution": "Each is $6, so 7 × $6 = $42."
+  },
+  {
+    "q": "A $100 jacket is 25% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "Pay 75%: 100 × 0.75 = $75."
+  },
+  {
+    "q": "A $80 jacket is 20% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "Pay 80%: 80 × 0.8 = $64."
+  },
+  {
+    "q": "A car drives 120 miles in 2 hours. At that rate, how far in 5 hours?",
+    "type": "typed",
+    "accept": [
+      "300"
+    ],
+    "solution": "Speed = 120÷2 = 60 mph. In 5 h: 60×5 = 300 miles."
+  },
+  {
+    "q": "If 4 notebooks cost $8, how much do 11 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Each is $2, so 11 × $2 = $22."
+  },
+  {
+    "q": "A car drives 180 miles in 3 hours. At that rate, how far in 5 hours?",
+    "type": "typed",
+    "accept": [
+      "300"
+    ],
+    "solution": "Speed = 180÷3 = 60 mph. In 5 h: 60×5 = 300 miles."
+  },
+  {
+    "q": "A car drives 100 miles in 2 hours. At that rate, how far in 4 hours?",
+    "type": "typed",
+    "accept": [
+      "200"
+    ],
+    "solution": "Speed = 100÷2 = 50 mph. In 4 h: 50×4 = 200 miles."
+  },
+  {
+    "q": "If 4 notebooks cost $8, how much do 5 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Each is $2, so 5 × $2 = $10."
+  },
+  {
+    "q": "If 3 notebooks cost $6, how much do 9 notebooks cost?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Each is $2, so 9 × $2 = $18."
+  },
+  {
+    "q": "A $60 jacket is 50% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Pay 50%: 60 × 0.5 = $30."
+  },
+  {
+    "q": "A $40 jacket is 50% off. What is the sale price?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Pay 50%: 40 × 0.5 = $20."
   }
 ]
