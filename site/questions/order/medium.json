@@ -1,562 +1,650 @@
 [
   {
-    "q": "15 − 2 × 4 = ?",
+    "q": "Evaluate: 9 ÷ 3 × 8.",
     "type": "typed",
     "accept": [
-      "7"
+      "24"
     ],
-    "solution": "Multiply first: 8, then 15 − 8 = 7."
+    "solution": "Left to right: 9 ÷ 3 = 3; × 8 = 24.",
+    "tpl": "order:medium:4"
   },
   {
-    "q": "21 − 6 × 2 = ?",
+    "q": "Evaluate: (1 + 2)².",
     "type": "typed",
     "accept": [
       "9"
     ],
-    "solution": "Multiply first: 12, then 21 − 12 = 9."
+    "solution": "Inside: 1 + 2 = 3; 3² = 9.",
+    "tpl": "order:medium:10"
   },
   {
-    "q": "(5 + 3) × 6 = ?",
-    "type": "mc",
-    "choices": [
-      "54",
-      "48",
-      "23",
-      "33"
-    ],
-    "answer": 1,
-    "solution": "Parentheses first: 8 × 6 = 48."
-  },
-  {
-    "q": "(7 + 8) × 3 = ?",
-    "type": "mc",
-    "choices": [
-      "48",
-      "29",
-      "45",
-      "31"
-    ],
-    "answer": 2,
-    "solution": "Parentheses first: 15 × 3 = 45."
-  },
-  {
-    "q": "(9 + 6) × 3 = ?",
-    "type": "mc",
-    "choices": [
-      "33",
-      "48",
-      "27",
-      "45"
-    ],
-    "answer": 3,
-    "solution": "Parentheses first: 15 × 3 = 45."
-  },
-  {
-    "q": "18 ÷ 3 + 8 × 2 = ?",
+    "q": "Evaluate: (4 + 2) × 5.",
     "type": "typed",
     "accept": [
-      "22"
+      "30"
     ],
-    "solution": "Divide and multiply first: 6 + 16 = 22."
+    "solution": "Parentheses first: 4 + 2 = 6; then × 5 = 30.",
+    "tpl": "order:medium:2"
   },
   {
-    "q": "24 − 3 × 4 = ?",
+    "q": "Evaluate: 6 × 5 − 11.",
     "type": "typed",
     "accept": [
-      "12"
+      "19"
     ],
-    "solution": "Multiply first: 12, then 24 − 12 = 12."
+    "solution": "Multiply first: 6 × 5 = 30; − 11 = 19.",
+    "tpl": "order:medium:11"
   },
   {
-    "q": "24 − 4 × 5 = ?",
+    "q": "Evaluate: 22 − 8 + 2.",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Left to right: 22 − 8 = 14; + 2 = 16.",
+    "tpl": "order:medium:7"
+  },
+  {
+    "q": "Evaluate: 20 − 9 + 8.",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Left to right: 20 − 9 = 11; + 8 = 19.",
+    "tpl": "order:medium:7"
+  },
+  {
+    "q": "Evaluate: (4 + 3) × 5.",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "Parentheses first: 4 + 3 = 7; then × 5 = 35.",
+    "tpl": "order:medium:2"
+  },
+  {
+    "q": "Evaluate: (1 + 23) ÷ 4.",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Inside: 1 + 23 = 24; ÷ 4 = 6.",
+    "tpl": "order:medium:9"
+  },
+  {
+    "q": "Evaluate: 7³ + 10.",
+    "type": "typed",
+    "accept": [
+      "353"
+    ],
+    "solution": "7³ = 343; + 10 = 353.",
+    "tpl": "order:medium:3"
+  },
+  {
+    "q": "Combine like terms: 2x + 4x. Enter the coefficient of x in the result.",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "2x + 4x = 6x, so the coefficient is 6.",
+    "tpl": "order:medium:6"
+  },
+  {
+    "q": "Evaluate: 6³ + 9.",
+    "type": "typed",
+    "accept": [
+      "225"
+    ],
+    "solution": "6³ = 216; + 9 = 225.",
+    "tpl": "order:medium:3"
+  },
+  {
+    "q": "Evaluate: 12 − 40 ÷ 5.",
     "type": "typed",
     "accept": [
       "4"
     ],
-    "solution": "Multiply first: 20, then 24 − 20 = 4."
+    "solution": "Divide first: 40 ÷ 5 = 8; then 12 − 8 = 4.",
+    "tpl": "order:medium:1"
   },
   {
-    "q": "45 ÷ 5 + 2 × 2 = ?",
+    "q": "Evaluate: 4³ + 6.",
     "type": "typed",
     "accept": [
-      "13"
+      "70"
     ],
-    "solution": "Divide and multiply first: 9 + 4 = 13."
+    "solution": "4³ = 64; + 6 = 70.",
+    "tpl": "order:medium:3"
   },
   {
-    "q": "28 − 6 × 3 = ?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Multiply first: 18, then 28 − 18 = 10."
-  },
-  {
-    "q": "8 ÷ 2 + 4 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Divide and multiply first: 4 + 8 = 12."
-  },
-  {
-    "q": "16 ÷ 2 + 7 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "Divide and multiply first: 8 + 14 = 22."
-  },
-  {
-    "q": "43 − 5 × 6 = ?",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "Multiply first: 30, then 43 − 30 = 13."
-  },
-  {
-    "q": "34 − 6 × 4 = ?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Multiply first: 24, then 34 − 24 = 10."
-  },
-  {
-    "q": "6 ÷ 2 + 9 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Divide and multiply first: 3 + 18 = 21."
-  },
-  {
-    "q": "32 ÷ 4 + 6 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Divide and multiply first: 8 + 12 = 20."
-  },
-  {
-    "q": "15 − 2 × 2 = ?",
+    "q": "Combine like terms: 7x + 4x. Enter the coefficient of x in the result.",
     "type": "typed",
     "accept": [
       "11"
     ],
-    "solution": "Multiply first: 4, then 15 − 4 = 11."
+    "solution": "7x + 4x = 11x, so the coefficient is 11.",
+    "tpl": "order:medium:6"
   },
   {
-    "q": "15 − 2 × 3 = ?",
+    "q": "Evaluate: 3 − 12 ÷ 6.",
     "type": "typed",
     "accept": [
-      "9"
+      "1"
     ],
-    "solution": "Multiply first: 6, then 15 − 6 = 9."
+    "solution": "Divide first: 12 ÷ 6 = 2; then 3 − 2 = 1.",
+    "tpl": "order:medium:1"
   },
   {
-    "q": "(4 + 7) × 2 = ?",
-    "type": "mc",
-    "choices": [
-      "22",
-      "18",
-      "24",
-      "15"
+    "q": "Evaluate: 4(10 − 5).",
+    "type": "typed",
+    "accept": [
+      "20"
     ],
-    "answer": 0,
-    "solution": "Parentheses first: 11 × 2 = 22."
+    "solution": "Inside: 10 − 5 = 5; × 4 = 20.",
+    "tpl": "order:medium:8"
   },
   {
-    "q": "(9 + 3) × 6 = ?",
-    "type": "mc",
-    "choices": [
-      "57",
-      "78",
-      "72",
-      "27"
+    "q": "Evaluate: 3 × 7 − 11.",
+    "type": "typed",
+    "accept": [
+      "10"
     ],
-    "answer": 2,
-    "solution": "Parentheses first: 12 × 6 = 72."
+    "solution": "Multiply first: 3 × 7 = 21; − 11 = 10.",
+    "tpl": "order:medium:11"
   },
   {
-    "q": "(5 + 3) × 3 = ?",
-    "type": "mc",
-    "choices": [
-      "18",
-      "27",
-      "24",
-      "14"
+    "q": "Evaluate: 6 ÷ 2 × 4.",
+    "type": "typed",
+    "accept": [
+      "12"
     ],
-    "answer": 2,
-    "solution": "Parentheses first: 8 × 3 = 24."
+    "solution": "Left to right: 6 ÷ 2 = 3; × 4 = 12.",
+    "tpl": "order:medium:4"
   },
   {
-    "q": "35 − 5 × 6 = ?",
+    "q": "Evaluate 8x + 7 when x = 2.",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "8(2) = 16; + 7 = 23.",
+    "tpl": "order:medium:5"
+  },
+  {
+    "q": "Evaluate: 3 × 3 − 4.",
     "type": "typed",
     "accept": [
       "5"
     ],
-    "solution": "Multiply first: 30, then 35 − 30 = 5."
+    "solution": "Multiply first: 3 × 3 = 9; − 4 = 5.",
+    "tpl": "order:medium:11"
   },
   {
-    "q": "21 − 5 × 4 = ?",
+    "q": "Evaluate: (6 + 5) × 3.",
     "type": "typed",
     "accept": [
-      "1"
+      "33"
     ],
-    "solution": "Multiply first: 20, then 21 − 20 = 1."
+    "solution": "Parentheses first: 6 + 5 = 11; then × 3 = 33.",
+    "tpl": "order:medium:2"
   },
   {
-    "q": "(7 + 2) × 6 = ?",
-    "type": "mc",
-    "choices": [
-      "44",
-      "19",
-      "54",
-      "60"
-    ],
-    "answer": 2,
-    "solution": "Parentheses first: 9 × 6 = 54."
-  },
-  {
-    "q": "18 − 3 × 5 = ?",
+    "q": "Evaluate: 6 ÷ 3 × 5.",
     "type": "typed",
     "accept": [
-      "3"
+      "10"
     ],
-    "solution": "Multiply first: 15, then 18 − 15 = 3."
+    "solution": "Left to right: 6 ÷ 3 = 2; × 5 = 10.",
+    "tpl": "order:medium:4"
   },
   {
-    "q": "20 ÷ 4 + 9 × 2 = ?",
+    "q": "Evaluate: (6 + 6)².",
     "type": "typed",
     "accept": [
-      "23"
+      "144"
     ],
-    "solution": "Divide and multiply first: 5 + 18 = 23."
+    "solution": "Inside: 6 + 6 = 12; 12² = 144.",
+    "tpl": "order:medium:10"
   },
   {
-    "q": "(8 + 4) × 6 = ?",
-    "type": "mc",
-    "choices": [
-      "52",
-      "32",
-      "78",
-      "72"
-    ],
-    "answer": 3,
-    "solution": "Parentheses first: 12 × 6 = 72."
-  },
-  {
-    "q": "(4 + 9) × 6 = ?",
-    "type": "mc",
-    "choices": [
-      "78",
-      "33",
-      "58",
-      "84"
-    ],
-    "answer": 0,
-    "solution": "Parentheses first: 13 × 6 = 78."
-  },
-  {
-    "q": "4 ÷ 2 + 6 × 2 = ?",
+    "q": "Evaluate: (3 + 6)².",
     "type": "typed",
     "accept": [
-      "14"
+      "81"
     ],
-    "solution": "Divide and multiply first: 2 + 12 = 14."
+    "solution": "Inside: 3 + 6 = 9; 9² = 81.",
+    "tpl": "order:medium:10"
   },
   {
-    "q": "24 ÷ 4 + 4 × 2 = ?",
+    "q": "Evaluate 8x + 7 when x = 5.",
     "type": "typed",
     "accept": [
-      "14"
+      "47"
     ],
-    "solution": "Divide and multiply first: 6 + 8 = 14."
+    "solution": "8(5) = 40; + 7 = 47.",
+    "tpl": "order:medium:5"
   },
   {
-    "q": "28 − 4 × 6 = ?",
+    "q": "Evaluate: 7 + 5 × 6.",
     "type": "typed",
     "accept": [
-      "4"
+      "37"
     ],
-    "solution": "Multiply first: 24, then 28 − 24 = 4."
+    "solution": "Multiply first: 5 × 6 = 30; then 7 + 30 = 37.",
+    "tpl": "order:medium:0"
   },
   {
-    "q": "36 ÷ 4 + 6 × 2 = ?",
+    "q": "Evaluate: 28 − 3 + 2.",
     "type": "typed",
     "accept": [
-      "21"
+      "27"
     ],
-    "solution": "Divide and multiply first: 9 + 12 = 21."
+    "solution": "Left to right: 28 − 3 = 25; + 2 = 27.",
+    "tpl": "order:medium:7"
   },
   {
-    "q": "36 ÷ 4 + 3 × 2 = ?",
+    "q": "Evaluate 5x + 10 when x = 5.",
     "type": "typed",
     "accept": [
-      "15"
+      "35"
     ],
-    "solution": "Divide and multiply first: 9 + 6 = 15."
+    "solution": "5(5) = 25; + 10 = 35.",
+    "tpl": "order:medium:5"
   },
   {
-    "q": "(9 + 2) × 2 = ?",
-    "type": "mc",
-    "choices": [
-      "22",
-      "24",
-      "20",
-      "13"
-    ],
-    "answer": 0,
-    "solution": "Parentheses first: 11 × 2 = 22."
-  },
-  {
-    "q": "(8 + 5) × 3 = ?",
-    "type": "mc",
-    "choices": [
-      "23",
-      "39",
-      "29",
-      "42"
-    ],
-    "answer": 1,
-    "solution": "Parentheses first: 13 × 3 = 39."
-  },
-  {
-    "q": "12 − 2 × 4 = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Multiply first: 8, then 12 − 8 = 4."
-  },
-  {
-    "q": "15 − 6 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Multiply first: 12, then 15 − 12 = 3."
-  },
-  {
-    "q": "(9 + 7) × 2 = ?",
-    "type": "mc",
-    "choices": [
-      "34",
-      "23",
-      "32",
-      "25"
-    ],
-    "answer": 2,
-    "solution": "Parentheses first: 16 × 2 = 32."
-  },
-  {
-    "q": "15 ÷ 5 + 7 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Divide and multiply first: 3 + 14 = 17."
-  },
-  {
-    "q": "(5 + 7) × 5 = ?",
-    "type": "mc",
-    "choices": [
-      "65",
-      "60",
-      "40",
-      "32"
-    ],
-    "answer": 1,
-    "solution": "Parentheses first: 12 × 5 = 60."
-  },
-  {
-    "q": "32 − 5 × 4 = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Multiply first: 20, then 32 − 20 = 12."
-  },
-  {
-    "q": "20 ÷ 4 + 5 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Divide and multiply first: 5 + 10 = 15."
-  },
-  {
-    "q": "13 − 4 × 3 = ?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "Multiply first: 12, then 13 − 12 = 1."
-  },
-  {
-    "q": "13 − 3 × 4 = ?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "Multiply first: 12, then 13 − 12 = 1."
-  },
-  {
-    "q": "(7 + 6) × 2 = ?",
-    "type": "mc",
-    "choices": [
-      "19",
-      "28",
-      "26",
-      "20"
-    ],
-    "answer": 2,
-    "solution": "Parentheses first: 13 × 2 = 26."
-  },
-  {
-    "q": "35 − 5 × 4 = ?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Multiply first: 20, then 35 − 20 = 15."
-  },
-  {
-    "q": "31 − 4 × 6 = ?",
+    "q": "Evaluate: (19 + 16) ÷ 5.",
     "type": "typed",
     "accept": [
       "7"
     ],
-    "solution": "Multiply first: 24, then 31 − 24 = 7."
+    "solution": "Inside: 19 + 16 = 35; ÷ 5 = 7.",
+    "tpl": "order:medium:9"
   },
   {
-    "q": "(6 + 9) × 2 = ?",
-    "type": "mc",
-    "choices": [
-      "21",
-      "32",
-      "30",
-      "24"
-    ],
-    "answer": 2,
-    "solution": "Parentheses first: 15 × 2 = 30."
-  },
-  {
-    "q": "28 ÷ 4 + 8 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "23"
-    ],
-    "solution": "Divide and multiply first: 7 + 16 = 23."
-  },
-  {
-    "q": "(3 + 4) × 4 = ?",
-    "type": "mc",
-    "choices": [
-      "19",
-      "28",
-      "16",
-      "32"
-    ],
-    "answer": 1,
-    "solution": "Parentheses first: 7 × 4 = 28."
-  },
-  {
-    "q": "(2 + 7) × 5 = ?",
-    "type": "mc",
-    "choices": [
-      "50",
-      "45",
-      "37",
-      "17"
-    ],
-    "answer": 1,
-    "solution": "Parentheses first: 9 × 5 = 45."
-  },
-  {
-    "q": "6 ÷ 3 + 5 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Divide and multiply first: 2 + 10 = 12."
-  },
-  {
-    "q": "16 ÷ 4 + 2 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Divide and multiply first: 4 + 4 = 8."
-  },
-  {
-    "q": "(8 + 5) × 4 = ?",
-    "type": "mc",
-    "choices": [
-      "56",
-      "28",
-      "52",
-      "37"
-    ],
-    "answer": 2,
-    "solution": "Parentheses first: 13 × 4 = 52."
-  },
-  {
-    "q": "(2 + 4) × 5 = ?",
-    "type": "mc",
-    "choices": [
-      "30",
-      "22",
-      "14",
-      "35"
-    ],
-    "answer": 0,
-    "solution": "Parentheses first: 6 × 5 = 30."
-  },
-  {
-    "q": "30 ÷ 5 + 9 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "Divide and multiply first: 6 + 18 = 24."
-  },
-  {
-    "q": "12 ÷ 4 + 3 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Divide and multiply first: 3 + 6 = 9."
-  },
-  {
-    "q": "(8 + 2) × 4 = ?",
-    "type": "mc",
-    "choices": [
-      "44",
-      "34",
-      "16",
-      "40"
-    ],
-    "answer": 3,
-    "solution": "Parentheses first: 10 × 4 = 40."
-  },
-  {
-    "q": "6 ÷ 2 + 7 × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Divide and multiply first: 3 + 14 = 17."
-  },
-  {
-    "q": "10 ÷ 5 + 8 × 2 = ?",
+    "q": "Evaluate: 2(12 − 3).",
     "type": "typed",
     "accept": [
       "18"
     ],
-    "solution": "Divide and multiply first: 2 + 16 = 18."
+    "solution": "Inside: 12 − 3 = 9; × 2 = 18.",
+    "tpl": "order:medium:8"
+  },
+  {
+    "q": "Evaluate 2x + 2 when x = 4.",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "2(4) = 8; + 2 = 10.",
+    "tpl": "order:medium:5"
+  },
+  {
+    "q": "Evaluate: 11 + 4 × 8.",
+    "type": "typed",
+    "accept": [
+      "43"
+    ],
+    "solution": "Multiply first: 4 × 8 = 32; then 11 + 32 = 43.",
+    "tpl": "order:medium:0"
+  },
+  {
+    "q": "Evaluate: 16 ÷ 4 × 7.",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Left to right: 16 ÷ 4 = 4; × 7 = 28.",
+    "tpl": "order:medium:4"
+  },
+  {
+    "q": "Evaluate 5x + 7 when x = 4.",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "5(4) = 20; + 7 = 27.",
+    "tpl": "order:medium:5"
+  },
+  {
+    "q": "Evaluate: 19 − 3 + 7.",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "Left to right: 19 − 3 = 16; + 7 = 23.",
+    "tpl": "order:medium:7"
+  },
+  {
+    "q": "Evaluate: (8 + 2) ÷ 2.",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Inside: 8 + 2 = 10; ÷ 2 = 5.",
+    "tpl": "order:medium:9"
+  },
+  {
+    "q": "Evaluate: (5 + 6) × 6.",
+    "type": "typed",
+    "accept": [
+      "66"
+    ],
+    "solution": "Parentheses first: 5 + 6 = 11; then × 6 = 66.",
+    "tpl": "order:medium:2"
+  },
+  {
+    "q": "Evaluate: 3(19 − 2).",
+    "type": "typed",
+    "accept": [
+      "51"
+    ],
+    "solution": "Inside: 19 − 2 = 17; × 3 = 51.",
+    "tpl": "order:medium:8"
+  },
+  {
+    "q": "Evaluate: 4 + 8 × 6.",
+    "type": "typed",
+    "accept": [
+      "52"
+    ],
+    "solution": "Multiply first: 8 × 6 = 48; then 4 + 48 = 52.",
+    "tpl": "order:medium:0"
+  },
+  {
+    "q": "Combine like terms: 8x + 5x. Enter the coefficient of x in the result.",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "8x + 5x = 13x, so the coefficient is 13.",
+    "tpl": "order:medium:6"
+  },
+  {
+    "q": "Evaluate: 5(20 − 3).",
+    "type": "typed",
+    "accept": [
+      "85"
+    ],
+    "solution": "Inside: 20 − 3 = 17; × 5 = 85.",
+    "tpl": "order:medium:8"
+  },
+  {
+    "q": "Evaluate: 22 − 2 + 5.",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Left to right: 22 − 2 = 20; + 5 = 25.",
+    "tpl": "order:medium:7"
+  },
+  {
+    "q": "Evaluate: 3 × 9 − 11.",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Multiply first: 3 × 9 = 27; − 11 = 16.",
+    "tpl": "order:medium:11"
+  },
+  {
+    "q": "Evaluate: (3 + 3)².",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Inside: 3 + 3 = 6; 6² = 36.",
+    "tpl": "order:medium:10"
+  },
+  {
+    "q": "Combine like terms: 6x + 3x. Enter the coefficient of x in the result.",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "6x + 3x = 9x, so the coefficient is 9.",
+    "tpl": "order:medium:6"
+  },
+  {
+    "q": "Evaluate: (6 + 2) ÷ 4.",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Inside: 6 + 2 = 8; ÷ 4 = 2.",
+    "tpl": "order:medium:9"
+  },
+  {
+    "q": "Evaluate: 7³ + 6.",
+    "type": "typed",
+    "accept": [
+      "349"
+    ],
+    "solution": "7³ = 343; + 6 = 349.",
+    "tpl": "order:medium:3"
+  },
+  {
+    "q": "Evaluate: 13 − 12 ÷ 6.",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Divide first: 12 ÷ 6 = 2; then 13 − 2 = 11.",
+    "tpl": "order:medium:1"
+  },
+  {
+    "q": "Evaluate: 28 − 7 + 9.",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Left to right: 28 − 7 = 21; + 9 = 30.",
+    "tpl": "order:medium:7"
+  },
+  {
+    "q": "Evaluate: 6³ + 5.",
+    "type": "typed",
+    "accept": [
+      "221"
+    ],
+    "solution": "6³ = 216; + 5 = 221.",
+    "tpl": "order:medium:3"
+  },
+  {
+    "q": "Evaluate: 8 ÷ 4 × 8.",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Left to right: 8 ÷ 4 = 2; × 8 = 16.",
+    "tpl": "order:medium:4"
+  },
+  {
+    "q": "Evaluate: 7³ + 4.",
+    "type": "typed",
+    "accept": [
+      "347"
+    ],
+    "solution": "7³ = 343; + 4 = 347.",
+    "tpl": "order:medium:3"
+  },
+  {
+    "q": "Evaluate: 18 − 45 ÷ 5.",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Divide first: 45 ÷ 5 = 9; then 18 − 9 = 9.",
+    "tpl": "order:medium:1"
+  },
+  {
+    "q": "Evaluate: 7 + 2 × 2.",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Multiply first: 2 × 2 = 4; then 7 + 4 = 11.",
+    "tpl": "order:medium:0"
+  },
+  {
+    "q": "Evaluate: (20 + 5) ÷ 5.",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Inside: 20 + 5 = 25; ÷ 5 = 5.",
+    "tpl": "order:medium:9"
+  },
+  {
+    "q": "Evaluate 7x + 7 when x = 2.",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "7(2) = 14; + 7 = 21.",
+    "tpl": "order:medium:5"
+  },
+  {
+    "q": "Evaluate: 4(13 − 6).",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Inside: 13 − 6 = 7; × 4 = 28.",
+    "tpl": "order:medium:8"
+  },
+  {
+    "q": "Evaluate: 20 − 18 ÷ 3.",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Divide first: 18 ÷ 3 = 6; then 20 − 6 = 14.",
+    "tpl": "order:medium:1"
+  },
+  {
+    "q": "Evaluate: (5 + 4) ÷ 3.",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Inside: 5 + 4 = 9; ÷ 3 = 3.",
+    "tpl": "order:medium:9"
+  },
+  {
+    "q": "Combine like terms: 9x + 2x. Enter the coefficient of x in the result.",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "9x + 2x = 11x, so the coefficient is 11.",
+    "tpl": "order:medium:6"
+  },
+  {
+    "q": "Evaluate: 5(16 − 4).",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "Inside: 16 − 4 = 12; × 5 = 60.",
+    "tpl": "order:medium:8"
+  },
+  {
+    "q": "Evaluate: (4 + 4) × 4.",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Parentheses first: 4 + 4 = 8; then × 4 = 32.",
+    "tpl": "order:medium:2"
+  },
+  {
+    "q": "Evaluate: (5 + 6)².",
+    "type": "typed",
+    "accept": [
+      "121"
+    ],
+    "solution": "Inside: 5 + 6 = 11; 11² = 121.",
+    "tpl": "order:medium:10"
+  },
+  {
+    "q": "Evaluate: 9 × 4 − 13.",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "Multiply first: 9 × 4 = 36; − 13 = 23.",
+    "tpl": "order:medium:11"
+  },
+  {
+    "q": "Combine like terms: 7x + 5x. Enter the coefficient of x in the result.",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "7x + 5x = 12x, so the coefficient is 12.",
+    "tpl": "order:medium:6"
+  },
+  {
+    "q": "Evaluate: 7 + 5 × 3.",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Multiply first: 5 × 3 = 15; then 7 + 15 = 22.",
+    "tpl": "order:medium:0"
+  },
+  {
+    "q": "Evaluate: 7 + 5 × 8.",
+    "type": "typed",
+    "accept": [
+      "47"
+    ],
+    "solution": "Multiply first: 5 × 8 = 40; then 7 + 40 = 47.",
+    "tpl": "order:medium:0"
+  },
+  {
+    "q": "Evaluate: 7 × 5 − 11.",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Multiply first: 7 × 5 = 35; − 11 = 24.",
+    "tpl": "order:medium:11"
+  },
+  {
+    "q": "Evaluate: (4 + 2) × 6.",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Parentheses first: 4 + 2 = 6; then × 6 = 36.",
+    "tpl": "order:medium:2"
+  },
+  {
+    "q": "Evaluate: 16 − 12 ÷ 6.",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Divide first: 12 ÷ 6 = 2; then 16 − 2 = 14.",
+    "tpl": "order:medium:1"
+  },
+  {
+    "q": "Evaluate: (4 + 4)².",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "Inside: 4 + 4 = 8; 8² = 64.",
+    "tpl": "order:medium:10"
+  },
+  {
+    "q": "Evaluate: 16 ÷ 4 × 2.",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Left to right: 16 ÷ 4 = 4; × 2 = 8.",
+    "tpl": "order:medium:4"
   }
 ]

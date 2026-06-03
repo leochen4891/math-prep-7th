@@ -1,434 +1,716 @@
 [
   {
-    "q": "A car drives 120 miles in 2 hours. At that rate, how far in 6 hours?",
-    "type": "typed",
-    "accept": [
-      "360"
-    ],
-    "solution": "Speed = 120÷2 = 60 mph. In 6 h: 60×6 = 360 miles."
-  },
-  {
-    "q": "A $100 jacket is 50% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "50"
-    ],
-    "solution": "Pay 50%: 100 × 0.5 = $50."
-  },
-  {
-    "q": "A car drives 150 miles in 3 hours. At that rate, how far in 6 hours?",
-    "type": "typed",
-    "accept": [
-      "300"
-    ],
-    "solution": "Speed = 150÷3 = 50 mph. In 6 h: 50×6 = 300 miles."
-  },
-  {
-    "q": "A car drives 180 miles in 3 hours. At that rate, how far in 6 hours?",
-    "type": "typed",
-    "accept": [
-      "360"
-    ],
-    "solution": "Speed = 180÷3 = 60 mph. In 6 h: 60×6 = 360 miles."
-  },
-  {
-    "q": "A car drives 80 miles in 2 hours. At that rate, how far in 6 hours?",
-    "type": "typed",
-    "accept": [
-      "240"
-    ],
-    "solution": "Speed = 80÷2 = 40 mph. In 6 h: 40×6 = 240 miles."
-  },
-  {
-    "q": "A $80 jacket is 25% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "Pay 75%: 80 × 0.75 = $60."
-  },
-  {
-    "q": "If 2 notebooks cost $10, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "35"
-    ],
-    "solution": "Each is $5, so 7 × $5 = $35."
-  },
-  {
-    "q": "A car drives 100 miles in 2 hours. At that rate, how far in 5 hours?",
-    "type": "typed",
-    "accept": [
-      "250"
-    ],
-    "solution": "Speed = 100÷2 = 50 mph. In 5 h: 50×5 = 250 miles."
-  },
-  {
-    "q": "A $60 jacket is 25% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "45"
-    ],
-    "solution": "Pay 75%: 60 × 0.75 = $45."
-  },
-  {
-    "q": "If 2 notebooks cost $6, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Each is $3, so 5 × $3 = $15."
-  },
-  {
-    "q": "A $60 jacket is 10% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "54"
-    ],
-    "solution": "Pay 90%: 60 × 0.9 = $54."
-  },
-  {
-    "q": "A car drives 120 miles in 3 hours. At that rate, how far in 5 hours?",
-    "type": "typed",
-    "accept": [
-      "200"
-    ],
-    "solution": "Speed = 120÷3 = 40 mph. In 5 h: 40×5 = 200 miles."
-  },
-  {
-    "q": "If 2 notebooks cost $10, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Each is $5, so 5 × $5 = $25."
-  },
-  {
-    "q": "If 2 notebooks cost $12, how much do 9 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "54"
-    ],
-    "solution": "Each is $6, so 9 × $6 = $54."
-  },
-  {
-    "q": "If 3 notebooks cost $9, how much do 11 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "33"
-    ],
-    "solution": "Each is $3, so 11 × $3 = $33."
-  },
-  {
-    "q": "A car drives 180 miles in 3 hours. At that rate, how far in 4 hours?",
-    "type": "typed",
-    "accept": [
-      "240"
-    ],
-    "solution": "Speed = 180÷3 = 60 mph. In 4 h: 60×4 = 240 miles."
-  },
-  {
-    "q": "If 2 notebooks cost $8, how much do 9 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "Each is $4, so 9 × $4 = $36."
-  },
-  {
-    "q": "If 4 notebooks cost $24, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Each is $6, so 5 × $6 = $30."
-  },
-  {
-    "q": "If 4 notebooks cost $24, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "42"
-    ],
-    "solution": "Each is $6, so 7 × $6 = $42."
-  },
-  {
-    "q": "If 4 notebooks cost $16, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "Each is $4, so 7 × $4 = $28."
-  },
-  {
-    "q": "A $60 jacket is 20% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "48"
-    ],
-    "solution": "Pay 80%: 60 × 0.8 = $48."
-  },
-  {
-    "q": "A car drives 150 miles in 3 hours. At that rate, how far in 5 hours?",
-    "type": "typed",
-    "accept": [
-      "250"
-    ],
-    "solution": "Speed = 150÷3 = 50 mph. In 5 h: 50×5 = 250 miles."
-  },
-  {
-    "q": "A car drives 80 miles in 2 hours. At that rate, how far in 4 hours?",
-    "type": "typed",
-    "accept": [
-      "160"
-    ],
-    "solution": "Speed = 80÷2 = 40 mph. In 4 h: 40×4 = 160 miles."
-  },
-  {
-    "q": "A car drives 100 miles in 2 hours. At that rate, how far in 6 hours?",
-    "type": "typed",
-    "accept": [
-      "300"
-    ],
-    "solution": "Speed = 100÷2 = 50 mph. In 6 h: 50×6 = 300 miles."
-  },
-  {
-    "q": "A car drives 120 miles in 2 hours. At that rate, how far in 4 hours?",
-    "type": "typed",
-    "accept": [
-      "240"
-    ],
-    "solution": "Speed = 120÷2 = 60 mph. In 4 h: 60×4 = 240 miles."
-  },
-  {
-    "q": "A $40 jacket is 10% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "Pay 90%: 40 × 0.9 = $36."
-  },
-  {
-    "q": "A car drives 120 miles in 3 hours. At that rate, how far in 6 hours?",
-    "type": "typed",
-    "accept": [
-      "240"
-    ],
-    "solution": "Speed = 120÷3 = 40 mph. In 6 h: 40×6 = 240 miles."
-  },
-  {
-    "q": "A car drives 80 miles in 2 hours. At that rate, how far in 5 hours?",
-    "type": "typed",
-    "accept": [
-      "200"
-    ],
-    "solution": "Speed = 80÷2 = 40 mph. In 5 h: 40×5 = 200 miles."
-  },
-  {
-    "q": "If 3 notebooks cost $12, how much do 11 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "44"
-    ],
-    "solution": "Each is $4, so 11 × $4 = $44."
-  },
-  {
-    "q": "A $80 jacket is 50% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "40"
-    ],
-    "solution": "Pay 50%: 80 × 0.5 = $40."
-  },
-  {
-    "q": "If 3 notebooks cost $12, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "Each is $4, so 7 × $4 = $28."
-  },
-  {
-    "q": "A $40 jacket is 20% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "Pay 80%: 40 × 0.8 = $32."
-  },
-  {
-    "q": "A $100 jacket is 10% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "90"
-    ],
-    "solution": "Pay 90%: 100 × 0.9 = $90."
-  },
-  {
-    "q": "A car drives 120 miles in 3 hours. At that rate, how far in 4 hours?",
-    "type": "typed",
-    "accept": [
-      "160"
-    ],
-    "solution": "Speed = 120÷3 = 40 mph. In 4 h: 40×4 = 160 miles."
-  },
-  {
-    "q": "If 4 notebooks cost $20, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "35"
-    ],
-    "solution": "Each is $5, so 7 × $5 = $35."
-  },
-  {
-    "q": "A $40 jacket is 25% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Pay 75%: 40 × 0.75 = $30."
-  },
-  {
-    "q": "A $100 jacket is 20% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "80"
-    ],
-    "solution": "Pay 80%: 100 × 0.8 = $80."
-  },
-  {
-    "q": "If 2 notebooks cost $4, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Each is $2, so 5 × $2 = $10."
-  },
-  {
-    "q": "A $80 jacket is 10% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "Pay 90%: 80 × 0.9 = $72."
-  },
-  {
-    "q": "A car drives 150 miles in 3 hours. At that rate, how far in 4 hours?",
-    "type": "typed",
-    "accept": [
-      "200"
-    ],
-    "solution": "Speed = 150÷3 = 50 mph. In 4 h: 50×4 = 200 miles."
-  },
-  {
-    "q": "If 3 notebooks cost $15, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "35"
-    ],
-    "solution": "Each is $5, so 7 × $5 = $35."
-  },
-  {
-    "q": "If 4 notebooks cost $20, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Each is $5, so 5 × $5 = $25."
-  },
-  {
-    "q": "If 2 notebooks cost $6, how much do 11 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "33"
-    ],
-    "solution": "Each is $3, so 11 × $3 = $33."
-  },
-  {
-    "q": "If 2 notebooks cost $12, how much do 7 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "42"
-    ],
-    "solution": "Each is $6, so 7 × $6 = $42."
-  },
-  {
-    "q": "A $100 jacket is 25% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "75"
-    ],
-    "solution": "Pay 75%: 100 × 0.75 = $75."
-  },
-  {
-    "q": "A $80 jacket is 20% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "64"
-    ],
-    "solution": "Pay 80%: 80 × 0.8 = $64."
-  },
-  {
-    "q": "A car drives 120 miles in 2 hours. At that rate, how far in 5 hours?",
-    "type": "typed",
-    "accept": [
-      "300"
-    ],
-    "solution": "Speed = 120÷2 = 60 mph. In 5 h: 60×5 = 300 miles."
-  },
-  {
-    "q": "If 4 notebooks cost $8, how much do 11 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "Each is $2, so 11 × $2 = $22."
-  },
-  {
-    "q": "A car drives 180 miles in 3 hours. At that rate, how far in 5 hours?",
-    "type": "typed",
-    "accept": [
-      "300"
-    ],
-    "solution": "Speed = 180÷3 = 60 mph. In 5 h: 60×5 = 300 miles."
-  },
-  {
-    "q": "A car drives 100 miles in 2 hours. At that rate, how far in 4 hours?",
-    "type": "typed",
-    "accept": [
-      "200"
-    ],
-    "solution": "Speed = 100÷2 = 50 mph. In 4 h: 50×4 = 200 miles."
-  },
-  {
-    "q": "If 4 notebooks cost $8, how much do 5 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Each is $2, so 5 × $2 = $10."
-  },
-  {
-    "q": "If 3 notebooks cost $6, how much do 9 notebooks cost?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Each is $2, so 9 × $2 = $18."
-  },
-  {
-    "q": "A $60 jacket is 50% off. What is the sale price?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Pay 50%: 60 × 0.5 = $30."
-  },
-  {
-    "q": "A $40 jacket is 50% off. What is the sale price?",
+    "q": "A value of 40 decreases by 50%. What is the result?",
     "type": "typed",
     "accept": [
       "20"
     ],
-    "solution": "Pay 50%: 40 × 0.5 = $20."
+    "solution": "Decrease = 50% × 40 = 20. 40 − 20 = 20.",
+    "tpl": "ratios:hard:1"
+  },
+  {
+    "q": "A price rises from $200 by 20%. What is the new price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "240"
+    ],
+    "solution": "Increase = 20% × 200 = $40. New = 200 + 40 = $240.",
+    "tpl": "ratios:hard:0"
+  },
+  {
+    "q": "A value of 200 decreases by 15%. What is the result?",
+    "type": "typed",
+    "accept": [
+      "170"
+    ],
+    "solution": "Decrease = 15% × 200 = 30. 200 − 30 = 170.",
+    "tpl": "ratios:hard:1"
+  },
+  {
+    "q": "1 is 5% of what number?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "1 ÷ 0.05 = 20.",
+    "tpl": "ratios:hard:9"
+  },
+  {
+    "q": "Brand A: 3 for $12. Brand B: 2 for $6. Which is the better buy (lower unit price)?",
+    "type": "mc",
+    "choices": [
+      "Brand A",
+      "Same",
+      "Brand B"
+    ],
+    "answer": 2,
+    "solution": "A = $4/unit, B = $3/unit. Brand B is cheaper per unit.",
+    "tpl": "ratios:hard:4"
+  },
+  {
+    "q": "On a map, 1 cm = 25 km. Two towns are 6 cm apart on the map. What is the real distance (km)?",
+    "type": "typed",
+    "accept": [
+      "150"
+    ],
+    "solution": "6 cm × 25 km/cm = 150 km.",
+    "tpl": "ratios:hard:6"
+  },
+  {
+    "q": "If 4 machines make 16 parts, how many parts do 5 machines make at the same rate?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Per machine = 16 ÷ 4 = 4. 5 × 4 = 20.",
+    "tpl": "ratios:hard:3"
+  },
+  {
+    "q": "Pencils cost $3 each. You spend $9. How many pencils did you buy?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "$9 ÷ $3 = 3 pencils.",
+    "tpl": "ratios:hard:7"
+  },
+  {
+    "q": "Solve: x/6 = 14/12<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "x = 6 × 14 ÷ 12 = 7.",
+    "tpl": "ratios:hard:8"
+  },
+  {
+    "q": "8 is 40% of what number?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "8 ÷ 0.4 = 20.",
+    "tpl": "ratios:hard:9"
+  },
+  {
+    "q": "$60 is divided in the ratio 4:5:3. What is the LARGEST share (dollars)?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Parts total 12. Each = $60 ÷ 12 = $5. Largest term is 5 → $25.",
+    "tpl": "ratios:hard:5"
+  },
+  {
+    "q": "A recipe for 3 batches uses 9 cups of sugar. How many cups for ONE batch?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "9 ÷ 3 = 3 cups.",
+    "tpl": "ratios:hard:10"
+  },
+  {
+    "q": "Solve: x/7 = 18/42<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "x = 7 × 18 ÷ 42 = 3.",
+    "tpl": "ratios:hard:8"
+  },
+  {
+    "q": "Pencils cost $9 each. You spend $18. How many pencils did you buy?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "$18 ÷ $9 = 2 pencils.",
+    "tpl": "ratios:hard:7"
+  },
+  {
+    "q": "Brand A: 3 for $6. Brand B: 2 for $8. Which is the better buy (lower unit price)?",
+    "type": "mc",
+    "choices": [
+      "Brand B",
+      "Brand A",
+      "Same"
+    ],
+    "answer": 1,
+    "solution": "A = $2/unit, B = $4/unit. Brand A is cheaper per unit.",
+    "tpl": "ratios:hard:4"
+  },
+  {
+    "q": "A price rises from $60 by 20%. What is the new price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "Increase = 20% × 60 = $12. New = 60 + 12 = $72.",
+    "tpl": "ratios:hard:0"
+  },
+  {
+    "q": "A $40 jacket is 50% off. What is the sale price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Discount = 50% × $40 = $20. Sale = $20.",
+    "tpl": "ratios:hard:2"
+  },
+  {
+    "q": "Solve: x/2 = 18/6<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "x = 2 × 18 ÷ 6 = 6.",
+    "tpl": "ratios:hard:8"
+  },
+  {
+    "q": "A recipe for 2 batches uses 8 cups of sugar. How many cups for ONE batch?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "8 ÷ 2 = 4 cups.",
+    "tpl": "ratios:hard:10"
+  },
+  {
+    "q": "Brand A: 4 for $16. Brand B: 5 for $25. Which is the better buy (lower unit price)?",
+    "type": "mc",
+    "choices": [
+      "Brand B",
+      "Brand A",
+      "Same"
+    ],
+    "answer": 1,
+    "solution": "A = $4/unit, B = $5/unit. Brand A is cheaper per unit.",
+    "tpl": "ratios:hard:4"
+  },
+  {
+    "q": "A $80 jacket is 15% off. What is the sale price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "68"
+    ],
+    "solution": "Discount = 15% × $80 = $12. Sale = $68.",
+    "tpl": "ratios:hard:2"
+  },
+  {
+    "q": "A $50 jacket is 10% off. What is the sale price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "Discount = 10% × $50 = $5. Sale = $45.",
+    "tpl": "ratios:hard:2"
+  },
+  {
+    "q": "$65 is divided in the ratio 7:3:3. What is the LARGEST share (dollars)?",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "Parts total 13. Each = $65 ÷ 13 = $5. Largest term is 7 → $35.",
+    "tpl": "ratios:hard:5"
+  },
+  {
+    "q": "A value of 60 decreases by 15%. What is the result?",
+    "type": "typed",
+    "accept": [
+      "51"
+    ],
+    "solution": "Decrease = 15% × 60 = 9. 60 − 9 = 51.",
+    "tpl": "ratios:hard:1"
+  },
+  {
+    "q": "On a map, 1 cm = 50 km. Two towns are 6 cm apart on the map. What is the real distance (km)?",
+    "type": "typed",
+    "accept": [
+      "300"
+    ],
+    "solution": "6 cm × 50 km/cm = 300 km.",
+    "tpl": "ratios:hard:6"
+  },
+  {
+    "q": "On a map, 1 cm = 10 km. Two towns are 7 cm apart on the map. What is the real distance (km)?",
+    "type": "typed",
+    "accept": [
+      "70"
+    ],
+    "solution": "7 cm × 10 km/cm = 70 km.",
+    "tpl": "ratios:hard:6"
+  },
+  {
+    "q": "Brand A: 3 for $6. Brand B: 2 for $6. Which is the better buy (lower unit price)?",
+    "type": "mc",
+    "choices": [
+      "Same",
+      "Brand A",
+      "Brand B"
+    ],
+    "answer": 1,
+    "solution": "A = $2/unit, B = $3/unit. Brand A is cheaper per unit.",
+    "tpl": "ratios:hard:4"
+  },
+  {
+    "q": "Brand A: 3 for $6. Brand B: 5 for $20. Which is the better buy (lower unit price)?",
+    "type": "mc",
+    "choices": [
+      "Brand B",
+      "Brand A",
+      "Same"
+    ],
+    "answer": 1,
+    "solution": "A = $2/unit, B = $4/unit. Brand A is cheaper per unit.",
+    "tpl": "ratios:hard:4"
+  },
+  {
+    "q": "A price rises from $80 by 5%. What is the new price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "Increase = 5% × 80 = $4. New = 80 + 4 = $84.",
+    "tpl": "ratios:hard:0"
+  },
+  {
+    "q": "On a map, 1 cm = 5 km. Two towns are 2 cm apart on the map. What is the real distance (km)?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "2 cm × 5 km/cm = 10 km.",
+    "tpl": "ratios:hard:6"
+  },
+  {
+    "q": "Pencils cost $8 each. You spend $32. How many pencils did you buy?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "$32 ÷ $8 = 4 pencils.",
+    "tpl": "ratios:hard:7"
+  },
+  {
+    "q": "A price rises from $50 by 20%. What is the new price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "Increase = 20% × 50 = $10. New = 50 + 10 = $60.",
+    "tpl": "ratios:hard:0"
+  },
+  {
+    "q": "A price rises from $200 by 5%. What is the new price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "210"
+    ],
+    "solution": "Increase = 5% × 200 = $10. New = 200 + 10 = $210.",
+    "tpl": "ratios:hard:0"
+  },
+  {
+    "q": "A $50 jacket is 50% off. What is the sale price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Discount = 50% × $50 = $25. Sale = $25.",
+    "tpl": "ratios:hard:2"
+  },
+  {
+    "q": "Pencils cost $9 each. You spend $54. How many pencils did you buy?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "$54 ÷ $9 = 6 pencils.",
+    "tpl": "ratios:hard:7"
+  },
+  {
+    "q": "Brand A: 4 for $16. Brand B: 5 for $15. Which is the better buy (lower unit price)?",
+    "type": "mc",
+    "choices": [
+      "Brand B",
+      "Same",
+      "Brand A"
+    ],
+    "answer": 0,
+    "solution": "A = $4/unit, B = $3/unit. Brand B is cheaper per unit.",
+    "tpl": "ratios:hard:4"
+  },
+  {
+    "q": "6 is 10% of what number?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "6 ÷ 0.1 = 60.",
+    "tpl": "ratios:hard:9"
+  },
+  {
+    "q": "A value of 80 decreases by 50%. What is the result?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Decrease = 50% × 80 = 40. 80 − 40 = 40.",
+    "tpl": "ratios:hard:1"
+  },
+  {
+    "q": "$18 is divided in the ratio 1:3:5. What is the LARGEST share (dollars)?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Parts total 9. Each = $18 ÷ 9 = $2. Largest term is 5 → $10.",
+    "tpl": "ratios:hard:5"
+  },
+  {
+    "q": "Pencils cost $6 each. You spend $30. How many pencils did you buy?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "$30 ÷ $6 = 5 pencils.",
+    "tpl": "ratios:hard:7"
+  },
+  {
+    "q": "If 6 machines make 36 parts, how many parts do 8 machines make at the same rate?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Per machine = 36 ÷ 6 = 6. 8 × 6 = 48.",
+    "tpl": "ratios:hard:3"
+  },
+  {
+    "q": "Solve: x/7 = 12/21<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "x = 7 × 12 ÷ 21 = 4.",
+    "tpl": "ratios:hard:8"
+  },
+  {
+    "q": "On a map, 1 cm = 25 km. Two towns are 3 cm apart on the map. What is the real distance (km)?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "3 cm × 25 km/cm = 75 km.",
+    "tpl": "ratios:hard:6"
+  },
+  {
+    "q": "A $50 jacket is 30% off. What is the sale price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "Discount = 30% × $50 = $15. Sale = $35.",
+    "tpl": "ratios:hard:2"
+  },
+  {
+    "q": "A recipe for 4 batches uses 8 cups of sugar. How many cups for ONE batch?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "8 ÷ 4 = 2 cups.",
+    "tpl": "ratios:hard:10"
+  },
+  {
+    "q": "$50 is divided in the ratio 3:1:6. What is the LARGEST share (dollars)?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Parts total 10. Each = $50 ÷ 10 = $5. Largest term is 6 → $30.",
+    "tpl": "ratios:hard:5"
+  },
+  {
+    "q": "$40 is divided in the ratio 5:1:2. What is the LARGEST share (dollars)?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Parts total 8. Each = $40 ÷ 8 = $5. Largest term is 5 → $25.",
+    "tpl": "ratios:hard:5"
+  },
+  {
+    "q": "5 is 5% of what number?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "5 ÷ 0.05 = 100.",
+    "tpl": "ratios:hard:9"
+  },
+  {
+    "q": "A recipe for 3 batches uses 12 cups of sugar. How many cups for ONE batch?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "12 ÷ 3 = 4 cups.",
+    "tpl": "ratios:hard:10"
+  },
+  {
+    "q": "Pencils cost $4 each. You spend $20. How many pencils did you buy?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "$20 ÷ $4 = 5 pencils.",
+    "tpl": "ratios:hard:7"
+  },
+  {
+    "q": "100 is 50% of what number?",
+    "type": "typed",
+    "accept": [
+      "200"
+    ],
+    "solution": "100 ÷ 0.5 = 200.",
+    "tpl": "ratios:hard:9"
+  },
+  {
+    "q": "A recipe for 4 batches uses 16 cups of sugar. How many cups for ONE batch?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "16 ÷ 4 = 4 cups.",
+    "tpl": "ratios:hard:10"
+  },
+  {
+    "q": "If 5 machines make 30 parts, how many parts do 6 machines make at the same rate?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Per machine = 30 ÷ 5 = 6. 6 × 6 = 36.",
+    "tpl": "ratios:hard:3"
+  },
+  {
+    "q": "Solve: x/8 = 40/40<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "x = 8 × 40 ÷ 40 = 8.",
+    "tpl": "ratios:hard:8"
+  },
+  {
+    "q": "A $20 jacket is 30% off. What is the sale price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Discount = 30% × $20 = $6. Sale = $14.",
+    "tpl": "ratios:hard:2"
+  },
+  {
+    "q": "If 5 machines make 10 parts, how many parts do 6 machines make at the same rate?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Per machine = 10 ÷ 5 = 2. 6 × 2 = 12.",
+    "tpl": "ratios:hard:3"
+  },
+  {
+    "q": "$33 is divided in the ratio 3:7:1. What is the LARGEST share (dollars)?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Parts total 11. Each = $33 ÷ 11 = $3. Largest term is 7 → $21.",
+    "tpl": "ratios:hard:5"
+  },
+  {
+    "q": "A price rises from $20 by 25%. What is the new price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Increase = 25% × 20 = $5. New = 20 + 5 = $25.",
+    "tpl": "ratios:hard:0"
+  },
+  {
+    "q": "Brand A: 2 for $4. Brand B: 3 for $12. Which is the better buy (lower unit price)?",
+    "type": "mc",
+    "choices": [
+      "Brand A",
+      "Same",
+      "Brand B"
+    ],
+    "answer": 0,
+    "solution": "A = $2/unit, B = $4/unit. Brand A is cheaper per unit.",
+    "tpl": "ratios:hard:4"
+  },
+  {
+    "q": "If 3 machines make 18 parts, how many parts do 7 machines make at the same rate?",
+    "type": "typed",
+    "accept": [
+      "42"
+    ],
+    "solution": "Per machine = 18 ÷ 3 = 6. 7 × 6 = 42.",
+    "tpl": "ratios:hard:3"
+  },
+  {
+    "q": "On a map, 1 cm = 10 km. Two towns are 6 cm apart on the map. What is the real distance (km)?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "6 cm × 10 km/cm = 60 km.",
+    "tpl": "ratios:hard:6"
+  },
+  {
+    "q": "12 is 20% of what number?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "12 ÷ 0.2 = 60.",
+    "tpl": "ratios:hard:9"
+  },
+  {
+    "q": "Solve: x/2 = 16/8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "x = 2 × 16 ÷ 8 = 4.",
+    "tpl": "ratios:hard:8"
+  },
+  {
+    "q": "A value of 120 decreases by 25%. What is the result?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Decrease = 25% × 120 = 30. 120 − 30 = 90.",
+    "tpl": "ratios:hard:1"
+  },
+  {
+    "q": "$18 is divided in the ratio 2:5:2. What is the LARGEST share (dollars)?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Parts total 9. Each = $18 ÷ 9 = $2. Largest term is 5 → $10.",
+    "tpl": "ratios:hard:5"
+  },
+  {
+    "q": "Pencils cost $4 each. You spend $8. How many pencils did you buy?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "$8 ÷ $4 = 2 pencils.",
+    "tpl": "ratios:hard:7"
+  },
+  {
+    "q": "20 is 20% of what number?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "20 ÷ 0.2 = 100.",
+    "tpl": "ratios:hard:9"
+  },
+  {
+    "q": "A value of 60 decreases by 20%. What is the result?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Decrease = 20% × 60 = 12. 60 − 12 = 48.",
+    "tpl": "ratios:hard:1"
+  },
+  {
+    "q": "A recipe for 2 batches uses 6 cups of sugar. How many cups for ONE batch?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "6 ÷ 2 = 3 cups.",
+    "tpl": "ratios:hard:10"
+  },
+  {
+    "q": "A recipe for 2 batches uses 4 cups of sugar. How many cups for ONE batch?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "4 ÷ 2 = 2 cups.",
+    "tpl": "ratios:hard:10"
+  },
+  {
+    "q": "If 6 machines make 36 parts, how many parts do 10 machines make at the same rate?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "Per machine = 36 ÷ 6 = 6. 10 × 6 = 60.",
+    "tpl": "ratios:hard:3"
+  },
+  {
+    "q": "If 5 machines make 20 parts, how many parts do 6 machines make at the same rate?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Per machine = 20 ÷ 5 = 4. 6 × 4 = 24.",
+    "tpl": "ratios:hard:3"
+  },
+  {
+    "q": "Solve: x/6 = 20/30<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "x = 6 × 20 ÷ 30 = 4.",
+    "tpl": "ratios:hard:8"
+  },
+  {
+    "q": "A price rises from $60 by 50%. What is the new price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Increase = 50% × 60 = $30. New = 60 + 30 = $90.",
+    "tpl": "ratios:hard:0"
+  },
+  {
+    "q": "A $60 jacket is 20% off. What is the sale price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Discount = 20% × $60 = $12. Sale = $48.",
+    "tpl": "ratios:hard:2"
+  },
+  {
+    "q": "A value of 50 decreases by 10%. What is the result?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "Decrease = 10% × 50 = 5. 50 − 5 = 45.",
+    "tpl": "ratios:hard:1"
+  },
+  {
+    "q": "On a map, 1 cm = 50 km. Two towns are 2 cm apart on the map. What is the real distance (km)?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "2 cm × 50 km/cm = 100 km.",
+    "tpl": "ratios:hard:6"
   }
 ]

@@ -1,482 +1,680 @@
 [
   {
-    "q": "-7 − 3 + 3 = ?",
+    "q": "Evaluate |18|.",
     "type": "typed",
     "accept": [
-      "-7"
+      "18"
     ],
-    "solution": "Work left to right: -7−3+3 = -7."
+    "solution": "Absolute value is distance from 0: |18| = 18.",
+    "tpl": "integers:medium:4"
   },
   {
-    "q": "(-8) × 10 = ?",
-    "type": "typed",
-    "accept": [
-      "-80"
-    ],
-    "solution": "One negative → negative: -80."
-  },
-  {
-    "q": "-9 − 4 − 6 = ?",
-    "type": "typed",
-    "accept": [
-      "-19"
-    ],
-    "solution": "Work left to right: -9−4−6 = -19."
-  },
-  {
-    "q": "10 + 10 − 7 = ?",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "Work left to right: 10+10−7 = 13."
-  },
-  {
-    "q": "9 × (-8) = ?",
-    "type": "typed",
-    "accept": [
-      "-72"
-    ],
-    "solution": "One negative → negative: -72."
-  },
-  {
-    "q": "14 − 11 + 8 = ?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Work left to right: 14−11+8 = 11."
-  },
-  {
-    "q": "(-8) × 11 = ?",
-    "type": "typed",
-    "accept": [
-      "-88"
-    ],
-    "solution": "One negative → negative: -88."
-  },
-  {
-    "q": "-11 − 7 + 13 = ?",
-    "type": "typed",
-    "accept": [
-      "-5"
-    ],
-    "solution": "Work left to right: -11−7+13 = -5."
-  },
-  {
-    "q": "6 + 4 − 8 = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Work left to right: 6+4−8 = 2."
-  },
-  {
-    "q": "|−9| + |7| = ?",
+    "q": "Evaluate |-16|.",
     "type": "typed",
     "accept": [
       "16"
     ],
-    "solution": "Absolute value makes it positive: 9 + 7 = 16."
+    "solution": "Absolute value is distance from 0: |-16| = 16.",
+    "tpl": "integers:medium:4"
   },
   {
-    "q": "|−3| + |2| = ?",
+    "q": "Compute: (-5) × (-7).",
     "type": "typed",
     "accept": [
-      "5"
+      "35"
     ],
-    "solution": "Absolute value makes it positive: 3 + 2 = 5."
+    "solution": "Signs: like signs give positive. 5×7 = 35, so 35.",
+    "tpl": "integers:medium:2"
   },
   {
-    "q": "|−2| + |6| = ?",
+    "q": "Which is the SMALLEST: 8, 6, 16?",
+    "type": "mc",
+    "choices": [
+      "8",
+      "6",
+      "16"
+    ],
+    "answer": 1,
+    "solution": "Most negative / farthest left is smallest: 6.",
+    "tpl": "integers:medium:6"
+  },
+  {
+    "q": "Compute: 10 ÷ (-5).",
     "type": "typed",
     "accept": [
-      "8"
+      "-2"
     ],
-    "solution": "Absolute value makes it positive: 2 + 6 = 8."
+    "solution": "10 ÷ (-5) = -2 (signs unlike).",
+    "tpl": "integers:medium:3"
   },
   {
-    "q": "|−9| + |2| = ?",
+    "q": "Compute: 11 + 6 + 12.",
     "type": "typed",
     "accept": [
-      "11"
+      "29"
     ],
-    "solution": "Absolute value makes it positive: 9 + 2 = 11."
+    "solution": "Work left to right: 11+6 = 17, then +12 = 29.",
+    "tpl": "integers:medium:7"
   },
   {
-    "q": "|−4| + |5| = ?",
+    "q": "Compute: (-12) × 5.",
     "type": "typed",
     "accept": [
-      "9"
+      "-60"
     ],
-    "solution": "Absolute value makes it positive: 4 + 5 = 9."
+    "solution": "Signs: unlike signs give negative. 12×5 = 60, so -60.",
+    "tpl": "integers:medium:2"
   },
   {
-    "q": "|−3| + |3| = ?",
+    "q": "Evaluate |7|.",
     "type": "typed",
     "accept": [
-      "6"
+      "7"
     ],
-    "solution": "Absolute value makes it positive: 3 + 3 = 6."
+    "solution": "Absolute value is distance from 0: |7| = 7.",
+    "tpl": "integers:medium:4"
   },
   {
-    "q": "(-8) × (-11) = ?",
-    "type": "typed",
-    "accept": [
-      "88"
-    ],
-    "solution": "Negative × negative = positive: 88."
-  },
-  {
-    "q": "(-9) × (-4) = ?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "Negative × negative = positive: 36."
-  },
-  {
-    "q": "-10 + 6 − 10 = ?",
-    "type": "typed",
-    "accept": [
-      "-14"
-    ],
-    "solution": "Work left to right: -10+6−10 = -14."
-  },
-  {
-    "q": "(-12) × (-5) = ?",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "Negative × negative = positive: 60."
-  },
-  {
-    "q": "|−8| + |2| = ?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Absolute value makes it positive: 8 + 2 = 10."
-  },
-  {
-    "q": "8 × (-3) = ?",
+    "q": "Compute: (-9) − 15.",
     "type": "typed",
     "accept": [
       "-24"
     ],
-    "solution": "One negative → negative: -24."
+    "solution": "(-9) − 15 = -9 − 15 = -24.",
+    "tpl": "integers:medium:11"
   },
   {
-    "q": "5 + 9 − 8 = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Work left to right: 5+9−8 = 6."
-  },
-  {
-    "q": "|−5| + |4| = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Absolute value makes it positive: 5 + 4 = 9."
-  },
-  {
-    "q": "|−7| + |3| = ?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Absolute value makes it positive: 7 + 3 = 10."
-  },
-  {
-    "q": "-10 + 5 + 7 = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Work left to right: -10+5+7 = 2."
-  },
-  {
-    "q": "(-9) × 11 = ?",
-    "type": "typed",
-    "accept": [
-      "-99"
-    ],
-    "solution": "One negative → negative: -99."
-  },
-  {
-    "q": "6 × (-12) = ?",
-    "type": "typed",
-    "accept": [
-      "-72"
-    ],
-    "solution": "One negative → negative: -72."
-  },
-  {
-    "q": "(-12) × (-12) = ?",
-    "type": "typed",
-    "accept": [
-      "144"
-    ],
-    "solution": "Negative × negative = positive: 144."
-  },
-  {
-    "q": "|−5| + |2| = ?",
+    "q": "What is the opposite (additive inverse) of -7?",
     "type": "typed",
     "accept": [
       "7"
     ],
-    "solution": "Absolute value makes it positive: 5 + 2 = 7."
+    "solution": "The opposite of -7 is 7, since -7 + (7) = 0.",
+    "tpl": "integers:medium:10"
   },
   {
-    "q": "|−6| + |4| = ?",
+    "q": "Compute: 10 − (-9).",
     "type": "typed",
     "accept": [
-      "10"
+      "19"
     ],
-    "solution": "Absolute value makes it positive: 6 + 4 = 10."
+    "solution": "Subtracting a negative adds: 10 + 9 = 19.",
+    "tpl": "integers:medium:1"
   },
   {
-    "q": "5 − 10 − 12 = ?",
+    "q": "Which is the SMALLEST: -4, 1, 5?",
+    "type": "mc",
+    "choices": [
+      "1",
+      "5",
+      "-4"
+    ],
+    "answer": 2,
+    "solution": "Most negative / farthest left is smallest: -4.",
+    "tpl": "integers:medium:6"
+  },
+  {
+    "q": "Compute: (-5) + (-4).",
+    "type": "typed",
+    "accept": [
+      "-9"
+    ],
+    "solution": "(-5) + (-4) = -9.",
+    "tpl": "integers:medium:0"
+  },
+  {
+    "q": "Compute: (-11) × 7.",
+    "type": "typed",
+    "accept": [
+      "-77"
+    ],
+    "solution": "Signs: unlike signs give negative. 11×7 = 77, so -77.",
+    "tpl": "integers:medium:2"
+  },
+  {
+    "q": "Compute: (-3) + (-14).",
     "type": "typed",
     "accept": [
       "-17"
     ],
-    "solution": "Work left to right: 5−10−12 = -17."
+    "solution": "(-3) + (-14) = -17.",
+    "tpl": "integers:medium:0"
   },
   {
-    "q": "|−7| + |8| = ?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Absolute value makes it positive: 7 + 8 = 15."
-  },
-  {
-    "q": "|−6| + |8| = ?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Absolute value makes it positive: 6 + 8 = 14."
-  },
-  {
-    "q": "-4 + 8 + 2 = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Work left to right: -4+8+2 = 6."
-  },
-  {
-    "q": "(-5) × (-9) = ?",
-    "type": "typed",
-    "accept": [
-      "45"
-    ],
-    "solution": "Negative × negative = positive: 45."
-  },
-  {
-    "q": "|−4| + |6| = ?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Absolute value makes it positive: 4 + 6 = 10."
-  },
-  {
-    "q": "8 + 7 + 12 = ?",
-    "type": "typed",
-    "accept": [
-      "27"
-    ],
-    "solution": "Work left to right: 8+7+12 = 27."
-  },
-  {
-    "q": "12 − 14 + 7 = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Work left to right: 12−14+7 = 5."
-  },
-  {
-    "q": "9 × (-4) = ?",
-    "type": "typed",
-    "accept": [
-      "-36"
-    ],
-    "solution": "One negative → negative: -36."
-  },
-  {
-    "q": "|−5| + |7| = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Absolute value makes it positive: 5 + 7 = 12."
-  },
-  {
-    "q": "(-6) × 5 = ?",
+    "q": "Compute: (-6) × 5.",
     "type": "typed",
     "accept": [
       "-30"
     ],
-    "solution": "One negative → negative: -30."
+    "solution": "Signs: unlike signs give negative. 6×5 = 30, so -30.",
+    "tpl": "integers:medium:2"
   },
   {
-    "q": "8 × (-7) = ?",
+    "q": "Compute: 6 + (-13).",
     "type": "typed",
     "accept": [
-      "-56"
+      "-7"
     ],
-    "solution": "One negative → negative: -56."
+    "solution": "6 + (-13) = -7.",
+    "tpl": "integers:medium:0"
   },
   {
-    "q": "-11 + 7 − 6 = ?",
+    "q": "Which integer is greater: 5 or 4?",
+    "type": "mc",
+    "choices": [
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "solution": "On a number line, 5 is farther right, so 5 > 4.",
+    "tpl": "integers:medium:5"
+  },
+  {
+    "q": "The temperature is -3°. It drops 3 degrees. What is the new temperature?",
     "type": "typed",
     "accept": [
-      "-10"
+      "-6"
     ],
-    "solution": "Work left to right: -11+7−6 = -10."
+    "solution": "-3 − 3 = -6°.",
+    "tpl": "integers:medium:8"
   },
   {
-    "q": "10 × (-4) = ?",
+    "q": "Compute: (-12) + (-13).",
     "type": "typed",
     "accept": [
-      "-40"
+      "-25"
     ],
-    "solution": "One negative → negative: -40."
+    "solution": "(-12) + (-13) = -25.",
+    "tpl": "integers:medium:0"
   },
   {
-    "q": "(-8) × 9 = ?",
+    "q": "Compute: (-56) ÷ 8.",
     "type": "typed",
     "accept": [
-      "-72"
+      "-7"
     ],
-    "solution": "One negative → negative: -72."
+    "solution": "(-56) ÷ 8 = -7 (signs unlike).",
+    "tpl": "integers:medium:3"
   },
   {
-    "q": "9 + 14 − 2 = ?",
+    "q": "Compute: 6 − (-2).",
     "type": "typed",
     "accept": [
-      "21"
+      "8"
     ],
-    "solution": "Work left to right: 9+14−2 = 21."
+    "solution": "6 − (-2) = 6 + 2 = 8.",
+    "tpl": "integers:medium:11"
   },
   {
-    "q": "|−3| + |9| = ?",
+    "q": "Compute: 9 + (-6).",
     "type": "typed",
     "accept": [
-      "12"
+      "3"
     ],
-    "solution": "Absolute value makes it positive: 3 + 9 = 12."
+    "solution": "9 + (-6) = 3.",
+    "tpl": "integers:medium:0"
   },
   {
-    "q": "-3 + 3 + 12 = ?",
+    "q": "What is the opposite (additive inverse) of 8?",
     "type": "typed",
     "accept": [
-      "12"
+      "-8"
     ],
-    "solution": "Work left to right: -3+3+12 = 12."
+    "solution": "The opposite of 8 is -8, since 8 + (-8) = 0.",
+    "tpl": "integers:medium:10"
   },
   {
-    "q": "4 × (-3) = ?",
+    "q": "Compute: (-6) ÷ (-3).",
     "type": "typed",
     "accept": [
-      "-12"
+      "2"
     ],
-    "solution": "One negative → negative: -12."
+    "solution": "(-6) ÷ (-3) = 2 (signs alike).",
+    "tpl": "integers:medium:3"
   },
   {
-    "q": "|−5| + |8| = ?",
+    "q": "The temperature is -14°. It drops 20 degrees. What is the new temperature?",
     "type": "typed",
     "accept": [
-      "13"
+      "-34"
     ],
-    "solution": "Absolute value makes it positive: 5 + 8 = 13."
+    "solution": "-14 − 20 = -34°.",
+    "tpl": "integers:medium:8"
   },
   {
-    "q": "12 × (-12) = ?",
+    "q": "An account has $57. A purchase of $64 is made (overdraft allowed). What is the new balance, in dollars?",
     "type": "typed",
     "accept": [
-      "-144"
+      "-7"
     ],
-    "solution": "One negative → negative: -144."
+    "solution": "57 − 64 = -7.",
+    "tpl": "integers:medium:9"
   },
   {
-    "q": "|−2| + |5| = ?",
+    "q": "Compute: 10 − (-8).",
     "type": "typed",
     "accept": [
-      "7"
+      "18"
     ],
-    "solution": "Absolute value makes it positive: 2 + 5 = 7."
+    "solution": "Subtracting a negative adds: 10 + 8 = 18.",
+    "tpl": "integers:medium:1"
   },
   {
-    "q": "|−8| + |9| = ?",
+    "q": "Which integer is greater: 16 or 15?",
+    "type": "mc",
+    "choices": [
+      "16",
+      "15"
+    ],
+    "answer": 0,
+    "solution": "On a number line, 16 is farther right, so 16 > 15.",
+    "tpl": "integers:medium:5"
+  },
+  {
+    "q": "Compute: (-10) × (-9).",
     "type": "typed",
     "accept": [
-      "17"
+      "90"
     ],
-    "solution": "Absolute value makes it positive: 8 + 9 = 17."
+    "solution": "Signs: like signs give positive. 10×9 = 90, so 90.",
+    "tpl": "integers:medium:2"
   },
   {
-    "q": "(-7) × (-12) = ?",
-    "type": "typed",
-    "accept": [
-      "84"
-    ],
-    "solution": "Negative × negative = positive: 84."
-  },
-  {
-    "q": "|−8| + |5| = ?",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "Absolute value makes it positive: 8 + 5 = 13."
-  },
-  {
-    "q": "11 − 12 + 10 = ?",
+    "q": "Compute: (-6) + 3 + 12.",
     "type": "typed",
     "accept": [
       "9"
     ],
-    "solution": "Work left to right: 11−12+10 = 9."
+    "solution": "Work left to right: (-6)+3 = -3, then +12 = 9.",
+    "tpl": "integers:medium:7"
   },
   {
-    "q": "9 + 14 + 9 = ?",
+    "q": "Compute: (-81) ÷ (-9).",
     "type": "typed",
     "accept": [
-      "32"
+      "9"
     ],
-    "solution": "Work left to right: 9+14+9 = 32."
+    "solution": "(-81) ÷ (-9) = 9 (signs alike).",
+    "tpl": "integers:medium:3"
   },
   {
-    "q": "(-10) × 12 = ?",
+    "q": "Compute: (-14) − (-12).",
     "type": "typed",
     "accept": [
-      "-120"
+      "-2"
     ],
-    "solution": "One negative → negative: -120."
+    "solution": "(-14) − (-12) = -14 + 12 = -2.",
+    "tpl": "integers:medium:11"
   },
   {
-    "q": "9 − 14 − 9 = ?",
+    "q": "What is the opposite (additive inverse) of 12?",
     "type": "typed",
     "accept": [
-      "-14"
+      "-12"
     ],
-    "solution": "Work left to right: 9−14−9 = -14."
+    "solution": "The opposite of 12 is -12, since 12 + (-12) = 0.",
+    "tpl": "integers:medium:10"
   },
   {
-    "q": "11 − 3 − 12 = ?",
+    "q": "Which integer is greater: 19 or -15?",
+    "type": "mc",
+    "choices": [
+      "19",
+      "-15"
+    ],
+    "answer": 0,
+    "solution": "On a number line, 19 is farther right, so 19 > -15.",
+    "tpl": "integers:medium:5"
+  },
+  {
+    "q": "The temperature is -5°. It drops 14 degrees. What is the new temperature?",
     "type": "typed",
     "accept": [
-      "-4"
+      "-19"
     ],
-    "solution": "Work left to right: 11−3−12 = -4."
+    "solution": "-5 − 14 = -19°.",
+    "tpl": "integers:medium:8"
+  },
+  {
+    "q": "Compute: 6 − (-14).",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Subtracting a negative adds: 6 + 14 = 20.",
+    "tpl": "integers:medium:1"
+  },
+  {
+    "q": "Evaluate |9|.",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Absolute value is distance from 0: |9| = 9.",
+    "tpl": "integers:medium:4"
+  },
+  {
+    "q": "What is the opposite (additive inverse) of -14?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "The opposite of -14 is 14, since -14 + (14) = 0.",
+    "tpl": "integers:medium:10"
+  },
+  {
+    "q": "Which is the SMALLEST: -10, -4, 4?",
+    "type": "mc",
+    "choices": [
+      "-4",
+      "-10",
+      "4"
+    ],
+    "answer": 1,
+    "solution": "Most negative / farthest left is smallest: -10.",
+    "tpl": "integers:medium:6"
+  },
+  {
+    "q": "Evaluate |-9|.",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Absolute value is distance from 0: |-9| = 9.",
+    "tpl": "integers:medium:4"
+  },
+  {
+    "q": "Compute: 4 × 3.",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Signs: like signs give positive. 4×3 = 12, so 12.",
+    "tpl": "integers:medium:2"
+  },
+  {
+    "q": "What is the opposite (additive inverse) of 10?",
+    "type": "typed",
+    "accept": [
+      "-10"
+    ],
+    "solution": "The opposite of 10 is -10, since 10 + (-10) = 0.",
+    "tpl": "integers:medium:10"
+  },
+  {
+    "q": "An account has $70. A purchase of $98 is made (overdraft allowed). What is the new balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "-28"
+    ],
+    "solution": "70 − 98 = -28.",
+    "tpl": "integers:medium:9"
+  },
+  {
+    "q": "Which is the SMALLEST: -12, 16, 5?",
+    "type": "mc",
+    "choices": [
+      "5",
+      "16",
+      "-12"
+    ],
+    "answer": 2,
+    "solution": "Most negative / farthest left is smallest: -12.",
+    "tpl": "integers:medium:6"
+  },
+  {
+    "q": "Compute: 6 − (-5).",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Subtracting a negative adds: 6 + 5 = 11.",
+    "tpl": "integers:medium:1"
+  },
+  {
+    "q": "Compute: (-13) − (-12).",
+    "type": "typed",
+    "accept": [
+      "-1"
+    ],
+    "solution": "(-13) − (-12) = -13 + 12 = -1.",
+    "tpl": "integers:medium:11"
+  },
+  {
+    "q": "An account has $34. A purchase of $41 is made (overdraft allowed). What is the new balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "-7"
+    ],
+    "solution": "34 − 41 = -7.",
+    "tpl": "integers:medium:9"
+  },
+  {
+    "q": "Compute: (-6) − 2.",
+    "type": "typed",
+    "accept": [
+      "-8"
+    ],
+    "solution": "(-6) − 2 = -6 − 2 = -8.",
+    "tpl": "integers:medium:11"
+  },
+  {
+    "q": "Which is the SMALLEST: -17, 16, -1?",
+    "type": "mc",
+    "choices": [
+      "-17",
+      "-1",
+      "16"
+    ],
+    "answer": 0,
+    "solution": "Most negative / farthest left is smallest: -17.",
+    "tpl": "integers:medium:6"
+  },
+  {
+    "q": "Which integer is greater: -20 or -15?",
+    "type": "mc",
+    "choices": [
+      "-15",
+      "-20"
+    ],
+    "answer": 0,
+    "solution": "On a number line, -15 is farther right, so -15 > -20.",
+    "tpl": "integers:medium:5"
+  },
+  {
+    "q": "Compute: 6 − (-11).",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "6 − (-11) = 6 + 11 = 17.",
+    "tpl": "integers:medium:11"
+  },
+  {
+    "q": "Compute: 24 ÷ 6.",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "24 ÷ 6 = 4 (signs alike).",
+    "tpl": "integers:medium:3"
+  },
+  {
+    "q": "Compute: (-4) ÷ (-2).",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "(-4) ÷ (-2) = 2 (signs alike).",
+    "tpl": "integers:medium:3"
+  },
+  {
+    "q": "The temperature is 10°. It drops 11 degrees. What is the new temperature?",
+    "type": "typed",
+    "accept": [
+      "-1"
+    ],
+    "solution": "10 − 11 = -1°.",
+    "tpl": "integers:medium:8"
+  },
+  {
+    "q": "Compute: 14 − (-12).",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "Subtracting a negative adds: 14 + 12 = 26.",
+    "tpl": "integers:medium:1"
+  },
+  {
+    "q": "An account has $44. A purchase of $69 is made (overdraft allowed). What is the new balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "-25"
+    ],
+    "solution": "44 − 69 = -25.",
+    "tpl": "integers:medium:9"
+  },
+  {
+    "q": "Which integer is greater: 10 or 3?",
+    "type": "mc",
+    "choices": [
+      "3",
+      "10"
+    ],
+    "answer": 1,
+    "solution": "On a number line, 10 is farther right, so 10 > 3.",
+    "tpl": "integers:medium:5"
+  },
+  {
+    "q": "Compute: 8 − (-3).",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Subtracting a negative adds: 8 + 3 = 11.",
+    "tpl": "integers:medium:1"
+  },
+  {
+    "q": "Evaluate |15|.",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Absolute value is distance from 0: |15| = 15.",
+    "tpl": "integers:medium:4"
+  },
+  {
+    "q": "Compute: 5 + (-6).",
+    "type": "typed",
+    "accept": [
+      "-1"
+    ],
+    "solution": "5 + (-6) = -1.",
+    "tpl": "integers:medium:0"
+  },
+  {
+    "q": "Which is the SMALLEST: 10, -15, 2?",
+    "type": "mc",
+    "choices": [
+      "2",
+      "10",
+      "-15"
+    ],
+    "answer": 2,
+    "solution": "Most negative / farthest left is smallest: -15.",
+    "tpl": "integers:medium:6"
+  },
+  {
+    "q": "Compute: (-5) + (-5) + (-7).",
+    "type": "typed",
+    "accept": [
+      "-17"
+    ],
+    "solution": "Work left to right: (-5)+(-5) = -10, then +(-7) = -17.",
+    "tpl": "integers:medium:7"
+  },
+  {
+    "q": "Compute: (-12) + 5 + 2.",
+    "type": "typed",
+    "accept": [
+      "-5"
+    ],
+    "solution": "Work left to right: (-12)+5 = -7, then +2 = -5.",
+    "tpl": "integers:medium:7"
+  },
+  {
+    "q": "An account has $26. A purchase of $65 is made (overdraft allowed). What is the new balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "-39"
+    ],
+    "solution": "26 − 65 = -39.",
+    "tpl": "integers:medium:9"
+  },
+  {
+    "q": "The temperature is -6°. It drops 20 degrees. What is the new temperature?",
+    "type": "typed",
+    "accept": [
+      "-26"
+    ],
+    "solution": "-6 − 20 = -26°.",
+    "tpl": "integers:medium:8"
+  },
+  {
+    "q": "What is the opposite (additive inverse) of -3?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "The opposite of -3 is 3, since -3 + (3) = 0.",
+    "tpl": "integers:medium:10"
+  },
+  {
+    "q": "Compute: 12 + (-3) + (-7).",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Work left to right: 12+(-3) = 9, then +(-7) = 2.",
+    "tpl": "integers:medium:7"
+  },
+  {
+    "q": "The temperature is 10°. It drops 7 degrees. What is the new temperature?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "10 − 7 = 3°.",
+    "tpl": "integers:medium:8"
+  },
+  {
+    "q": "Which integer is greater: 13 or 16?",
+    "type": "mc",
+    "choices": [
+      "13",
+      "16"
+    ],
+    "answer": 1,
+    "solution": "On a number line, 16 is farther right, so 16 > 13.",
+    "tpl": "integers:medium:5"
+  },
+  {
+    "q": "Compute: (-4) + 11 + (-9).",
+    "type": "typed",
+    "accept": [
+      "-2"
+    ],
+    "solution": "Work left to right: (-4)+11 = 7, then +(-9) = -2.",
+    "tpl": "integers:medium:7"
+  },
+  {
+    "q": "An account has $20. A purchase of $51 is made (overdraft allowed). What is the new balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "-31"
+    ],
+    "solution": "20 − 51 = -31.",
+    "tpl": "integers:medium:9"
   }
 ]

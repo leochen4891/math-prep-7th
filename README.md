@@ -48,10 +48,14 @@ site/                 the web app (static HTML/CSS/JS — no build step)
   css/styles.css
   js/data.js          chapter metadata + lessons
   js/app.js           app logic (lessons, difficulty chooser, test engine)
-  js/generators.js    question generators (used only by the dump tool, not at runtime)
-  questions/          the JSON question pools  ← contribute here
-tools/                Node scripts that generated the initial pools
+  questions/          the JSON question pools (served to the browser)  ← edit these to fix a question
+tools/
+  templates/<chapter>.js   question-generator templates (10+ per tier; node modules)
+  dump-questions.js        builds the balanced, template-tagged JSON pools
+  competition.js           appends hand-authored competition problems
 ```
+
+Each test draws 20 questions from a pool with **at most 2 from any one template** (every tier has 10+ distinct problem types). To add problem *types*, edit the template files; to fix an individual question, edit the JSON.
 
 ## Running locally
 

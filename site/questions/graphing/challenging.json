@@ -1,467 +1,699 @@
 [
   {
-    "q": "A number is multiplied by 4, then increased by 4. The result is 40. What is the number?",
+    "q": "The average of 3 test scores is 80. 2 of them are 67, 80. What is the remaining score?",
     "type": "typed",
     "accept": [
-      "9"
+      "93"
     ],
-    "solution": "Work backwards: 40 − 4 = 36, ÷ 4 = 9. (Equation: 4x + 4 = 40.)"
+    "solution": "Total needed = 80 × 3 = 240. Known sum = 147. Missing = 240 − 147 = 93.",
+    "tpl": "graphing:challenging:10"
   },
   {
-    "q": "The sum of two consecutive integers is 35. What is the smaller one?",
+    "q": "Four consecutive odd integers add up to 112. What is the largest one?",
     "type": "typed",
     "accept": [
-      "17"
+      "31"
     ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 35, so x = 17."
+    "solution": "Let them be n, n+2, n+4, n+6. Sum = 4n + 12 = 112, so 4n = 100, n = 25. Largest = 31.",
+    "tpl": "graphing:challenging:3"
   },
   {
-    "q": "Maria is 3 times as old as her brother. Together they are 32. How old is her brother?",
+    "q": "If point (3, -7) is reflected over the line y = x, what are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(-3, -7)",
+      "(3, 7)",
+      "(-7, 3)",
+      "(7, -3)"
+    ],
+    "answer": 2,
+    "solution": "Reflecting over the line y = x swaps the coordinates: (3, -7) becomes (-7, 3).",
+    "tpl": "graphing:challenging:6"
+  },
+  {
+    "q": "In which quadrant is the midpoint of the segment from (2, 3) to (-5, 5)?",
+    "type": "mc",
+    "choices": [
+      "Quadrant III",
+      "Quadrant IV",
+      "Quadrant II",
+      "Quadrant I"
+    ],
+    "answer": 2,
+    "solution": "Midpoint = ((2+-5)/2, (3+5)/2) = (-1.5, 4), which is in Quadrant II.",
+    "tpl": "graphing:challenging:11"
+  },
+  {
+    "q": "The average of 4 test scores is 71. 3 of them are 90, 79, 64. What is the remaining score?",
     "type": "typed",
     "accept": [
-      "8"
+      "51"
     ],
-    "solution": "Brother = x, Maria = 3x. x + 3x = 4x = 32, so x = 8."
+    "solution": "Total needed = 71 × 4 = 284. Known sum = 233. Missing = 284 − 233 = 51.",
+    "tpl": "graphing:challenging:10"
   },
   {
-    "q": "A number is multiplied by 3, then increased by 8. The result is 44. What is the number?",
+    "q": "A right triangle has its right angle at the origin, one leg 7 units along the x-axis and the other 7 units along the y-axis. What is its area (square units)?",
+    "type": "typed",
+    "accept": [
+      "49/2"
+    ],
+    "solution": "Area = (1/2) × 7 × 7 = 49/2 = 49/2 square units.",
+    "tpl": "graphing:challenging:0"
+  },
+  {
+    "q": "A jar has some dimes and 2 more quarters than dimes. If there are 5 dimes, what is the total value in cents?",
+    "type": "typed",
+    "accept": [
+      "225"
+    ],
+    "solution": "Quarters = 5 + 2 = 7. Value = 5×10 + 7×25 = 50 + 175 = 225 cents.",
+    "tpl": "graphing:challenging:5"
+  },
+  {
+    "q": "If point (-1, 1) is reflected over the line y = x, what are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(1, -1)",
+      "(-1, 1)",
+      "(1, 1)",
+      "(-1, -1)"
+    ],
+    "answer": 0,
+    "solution": "Reflecting over the line y = x swaps the coordinates: (-1, 1) becomes (1, -1).",
+    "tpl": "graphing:challenging:6"
+  },
+  {
+    "q": "The average of 5 test scores is 90. 4 of them are 94, 68, 81, 86. What is the remaining score?",
+    "type": "typed",
+    "accept": [
+      "121"
+    ],
+    "solution": "x",
+    "tpl": "graphing:challenging:10"
+  },
+  {
+    "q": "A rectangle has corners (4, -3), (6, -3), (6, 3), and (4, 3). What is its area in square units?",
     "type": "typed",
     "accept": [
       "12"
     ],
-    "solution": "Work backwards: 44 − 8 = 36, ÷ 3 = 12. (Equation: 3x + 8 = 44.)"
+    "solution": "Width = 6 − 4 = 2. Height = 3 − -3 = 6. Area = 2 × 6 = 12.",
+    "tpl": "graphing:challenging:1"
   },
   {
-    "q": "A number is multiplied by 2, then increased by 3. The result is 25. What is the number?",
+    "q": "A right triangle has its right angle at the origin, one leg 10 units along the x-axis and the other 8 units along the y-axis. What is its area (square units)?",
     "type": "typed",
     "accept": [
-      "11"
+      "40"
     ],
-    "solution": "Work backwards: 25 − 3 = 22, ÷ 2 = 11. (Equation: 2x + 3 = 25.)"
+    "solution": "Area = (1/2) × base × height = (1/2) × 10 × 8 = 40 square units.",
+    "tpl": "graphing:challenging:0"
   },
   {
-    "q": "A number is multiplied by 4, then increased by 9. The result is 45. What is the number?",
+    "q": "Two numbers have a sum of 53 and a difference of 9. What is the larger number?",
     "type": "typed",
     "accept": [
-      "9"
+      "31"
     ],
-    "solution": "Work backwards: 45 − 9 = 36, ÷ 4 = 9. (Equation: 4x + 9 = 45.)"
+    "solution": "Larger = (sum + difference) / 2 = (53 + 9) / 2 = 62 / 2 = 31.",
+    "tpl": "graphing:challenging:9"
   },
   {
-    "q": "A number is multiplied by 2, then increased by 5. The result is 29. What is the number?",
-    "type": "typed",
-    "accept": [
-      "12"
+    "q": "In which quadrant is the midpoint of the segment from (4, -3) to (3, 2)?",
+    "type": "mc",
+    "choices": [
+      "Quadrant I",
+      "Quadrant IV",
+      "Quadrant III",
+      "Quadrant II"
     ],
-    "solution": "Work backwards: 29 − 5 = 24, ÷ 2 = 12. (Equation: 2x + 5 = 29.)"
+    "answer": 1,
+    "solution": "Midpoint = ((4+3)/2, (-3+2)/2) = (3.5, -0.5), which is in Quadrant IV.",
+    "tpl": "graphing:challenging:11"
   },
   {
-    "q": "The sum of two consecutive integers is 31. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 31, so x = 15."
-  },
-  {
-    "q": "The sum of two consecutive integers is 17. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 17, so x = 8."
-  },
-  {
-    "q": "Maria is 2 times as old as her brother. Together they are 36. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Brother = x, Maria = 2x. x + 2x = 3x = 36, so x = 12."
-  },
-  {
-    "q": "Maria is 4 times as old as her brother. Together they are 45. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 45, so x = 9."
-  },
-  {
-    "q": "Maria is 4 times as old as her brother. Together they are 35. How old is her brother?",
+    "q": "Tank A holds 94 liters and loses 3 liters each hour. Tank B holds 17 liters and gains 8 liters each hour. After how many hours do they hold the same amount?",
     "type": "typed",
     "accept": [
       "7"
     ],
-    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 35, so x = 7."
+    "solution": "94 − 3h = 17 + 8h. So 94 − 17 = (8 + 3)h, 77 = 11h, h = 7.",
+    "tpl": "graphing:challenging:8"
   },
   {
-    "q": "A number is multiplied by 4, then increased by 8. The result is 36. What is the number?",
+    "q": "A jar has some dimes and 7 more quarters than dimes. If there are 11 dimes, what is the total value in cents?",
     "type": "typed",
     "accept": [
-      "7"
+      "560"
     ],
-    "solution": "Work backwards: 36 − 8 = 28, ÷ 4 = 7. (Equation: 4x + 8 = 36.)"
+    "solution": "Quarters = 11 + 7 = 18. Value = 11×10 + 18×25 = 110 + 450 = 560 cents.",
+    "tpl": "graphing:challenging:5"
   },
   {
-    "q": "The sum of two consecutive integers is 27. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 27, so x = 13."
-  },
-  {
-    "q": "Maria is 4 times as old as her brother. Together they are 60. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 60, so x = 12."
-  },
-  {
-    "q": "Maria is 2 times as old as her brother. Together they are 24. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Brother = x, Maria = 2x. x + 2x = 3x = 24, so x = 8."
-  },
-  {
-    "q": "The sum of two consecutive integers is 51. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 51, so x = 25."
-  },
-  {
-    "q": "Maria is 2 times as old as her brother. Together they are 27. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Brother = x, Maria = 2x. x + 2x = 3x = 27, so x = 9."
-  },
-  {
-    "q": "Maria is 3 times as old as her brother. Together they are 44. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Brother = x, Maria = 3x. x + 3x = 4x = 44, so x = 11."
-  },
-  {
-    "q": "A number is multiplied by 4, then increased by 6. The result is 42. What is the number?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Work backwards: 42 − 6 = 36, ÷ 4 = 9. (Equation: 4x + 6 = 42.)"
-  },
-  {
-    "q": "A number is multiplied by 4, then increased by 9. The result is 37. What is the number?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Work backwards: 37 − 9 = 28, ÷ 4 = 7. (Equation: 4x + 9 = 37.)"
-  },
-  {
-    "q": "A number is multiplied by 3, then increased by 2. The result is 14. What is the number?",
+    "q": "Tank A holds 60 liters and loses 4 liters each hour. Tank B holds 16 liters and gains 7 liters each hour. After how many hours do they hold the same amount?",
     "type": "typed",
     "accept": [
       "4"
     ],
-    "solution": "Work backwards: 14 − 2 = 12, ÷ 3 = 4. (Equation: 3x + 2 = 14.)"
+    "solution": "60 − 4h = 16 + 7h. So 60 − 16 = (7 + 4)h, 44 = 11h, h = 4.",
+    "tpl": "graphing:challenging:8"
   },
   {
-    "q": "The sum of two consecutive integers is 25. What is the smaller one?",
+    "q": "A jar has some dimes and 2 more quarters than dimes. If there are 8 dimes, what is the total value in cents?",
     "type": "typed",
     "accept": [
-      "12"
+      "330"
     ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 25, so x = 12."
+    "solution": "Quarters = 8 + 2 = 10. Value = 8×10 + 10×25 = 80 + 250 = 330 cents.",
+    "tpl": "graphing:challenging:5"
   },
   {
-    "q": "Maria is 3 times as old as her brother. Together they are 48. How old is her brother?",
+    "q": "To travel from (3, -6) to (-2, 4) you may only move along grid lines (horizontally and vertically). What is the shortest such distance?",
     "type": "typed",
     "accept": [
-      "12"
+      "15"
     ],
-    "solution": "Brother = x, Maria = 3x. x + 3x = 4x = 48, so x = 12."
+    "solution": "Horizontal change |-2 − 3| = 5, vertical change |4 − -6| = 10. Total = 15 units.",
+    "tpl": "graphing:challenging:2"
   },
   {
-    "q": "A number is multiplied by 4, then increased by 7. The result is 51. What is the number?",
+    "q": "A right triangle has its right angle at the origin, one leg 6 units along the x-axis and the other 9 units along the y-axis. What is its area (square units)?",
     "type": "typed",
     "accept": [
-      "11"
+      "27"
     ],
-    "solution": "Work backwards: 51 − 7 = 44, ÷ 4 = 11. (Equation: 4x + 7 = 51.)"
+    "solution": "Area = (1/2) × base × height = (1/2) × 6 × 9 = 27 square units.",
+    "tpl": "graphing:challenging:0"
   },
   {
-    "q": "A number is multiplied by 4, then increased by 3. The result is 51. What is the number?",
+    "q": "A cyclist rides at 8 miles per hour for 2 hours to reach a park, then rides the same route home. What is the total distance in miles?",
     "type": "typed",
     "accept": [
-      "12"
+      "32"
     ],
-    "solution": "Work backwards: 51 − 3 = 48, ÷ 4 = 12. (Equation: 4x + 3 = 51.)"
+    "solution": "One way = 8 × 2 = 16 miles. Round trip = 2 × 16 = 32 miles.",
+    "tpl": "graphing:challenging:7"
   },
   {
-    "q": "A number is multiplied by 3, then increased by 9. The result is 36. What is the number?",
+    "q": "A jar has some dimes and 5 more quarters than dimes. If there are 9 dimes, what is the total value in cents?",
     "type": "typed",
     "accept": [
-      "9"
+      "440"
     ],
-    "solution": "Work backwards: 36 − 9 = 27, ÷ 3 = 9. (Equation: 3x + 9 = 36.)"
+    "solution": "Quarters = 9 + 5 = 14. Value = 9×10 + 14×25 = 90 + 350 = 440 cents.",
+    "tpl": "graphing:challenging:5"
   },
   {
-    "q": "A number is multiplied by 2, then increased by 7. The result is 23. What is the number?",
+    "q": "A child is 9 years old. In 4 years, a parent will be 3 times as old as the child is then. How old is the parent now?",
     "type": "typed",
     "accept": [
-      "8"
+      "35"
     ],
-    "solution": "Work backwards: 23 − 7 = 16, ÷ 2 = 8. (Equation: 2x + 7 = 23.)"
+    "solution": "In 4 years the child is 13, so the parent will be 3 × 13 = 39. Now the parent is 39 − 4 = 35.",
+    "tpl": "graphing:challenging:4"
   },
   {
-    "q": "Maria is 3 times as old as her brother. Together they are 40. How old is her brother?",
+    "q": "A cyclist rides at 7 miles per hour for 6 hours to reach a park, then rides the same route home. What is the total distance in miles?",
     "type": "typed",
     "accept": [
-      "10"
+      "84"
     ],
-    "solution": "Brother = x, Maria = 3x. x + 3x = 4x = 40, so x = 10."
+    "solution": "One way = 7 × 6 = 42 miles. Round trip = 2 × 42 = 84 miles.",
+    "tpl": "graphing:challenging:7"
   },
   {
-    "q": "The sum of two consecutive integers is 45. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 45, so x = 22."
-  },
-  {
-    "q": "The sum of two consecutive integers is 19. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 19, so x = 9."
-  },
-  {
-    "q": "Maria is 4 times as old as her brother. Together they are 65. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 65, so x = 13."
-  },
-  {
-    "q": "A number is multiplied by 2, then increased by 9. The result is 33. What is the number?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Work backwards: 33 − 9 = 24, ÷ 2 = 12. (Equation: 2x + 9 = 33.)"
-  },
-  {
-    "q": "The sum of two consecutive integers is 37. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 37, so x = 18."
-  },
-  {
-    "q": "The sum of two consecutive integers is 39. What is the smaller one?",
+    "q": "To travel from (-5, 6) to (2, -6) you may only move along grid lines (horizontally and vertically). What is the shortest such distance?",
     "type": "typed",
     "accept": [
       "19"
     ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 39, so x = 19."
+    "solution": "Horizontal change |2 − -5| = 7, vertical change |-6 − 6| = 12. Total = 19 units.",
+    "tpl": "graphing:challenging:2"
   },
   {
-    "q": "The sum of two consecutive integers is 33. What is the smaller one?",
+    "q": "A child is 12 years old. In 4 years, a parent will be 3 times as old as the child is then. How old is the parent now?",
     "type": "typed",
     "accept": [
-      "16"
+      "44"
     ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 33, so x = 16."
+    "solution": "In 4 years the child is 16, so the parent will be 3 × 16 = 48. Now the parent is 48 − 4 = 44.",
+    "tpl": "graphing:challenging:4"
   },
   {
-    "q": "A number is multiplied by 2, then increased by 3. The result is 21. What is the number?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Work backwards: 21 − 3 = 18, ÷ 2 = 9. (Equation: 2x + 3 = 21.)"
-  },
-  {
-    "q": "The sum of two consecutive integers is 41. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 41, so x = 20."
-  },
-  {
-    "q": "A number is multiplied by 4, then increased by 2. The result is 26. What is the number?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Work backwards: 26 − 2 = 24, ÷ 4 = 6. (Equation: 4x + 2 = 26.)"
-  },
-  {
-    "q": "A number is multiplied by 2, then increased by 9. The result is 27. What is the number?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Work backwards: 27 − 9 = 18, ÷ 2 = 9. (Equation: 2x + 9 = 27.)"
-  },
-  {
-    "q": "A number is multiplied by 2, then increased by 9. The result is 31. What is the number?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Work backwards: 31 − 9 = 22, ÷ 2 = 11. (Equation: 2x + 9 = 31.)"
-  },
-  {
-    "q": "Maria is 4 times as old as her brother. Together they are 50. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 50, so x = 10."
-  },
-  {
-    "q": "The sum of two consecutive integers is 21. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 21, so x = 10."
-  },
-  {
-    "q": "The sum of two consecutive integers is 29. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 29, so x = 14."
-  },
-  {
-    "q": "The sum of two consecutive integers is 49. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 49, so x = 24."
-  },
-  {
-    "q": "Maria is 4 times as old as her brother. Together they are 70. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 70, so x = 14."
-  },
-  {
-    "q": "Maria is 2 times as old as her brother. Together they are 30. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Brother = x, Maria = 2x. x + 2x = 3x = 30, so x = 10."
-  },
-  {
-    "q": "Maria is 3 times as old as her brother. Together they are 24. How old is her brother?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Brother = x, Maria = 3x. x + 3x = 4x = 24, so x = 6."
-  },
-  {
-    "q": "The sum of two consecutive integers is 47. What is the smaller one?",
-    "type": "typed",
-    "accept": [
-      "23"
-    ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 47, so x = 23."
-  },
-  {
-    "q": "Maria is 3 times as old as her brother. Together they are 52. How old is her brother?",
+    "q": "Two numbers have a sum of 21 and a difference of 5. What is the larger number?",
     "type": "typed",
     "accept": [
       "13"
     ],
-    "solution": "Brother = x, Maria = 3x. x + 3x = 4x = 52, so x = 13."
+    "solution": "Larger = (sum + difference) / 2 = (21 + 5) / 2 = 26 / 2 = 13.",
+    "tpl": "graphing:challenging:9"
   },
   {
-    "q": "A number is multiplied by 3, then increased by 5. The result is 29. What is the number?",
+    "q": "Tank A holds 99 liters and loses 2 liters each hour. Tank B holds 18 liters and gains 7 liters each hour. After how many hours do they hold the same amount?",
     "type": "typed",
     "accept": [
-      "8"
+      "9"
     ],
-    "solution": "Work backwards: 29 − 5 = 24, ÷ 3 = 8. (Equation: 3x + 5 = 29.)"
+    "solution": "99 − 2h = 18 + 7h. So 99 − 18 = (7 + 2)h, 81 = 9h, h = 9.",
+    "tpl": "graphing:challenging:8"
   },
   {
-    "q": "The sum of two consecutive integers is 43. What is the smaller one?",
+    "q": "Four consecutive odd integers add up to 72. What is the largest one?",
     "type": "typed",
     "accept": [
       "21"
     ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 43, so x = 21."
+    "solution": "Let them be n, n+2, n+4, n+6. Sum = 4n + 12 = 72, so 4n = 60, n = 15. Largest = 21.",
+    "tpl": "graphing:challenging:3"
   },
   {
-    "q": "Maria is 4 times as old as her brother. Together they are 40. How old is her brother?",
+    "q": "Tank A holds 65 liters and loses 4 liters each hour. Tank B holds 29 liters and gains 8 liters each hour. After how many hours do they hold the same amount?",
     "type": "typed",
     "accept": [
-      "8"
+      "3"
     ],
-    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 40, so x = 8."
+    "solution": "65 − 4h = 29 + 8h. So 65 − 29 = (8 + 4)h, 36 = 12h, h = 3.",
+    "tpl": "graphing:challenging:8"
   },
   {
-    "q": "Maria is 4 times as old as her brother. Together they are 55. How old is her brother?",
+    "q": "Tank A holds 111 liters and loses 5 liters each hour. Tank B holds 21 liters and gains 10 liters each hour. After how many hours do they hold the same amount?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "111 − 5h = 21 + 10h. So 111 − 21 = (10 + 5)h, 90 = 15h, h = 6.",
+    "tpl": "graphing:challenging:8"
+  },
+  {
+    "q": "A cyclist rides at 3 miles per hour for 4 hours to reach a park, then rides the same route home. What is the total distance in miles?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "One way = 3 × 4 = 12 miles. Round trip = 2 × 12 = 24 miles.",
+    "tpl": "graphing:challenging:7"
+  },
+  {
+    "q": "To travel from (3, -6) to (-5, 4) you may only move along grid lines (horizontally and vertically). What is the shortest such distance?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Horizontal change |-5 − 3| = 8, vertical change |4 − -6| = 10. Total = 18 units.",
+    "tpl": "graphing:challenging:2"
+  },
+  {
+    "q": "A cyclist rides at 8 miles per hour for 6 hours to reach a park, then rides the same route home. What is the total distance in miles?",
+    "type": "typed",
+    "accept": [
+      "96"
+    ],
+    "solution": "One way = 8 × 6 = 48 miles. Round trip = 2 × 48 = 96 miles.",
+    "tpl": "graphing:challenging:7"
+  },
+  {
+    "q": "Four consecutive odd integers add up to 32. What is the largest one?",
     "type": "typed",
     "accept": [
       "11"
     ],
-    "solution": "Brother = x, Maria = 4x. x + 4x = 5x = 55, so x = 11."
+    "solution": "Let them be n, n+2, n+4, n+6. Sum = 4n + 12 = 32, so 4n = 20, n = 5. Largest = 11.",
+    "tpl": "graphing:challenging:3"
   },
   {
-    "q": "Maria is 2 times as old as her brother. Together they are 39. How old is her brother?",
+    "q": "If point (6, -5) is reflected over the line y = x, what are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(6, 5)",
+      "(-5, 6)",
+      "(5, -6)",
+      "(-6, -5)"
+    ],
+    "answer": 1,
+    "solution": "Reflecting over the line y = x swaps the coordinates: (6, -5) becomes (-5, 6).",
+    "tpl": "graphing:challenging:6"
+  },
+  {
+    "q": "The average of 3 test scores is 83. 2 of them are 94, 62. What is the remaining score?",
     "type": "typed",
     "accept": [
-      "13"
+      "93"
     ],
-    "solution": "Brother = x, Maria = 2x. x + 2x = 3x = 39, so x = 13."
+    "solution": "Total needed = 83 × 3 = 249. Known sum = 156. Missing = 249 − 156 = 93.",
+    "tpl": "graphing:challenging:10"
   },
   {
-    "q": "The sum of two consecutive integers is 23. What is the smaller one?",
+    "q": "The average of 5 test scores is 72. 4 of them are 76, 71, 84, 69. What is the remaining score?",
     "type": "typed",
     "accept": [
-      "11"
+      "60"
     ],
-    "solution": "Consecutive integers x and x+1: 2x + 1 = 23, so x = 11."
+    "solution": "Total needed = 72 × 5 = 360. Known sum = 300. Missing = 360 − 300 = 60.",
+    "tpl": "graphing:challenging:10"
   },
   {
-    "q": "A number is multiplied by 4, then increased by 2. The result is 34. What is the number?",
+    "q": "A right triangle has its right angle at the origin, one leg 12 units along the x-axis and the other 5 units along the y-axis. What is its area (square units)?",
     "type": "typed",
     "accept": [
-      "8"
+      "30"
     ],
-    "solution": "Work backwards: 34 − 2 = 32, ÷ 4 = 8. (Equation: 4x + 2 = 34.)"
+    "solution": "Area = (1/2) × base × height = (1/2) × 12 × 5 = 30 square units.",
+    "tpl": "graphing:challenging:0"
   },
   {
-    "q": "Maria is 3 times as old as her brother. Together they are 36. How old is her brother?",
+    "q": "In which quadrant is the midpoint of the segment from (5, -2) to (5, -5)?",
+    "type": "mc",
+    "choices": [
+      "Quadrant III",
+      "Quadrant II",
+      "Quadrant I",
+      "Quadrant IV"
+    ],
+    "answer": 3,
+    "solution": "Midpoint = ((5+5)/2, (-2+-5)/2) = (5, -3.5), which is in Quadrant IV.",
+    "tpl": "graphing:challenging:11"
+  },
+  {
+    "q": "A jar has some dimes and 2 more quarters than dimes. If there are 7 dimes, what is the total value in cents?",
+    "type": "typed",
+    "accept": [
+      "295"
+    ],
+    "solution": "Quarters = 7 + 2 = 9. Value = 7×10 + 9×25 = 70 + 225 = 295 cents.",
+    "tpl": "graphing:challenging:5"
+  },
+  {
+    "q": "In which quadrant is the midpoint of the segment from (-6, -8) to (7, -3)?",
+    "type": "mc",
+    "choices": [
+      "Quadrant III",
+      "Quadrant II",
+      "Quadrant IV",
+      "Quadrant I"
+    ],
+    "answer": 2,
+    "solution": "Midpoint = ((-6+7)/2, (-8+-3)/2) = (0.5, -5.5), which is in Quadrant IV.",
+    "tpl": "graphing:challenging:11"
+  },
+  {
+    "q": "Four consecutive odd integers add up to 88. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Let them be n, n+2, n+4, n+6. Sum = 4n + 12 = 88, so 4n = 76, n = 19. Largest = 25.",
+    "tpl": "graphing:challenging:3"
+  },
+  {
+    "q": "If point (6, 2) is reflected over the line y = x, what are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(6, -2)",
+      "(2, 6)",
+      "(-6, 2)",
+      "(-2, -6)"
+    ],
+    "answer": 1,
+    "solution": "Reflecting over the line y = x swaps the coordinates: (6, 2) becomes (2, 6).",
+    "tpl": "graphing:challenging:6"
+  },
+  {
+    "q": "A rectangle has corners (5, 4), (11, 4), (11, 7), and (5, 7). What is its area in square units?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Width = 11 − 5 = 6. Height = 7 − 4 = 3. Area = 6 × 3 = 18.",
+    "tpl": "graphing:challenging:1"
+  },
+  {
+    "q": "Two numbers have a sum of 43 and a difference of 5. What is the larger number?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Larger = (sum + difference) / 2 = (43 + 5) / 2 = 48 / 2 = 24.",
+    "tpl": "graphing:challenging:9"
+  },
+  {
+    "q": "A rectangle has corners (-2, -2), (2, -2), (2, 3), and (-2, 3). What is its area in square units?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Width = 2 − -2 = 4. Height = 3 − -2 = 5. Area = 4 × 5 = 20.",
+    "tpl": "graphing:challenging:1"
+  },
+  {
+    "q": "Two numbers have a sum of 46 and a difference of 16. What is the larger number?",
+    "type": "typed",
+    "accept": [
+      "31"
+    ],
+    "solution": "Larger = (sum + difference) / 2 = (46 + 16) / 2 = 62 / 2 = 31.",
+    "tpl": "graphing:challenging:9"
+  },
+  {
+    "q": "A rectangle has corners (4, 2), (9, 2), (9, 4), and (4, 4). What is its area in square units?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Width = 9 − 4 = 5. Height = 4 − 2 = 2. Area = 5 × 2 = 10.",
+    "tpl": "graphing:challenging:1"
+  },
+  {
+    "q": "A rectangle has corners (-3, -5), (3, -5), (3, 0), and (-3, 0). What is its area in square units?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Width = 3 − -3 = 6. Height = 0 − -5 = 5. Area = 6 × 5 = 30.",
+    "tpl": "graphing:challenging:1"
+  },
+  {
+    "q": "If point (8, -7) is reflected over the line y = x, what are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(7, -8)",
+      "(-7, 8)",
+      "(-8, -7)",
+      "(8, 7)"
+    ],
+    "answer": 1,
+    "solution": "Reflecting over the line y = x swaps the coordinates: (8, -7) becomes (-7, 8).",
+    "tpl": "graphing:challenging:6"
+  },
+  {
+    "q": "A rectangle has corners (-2, 5), (0, 5), (0, 8), and (-2, 8). What is its area in square units?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Width = 0 − -2 = 2. Height = 8 − 5 = 3. Area = 2 × 3 = 6.",
+    "tpl": "graphing:challenging:1"
+  },
+  {
+    "q": "If point (3, -1) is reflected over the line y = x, what are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(1, -3)",
+      "(3, 1)",
+      "(-1, 3)",
+      "(-3, -1)"
+    ],
+    "answer": 2,
+    "solution": "Reflecting over the line y = x swaps the coordinates: (3, -1) becomes (-1, 3).",
+    "tpl": "graphing:challenging:6"
+  },
+  {
+    "q": "A cyclist rides at 3 miles per hour for 3 hours to reach a park, then rides the same route home. What is the total distance in miles?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "One way = 3 × 3 = 9 miles. Round trip = 2 × 9 = 18 miles.",
+    "tpl": "graphing:challenging:7"
+  },
+  {
+    "q": "A right triangle has its right angle at the origin, one leg 6 units along the x-axis and the other 5 units along the y-axis. What is its area (square units)?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Area = (1/2) × base × height = (1/2) × 6 × 5 = 15 square units.",
+    "tpl": "graphing:challenging:0"
+  },
+  {
+    "q": "To travel from (6, -5) to (-2, 6) you may only move along grid lines (horizontally and vertically). What is the shortest such distance?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Horizontal change |-2 − 6| = 8, vertical change |6 − -5| = 11. Total = 19 units.",
+    "tpl": "graphing:challenging:2"
+  },
+  {
+    "q": "In which quadrant is the midpoint of the segment from (-4, 2) to (-7, 2)?",
+    "type": "mc",
+    "choices": [
+      "Quadrant III",
+      "Quadrant IV",
+      "Quadrant I",
+      "Quadrant II"
+    ],
+    "answer": 3,
+    "solution": "Midpoint = ((-4+-7)/2, (2+2)/2) = (-5.5, 2), which is in Quadrant II.",
+    "tpl": "graphing:challenging:11"
+  },
+  {
+    "q": "A cyclist rides at 6 miles per hour for 2 hours to reach a park, then rides the same route home. What is the total distance in miles?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "One way = 6 × 2 = 12 miles. Round trip = 2 × 12 = 24 miles.",
+    "tpl": "graphing:challenging:7"
+  },
+  {
+    "q": "The average of 5 test scores is 73. 4 of them are 79, 65, 72, 81. What is the remaining score?",
+    "type": "typed",
+    "accept": [
+      "68"
+    ],
+    "solution": "Total needed = 73 × 5 = 365. Known sum = 297. Missing = 365 − 297 = 68.",
+    "tpl": "graphing:challenging:10"
+  },
+  {
+    "q": "To travel from (4, -6) to (-6, -4) you may only move along grid lines (horizontally and vertically). What is the shortest such distance?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Horizontal change |-6 − 4| = 10, vertical change |-4 − -6| = 2. Total = 12 units.",
+    "tpl": "graphing:challenging:2"
+  },
+  {
+    "q": "A child is 9 years old. In 5 years, a parent will be 2 times as old as the child is then. How old is the parent now?",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "In 5 years the child is 14, so the parent will be 2 × 14 = 28. Now the parent is 28 − 5 = 23.",
+    "tpl": "graphing:challenging:4"
+  },
+  {
+    "q": "Two numbers have a sum of 34 and a difference of 12. What is the larger number?",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "Larger = (sum + difference) / 2 = (34 + 12) / 2 = 46 / 2 = 23.",
+    "tpl": "graphing:challenging:9"
+  },
+  {
+    "q": "A right triangle has its right angle at the origin, one leg 10 units along the x-axis and the other 5 units along the y-axis. What is its area (square units)?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Area = (1/2) × base × height = (1/2) × 10 × 5 = 25 square units.",
+    "tpl": "graphing:challenging:0"
+  },
+  {
+    "q": "A jar has some dimes and 3 more quarters than dimes. If there are 7 dimes, what is the total value in cents?",
+    "type": "typed",
+    "accept": [
+      "320"
+    ],
+    "solution": "Quarters = 7 + 3 = 10. Value = 7×10 + 10×25 = 70 + 250 = 320 cents.",
+    "tpl": "graphing:challenging:5"
+  },
+  {
+    "q": "In which quadrant is the midpoint of the segment from (-8, -5) to (-4, -3)?",
+    "type": "mc",
+    "choices": [
+      "Quadrant IV",
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III"
+    ],
+    "answer": 3,
+    "solution": "Midpoint = ((-8+-4)/2, (-5+-3)/2) = (-6, -4), which is in Quadrant III.",
+    "tpl": "graphing:challenging:11"
+  },
+  {
+    "q": "Four consecutive odd integers add up to 104. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "29"
+    ],
+    "solution": "Let them be n, n+2, n+4, n+6. Sum = 4n + 12 = 104, so 4n = 92, n = 23. Largest = 29.",
+    "tpl": "graphing:challenging:3"
+  },
+  {
+    "q": "A child is 8 years old. In 7 years, a parent will be 3 times as old as the child is then. How old is the parent now?",
+    "type": "typed",
+    "accept": [
+      "38"
+    ],
+    "solution": "In 7 years the child is 15, so the parent will be 3 × 15 = 45. Now the parent is 45 − 7 = 38.",
+    "tpl": "graphing:challenging:4"
+  },
+  {
+    "q": "A child is 16 years old. In 3 years, a parent will be 3 times as old as the child is then. How old is the parent now?",
+    "type": "typed",
+    "accept": [
+      "54"
+    ],
+    "solution": "In 3 years the child is 19, so the parent will be 3 × 19 = 57. Now the parent is 57 − 3 = 54.",
+    "tpl": "graphing:challenging:4"
+  },
+  {
+    "q": "Four consecutive odd integers add up to 80. What is the largest one?",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "Let them be n, n+2, n+4, n+6. Sum = 4n + 12 = 80, so 4n = 68, n = 17. Largest = 23.",
+    "tpl": "graphing:challenging:3"
+  },
+  {
+    "q": "Tank A holds 106 liters and loses 5 liters each hour. Tank B holds 28 liters and gains 8 liters each hour. After how many hours do they hold the same amount?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "106 − 5h = 28 + 8h. So 106 − 28 = (8 + 5)h, 78 = 13h, h = 6.",
+    "tpl": "graphing:challenging:8"
+  },
+  {
+    "q": "A child is 15 years old. In 7 years, a parent will be 3 times as old as the child is then. How old is the parent now?",
+    "type": "typed",
+    "accept": [
+      "59"
+    ],
+    "solution": "In 7 years the child is 22, so the parent will be 3 × 22 = 66. Now the parent is 66 − 7 = 59.",
+    "tpl": "graphing:challenging:4"
+  },
+  {
+    "q": "To travel from (-3, 5) to (-6, -1) you may only move along grid lines (horizontally and vertically). What is the shortest such distance?",
     "type": "typed",
     "accept": [
       "9"
     ],
-    "solution": "Brother = x, Maria = 3x. x + 3x = 4x = 36, so x = 9."
+    "solution": "Horizontal change |-6 − -3| = 3, vertical change |-1 − 5| = 6. Total = 9 units.",
+    "tpl": "graphing:challenging:2"
+  },
+  {
+    "q": "Two numbers have a sum of 39 and a difference of 19. What is the larger number?",
+    "type": "typed",
+    "accept": [
+      "29"
+    ],
+    "solution": "Larger = (sum + difference) / 2 = (39 + 19) / 2 = 58 / 2 = 29.",
+    "tpl": "graphing:challenging:9"
   },
   {
     "q": "A rectangle's length is twice its width, and its perimeter is 36. What is the width?",
@@ -470,7 +702,8 @@
       "6"
     ],
     "solution": "Let width = w, so length = 2w. Perimeter = 2(w + 2w) = 6w = 36, giving w = 6. (Length is 12.)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:graphing:0"
   },
   {
     "q": "Anna is 4 years older than Ben. In 3 years, the sum of their ages will be 30. How old is Ben now?",
@@ -479,7 +712,8 @@
       "10"
     ],
     "solution": "Let Ben = b now, Anna = b + 4. In 3 years: (b + 3) + (b + 7) = 30, so 2b + 10 = 30, 2b = 20, b = 10.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:graphing:1"
   },
   {
     "q": "The point (a, b) lies in Quadrant II. What are the signs of a and b?",
@@ -492,7 +726,8 @@
     ],
     "answer": 1,
     "solution": "Quadrant II is the top-left region: x is negative and y is positive. So a < 0 and b > 0.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:graphing:2"
   },
   {
     "q": "Tom has twice as many marbles as Jerry. Together they have 18. How many does Tom have?",
@@ -501,7 +736,8 @@
       "12"
     ],
     "solution": "Let Jerry = j, Tom = 2j. Together: j + 2j = 3j = 18, so j = 6 and Tom = 2 × 6 = 12.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:graphing:3"
   },
   {
     "q": "What is the next number in the pattern 1, 3, 6, 10, 15, … ?",
@@ -510,6 +746,7 @@
       "21"
     ],
     "solution": "The gaps grow by one each time: +2, +3, +4, +5, so the next gap is +6. 15 + 6 = 21. (These are the 'triangular numbers.')",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:graphing:4"
   }
 ]

@@ -1,347 +1,92 @@
 [
   {
-    "q": "What is the LCM (least common multiple) of 9 and 2?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "The smallest number that both 9 and 2 divide into evenly is 18."
-  },
-  {
-    "q": "Is 22 prime or composite?",
+    "q": "Which number is a common factor of both 30 and 35?",
     "type": "mc",
     "choices": [
-      "Prime",
-      "Composite"
+      "29",
+      "36",
+      "5",
+      "31"
+    ],
+    "answer": 2,
+    "solution": "5 divides 30 (30 ÷ 5 = 6) and 35 (35 ÷ 5 = 7), so it is a common factor.",
+    "tpl": "numbertheory:medium:9"
+  },
+  {
+    "q": "Is 47 a multiple of 3?",
+    "type": "mc",
+    "choices": [
+      "Yes",
+      "No"
     ],
     "answer": 1,
-    "solution": "22 has factors besides 1 and itself, so it is composite."
+    "solution": "47 is not 3 times a whole number, so no.",
+    "tpl": "numbertheory:medium:8"
   },
   {
-    "q": "What is the LCM (least common multiple) of 6 and 3?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The smallest number that both 6 and 3 divide into evenly is 6."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 2 and 8?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The smallest number that both 2 and 8 divide into evenly is 8."
-  },
-  {
-    "q": "Is 15 prime or composite?",
+    "q": "Which number is a common factor of both 21 and 6?",
     "type": "mc",
     "choices": [
-      "Composite",
-      "Prime"
+      "7",
+      "20",
+      "3",
+      "22"
     ],
-    "answer": 0,
-    "solution": "15 has factors besides 1 and itself, so it is composite."
+    "answer": 2,
+    "solution": "3 divides 21 (21 ÷ 3 = 7) and 6 (6 ÷ 3 = 2), so it is a common factor.",
+    "tpl": "numbertheory:medium:9"
   },
   {
-    "q": "What is the LCM (least common multiple) of 4 and 6?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "The smallest number that both 4 and 6 divide into evenly is 12."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 9 and 7?",
-    "type": "typed",
-    "accept": [
-      "63"
-    ],
-    "solution": "The smallest number that both 9 and 7 divide into evenly is 63."
-  },
-  {
-    "q": "Is 16 prime or composite?",
+    "q": "What is the greatest common factor (GCF) of 30 and 30?",
     "type": "mc",
     "choices": [
-      "Composite",
-      "Prime"
-    ],
-    "answer": 0,
-    "solution": "16 has factors besides 1 and itself, so it is composite."
-  },
-  {
-    "q": "Is 19 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Prime",
-      "Composite"
-    ],
-    "answer": 0,
-    "solution": "19 has exactly two factors (1 and itself), so it is prime."
-  },
-  {
-    "q": "Is 12 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Prime",
-      "Composite"
+      "60",
+      "30",
+      "29",
+      "25"
     ],
     "answer": 1,
-    "solution": "12 has factors besides 1 and itself, so it is composite."
+    "solution": "List shared factors of 30 and 30. The largest is 30.",
+    "tpl": "numbertheory:medium:0"
   },
   {
-    "q": "What is the GCF (greatest common factor) of 16 and 19?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "Is 2 prime or composite?",
+    "q": "How many factors does 20 have?",
     "type": "mc",
     "choices": [
-      "Composite",
-      "Prime"
-    ],
-    "answer": 1,
-    "solution": "2 has exactly two factors (1 and itself), so it is prime."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 9 and 5?",
-    "type": "typed",
-    "accept": [
-      "45"
-    ],
-    "solution": "The smallest number that both 9 and 5 divide into evenly is 45."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 28 and 17?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 26 and 35?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 27 and 35?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 25 and 23?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 8 and 3?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "The smallest number that both 8 and 3 divide into evenly is 24."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 8 and 8?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The smallest number that both 8 and 8 divide into evenly is 8."
-  },
-  {
-    "q": "Is 21 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Prime",
-      "Composite"
-    ],
-    "answer": 1,
-    "solution": "21 has factors besides 1 and itself, so it is composite."
-  },
-  {
-    "q": "Is 3 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Composite",
-      "Prime"
-    ],
-    "answer": 1,
-    "solution": "3 has exactly two factors (1 and itself), so it is prime."
-  },
-  {
-    "q": "Is 29 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Composite",
-      "Prime"
-    ],
-    "answer": 1,
-    "solution": "29 has exactly two factors (1 and itself), so it is prime."
-  },
-  {
-    "q": "Is 13 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Composite",
-      "Prime"
-    ],
-    "answer": 1,
-    "solution": "13 has exactly two factors (1 and itself), so it is prime."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 29 and 40?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 4 and 4?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The smallest number that both 4 and 4 divide into evenly is 4."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 13 and 33?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 6 and 5?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "The smallest number that both 6 and 5 divide into evenly is 30."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 5 and 6?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "The smallest number that both 5 and 6 divide into evenly is 30."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 7 and 9?",
-    "type": "typed",
-    "accept": [
-      "63"
-    ],
-    "solution": "The smallest number that both 7 and 9 divide into evenly is 63."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 36 and 13?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 9 and 9?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "The smallest number that both 9 and 9 divide into evenly is 9."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 25 and 26?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 8 and 22?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 2."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 2 and 4?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The smallest number that both 2 and 4 divide into evenly is 4."
-  },
-  {
-    "q": "Is 23 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Prime",
-      "Composite"
-    ],
-    "answer": 0,
-    "solution": "23 has exactly two factors (1 and itself), so it is prime."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 16 and 28?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 4."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 5 and 5?",
-    "type": "typed",
-    "accept": [
+      "16",
+      "7",
+      "6",
       "5"
     ],
-    "solution": "The smallest number that both 5 and 5 divide into evenly is 5."
+    "answer": 2,
+    "solution": "Factors of 20 come in pairs that multiply to 20. Counting them gives 6.",
+    "tpl": "numbertheory:medium:3"
   },
   {
-    "q": "Is 25 prime or composite?",
+    "q": "What is the least common multiple (LCM) of 4 and 9?",
     "type": "mc",
     "choices": [
-      "Composite",
-      "Prime"
-    ],
-    "answer": 0,
-    "solution": "25 has factors besides 1 and itself, so it is composite."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 11 and 25?",
-    "type": "typed",
-    "accept": [
+      "36",
+      "37",
+      "31",
       "1"
     ],
-    "solution": "List the factors of each; the largest factor they share is 1."
+    "answer": 0,
+    "solution": "The smallest number both 4 and 9 divide into is 36.",
+    "tpl": "numbertheory:medium:1"
   },
   {
-    "q": "What is the GCF (greatest common factor) of 25 and 15?",
-    "type": "typed",
-    "accept": [
-      "5"
+    "q": "What is the smallest multiple of 9 that is greater than 36?",
+    "type": "mc",
+    "choices": [
+      "54",
+      "45",
+      "36",
+      "49"
     ],
-    "solution": "List the factors of each; the largest factor they share is 5."
+    "answer": 1,
+    "solution": "Multiples of 9 near 36: the first one above 36 is 45.",
+    "tpl": "numbertheory:medium:7"
   },
   {
     "q": "Is 9 prime or composite?",
@@ -351,172 +96,807 @@
       "Prime"
     ],
     "answer": 0,
-    "solution": "9 has factors besides 1 and itself, so it is composite."
+    "solution": "9 has a factor other than 1 and itself, so it is composite.",
+    "tpl": "numbertheory:medium:2"
   },
   {
-    "q": "Is 18 prime or composite?",
+    "q": "What is the greatest common factor (GCF) of 30 and 12?",
+    "type": "mc",
+    "choices": [
+      "6",
+      "60",
+      "-4",
+      "12"
+    ],
+    "answer": 0,
+    "solution": "List shared factors of 30 and 12. The largest is 6.",
+    "tpl": "numbertheory:medium:0"
+  },
+  {
+    "q": "What is the prime factorization of 54?",
+    "type": "mc",
+    "choices": [
+      "2² × 7",
+      "2 × 3³",
+      "2 × 3³ × 1",
+      "2² × 3²"
+    ],
+    "answer": 1,
+    "solution": "54 breaks down into primes as 2 × 3³. The other options multiply to a different number or are not fully factored into primes.",
+    "tpl": "numbertheory:medium:10"
+  },
+  {
+    "q": "How many multiples of 3 are there from 1 to 30?",
+    "type": "mc",
+    "choices": [
+      "10",
+      "9",
+      "11",
+      "13"
+    ],
+    "answer": 0,
+    "solution": "Multiples of 3 up to 30: 30 ÷ 3 = 10 of them.",
+    "tpl": "numbertheory:medium:11"
+  },
+  {
+    "q": "Is 36 divisible by 6?",
+    "type": "mc",
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "answer": 1,
+    "solution": "36 ÷ 6 = 6 with no remainder, so yes.",
+    "tpl": "numbertheory:medium:4"
+  },
+  {
+    "q": "Is 30 a multiple of 3?",
+    "type": "mc",
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "answer": 1,
+    "solution": "3 × 10 = 30, so yes.",
+    "tpl": "numbertheory:medium:8"
+  },
+  {
+    "q": "Is 29 prime or composite?",
     "type": "mc",
     "choices": [
       "Composite",
       "Prime"
     ],
-    "answer": 0,
-    "solution": "18 has factors besides 1 and itself, so it is composite."
+    "answer": 1,
+    "solution": "29 has exactly two factors (1 and 29), so it is prime.",
+    "tpl": "numbertheory:medium:2"
   },
   {
-    "q": "Is 10 prime or composite?",
+    "q": "Is 60 a multiple of 6?",
     "type": "mc",
     "choices": [
-      "Composite",
-      "Prime"
+      "No",
+      "Yes"
     ],
-    "answer": 0,
-    "solution": "10 has factors besides 1 and itself, so it is composite."
+    "answer": 1,
+    "solution": "6 × 10 = 60, so yes.",
+    "tpl": "numbertheory:medium:8"
   },
   {
-    "q": "What is the LCM (least common multiple) of 5 and 7?",
-    "type": "typed",
-    "accept": [
+    "q": "What is the smallest multiple of 9 that is greater than 41?",
+    "type": "mc",
+    "choices": [
+      "36",
+      "45",
+      "43",
+      "54"
+    ],
+    "answer": 1,
+    "solution": "Multiples of 9 near 41: the first one above 41 is 45.",
+    "tpl": "numbertheory:medium:7"
+  },
+  {
+    "q": "How many multiples of 4 are there from 1 to 36?",
+    "type": "mc",
+    "choices": [
+      "10",
+      "4",
+      "8",
+      "9"
+    ],
+    "answer": 3,
+    "solution": "Multiples of 4 up to 36: 36 ÷ 4 = 9 of them.",
+    "tpl": "numbertheory:medium:11"
+  },
+  {
+    "q": "Which number is a common factor of both 6 and 15?",
+    "type": "mc",
+    "choices": [
+      "16",
+      "3",
+      "5",
+      "7"
+    ],
+    "answer": 1,
+    "solution": "3 divides 6 (6 ÷ 3 = 2) and 15 (15 ÷ 3 = 5), so it is a common factor.",
+    "tpl": "numbertheory:medium:9"
+  },
+  {
+    "q": "Which number is a common factor of both 28 and 20?",
+    "type": "mc",
+    "choices": [
+      "21",
+      "4",
+      "27",
+      "29"
+    ],
+    "answer": 1,
+    "solution": "4 divides 28 (28 ÷ 4 = 7) and 20 (20 ÷ 4 = 5), so it is a common factor.",
+    "tpl": "numbertheory:medium:9"
+  },
+  {
+    "q": "Is 12 divisible by 4?",
+    "type": "mc",
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "answer": 1,
+    "solution": "12 ÷ 4 = 3 with no remainder, so yes.",
+    "tpl": "numbertheory:medium:4"
+  },
+  {
+    "q": "Which of these numbers is divisible by 5?  (94, 92, 72, 55)",
+    "type": "mc",
+    "choices": [
+      "92",
+      "94",
+      "72",
+      "55"
+    ],
+    "answer": 3,
+    "solution": "55 ÷ 5 = 11, so 55 is divisible by 5.",
+    "tpl": "numbertheory:medium:5"
+  },
+  {
+    "q": "How many factors does the number 9 have?",
+    "type": "mc",
+    "choices": [
+      "0",
+      "4",
+      "3",
+      "2"
+    ],
+    "answer": 2,
+    "solution": "9 = 3 × 3, so its factors are 1, 3, and 9 — that is 3 factors.",
+    "tpl": "numbertheory:medium:6"
+  },
+  {
+    "q": "What is the greatest common factor (GCF) of 36 and 30?",
+    "type": "mc",
+    "choices": [
+      "80",
+      "6",
+      "9",
+      "12"
+    ],
+    "answer": 1,
+    "solution": "List shared factors of 36 and 30. The largest is 6.",
+    "tpl": "numbertheory:medium:0"
+  },
+  {
+    "q": "How many factors does 14 have?",
+    "type": "mc",
+    "choices": [
+      "14",
+      "5",
+      "4",
+      "3"
+    ],
+    "answer": 2,
+    "solution": "Factors of 14 come in pairs that multiply to 14. Counting them gives 4.",
+    "tpl": "numbertheory:medium:3"
+  },
+  {
+    "q": "Which of these numbers is divisible by 6?  (81, 48, 46, 55)",
+    "type": "mc",
+    "choices": [
+      "55",
+      "48",
+      "46",
+      "81"
+    ],
+    "answer": 1,
+    "solution": "48 ÷ 6 = 8, so 48 is divisible by 6.",
+    "tpl": "numbertheory:medium:5"
+  },
+  {
+    "q": "Which of these numbers is divisible by 9?  (71, 56, 45, 66)",
+    "type": "mc",
+    "choices": [
+      "56",
+      "45",
+      "71",
+      "66"
+    ],
+    "answer": 1,
+    "solution": "45 ÷ 9 = 5, so 45 is divisible by 9.",
+    "tpl": "numbertheory:medium:5"
+  },
+  {
+    "q": "What is the smallest multiple of 6 that is greater than 41?",
+    "type": "mc",
+    "choices": [
+      "36",
+      "48",
+      "42",
+      "39"
+    ],
+    "answer": 2,
+    "solution": "Multiples of 6 near 41: the first one above 41 is 42.",
+    "tpl": "numbertheory:medium:7"
+  },
+  {
+    "q": "Is 22 prime or composite?",
+    "type": "mc",
+    "choices": [
+      "Prime",
+      "Composite"
+    ],
+    "answer": 1,
+    "solution": "22 has a factor other than 1 and itself, so it is composite.",
+    "tpl": "numbertheory:medium:2"
+  },
+  {
+    "q": "How many multiples of 4 are there from 1 to 20?",
+    "type": "mc",
+    "choices": [
+      "4",
+      "8",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "solution": "Multiples of 4 up to 20: 20 ÷ 4 = 5 of them.",
+    "tpl": "numbertheory:medium:11"
+  },
+  {
+    "q": "Which of these numbers is divisible by 9?  (35, 52, 72, 39)",
+    "type": "mc",
+    "choices": [
+      "39",
+      "72",
+      "52",
       "35"
     ],
-    "solution": "The smallest number that both 5 and 7 divide into evenly is 35."
+    "answer": 1,
+    "solution": "72 ÷ 9 = 8, so 72 is divisible by 9.",
+    "tpl": "numbertheory:medium:5"
   },
   {
-    "q": "What is the LCM (least common multiple) of 2 and 7?",
-    "type": "typed",
-    "accept": [
+    "q": "What is the least common multiple (LCM) of 6 and 12?",
+    "type": "mc",
+    "choices": [
+      "12",
+      "13",
+      "6",
+      "72"
+    ],
+    "answer": 0,
+    "solution": "The smallest number both 6 and 12 divide into is 12.",
+    "tpl": "numbertheory:medium:1"
+  },
+  {
+    "q": "Which number is a common factor of both 12 and 8?",
+    "type": "mc",
+    "choices": [
+      "11",
+      "4",
+      "13",
+      "9"
+    ],
+    "answer": 1,
+    "solution": "4 divides 12 (12 ÷ 4 = 3) and 8 (8 ÷ 4 = 2), so it is a common factor.",
+    "tpl": "numbertheory:medium:9"
+  },
+  {
+    "q": "Is 23 prime or composite?",
+    "type": "mc",
+    "choices": [
+      "Composite",
+      "Prime"
+    ],
+    "answer": 1,
+    "solution": "23 has exactly two factors (1 and 23), so it is prime.",
+    "tpl": "numbertheory:medium:2"
+  },
+  {
+    "q": "What is the prime factorization of 45?",
+    "type": "mc",
+    "choices": [
+      "2² × 3",
+      "2² × 5",
+      "3² × 5",
+      "3² × 5 × 1"
+    ],
+    "answer": 2,
+    "solution": "45 breaks down into primes as 3² × 5. The other options multiply to a different number or are not fully factored into primes.",
+    "tpl": "numbertheory:medium:10"
+  },
+  {
+    "q": "What is the smallest multiple of 4 that is greater than 32?",
+    "type": "mc",
+    "choices": [
+      "36",
+      "26",
+      "32",
+      "40"
+    ],
+    "answer": 0,
+    "solution": "Multiples of 4 near 32: the first one above 32 is 36.",
+    "tpl": "numbertheory:medium:7"
+  },
+  {
+    "q": "How many factors does 25 have?",
+    "type": "mc",
+    "choices": [
+      "2",
+      "13",
+      "4",
+      "3"
+    ],
+    "answer": 3,
+    "solution": "Factors of 25 come in pairs that multiply to 25. Counting them gives 3.",
+    "tpl": "numbertheory:medium:3"
+  },
+  {
+    "q": "What is the least common multiple (LCM) of 6 and 10?",
+    "type": "mc",
+    "choices": [
+      "40",
+      "60",
+      "30",
+      "2"
+    ],
+    "answer": 2,
+    "solution": "The smallest number both 6 and 10 divide into is 30.",
+    "tpl": "numbertheory:medium:1"
+  },
+  {
+    "q": "How many factors does 18 have?",
+    "type": "mc",
+    "choices": [
+      "5",
+      "7",
+      "-4",
+      "6"
+    ],
+    "answer": 3,
+    "solution": "Factors of 18 come in pairs that multiply to 18. Counting them gives 6.",
+    "tpl": "numbertheory:medium:3"
+  },
+  {
+    "q": "How many factors does the number 21 have?",
+    "type": "mc",
+    "choices": [
+      "3",
+      "9",
+      "4",
+      "2"
+    ],
+    "answer": 2,
+    "solution": "21 = 3 × 7 (two different primes), so it has 4 factors: 1, 3, 7, 21.",
+    "tpl": "numbertheory:medium:6"
+  },
+  {
+    "q": "Is 21 prime or composite?",
+    "type": "mc",
+    "choices": [
+      "Prime",
+      "Composite"
+    ],
+    "answer": 1,
+    "solution": "21 has a factor other than 1 and itself, so it is composite.",
+    "tpl": "numbertheory:medium:2"
+  },
+  {
+    "q": "What is the prime factorization of 24?",
+    "type": "mc",
+    "choices": [
+      "2² × 7",
+      "2³ × 3 × 1",
+      "2 × 3³",
+      "2³ × 3"
+    ],
+    "answer": 3,
+    "solution": "24 breaks down into primes as 2³ × 3. The other options multiply to a different number or are not fully factored into primes.",
+    "tpl": "numbertheory:medium:10"
+  },
+  {
+    "q": "How many factors does 10 have?",
+    "type": "mc",
+    "choices": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "answer": 0,
+    "solution": "Factors of 10 come in pairs that multiply to 10. Counting them gives 4.",
+    "tpl": "numbertheory:medium:3"
+  },
+  {
+    "q": "Which of these numbers is divisible by 3?  (62, 73, 36, 34)",
+    "type": "mc",
+    "choices": [
+      "36",
+      "73",
+      "62",
+      "34"
+    ],
+    "answer": 0,
+    "solution": "36 ÷ 3 = 12, so 36 is divisible by 3.",
+    "tpl": "numbertheory:medium:5"
+  },
+  {
+    "q": "What is the greatest common factor (GCF) of 12 and 12?",
+    "type": "mc",
+    "choices": [
+      "11",
+      "24",
+      "12",
       "14"
     ],
-    "solution": "The smallest number that both 2 and 7 divide into evenly is 14."
+    "answer": 2,
+    "solution": "List shared factors of 12 and 12. The largest is 12.",
+    "tpl": "numbertheory:medium:0"
   },
   {
-    "q": "Is 11 prime or composite?",
+    "q": "Is 18 divisible by 3?",
     "type": "mc",
     "choices": [
-      "Prime",
-      "Composite"
+      "Yes",
+      "No"
     ],
     "answer": 0,
-    "solution": "11 has exactly two factors (1 and itself), so it is prime."
+    "solution": "18 ÷ 3 = 6 with no remainder, so yes.",
+    "tpl": "numbertheory:medium:4"
   },
   {
-    "q": "What is the LCM (least common multiple) of 2 and 6?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The smallest number that both 2 and 6 divide into evenly is 6."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 34 and 29?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "Is 14 prime or composite?",
+    "q": "How many factors does the number 25 have?",
     "type": "mc",
     "choices": [
-      "Prime",
-      "Composite"
-    ],
-    "answer": 1,
-    "solution": "14 has factors besides 1 and itself, so it is composite."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 24 and 30?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 6."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 8 and 2?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The smallest number that both 8 and 2 divide into evenly is 8."
-  },
-  {
-    "q": "Is 27 prime or composite?",
-    "type": "mc",
-    "choices": [
-      "Composite",
-      "Prime"
-    ],
-    "answer": 0,
-    "solution": "27 has factors besides 1 and itself, so it is composite."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 12 and 26?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 2."
-  },
-  {
-    "q": "What is the LCM (least common multiple) of 4 and 7?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "The smallest number that both 4 and 7 divide into evenly is 28."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 28 and 16?",
-    "type": "typed",
-    "accept": [
+      "0",
+      "3",
+      "2",
       "4"
     ],
-    "solution": "List the factors of each; the largest factor they share is 4."
+    "answer": 1,
+    "solution": "25 = 5 × 5, so its factors are 1, 5, and 25 — that is 3 factors.",
+    "tpl": "numbertheory:medium:6"
   },
   {
-    "q": "What is the GCF (greatest common factor) of 20 and 26?",
-    "type": "typed",
-    "accept": [
+    "q": "How many factors does the number 4 have?",
+    "type": "mc",
+    "choices": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "answer": 0,
+    "solution": "4 = 2 × 2, so its factors are 1, 2, and 4 — that is 3 factors.",
+    "tpl": "numbertheory:medium:6"
+  },
+  {
+    "q": "How many multiples of 6 are there from 1 to 20?",
+    "type": "mc",
+    "choices": [
+      "0",
+      "3",
+      "4",
       "2"
     ],
-    "solution": "List the factors of each; the largest factor they share is 2."
+    "answer": 1,
+    "solution": "Multiples of 6 up to 20: 20 ÷ 6 = 3 of them.",
+    "tpl": "numbertheory:medium:11"
   },
   {
-    "q": "Is 17 prime or composite?",
+    "q": "What is the greatest common factor (GCF) of 24 and 8?",
+    "type": "mc",
+    "choices": [
+      "18",
+      "8",
+      "24",
+      "16"
+    ],
+    "answer": 1,
+    "solution": "List shared factors of 24 and 8. The largest is 8.",
+    "tpl": "numbertheory:medium:0"
+  },
+  {
+    "q": "Which of these numbers is divisible by 9?  (70, 144, 95, 21)",
+    "type": "mc",
+    "choices": [
+      "70",
+      "21",
+      "144",
+      "95"
+    ],
+    "answer": 2,
+    "solution": "144 ÷ 9 = 16, so 144 is divisible by 9.",
+    "tpl": "numbertheory:medium:5"
+  },
+  {
+    "q": "What is the least common multiple (LCM) of 4 and 8?",
+    "type": "mc",
+    "choices": [
+      "4",
+      "13",
+      "32",
+      "8"
+    ],
+    "answer": 3,
+    "solution": "The smallest number both 4 and 8 divide into is 8.",
+    "tpl": "numbertheory:medium:1"
+  },
+  {
+    "q": "Is 35 a multiple of 4?",
+    "type": "mc",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "answer": 1,
+    "solution": "35 is not 4 times a whole number, so no.",
+    "tpl": "numbertheory:medium:8"
+  },
+  {
+    "q": "Is 15 prime or composite?",
     "type": "mc",
     "choices": [
       "Composite",
       "Prime"
     ],
-    "answer": 1,
-    "solution": "17 has exactly two factors (1 and itself), so it is prime."
+    "answer": 0,
+    "solution": "15 has a factor other than 1 and itself, so it is composite.",
+    "tpl": "numbertheory:medium:2"
   },
   {
-    "q": "What is the GCF (greatest common factor) of 23 and 24?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "What is the GCF (greatest common factor) of 31 and 34?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "List the factors of each; the largest factor they share is 1."
-  },
-  {
-    "q": "Is 7 prime or composite?",
+    "q": "Is 74 divisible by 10?",
     "type": "mc",
     "choices": [
-      "Composite",
-      "Prime"
+      "No",
+      "Yes"
+    ],
+    "answer": 0,
+    "solution": "74 ÷ 10 leaves a remainder of 4, so no.",
+    "tpl": "numbertheory:medium:4"
+  },
+  {
+    "q": "Which number is a common factor of both 30 and 20?",
+    "type": "mc",
+    "choices": [
+      "21",
+      "29",
+      "5",
+      "31"
+    ],
+    "answer": 2,
+    "solution": "5 divides 30 (30 ÷ 5 = 6) and 20 (20 ÷ 5 = 4), so it is a common factor.",
+    "tpl": "numbertheory:medium:9"
+  },
+  {
+    "q": "What is the greatest common factor (GCF) of 20 and 12?",
+    "type": "mc",
+    "choices": [
+      "60",
+      "8",
+      "4",
+      "-1"
+    ],
+    "answer": 2,
+    "solution": "List shared factors of 20 and 12. The largest is 4.",
+    "tpl": "numbertheory:medium:0"
+  },
+  {
+    "q": "Is 42 divisible by 6?",
+    "type": "mc",
+    "choices": [
+      "No",
+      "Yes"
     ],
     "answer": 1,
-    "solution": "7 has exactly two factors (1 and itself), so it is prime."
+    "solution": "42 ÷ 6 = 7 with no remainder, so yes.",
+    "tpl": "numbertheory:medium:4"
+  },
+  {
+    "q": "What is the prime factorization of 12?",
+    "type": "mc",
+    "choices": [
+      "2³ × 3",
+      "2² × 3 × 1",
+      "2² × 3",
+      "2² × 7"
+    ],
+    "answer": 2,
+    "solution": "12 breaks down into primes as 2² × 3. The other options multiply to a different number or are not fully factored into primes.",
+    "tpl": "numbertheory:medium:10"
+  },
+  {
+    "q": "Is 19 a multiple of 6?",
+    "type": "mc",
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "answer": 0,
+    "solution": "19 is not 6 times a whole number, so no.",
+    "tpl": "numbertheory:medium:8"
+  },
+  {
+    "q": "What is the prime factorization of 18?",
+    "type": "mc",
+    "choices": [
+      "2 × 5²",
+      "2 × 3² × 1",
+      "2 × 3²",
+      "2³ × 5"
+    ],
+    "answer": 2,
+    "solution": "18 breaks down into primes as 2 × 3². The other options multiply to a different number or are not fully factored into primes.",
+    "tpl": "numbertheory:medium:10"
+  },
+  {
+    "q": "How many multiples of 3 are there from 1 to 40?",
+    "type": "mc",
+    "choices": [
+      "17",
+      "14",
+      "12",
+      "13"
+    ],
+    "answer": 3,
+    "solution": "Multiples of 3 up to 40: 40 ÷ 3 = 13 of them.",
+    "tpl": "numbertheory:medium:11"
+  },
+  {
+    "q": "What is the smallest multiple of 9 that is greater than 26?",
+    "type": "mc",
+    "choices": [
+      "26",
+      "18",
+      "36",
+      "27"
+    ],
+    "answer": 3,
+    "solution": "Multiples of 9 near 26: the first one above 26 is 27.",
+    "tpl": "numbertheory:medium:7"
+  },
+  {
+    "q": "How many factors does 15 have?",
+    "type": "mc",
+    "choices": [
+      "5",
+      "9",
+      "4",
+      "3"
+    ],
+    "answer": 2,
+    "solution": "Factors of 15 come in pairs that multiply to 15. Counting them gives 4.",
+    "tpl": "numbertheory:medium:3"
+  },
+  {
+    "q": "How many factors does the number 49 have?",
+    "type": "mc",
+    "choices": [
+      "4",
+      "2",
+      "7",
+      "3"
+    ],
+    "answer": 3,
+    "solution": "49 = 7 × 7, so its factors are 1, 7, and 49 — that is 3 factors.",
+    "tpl": "numbertheory:medium:6"
+  },
+  {
+    "q": "How many factors does the number 14 have?",
+    "type": "mc",
+    "choices": [
+      "4",
+      "-6",
+      "3",
+      "2"
+    ],
+    "answer": 0,
+    "solution": "14 = 2 × 7 (two different primes), so it has 4 factors: 1, 2, 7, 14.",
+    "tpl": "numbertheory:medium:6"
+  },
+  {
+    "q": "How many multiples of 4 are there from 1 to 30?",
+    "type": "mc",
+    "choices": [
+      "8",
+      "6",
+      "7",
+      "4"
+    ],
+    "answer": 2,
+    "solution": "Multiples of 4 up to 30: 30 ÷ 4 = 7 of them.",
+    "tpl": "numbertheory:medium:11"
+  },
+  {
+    "q": "What is the least common multiple (LCM) of 8 and 10?",
+    "type": "mc",
+    "choices": [
+      "40",
+      "35",
+      "2",
+      "80"
+    ],
+    "answer": 0,
+    "solution": "The smallest number both 8 and 10 divide into is 40.",
+    "tpl": "numbertheory:medium:1"
+  },
+  {
+    "q": "What is the smallest multiple of 4 that is greater than 50?",
+    "type": "mc",
+    "choices": [
+      "47",
+      "52",
+      "56",
+      "48"
+    ],
+    "answer": 1,
+    "solution": "Multiples of 4 near 50: the first one above 50 is 52.",
+    "tpl": "numbertheory:medium:7"
+  },
+  {
+    "q": "What is the prime factorization of 20?",
+    "type": "mc",
+    "choices": [
+      "2² × 5 × 1",
+      "3² × 5",
+      "2² × 5",
+      "2³ × 5"
+    ],
+    "answer": 2,
+    "solution": "20 breaks down into primes as 2² × 5. The other options multiply to a different number or are not fully factored into primes.",
+    "tpl": "numbertheory:medium:10"
+  },
+  {
+    "q": "Is 60 divisible by 5?",
+    "type": "mc",
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "answer": 1,
+    "solution": "60 ÷ 5 = 12 with no remainder, so yes.",
+    "tpl": "numbertheory:medium:4"
+  },
+  {
+    "q": "Is 53 a multiple of 4?",
+    "type": "mc",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "answer": 1,
+    "solution": "53 is not 4 times a whole number, so no.",
+    "tpl": "numbertheory:medium:8"
+  },
+  {
+    "q": "What is the least common multiple (LCM) of 8 and 9?",
+    "type": "mc",
+    "choices": [
+      "67",
+      "72",
+      "1",
+      "77"
+    ],
+    "answer": 1,
+    "solution": "The smallest number both 8 and 9 divide into is 72.",
+    "tpl": "numbertheory:medium:1"
   }
 ]

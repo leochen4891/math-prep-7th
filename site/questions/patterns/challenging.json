@@ -1,307 +1,651 @@
 [
   {
-    "q": "A machine does: input × 4, then + 4 = output. The output is 24. What was the input?",
+    "q": "The hexagonal numbers are 1, 6, 15, 28, ... (the kth is k(2k − 1)). What is the 3rd hexagonal number?",
     "type": "typed",
     "accept": [
-      "5"
+      "15"
     ],
-    "solution": "Work backwards: (24 − 4) ÷ 4 = 5."
+    "solution": "The 3rd hexagonal number is 3(2×3 − 1) = 3 × 5 = 15.",
+    "tpl": "patterns:challenging:3"
   },
   {
-    "q": "In an arithmetic sequence, term #2 is 12 and term #5 is 24. What is the common difference?",
+    "q": "A machine divides the input by 5 and then adds 9. The output is 15. What was the input?",
     "type": "typed",
     "accept": [
-      "4"
+      "30"
     ],
-    "solution": "From term #2 to term #5 is 3 steps, and the value rose by 12. Common difference = 12 ÷ 3 = 4."
+    "solution": "input ÷ 5 + 9 = 15, so input ÷ 5 = 6, input = 6 × 5 = 30.",
+    "tpl": "patterns:challenging:6"
   },
   {
-    "q": "A machine does: input × 3, then + 5 = output. The output is 29. What was the input?",
+    "q": "A pattern's first three terms are 8, 10, 12 (term k = 2k + 6). What is the 20th term?",
     "type": "typed",
     "accept": [
-      "8"
+      "46"
     ],
-    "solution": "Work backwards: (29 − 5) ÷ 3 = 8."
+    "solution": "Term k = 2k + 6. For k = 20: 2(20) + 6 = 40 + 6 = 46.",
+    "tpl": "patterns:challenging:0"
   },
   {
-    "q": "In an arithmetic sequence, term #3 is 16 and term #5 is 24. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "From term #3 to term #5 is 2 steps, and the value rose by 8. Common difference = 8 ÷ 2 = 4."
-  },
-  {
-    "q": "In an arithmetic sequence, term #2 is 6 and term #5 is 12. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "From term #2 to term #5 is 3 steps, and the value rose by 6. Common difference = 6 ÷ 3 = 2."
-  },
-  {
-    "q": "In an arithmetic sequence, term #2 is 11 and term #6 is 27. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "From term #2 to term #6 is 4 steps, and the value rose by 16. Common difference = 16 ÷ 4 = 4."
-  },
-  {
-    "q": "In an arithmetic sequence, term #3 is 7 and term #6 is 13. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "From term #3 to term #6 is 3 steps, and the value rose by 6. Common difference = 6 ÷ 3 = 2."
-  },
-  {
-    "q": "A machine does: input × 4, then + 6 = output. The output is 26. What was the input?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Work backwards: (26 − 6) ÷ 4 = 5."
-  },
-  {
-    "q": "In an arithmetic sequence, term #2 is 9 and term #6 is 25. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "From term #2 to term #6 is 4 steps, and the value rose by 16. Common difference = 16 ÷ 4 = 4."
-  },
-  {
-    "q": "A machine does: input × 4, then + 1 = output. The output is 17. What was the input?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Work backwards: (17 − 1) ÷ 4 = 4."
-  },
-  {
-    "q": "In an arithmetic sequence, term #3 is 14 and term #5 is 22. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "From term #3 to term #5 is 2 steps, and the value rose by 8. Common difference = 8 ÷ 2 = 4."
-  },
-  {
-    "q": "What number comes next?<br>2, 5, 10, 17, 26, ?",
-    "type": "typed",
-    "accept": [
-      "37"
-    ],
-    "solution": "The differences are 3, 5, 7, 9 (odd numbers); next is 11: 26 + 11 = 37. (These are n² + 1.)"
-  },
-  {
-    "q": "A machine does: input × 3, then + 6 = output. The output is 27. What was the input?",
+    "q": "Each term is the sum of the two before it. The sequence is 5, ___, 12, 19, 31. What is the missing 2nd term?",
     "type": "typed",
     "accept": [
       "7"
     ],
-    "solution": "Work backwards: (27 − 6) ÷ 3 = 7."
+    "solution": "Since term3 = term1 + term2, we have 12 = 5 + term2, so term2 = 12 − 5 = 7.",
+    "tpl": "patterns:challenging:10"
   },
   {
-    "q": "In an arithmetic sequence, term #2 is 13 and term #5 is 28. What is the common difference?",
+    "q": "What is the sum 1 + 2 + 3 + ... + 10 ?",
     "type": "typed",
     "accept": [
-      "5"
+      "55"
     ],
-    "solution": "From term #2 to term #5 is 3 steps, and the value rose by 15. Common difference = 15 ÷ 3 = 5."
+    "solution": "Sum = n(n + 1) ÷ 2 = 10 × 11 ÷ 2 = 55.",
+    "tpl": "patterns:challenging:7"
   },
   {
-    "q": "In an arithmetic sequence, term #2 is 9 and term #4 is 17. What is the common difference?",
+    "q": "The hexagonal numbers are 1, 6, 15, 28, ... (the kth is k(2k − 1)). What is the 4th hexagonal number?",
     "type": "typed",
     "accept": [
-      "4"
+      "28"
     ],
-    "solution": "From term #2 to term #4 is 2 steps, and the value rose by 8. Common difference = 8 ÷ 2 = 4."
+    "solution": "The 4th hexagonal number is 4(2×4 − 1) = 4 × 7 = 28.",
+    "tpl": "patterns:challenging:3"
   },
   {
-    "q": "A machine does: input × 4, then + 4 = output. The output is 16. What was the input?",
+    "q": "A pattern's kth term is k² + 4 (so the terms are 5, 8, 13, ...). What is the 8th term?",
     "type": "typed",
     "accept": [
-      "3"
+      "68"
     ],
-    "solution": "Work backwards: (16 − 4) ÷ 4 = 3."
+    "solution": "Term k = k² + 4. For k = 8: 8² + 4 = 64 + 4 = 68.",
+    "tpl": "patterns:challenging:11"
   },
   {
-    "q": "In an arithmetic sequence, term #3 is 12 and term #6 is 21. What is the common difference?",
+    "q": "A geometric sequence is 2, 6, 18, ... What is the 6th term?",
     "type": "typed",
     "accept": [
-      "3"
+      "486"
     ],
-    "solution": "From term #3 to term #6 is 3 steps, and the value rose by 9. Common difference = 9 ÷ 3 = 3."
+    "solution": "Term n = 2 × 3⁵ = 2 × 243 = 486.",
+    "tpl": "patterns:challenging:4"
   },
   {
-    "q": "A machine does: input × 3, then + 5 = output. The output is 14. What was the input?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Work backwards: (14 − 5) ÷ 3 = 3."
-  },
-  {
-    "q": "In an arithmetic sequence, term #2 is 10 and term #6 is 26. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "From term #2 to term #6 is 4 steps, and the value rose by 16. Common difference = 16 ÷ 4 = 4."
-  },
-  {
-    "q": "In an arithmetic sequence, term #3 is 11 and term #5 is 17. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "From term #3 to term #5 is 2 steps, and the value rose by 6. Common difference = 6 ÷ 2 = 3."
-  },
-  {
-    "q": "A machine does: input × 2, then + 2 = output. The output is 10. What was the input?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Work backwards: (10 − 2) ÷ 2 = 4."
-  },
-  {
-    "q": "In an arithmetic sequence, term #2 is 14 and term #5 is 29. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "From term #2 to term #5 is 3 steps, and the value rose by 15. Common difference = 15 ÷ 3 = 5."
-  },
-  {
-    "q": "What number comes next?<br>1, 3, 6, 10, 15, ?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Triangular numbers — the gaps grow +2, +3, +4, +5, so next is +6: 15 + 6 = 21."
-  },
-  {
-    "q": "In an arithmetic sequence, term #2 is 12 and term #6 is 24. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "From term #2 to term #6 is 4 steps, and the value rose by 12. Common difference = 12 ÷ 4 = 3."
-  },
-  {
-    "q": "A machine does: input × 3, then + 6 = output. The output is 30. What was the input?",
+    "q": "Each term is the sum of the two before it. The sequence is 2, ___, 10, 18, 28. What is the missing 2nd term?",
     "type": "typed",
     "accept": [
       "8"
     ],
-    "solution": "Work backwards: (30 − 6) ÷ 3 = 8."
+    "solution": "Since term3 = term1 + term2, we have 10 = 2 + term2, so term2 = 10 − 2 = 8.",
+    "tpl": "patterns:challenging:10"
   },
   {
-    "q": "What is the sum  2 + 4 + 6 + … + 28?",
+    "q": "A geometric sequence is 5, 10, 20, ... What is the 6th term?",
+    "type": "typed",
+    "accept": [
+      "160"
+    ],
+    "solution": "Term n = 5 × 2⁵ = 5 × 32 = 160.",
+    "tpl": "patterns:challenging:4"
+  },
+  {
+    "q": "What is the sum of the first 4 odd numbers (1 + 3 + 5 + ...)?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "The sum of the first n odd numbers equals n². So the answer is 4² = 16.",
+    "tpl": "patterns:challenging:1"
+  },
+  {
+    "q": "Evaluate the alternating sum 1 − 2 + 3 − 4 + ... continuing for 6 terms (the 6th term is −6). What is the total?",
+    "type": "typed",
+    "accept": [
+      "-3"
+    ],
+    "solution": "Pairing terms: each pair (odd − next even) gives −1. With 6 terms the total works out to -3.",
+    "tpl": "patterns:challenging:9"
+  },
+  {
+    "q": "A pattern's kth term is k² + 1 (so the terms are 2, 5, 10, ...). What is the 8th term?",
+    "type": "typed",
+    "accept": [
+      "65"
+    ],
+    "solution": "Term k = k² + 1. For k = 8: 8² + 1 = 64 + 1 = 65.",
+    "tpl": "patterns:challenging:11"
+  },
+  {
+    "q": "Each term is the sum of the two before it. The sequence is 2, ___, 7, 12, 19. What is the missing 2nd term?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Since term3 = term1 + term2, we have 7 = 2 + term2, so term2 = 7 − 2 = 5.",
+    "tpl": "patterns:challenging:10"
+  },
+  {
+    "q": "The pattern is 4, 13, 28, 49. The second differences are constant. What is the next term?",
+    "type": "typed",
+    "accept": [
+      "76"
+    ],
+    "solution": "These follow 3k² + 1: 3×1 + 1, 3×4 + 1, 3×9 + 1, 3×16 + 1. The next is 3×25 + 1 = 76.",
+    "tpl": "patterns:challenging:5"
+  },
+  {
+    "q": "Add the first 5 terms of the sequence that starts at 8 and increases by 6: what is the total?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "Last term = 8 + (4)×6 = 32. Sum = n × (first + last) ÷ 2 = 5 × (8 + 32) ÷ 2 = 5 × 40 ÷ 2 = 100.",
+    "tpl": "patterns:challenging:2"
+  },
+  {
+    "q": "A geometric sequence is 5, 10, 20, ... What is the 7th term?",
+    "type": "typed",
+    "accept": [
+      "320"
+    ],
+    "solution": "Term n = 5 × 2⁶ = 5 × 64 = 320.",
+    "tpl": "patterns:challenging:4"
+  },
+  {
+    "q": "A machine divides the input by 2 and then adds 2. The output is 9. What was the input?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "input ÷ 2 + 2 = 9, so input ÷ 2 = 7, input = 7 × 2 = 14.",
+    "tpl": "patterns:challenging:6"
+  },
+  {
+    "q": "A pattern's kth term is k² + 5 (so the terms are 6, 9, 14, ...). What is the 12th term?",
+    "type": "typed",
+    "accept": [
+      "149"
+    ],
+    "solution": "Term k = k² + 5. For k = 12: 12² + 5 = 144 + 5 = 149.",
+    "tpl": "patterns:challenging:11"
+  },
+  {
+    "q": "In an arithmetic sequence the 3rd term is 14 and the 5th term is 26. What is the first term?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Common difference d = (26 − 14) ÷ (5 − 3) = 12 ÷ 2 = 6. First term = 14 − (3 − 1)×6 = 14 − 12 = 2.",
+    "tpl": "patterns:challenging:8"
+  },
+  {
+    "q": "The pattern is 2, 8, 18, 32. The second differences are constant. What is the next term?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "These follow 2k² + 0: 2×1, 2×4, 2×9, 2×16. The next is 2×25 = 50.",
+    "tpl": "patterns:challenging:5"
+  },
+  {
+    "q": "A geometric sequence is 2, 4, 8, ... What is the 6th term?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "Term n = 2 × 2⁵ = 2 × 32 = 64.",
+    "tpl": "patterns:challenging:4"
+  },
+  {
+    "q": "Add the first 8 terms of the sequence that starts at 4 and increases by 6: what is the total?",
+    "type": "typed",
+    "accept": [
+      "200"
+    ],
+    "solution": "Last term = 4 + (7)×6 = 46. Sum = n × (first + last) ÷ 2 = 8 × (4 + 46) ÷ 2 = 8 × 50 ÷ 2 = 200.",
+    "tpl": "patterns:challenging:2"
+  },
+  {
+    "q": "A machine divides the input by 5 and then adds 5. The output is 13. What was the input?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "input ÷ 5 + 5 = 13, so input ÷ 5 = 8, input = 8 × 5 = 40.",
+    "tpl": "patterns:challenging:6"
+  },
+  {
+    "q": "Add the first 8 terms of the sequence that starts at 2 and increases by 4: what is the total?",
+    "type": "typed",
+    "accept": [
+      "128"
+    ],
+    "solution": "Last term = 2 + (7)×4 = 30. Sum = n × (first + last) ÷ 2 = 8 × (2 + 30) ÷ 2 = 8 × 32 ÷ 2 = 128.",
+    "tpl": "patterns:challenging:2"
+  },
+  {
+    "q": "Each term is the sum of the two before it. The sequence is 2, ___, 8, 14, 22. What is the missing 2nd term?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Since term3 = term1 + term2, we have 8 = 2 + term2, so term2 = 8 − 2 = 6.",
+    "tpl": "patterns:challenging:10"
+  },
+  {
+    "q": "The hexagonal numbers are 1, 6, 15, 28, ... (the kth is k(2k − 1)). What is the 6th hexagonal number?",
+    "type": "typed",
+    "accept": [
+      "66"
+    ],
+    "solution": "The 6th hexagonal number is 6(2×6 − 1) = 6 × 11 = 66.",
+    "tpl": "patterns:challenging:3"
+  },
+  {
+    "q": "A geometric sequence is 2, 4, 8, ... What is the 7th term?",
+    "type": "typed",
+    "accept": [
+      "128"
+    ],
+    "solution": "Term n = 2 × 2⁶ = 2 × 64 = 128.",
+    "tpl": "patterns:challenging:4"
+  },
+  {
+    "q": "The pattern is 8, 20, 40, 68. The second differences are constant. What is the next term?",
+    "type": "typed",
+    "accept": [
+      "104"
+    ],
+    "solution": "These follow 4k² + 4: 4×1 + 4, 4×4 + 4, 4×9 + 4, 4×16 + 4. The next is 4×25 + 4 = 104.",
+    "tpl": "patterns:challenging:5"
+  },
+  {
+    "q": "Evaluate the alternating sum 1 − 2 + 3 − 4 + ... continuing for 11 terms (the 11th term is +11). What is the total?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Pairing terms: each pair (odd − next even) gives −1. With 11 terms the total works out to 6.",
+    "tpl": "patterns:challenging:9"
+  },
+  {
+    "q": "A pattern's kth term is k² + 3 (so the terms are 4, 7, 12, ...). What is the 10th term?",
+    "type": "typed",
+    "accept": [
+      "103"
+    ],
+    "solution": "Term k = k² + 3. For k = 10: 10² + 3 = 100 + 3 = 103.",
+    "tpl": "patterns:challenging:11"
+  },
+  {
+    "q": "A machine divides the input by 2 and then adds 9. The output is 15. What was the input?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "input ÷ 2 + 9 = 15, so input ÷ 2 = 6, input = 6 × 2 = 12.",
+    "tpl": "patterns:challenging:6"
+  },
+  {
+    "q": "Evaluate the alternating sum 1 − 2 + 3 − 4 + ... continuing for 3 terms (the 3rd term is +3). What is the total?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Pairing terms: each pair (odd − next even) gives −1. With 3 terms the total works out to 2.",
+    "tpl": "patterns:challenging:9"
+  },
+  {
+    "q": "What is the sum 1 + 2 + 3 + ... + 50 ?",
+    "type": "typed",
+    "accept": [
+      "1275"
+    ],
+    "solution": "Sum = n(n + 1) ÷ 2 = 50 × 51 ÷ 2 = 1275.",
+    "tpl": "patterns:challenging:7"
+  },
+  {
+    "q": "What is the sum 1 + 2 + 3 + ... + 40 ?",
+    "type": "typed",
+    "accept": [
+      "820"
+    ],
+    "solution": "Sum = n(n + 1) ÷ 2 = 40 × 41 ÷ 2 = 820.",
+    "tpl": "patterns:challenging:7"
+  },
+  {
+    "q": "A machine divides the input by 4 and then adds 9. The output is 16. What was the input?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "input ÷ 4 + 9 = 16, so input ÷ 4 = 7, input = 7 × 4 = 28.",
+    "tpl": "patterns:challenging:6"
+  },
+  {
+    "q": "What is the sum 1 + 2 + 3 + ... + 15 ?",
+    "type": "typed",
+    "accept": [
+      "120"
+    ],
+    "solution": "Sum = n(n + 1) ÷ 2 = 15 × 16 ÷ 2 = 120.",
+    "tpl": "patterns:challenging:7"
+  },
+  {
+    "q": "A pattern's first three terms are 11, 16, 21 (term k = 5k + 6). What is the 25th term?",
+    "type": "typed",
+    "accept": [
+      "131"
+    ],
+    "solution": "Term k = 5k + 6. For k = 25: 5(25) + 6 = 125 + 6 = 131.",
+    "tpl": "patterns:challenging:0"
+  },
+  {
+    "q": "Evaluate the alternating sum 1 − 2 + 3 − 4 + ... continuing for 4 terms (the 4th term is −4). What is the total?",
+    "type": "typed",
+    "accept": [
+      "-2"
+    ],
+    "solution": "Pairing terms: each pair (odd − next even) gives −1. With 4 terms the total works out to -2.",
+    "tpl": "patterns:challenging:9"
+  },
+  {
+    "q": "The pattern is 4, 7, 12, 19. The second differences are constant. What is the next term?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "These follow 1k² + 3: 1×1 + 3, 1×4 + 3, 1×9 + 3, 1×16 + 3. The next is 1×25 + 3 = 28.",
+    "tpl": "patterns:challenging:5"
+  },
+  {
+    "q": "Add the first 6 terms of the sequence that starts at 8 and increases by 4: what is the total?",
+    "type": "typed",
+    "accept": [
+      "108"
+    ],
+    "solution": "Last term = 8 + (5)×4 = 28. Sum = n × (first + last) ÷ 2 = 6 × (8 + 28) ÷ 2 = 6 × 36 ÷ 2 = 108.",
+    "tpl": "patterns:challenging:2"
+  },
+  {
+    "q": "The hexagonal numbers are 1, 6, 15, 28, ... (the kth is k(2k − 1)). What is the 5th hexagonal number?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "The 5th hexagonal number is 5(2×5 − 1) = 5 × 9 = 45.",
+    "tpl": "patterns:challenging:3"
+  },
+  {
+    "q": "What is the sum 1 + 2 + 3 + ... + 30 ?",
+    "type": "typed",
+    "accept": [
+      "465"
+    ],
+    "solution": "Sum = n(n + 1) ÷ 2 = 30 × 31 ÷ 2 = 465.",
+    "tpl": "patterns:challenging:7"
+  },
+  {
+    "q": "Add the first 10 terms of the sequence that starts at 7 and increases by 4: what is the total?",
+    "type": "typed",
+    "accept": [
+      "250"
+    ],
+    "solution": "Last term = 7 + (9)×4 = 43. Sum = n × (first + last) ÷ 2 = 10 × (7 + 43) ÷ 2 = 10 × 50 ÷ 2 = 250.",
+    "tpl": "patterns:challenging:2"
+  },
+  {
+    "q": "Evaluate the alternating sum 1 − 2 + 3 − 4 + ... continuing for 5 terms (the 5th term is +5). What is the total?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Pairing terms: each pair (odd − next even) gives −1. With 5 terms the total works out to 3.",
+    "tpl": "patterns:challenging:9"
+  },
+  {
+    "q": "A pattern's kth term is k² + 4 (so the terms are 5, 8, 13, ...). What is the 7th term?",
+    "type": "typed",
+    "accept": [
+      "53"
+    ],
+    "solution": "Term k = k² + 4. For k = 7: 7² + 4 = 49 + 4 = 53.",
+    "tpl": "patterns:challenging:11"
+  },
+  {
+    "q": "A pattern's kth term is k² + 6 (so the terms are 7, 10, 15, ...). What is the 7th term?",
+    "type": "typed",
+    "accept": [
+      "55"
+    ],
+    "solution": "Term k = k² + 6. For k = 7: 7² + 6 = 49 + 6 = 55.",
+    "tpl": "patterns:challenging:11"
+  },
+  {
+    "q": "What is the sum of the first 11 odd numbers (1 + 3 + 5 + ...)?",
+    "type": "typed",
+    "accept": [
+      "121"
+    ],
+    "solution": "The sum of the first n odd numbers equals n². So the answer is 11² = 121.",
+    "tpl": "patterns:challenging:1"
+  },
+  {
+    "q": "Each term is the sum of the two before it. The sequence is 4, ___, 9, 14, 23. What is the missing 2nd term?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Since term3 = term1 + term2, we have 9 = 4 + term2, so term2 = 9 − 4 = 5.",
+    "tpl": "patterns:challenging:10"
+  },
+  {
+    "q": "The hexagonal numbers are 1, 6, 15, 28, ... (the kth is k(2k − 1)). What is the 7th hexagonal number?",
+    "type": "typed",
+    "accept": [
+      "91"
+    ],
+    "solution": "The 7th hexagonal number is 7(2×7 − 1) = 7 × 13 = 91.",
+    "tpl": "patterns:challenging:3"
+  },
+  {
+    "q": "What is the sum of the first 9 odd numbers (1 + 3 + 5 + ...)?",
+    "type": "typed",
+    "accept": [
+      "81"
+    ],
+    "solution": "The sum of the first n odd numbers equals n². So the answer is 9² = 81.",
+    "tpl": "patterns:challenging:1"
+  },
+  {
+    "q": "A pattern's first three terms are 7, 12, 17 (term k = 5k + 2). What is the 29th term?",
+    "type": "typed",
+    "accept": [
+      "147"
+    ],
+    "solution": "Term k = 5k + 2. For k = 29: 5(29) + 2 = 145 + 2 = 147.",
+    "tpl": "patterns:challenging:0"
+  },
+  {
+    "q": "In an arithmetic sequence the 3rd term is 14 and the 5th term is 22. What is the first term?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Common difference d = (22 − 14) ÷ (5 − 3) = 8 ÷ 2 = 4. First term = 14 − (3 − 1)×4 = 14 − 8 = 6.",
+    "tpl": "patterns:challenging:8"
+  },
+  {
+    "q": "Add the first 10 terms of the sequence that starts at 5 and increases by 4: what is the total?",
+    "type": "typed",
+    "accept": [
+      "230"
+    ],
+    "solution": "Last term = 5 + (9)×4 = 41. Sum = n × (first + last) ÷ 2 = 10 × (5 + 41) ÷ 2 = 10 × 46 ÷ 2 = 230.",
+    "tpl": "patterns:challenging:2"
+  },
+  {
+    "q": "A pattern's first three terms are 6, 10, 14 (term k = 4k + 2). What is the 26th term?",
+    "type": "typed",
+    "accept": [
+      "106"
+    ],
+    "solution": "Term k = 4k + 2. For k = 26: 4(26) + 2 = 104 + 2 = 106.",
+    "tpl": "patterns:challenging:0"
+  },
+  {
+    "q": "A pattern's first three terms are 5, 9, 13 (term k = 4k + 1). What is the 22nd term?",
+    "type": "typed",
+    "accept": [
+      "89"
+    ],
+    "solution": "Term k = 4k + 1. For k = 22: 4(22) + 1 = 88 + 1 = 89.",
+    "tpl": "patterns:challenging:0"
+  },
+  {
+    "q": "What is the sum of the first 12 odd numbers (1 + 3 + 5 + ...)?",
+    "type": "typed",
+    "accept": [
+      "144"
+    ],
+    "solution": "The sum of the first n odd numbers equals n². So the answer is 12² = 144.",
+    "tpl": "patterns:challenging:1"
+  },
+  {
+    "q": "In an arithmetic sequence the 4th term is 13 and the 6th term is 17. What is the first term?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Common difference d = (17 − 13) ÷ (6 − 4) = 4 ÷ 2 = 2. First term = 13 − (4 − 1)×2 = 13 − 6 = 7.",
+    "tpl": "patterns:challenging:8"
+  },
+  {
+    "q": "A geometric sequence is 1, 2, 4, ... What is the 7th term?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "Term n = 1 × 2⁶ = 1 × 64 = 64.",
+    "tpl": "patterns:challenging:4"
+  },
+  {
+    "q": "What is the sum of the first 7 odd numbers (1 + 3 + 5 + ...)?",
+    "type": "typed",
+    "accept": [
+      "49"
+    ],
+    "solution": "The sum of the first n odd numbers equals n². So the answer is 7² = 49.",
+    "tpl": "patterns:challenging:1"
+  },
+  {
+    "q": "A pattern's first three terms are 6, 9, 12 (term k = 3k + 3). What is the 29th term?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Term k = 3k + 3. For k = 29: 3(29) + 3 = 87 + 3 = 90.",
+    "tpl": "patterns:challenging:0"
+  },
+  {
+    "q": "The pattern is 1, 4, 9, 16. The second differences are constant. What is the next term?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "These follow 1k² + 0: 1×1, 1×4, 1×9, 1×16. The next is 1×25 = 25.",
+    "tpl": "patterns:challenging:5"
+  },
+  {
+    "q": "A machine divides the input by 4 and then adds 4. The output is 8. What was the input?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "input ÷ 4 + 4 = 8, so input ÷ 4 = 4, input = 4 × 4 = 16.",
+    "tpl": "patterns:challenging:6"
+  },
+  {
+    "q": "In an arithmetic sequence the 2nd term is 12 and the 5th term is 30. What is the first term?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Common difference d = (30 − 12) ÷ (5 − 2) = 18 ÷ 3 = 6. First term = 12 − (2 − 1)×6 = 12 − 6 = 6.",
+    "tpl": "patterns:challenging:8"
+  },
+  {
+    "q": "In an arithmetic sequence the 3rd term is 13 and the 7th term is 29. What is the first term?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Common difference d = (29 − 13) ÷ (7 − 3) = 16 ÷ 4 = 4. First term = 13 − (3 − 1)×4 = 13 − 8 = 5.",
+    "tpl": "patterns:challenging:8"
+  },
+  {
+    "q": "The hexagonal numbers are 1, 6, 15, 28, ... (the kth is k(2k − 1)). What is the 8th hexagonal number?",
+    "type": "typed",
+    "accept": [
+      "120"
+    ],
+    "solution": "The 8th hexagonal number is 8(2×8 − 1) = 8 × 15 = 120.",
+    "tpl": "patterns:challenging:3"
+  },
+  {
+    "q": "Each term is the sum of the two before it. The sequence is 3, ___, 10, 17, 27. What is the missing 2nd term?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Since term3 = term1 + term2, we have 10 = 3 + term2, so term2 = 10 − 3 = 7.",
+    "tpl": "patterns:challenging:10"
+  },
+  {
+    "q": "What is the sum 1 + 2 + 3 + ... + 20 ?",
     "type": "typed",
     "accept": [
       "210"
     ],
-    "solution": "There are 14 even numbers. Pair the first and last: 2 + 28 = 30, and there are 7 such pairs → 7 × 30 = 210."
+    "solution": "Sum = n(n + 1) ÷ 2 = 20 × 21 ÷ 2 = 210.",
+    "tpl": "patterns:challenging:7"
   },
   {
-    "q": "A machine does: input × 2, then + 2 = output. The output is 12. What was the input?",
+    "q": "What is the sum of the first 10 odd numbers (1 + 3 + 5 + ...)?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "The sum of the first n odd numbers equals n². So the answer is 10² = 100.",
+    "tpl": "patterns:challenging:1"
+  },
+  {
+    "q": "The pattern is 7, 19, 39, 67. The second differences are constant. What is the next term?",
+    "type": "typed",
+    "accept": [
+      "103"
+    ],
+    "solution": "These follow 4k² + 3: 4×1 + 3, 4×4 + 3, 4×9 + 3, 4×16 + 3. The next is 4×25 + 3 = 103.",
+    "tpl": "patterns:challenging:5"
+  },
+  {
+    "q": "Evaluate the alternating sum 1 − 2 + 3 − 4 + ... continuing for 9 terms (the 9th term is +9). What is the total?",
     "type": "typed",
     "accept": [
       "5"
     ],
-    "solution": "Work backwards: (12 − 2) ÷ 2 = 5."
+    "solution": "Pairing terms: each pair (odd − next even) gives −1. With 9 terms the total works out to 5.",
+    "tpl": "patterns:challenging:9"
   },
   {
-    "q": "What is the sum  2 + 4 + 6 + … + 16?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "There are 8 even numbers. Pair the first and last: 2 + 16 = 18, and there are 4 such pairs → 4 × 18 = 72."
-  },
-  {
-    "q": "A machine does: input × 4, then + 2 = output. The output is 14. What was the input?",
+    "q": "In an arithmetic sequence the 3rd term is 11 and the 7th term is 27. What is the first term?",
     "type": "typed",
     "accept": [
       "3"
     ],
-    "solution": "Work backwards: (14 − 2) ÷ 4 = 3."
-  },
-  {
-    "q": "A machine does: input × 2, then + 3 = output. The output is 11. What was the input?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Work backwards: (11 − 3) ÷ 2 = 4."
-  },
-  {
-    "q": "A machine does: input × 2, then + 6 = output. The output is 22. What was the input?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Work backwards: (22 − 6) ÷ 2 = 8."
-  },
-  {
-    "q": "A machine does: input × 2, then + 3 = output. The output is 9. What was the input?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Work backwards: (9 − 3) ÷ 2 = 3."
-  },
-  {
-    "q": "A machine does: input × 3, then + 1 = output. The output is 16. What was the input?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Work backwards: (16 − 1) ÷ 3 = 5."
-  },
-  {
-    "q": "What number comes next?<br>1, 1, 2, 3, 5, 8, 13, ?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Each term is the sum of the two before it: 8 + 13 = 21 (Fibonacci)."
-  },
-  {
-    "q": "What number comes next?<br>1, 2, 4, 7, 11, 16, ?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "The gaps grow 1, 2, 3, 4, 5; next is 6: 16 + 6 = 22."
-  },
-  {
-    "q": "What is the sum  2 + 4 + 6 + … + 24?",
-    "type": "typed",
-    "accept": [
-      "156"
-    ],
-    "solution": "There are 12 even numbers. Pair the first and last: 2 + 24 = 26, and there are 6 such pairs → 6 × 26 = 156."
-  },
-  {
-    "q": "What is the sum  2 + 4 + 6 + … + 20?",
-    "type": "typed",
-    "accept": [
-      "110"
-    ],
-    "solution": "There are 10 even numbers. Pair the first and last: 2 + 20 = 22, and there are 5 such pairs → 5 × 22 = 110."
-  },
-  {
-    "q": "In an arithmetic sequence, term #3 is 10 and term #5 is 16. What is the common difference?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "From term #3 to term #5 is 2 steps, and the value rose by 6. Common difference = 6 ÷ 2 = 3."
+    "solution": "Common difference d = (27 − 11) ÷ (7 − 3) = 16 ÷ 4 = 4. First term = 11 − (3 − 1)×4 = 11 − 8 = 3.",
+    "tpl": "patterns:challenging:8"
   },
   {
     "q": "In the sequence 2, 5, 8, 11, …, what is the 20th term?",
@@ -310,7 +654,8 @@
       "59"
     ],
     "solution": "It adds 3 each time, starting at 2. Term = 2 + 3 × (20 − 1) = 2 + 57 = 59.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:patterns:0"
   },
   {
     "q": "What is the sum 1 + 2 + 3 + … + 10?",
@@ -319,7 +664,8 @@
       "55"
     ],
     "solution": "Pair them: (1+10)+(2+9)+…+(5+6) = five pairs of 11 = 55.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:patterns:1"
   },
   {
     "q": "Toothpick squares share sides: 1 square needs 4 toothpicks, 2 squares need 7, 3 squares need 10. How many toothpicks for 6 squares?",
@@ -328,7 +674,8 @@
       "19"
     ],
     "solution": "Each new square adds 3 toothpicks: the rule is 3n + 1. For n = 6: 3(6) + 1 = 19.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:patterns:2"
   },
   {
     "q": "Each term is double the previous one plus 1, starting at 1: 1, 3, 7, 15, … What is the next term?",
@@ -337,7 +684,8 @@
       "31"
     ],
     "solution": "15 × 2 + 1 = 31.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:patterns:3"
   },
   {
     "q": "Numbers are arranged in rows: row 1 has 1 number, row 2 has 2, row 3 has 3, and so on. How many numbers are in the first 6 rows altogether?",
@@ -346,7 +694,8 @@
       "21"
     ],
     "solution": "Total = 1 + 2 + 3 + 4 + 5 + 6 = 21.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:patterns:4"
   },
   {
     "q": "What is the 8th term of the pattern 1, 4, 9, 16, 25, … ?",
@@ -355,6 +704,7 @@
       "64"
     ],
     "solution": "These are perfect squares (1², 2², 3², …), so the 8th term is 8² = 64.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:patterns:5"
   }
 ]

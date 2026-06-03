@@ -1,131 +1,12 @@
 [
   {
-    "q": "Three numbers are in the ratio 1:2:3 and add up to 18. What is the largest one?",
+    "q": "Pack A: 4 for $8. Pack B: 3 for $9. What is the LOWER unit price (dollars per item)?",
     "type": "typed",
     "accept": [
-      "9"
+      "2"
     ],
-    "solution": "Total parts = 6. One part = 18 ÷ 6 = 3. The biggest part is 3, so the largest number is 3 × 3 = 9."
-  },
-  {
-    "q": "Three numbers are in the ratio 3:3:4 and add up to 40. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Total parts = 10. One part = 40 ÷ 10 = 4. The biggest part is 4, so the largest number is 4 × 4 = 16."
-  },
-  {
-    "q": "After a 25% discount, a bike costs $150. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "200"
-    ],
-    "solution": "150 is 75% of the original: 150 ÷ 0.75 = $200."
-  },
-  {
-    "q": "A price went from $40 to $48. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Increase = 8. As a percent of the original: 8 ÷ 40 = 0.2 = 20%."
-  },
-  {
-    "q": "A price went from $40 to $60. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "50"
-    ],
-    "solution": "Increase = 20. As a percent of the original: 20 ÷ 40 = 0.5 = 50%."
-  },
-  {
-    "q": "After a 25% discount, a bike costs $60. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "80"
-    ],
-    "solution": "60 is 75% of the original: 60 ÷ 0.75 = $80."
-  },
-  {
-    "q": "After a 25% discount, a bike costs $75. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "75 is 75% of the original: 75 ÷ 0.75 = $100."
-  },
-  {
-    "q": "Three numbers are in the ratio 1:3:4 and add up to 24. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Total parts = 8. One part = 24 ÷ 8 = 3. The biggest part is 4, so the largest number is 4 × 3 = 12."
-  },
-  {
-    "q": "A price went from $20 to $25. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Increase = 5. As a percent of the original: 5 ÷ 20 = 0.25 = 25%."
-  },
-  {
-    "q": "After a 10% discount, a bike costs $54. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "54 is 90% of the original: 54 ÷ 0.9 = $60."
-  },
-  {
-    "q": "After a 25% discount, a bike costs $30. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "40"
-    ],
-    "solution": "30 is 75% of the original: 30 ÷ 0.75 = $40."
-  },
-  {
-    "q": "After a 20% discount, a bike costs $96. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "120"
-    ],
-    "solution": "96 is 80% of the original: 96 ÷ 0.8 = $120."
-  },
-  {
-    "q": "After a 25% discount, a bike costs $45. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "45 is 75% of the original: 45 ÷ 0.75 = $60."
-  },
-  {
-    "q": "After a 10% discount, a bike costs $144. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "160"
-    ],
-    "solution": "144 is 90% of the original: 144 ÷ 0.9 = $160."
-  },
-  {
-    "q": "A price went from $60 to $66. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Increase = 6. As a percent of the original: 6 ÷ 60 = 0.1 = 10%."
-  },
-  {
-    "q": "A price went from $60 to $72. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Increase = 12. As a percent of the original: 12 ÷ 60 = 0.2 = 20%."
+    "solution": "A: $2/item, B: $3/item. Lower = $2.",
+    "tpl": "ratios:challenging:10"
   },
   {
     "q": "A price went from $40 to $50. What was the percent increase?",
@@ -133,127 +14,8 @@
     "accept": [
       "25"
     ],
-    "solution": "Increase = 10. As a percent of the original: 10 ÷ 40 = 0.25 = 25%."
-  },
-  {
-    "q": "After a 10% discount, a bike costs $36. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "40"
-    ],
-    "solution": "36 is 90% of the original: 36 ÷ 0.9 = $40."
-  },
-  {
-    "q": "After a 20% discount, a bike costs $160. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "200"
-    ],
-    "solution": "160 is 80% of the original: 160 ÷ 0.8 = $200."
-  },
-  {
-    "q": "A price went from $20 to $24. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Increase = 4. As a percent of the original: 4 ÷ 20 = 0.2 = 20%."
-  },
-  {
-    "q": "Three numbers are in the ratio 1:4:4 and add up to 18. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Total parts = 9. One part = 18 ÷ 9 = 2. The biggest part is 4, so the largest number is 4 × 2 = 8."
-  },
-  {
-    "q": "After a 20% discount, a bike costs $32. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "40"
-    ],
-    "solution": "32 is 80% of the original: 32 ÷ 0.8 = $40."
-  },
-  {
-    "q": "After a 20% discount, a bike costs $128. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "160"
-    ],
-    "solution": "128 is 80% of the original: 128 ÷ 0.8 = $160."
-  },
-  {
-    "q": "A price went from $80 to $100. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Increase = 20. As a percent of the original: 20 ÷ 80 = 0.25 = 25%."
-  },
-  {
-    "q": "After a 10% discount, a bike costs $180. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "200"
-    ],
-    "solution": "180 is 90% of the original: 180 ÷ 0.9 = $200."
-  },
-  {
-    "q": "Three numbers are in the ratio 2:3:3 and add up to 16. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Total parts = 8. One part = 16 ÷ 8 = 2. The biggest part is 3, so the largest number is 3 × 2 = 6."
-  },
-  {
-    "q": "Three numbers are in the ratio 1:3:5 and add up to 18. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Total parts = 9. One part = 18 ÷ 9 = 2. The biggest part is 5, so the largest number is 5 × 2 = 10."
-  },
-  {
-    "q": "Three numbers are in the ratio 1:2:4 and add up to 21. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Total parts = 7. One part = 21 ÷ 7 = 3. The biggest part is 4, so the largest number is 4 × 3 = 12."
-  },
-  {
-    "q": "A price went from $20 to $30. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "50"
-    ],
-    "solution": "Increase = 10. As a percent of the original: 10 ÷ 20 = 0.5 = 50%."
-  },
-  {
-    "q": "A price went from $60 to $75. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Increase = 15. As a percent of the original: 15 ÷ 60 = 0.25 = 25%."
-  },
-  {
-    "q": "Three numbers are in the ratio 3:3:3 and add up to 18. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Total parts = 9. One part = 18 ÷ 9 = 2. The biggest part is 3, so the largest number is 3 × 2 = 6."
-  },
-  {
-    "q": "A price went from $120 to $144. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Increase = 24. As a percent of the original: 24 ÷ 120 = 0.2 = 20%."
+    "solution": "Change = $10. Percent = 10 ÷ 40 = 0.25 = 25%.",
+    "tpl": "ratios:challenging:2"
   },
   {
     "q": "A price went from $100 to $110. What was the percent increase?",
@@ -261,95 +23,548 @@
     "accept": [
       "10"
     ],
-    "solution": "Increase = 10. As a percent of the original: 10 ÷ 100 = 0.1 = 10%."
+    "solution": "Change = $10. Percent = 10 ÷ 100 = 0.1 = 10%.",
+    "tpl": "ratios:challenging:2"
   },
   {
-    "q": "Three numbers are in the ratio 3:4:3 and add up to 20. What is the largest one?",
+    "q": "A $200 item gets 10% off, then 50% off the reduced price. Final price (dollars)?",
     "type": "typed",
     "accept": [
-      "8"
+      "90"
     ],
-    "solution": "Total parts = 10. One part = 20 ÷ 10 = 2. The biggest part is 4, so the largest number is 4 × 2 = 8."
+    "solution": "After 10% off: $180. Then 50% off: $180 × 0.5 = $90.",
+    "tpl": "ratios:challenging:0"
   },
   {
-    "q": "Three numbers are in the ratio 2:2:3 and add up to 14. What is the largest one?",
+    "q": "After a 50% discount, a coat costs $100. What was the original price (dollars)?",
     "type": "typed",
     "accept": [
-      "6"
+      "200"
     ],
-    "solution": "Total parts = 7. One part = 14 ÷ 7 = 2. The biggest part is 3, so the largest number is 3 × 2 = 6."
+    "solution": "$100 is 50% of original. Original = $100 ÷ 0.5 = $200.",
+    "tpl": "ratios:challenging:1"
   },
   {
-    "q": "Three numbers are in the ratio 2:4:3 and add up to 18. What is the largest one?",
+    "q": "Three friends share money in ratio 1:2:3. The smallest share is $5. What is the TOTAL (dollars)?",
     "type": "typed",
     "accept": [
-      "8"
+      "30"
     ],
-    "solution": "Total parts = 9. One part = 18 ÷ 9 = 2. The biggest part is 4, so the largest number is 4 × 2 = 8."
+    "solution": "Smallest ratio term is 1, worth $5, so 1 part = $5. Total parts 6 → $30.",
+    "tpl": "ratios:challenging:4"
   },
   {
-    "q": "Three numbers are in the ratio 3:4:5 and add up to 36. What is the largest one?",
+    "q": "Two numbers are in the ratio 2:7. Their difference is 25. What is the LARGER number?",
     "type": "typed",
     "accept": [
-      "15"
+      "35"
     ],
-    "solution": "Total parts = 12. One part = 36 ÷ 12 = 3. The biggest part is 5, so the largest number is 5 × 3 = 15."
+    "solution": "Difference in parts = 5, worth 25, so 1 part = 5. Larger = 7 × 5 = 35.",
+    "tpl": "ratios:challenging:8"
   },
   {
-    "q": "A price went from $40 to $44. What was the percent increase?",
+    "q": "What is 25% of 40% of 100?",
     "type": "typed",
     "accept": [
       "10"
     ],
-    "solution": "Increase = 4. As a percent of the original: 4 ÷ 40 = 0.1 = 10%."
+    "solution": "40% of 100 = 40. 25% of 40 = 10.",
+    "tpl": "ratios:challenging:9"
   },
   {
-    "q": "A price went from $80 to $96. What was the percent increase?",
+    "q": "Pack A: 6 for $12. Pack B: 8 for $32. What is the LOWER unit price (dollars per item)?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "A: $2/item, B: $4/item. Lower = $2.",
+    "tpl": "ratios:challenging:10"
+  },
+  {
+    "q": "Each cake needs 3 eggs and 4 cups of flour. For 5 cakes, how many cups of flour are needed?",
     "type": "typed",
     "accept": [
       "20"
     ],
-    "solution": "Increase = 16. As a percent of the original: 16 ÷ 80 = 0.2 = 20%."
+    "solution": "4 cups × 5 cakes = 20 cups.",
+    "tpl": "ratios:challenging:7"
   },
   {
-    "q": "After a 20% discount, a bike costs $64. What was the original price?",
+    "q": "Two numbers are in the ratio 2:3. Their difference is 5. What is the LARGER number?",
     "type": "typed",
     "accept": [
-      "80"
+      "15"
     ],
-    "solution": "64 is 80% of the original: 64 ÷ 0.8 = $80."
+    "solution": "Difference in parts = 1, worth 5, so 1 part = 5. Larger = 3 × 5 = 15.",
+    "tpl": "ratios:challenging:8"
   },
   {
-    "q": "After a 10% discount, a bike costs $108. What was the original price?",
+    "q": "Three friends share money in ratio 2:3:4. The smallest share is $10. What is the TOTAL (dollars)?",
     "type": "typed",
     "accept": [
-      "120"
+      "45"
     ],
-    "solution": "108 is 90% of the original: 108 ÷ 0.9 = $120."
+    "solution": "Smallest ratio term is 2, worth $10, so 1 part = $5. Total parts 9 → $45.",
+    "tpl": "ratios:challenging:4"
   },
   {
-    "q": "Three numbers are in the ratio 3:3:3 and add up to 36. What is the largest one?",
+    "q": "A car goes 30 mph. How many miles does it travel in 5 minutes?",
+    "type": "typed",
+    "accept": [
+      "2.5"
+    ],
+    "solution": "30 mph = 30 miles per 60 min. 5/60 × 30 = 2.5 miles.",
+    "tpl": "ratios:challenging:5"
+  },
+  {
+    "q": "Pump A fills 2 liters/min and Pump B fills 6 liters/min. Together, how many liters in 2 minutes?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Combined rate = 2 + 6 = 8 L/min. × 2 = 16 L.",
+    "tpl": "ratios:challenging:3"
+  },
+  {
+    "q": "A $100 item gets 10% off, then 25% off the reduced price. Final price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "67.5"
+    ],
+    "solution": "After 10% off: $90. Then 25% off: $90 × 0.75 = $67.5.",
+    "tpl": "ratios:challenging:0"
+  },
+  {
+    "q": "Pack A: 5 for $15. Pack B: 10 for $30. What is the LOWER unit price (dollars per item)?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "A: $3/item, B: $3/item. Lower = $3.",
+    "tpl": "ratios:challenging:10"
+  },
+  {
+    "q": "What is 50% of 10% of 80?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "10% of 80 = 8. 50% of 8 = 4.",
+    "tpl": "ratios:challenging:9"
+  },
+  {
+    "q": "A car goes 12 mph. How many miles does it travel in 30 minutes?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "12 mph = 12 miles per 60 min. 30/60 × 12 = 6 miles.",
+    "tpl": "ratios:challenging:5"
+  },
+  {
+    "q": "A $80 purchase has 5% sales tax. What is the total cost (dollars)?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "Tax = 5% × $80 = $4. Total = $84.",
+    "tpl": "ratios:challenging:6"
+  },
+  {
+    "q": "A car goes 90 mph. How many miles does it travel in 45 minutes?",
+    "type": "typed",
+    "accept": [
+      "67.5"
+    ],
+    "solution": "90 mph = 90 miles per 60 min. 45/60 × 90 = 67.5 miles.",
+    "tpl": "ratios:challenging:5"
+  },
+  {
+    "q": "Two numbers are in the ratio 3:4. Their difference is 3. What is the LARGER number?",
     "type": "typed",
     "accept": [
       "12"
     ],
-    "solution": "Total parts = 9. One part = 36 ÷ 9 = 4. The biggest part is 3, so the largest number is 3 × 4 = 12."
+    "solution": "Difference in parts = 1, worth 3, so 1 part = 3. Larger = 4 × 3 = 12.",
+    "tpl": "ratios:challenging:8"
   },
   {
-    "q": "After a 25% discount, a bike costs $120. What was the original price?",
+    "q": "Two numbers are in the ratio 2:7. Their difference is 10. What is the LARGER number?",
     "type": "typed",
     "accept": [
-      "160"
+      "14"
     ],
-    "solution": "120 is 75% of the original: 120 ÷ 0.75 = $160."
+    "solution": "Difference in parts = 5, worth 10, so 1 part = 2. Larger = 7 × 2 = 14.",
+    "tpl": "ratios:challenging:8"
   },
   {
-    "q": "A price went from $120 to $180. What was the percent increase?",
+    "q": "Pump A fills 4 liters/min and Pump B fills 6 liters/min. Together, how many liters in 5 minutes?",
     "type": "typed",
     "accept": [
       "50"
     ],
-    "solution": "Increase = 60. As a percent of the original: 60 ÷ 120 = 0.5 = 50%."
+    "solution": "Combined rate = 4 + 6 = 10 L/min. × 5 = 50 L.",
+    "tpl": "ratios:challenging:3"
+  },
+  {
+    "q": "Three friends share money in ratio 2:3:5. The smallest share is $8. What is the TOTAL (dollars)?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Smallest ratio term is 2, worth $8, so 1 part = $4. Total parts 10 → $40.",
+    "tpl": "ratios:challenging:4"
+  },
+  {
+    "q": "What is 40% of 10% of 40?",
+    "type": "typed",
+    "accept": [
+      "1.6"
+    ],
+    "solution": "10% of 40 = 4. 40% of 4 = 1.6.",
+    "tpl": "ratios:challenging:9"
+  },
+  {
+    "q": "Each cake needs 4 eggs and 5 cups of flour. For 6 cakes, how many cups of flour are needed?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "5 cups × 6 cakes = 30 cups.",
+    "tpl": "ratios:challenging:7"
+  },
+  {
+    "q": "Each cake needs 4 eggs and 2 cups of flour. For 4 cakes, how many cups of flour are needed?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "2 cups × 4 cakes = 8 cups.",
+    "tpl": "ratios:challenging:7"
+  },
+  {
+    "q": "Two numbers are in the ratio 4:5. Their difference is 3. What is the LARGER number?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Difference in parts = 1, worth 3, so 1 part = 3. Larger = 5 × 3 = 15.",
+    "tpl": "ratios:challenging:8"
+  },
+  {
+    "q": "What is 50% of 25% of 200?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "25% of 200 = 50. 50% of 50 = 25.",
+    "tpl": "ratios:challenging:9"
+  },
+  {
+    "q": "Pack A: 6 for $24. Pack B: 10 for $40. What is the LOWER unit price (dollars per item)?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "A: $4/item, B: $4/item. Lower = $4.",
+    "tpl": "ratios:challenging:10"
+  },
+  {
+    "q": "Pump A fills 2 liters/min and Pump B fills 3 liters/min. Together, how many liters in 3 minutes?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Combined rate = 2 + 3 = 5 L/min. × 3 = 15 L.",
+    "tpl": "ratios:challenging:3"
+  },
+  {
+    "q": "What is 25% of 50% of 400?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "50% of 400 = 200. 25% of 200 = 50.",
+    "tpl": "ratios:challenging:9"
+  },
+  {
+    "q": "Each cake needs 2 eggs and 3 cups of flour. For 6 cakes, how many cups of flour are needed?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "3 cups × 6 cakes = 18 cups.",
+    "tpl": "ratios:challenging:7"
+  },
+  {
+    "q": "Pack A: 5 for $20. Pack B: 8 for $24. What is the LOWER unit price (dollars per item)?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "A: $4/item, B: $3/item. Lower = $3.",
+    "tpl": "ratios:challenging:10"
+  },
+  {
+    "q": "Three friends share money in ratio 3:3:5. The smallest share is $15. What is the TOTAL (dollars)?",
+    "type": "typed",
+    "accept": [
+      "55"
+    ],
+    "solution": "Smallest ratio term is 3, worth $15, so 1 part = $5. Total parts 11 → $55.",
+    "tpl": "ratios:challenging:4"
+  },
+  {
+    "q": "Each cake needs 3 eggs and 3 cups of flour. For 6 cakes, how many cups of flour are needed?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "3 cups × 6 cakes = 18 cups.",
+    "tpl": "ratios:challenging:7"
+  },
+  {
+    "q": "Pump A fills 6 liters/min and Pump B fills 3 liters/min. Together, how many liters in 3 minutes?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Combined rate = 6 + 3 = 9 L/min. × 3 = 27 L.",
+    "tpl": "ratios:challenging:3"
+  },
+  {
+    "q": "A price went from $80 to $120. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "Change = $40. Percent = 40 ÷ 80 = 0.5 = 50%.",
+    "tpl": "ratios:challenging:2"
+  },
+  {
+    "q": "A price went from $40 to $60. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "Change = $20. Percent = 20 ÷ 40 = 0.5 = 50%.",
+    "tpl": "ratios:challenging:2"
+  },
+  {
+    "q": "What is 20% of 10% of 400?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "10% of 400 = 40. 20% of 40 = 8.",
+    "tpl": "ratios:challenging:9"
+  },
+  {
+    "q": "After a 20% discount, a coat costs $32. What was the original price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "$32 is 80% of original. Original = $32 ÷ 0.8 = $40.",
+    "tpl": "ratios:challenging:1"
+  },
+  {
+    "q": "A $100 purchase has 10% sales tax. What is the total cost (dollars)?",
+    "type": "typed",
+    "accept": [
+      "110"
+    ],
+    "solution": "Tax = 10% × $100 = $10. Total = $110.",
+    "tpl": "ratios:challenging:6"
+  },
+  {
+    "q": "A $60 purchase has 5% sales tax. What is the total cost (dollars)?",
+    "type": "typed",
+    "accept": [
+      "63"
+    ],
+    "solution": "Tax = 5% × $60 = $3. Total = $63.",
+    "tpl": "ratios:challenging:6"
+  },
+  {
+    "q": "A $40 item gets 50% off, then 25% off the reduced price. Final price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "After 50% off: $20. Then 25% off: $20 × 0.75 = $15.",
+    "tpl": "ratios:challenging:0"
+  },
+  {
+    "q": "A $200 purchase has 20% sales tax. What is the total cost (dollars)?",
+    "type": "typed",
+    "accept": [
+      "240"
+    ],
+    "solution": "Tax = 20% × $200 = $40. Total = $240.",
+    "tpl": "ratios:challenging:6"
+  },
+  {
+    "q": "A $60 purchase has 20% sales tax. What is the total cost (dollars)?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "Tax = 20% × $60 = $12. Total = $72.",
+    "tpl": "ratios:challenging:6"
+  },
+  {
+    "q": "Pack A: 6 for $18. Pack B: 8 for $16. What is the LOWER unit price (dollars per item)?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "A: $3/item, B: $2/item. Lower = $2.",
+    "tpl": "ratios:challenging:10"
+  },
+  {
+    "q": "A $200 purchase has 10% sales tax. What is the total cost (dollars)?",
+    "type": "typed",
+    "accept": [
+      "220"
+    ],
+    "solution": "Tax = 10% × $200 = $20. Total = $220.",
+    "tpl": "ratios:challenging:6"
+  },
+  {
+    "q": "Pump A fills 2 liters/min and Pump B fills 4 liters/min. Together, how many liters in 5 minutes?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Combined rate = 2 + 4 = 6 L/min. × 5 = 30 L.",
+    "tpl": "ratios:challenging:3"
+  },
+  {
+    "q": "A $50 purchase has 25% sales tax. What is the total cost (dollars)?",
+    "type": "typed",
+    "accept": [
+      "62.5"
+    ],
+    "solution": "Tax = 25% × $50 = $12.5. Total = $62.5.",
+    "tpl": "ratios:challenging:6"
+  },
+  {
+    "q": "Two numbers are in the ratio 4:5. Their difference is 5. What is the LARGER number?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Difference in parts = 1, worth 5, so 1 part = 5. Larger = 5 × 5 = 25.",
+    "tpl": "ratios:challenging:8"
+  },
+  {
+    "q": "Three friends share money in ratio 3:3:3. The smallest share is $18. What is the TOTAL (dollars)?",
+    "type": "typed",
+    "accept": [
+      "54"
+    ],
+    "solution": "Smallest ratio term is 3, worth $18, so 1 part = $6. Total parts 9 → $54.",
+    "tpl": "ratios:challenging:4"
+  },
+  {
+    "q": "A price went from $100 to $105. What was the percent increase?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Change = $5. Percent = 5 ÷ 100 = 0.05 = 5%.",
+    "tpl": "ratios:challenging:2"
+  },
+  {
+    "q": "A car goes 30 mph. How many miles does it travel in 20 minutes?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "30 mph = 30 miles per 60 min. 20/60 × 30 = 10 miles.",
+    "tpl": "ratios:challenging:5"
+  },
+  {
+    "q": "A $80 item gets 20% off, then 50% off the reduced price. Final price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "After 20% off: $64. Then 50% off: $64 × 0.5 = $32.",
+    "tpl": "ratios:challenging:0"
+  },
+  {
+    "q": "Three friends share money in ratio 2:2:5. The smallest share is $12. What is the TOTAL (dollars)?",
+    "type": "typed",
+    "accept": [
+      "54"
+    ],
+    "solution": "Smallest ratio term is 2, worth $12, so 1 part = $6. Total parts 9 → $54.",
+    "tpl": "ratios:challenging:4"
+  },
+  {
+    "q": "Each cake needs 2 eggs and 3 cups of flour. For 4 cakes, how many cups of flour are needed?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "3 cups × 4 cakes = 12 cups.",
+    "tpl": "ratios:challenging:7"
+  },
+  {
+    "q": "Pack A: 4 for $16. Pack B: 3 for $9. What is the LOWER unit price (dollars per item)?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "A: $4/item, B: $3/item. Lower = $3.",
+    "tpl": "ratios:challenging:10"
+  },
+  {
+    "q": "After a 25% discount, a coat costs $75. What was the original price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "$75 is 75% of original. Original = $75 ÷ 0.75 = $100.",
+    "tpl": "ratios:challenging:1"
+  },
+  {
+    "q": "After a 20% discount, a coat costs $64. What was the original price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "$64 is 80% of original. Original = $64 ÷ 0.8 = $80.",
+    "tpl": "ratios:challenging:1"
+  },
+  {
+    "q": "A $40 item gets 25% off, then 10% off the reduced price. Final price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "After 25% off: $30. Then 10% off: $30 × 0.9 = $27.",
+    "tpl": "ratios:challenging:0"
+  },
+  {
+    "q": "A car goes 30 mph. How many miles does it travel in 15 minutes?",
+    "type": "typed",
+    "accept": [
+      "7.5"
+    ],
+    "solution": "30 mph = 30 miles per 60 min. 15/60 × 30 = 7.5 miles.",
+    "tpl": "ratios:challenging:5"
+  },
+  {
+    "q": "After a 10% discount, a coat costs $90. What was the original price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "$90 is 90% of original. Original = $90 ÷ 0.9 = $100.",
+    "tpl": "ratios:challenging:1"
   },
   {
     "q": "A price went from $100 to $120. What was the percent increase?",
@@ -357,127 +572,125 @@
     "accept": [
       "20"
     ],
-    "solution": "Increase = 20. As a percent of the original: 20 ÷ 100 = 0.2 = 20%."
+    "solution": "Change = $20. Percent = 20 ÷ 100 = 0.2 = 20%.",
+    "tpl": "ratios:challenging:2"
   },
   {
-    "q": "Three numbers are in the ratio 1:4:3 and add up to 24. What is the largest one?",
+    "q": "A price went from $80 to $84. What was the percent increase?",
     "type": "typed",
     "accept": [
-      "12"
+      "5"
     ],
-    "solution": "Total parts = 8. One part = 24 ÷ 8 = 3. The biggest part is 4, so the largest number is 4 × 3 = 12."
+    "solution": "Change = $4. Percent = 4 ÷ 80 = 0.05 = 5%.",
+    "tpl": "ratios:challenging:2"
   },
   {
-    "q": "After a 10% discount, a bike costs $72. What was the original price?",
+    "q": "After a 20% discount, a coat costs $160. What was the original price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "200"
+    ],
+    "solution": "$160 is 80% of original. Original = $160 ÷ 0.8 = $200.",
+    "tpl": "ratios:challenging:1"
+  },
+  {
+    "q": "A car goes 60 mph. How many miles does it travel in 10 minutes?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "60 mph = 60 miles per 60 min. 10/60 × 60 = 10 miles.",
+    "tpl": "ratios:challenging:5"
+  },
+  {
+    "q": "Pump A fills 6 liters/min and Pump B fills 3 liters/min. Together, how many liters in 2 minutes?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Combined rate = 6 + 3 = 9 L/min. × 2 = 18 L.",
+    "tpl": "ratios:challenging:3"
+  },
+  {
+    "q": "A $40 item gets 10% off, then 10% off the reduced price. Final price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "32.4"
+    ],
+    "solution": "After 10% off: $36. Then 10% off: $36 × 0.9 = $32.4.",
+    "tpl": "ratios:challenging:0"
+  },
+  {
+    "q": "A $200 item gets 25% off, then 10% off the reduced price. Final price (dollars)?",
+    "type": "typed",
+    "accept": [
+      "135"
+    ],
+    "solution": "After 25% off: $150. Then 10% off: $150 × 0.9 = $135.",
+    "tpl": "ratios:challenging:0"
+  },
+  {
+    "q": "Two numbers are in the ratio 1:4. Their difference is 12. What is the LARGER number?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Difference in parts = 3, worth 12, so 1 part = 4. Larger = 4 × 4 = 16.",
+    "tpl": "ratios:challenging:8"
+  },
+  {
+    "q": "Pump A fills 2 liters/min and Pump B fills 2 liters/min. Together, how many liters in 2 minutes?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Combined rate = 2 + 2 = 4 L/min. × 2 = 8 L.",
+    "tpl": "ratios:challenging:3"
+  },
+  {
+    "q": "Three friends share money in ratio 2:4:5. The smallest share is $12. What is the TOTAL (dollars)?",
+    "type": "typed",
+    "accept": [
+      "66"
+    ],
+    "solution": "Smallest ratio term is 2, worth $12, so 1 part = $6. Total parts 11 → $66.",
+    "tpl": "ratios:challenging:4"
+  },
+  {
+    "q": "After a 10% discount, a coat costs $72. What was the original price (dollars)?",
     "type": "typed",
     "accept": [
       "80"
     ],
-    "solution": "72 is 90% of the original: 72 ÷ 0.9 = $80."
+    "solution": "$72 is 90% of original. Original = $72 ÷ 0.9 = $80.",
+    "tpl": "ratios:challenging:1"
   },
   {
-    "q": "Three numbers are in the ratio 2:2:4 and add up to 32. What is the largest one?",
+    "q": "Each cake needs 2 eggs and 4 cups of flour. For 4 cakes, how many cups of flour are needed?",
     "type": "typed",
     "accept": [
       "16"
     ],
-    "solution": "Total parts = 8. One part = 32 ÷ 8 = 4. The biggest part is 4, so the largest number is 4 × 4 = 16."
+    "solution": "4 cups × 4 cakes = 16 cups.",
+    "tpl": "ratios:challenging:7"
   },
   {
-    "q": "A price went from $100 to $125. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Increase = 25. As a percent of the original: 25 ÷ 100 = 0.25 = 25%."
-  },
-  {
-    "q": "After a 20% discount, a bike costs $80. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "80 is 80% of the original: 80 ÷ 0.8 = $100."
-  },
-  {
-    "q": "A price went from $120 to $150. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "Increase = 30. As a percent of the original: 30 ÷ 120 = 0.25 = 25%."
-  },
-  {
-    "q": "Three numbers are in the ratio 1:4:5 and add up to 40. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Total parts = 10. One part = 40 ÷ 10 = 4. The biggest part is 5, so the largest number is 5 × 4 = 20."
-  },
-  {
-    "q": "A price went from $100 to $150. What was the percent increase?",
-    "type": "typed",
-    "accept": [
-      "50"
-    ],
-    "solution": "Increase = 50. As a percent of the original: 50 ÷ 100 = 0.5 = 50%."
-  },
-  {
-    "q": "After a 10% discount, a bike costs $90. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "90 is 90% of the original: 90 ÷ 0.9 = $100."
-  },
-  {
-    "q": "Three numbers are in the ratio 1:4:4 and add up to 27. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Total parts = 9. One part = 27 ÷ 9 = 3. The biggest part is 4, so the largest number is 4 × 3 = 12."
-  },
-  {
-    "q": "Three numbers are in the ratio 2:4:3 and add up to 36. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Total parts = 9. One part = 36 ÷ 9 = 4. The biggest part is 4, so the largest number is 4 × 4 = 16."
-  },
-  {
-    "q": "After a 25% discount, a bike costs $90. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "120"
-    ],
-    "solution": "90 is 75% of the original: 90 ÷ 0.75 = $120."
-  },
-  {
-    "q": "Three numbers are in the ratio 3:3:3 and add up to 27. What is the largest one?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Total parts = 9. One part = 27 ÷ 9 = 3. The biggest part is 3, so the largest number is 3 × 3 = 9."
-  },
-  {
-    "q": "Three numbers are in the ratio 3:2:5 and add up to 20. What is the largest one?",
+    "q": "What is 50% of 50% of 40?",
     "type": "typed",
     "accept": [
       "10"
     ],
-    "solution": "Total parts = 10. One part = 20 ÷ 10 = 2. The biggest part is 5, so the largest number is 5 × 2 = 10."
+    "solution": "50% of 40 = 20. 50% of 20 = 10.",
+    "tpl": "ratios:challenging:9"
   },
   {
-    "q": "A price went from $80 to $88. What was the percent increase?",
+    "q": "A car goes 20 mph. How many miles does it travel in 45 minutes?",
     "type": "typed",
     "accept": [
-      "10"
+      "15"
     ],
-    "solution": "Increase = 8. As a percent of the original: 8 ÷ 80 = 0.1 = 10%."
+    "solution": "20 mph = 20 miles per 60 min. 45/60 × 20 = 15 miles.",
+    "tpl": "ratios:challenging:5"
   },
   {
     "q": "A recipe for 4 people needs 6 eggs. How many eggs are needed for 10 people?",
@@ -486,7 +699,8 @@
       "15"
     ],
     "solution": "Eggs per person: 6 ÷ 4 = 1.5. For 10 people: 1.5 × 10 = 15. (Or set up 6/4 = x/10 and cross-multiply.)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:ratios:0"
   },
   {
     "q": "Two numbers are in the ratio 3 : 4 and their sum is 35. What is the larger number?",
@@ -495,7 +709,8 @@
       "20"
     ],
     "solution": "There are 3 + 4 = 7 equal parts. Each part = 35 ÷ 7 = 5. The larger number is 4 parts: 4 × 5 = 20.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:ratios:1"
   },
   {
     "q": "A car travels 60 km in 45 minutes. What is its speed in km per hour?",
@@ -504,7 +719,8 @@
       "80"
     ],
     "solution": "45 minutes is 3/4 of an hour. Speed = distance ÷ time = 60 ÷ (3/4) = 60 × 4/3 = 80 km/h.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:ratios:2"
   },
   {
     "q": "If 5 workers build a wall in 12 days, how many days would 6 workers take at the same rate?",
@@ -513,7 +729,8 @@
       "10"
     ],
     "solution": "The job takes 5 × 12 = 60 worker-days. With 6 workers: 60 ÷ 6 = 10 days. (More workers → fewer days — an inverse relationship.)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:ratios:3"
   },
   {
     "q": "A shirt costs $20 after a 20% discount. What was the original price?",
@@ -523,6 +740,7 @@
       "$25"
     ],
     "solution": "$20 is 80% of the original price. So the original = 20 ÷ 0.80 = $25.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:ratios:4"
   }
 ]

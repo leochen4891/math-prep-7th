@@ -1,499 +1,651 @@
 [
   {
-    "q": "Evaluate 3x² when x = -2.",
+    "q": "Evaluate 8 ÷ 2 + 8.",
     "type": "typed",
     "accept": [
       "12"
     ],
-    "solution": "Square first: (-2)² = 4. Then ×3 = 12. (Note: 3x² means 3·x², not (3x)².)"
+    "solution": "8 ÷ 2 = 4; + 8 = 12.",
+    "tpl": "integers:challenging:9"
   },
   {
-    "q": "8 − 4(3 − 9) = ?",
+    "q": "Evaluate 3x² − 4x − 4 when x = -3.",
     "type": "typed",
     "accept": [
-      "32"
+      "35"
     ],
-    "solution": "Parentheses: 3−9 = -6. Then 8 − 4×(-6) = 8 − (-24) = 32."
+    "solution": "3(-3)² = 27; -4(-3) = 12; plus -4 = 35.",
+    "tpl": "integers:challenging:1"
   },
   {
-    "q": "(-6) × (-6) + (-2) × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "Multiply first: (-6)×(-6) = 36 and (-2)×2 = -4. Then 36 − 4 = 32."
-  },
-  {
-    "q": "(-2)³ + (-3)³ = ?",
-    "type": "typed",
-    "accept": [
-      "-35"
-    ],
-    "solution": "(-2)³ = -8 and (-3)³ = -27. Sum: -35. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "Evaluate 2x + 5 when x = -6.",
-    "type": "typed",
-    "accept": [
-      "-7"
-    ],
-    "solution": "2(-6) + 5 = -12+5 = -7."
-  },
-  {
-    "q": "Evaluate 2x² when x = -4.",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "Square first: (-4)² = 16. Then ×2 = 32. (Note: 2x² means 2·x², not (2x)².)"
-  },
-  {
-    "q": "Evaluate 3x + 3 when x = -4.",
-    "type": "typed",
-    "accept": [
-      "-9"
-    ],
-    "solution": "3(-4) + 3 = -12+3 = -9."
-  },
-  {
-    "q": "Evaluate 2x + 4 when x = -4.",
-    "type": "typed",
-    "accept": [
-      "-4"
-    ],
-    "solution": "2(-4) + 4 = -8+4 = -4."
-  },
-  {
-    "q": "Evaluate a − b when a = -2 and b = -9.",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "a − b = (-2) − (-9) = 7. (Remember: subtracting a negative adds.)"
-  },
-  {
-    "q": "|-10| − |4 − 8| = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "|-10| = 10, and |4 − 8| = |-4| = 4. Then 10 − 4 = 6."
-  },
-  {
-    "q": "|-12| − |1 − 8| = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "|-12| = 12, and |1 − 8| = |-7| = 7. Then 12 − 7 = 5."
-  },
-  {
-    "q": "(-4)³ + (-3)³ = ?",
-    "type": "typed",
-    "accept": [
-      "-91"
-    ],
-    "solution": "(-4)³ = -64 and (-3)³ = -27. Sum: -91. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "8 − 4(4 − 8) = ?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "Parentheses: 4−8 = -4. Then 8 − 4×(-4) = 8 − (-16) = 24."
-  },
-  {
-    "q": "Evaluate 5x + 6 when x = -6.",
-    "type": "typed",
-    "accept": [
-      "-24"
-    ],
-    "solution": "5(-6) + 6 = -30+6 = -24."
-  },
-  {
-    "q": "Evaluate a − b when a = 3 and b = 7.",
-    "type": "typed",
-    "accept": [
-      "-4"
-    ],
-    "solution": "a − b = 3 − 7 = -4. (Remember: subtracting a negative adds.)"
-  },
-  {
-    "q": "Evaluate 2x² when x = -5.",
-    "type": "typed",
-    "accept": [
-      "50"
-    ],
-    "solution": "Square first: (-5)² = 25. Then ×2 = 50. (Note: 2x² means 2·x², not (2x)².)"
-  },
-  {
-    "q": "Evaluate 3x² when x = -3.",
-    "type": "typed",
-    "accept": [
-      "27"
-    ],
-    "solution": "Square first: (-3)² = 9. Then ×3 = 27. (Note: 3x² means 3·x², not (3x)².)"
-  },
-  {
-    "q": "|-5| − |3 − 7| = ?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "|-5| = 5, and |3 − 7| = |-4| = 4. Then 5 − 4 = 1."
-  },
-  {
-    "q": "Evaluate 3x + 2 when x = -6.",
-    "type": "typed",
-    "accept": [
-      "-16"
-    ],
-    "solution": "3(-6) + 2 = -18+2 = -16."
-  },
-  {
-    "q": "(-2)³ + (-2)² = ?",
-    "type": "typed",
-    "accept": [
-      "-4"
-    ],
-    "solution": "(-2)³ = -8 and (-2)² = 4. Sum: -4. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "|-4| − |5 − 11| = ?",
-    "type": "typed",
-    "accept": [
-      "-2"
-    ],
-    "solution": "|-4| = 4, and |5 − 11| = |-6| = 6. Then 4 − 6 = -2."
-  },
-  {
-    "q": "Evaluate a − b when a = 5 and b = -5.",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "a − b = 5 − (-5) = 10. (Remember: subtracting a negative adds.)"
-  },
-  {
-    "q": "(-2)³ + (-4)² = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "(-2)³ = -8 and (-4)² = 16. Sum: 8. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "4 × (-3) + (-2) × 6 = ?",
-    "type": "typed",
-    "accept": [
-      "-24"
-    ],
-    "solution": "Multiply first: 4×(-3) = -12 and (-2)×6 = -12. Then -12 − 12 = -24."
-  },
-  {
-    "q": "1 − 4(1 − 2) = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Parentheses: 1−2 = -1. Then 1 − 4×(-1) = 1 − (-4) = 5."
-  },
-  {
-    "q": "(-4)³ + (-3)² = ?",
-    "type": "typed",
-    "accept": [
-      "-55"
-    ],
-    "solution": "(-4)³ = -64 and (-3)² = 9. Sum: -55. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "(-4) × (-5) + (-3) × 5 = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Multiply first: (-4)×(-5) = 20 and (-3)×5 = -15. Then 20 − 15 = 5."
-  },
-  {
-    "q": "8 − 3(6 − 8) = ?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Parentheses: 6−8 = -2. Then 8 − 3×(-2) = 8 − (-6) = 14."
-  },
-  {
-    "q": "(-4)² + (-2)³ = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "(-4)² = 16 and (-2)³ = -8. Sum: 8. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "8 − 4(5 − 6) = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Parentheses: 5−6 = -1. Then 8 − 4×(-1) = 8 − (-4) = 12."
-  },
-  {
-    "q": "Evaluate 2x² when x = -2.",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Square first: (-2)² = 4. Then ×2 = 8. (Note: 2x² means 2·x², not (2x)².)"
-  },
-  {
-    "q": "(-6) × (-5) + 6 × (-5) = ?",
-    "type": "typed",
-    "accept": [
-      "0"
-    ],
-    "solution": "Multiply first: (-6)×(-5) = 30 and 6×(-5) = -30. Then 30 − 30 = 0."
-  },
-  {
-    "q": "(-4) × 2 + (-6) × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "-20"
-    ],
-    "solution": "Multiply first: (-4)×2 = -8 and (-6)×2 = -12. Then -8 − 12 = -20."
-  },
-  {
-    "q": "2 − 3(2 − 6) = ?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Parentheses: 2−6 = -4. Then 2 − 3×(-4) = 2 − (-12) = 14."
-  },
-  {
-    "q": "|-6| − |5 − 7| = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "|-6| = 6, and |5 − 7| = |-2| = 2. Then 6 − 2 = 4."
-  },
-  {
-    "q": "6 × 5 + (-4) × (-2) = ?",
-    "type": "typed",
-    "accept": [
-      "38"
-    ],
-    "solution": "Multiply first: 6×5 = 30 and (-4)×(-2) = 8. Then 30 + 8 = 38."
-  },
-  {
-    "q": "Evaluate 3x² when x = -5.",
-    "type": "typed",
-    "accept": [
-      "75"
-    ],
-    "solution": "Square first: (-5)² = 25. Then ×3 = 75. (Note: 3x² means 3·x², not (3x)².)"
-  },
-  {
-    "q": "(-3)² + (-3)² = ?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "(-3)² = 9 and (-3)² = 9. Sum: 18. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "Evaluate 2x² when x = -3.",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Square first: (-3)² = 9. Then ×2 = 18. (Note: 2x² means 2·x², not (2x)².)"
-  },
-  {
-    "q": "Evaluate 2x + 6 when x = -2.",
+    "q": "Evaluate 5 − (-3)[3 − 4].",
     "type": "typed",
     "accept": [
       "2"
     ],
-    "solution": "2(-2) + 6 = -4+6 = 2."
+    "solution": "Brackets: 3−4 = -1. (-3)×-1 = 3. 5 − 3 = 2.",
+    "tpl": "integers:challenging:2"
   },
   {
-    "q": "Evaluate 4x + 8 when x = -4.",
+    "q": "Evaluate 2x − 3y when x = -6 and y = 5.",
     "type": "typed",
     "accept": [
-      "-8"
+      "-27"
     ],
-    "solution": "4(-4) + 8 = -16+8 = -8."
+    "solution": "2(-6) = -12; 3(5) = 15; -12 − 15 = -27.",
+    "tpl": "integers:challenging:6"
   },
   {
-    "q": "4 − 4(6 − 8) = ?",
+    "q": "Evaluate −(-4)((-5) − 3) − 2.",
     "type": "typed",
     "accept": [
-      "12"
+      "-34"
     ],
-    "solution": "Parentheses: 6−8 = -2. Then 4 − 4×(-2) = 4 − (-8) = 12."
+    "solution": "Inside: (-5)−3 = -8. −(-4)×-8 = -32. Then − 2 = -34.",
+    "tpl": "integers:challenging:11"
   },
   {
-    "q": "Evaluate a − b when a = 8 and b = -5.",
+    "q": "Evaluate -3x² + 2x − 2 when x = -2.",
     "type": "typed",
     "accept": [
-      "13"
+      "-18"
     ],
-    "solution": "a − b = 8 − (-5) = 13. (Remember: subtracting a negative adds.)"
+    "solution": "-3(-2)² = -12; 2(-2) = -4; plus -2 = -18.",
+    "tpl": "integers:challenging:1"
   },
   {
-    "q": "Evaluate 2x + 2 when x = -5.",
-    "type": "typed",
-    "accept": [
-      "-8"
-    ],
-    "solution": "2(-5) + 2 = -10+2 = -8."
-  },
-  {
-    "q": "|-12| − |3 − 12| = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "|-12| = 12, and |3 − 12| = |-9| = 9. Then 12 − 9 = 3."
-  },
-  {
-    "q": "(-4)² + (-4)² = ?",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "(-4)² = 16 and (-4)² = 16. Sum: 32. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "|-6| − |2 − 7| = ?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "|-6| = 6, and |2 − 7| = |-5| = 5. Then 6 − 5 = 1."
-  },
-  {
-    "q": "|-8| − |1 − 8| = ?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "|-8| = 8, and |1 − 8| = |-7| = 7. Then 8 − 7 = 1."
-  },
-  {
-    "q": "Evaluate 3x² when x = -4.",
-    "type": "typed",
-    "accept": [
-      "48"
-    ],
-    "solution": "Square first: (-4)² = 16. Then ×3 = 48. (Note: 3x² means 3·x², not (3x)².)"
-  },
-  {
-    "q": "Evaluate a − b when a = 4 and b = 4.",
+    "q": "Distribute and evaluate (-2)(x − 6) when x = 6.",
     "type": "typed",
     "accept": [
       "0"
     ],
-    "solution": "a − b = 4 − 4 = 0. (Remember: subtracting a negative adds.)"
+    "solution": "(-2)(6 − 6) = (-2)(0) = 0.",
+    "tpl": "integers:challenging:3"
   },
   {
-    "q": "2 − 4(2 − 8) = ?",
-    "type": "typed",
-    "accept": [
-      "26"
-    ],
-    "solution": "Parentheses: 2−8 = -6. Then 2 − 4×(-6) = 2 − (-24) = 26."
-  },
-  {
-    "q": "Evaluate a − b when a = -3 and b = -6.",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "a − b = (-3) − (-6) = 3. (Remember: subtracting a negative adds.)"
-  },
-  {
-    "q": "Evaluate a − b when a = 6 and b = -4.",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "a − b = 6 − (-4) = 10. (Remember: subtracting a negative adds.)"
-  },
-  {
-    "q": "(-3)³ + (-2)² = ?",
-    "type": "typed",
-    "accept": [
-      "-23"
-    ],
-    "solution": "(-3)³ = -27 and (-2)² = 4. Sum: -23. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "(-3) × (-5) + (-6) × 5 = ?",
-    "type": "typed",
-    "accept": [
-      "-15"
-    ],
-    "solution": "Multiply first: (-3)×(-5) = 15 and (-6)×5 = -30. Then 15 − 30 = -15."
-  },
-  {
-    "q": "Evaluate 2x + 3 when x = -6.",
-    "type": "typed",
-    "accept": [
-      "-9"
-    ],
-    "solution": "2(-6) + 3 = -12+3 = -9."
-  },
-  {
-    "q": "8 − 5(3 − 7) = ?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "Parentheses: 3−7 = -4. Then 8 − 5×(-4) = 8 − (-20) = 28."
-  },
-  {
-    "q": "4 × (-4) + (-6) × (-2) = ?",
-    "type": "typed",
-    "accept": [
-      "-4"
-    ],
-    "solution": "Multiply first: 4×(-4) = -16 and (-6)×(-2) = 12. Then -16 + 12 = -4."
-  },
-  {
-    "q": "(-5) × (-4) + 6 × (-3) = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Multiply first: (-5)×(-4) = 20 and 6×(-3) = -18. Then 20 − 18 = 2."
-  },
-  {
-    "q": "|-10| − |3 − 12| = ?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "|-10| = 10, and |3 − 12| = |-9| = 9. Then 10 − 9 = 1."
-  },
-  {
-    "q": "Evaluate a − b when a = -3 and b = -2.",
+    "q": "Evaluate |(-10)| − |(-11)|.",
     "type": "typed",
     "accept": [
       "-1"
     ],
-    "solution": "a − b = (-3) − (-2) = -1. (Remember: subtracting a negative adds.)"
+    "solution": "|(-10)| = 10; |(-11)| = 11; 10 − 11 = -1.",
+    "tpl": "integers:challenging:7"
   },
   {
-    "q": "Evaluate a − b when a = -4 and b = -5.",
+    "q": "Distribute and evaluate 3(x − (-6)) when x = 6.",
     "type": "typed",
     "accept": [
-      "1"
+      "36"
     ],
-    "solution": "a − b = (-4) − (-5) = 1. (Remember: subtracting a negative adds.)"
+    "solution": "3(6 − (-6)) = 3(12) = 36.",
+    "tpl": "integers:challenging:3"
+  },
+  {
+    "q": "Evaluate |13| − |15|.",
+    "type": "typed",
+    "accept": [
+      "-2"
+    ],
+    "solution": "|13| = 13; |15| = 15; 13 − 15 = -2.",
+    "tpl": "integers:challenging:7"
+  },
+  {
+    "q": "Find the sum of all integers from -3 to 0, inclusive.",
+    "type": "typed",
+    "accept": [
+      "-6"
+    ],
+    "solution": "Add consecutive integers -3 through 0: sum = -6.",
+    "tpl": "integers:challenging:4"
+  },
+  {
+    "q": "Evaluate (3)² − (-3)(5).",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "(3)² = 9; (-3)×5 = -15; 9 − (-15) = 24.",
+    "tpl": "integers:challenging:0"
+  },
+  {
+    "q": "Evaluate (-30) ÷ 5 + 2.",
+    "type": "typed",
+    "accept": [
+      "-4"
+    ],
+    "solution": "(-30) ÷ 5 = -6; + 2 = -4.",
+    "tpl": "integers:challenging:9"
+  },
+  {
+    "q": "Evaluate (-5)² − 3((-4)).",
+    "type": "typed",
+    "accept": [
+      "37"
+    ],
+    "solution": "(-5)² = 25; 3×(-4) = -12; 25 − (-12) = 37.",
+    "tpl": "integers:challenging:0"
+  },
+  {
+    "q": "Evaluate 2x − 3y when x = 4 and y = 4.",
+    "type": "typed",
+    "accept": [
+      "-4"
+    ],
+    "solution": "2(4) = 8; 3(4) = 12; 8 − 12 = -4.",
+    "tpl": "integers:challenging:6"
+  },
+  {
+    "q": "Evaluate 24 ÷ 4 + (-2).",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "24 ÷ 4 = 6; + (-2) = 4.",
+    "tpl": "integers:challenging:9"
+  },
+  {
+    "q": "Distribute and evaluate (-4)(x − (-5)) when x = 6.",
+    "type": "typed",
+    "accept": [
+      "-44"
+    ],
+    "solution": "(-4)(6 − (-5)) = (-4)(11) = -44.",
+    "tpl": "integers:challenging:3"
+  },
+  {
+    "q": "Balance starts at $42. Transactions: (-25), 34, (-32). What is the final balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "42 − 25 + 34 − 32 = 19.",
+    "tpl": "integers:challenging:8"
+  },
+  {
+    "q": "Evaluate |10| − |5|.",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "|10| = 10; |5| = 5; 10 − 5 = 5.",
+    "tpl": "integers:challenging:7"
+  },
+  {
+    "q": "Find the sum of all integers from 3 to 7, inclusive.",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Add consecutive integers 3 through 7: sum = 25.",
+    "tpl": "integers:challenging:4"
+  },
+  {
+    "q": "Evaluate (-3)³ + 2.",
+    "type": "typed",
+    "accept": [
+      "-25"
+    ],
+    "solution": "(-3)³ = -27; + 2 = -25.",
+    "tpl": "integers:challenging:5"
+  },
+  {
+    "q": "Evaluate (2)² − (-2)((-3)).",
+    "type": "typed",
+    "accept": [
+      "-2"
+    ],
+    "solution": "(2)² = 4; (-2)×(-3) = 6; 4 − 6 = -2.",
+    "tpl": "integers:challenging:0"
+  },
+  {
+    "q": "Three consecutive integers add up to -12. What is the smallest of them?",
+    "type": "typed",
+    "accept": [
+      "-5"
+    ],
+    "solution": "If the smallest is n, then n + (n+1) + (n+2) = -12, so 3n + 3 = -12, n = -5.",
+    "tpl": "integers:challenging:10"
+  },
+  {
+    "q": "Evaluate 2x − 3y when x = -3 and y = -3.",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "2(-3) = -6; 3(-3) = -9; -6 − (-9) = 3.",
+    "tpl": "integers:challenging:6"
+  },
+  {
+    "q": "Evaluate 2x² + 6x − 4 when x = 4.",
+    "type": "typed",
+    "accept": [
+      "52"
+    ],
+    "solution": "2(4)² = 32; 6(4) = 24; plus -4 = 52.",
+    "tpl": "integers:challenging:1"
+  },
+  {
+    "q": "Evaluate 2x − 3y when x = 6 and y = 6.",
+    "type": "typed",
+    "accept": [
+      "-6"
+    ],
+    "solution": "2(6) = 12; 3(6) = 18; 12 − 18 = -6.",
+    "tpl": "integers:challenging:6"
+  },
+  {
+    "q": "Balance starts at $93. Transactions: (-24), 34, (-11). What is the final balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "92"
+    ],
+    "solution": "93 − 24 + 34 − 11 = 92.",
+    "tpl": "integers:challenging:8"
+  },
+  {
+    "q": "Evaluate 10 ÷ (-5) + 2.",
+    "type": "typed",
+    "accept": [
+      "0"
+    ],
+    "solution": "10 ÷ (-5) = -2; + 2 = 0.",
+    "tpl": "integers:challenging:9"
+  },
+  {
+    "q": "Distribute and evaluate 5(x − (-6)) when x = -5.",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "5(-5 − (-6)) = 5(1) = 5.",
+    "tpl": "integers:challenging:3"
+  },
+  {
+    "q": "Evaluate 2x² + 2x − 4 when x = -4.",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "2(-4)² = 32; 2(-4) = -8; plus -4 = 20.",
+    "tpl": "integers:challenging:1"
+  },
+  {
+    "q": "Evaluate −(-4)(3 − 3) − (-2).",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Inside: 3−3 = 0. −(-4)×0 = 0. Then − (-2) = 2.",
+    "tpl": "integers:challenging:11"
+  },
+  {
+    "q": "Evaluate 4 − 5[(-5) − 2].",
+    "type": "typed",
+    "accept": [
+      "39"
+    ],
+    "solution": "Brackets: (-5)−2 = -7. 5×-7 = -35. 4 − (-35) = 39.",
+    "tpl": "integers:challenging:2"
+  },
+  {
+    "q": "Evaluate 2x − 3y when x = 4 and y = 2.",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "2(4) = 8; 3(2) = 6; 8 − 6 = 2.",
+    "tpl": "integers:challenging:6"
+  },
+  {
+    "q": "Three consecutive integers add up to 27. What is the smallest of them?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "If the smallest is n, then n + (n+1) + (n+2) = 27, so 3n + 3 = 27, n = 8.",
+    "tpl": "integers:challenging:10"
+  },
+  {
+    "q": "Evaluate (-5)² − 2(2).",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "(-5)² = 25; 2×2 = 4; 25 − 4 = 21.",
+    "tpl": "integers:challenging:0"
+  },
+  {
+    "q": "Evaluate (-8) − 4[5 − (-3)].",
+    "type": "typed",
+    "accept": [
+      "-40"
+    ],
+    "solution": "Brackets: 5−(-3) = 8. 4×8 = 32. (-8) − 32 = -40.",
+    "tpl": "integers:challenging:2"
+  },
+  {
+    "q": "Balance starts at $91. Transactions: (-11), 43, (-10). What is the final balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "113"
+    ],
+    "solution": "91 − 11 + 43 − 10 = 113.",
+    "tpl": "integers:challenging:8"
+  },
+  {
+    "q": "Evaluate 2x − 3y when x = -6 and y = -3.",
+    "type": "typed",
+    "accept": [
+      "-3"
+    ],
+    "solution": "2(-6) = -12; 3(-3) = -9; -12 − (-9) = -3.",
+    "tpl": "integers:challenging:6"
+  },
+  {
+    "q": "Three consecutive integers add up to -18. What is the smallest of them?",
+    "type": "typed",
+    "accept": [
+      "-7"
+    ],
+    "solution": "If the smallest is n, then n + (n+1) + (n+2) = -18, so 3n + 3 = -18, n = -7.",
+    "tpl": "integers:challenging:10"
+  },
+  {
+    "q": "Three consecutive integers add up to -27. What is the smallest of them?",
+    "type": "typed",
+    "accept": [
+      "-10"
+    ],
+    "solution": "If the smallest is n, then n + (n+1) + (n+2) = -27, so 3n + 3 = -27, n = -10.",
+    "tpl": "integers:challenging:10"
+  },
+  {
+    "q": "Evaluate (2)³ + 9.",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "(2)³ = 8; + 9 = 17.",
+    "tpl": "integers:challenging:5"
+  },
+  {
+    "q": "Find the sum of all integers from -6 to -2, inclusive.",
+    "type": "typed",
+    "accept": [
+      "-20"
+    ],
+    "solution": "Add consecutive integers -6 through -2: sum = -20.",
+    "tpl": "integers:challenging:4"
+  },
+  {
+    "q": "Distribute and evaluate (-5)(x − 6) when x = 5.",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "(-5)(5 − 6) = (-5)(-1) = 5.",
+    "tpl": "integers:challenging:3"
+  },
+  {
+    "q": "Evaluate −(-5)((-6) − (-4)) − (-3).",
+    "type": "typed",
+    "accept": [
+      "-7"
+    ],
+    "solution": "Inside: (-6)−(-4) = -2. −(-5)×-2 = -10. Then − (-3) = -7.",
+    "tpl": "integers:challenging:11"
+  },
+  {
+    "q": "Evaluate (-6) − (-5)[(-2) − 2].",
+    "type": "typed",
+    "accept": [
+      "-26"
+    ],
+    "solution": "Brackets: (-2)−2 = -4. (-5)×-4 = 20. (-6) − 20 = -26.",
+    "tpl": "integers:challenging:2"
+  },
+  {
+    "q": "Three consecutive integers add up to 21. What is the smallest of them?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "If the smallest is n, then n + (n+1) + (n+2) = 21, so 3n + 3 = 21, n = 6.",
+    "tpl": "integers:challenging:10"
+  },
+  {
+    "q": "Evaluate -2x² − 3x − 8 when x = -3.",
+    "type": "typed",
+    "accept": [
+      "-17"
+    ],
+    "solution": "-2(-3)² = -18; -3(-3) = 9; plus -8 = -17.",
+    "tpl": "integers:challenging:1"
+  },
+  {
+    "q": "Evaluate (-3)³ + 4.",
+    "type": "typed",
+    "accept": [
+      "-23"
+    ],
+    "solution": "(-3)³ = -27; + 4 = -23.",
+    "tpl": "integers:challenging:5"
+  },
+  {
+    "q": "Evaluate (3)² − (-3)((-2)).",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "(3)² = 9; (-3)×(-2) = 6; 9 − 6 = 3.",
+    "tpl": "integers:challenging:0"
+  },
+  {
+    "q": "Evaluate −2((-2) − (-3)) − 7.",
+    "type": "typed",
+    "accept": [
+      "-9"
+    ],
+    "solution": "Inside: (-2)−(-3) = 1. −2×1 = -2. Then − 7 = -9.",
+    "tpl": "integers:challenging:11"
+  },
+  {
+    "q": "Evaluate 10 − (-4)[3 − (-4)].",
+    "type": "typed",
+    "accept": [
+      "38"
+    ],
+    "solution": "Brackets: 3−(-4) = 7. (-4)×7 = -28. 10 − (-28) = 38.",
+    "tpl": "integers:challenging:2"
+  },
+  {
+    "q": "Evaluate (-4)³ + 6.",
+    "type": "typed",
+    "accept": [
+      "-58"
+    ],
+    "solution": "(-4)³ = -64; + 6 = -58.",
+    "tpl": "integers:challenging:5"
+  },
+  {
+    "q": "Find the sum of all integers from 5 to 9, inclusive.",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "Add consecutive integers 5 through 9: sum = 35.",
+    "tpl": "integers:challenging:4"
+  },
+  {
+    "q": "Evaluate (4)³ + 7.",
+    "type": "typed",
+    "accept": [
+      "71"
+    ],
+    "solution": "(4)³ = 64; + 7 = 71.",
+    "tpl": "integers:challenging:5"
+  },
+  {
+    "q": "Find the sum of all integers from 7 to 12, inclusive.",
+    "type": "typed",
+    "accept": [
+      "57"
+    ],
+    "solution": "Add consecutive integers 7 through 12: sum = 57.",
+    "tpl": "integers:challenging:4"
+  },
+  {
+    "q": "Find the sum of all integers from -5 to -3, inclusive.",
+    "type": "typed",
+    "accept": [
+      "-12"
+    ],
+    "solution": "Add consecutive integers -5 through -3: sum = -12.",
+    "tpl": "integers:challenging:4"
+  },
+  {
+    "q": "Evaluate −(-5)((-2) − 6) − (-6).",
+    "type": "typed",
+    "accept": [
+      "-34"
+    ],
+    "solution": "Inside: (-2)−6 = -8. −(-5)×-8 = -40. Then − (-6) = -34.",
+    "tpl": "integers:challenging:11"
+  },
+  {
+    "q": "Evaluate x² + 6x − 5 when x = 2.",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "1(2)² = 4; 6(2) = 12; plus -5 = 11.",
+    "tpl": "integers:challenging:1"
+  },
+  {
+    "q": "Evaluate |(-17)| − |(-7)|.",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "|(-17)| = 17; |(-7)| = 7; 17 − 7 = 10.",
+    "tpl": "integers:challenging:7"
+  },
+  {
+    "q": "Balance starts at $92. Transactions: (-39), 23, (-12). What is the final balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "92 − 39 + 23 − 12 = 64.",
+    "tpl": "integers:challenging:8"
+  },
+  {
+    "q": "Evaluate (-4) ÷ 2 + (-7).",
+    "type": "typed",
+    "accept": [
+      "-9"
+    ],
+    "solution": "(-4) ÷ 2 = -2; + (-7) = -9.",
+    "tpl": "integers:challenging:9"
+  },
+  {
+    "q": "Evaluate (-3)² − (-4)(3).",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "(-3)² = 9; (-4)×3 = -12; 9 − (-12) = 21.",
+    "tpl": "integers:challenging:0"
+  },
+  {
+    "q": "Balance starts at $99. Transactions: (-26), 27, (-25). What is the final balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "99 − 26 + 27 − 25 = 75.",
+    "tpl": "integers:challenging:8"
+  },
+  {
+    "q": "Evaluate (-16) ÷ 4 + (-6).",
+    "type": "typed",
+    "accept": [
+      "-10"
+    ],
+    "solution": "(-16) ÷ 4 = -4; + (-6) = -10.",
+    "tpl": "integers:challenging:9"
+  },
+  {
+    "q": "Evaluate |13| − |10|.",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "|13| = 13; |10| = 10; 13 − 10 = 3.",
+    "tpl": "integers:challenging:7"
+  },
+  {
+    "q": "Evaluate −(-4)((-4) − 6) − (-2).",
+    "type": "typed",
+    "accept": [
+      "-38"
+    ],
+    "solution": "Inside: (-4)−6 = -10. −(-4)×-10 = -40. Then − (-2) = -38.",
+    "tpl": "integers:challenging:11"
+  },
+  {
+    "q": "Evaluate (-5) − 3[5 − 5].",
+    "type": "typed",
+    "accept": [
+      "-5"
+    ],
+    "solution": "Brackets: 5−5 = 0. 3×0 = 0. (-5) − 0 = -5.",
+    "tpl": "integers:challenging:2"
+  },
+  {
+    "q": "Evaluate |11| − |(-15)|.",
+    "type": "typed",
+    "accept": [
+      "-4"
+    ],
+    "solution": "|11| = 11; |(-15)| = 15; 11 − 15 = -4.",
+    "tpl": "integers:challenging:7"
+  },
+  {
+    "q": "Distribute and evaluate (-3)(x − (-2)) when x = -4.",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "(-3)(-4 − (-2)) = (-3)(-2) = 6.",
+    "tpl": "integers:challenging:3"
+  },
+  {
+    "q": "Evaluate (-2)³ + 2.",
+    "type": "typed",
+    "accept": [
+      "-6"
+    ],
+    "solution": "(-2)³ = -8; + 2 = -6.",
+    "tpl": "integers:challenging:5"
+  },
+  {
+    "q": "Three consecutive integers add up to 15. What is the smallest of them?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "If the smallest is n, then n + (n+1) + (n+2) = 15, so 3n + 3 = 15, n = 4.",
+    "tpl": "integers:challenging:10"
+  },
+  {
+    "q": "Balance starts at $47. Transactions: (-21), 31, (-36). What is the final balance, in dollars?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "47 − 21 + 31 − 36 = 21.",
+    "tpl": "integers:challenging:8"
   },
   {
     "q": "The product of three integers is negative. At most how many of them can be negative?",
@@ -506,7 +658,8 @@
     ],
     "answer": 2,
     "solution": "A product is negative only when an ODD number of factors are negative — so 1 or 3 of them. The largest possibility is 3 (negative × negative × negative = negative).",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:integers:0"
   },
   {
     "q": "What is (−1) + (−1)² + (−1)³ + (−1)⁴?",
@@ -515,7 +668,8 @@
       "0"
     ],
     "solution": "Evaluate each power: (−1)¹ = −1, (−1)² = +1, (−1)³ = −1, (−1)⁴ = +1. Sum: −1 + 1 − 1 + 1 = 0.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:integers:1"
   },
   {
     "q": "The sum of three consecutive integers is −6. What is the largest of them?",
@@ -524,7 +678,8 @@
       "-1"
     ],
     "solution": "Three consecutive integers can be written n−1, n, n+1. They add to 3n = −6, so n = −2. The integers are −3, −2, −1, and the largest is −1.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:integers:2"
   },
   {
     "q": "If a = −3, what is a − a²?",
@@ -533,7 +688,8 @@
       "-12"
     ],
     "solution": "First a² = (−3)² = 9. Then a − a² = −3 − 9 = −12. (Be careful: a² is positive even though a is negative.)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:integers:3"
   },
   {
     "q": "How many integers are strictly between −5 and 4?",
@@ -542,7 +698,8 @@
       "8"
     ],
     "solution": "The integers strictly between are −4, −3, −2, −1, 0, 1, 2, 3 — that's 8 of them (endpoints −5 and 4 are not counted).",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:integers:4"
   },
   {
     "q": "Compute −2 − (−2) − (−2).",
@@ -551,6 +708,7 @@
       "2"
     ],
     "solution": "Subtracting a negative adds: −2 − (−2) − (−2) = −2 + 2 + 2 = 2.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:integers:5"
   }
 ]

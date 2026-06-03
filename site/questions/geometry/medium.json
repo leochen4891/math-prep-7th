@@ -1,482 +1,704 @@
 [
   {
-    "q": "A rectangle is 12 by 3. What is its area?",
+    "q": "A triangle has base 13 cm and height 8 cm. What is its area in cm²?",
     "type": "typed",
     "accept": [
-      "36"
+      "52"
     ],
-    "solution": "Area = length × width = 12 × 3 = 36."
+    "solution": "Area = ½ × base × height = ½ × 13 × 8 = 52 cm².",
+    "tpl": "geometry:medium:4"
   },
   {
-    "q": "A triangle has base 11 and height 12. What is its area?",
+    "q": "A square has side length 13 in. What is its area in in²?",
     "type": "typed",
     "accept": [
-      "66"
+      "169"
     ],
-    "solution": "Area = ½ × base × height = ½ × 11 × 12 = 66."
+    "solution": "Area of a square = side² = 13² = 169 in².",
+    "tpl": "geometry:medium:2"
   },
   {
-    "q": "A triangle has base 7 and height 14. What is its area?",
-    "type": "typed",
-    "accept": [
-      "49"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 7 × 14 = 49."
-  },
-  {
-    "q": "A triangle has base 11 and height 6. What is its area?",
-    "type": "typed",
-    "accept": [
-      "33"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 11 × 6 = 33."
-  },
-  {
-    "q": "A rectangle is 8 by 9. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "34"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (8 + 9) = 34."
-  },
-  {
-    "q": "A rectangle is 11 by 10. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "42"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (11 + 10) = 42."
-  },
-  {
-    "q": "A rectangle is 9 by 14. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "46"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (9 + 14) = 46."
-  },
-  {
-    "q": "A rectangle is 6 by 11. What is its area?",
-    "type": "typed",
-    "accept": [
-      "66"
-    ],
-    "solution": "Area = length × width = 6 × 11 = 66."
-  },
-  {
-    "q": "A rectangle is 15 by 10. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "50"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (15 + 10) = 50."
-  },
-  {
-    "q": "A triangle has base 8 and height 2. What is its area?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 8 × 2 = 8."
-  },
-  {
-    "q": "A triangle has base 10 and height 4. What is its area?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 10 × 4 = 20."
-  },
-  {
-    "q": "A rectangle is 9 by 14. What is its area?",
-    "type": "typed",
-    "accept": [
-      "126"
-    ],
-    "solution": "Area = length × width = 9 × 14 = 126."
-  },
-  {
-    "q": "A triangle has base 9 and height 9. What is its area?",
-    "type": "typed",
-    "accept": [
-      "40.5"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 9 × 9 = 40.5."
-  },
-  {
-    "q": "A rectangle is 11 by 4. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (11 + 4) = 30."
-  },
-  {
-    "q": "A triangle has base 16 and height 14. What is its area?",
-    "type": "typed",
-    "accept": [
-      "112"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 16 × 14 = 112."
-  },
-  {
-    "q": "A triangle has base 6 and height 9. What is its area?",
-    "type": "typed",
-    "accept": [
-      "27"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 6 × 9 = 27."
-  },
-  {
-    "q": "A rectangle is 15 by 6. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "42"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (15 + 6) = 42."
-  },
-  {
-    "q": "A rectangle is 3 by 11. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (3 + 11) = 28."
-  },
-  {
-    "q": "A triangle has base 7 and height 6. What is its area?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 7 × 6 = 21."
-  },
-  {
-    "q": "A rectangle is 7 by 6. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "26"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (7 + 6) = 26."
-  },
-  {
-    "q": "A rectangle is 11 by 14. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "50"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (11 + 14) = 50."
-  },
-  {
-    "q": "A rectangle is 6 by 4. What is its area?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "Area = length × width = 6 × 4 = 24."
-  },
-  {
-    "q": "A rectangle is 8 by 9. What is its area?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "Area = length × width = 8 × 9 = 72."
-  },
-  {
-    "q": "A triangle has base 11 and height 16. What is its area?",
-    "type": "typed",
-    "accept": [
-      "88"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 11 × 16 = 88."
-  },
-  {
-    "q": "A rectangle is 7 by 5. What is its area?",
-    "type": "typed",
-    "accept": [
-      "35"
-    ],
-    "solution": "Area = length × width = 7 × 5 = 35."
-  },
-  {
-    "q": "A triangle has base 15 and height 4. What is its area?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 15 × 4 = 30."
-  },
-  {
-    "q": "A triangle has base 15 and height 13. What is its area?",
-    "type": "typed",
-    "accept": [
-      "97.5"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 15 × 13 = 97.5."
-  },
-  {
-    "q": "A rectangle is 9 by 6. What is its area?",
-    "type": "typed",
-    "accept": [
-      "54"
-    ],
-    "solution": "Area = length × width = 9 × 6 = 54."
-  },
-  {
-    "q": "A rectangle is 5 by 9. What is its area?",
-    "type": "typed",
-    "accept": [
-      "45"
-    ],
-    "solution": "Area = length × width = 5 × 9 = 45."
-  },
-  {
-    "q": "A triangle has base 12 and height 14. What is its area?",
-    "type": "typed",
-    "accept": [
-      "84"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 12 × 14 = 84."
-  },
-  {
-    "q": "A triangle has base 12 and height 4. What is its area?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 12 × 4 = 24."
-  },
-  {
-    "q": "A rectangle is 7 by 15. What is its perimeter?",
+    "q": "A rectangle is 11 cm wide and 4 cm tall. What is its area in cm²?",
     "type": "typed",
     "accept": [
       "44"
     ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (7 + 15) = 44."
+    "solution": "Area = width × height = 11 × 4 = 44 cm².",
+    "tpl": "geometry:medium:0"
   },
   {
-    "q": "A rectangle is 10 by 10. What is its area?",
+    "q": "Two angles are supplementary. One angle measures 45°. What is the other angle in degrees?",
     "type": "typed",
     "accept": [
-      "100"
+      "135"
     ],
-    "solution": "Area = length × width = 10 × 10 = 100."
+    "solution": "Supplementary angles add to 180°. 180° − 45° = 135°.",
+    "tpl": "geometry:medium:9"
   },
   {
-    "q": "A rectangle is 9 by 11. What is its area?",
+    "q": "Two angles are complementary. One angle measures 28°. What is the other angle in degrees?",
     "type": "typed",
     "accept": [
-      "99"
+      "62"
     ],
-    "solution": "Area = length × width = 9 × 11 = 99."
+    "solution": "Complementary angles add to 90°. 90° − 28° = 62°.",
+    "tpl": "geometry:medium:8"
   },
   {
-    "q": "A rectangle is 5 by 7. What is its area?",
+    "q": "Two angles are complementary. One angle measures 41°. What is the other angle in degrees?",
     "type": "typed",
     "accept": [
-      "35"
+      "49"
     ],
-    "solution": "Area = length × width = 5 × 7 = 35."
+    "solution": "Complementary angles add to 90°. 90° − 41° = 49°.",
+    "tpl": "geometry:medium:8"
   },
   {
-    "q": "A rectangle is 11 by 8. What is its area?",
+    "q": "Two angles are complementary. One angle measures 71°. What is the other angle in degrees?",
     "type": "typed",
     "accept": [
-      "88"
+      "19"
     ],
-    "solution": "Area = length × width = 11 × 8 = 88."
+    "solution": "Complementary angles add to 90°. 90° − 71° = 19°.",
+    "tpl": "geometry:medium:8"
   },
   {
-    "q": "A triangle has base 15 and height 7. What is its area?",
+    "q": "Two angles of a triangle measure 80° and 61°. What is the third angle in degrees?",
     "type": "typed",
     "accept": [
-      "52.5"
+      "39"
     ],
-    "solution": "Area = ½ × base × height = ½ × 15 × 7 = 52.5."
+    "solution": "Angles of a triangle add to 180°. 180° − 80° − 61° = 39°.",
+    "tpl": "geometry:medium:10"
   },
   {
-    "q": "A rectangle is 10 by 8. What is its area?",
+    "q": "Two angles of a triangle measure 80° and 53°. What is the third angle in degrees?",
     "type": "typed",
     "accept": [
-      "80"
+      "47"
     ],
-    "solution": "Area = length × width = 10 × 8 = 80."
+    "solution": "Angles of a triangle add to 180°. 180° − 80° − 53° = 47°.",
+    "tpl": "geometry:medium:10"
   },
   {
-    "q": "A rectangle is 7 by 14. What is its perimeter?",
+    "q": "A rectangle has area 48 cm² and a width of 12 cm. What is its length in cm?",
     "type": "typed",
     "accept": [
-      "42"
+      "4"
     ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (7 + 14) = 42."
+    "solution": "Length = area ÷ width = 48 ÷ 12 = 4 cm.",
+    "tpl": "geometry:medium:11"
   },
   {
-    "q": "A triangle has base 5 and height 9. What is its area?",
+    "q": "A cube has edge length 3 cm. What is its volume in cm³?",
     "type": "typed",
     "accept": [
-      "22.5"
+      "27"
     ],
-    "solution": "Area = ½ × base × height = ½ × 5 × 9 = 22.5."
+    "solution": "Volume of a cube = edge³ = 3³ = 27 cm³.",
+    "tpl": "geometry:medium:7"
   },
   {
-    "q": "A triangle has base 3 and height 11. What is its area?",
+    "q": "Two angles of a triangle measure 39° and 63°. What is the third angle in degrees?",
     "type": "typed",
     "accept": [
-      "16.5"
+      "78"
     ],
-    "solution": "Area = ½ × base × height = ½ × 3 × 11 = 16.5."
+    "solution": "Angles of a triangle add to 180°. 180° − 39° − 63° = 78°.",
+    "tpl": "geometry:medium:10"
   },
   {
-    "q": "A rectangle is 6 by 9. What is its perimeter?",
+    "q": "A box is 3 cm by 5 cm by 4 cm. What is its volume in cm³?",
     "type": "typed",
     "accept": [
-      "30"
+      "60"
     ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (6 + 9) = 30."
+    "solution": "Volume = length × width × height = 3 × 5 × 4 = 60 cm³.",
+    "tpl": "geometry:medium:6"
   },
   {
-    "q": "A rectangle is 8 by 12. What is its area?",
+    "q": "Two angles are supplementary. One angle measures 156°. What is the other angle in degrees?",
     "type": "typed",
     "accept": [
-      "96"
+      "24"
     ],
-    "solution": "Area = length × width = 8 × 12 = 96."
+    "solution": "Supplementary angles add to 180°. 180° − 156° = 24°.",
+    "tpl": "geometry:medium:9"
   },
   {
-    "q": "A rectangle is 13 by 12. What is its area?",
+    "q": "A square has side length 14 cm. What is its perimeter in cm?",
     "type": "typed",
     "accept": [
-      "156"
+      "56"
     ],
-    "solution": "Area = length × width = 13 × 12 = 156."
+    "solution": "Perimeter of a square = 4 × side = 4 × 14 = 56 cm.",
+    "tpl": "geometry:medium:3"
   },
   {
-    "q": "A rectangle is 9 by 13. What is its area?",
-    "type": "typed",
-    "accept": [
-      "117"
-    ],
-    "solution": "Area = length × width = 9 × 13 = 117."
-  },
-  {
-    "q": "A rectangle is 11 by 13. What is its area?",
-    "type": "typed",
-    "accept": [
-      "143"
-    ],
-    "solution": "Area = length × width = 11 × 13 = 143."
-  },
-  {
-    "q": "A rectangle is 7 by 4. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (7 + 4) = 22."
-  },
-  {
-    "q": "A rectangle is 3 by 6. What is its area?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Area = length × width = 3 × 6 = 18."
-  },
-  {
-    "q": "A triangle has base 11 and height 2. What is its area?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 11 × 2 = 11."
-  },
-  {
-    "q": "A rectangle is 5 by 10. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (5 + 10) = 30."
-  },
-  {
-    "q": "A rectangle is 15 by 7. What is its area?",
-    "type": "typed",
-    "accept": [
-      "105"
-    ],
-    "solution": "Area = length × width = 15 × 7 = 105."
-  },
-  {
-    "q": "A triangle has base 9 and height 16. What is its area?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 9 × 16 = 72."
-  },
-  {
-    "q": "A rectangle is 13 by 14. What is its area?",
-    "type": "typed",
-    "accept": [
-      "182"
-    ],
-    "solution": "Area = length × width = 13 × 14 = 182."
-  },
-  {
-    "q": "A rectangle is 4 by 10. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (4 + 10) = 28."
-  },
-  {
-    "q": "A triangle has base 15 and height 16. What is its area?",
-    "type": "typed",
-    "accept": [
-      "120"
-    ],
-    "solution": "Area = ½ × base × height = ½ × 15 × 16 = 120."
-  },
-  {
-    "q": "A rectangle is 13 by 5. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (13 + 5) = 36."
-  },
-  {
-    "q": "A rectangle is 11 by 7. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (11 + 7) = 36."
-  },
-  {
-    "q": "A rectangle is 11 by 13. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "48"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (11 + 13) = 48."
-  },
-  {
-    "q": "A rectangle is 4 by 6. What is its perimeter?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (4 + 6) = 20."
-  },
-  {
-    "q": "A rectangle is 3 by 13. What is its perimeter?",
+    "q": "A rectangle is 8 cm wide and 4 cm tall. What is its area in cm²?",
     "type": "typed",
     "accept": [
       "32"
     ],
-    "solution": "Perimeter = 2 × (length + width) = 2 × (3 + 13) = 32."
+    "solution": "Area = width × height = 8 × 4 = 32 cm².",
+    "tpl": "geometry:medium:0"
+  },
+  {
+    "q": "A square has area 64 cm². What is the length of one side in cm?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Side = √area = √64 = 8 cm (since 8 × 8 = 64).",
+    "tpl": "geometry:medium:12"
+  },
+  {
+    "q": "A cube has edge length 7 cm. What is its volume in cm³?",
+    "type": "typed",
+    "accept": [
+      "343"
+    ],
+    "solution": "Volume of a cube = edge³ = 7³ = 343 cm³.",
+    "tpl": "geometry:medium:7"
+  },
+  {
+    "q": "A rectangle has area 108 cm² and a width of 9 cm. What is its length in cm?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Length = area ÷ width = 108 ÷ 9 = 12 cm.",
+    "tpl": "geometry:medium:11"
+  },
+  {
+    "q": "Two angles are supplementary. One angle measures 31°. What is the other angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "149"
+    ],
+    "solution": "Supplementary angles add to 180°. 180° − 31° = 149°.",
+    "tpl": "geometry:medium:9"
+  },
+  {
+    "q": "Two angles of a triangle measure 63° and 44°. What is the third angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "73"
+    ],
+    "solution": "Angles of a triangle add to 180°. 180° − 63° − 44° = 73°.",
+    "tpl": "geometry:medium:10"
+  },
+  {
+    "q": "A square has side length 15 cm. What is its perimeter in cm?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "Perimeter of a square = 4 × side = 4 × 15 = 60 cm.",
+    "tpl": "geometry:medium:3"
+  },
+  {
+    "q": "A rectangle has area 25 cm² and a width of 5 cm. What is its length in cm?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Length = area ÷ width = 25 ÷ 5 = 5 cm.",
+    "tpl": "geometry:medium:11"
+  },
+  {
+    "q": "A square has side length 14 in. What is its area in in²?",
+    "type": "typed",
+    "accept": [
+      "196"
+    ],
+    "solution": "Area of a square = side² = 14² = 196 in².",
+    "tpl": "geometry:medium:2"
+  },
+  {
+    "q": "Two angles are complementary. One angle measures 64°. What is the other angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "Complementary angles add to 90°. 90° − 64° = 26°.",
+    "tpl": "geometry:medium:8"
+  },
+  {
+    "q": "A square has side length 8 in. What is its area in in²?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "Area of a square = side² = 8² = 64 in².",
+    "tpl": "geometry:medium:2"
+  },
+  {
+    "q": "A square has area 144 cm². What is the length of one side in cm?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Side = √area = √144 = 12 cm (since 12 × 12 = 144).",
+    "tpl": "geometry:medium:12"
+  },
+  {
+    "q": "A parallelogram has base 6 m and height 6 m. What is its area in m²?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Area of a parallelogram = base × height = 6 × 6 = 36 m².",
+    "tpl": "geometry:medium:5"
+  },
+  {
+    "q": "A square has area 16 cm². What is the length of one side in cm?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Side = √area = √16 = 4 cm (since 4 × 4 = 16).",
+    "tpl": "geometry:medium:12"
+  },
+  {
+    "q": "A rectangle is 6 m long and 5 m wide. What is its perimeter in m?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Perimeter = 2(length + width) = 2(6 + 5) = 2 × 11 = 22 m.",
+    "tpl": "geometry:medium:1"
+  },
+  {
+    "q": "A square has area 36 cm². What is the length of one side in cm?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Side = √area = √36 = 6 cm (since 6 × 6 = 36).",
+    "tpl": "geometry:medium:12"
+  },
+  {
+    "q": "A cube has edge length 6 cm. What is its volume in cm³?",
+    "type": "typed",
+    "accept": [
+      "216"
+    ],
+    "solution": "Volume of a cube = edge³ = 6³ = 216 cm³.",
+    "tpl": "geometry:medium:7"
+  },
+  {
+    "q": "Two angles are complementary. One angle measures 38°. What is the other angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "52"
+    ],
+    "solution": "Complementary angles add to 90°. 90° − 38° = 52°.",
+    "tpl": "geometry:medium:8"
+  },
+  {
+    "q": "A cube has edge length 2 cm. What is its volume in cm³?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Volume of a cube = edge³ = 2³ = 8 cm³.",
+    "tpl": "geometry:medium:7"
+  },
+  {
+    "q": "Two angles of a triangle measure 62° and 32°. What is the third angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "86"
+    ],
+    "solution": "Angles of a triangle add to 180°. 180° − 62° − 32° = 86°.",
+    "tpl": "geometry:medium:10"
+  },
+  {
+    "q": "Two angles of a triangle measure 39° and 53°. What is the third angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "88"
+    ],
+    "solution": "Angles of a triangle add to 180°. 180° − 39° − 53° = 88°.",
+    "tpl": "geometry:medium:10"
+  },
+  {
+    "q": "Two angles are supplementary. One angle measures 96°. What is the other angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "Supplementary angles add to 180°. 180° − 96° = 84°.",
+    "tpl": "geometry:medium:9"
+  },
+  {
+    "q": "Two angles are supplementary. One angle measures 109°. What is the other angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "71"
+    ],
+    "solution": "Supplementary angles add to 180°. 180° − 109° = 71°.",
+    "tpl": "geometry:medium:9"
+  },
+  {
+    "q": "Two angles are supplementary. One angle measures 88°. What is the other angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "92"
+    ],
+    "solution": "Supplementary angles add to 180°. 180° − 88° = 92°.",
+    "tpl": "geometry:medium:9"
+  },
+  {
+    "q": "A rectangle is 7 m long and 8 m wide. What is its perimeter in m?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Perimeter = 2(length + width) = 2(7 + 8) = 2 × 15 = 30 m.",
+    "tpl": "geometry:medium:1"
+  },
+  {
+    "q": "A parallelogram has base 6 m and height 5 m. What is its area in m²?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Area of a parallelogram = base × height = 6 × 5 = 30 m².",
+    "tpl": "geometry:medium:5"
+  },
+  {
+    "q": "A box is 7 cm by 6 cm by 2 cm. What is its volume in cm³?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "Volume = length × width × height = 7 × 6 × 2 = 84 cm³.",
+    "tpl": "geometry:medium:6"
+  },
+  {
+    "q": "A parallelogram has base 4 m and height 6 m. What is its area in m²?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Area of a parallelogram = base × height = 4 × 6 = 24 m².",
+    "tpl": "geometry:medium:5"
+  },
+  {
+    "q": "Two angles are complementary. One angle measures 65°. What is the other angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Complementary angles add to 90°. 90° − 65° = 25°.",
+    "tpl": "geometry:medium:8"
+  },
+  {
+    "q": "A square has area 256 cm². What is the length of one side in cm?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Side = √area = √256 = 16 cm (since 16 × 16 = 256).",
+    "tpl": "geometry:medium:12"
+  },
+  {
+    "q": "A square has area 100 cm². What is the length of one side in cm?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Side = √area = √100 = 10 cm (since 10 × 10 = 100).",
+    "tpl": "geometry:medium:12"
+  },
+  {
+    "q": "A square has side length 13 cm. What is its perimeter in cm?",
+    "type": "typed",
+    "accept": [
+      "52"
+    ],
+    "solution": "Perimeter of a square = 4 × side = 4 × 13 = 52 cm.",
+    "tpl": "geometry:medium:3"
+  },
+  {
+    "q": "A parallelogram has base 9 m and height 11 m. What is its area in m²?",
+    "type": "typed",
+    "accept": [
+      "99"
+    ],
+    "solution": "Area of a parallelogram = base × height = 9 × 11 = 99 m².",
+    "tpl": "geometry:medium:5"
+  },
+  {
+    "q": "A box is 4 cm by 6 cm by 6 cm. What is its volume in cm³?",
+    "type": "typed",
+    "accept": [
+      "144"
+    ],
+    "solution": "Volume = length × width × height = 4 × 6 × 6 = 144 cm³.",
+    "tpl": "geometry:medium:6"
+  },
+  {
+    "q": "A square has side length 12 in. What is its area in in²?",
+    "type": "typed",
+    "accept": [
+      "144"
+    ],
+    "solution": "Area of a square = side² = 12² = 144 in².",
+    "tpl": "geometry:medium:2"
+  },
+  {
+    "q": "A parallelogram has base 6 m and height 7 m. What is its area in m²?",
+    "type": "typed",
+    "accept": [
+      "42"
+    ],
+    "solution": "Area of a parallelogram = base × height = 6 × 7 = 42 m².",
+    "tpl": "geometry:medium:5"
+  },
+  {
+    "q": "A rectangle is 6 cm wide and 4 cm tall. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Area = width × height = 6 × 4 = 24 cm².",
+    "tpl": "geometry:medium:0"
+  },
+  {
+    "q": "A triangle has base 11 cm and height 12 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "66"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 11 × 12 = 66 cm².",
+    "tpl": "geometry:medium:4"
+  },
+  {
+    "q": "A square has side length 9 in. What is its area in in²?",
+    "type": "typed",
+    "accept": [
+      "81"
+    ],
+    "solution": "Area of a square = side² = 9² = 81 in².",
+    "tpl": "geometry:medium:2"
+  },
+  {
+    "q": "A box is 5 cm by 4 cm by 5 cm. What is its volume in cm³?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "Volume = length × width × height = 5 × 4 × 5 = 100 cm³.",
+    "tpl": "geometry:medium:6"
+  },
+  {
+    "q": "A rectangle is 5 m long and 14 m wide. What is its perimeter in m?",
+    "type": "typed",
+    "accept": [
+      "38"
+    ],
+    "solution": "Perimeter = 2(length + width) = 2(5 + 14) = 2 × 19 = 38 m.",
+    "tpl": "geometry:medium:1"
+  },
+  {
+    "q": "A box is 5 cm by 3 cm by 5 cm. What is its volume in cm³?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "Volume = length × width × height = 5 × 3 × 5 = 75 cm³.",
+    "tpl": "geometry:medium:6"
+  },
+  {
+    "q": "A cube has edge length 9 cm. What is its volume in cm³?",
+    "type": "typed",
+    "accept": [
+      "729"
+    ],
+    "solution": "Volume of a cube = edge³ = 9³ = 729 cm³.",
+    "tpl": "geometry:medium:7"
+  },
+  {
+    "q": "A triangle has base 11 cm and height 4 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 11 × 4 = 22 cm².",
+    "tpl": "geometry:medium:4"
+  },
+  {
+    "q": "A triangle has base 4 cm and height 4 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 4 × 4 = 8 cm².",
+    "tpl": "geometry:medium:4"
+  },
+  {
+    "q": "A square has side length 15 in. What is its area in in²?",
+    "type": "typed",
+    "accept": [
+      "225"
+    ],
+    "solution": "Area of a square = side² = 15² = 225 in².",
+    "tpl": "geometry:medium:2"
+  },
+  {
+    "q": "A rectangle has area 30 cm² and a width of 6 cm. What is its length in cm?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Length = area ÷ width = 30 ÷ 6 = 5 cm.",
+    "tpl": "geometry:medium:11"
+  },
+  {
+    "q": "A rectangle is 14 cm wide and 6 cm tall. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "Area = width × height = 14 × 6 = 84 cm².",
+    "tpl": "geometry:medium:0"
+  },
+  {
+    "q": "A cube has edge length 4 cm. What is its volume in cm³?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "Volume of a cube = edge³ = 4³ = 64 cm³.",
+    "tpl": "geometry:medium:7"
+  },
+  {
+    "q": "A square has side length 19 cm. What is its perimeter in cm?",
+    "type": "typed",
+    "accept": [
+      "76"
+    ],
+    "solution": "Perimeter of a square = 4 × side = 4 × 19 = 76 cm.",
+    "tpl": "geometry:medium:3"
+  },
+  {
+    "q": "A triangle has base 14 cm and height 8 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "56"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 14 × 8 = 56 cm².",
+    "tpl": "geometry:medium:4"
+  },
+  {
+    "q": "A rectangle is 11 m long and 3 m wide. What is its perimeter in m?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Perimeter = 2(length + width) = 2(11 + 3) = 2 × 14 = 28 m.",
+    "tpl": "geometry:medium:1"
+  },
+  {
+    "q": "A parallelogram has base 11 m and height 9 m. What is its area in m²?",
+    "type": "typed",
+    "accept": [
+      "99"
+    ],
+    "solution": "Area of a parallelogram = base × height = 11 × 9 = 99 m².",
+    "tpl": "geometry:medium:5"
+  },
+  {
+    "q": "A rectangle is 9 m long and 15 m wide. What is its perimeter in m?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Perimeter = 2(length + width) = 2(9 + 15) = 2 × 24 = 48 m.",
+    "tpl": "geometry:medium:1"
+  },
+  {
+    "q": "A rectangle has area 60 cm² and a width of 12 cm. What is its length in cm?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Length = area ÷ width = 60 ÷ 12 = 5 cm.",
+    "tpl": "geometry:medium:11"
+  },
+  {
+    "q": "A rectangle has area 40 cm² and a width of 5 cm. What is its length in cm?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Length = area ÷ width = 40 ÷ 5 = 8 cm.",
+    "tpl": "geometry:medium:11"
+  },
+  {
+    "q": "A rectangle is 9 cm wide and 9 cm tall. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "81"
+    ],
+    "solution": "Area = width × height = 9 × 9 = 81 cm².",
+    "tpl": "geometry:medium:0"
+  },
+  {
+    "q": "A triangle has base 8 cm and height 4 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Area = ½ × base × height = ½ × 8 × 4 = 16 cm².",
+    "tpl": "geometry:medium:4"
+  },
+  {
+    "q": "A box is 5 cm by 3 cm by 6 cm. What is its volume in cm³?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Volume = length × width × height = 5 × 3 × 6 = 90 cm³.",
+    "tpl": "geometry:medium:6"
+  },
+  {
+    "q": "A rectangle is 13 m long and 14 m wide. What is its perimeter in m?",
+    "type": "typed",
+    "accept": [
+      "54"
+    ],
+    "solution": "Perimeter = 2(length + width) = 2(13 + 14) = 2 × 27 = 54 m.",
+    "tpl": "geometry:medium:1"
+  },
+  {
+    "q": "A square has side length 4 cm. What is its perimeter in cm?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Perimeter of a square = 4 × side = 4 × 4 = 16 cm.",
+    "tpl": "geometry:medium:3"
+  },
+  {
+    "q": "A square has side length 17 cm. What is its perimeter in cm?",
+    "type": "typed",
+    "accept": [
+      "68"
+    ],
+    "solution": "Perimeter of a square = 4 × side = 4 × 17 = 68 cm.",
+    "tpl": "geometry:medium:3"
+  },
+  {
+    "q": "A rectangle is 5 cm wide and 6 cm tall. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Area = width × height = 5 × 6 = 30 cm².",
+    "tpl": "geometry:medium:0"
   }
 ]

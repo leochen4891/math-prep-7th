@@ -1,403 +1,753 @@
 [
   {
-    "q": "A rectangle has area 64 and length 8. What is its width?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Width = area ÷ length = 64 ÷ 8 = 8."
-  },
-  {
-    "q": "A box is 5 × 5 × 2. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "90"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(25 + 10 + 10) = 90."
-  },
-  {
-    "q": "A box is 4 × 6 × 3. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "108"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(24 + 12 + 18) = 108."
-  },
-  {
-    "q": "A box is 3 × 6 × 4. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "108"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(18 + 12 + 24) = 108."
-  },
-  {
-    "q": "A rectangle has area 72 and length 8. What is its width?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Width = area ÷ length = 72 ÷ 8 = 9."
-  },
-  {
-    "q": "A box is 4 × 5 × 4. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "112"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(20 + 16 + 20) = 112."
-  },
-  {
-    "q": "A rectangle has area 16 and length 8. What is its width?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Width = area ÷ length = 16 ÷ 8 = 2."
-  },
-  {
-    "q": "A rectangle has area 60 and length 6. What is its width?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Width = area ÷ length = 60 ÷ 6 = 10."
-  },
-  {
-    "q": "A rectangle has area 48 and length 6. What is its width?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Width = area ÷ length = 48 ÷ 6 = 8."
-  },
-  {
-    "q": "A 12-by-12 square has a 6-by-6 square cut out of one corner. What area is left?",
-    "type": "typed",
-    "accept": [
-      "108"
-    ],
-    "solution": "Subtract the small square from the big one: 144 − 36 = 108."
-  },
-  {
-    "q": "The three angles of a triangle are in the ratio 2 : 2 : 5. What is the largest angle? (They add to 180°.)",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "Parts total 9, so one part = 180 ÷ 9 = 20°. The largest is 5 × 20° = 100°."
-  },
-  {
-    "q": "A rectangle has area 12 and length 4. What is its width?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Width = area ÷ length = 12 ÷ 4 = 3."
-  },
-  {
-    "q": "A box is 2 × 3 × 4. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "52"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(6 + 8 + 12) = 52."
-  },
-  {
-    "q": "A box is 2 × 2 × 5. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "48"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(4 + 10 + 10) = 48."
-  },
-  {
-    "q": "A 10-by-10 square has a 5-by-5 square cut out of one corner. What area is left?",
-    "type": "typed",
-    "accept": [
-      "75"
-    ],
-    "solution": "Subtract the small square from the big one: 100 − 25 = 75."
-  },
-  {
-    "q": "A rectangle has area 24 and length 6. What is its width?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Width = area ÷ length = 24 ÷ 6 = 4."
-  },
-  {
-    "q": "A 10-by-10 square has a 4-by-4 square cut out of one corner. What area is left?",
-    "type": "typed",
-    "accept": [
-      "84"
-    ],
-    "solution": "Subtract the small square from the big one: 100 − 16 = 84."
-  },
-  {
-    "q": "A box is 3 × 3 × 4. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "66"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(9 + 12 + 12) = 66."
-  },
-  {
-    "q": "The three angles of a triangle are in the ratio 1 : 2 : 3. What is the largest angle? (They add to 180°.)",
-    "type": "typed",
-    "accept": [
-      "90"
-    ],
-    "solution": "Parts total 6, so one part = 180 ÷ 6 = 30°. The largest is 3 × 30° = 90°."
-  },
-  {
-    "q": "A box is 5 × 6 × 6. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "192"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(30 + 30 + 36) = 192."
-  },
-  {
-    "q": "A box is 3 × 4 × 2. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "52"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(12 + 6 + 8) = 52."
-  },
-  {
-    "q": "A box is 4 × 5 × 5. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "130"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(20 + 20 + 25) = 130."
-  },
-  {
-    "q": "A rectangle has area 24 and length 8. What is its width?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Width = area ÷ length = 24 ÷ 8 = 3."
-  },
-  {
-    "q": "A 8-by-8 square has a 4-by-4 square cut out of one corner. What area is left?",
-    "type": "typed",
-    "accept": [
-      "48"
-    ],
-    "solution": "Subtract the small square from the big one: 64 − 16 = 48."
-  },
-  {
-    "q": "A rectangle has area 132 and length 12. What is its width?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Width = area ÷ length = 132 ÷ 12 = 11."
-  },
-  {
-    "q": "The three angles of a triangle are in the ratio 1 : 3 : 5. What is the largest angle? (They add to 180°.)",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "Parts total 9, so one part = 180 ÷ 9 = 20°. The largest is 5 × 20° = 100°."
-  },
-  {
-    "q": "A box is 6 × 4 × 3. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "108"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(24 + 18 + 12) = 108."
-  },
-  {
-    "q": "A rectangle has area 56 and length 8. What is its width?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Width = area ÷ length = 56 ÷ 8 = 7."
-  },
-  {
-    "q": "A rectangle has area 16 and length 4. What is its width?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Width = area ÷ length = 16 ÷ 4 = 4."
-  },
-  {
-    "q": "A 10-by-10 square has a 7-by-7 square cut out of one corner. What area is left?",
-    "type": "typed",
-    "accept": [
-      "51"
-    ],
-    "solution": "Subtract the small square from the big one: 100 − 49 = 51."
-  },
-  {
-    "q": "A box is 3 × 5 × 2. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "62"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(15 + 6 + 10) = 62."
-  },
-  {
-    "q": "A 12-by-12 square has a 4-by-4 square cut out of one corner. What area is left?",
-    "type": "typed",
-    "accept": [
-      "128"
-    ],
-    "solution": "Subtract the small square from the big one: 144 − 16 = 128."
-  },
-  {
-    "q": "A 10-by-10 square has a 6-by-6 square cut out of one corner. What area is left?",
+    "q": "A square has perimeter 32 cm. What is its area in cm²?",
     "type": "typed",
     "accept": [
       "64"
     ],
-    "solution": "Subtract the small square from the big one: 100 − 36 = 64."
+    "solution": "Side = perimeter ÷ 4 = 32 ÷ 4 = 8 cm. Area = 8² = 64 cm².",
+    "tpl": "geometry:challenging:12"
   },
   {
-    "q": "A box is 4 × 5 × 6. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "148"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(20 + 24 + 30) = 148."
-  },
-  {
-    "q": "A rectangle has area 12 and length 6. What is its width?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Width = area ÷ length = 12 ÷ 6 = 2."
-  },
-  {
-    "q": "A rectangle has area 108 and length 12. What is its width?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Width = area ÷ length = 108 ÷ 12 = 9."
-  },
-  {
-    "q": "The three angles of a triangle are in the ratio 1 : 2 : 2. What is the largest angle? (They add to 180°.)",
+    "q": "How many 2-cm cubes are needed to completely fill a box that is 12 cm by 8 cm by 6 cm?",
     "type": "typed",
     "accept": [
       "72"
     ],
-    "solution": "Parts total 5, so one part = 180 ÷ 5 = 36°. The largest is 2 × 36° = 72°."
+    "solution": "Along each side: 12÷2=6, 8÷2=4, 6÷2=3. Total cubes = 6 × 4 × 3 = 72.",
+    "tpl": "geometry:challenging:8"
   },
   {
-    "q": "A 12-by-12 square has a 2-by-2 square cut out of one corner. What area is left?",
+    "q": "A pentagon shaped like a house is a 5 by 7 rectangle with a triangle of height 4 on top (the triangle's base equals the rectangle's width, 5). What is the total area?",
     "type": "typed",
     "accept": [
-      "140"
+      "45"
     ],
-    "solution": "Subtract the small square from the big one: 144 − 4 = 140."
+    "solution": "Rectangle = 5 × 7 = 35. Triangle = ½ × 5 × 4 = 10. Total = 35 + 10 = 45.",
+    "tpl": "geometry:challenging:3"
   },
   {
-    "q": "A 10-by-10 square has a 2-by-2 square cut out of one corner. What area is left?",
+    "q": "A cube has volume 1000 cm³. What is its total surface area in cm²?",
     "type": "typed",
     "accept": [
-      "96"
+      "600"
     ],
-    "solution": "Subtract the small square from the big one: 100 − 4 = 96."
+    "solution": "Edge = ∛1000 = 10 cm. Surface area = 6 × edge² = 6 × 100 = 600 cm².",
+    "tpl": "geometry:challenging:2"
   },
   {
-    "q": "The three angles of a triangle are in the ratio 2 : 3 : 4. What is the largest angle? (They add to 180°.)",
+    "q": "A circle of radius 2 cm is inscribed in a square (the circle touches all four sides). What is the area inside the square but outside the circle, in cm²? (use π ≈ 3.14)",
+    "type": "typed",
+    "accept": [
+      "3.44"
+    ],
+    "solution": "Square side = 2r = 4 cm, area = 16 cm². Circle area = 3.14 × 2² = 12.56 cm². Shaded = 16 − 12.56 = 3.44 cm².",
+    "tpl": "geometry:challenging:0"
+  },
+  {
+    "q": "A box has volume 50 cm³. If every edge length is doubled, what is the new volume in cm³?",
+    "type": "mc",
+    "choices": [
+      "58",
+      "100",
+      "200",
+      "400"
+    ],
+    "answer": 3,
+    "solution": "Doubling each of the 3 edges multiplies volume by 2×2×2 = 8. New volume = 8 × 50 = 400 cm³.",
+    "tpl": "geometry:challenging:6"
+  },
+  {
+    "q": "How many 2-cm cubes are needed to completely fill a box that is 16 cm by 6 cm by 10 cm?",
+    "type": "typed",
+    "accept": [
+      "120"
+    ],
+    "solution": "Along each side: 16÷2=8, 6÷2=3, 10÷2=5. Total cubes = 8 × 3 × 5 = 120.",
+    "tpl": "geometry:challenging:8"
+  },
+  {
+    "q": "An L-shape is formed by removing a 4 by 3 rectangle from one corner of a 10 by 8 rectangle. What is the perimeter of the L-shape?",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "Removing a corner notch keeps the perimeter equal to the original rectangle: the two cut edges replace the two outer edges of equal total length. Perimeter = 2(10 + 8) = 36.",
+    "tpl": "geometry:challenging:5"
+  },
+  {
+    "q": "Two circles share the same center. The outer radius is 6 cm and the inner radius is 2 cm. What is the area of the ring between them in cm²? (use π ≈ 3.14)",
+    "type": "typed",
+    "accept": [
+      "100.48"
+    ],
+    "solution": "Ring area = πR² − πr² = 3.14 × (6² − 2²) = 3.14 × (36 − 4) = 3.14 × 32 = 100.48 cm².",
+    "tpl": "geometry:challenging:7"
+  },
+  {
+    "q": "A circle has area 78.5 cm². If the radius is doubled, the new area is...",
+    "type": "mc",
+    "choices": [
+      "628",
+      "157",
+      "78.5",
+      "314"
+    ],
+    "answer": 3,
+    "solution": "Doubling the radius multiplies the area by 2² = 4. New area = 4 × 78.5 = 314 cm².",
+    "tpl": "geometry:challenging:10"
+  },
+  {
+    "q": "A square has perimeter 28 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "49"
+    ],
+    "solution": "Side = perimeter ÷ 4 = 28 ÷ 4 = 7 cm. Area = 7² = 49 cm².",
+    "tpl": "geometry:challenging:12"
+  },
+  {
+    "q": "A circle of radius 4 cm is inscribed in a square (the circle touches all four sides). What is the area inside the square but outside the circle, in cm²? (use π ≈ 3.14)",
+    "type": "typed",
+    "accept": [
+      "13.76"
+    ],
+    "solution": "Square side = 2r = 8 cm, area = 64 cm². Circle area = 3.14 × 4² = 50.24 cm². Shaded = 64 − 50.24 = 13.76 cm².",
+    "tpl": "geometry:challenging:0"
+  },
+  {
+    "q": "Two complementary angles differ by 36°. What is the measure of the larger angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "63"
+    ],
+    "solution": "Let the smaller be x. Then x + (x + 36) = 90, so 2x = 54, x = 27°. Larger = 27 + 36 = 63°.",
+    "tpl": "geometry:challenging:1"
+  },
+  {
+    "q": "A circle of radius 6 cm is inscribed in a square (the circle touches all four sides). What is the area inside the square but outside the circle, in cm²? (use π ≈ 3.14)",
+    "type": "typed",
+    "accept": [
+      "30.96"
+    ],
+    "solution": "Square side = 2r = 12 cm, area = 144 cm². Circle area = 3.14 × 6² = 113.04 cm². Shaded = 144 − 113.04 = 30.96 cm².",
+    "tpl": "geometry:challenging:0"
+  },
+  {
+    "q": "Two circles share the same center. The outer radius is 6 cm and the inner radius is 3 cm. What is the area of the ring between them in cm²? (use π ≈ 3.14)",
+    "type": "typed",
+    "accept": [
+      "84.78"
+    ],
+    "solution": "Ring area = πR² − πr² = 3.14 × (6² − 3²) = 3.14 × (36 − 9) = 3.14 × 27 = 84.78 cm².",
+    "tpl": "geometry:challenging:7"
+  },
+  {
+    "q": "The three angles of a triangle are in the ratio 1:2:3. What is the largest angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Total parts = 1 + 2 + 3 = 6. Each part = 180° ÷ 6 = 30°. Largest = 3 × 30° = 90°.",
+    "tpl": "geometry:challenging:4"
+  },
+  {
+    "q": "A rhombus has diagonals of length 8 cm and 6 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Area of a rhombus = ½ × d₁ × d₂ = ½ × 8 × 6 = 24 cm².",
+    "tpl": "geometry:challenging:11"
+  },
+  {
+    "q": "A rhombus has diagonals of length 14 cm and 16 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "112"
+    ],
+    "solution": "Area of a rhombus = ½ × d₁ × d₂ = ½ × 14 × 16 = 112 cm².",
+    "tpl": "geometry:challenging:11"
+  },
+  {
+    "q": "How many 2-cm cubes are needed to completely fill a box that is 16 cm by 4 cm by 10 cm?",
     "type": "typed",
     "accept": [
       "80"
     ],
-    "solution": "Parts total 9, so one part = 180 ÷ 9 = 20°. The largest is 4 × 20° = 80°."
+    "solution": "Along each side: 16÷2=8, 4÷2=2, 10÷2=5. Total cubes = 8 × 2 × 5 = 80.",
+    "tpl": "geometry:challenging:8"
   },
   {
-    "q": "A 8-by-8 square has a 5-by-5 square cut out of one corner. What area is left?",
+    "q": "A box has volume 24 cm³. If every edge length is doubled, what is the new volume in cm³?",
+    "type": "mc",
+    "choices": [
+      "48",
+      "32",
+      "96",
+      "192"
+    ],
+    "answer": 3,
+    "solution": "Doubling each of the 3 edges multiplies volume by 2×2×2 = 8. New volume = 8 × 24 = 192 cm³.",
+    "tpl": "geometry:challenging:6"
+  },
+  {
+    "q": "A cube has volume 8 cm³. What is its total surface area in cm²?",
     "type": "typed",
     "accept": [
-      "39"
+      "24"
     ],
-    "solution": "Subtract the small square from the big one: 64 − 25 = 39."
+    "solution": "Edge = ∛8 = 2 cm. Surface area = 6 × edge² = 6 × 4 = 24 cm².",
+    "tpl": "geometry:challenging:2"
   },
   {
-    "q": "A box is 3 × 2 × 4. What is its surface area?",
+    "q": "A cube has volume 512 cm³. What is its total surface area in cm²?",
     "type": "typed",
     "accept": [
-      "52"
+      "384"
     ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(6 + 12 + 8) = 52."
+    "solution": "Edge = ∛512 = 8 cm. Surface area = 6 × edge² = 6 × 64 = 384 cm².",
+    "tpl": "geometry:challenging:2"
   },
   {
-    "q": "A rectangle has area 18 and length 6. What is its width?",
+    "q": "A circle of radius 7 cm is inscribed in a square (the circle touches all four sides). What is the area inside the square but outside the circle, in cm²? (use π ≈ 3.14)",
     "type": "typed",
     "accept": [
-      "3"
+      "42.14"
     ],
-    "solution": "Width = area ÷ length = 18 ÷ 6 = 3."
+    "solution": "Square side = 2r = 14 cm, area = 196 cm². Circle area = 3.14 × 7² = 153.86 cm². Shaded = 196 − 153.86 = 42.14 cm².",
+    "tpl": "geometry:challenging:0"
   },
   {
-    "q": "A 8-by-8 square has a 2-by-2 square cut out of one corner. What area is left?",
+    "q": "An L-shape is formed by removing a 5 by 3 rectangle from one corner of a 9 by 6 rectangle. What is the perimeter of the L-shape?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Removing a corner notch keeps the perimeter equal to the original rectangle: the two cut edges replace the two outer edges of equal total length. Perimeter = 2(9 + 6) = 30.",
+    "tpl": "geometry:challenging:5"
+  },
+  {
+    "q": "A circle has area 314 cm². If the radius is doubled, the new area is...",
+    "type": "mc",
+    "choices": [
+      "628",
+      "1256",
+      "2512",
+      "314"
+    ],
+    "answer": 1,
+    "solution": "Doubling the radius multiplies the area by 2² = 4. New area = 4 × 314 = 1256 cm².",
+    "tpl": "geometry:challenging:10"
+  },
+  {
+    "q": "Three angles meet along a straight line and together form a straight angle (180°). Two of them measure 48° and 38°. What is the third angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "94"
+    ],
+    "solution": "Angles on a straight line add to 180°. 180° − 48° − 38° = 94°.",
+    "tpl": "geometry:challenging:9"
+  },
+  {
+    "q": "A square has perimeter 12 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Side = perimeter ÷ 4 = 12 ÷ 4 = 3 cm. Area = 3² = 9 cm².",
+    "tpl": "geometry:challenging:12"
+  },
+  {
+    "q": "Two complementary angles differ by 40°. What is the measure of the larger angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "65"
+    ],
+    "solution": "Let the smaller be x. Then x + (x + 40) = 90, so 2x = 50, x = 25°. Larger = 25 + 40 = 65°.",
+    "tpl": "geometry:challenging:1"
+  },
+  {
+    "q": "An L-shape is formed by removing a 5 by 3 rectangle from one corner of a 9 by 7 rectangle. What is the perimeter of the L-shape?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Removing a corner notch keeps the perimeter equal to the original rectangle: the two cut edges replace the two outer edges of equal total length. Perimeter = 2(9 + 7) = 32.",
+    "tpl": "geometry:challenging:5"
+  },
+  {
+    "q": "The three angles of a triangle are in the ratio 2:2:5. What is the largest angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "Total parts = 2 + 2 + 5 = 9. Each part = 180° ÷ 9 = 20°. Largest = 5 × 20° = 100°.",
+    "tpl": "geometry:challenging:4"
+  },
+  {
+    "q": "A square has perimeter 40 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "Side = perimeter ÷ 4 = 40 ÷ 4 = 10 cm. Area = 10² = 100 cm².",
+    "tpl": "geometry:challenging:12"
+  },
+  {
+    "q": "A cube has volume 729 cm³. What is its total surface area in cm²?",
+    "type": "typed",
+    "accept": [
+      "486"
+    ],
+    "solution": "Edge = ∛729 = 9 cm. Surface area = 6 × edge² = 6 × 81 = 486 cm².",
+    "tpl": "geometry:challenging:2"
+  },
+  {
+    "q": "A box has volume 40 cm³. If every edge length is doubled, what is the new volume in cm³?",
+    "type": "mc",
+    "choices": [
+      "80",
+      "320",
+      "160",
+      "48"
+    ],
+    "answer": 1,
+    "solution": "Doubling each of the 3 edges multiplies volume by 2×2×2 = 8. New volume = 8 × 40 = 320 cm³.",
+    "tpl": "geometry:challenging:6"
+  },
+  {
+    "q": "A circle has area 200.96 cm². If the radius is doubled, the new area is...",
+    "type": "mc",
+    "choices": [
+      "401.92",
+      "1607.68",
+      "200.96",
+      "803.84"
+    ],
+    "answer": 3,
+    "solution": "Doubling the radius multiplies the area by 2² = 4. New area = 4 × 200.96 = 803.84 cm².",
+    "tpl": "geometry:challenging:10"
+  },
+  {
+    "q": "A box has volume 12 cm³. If every edge length is doubled, what is the new volume in cm³?",
+    "type": "mc",
+    "choices": [
+      "48",
+      "24",
+      "20",
+      "96"
+    ],
+    "answer": 3,
+    "solution": "Doubling each of the 3 edges multiplies volume by 2×2×2 = 8. New volume = 8 × 12 = 96 cm³.",
+    "tpl": "geometry:challenging:6"
+  },
+  {
+    "q": "A rhombus has diagonals of length 10 cm and 15 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "Area of a rhombus = ½ × d₁ × d₂ = ½ × 10 × 15 = 75 cm².",
+    "tpl": "geometry:challenging:11"
+  },
+  {
+    "q": "An L-shape is formed by removing a 9 by 5 rectangle from one corner of a 14 by 10 rectangle. What is the perimeter of the L-shape?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Removing a corner notch keeps the perimeter equal to the original rectangle: the two cut edges replace the two outer edges of equal total length. Perimeter = 2(14 + 10) = 48.",
+    "tpl": "geometry:challenging:5"
+  },
+  {
+    "q": "A rhombus has diagonals of length 7 cm and 6 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Area of a rhombus = ½ × d₁ × d₂ = ½ × 7 × 6 = 21 cm².",
+    "tpl": "geometry:challenging:11"
+  },
+  {
+    "q": "An L-shape is formed by removing a 10 by 5 rectangle from one corner of a 14 by 10 rectangle. What is the perimeter of the L-shape?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Removing a corner notch keeps the perimeter equal to the original rectangle: the two cut edges replace the two outer edges of equal total length. Perimeter = 2(14 + 10) = 48.",
+    "tpl": "geometry:challenging:5"
+  },
+  {
+    "q": "A rhombus has diagonals of length 8 cm and 7 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Area of a rhombus = ½ × d₁ × d₂ = ½ × 8 × 7 = 28 cm².",
+    "tpl": "geometry:challenging:11"
+  },
+  {
+    "q": "Two circles share the same center. The outer radius is 5 cm and the inner radius is 3 cm. What is the area of the ring between them in cm²? (use π ≈ 3.14)",
+    "type": "typed",
+    "accept": [
+      "50.24"
+    ],
+    "solution": "Ring area = πR² − πr² = 3.14 × (5² − 3²) = 3.14 × (25 − 9) = 3.14 × 16 = 50.24 cm².",
+    "tpl": "geometry:challenging:7"
+  },
+  {
+    "q": "The three angles of a triangle are in the ratio 2:3:4. What is the largest angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "Total parts = 2 + 3 + 4 = 9. Each part = 180° ÷ 9 = 20°. Largest = 4 × 20° = 80°.",
+    "tpl": "geometry:challenging:4"
+  },
+  {
+    "q": "An L-shape is formed by removing a 3 by 7 rectangle from one corner of a 9 by 11 rectangle. What is the perimeter of the L-shape?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Removing a corner notch keeps the perimeter equal to the original rectangle: the two cut edges replace the two outer edges of equal total length. Perimeter = 2(9 + 11) = 40.",
+    "tpl": "geometry:challenging:5"
+  },
+  {
+    "q": "Two complementary angles differ by 38°. What is the measure of the larger angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "Let the smaller be x. Then x + (x + 38) = 90, so 2x = 52, x = 26°. Larger = 26 + 38 = 64°.",
+    "tpl": "geometry:challenging:1"
+  },
+  {
+    "q": "Two complementary angles differ by 18°. What is the measure of the larger angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "54"
+    ],
+    "solution": "Let the smaller be x. Then x + (x + 18) = 90, so 2x = 72, x = 36°. Larger = 36 + 18 = 54°.",
+    "tpl": "geometry:challenging:1"
+  },
+  {
+    "q": "A pentagon shaped like a house is a 5 by 3 rectangle with a triangle of height 4 on top (the triangle's base equals the rectangle's width, 5). What is the total area?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Rectangle = 5 × 3 = 15. Triangle = ½ × 5 × 4 = 10. Total = 15 + 10 = 25.",
+    "tpl": "geometry:challenging:3"
+  },
+  {
+    "q": "Two complementary angles differ by 24°. What is the measure of the larger angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "57"
+    ],
+    "solution": "Let the smaller be x. Then x + (x + 24) = 90, so 2x = 66, x = 33°. Larger = 33 + 24 = 57°.",
+    "tpl": "geometry:challenging:1"
+  },
+  {
+    "q": "How many 2-cm cubes are needed to completely fill a box that is 8 cm by 4 cm by 4 cm?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Along each side: 8÷2=4, 4÷2=2, 4÷2=2. Total cubes = 4 × 2 × 2 = 16.",
+    "tpl": "geometry:challenging:8"
+  },
+  {
+    "q": "A box has volume 18 cm³. If every edge length is doubled, what is the new volume in cm³?",
+    "type": "mc",
+    "choices": [
+      "36",
+      "26",
+      "72",
+      "144"
+    ],
+    "answer": 3,
+    "solution": "Doubling each of the 3 edges multiplies volume by 2×2×2 = 8. New volume = 8 × 18 = 144 cm³.",
+    "tpl": "geometry:challenging:6"
+  },
+  {
+    "q": "A pentagon shaped like a house is a 10 by 4 rectangle with a triangle of height 7 on top (the triangle's base equals the rectangle's width, 10). What is the total area?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "Rectangle = 10 × 4 = 40. Triangle = ½ × 10 × 7 = 35. Total = 40 + 35 = 75.",
+    "tpl": "geometry:challenging:3"
+  },
+  {
+    "q": "Two circles share the same center. The outer radius is 10 cm and the inner radius is 2 cm. What is the area of the ring between them in cm²? (use π ≈ 3.14)",
+    "type": "typed",
+    "accept": [
+      "301.44"
+    ],
+    "solution": "Ring area = πR² − πr² = 3.14 × (10² − 2²) = 3.14 × (100 − 4) = 3.14 × 96 = 301.44 cm².",
+    "tpl": "geometry:challenging:7"
+  },
+  {
+    "q": "Two circles share the same center. The outer radius is 4 cm and the inner radius is 2 cm. What is the area of the ring between them in cm²? (use π ≈ 3.14)",
+    "type": "typed",
+    "accept": [
+      "37.68"
+    ],
+    "solution": "Ring area = πR² − πr² = 3.14 × (4² − 2²) = 3.14 × (16 − 4) = 3.14 × 12 = 37.68 cm².",
+    "tpl": "geometry:challenging:7"
+  },
+  {
+    "q": "A square has perimeter 20 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Side = perimeter ÷ 4 = 20 ÷ 4 = 5 cm. Area = 5² = 25 cm².",
+    "tpl": "geometry:challenging:12"
+  },
+  {
+    "q": "Three angles meet along a straight line and together form a straight angle (180°). Two of them measure 35° and 51°. What is the third angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "94"
+    ],
+    "solution": "Angles on a straight line add to 180°. 180° − 35° − 51° = 94°.",
+    "tpl": "geometry:challenging:9"
+  },
+  {
+    "q": "How many 2-cm cubes are needed to completely fill a box that is 10 cm by 4 cm by 4 cm?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Along each side: 10÷2=5, 4÷2=2, 4÷2=2. Total cubes = 5 × 2 × 2 = 20.",
+    "tpl": "geometry:challenging:8"
+  },
+  {
+    "q": "A circle of radius 10 cm is inscribed in a square (the circle touches all four sides). What is the area inside the square but outside the circle, in cm²? (use π ≈ 3.14)",
+    "type": "typed",
+    "accept": [
+      "86"
+    ],
+    "solution": "Square side = 2r = 20 cm, area = 400 cm². Circle area = 3.14 × 10² = 314 cm². Shaded = 400 − 314 = 86 cm².",
+    "tpl": "geometry:challenging:0"
+  },
+  {
+    "q": "A pentagon shaped like a house is a 8 by 8 rectangle with a triangle of height 5 on top (the triangle's base equals the rectangle's width, 8). What is the total area?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "Rectangle = 8 × 8 = 64. Triangle = ½ × 8 × 5 = 20. Total = 64 + 20 = 84.",
+    "tpl": "geometry:challenging:3"
+  },
+  {
+    "q": "A circle has area 28.26 cm². If the radius is doubled, the new area is...",
+    "type": "mc",
+    "choices": [
+      "113.04",
+      "226.08",
+      "56.52",
+      "28.26"
+    ],
+    "answer": 0,
+    "solution": "Doubling the radius multiplies the area by 2² = 4. New area = 4 × 28.26 = 113.04 cm².",
+    "tpl": "geometry:challenging:10"
+  },
+  {
+    "q": "Two circles share the same center. The outer radius is 4 cm and the inner radius is 3 cm. What is the area of the ring between them in cm²? (use π ≈ 3.14)",
+    "type": "typed",
+    "accept": [
+      "21.98"
+    ],
+    "solution": "Ring area = πR² − πr² = 3.14 × (4² − 3²) = 3.14 × (16 − 9) = 3.14 × 7 = 21.98 cm².",
+    "tpl": "geometry:challenging:7"
+  },
+  {
+    "q": "The three angles of a triangle are in the ratio 1:3:5. What is the largest angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "Total parts = 1 + 3 + 5 = 9. Each part = 180° ÷ 9 = 20°. Largest = 5 × 20° = 100°.",
+    "tpl": "geometry:challenging:4"
+  },
+  {
+    "q": "Three angles meet along a straight line and together form a straight angle (180°). Two of them measure 65° and 72°. What is the third angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "43"
+    ],
+    "solution": "Angles on a straight line add to 180°. 180° − 65° − 72° = 43°.",
+    "tpl": "geometry:challenging:9"
+  },
+  {
+    "q": "The three angles of a triangle are in the ratio 3:4:5. What is the largest angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "Total parts = 3 + 4 + 5 = 12. Each part = 180° ÷ 12 = 15°. Largest = 5 × 15° = 75°.",
+    "tpl": "geometry:challenging:4"
+  },
+  {
+    "q": "A cube has volume 343 cm³. What is its total surface area in cm²?",
+    "type": "typed",
+    "accept": [
+      "294"
+    ],
+    "solution": "Edge = ∛343 = 7 cm. Surface area = 6 × edge² = 6 × 49 = 294 cm².",
+    "tpl": "geometry:challenging:2"
+  },
+  {
+    "q": "A pentagon shaped like a house is a 8 by 7 rectangle with a triangle of height 2 on top (the triangle's base equals the rectangle's width, 8). What is the total area?",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "Rectangle = 8 × 7 = 56. Triangle = ½ × 8 × 2 = 8. Total = 56 + 8 = 64.",
+    "tpl": "geometry:challenging:3"
+  },
+  {
+    "q": "A box has volume 45 cm³. If every edge length is doubled, what is the new volume in cm³?",
+    "type": "mc",
+    "choices": [
+      "90",
+      "53",
+      "180",
+      "360"
+    ],
+    "answer": 3,
+    "solution": "Doubling each of the 3 edges multiplies volume by 2×2×2 = 8. New volume = 8 × 45 = 360 cm³.",
+    "tpl": "geometry:challenging:6"
+  },
+  {
+    "q": "Three angles meet along a straight line and together form a straight angle (180°). Two of them measure 60° and 34°. What is the third angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "86"
+    ],
+    "solution": "Angles on a straight line add to 180°. 180° − 60° − 34° = 86°.",
+    "tpl": "geometry:challenging:9"
+  },
+  {
+    "q": "A rhombus has diagonals of length 4 cm and 11 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Area of a rhombus = ½ × d₁ × d₂ = ½ × 4 × 11 = 22 cm².",
+    "tpl": "geometry:challenging:11"
+  },
+  {
+    "q": "The three angles of a triangle are in the ratio 1:1:4. What is the largest angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "120"
+    ],
+    "solution": "Total parts = 1 + 1 + 4 = 6. Each part = 180° ÷ 6 = 30°. Largest = 4 × 30° = 120°.",
+    "tpl": "geometry:challenging:4"
+  },
+  {
+    "q": "A circle has area 50.24 cm². If the radius is doubled, the new area is...",
+    "type": "mc",
+    "choices": [
+      "100.48",
+      "200.96",
+      "401.92",
+      "50.24"
+    ],
+    "answer": 1,
+    "solution": "Doubling the radius multiplies the area by 2² = 4. New area = 4 × 50.24 = 200.96 cm².",
+    "tpl": "geometry:challenging:10"
+  },
+  {
+    "q": "A pentagon shaped like a house is a 6 by 4 rectangle with a triangle of height 6 on top (the triangle's base equals the rectangle's width, 6). What is the total area?",
+    "type": "typed",
+    "accept": [
+      "42"
+    ],
+    "solution": "Rectangle = 6 × 4 = 24. Triangle = ½ × 6 × 6 = 18. Total = 24 + 18 = 42.",
+    "tpl": "geometry:challenging:3"
+  },
+  {
+    "q": "Three angles meet along a straight line and together form a straight angle (180°). Two of them measure 74° and 36°. What is the third angle in degrees?",
+    "type": "typed",
+    "accept": [
+      "70"
+    ],
+    "solution": "Angles on a straight line add to 180°. 180° − 74° − 36° = 70°.",
+    "tpl": "geometry:challenging:9"
+  },
+  {
+    "q": "A circle has area 12.56 cm². If the radius is doubled, the new area is...",
+    "type": "mc",
+    "choices": [
+      "50.24",
+      "100.48",
+      "25.12",
+      "12.56"
+    ],
+    "answer": 0,
+    "solution": "Doubling the radius multiplies the area by 2² = 4. New area = 4 × 12.56 = 50.24 cm².",
+    "tpl": "geometry:challenging:10"
+  },
+  {
+    "q": "A square has perimeter 16 cm. What is its area in cm²?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Side = perimeter ÷ 4 = 16 ÷ 4 = 4 cm. Area = 4² = 16 cm².",
+    "tpl": "geometry:challenging:12"
+  },
+  {
+    "q": "How many 2-cm cubes are needed to completely fill a box that is 12 cm by 4 cm by 10 cm?",
     "type": "typed",
     "accept": [
       "60"
     ],
-    "solution": "Subtract the small square from the big one: 64 − 4 = 60."
+    "solution": "Along each side: 12÷2=6, 4÷2=2, 10÷2=5. Total cubes = 6 × 2 × 5 = 60.",
+    "tpl": "geometry:challenging:8"
   },
   {
-    "q": "A rectangle has area 84 and length 12. What is its width?",
+    "q": "Three angles meet along a straight line and together form a straight angle (180°). Two of them measure 69° and 65°. What is the third angle in degrees?",
     "type": "typed",
     "accept": [
-      "7"
+      "46"
     ],
-    "solution": "Width = area ÷ length = 84 ÷ 12 = 7."
+    "solution": "Angles on a straight line add to 180°. 180° − 69° − 65° = 46°.",
+    "tpl": "geometry:challenging:9"
   },
   {
-    "q": "A 8-by-8 square has a 3-by-3 square cut out of one corner. What area is left?",
+    "q": "A cube has volume 216 cm³. What is its total surface area in cm²?",
     "type": "typed",
     "accept": [
-      "55"
+      "216"
     ],
-    "solution": "Subtract the small square from the big one: 64 − 9 = 55."
+    "solution": "Edge = ∛216 = 6 cm. Surface area = 6 × edge² = 6 × 36 = 216 cm².",
+    "tpl": "geometry:challenging:2"
   },
   {
-    "q": "A 10-by-10 square has a 3-by-3 square cut out of one corner. What area is left?",
+    "q": "Two complementary angles differ by 34°. What is the measure of the larger angle in degrees?",
     "type": "typed",
     "accept": [
-      "91"
+      "62"
     ],
-    "solution": "Subtract the small square from the big one: 100 − 9 = 91."
+    "solution": "Let the smaller be x. Then x + (x + 34) = 90, so 2x = 56, x = 28°. Larger = 28 + 34 = 62°.",
+    "tpl": "geometry:challenging:1"
   },
   {
-    "q": "A 12-by-12 square has a 5-by-5 square cut out of one corner. What area is left?",
+    "q": "A circle of radius 3 cm is inscribed in a square (the circle touches all four sides). What is the area inside the square but outside the circle, in cm²? (use π ≈ 3.14)",
     "type": "typed",
     "accept": [
-      "119"
+      "7.74"
     ],
-    "solution": "Subtract the small square from the big one: 144 − 25 = 119."
-  },
-  {
-    "q": "A box is 5 × 4 × 5. What is its surface area?",
-    "type": "typed",
-    "accept": [
-      "130"
-    ],
-    "solution": "Surface area = 2(lw + lh + wh) = 2(20 + 25 + 20) = 130."
-  },
-  {
-    "q": "A 12-by-12 square has a 8-by-8 square cut out of one corner. What area is left?",
-    "type": "typed",
-    "accept": [
-      "80"
-    ],
-    "solution": "Subtract the small square from the big one: 144 − 64 = 80."
+    "solution": "Square side = 2r = 6 cm, area = 36 cm². Circle area = 3.14 × 3² = 28.26 cm². Shaded = 36 − 28.26 = 7.74 cm².",
+    "tpl": "geometry:challenging:0"
   },
   {
     "q": "A square has a perimeter of 36. What is its area?",
@@ -406,7 +756,8 @@
       "81"
     ],
     "solution": "All four sides are equal: side = 36 ÷ 4 = 9. Area = 9 × 9 = 81.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:geometry:0"
   },
   {
     "q": "A rectangle has an area of 24 and a perimeter of 20. What is its longer side?",
@@ -415,7 +766,8 @@
       "6"
     ],
     "solution": "The two sides add to 10 (half the perimeter) and multiply to 24. The numbers 6 and 4 work, so the longer side is 6.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:geometry:1"
   },
   {
     "q": "A square garden has side 10. A path 1 unit wide runs inside it along all four edges. What is the area of the path?",
@@ -424,7 +776,8 @@
       "36"
     ],
     "solution": "The whole square is 10 × 10 = 100. The inner region is 8 × 8 = 64. The path is 100 − 64 = 36.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:geometry:2"
   },
   {
     "q": "The three angles of a triangle are in the ratio 1 : 2 : 3. What is the largest angle (in degrees)?",
@@ -434,7 +787,8 @@
       "90°"
     ],
     "solution": "The angles total 180°. Parts: 1 + 2 + 3 = 6, so one part = 30°. The largest is 3 × 30° = 90°.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:geometry:3"
   },
   {
     "q": "A cube has a volume of 27. What is its surface area?",
@@ -443,7 +797,8 @@
       "54"
     ],
     "solution": "Side = ∛27 = 3. Each face is 3 × 3 = 9, and a cube has 6 faces: 6 × 9 = 54.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:geometry:4"
   },
   {
     "q": "A rectangle is 8 by 6. One diagonal splits it into two triangles. What is the area of ONE triangle?",
@@ -452,6 +807,7 @@
       "24"
     ],
     "solution": "The rectangle's area is 8 × 6 = 48, and the diagonal cuts it into two equal triangles: 48 ÷ 2 = 24.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:geometry:5"
   }
 ]

@@ -1,307 +1,668 @@
 [
   {
-    "q": "After a 10% discount, an item costs $36. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "40"
+    "q": "Which is larger: 1/2 of 80, or 25% of 200?",
+    "type": "mc",
+    "choices": [
+      "25% of 200",
+      "1/2 of 80"
     ],
-    "solution": "It sold for 90% of the original: 36 ÷ 0.9 = $40."
+    "answer": 0,
+    "solution": "1/2 of 80 = 40; 25% of 200 = 50. Larger is 25% of 200.",
+    "tpl": "fractions:challenging:10"
   },
   {
-    "q": "What percent of 80 is 40?",
+    "q": "24 students are 3/4 of a class. How many students are in the whole class?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "24 = 3/4 of whole, so one 4th... whole = 24 ÷ 3/4 = 32.",
+    "tpl": "fractions:challenging:7"
+  },
+  {
+    "q": "5 students are 1/4 of a class. How many students are in the whole class?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "5 = 1/4 of whole, so one 4th... whole = 5 ÷ 1/4 = 20.",
+    "tpl": "fractions:challenging:7"
+  },
+  {
+    "q": "Compute 1/4 of 40 plus 20% of 40.",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "1/4 of 40 = 10; 20% of 40 = 8; sum = 18.",
+    "tpl": "fractions:challenging:8"
+  },
+  {
+    "q": "Simplify the complex fraction (2/3) ÷ (2/5). Lowest terms.",
+    "type": "typed",
+    "accept": [
+      "5/3",
+      "10/6"
+    ],
+    "solution": "Flip and multiply: 2/3 × 5/2 = 10/6 = 5/3.",
+    "tpl": "fractions:challenging:5"
+  },
+  {
+    "q": "A quantity changes from 20 to 22. By what percent did it increase? (just the number)",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Change = 2; 2 ÷ 20 = 0.1 = 10%.",
+    "tpl": "fractions:challenging:3"
+  },
+  {
+    "q": "16 is 80% of what number?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "16 ÷ 0.8 = 20.",
+    "tpl": "fractions:challenging:0"
+  },
+  {
+    "q": "Simplify the complex fraction (1/5) ÷ (1/3). Lowest terms.",
+    "type": "typed",
+    "accept": [
+      "3/5"
+    ],
+    "solution": "Flip and multiply: 1/5 × 3/1 = 3/5 = 3/5.",
+    "tpl": "fractions:challenging:5"
+  },
+  {
+    "q": "Simplify the complex fraction (4/5) ÷ (2/5). Lowest terms.",
+    "type": "typed",
+    "accept": [
+      "2",
+      "20/10"
+    ],
+    "solution": "Flip and multiply: 4/5 × 5/2 = 20/10 = 2.",
+    "tpl": "fractions:challenging:5"
+  },
+  {
+    "q": "Which is larger: 1/2 of 100, or 50% of 40?",
+    "type": "mc",
+    "choices": [
+      "50% of 40",
+      "1/2 of 100"
+    ],
+    "answer": 1,
+    "solution": "1/2 of 100 = 50; 50% of 40 = 20. Larger is 1/2 of 100.",
+    "tpl": "fractions:challenging:10"
+  },
+  {
+    "q": "Simplify the complex fraction (2/3) ÷ (2/3). Lowest terms.",
+    "type": "typed",
+    "accept": [
+      "1",
+      "6/6"
+    ],
+    "solution": "Flip and multiply: 2/3 × 3/2 = 6/6 = 1.",
+    "tpl": "fractions:challenging:5"
+  },
+  {
+    "q": "9 students are 3/5 of a class. How many students are in the whole class?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "9 = 3/5 of whole, so one 5th... whole = 9 ÷ 3/5 = 15.",
+    "tpl": "fractions:challenging:7"
+  },
+  {
+    "q": "12 students are 2/5 of a class. How many students are in the whole class?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "12 = 2/5 of whole, so one 5th... whole = 12 ÷ 2/5 = 30.",
+    "tpl": "fractions:challenging:7"
+  },
+  {
+    "q": "A quantity changes from 80 to 96. By what percent did it increase? (just the number)",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Change = 16; 16 ÷ 80 = 0.2 = 20%.",
+    "tpl": "fractions:challenging:3"
+  },
+  {
+    "q": "Start with 64. Take half, then half again. What is the result?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "64 halved 2 times = 64 ÷ 4 = 16.",
+    "tpl": "fractions:challenging:11"
+  },
+  {
+    "q": "A $40 item gets 20% off, then 25% off the reduced price. Final price in dollars?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "After 20% off: $32. Then 25% off: 32 × 0.75 = $24.",
+    "tpl": "fractions:challenging:1"
+  },
+  {
+    "q": "A $40 item gets 50% off, then 20% off the reduced price. Final price in dollars?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "After 50% off: $20. Then 20% off: 20 × 0.8 = $16.",
+    "tpl": "fractions:challenging:1"
+  },
+  {
+    "q": "A quantity changes from 20 to 35. By what percent did it increase? (just the number)",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "Change = 15; 15 ÷ 20 = 0.75 = 75%.",
+    "tpl": "fractions:challenging:3"
+  },
+  {
+    "q": "What is 1/3 of 2/3 of 18?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "2/3 of 18 = 12, then 1/3 of that = 4.",
+    "tpl": "fractions:challenging:4"
+  },
+  {
+    "q": "A quantity changes from 20 to 30. By what percent did it increase? (just the number)",
     "type": "typed",
     "accept": [
       "50"
     ],
-    "solution": "40 ÷ 80 = 0.5 = 50%."
+    "solution": "Change = 10; 10 ÷ 20 = 0.5 = 50%.",
+    "tpl": "fractions:challenging:3"
   },
   {
-    "q": "What percent of 80 is 20?",
+    "q": "A $50 item gets 25% off, then 20% off the reduced price. Final price in dollars?",
     "type": "typed",
     "accept": [
-      "25"
+      "30"
     ],
-    "solution": "20 ÷ 80 = 0.25 = 25%."
+    "solution": "After 25% off: $37.5. Then 20% off: 37.5 × 0.8 = $30.",
+    "tpl": "fractions:challenging:1"
   },
   {
-    "q": "After a 20% discount, an item costs $80. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "It sold for 80% of the original: 80 ÷ 0.8 = $100."
-  },
-  {
-    "q": "A $200 item is 50% off, then 10% off. What is the final price?",
-    "type": "typed",
-    "accept": [
-      "90"
-    ],
-    "solution": "Apply the discounts one after the other (not added together) → $90."
-  },
-  {
-    "q": "Simplify: (2/5 + 1/2) ÷ 1/10",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Do the parentheses first, then the outside operation → 9."
-  },
-  {
-    "q": "After a 10% discount, an item costs $72. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "80"
-    ],
-    "solution": "It sold for 90% of the original: 72 ÷ 0.9 = $80."
-  },
-  {
-    "q": "A $120 item is 25% off, then 20% off. What is the final price?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "Apply the discounts one after the other (not added together) → $72."
-  },
-  {
-    "q": "Simplify: (3/4 − 1/2) ÷ 1/8",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Do the parentheses first, then the outside operation → 2."
-  },
-  {
-    "q": "After a 20% discount, an item costs $32. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "40"
-    ],
-    "solution": "It sold for 80% of the original: 32 ÷ 0.8 = $40."
-  },
-  {
-    "q": "After a 20% discount, an item costs $64. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "80"
-    ],
-    "solution": "It sold for 80% of the original: 64 ÷ 0.8 = $80."
-  },
-  {
-    "q": "What percent of 40 is 16?",
-    "type": "typed",
-    "accept": [
-      "40"
-    ],
-    "solution": "16 ÷ 40 = 0.4 = 40%."
-  },
-  {
-    "q": "Simplify: (5/8 − 1/4) × 16",
+    "q": "What is 2/3 of 1/2 of 18?",
     "type": "typed",
     "accept": [
       "6"
     ],
-    "solution": "Do the parentheses first, then the outside operation → 6."
+    "solution": "1/2 of 18 = 9, then 2/3 of that = 6.",
+    "tpl": "fractions:challenging:4"
   },
   {
-    "q": "What percent of 100 is 50?",
+    "q": "Simplify the complex fraction (4/5) ÷ (2/3). Lowest terms.",
     "type": "typed",
     "accept": [
-      "50"
+      "6/5",
+      "12/10"
     ],
-    "solution": "50 ÷ 100 = 0.5 = 50%."
+    "solution": "Flip and multiply: 4/5 × 3/2 = 12/10 = 6/5.",
+    "tpl": "fractions:challenging:5"
   },
   {
-    "q": "What percent of 40 is 30?",
+    "q": "Start with 128. Take half, then half again, then half a third time. What is the result?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "128 halved 3 times = 128 ÷ 8 = 16.",
+    "tpl": "fractions:challenging:11"
+  },
+  {
+    "q": "How many 1/3-cup servings are in 6 cups?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "6 ÷ 1/3 = 6 × 3/1 = 18.",
+    "tpl": "fractions:challenging:6"
+  },
+  {
+    "q": "A quantity changes from 40 to 70. By what percent did it increase? (just the number)",
     "type": "typed",
     "accept": [
       "75"
     ],
-    "solution": "30 ÷ 40 = 0.75 = 75%."
+    "solution": "Change = 30; 30 ÷ 40 = 0.75 = 75%.",
+    "tpl": "fractions:challenging:3"
   },
   {
-    "q": "After a 10% discount, an item costs $54. What was the original price?",
+    "q": "Start with 48. Take half, then half again, then half a third time. What is the result?",
     "type": "typed",
     "accept": [
-      "60"
+      "6"
     ],
-    "solution": "It sold for 90% of the original: 54 ÷ 0.9 = $60."
+    "solution": "48 halved 3 times = 48 ÷ 8 = 6.",
+    "tpl": "fractions:challenging:11"
   },
   {
-    "q": "After a 25% discount, an item costs $75. What was the original price?",
+    "q": "A $80 item gets 10% off, then 25% off the reduced price. Final price in dollars?",
+    "type": "typed",
+    "accept": [
+      "54"
+    ],
+    "solution": "After 10% off: $72. Then 25% off: 72 × 0.75 = $54.",
+    "tpl": "fractions:challenging:1"
+  },
+  {
+    "q": "Compute 3/4 of 400 plus 50% of 400.",
+    "type": "typed",
+    "accept": [
+      "500"
+    ],
+    "solution": "3/4 of 400 = 300; 50% of 400 = 200; sum = 500.",
+    "tpl": "fractions:challenging:8"
+  },
+  {
+    "q": "After a 5% increase, a price is now $105. What was the original price in dollars?",
     "type": "typed",
     "accept": [
       "100"
     ],
-    "solution": "It sold for 75% of the original: 75 ÷ 0.75 = $100."
+    "solution": "New = original × 1.05. So original = 105 ÷ 1.05 = $100.",
+    "tpl": "fractions:challenging:2"
   },
   {
-    "q": "What percent of 20 is 15?",
+    "q": "A $80 bill has 10% tax and a 15% tip (both on the $80). What is the total in dollars?",
     "type": "typed",
     "accept": [
-      "75"
+      "100"
     ],
-    "solution": "15 ÷ 20 = 0.75 = 75%."
+    "solution": "Tax 8 + tip 12 added to 80 = 100.",
+    "tpl": "fractions:challenging:9"
   },
   {
-    "q": "After a 25% discount, an item costs $30. What was the original price?",
+    "q": "Compute 1/2 of 400 plus 25% of 400.",
     "type": "typed",
     "accept": [
-      "40"
+      "300"
     ],
-    "solution": "It sold for 75% of the original: 30 ÷ 0.75 = $40."
+    "solution": "1/2 of 400 = 200; 25% of 400 = 100; sum = 300.",
+    "tpl": "fractions:challenging:8"
   },
   {
-    "q": "What percent of 40 is 20?",
+    "q": "Simplify the complex fraction (1/3) ÷ (1/3). Lowest terms.",
     "type": "typed",
     "accept": [
-      "50"
+      "1",
+      "3/3"
     ],
-    "solution": "20 ÷ 40 = 0.5 = 50%."
+    "solution": "Flip and multiply: 1/3 × 3/1 = 3/3 = 1.",
+    "tpl": "fractions:challenging:5"
   },
   {
-    "q": "A $80 item is 25% off, then 20% off. What is the final price?",
+    "q": "A $50 item gets 20% off, then 20% off the reduced price. Final price in dollars?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "After 20% off: $40. Then 20% off: 40 × 0.8 = $32.",
+    "tpl": "fractions:challenging:1"
+  },
+  {
+    "q": "Compute 1/2 of 80 plus 10% of 80.",
     "type": "typed",
     "accept": [
       "48"
     ],
-    "solution": "Apply the discounts one after the other (not added together) → $48."
+    "solution": "1/2 of 80 = 40; 10% of 80 = 8; sum = 48.",
+    "tpl": "fractions:challenging:8"
   },
   {
-    "q": "Simplify: (1/2 + 1/4) × 8",
+    "q": "A $80 bill has 20% tax and a 20% tip (both on the $80). What is the total in dollars?",
     "type": "typed",
     "accept": [
-      "6"
+      "112"
     ],
-    "solution": "Do the parentheses first, then the outside operation → 6."
+    "solution": "Tax 16 + tip 16 added to 80 = 112.",
+    "tpl": "fractions:challenging:9"
   },
   {
-    "q": "What percent of 80 is 60?",
+    "q": "A $40 bill has 20% tax and a 10% tip (both on the $40). What is the total in dollars?",
     "type": "typed",
     "accept": [
-      "75"
+      "52"
     ],
-    "solution": "60 ÷ 80 = 0.75 = 75%."
+    "solution": "Tax 8 + tip 4 added to 40 = 52.",
+    "tpl": "fractions:challenging:9"
   },
   {
-    "q": "What percent of 40 is 10?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "10 ÷ 40 = 0.25 = 25%."
-  },
-  {
-    "q": "What percent of 100 is 25?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "25 ÷ 100 = 0.25 = 25%."
-  },
-  {
-    "q": "A $100 item is 10% off, then 50% off. What is the final price?",
-    "type": "typed",
-    "accept": [
-      "45"
-    ],
-    "solution": "Apply the discounts one after the other (not added together) → $45."
-  },
-  {
-    "q": "What percent of 20 is 10?",
-    "type": "typed",
-    "accept": [
-      "50"
-    ],
-    "solution": "10 ÷ 20 = 0.5 = 50%."
-  },
-  {
-    "q": "What percent of 20 is 2?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "2 ÷ 20 = 0.1 = 10%."
-  },
-  {
-    "q": "After a 25% discount, an item costs $45. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "It sold for 75% of the original: 45 ÷ 0.75 = $60."
-  },
-  {
-    "q": "Simplify: (1/2 + 1/3) × 6",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Do the parentheses first, then the outside operation → 5."
-  },
-  {
-    "q": "After a 25% discount, an item costs $60. What was the original price?",
+    "q": "4 is 5% of what number?",
     "type": "typed",
     "accept": [
       "80"
     ],
-    "solution": "It sold for 75% of the original: 60 ÷ 0.75 = $80."
+    "solution": "4 ÷ 0.05 = 80.",
+    "tpl": "fractions:challenging:0"
   },
   {
-    "q": "What percent of 40 is 4?",
+    "q": "After a 25% increase, a price is now $100. What was the original price in dollars?",
     "type": "typed",
     "accept": [
-      "10"
+      "80"
     ],
-    "solution": "4 ÷ 40 = 0.1 = 10%."
+    "solution": "New = original × 1.25. So original = 100 ÷ 1.25 = $80.",
+    "tpl": "fractions:challenging:2"
   },
   {
-    "q": "What percent of 100 is 75?",
+    "q": "Which is larger: 1/4 of 80, or 25% of 200?",
+    "type": "mc",
+    "choices": [
+      "1/4 of 80",
+      "25% of 200"
+    ],
+    "answer": 1,
+    "solution": "1/4 of 80 = 20; 25% of 200 = 50. Larger is 25% of 200.",
+    "tpl": "fractions:challenging:10"
+  },
+  {
+    "q": "Compute 1/5 of 80 plus 10% of 80.",
     "type": "typed",
     "accept": [
-      "75"
+      "24"
     ],
-    "solution": "75 ÷ 100 = 0.75 = 75%."
+    "solution": "1/5 of 80 = 16; 10% of 80 = 8; sum = 24.",
+    "tpl": "fractions:challenging:8"
   },
   {
-    "q": "A $100 item is 20% off, then 10% off the new price. What is the final price?",
+    "q": "12 students are 3/5 of a class. How many students are in the whole class?",
     "type": "typed",
     "accept": [
-      "72"
+      "20"
     ],
-    "solution": "Apply the discounts one after the other (not added together) → $72."
+    "solution": "12 = 3/5 of whole, so one 5th... whole = 12 ÷ 3/5 = 20.",
+    "tpl": "fractions:challenging:7"
   },
   {
-    "q": "After a 20% discount, an item costs $48. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "It sold for 80% of the original: 48 ÷ 0.8 = $60."
-  },
-  {
-    "q": "What percent of 100 is 40?",
+    "q": "After a 5% increase, a price is now $42. What was the original price in dollars?",
     "type": "typed",
     "accept": [
       "40"
     ],
-    "solution": "40 ÷ 100 = 0.4 = 40%."
+    "solution": "New = original × 1.05. So original = 42 ÷ 1.05 = $40.",
+    "tpl": "fractions:challenging:2"
   },
   {
-    "q": "After a 10% discount, an item costs $90. What was the original price?",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "It sold for 90% of the original: 90 ÷ 0.9 = $100."
-  },
-  {
-    "q": "Simplify: (2/3 + 1/6) × 12",
+    "q": "A quantity changes from 50 to 55. By what percent did it increase? (just the number)",
     "type": "typed",
     "accept": [
       "10"
     ],
-    "solution": "Do the parentheses first, then the outside operation → 10."
+    "solution": "Change = 5; 5 ÷ 50 = 0.1 = 10%.",
+    "tpl": "fractions:challenging:3"
+  },
+  {
+    "q": "A $20 bill has 10% tax and a 15% tip (both on the $20). What is the total in dollars?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Tax 2 + tip 3 added to 20 = 25.",
+    "tpl": "fractions:challenging:9"
+  },
+  {
+    "q": "Start with 160. Take half, then half again. What is the result?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "160 halved 2 times = 160 ÷ 4 = 40.",
+    "tpl": "fractions:challenging:11"
+  },
+  {
+    "q": "25 is 50% of what number?",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "25 ÷ 0.5 = 50.",
+    "tpl": "fractions:challenging:0"
+  },
+  {
+    "q": "What is 3/4 of 1/4 of 80?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "1/4 of 80 = 20, then 3/4 of that = 15.",
+    "tpl": "fractions:challenging:4"
+  },
+  {
+    "q": "What is 3/4 of 2/3 of 24?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "2/3 of 24 = 16, then 3/4 of that = 12.",
+    "tpl": "fractions:challenging:4"
+  },
+  {
+    "q": "How many 1/4-cup servings are in 5 cups?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "5 ÷ 1/4 = 5 × 4/1 = 20.",
+    "tpl": "fractions:challenging:6"
+  },
+  {
+    "q": "How many 2/3-cup servings are in 2 cups?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "2 ÷ 2/3 = 2 × 3/2 = 3.",
+    "tpl": "fractions:challenging:6"
+  },
+  {
+    "q": "How many 2/3-cup servings are in 4 cups?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "4 ÷ 2/3 = 4 × 3/2 = 6.",
+    "tpl": "fractions:challenging:6"
+  },
+  {
+    "q": "Compute 1/5 of 400 plus 25% of 400.",
+    "type": "typed",
+    "accept": [
+      "180"
+    ],
+    "solution": "1/5 of 400 = 80; 25% of 400 = 100; sum = 180.",
+    "tpl": "fractions:challenging:8"
+  },
+  {
+    "q": "A $80 bill has 25% tax and a 15% tip (both on the $80). What is the total in dollars?",
+    "type": "typed",
+    "accept": [
+      "112"
+    ],
+    "solution": "Tax 20 + tip 12 added to 80 = 112.",
+    "tpl": "fractions:challenging:9"
+  },
+  {
+    "q": "What is 1/3 of 3/5 of 75?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "3/5 of 75 = 45, then 1/3 of that = 15.",
+    "tpl": "fractions:challenging:4"
+  },
+  {
+    "q": "Which is larger: 1/4 of 40, or 50% of 200?",
+    "type": "mc",
+    "choices": [
+      "50% of 200",
+      "1/4 of 40"
+    ],
+    "answer": 0,
+    "solution": "1/4 of 40 = 10; 50% of 200 = 100. Larger is 50% of 200.",
+    "tpl": "fractions:challenging:10"
+  },
+  {
+    "q": "How many 1/8-cup servings are in 3 cups?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "3 ÷ 1/8 = 3 × 8/1 = 24.",
+    "tpl": "fractions:challenging:6"
+  },
+  {
+    "q": "Start with 48. Take half, then half again. What is the result?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "48 halved 2 times = 48 ÷ 4 = 12.",
+    "tpl": "fractions:challenging:11"
+  },
+  {
+    "q": "10 is 25% of what number?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "10 ÷ 0.25 = 40.",
+    "tpl": "fractions:challenging:0"
+  },
+  {
+    "q": "After a 20% increase, a price is now $24. What was the original price in dollars?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "New = original × 1.2. So original = 24 ÷ 1.2 = $20.",
+    "tpl": "fractions:challenging:2"
+  },
+  {
+    "q": "How many 1/4-cup servings are in 2 cups?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "2 ÷ 1/4 = 2 × 4/1 = 8.",
+    "tpl": "fractions:challenging:6"
+  },
+  {
+    "q": "A $100 bill has 20% tax and a 10% tip (both on the $100). What is the total in dollars?",
+    "type": "typed",
+    "accept": [
+      "130"
+    ],
+    "solution": "Tax 20 + tip 10 added to 100 = 130.",
+    "tpl": "fractions:challenging:9"
+  },
+  {
+    "q": "What is 1/3 of 2/3 of 36?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "2/3 of 36 = 24, then 1/3 of that = 8.",
+    "tpl": "fractions:challenging:4"
+  },
+  {
+    "q": "8 students are 1/4 of a class. How many students are in the whole class?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "8 = 1/4 of whole, so one 4th... whole = 8 ÷ 1/4 = 32.",
+    "tpl": "fractions:challenging:7"
+  },
+  {
+    "q": "Which is larger: 3/4 of 100, or 20% of 40?",
+    "type": "mc",
+    "choices": [
+      "20% of 40",
+      "3/4 of 100"
+    ],
+    "answer": 1,
+    "solution": "3/4 of 100 = 75; 20% of 40 = 8. Larger is 3/4 of 100.",
+    "tpl": "fractions:challenging:10"
+  },
+  {
+    "q": "Start with 96. Take half, then half again. What is the result?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "96 halved 2 times = 96 ÷ 4 = 24.",
+    "tpl": "fractions:challenging:11"
+  },
+  {
+    "q": "After a 50% increase, a price is now $60. What was the original price in dollars?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "New = original × 1.5. So original = 60 ÷ 1.5 = $40.",
+    "tpl": "fractions:challenging:2"
+  },
+  {
+    "q": "10 is 50% of what number?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "10 ÷ 0.5 = 20.",
+    "tpl": "fractions:challenging:0"
+  },
+  {
+    "q": "After a 20% increase, a price is now $96. What was the original price in dollars?",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "New = original × 1.2. So original = 96 ÷ 1.2 = $80.",
+    "tpl": "fractions:challenging:2"
+  },
+  {
+    "q": "Which is larger: 1/4 of 100, or 50% of 40?",
+    "type": "mc",
+    "choices": [
+      "1/4 of 100",
+      "50% of 40"
+    ],
+    "answer": 0,
+    "solution": "1/4 of 100 = 25; 50% of 40 = 20. Larger is 1/4 of 100.",
+    "tpl": "fractions:challenging:10"
+  },
+  {
+    "q": "24 is 40% of what number?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "24 ÷ 0.4 = 60.",
+    "tpl": "fractions:challenging:0"
+  },
+  {
+    "q": "A $40 item gets 10% off, then 25% off the reduced price. Final price in dollars?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "After 10% off: $36. Then 25% off: 36 × 0.75 = $27.",
+    "tpl": "fractions:challenging:1"
   },
   {
     "q": "A jacket's price is raised by 20%, then that new price is lowered by 20%. Compared to the start, the final price is:",
@@ -314,7 +675,8 @@
     ],
     "answer": 1,
     "solution": "Raising by 20% multiplies by 1.20; lowering by 20% multiplies by 0.80. Together: 1.20 × 0.80 = 0.96, which is 96% of the original — that's 4% lower. The two 20%s do NOT cancel, because the second one is taken off a bigger number.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:fractions:0"
   },
   {
     "q": "Compute 1/2 + 1/4 + 1/8 + 1/16.",
@@ -323,7 +685,8 @@
       "15/16"
     ],
     "solution": "Use a common denominator of 16: 8/16 + 4/16 + 2/16 + 1/16 = 15/16. (Notice it's just one sixteenth short of a whole.)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:fractions:1"
   },
   {
     "q": "In a class, 3/5 of the students are girls. If there are 12 boys, how many students are in the class?",
@@ -332,7 +695,8 @@
       "30"
     ],
     "solution": "Boys make up the other 2/5 of the class. So 2/5 of the class = 12, meaning 1/5 = 6, and the whole class = 5 × 6 = 30.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:fractions:2"
   },
   {
     "q": "What is 1/2 of 1/3 of 1/4 of 240?",
@@ -341,7 +705,8 @@
       "10"
     ],
     "solution": "Multiply the fractions together: (1/2)(1/3)(1/4) = 1/24. Then 1/24 of 240 = 240 ÷ 24 = 10.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:fractions:3"
   },
   {
     "q": "If 30% of a number is 45, what is 50% of the same number?",
@@ -350,7 +715,8 @@
       "75"
     ],
     "solution": "If 30% is 45, then 10% is 45 ÷ 3 = 15. So 50% is 5 × 15 = 75. (The whole number is 150.)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:fractions:4"
   },
   {
     "q": "A store advertises 'Buy 3, get 1 free.' Buying 4 identical items, what percent do you save?",
@@ -363,6 +729,7 @@
     ],
     "answer": 1,
     "solution": "You receive 4 items but pay for only 3. You save 1 out of 4, and 1/4 = 25%.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:fractions:5"
   }
 ]

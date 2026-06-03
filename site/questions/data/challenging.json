@@ -1,496 +1,707 @@
 [
   {
-    "q": "A spinner has 10 equal sections, 8 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "q": "The probability of event A is 1/3 and the probability of event B is 1/6. If A and B are independent, what is the probability that BOTH happen? Give a fraction in simplest form.",
     "type": "typed",
     "accept": [
-      "4/5",
-      "8/10"
+      "1/18"
     ],
-    "solution": "P(blue) = blue ÷ total = 8/10 = 4/5."
+    "solution": "P(A and B) = P(A) × P(B) = 1/3 × 1/6 = 1/18.",
+    "tpl": "data:challenging:3"
   },
   {
-    "q": "Your average on 5 tests is 84. What must you score on the next test to raise your average to 86?",
+    "q": "Tests count for 70% of the grade and the final exam counts for 30%. A student has a test average of 94 and an exam score of 74. What is the final grade?",
     "type": "typed",
     "accept": [
-      "96"
+      "88"
     ],
-    "solution": "You need a total of 6 × 86 = 516. You already have 5 × 84 = 420. So you need 516 − 420 = 96."
+    "solution": "Final = (test% × test avg + exam% × exam score) ÷ 100 = (70 × 94 + 30 × 74) ÷ 100 = (6580 + 2220) ÷ 100 = 88.",
+    "tpl": "data:challenging:5"
   },
   {
-    "q": "Your average on 5 tests is 80. What must you score on the next test to raise your average to 84?",
+    "q": "A data set of 4 numbers has a mean of 13. After adding one new number, the mean becomes 15. What is the value of the new number?",
     "type": "typed",
     "accept": [
-      "104"
+      "23"
     ],
-    "solution": "You need a total of 6 × 84 = 504. You already have 5 × 80 = 400. So you need 504 − 400 = 104."
+    "solution": "Old total = 13 × 4 = 52. New total needed = 15 × 5 = 75. New number = 75 − 52 = 23.",
+    "tpl": "data:challenging:11"
   },
   {
-    "q": "A spinner has 10 equal sections, 9 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "q": "A data set is 11, 13, 11, 13, 40. The outlier 40 is removed. What is the mean of the 4 remaining values?",
     "type": "typed",
     "accept": [
-      "9/10"
+      "12"
     ],
-    "solution": "P(blue) = blue ÷ total = 9/10."
+    "solution": "Remaining values: 11, 13, 11, 13. Sum = 48. Mean = 48 ÷ 4 = 12.",
+    "tpl": "data:challenging:6"
   },
   {
-    "q": "A spinner has 6 equal sections, 2 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "q": "Each time you spin, the probability of winning is 1/2. You spin twice (independent). What is the probability you win NEITHER time? Give a fraction in simplest form.",
     "type": "typed",
     "accept": [
-      "1/3",
-      "2/6"
+      "1/4"
     ],
-    "solution": "P(blue) = blue ÷ total = 2/6 = 1/3."
+    "solution": "P(not win once) = 1/2. For two independent spins: (1/2)² = 1/4.",
+    "tpl": "data:challenging:10"
   },
   {
-    "q": "A spinner has 12 equal sections, 6 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "q": "A data set of 4 numbers has a mean of 8. After adding one new number, the mean becomes 9. What is the value of the new number?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Old total = 8 × 4 = 32. New total needed = 9 × 5 = 45. New number = 45 − 32 = 13.",
+    "tpl": "data:challenging:11"
+  },
+  {
+    "q": "Each time you spin, the probability of winning is 2/5. You spin twice (independent). What is the probability you win NEITHER time? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "9/25"
+    ],
+    "solution": "P(not win once) = 3/5. For two independent spins: (3/5)² = 9/25.",
+    "tpl": "data:challenging:10"
+  },
+  {
+    "q": "A fair 6-sided die is rolled once. What is the probability of NOT rolling a 5? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "5/6"
+    ],
+    "solution": "Faces that are not 5: 5 out of 6. P = 5/6.",
+    "tpl": "data:challenging:7"
+  },
+  {
+    "q": "Each time you spin, the probability of winning is 3/5. You spin twice (independent). What is the probability you win NEITHER time? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "4/25"
+    ],
+    "solution": "P(not win once) = 2/5. For two independent spins: (2/5)² = 4/25.",
+    "tpl": "data:challenging:10"
+  },
+  {
+    "q": "Group A has 4 numbers with a mean of 10. Group B has 2 numbers with a mean of 13. What is the mean of all 6 numbers combined?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Sum A = 10 × 4 = 40. Sum B = 13 × 2 = 26. Combined mean = (40 + 26) ÷ 6 = 66 ÷ 6 = 11.",
+    "tpl": "data:challenging:1"
+  },
+  {
+    "q": "Group A has 3 numbers with a mean of 12. Group B has 3 numbers with a mean of 12. What is the mean of all 6 numbers combined?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Sum A = 12 × 3 = 36. Sum B = 12 × 3 = 36. Combined mean = (36 + 36) ÷ 6 = 72 ÷ 6 = 12.",
+    "tpl": "data:challenging:1"
+  },
+  {
+    "q": "Three of the four numbers in a data set are 8, 12, and 20. The median of all four numbers is 15. What is the fourth number? (it lies between 12 and 20)",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Sorted, the two middle numbers are 12 and the unknown x, so median = (12 + x) ÷ 2 = 15. Then x = 2×15 − 12 = 18.",
+    "tpl": "data:challenging:8"
+  },
+  {
+    "q": "Three of the four numbers in a data set are 6, 14, and 26. The median of all four numbers is 17. What is the fourth number? (it lies between 14 and 26)",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Sorted, the two middle numbers are 14 and the unknown x, so median = (14 + x) ÷ 2 = 17. Then x = 2×17 − 14 = 20.",
+    "tpl": "data:challenging:8"
+  },
+  {
+    "q": "A player averaged 18 points over 5 games. In the next game she scored 6 points. What is her new scoring average over all 6 games?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Old total = 18 × 5 = 90. New total = 90 + 6 = 96. New average = 96 ÷ 6 = 16.",
+    "tpl": "data:challenging:9"
+  },
+  {
+    "q": "A player averaged 20 points over 5 games. In the next game she scored 8 points. What is her new scoring average over all 6 games?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Old total = 20 × 5 = 100. New total = 100 + 8 = 108. New average = 108 ÷ 6 = 18.",
+    "tpl": "data:challenging:9"
+  },
+  {
+    "q": "A data set is 2, 14, 22, 40. A new value of 29 is added. What is the median of the 5 values now?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "New sorted set: 2, 14, 22, 29, 40. The median of 5 values is the 3rd one: 22.",
+    "tpl": "data:challenging:4"
+  },
+  {
+    "q": "The mean of 6 numbers is 10. 4 of them are 11, 13, 15, 7. The other two numbers are EQUAL. What is each of those two numbers?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Total = 10 × 6 = 60. The two equal numbers sum to 60 − 46 = 14. Each = 14 ÷ 2 = 7.",
+    "tpl": "data:challenging:0"
+  },
+  {
+    "q": "Your test scores so far are 81, 92, 81, 98. To finish with a mean of 87 over 5 tests, what score do you need on the last test?",
+    "type": "typed",
+    "accept": [
+      "83"
+    ],
+    "solution": "Required total = 87 × 5 = 435. Sum so far = 352. Needed = 435 − 352 = 83.",
+    "tpl": "data:challenging:2"
+  },
+  {
+    "q": "Your test scores so far are 87, 96, 82, 87. To finish with a mean of 87 over 5 tests, what score do you need on the last test?",
+    "type": "typed",
+    "accept": [
+      "83"
+    ],
+    "solution": "Required total = 87 × 5 = 435. Sum so far = 352. Needed = 435 − 352 = 83.",
+    "tpl": "data:challenging:2"
+  },
+  {
+    "q": "Group A has 2 numbers with a mean of 12. Group B has 4 numbers with a mean of 6. What is the mean of all 6 numbers combined?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Sum A = 12 × 2 = 24. Sum B = 6 × 4 = 24. Combined mean = (24 + 24) ÷ 6 = 48 ÷ 6 = 8.",
+    "tpl": "data:challenging:1"
+  },
+  {
+    "q": "What is the mean (average) of all the whole numbers from 2 to 12 (inclusive)?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "For evenly spaced numbers, the mean equals the average of the first and last: (2 + 12) ÷ 2 = 14 ÷ 2 = 7.",
+    "tpl": "data:challenging:12"
+  },
+  {
+    "q": "The probability of event A is 1/5 and the probability of event B is 3/4. If A and B are independent, what is the probability that BOTH happen? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "3/20"
+    ],
+    "solution": "P(A and B) = P(A) × P(B) = 1/5 × 3/4 = 3/20.",
+    "tpl": "data:challenging:3"
+  },
+  {
+    "q": "A data set is 5, 14, 24, 38. A new value of 26 is added. What is the median of the 5 values now?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "New sorted set: 5, 14, 24, 26, 38. The median of 5 values is the 3rd one: 24.",
+    "tpl": "data:challenging:4"
+  },
+  {
+    "q": "The mean of 5 numbers is 13. 3 of them are 11, 8, 6. The other two numbers are EQUAL. What is each of those two numbers?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Total = 13 × 5 = 65. The two equal numbers sum to 65 − 25 = 40. Each = 40 ÷ 2 = 20.",
+    "tpl": "data:challenging:0"
+  },
+  {
+    "q": "A fair 4-sided die is rolled once. What is the probability of NOT rolling a 3? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "3/4"
+    ],
+    "solution": "Faces that are not 3: 3 out of 4. P = 3/4.",
+    "tpl": "data:challenging:7"
+  },
+  {
+    "q": "A data set is 3, 14, 27, 34. A new value of 5 is added. What is the median of the 5 values now?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "New sorted set: 3, 5, 14, 27, 34. The median of 5 values is the 3rd one: 14.",
+    "tpl": "data:challenging:4"
+  },
+  {
+    "q": "Three of the four numbers in a data set are 7, 13, and 20. The median of all four numbers is 16. What is the fourth number? (it lies between 13 and 20)",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Sorted, the two middle numbers are 13 and the unknown x, so median = (13 + x) ÷ 2 = 16. Then x = 2×16 − 13 = 19.",
+    "tpl": "data:challenging:8"
+  },
+  {
+    "q": "A fair 6-sided die is rolled once. What is the probability of NOT rolling a 1? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "5/6"
+    ],
+    "solution": "Faces that are not 1: 5 out of 6. P = 5/6.",
+    "tpl": "data:challenging:7"
+  },
+  {
+    "q": "Each time you spin, the probability of winning is 1/4. You spin twice (independent). What is the probability you win NEITHER time? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "9/16"
+    ],
+    "solution": "P(not win once) = 3/4. For two independent spins: (3/4)² = 9/16.",
+    "tpl": "data:challenging:10"
+  },
+  {
+    "q": "Each time you spin, the probability of winning is 1/3. You spin twice (independent). What is the probability you win NEITHER time? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "4/9"
+    ],
+    "solution": "P(not win once) = 2/3. For two independent spins: (2/3)² = 4/9.",
+    "tpl": "data:challenging:10"
+  },
+  {
+    "q": "What is the mean (average) of all the whole numbers from 6 to 12 (inclusive)?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "For evenly spaced numbers, the mean equals the average of the first and last: (6 + 12) ÷ 2 = 18 ÷ 2 = 9.",
+    "tpl": "data:challenging:12"
+  },
+  {
+    "q": "Your test scores so far are 86, 89, 92, 93, 81. To finish with a mean of 89 over 6 tests, what score do you need on the last test?",
+    "type": "typed",
+    "accept": [
+      "93"
+    ],
+    "solution": "Required total = 89 × 6 = 534. Sum so far = 441. Needed = 534 − 441 = 93.",
+    "tpl": "data:challenging:2"
+  },
+  {
+    "q": "A data set of 6 numbers has a mean of 13. After adding one new number, the mean becomes 14. What is the value of the new number?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Old total = 13 × 6 = 78. New total needed = 14 × 7 = 98. New number = 98 − 78 = 20.",
+    "tpl": "data:challenging:11"
+  },
+  {
+    "q": "Your test scores so far are 88, 84, 81, 89. To finish with a mean of 87 over 5 tests, what score do you need on the last test?",
+    "type": "typed",
+    "accept": [
+      "93"
+    ],
+    "solution": "Required total = 87 × 5 = 435. Sum so far = 342. Needed = 435 − 342 = 93.",
+    "tpl": "data:challenging:2"
+  },
+  {
+    "q": "The probability of event A is 1/6 and the probability of event B is 1/6. If A and B are independent, what is the probability that BOTH happen? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "1/36"
+    ],
+    "solution": "P(A and B) = P(A) × P(B) = 1/6 × 1/6 = 1/36.",
+    "tpl": "data:challenging:3"
+  },
+  {
+    "q": "Group A has 2 numbers with a mean of 7. Group B has 4 numbers with a mean of 7. What is the mean of all 6 numbers combined?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Sum A = 7 × 2 = 14. Sum B = 7 × 4 = 28. Combined mean = (14 + 28) ÷ 6 = 42 ÷ 6 = 7.",
+    "tpl": "data:challenging:1"
+  },
+  {
+    "q": "A data set of 5 numbers has a mean of 9. After adding one new number, the mean becomes 10. What is the value of the new number?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Old total = 9 × 5 = 45. New total needed = 10 × 6 = 60. New number = 60 − 45 = 15.",
+    "tpl": "data:challenging:11"
+  },
+  {
+    "q": "Tests count for 70% of the grade and the final exam counts for 30%. A student has a test average of 91 and an exam score of 71. What is the final grade?",
+    "type": "typed",
+    "accept": [
+      "85"
+    ],
+    "solution": "Final = (test% × test avg + exam% × exam score) ÷ 100 = (70 × 91 + 30 × 71) ÷ 100 = (6370 + 2130) ÷ 100 = 85.",
+    "tpl": "data:challenging:5"
+  },
+  {
+    "q": "Each time you spin, the probability of winning is 1/5. You spin twice (independent). What is the probability you win NEITHER time? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "16/25"
+    ],
+    "solution": "P(not win once) = 4/5. For two independent spins: (4/5)² = 16/25.",
+    "tpl": "data:challenging:10"
+  },
+  {
+    "q": "The mean of 6 numbers is 13. 4 of them are 3, 8, 7, 16. The other two numbers are EQUAL. What is each of those two numbers?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Total = 13 × 6 = 78. The two equal numbers sum to 78 − 34 = 44. Each = 44 ÷ 2 = 22.",
+    "tpl": "data:challenging:0"
+  },
+  {
+    "q": "A data set is 13, 13, 12, 10, 55. The outlier 55 is removed. What is the mean of the 4 remaining values?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Remaining values: 13, 13, 12, 10. Sum = 48. Mean = 48 ÷ 4 = 12.",
+    "tpl": "data:challenging:6"
+  },
+  {
+    "q": "A player averaged 8 points over 5 games. In the next game she scored 8 points. What is her new scoring average over all 6 games?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Old total = 8 × 5 = 40. New total = 40 + 8 = 48. New average = 48 ÷ 6 = 8.",
+    "tpl": "data:challenging:9"
+  },
+  {
+    "q": "Tests count for 60% of the grade and the final exam counts for 40%. A student has a test average of 86 and an exam score of 91. What is the final grade?",
+    "type": "typed",
+    "accept": [
+      "88"
+    ],
+    "solution": "Final = (test% × test avg + exam% × exam score) ÷ 100 = (60 × 86 + 40 × 91) ÷ 100 = (5160 + 3640) ÷ 100 = 88.",
+    "tpl": "data:challenging:5"
+  },
+  {
+    "q": "Your test scores so far are 89, 98, 81, 92. To finish with a mean of 90 over 5 tests, what score do you need on the last test?",
+    "type": "typed",
+    "accept": [
+      "90"
+    ],
+    "solution": "Required total = 90 × 5 = 450. Sum so far = 360. Needed = 450 − 360 = 90.",
+    "tpl": "data:challenging:2"
+  },
+  {
+    "q": "Group A has 2 numbers with a mean of 9. Group B has 2 numbers with a mean of 9. What is the mean of all 4 numbers combined?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Sum A = 9 × 2 = 18. Sum B = 9 × 2 = 18. Combined mean = (18 + 18) ÷ 4 = 36 ÷ 4 = 9.",
+    "tpl": "data:challenging:1"
+  },
+  {
+    "q": "The probability of event A is 3/4 and the probability of event B is 2/3. If A and B are independent, what is the probability that BOTH happen? Give a fraction in simplest form.",
     "type": "typed",
     "accept": [
       "1/2",
       "6/12"
     ],
-    "solution": "P(blue) = blue ÷ total = 6/12 = 1/2."
+    "solution": "P(A and B) = P(A) × P(B) = 3/4 × 2/3 = 6/12 = 1/2.",
+    "tpl": "data:challenging:3"
   },
   {
-    "q": "Three numbers are 5, 7, 8. What value must be added so that the mean of all four is 7?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Four numbers averaging 7 total 28. The new value = 28 − 20 = 8."
-  },
-  {
-    "q": "Three numbers are 2, 7, 5. What value must be added so that the mean of all four is 8?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 14 = 18."
-  },
-  {
-    "q": "A spinner has 8 equal sections, 6 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "3/4",
-      "6/8"
-    ],
-    "solution": "P(blue) = blue ÷ total = 6/8 = 3/4."
-  },
-  {
-    "q": "A spinner has 6 equal sections, 1 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "1/6"
-    ],
-    "solution": "P(blue) = blue ÷ total = 1/6."
-  },
-  {
-    "q": "A spinner has 8 equal sections, 7 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "7/8"
-    ],
-    "solution": "P(blue) = blue ÷ total = 7/8."
-  },
-  {
-    "q": "Your average on 4 tests is 84. What must you score on the next test to raise your average to 87?",
-    "type": "typed",
-    "accept": [
-      "99"
-    ],
-    "solution": "You need a total of 5 × 87 = 435. You already have 4 × 84 = 336. So you need 435 − 336 = 99."
-  },
-  {
-    "q": "Your average on 5 tests is 80. What must you score on the next test to raise your average to 82?",
-    "type": "typed",
-    "accept": [
-      "92"
-    ],
-    "solution": "You need a total of 6 × 82 = 492. You already have 5 × 80 = 400. So you need 492 − 400 = 92."
-  },
-  {
-    "q": "A spinner has 10 equal sections, 6 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "3/5",
-      "6/10"
-    ],
-    "solution": "P(blue) = blue ÷ total = 6/10 = 3/5."
-  },
-  {
-    "q": "Three numbers are 7, 6, 2. What value must be added so that the mean of all four is 5?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Four numbers averaging 5 total 20. The new value = 20 − 15 = 5."
-  },
-  {
-    "q": "A spinner has 12 equal sections, 9 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "3/4",
-      "9/12"
-    ],
-    "solution": "P(blue) = blue ÷ total = 9/12 = 3/4."
-  },
-  {
-    "q": "A spinner has 8 equal sections, 3 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "3/8"
-    ],
-    "solution": "P(blue) = blue ÷ total = 3/8."
-  },
-  {
-    "q": "Your average on 5 tests is 84. What must you score on the next test to raise your average to 88?",
-    "type": "typed",
-    "accept": [
-      "108"
-    ],
-    "solution": "You need a total of 6 × 88 = 528. You already have 5 × 84 = 420. So you need 528 − 420 = 108."
-  },
-  {
-    "q": "Your average on 5 tests is 82. What must you score on the next test to raise your average to 86?",
-    "type": "typed",
-    "accept": [
-      "106"
-    ],
-    "solution": "You need a total of 6 × 86 = 516. You already have 5 × 82 = 410. So you need 516 − 410 = 106."
-  },
-  {
-    "q": "Your average on 5 tests is 82. What must you score on the next test to raise your average to 84?",
-    "type": "typed",
-    "accept": [
-      "94"
-    ],
-    "solution": "You need a total of 6 × 84 = 504. You already have 5 × 82 = 410. So you need 504 − 410 = 94."
-  },
-  {
-    "q": "Your average on 4 tests is 82. What must you score on the next test to raise your average to 86?",
-    "type": "typed",
-    "accept": [
-      "102"
-    ],
-    "solution": "You need a total of 5 × 86 = 430. You already have 4 × 82 = 328. So you need 430 − 328 = 102."
-  },
-  {
-    "q": "Your average on 5 tests is 84. What must you score on the next test to raise your average to 85?",
-    "type": "typed",
-    "accept": [
-      "90"
-    ],
-    "solution": "You need a total of 6 × 85 = 510. You already have 5 × 84 = 420. So you need 510 − 420 = 90."
-  },
-  {
-    "q": "Three numbers are 8, 4, 7. What value must be added so that the mean of all four is 6?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 19 = 5."
-  },
-  {
-    "q": "A spinner has 12 equal sections, 2 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "1/6",
-      "2/12"
-    ],
-    "solution": "P(blue) = blue ÷ total = 2/12 = 1/6."
-  },
-  {
-    "q": "Your average on 5 tests is 78. What must you score on the next test to raise your average to 79?",
-    "type": "typed",
-    "accept": [
-      "84"
-    ],
-    "solution": "You need a total of 6 × 79 = 474. You already have 5 × 78 = 390. So you need 474 − 390 = 84."
-  },
-  {
-    "q": "Three numbers are 2, 7, 5. What value must be added so that the mean of all four is 6?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 14 = 10."
-  },
-  {
-    "q": "A spinner has 12 equal sections, 10 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "5/6",
-      "10/12"
-    ],
-    "solution": "P(blue) = blue ÷ total = 10/12 = 5/6."
-  },
-  {
-    "q": "A spinner has 10 equal sections, 1 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "1/10"
-    ],
-    "solution": "P(blue) = blue ÷ total = 1/10."
-  },
-  {
-    "q": "Three numbers are 2, 6, 8. What value must be added so that the mean of all four is 5?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Four numbers averaging 5 total 20. The new value = 20 − 16 = 4."
-  },
-  {
-    "q": "Three numbers are 8, 8, 3. What value must be added so that the mean of all four is 5?",
-    "type": "typed",
-    "accept": [
-      "1"
-    ],
-    "solution": "Four numbers averaging 5 total 20. The new value = 20 − 19 = 1."
-  },
-  {
-    "q": "Your average on 5 tests is 78. What must you score on the next test to raise your average to 82?",
-    "type": "typed",
-    "accept": [
-      "102"
-    ],
-    "solution": "You need a total of 6 × 82 = 492. You already have 5 × 78 = 390. So you need 492 − 390 = 102."
-  },
-  {
-    "q": "Three numbers are 2, 6, 2. What value must be added so that the mean of all four is 7?",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Four numbers averaging 7 total 28. The new value = 28 − 10 = 18."
-  },
-  {
-    "q": "Your average on 4 tests is 78. What must you score on the next test to raise your average to 81?",
-    "type": "typed",
-    "accept": [
-      "93"
-    ],
-    "solution": "You need a total of 5 × 81 = 405. You already have 4 × 78 = 312. So you need 405 − 312 = 93."
-  },
-  {
-    "q": "Three numbers are 9, 3, 7. What value must be added so that the mean of all four is 7?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Four numbers averaging 7 total 28. The new value = 28 − 19 = 9."
-  },
-  {
-    "q": "Your average on 5 tests is 78. What must you score on the next test to raise your average to 80?",
-    "type": "typed",
-    "accept": [
-      "90"
-    ],
-    "solution": "You need a total of 6 × 80 = 480. You already have 5 × 78 = 390. So you need 480 − 390 = 90."
-  },
-  {
-    "q": "Three numbers are 6, 8, 3. What value must be added so that the mean of all four is 5?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Four numbers averaging 5 total 20. The new value = 20 − 17 = 3."
-  },
-  {
-    "q": "Three numbers are 5, 9, 3. What value must be added so that the mean of all four is 8?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 17 = 15."
-  },
-  {
-    "q": "Three numbers are 2, 6, 7. What value must be added so that the mean of all four is 6?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 15 = 9."
-  },
-  {
-    "q": "A spinner has 6 equal sections, 4 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "2/3",
-      "4/6"
-    ],
-    "solution": "P(blue) = blue ÷ total = 4/6 = 2/3."
-  },
-  {
-    "q": "Three numbers are 4, 3, 8. What value must be added so that the mean of all four is 7?",
+    "q": "What is the mean (average) of all the whole numbers from 8 to 18 (inclusive)?",
     "type": "typed",
     "accept": [
       "13"
     ],
-    "solution": "Four numbers averaging 7 total 28. The new value = 28 − 15 = 13."
+    "solution": "For evenly spaced numbers, the mean equals the average of the first and last: (8 + 18) ÷ 2 = 26 ÷ 2 = 13.",
+    "tpl": "data:challenging:12"
   },
   {
-    "q": "A spinner has 10 equal sections, 3 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "q": "Tests count for 60% of the grade and the final exam counts for 40%. A student has a test average of 80 and an exam score of 70. What is the final grade?",
     "type": "typed",
     "accept": [
-      "3/10"
+      "76"
     ],
-    "solution": "P(blue) = blue ÷ total = 3/10."
+    "solution": "Final = (test% × test avg + exam% × exam score) ÷ 100 = (60 × 80 + 40 × 70) ÷ 100 = (4800 + 2800) ÷ 100 = 76.",
+    "tpl": "data:challenging:5"
   },
   {
-    "q": "A spinner has 12 equal sections, 1 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "q": "Tests count for 60% of the grade and the final exam counts for 40%. A student has a test average of 95 and an exam score of 85. What is the final grade?",
     "type": "typed",
     "accept": [
-      "1/12"
+      "91"
     ],
-    "solution": "P(blue) = blue ÷ total = 1/12."
+    "solution": "Final = (test% × test avg + exam% × exam score) ÷ 100 = (60 × 95 + 40 × 85) ÷ 100 = (5700 + 3400) ÷ 100 = 91.",
+    "tpl": "data:challenging:5"
   },
   {
-    "q": "Three numbers are 4, 3, 4. What value must be added so that the mean of all four is 6?",
+    "q": "A data set is 14, 10, 15, 13, 60. The outlier 60 is removed. What is the mean of the 4 remaining values?",
     "type": "typed",
     "accept": [
       "13"
     ],
-    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 11 = 13."
+    "solution": "Remaining values: 14, 10, 15, 13. Sum = 52. Mean = 52 ÷ 4 = 13.",
+    "tpl": "data:challenging:6"
   },
   {
-    "q": "A spinner has 10 equal sections, 5 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "1/2",
-      "5/10"
-    ],
-    "solution": "P(blue) = blue ÷ total = 5/10 = 1/2."
-  },
-  {
-    "q": "A spinner has 12 equal sections, 8 of them blue. What is the probability of landing on blue? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "2/3",
-      "8/12"
-    ],
-    "solution": "P(blue) = blue ÷ total = 8/12 = 2/3."
-  },
-  {
-    "q": "Your average on 4 tests is 82. What must you score on the next test to raise your average to 85?",
-    "type": "typed",
-    "accept": [
-      "97"
-    ],
-    "solution": "You need a total of 5 × 85 = 425. You already have 4 × 82 = 328. So you need 425 − 328 = 97."
-  },
-  {
-    "q": "Your average on 4 tests is 84. What must you score on the next test to raise your average to 85?",
-    "type": "typed",
-    "accept": [
-      "89"
-    ],
-    "solution": "You need a total of 5 × 85 = 425. You already have 4 × 84 = 336. So you need 425 − 336 = 89."
-  },
-  {
-    "q": "Your average on 5 tests is 82. What must you score on the next test to raise your average to 83?",
-    "type": "typed",
-    "accept": [
-      "88"
-    ],
-    "solution": "You need a total of 6 × 83 = 498. You already have 5 × 82 = 410. So you need 498 − 410 = 88."
-  },
-  {
-    "q": "Three numbers are 2, 4, 9. What value must be added so that the mean of all four is 8?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 15 = 17."
-  },
-  {
-    "q": "Three numbers are 7, 3, 2. What value must be added so that the mean of all four is 6?",
+    "q": "A data set is 12, 10, 15, 11, 40. The outlier 40 is removed. What is the mean of the 4 remaining values?",
     "type": "typed",
     "accept": [
       "12"
     ],
-    "solution": "Four numbers averaging 6 total 24. The new value = 24 − 12 = 12."
+    "solution": "Remaining values: 12, 10, 15, 11. Sum = 48. Mean = 48 ÷ 4 = 12.",
+    "tpl": "data:challenging:6"
   },
   {
-    "q": "Your average on 4 tests is 84. What must you score on the next test to raise your average to 88?",
+    "q": "Three of the four numbers in a data set are 5, 12, and 23. The median of all four numbers is 15. What is the fourth number? (it lies between 12 and 23)",
     "type": "typed",
     "accept": [
-      "104"
+      "18"
     ],
-    "solution": "You need a total of 5 × 88 = 440. You already have 4 × 84 = 336. So you need 440 − 336 = 104."
+    "solution": "Sorted, the two middle numbers are 12 and the unknown x, so median = (12 + x) ÷ 2 = 15. Then x = 2×15 − 12 = 18.",
+    "tpl": "data:challenging:8"
   },
   {
-    "q": "Your average on 4 tests is 84. What must you score on the next test to raise your average to 86?",
+    "q": "The probability of event A is 2/3 and the probability of event B is 1/6. If A and B are independent, what is the probability that BOTH happen? Give a fraction in simplest form.",
     "type": "typed",
     "accept": [
-      "94"
+      "1/9",
+      "2/18"
     ],
-    "solution": "You need a total of 5 × 86 = 430. You already have 4 × 84 = 336. So you need 430 − 336 = 94."
+    "solution": "P(A and B) = P(A) × P(B) = 2/3 × 1/6 = 2/18 = 1/9.",
+    "tpl": "data:challenging:3"
   },
   {
-    "q": "Three numbers are 7, 5, 9. What value must be added so that the mean of all four is 8?",
+    "q": "Group A has 3 numbers with a mean of 8. Group B has 4 numbers with a mean of 8. What is the mean of all 7 numbers combined?",
     "type": "typed",
     "accept": [
-      "11"
+      "8"
     ],
-    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 21 = 11."
+    "solution": "Sum A = 8 × 3 = 24. Sum B = 8 × 4 = 32. Combined mean = (24 + 32) ÷ 7 = 56 ÷ 7 = 8.",
+    "tpl": "data:challenging:1"
   },
   {
-    "q": "A spinner has 12 equal sections, 4 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "q": "A data set is 11, 12, 12, 13, 40. The outlier 40 is removed. What is the mean of the 4 remaining values?",
     "type": "typed",
     "accept": [
-      "1/3",
-      "4/12"
+      "12"
     ],
-    "solution": "P(blue) = blue ÷ total = 4/12 = 1/3."
+    "solution": "Remaining values: 11, 12, 12, 13. Sum = 48. Mean = 48 ÷ 4 = 12.",
+    "tpl": "data:challenging:6"
   },
   {
-    "q": "Three numbers are 9, 7, 6. What value must be added so that the mean of all four is 8?",
+    "q": "A data set is 3, 13, 22, 36. A new value of 28 is added. What is the median of the 5 values now?",
     "type": "typed",
     "accept": [
-      "10"
+      "22"
     ],
-    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 22 = 10."
+    "solution": "New sorted set: 3, 13, 22, 28, 36. The median of 5 values is the 3rd one: 22.",
+    "tpl": "data:challenging:4"
   },
   {
-    "q": "Your average on 5 tests is 80. What must you score on the next test to raise your average to 81?",
+    "q": "The mean of 6 numbers is 11. 4 of them are 13, 7, 9, 3. The other two numbers are EQUAL. What is each of those two numbers?",
     "type": "typed",
     "accept": [
-      "86"
+      "17"
     ],
-    "solution": "You need a total of 6 × 81 = 486. You already have 5 × 80 = 400. So you need 486 − 400 = 86."
+    "solution": "Total = 11 × 6 = 66. The two equal numbers sum to 66 − 32 = 34. Each = 34 ÷ 2 = 17.",
+    "tpl": "data:challenging:0"
   },
   {
-    "q": "Three numbers are 8, 8, 9. What value must be added so that the mean of all four is 7?",
+    "q": "The probability of event A is 3/4 and the probability of event B is 1/4. If A and B are independent, what is the probability that BOTH happen? Give a fraction in simplest form.",
     "type": "typed",
     "accept": [
-      "3"
+      "3/16"
     ],
-    "solution": "Four numbers averaging 7 total 28. The new value = 28 − 25 = 3."
+    "solution": "P(A and B) = P(A) × P(B) = 3/4 × 1/4 = 3/16.",
+    "tpl": "data:challenging:3"
   },
   {
-    "q": "Three numbers are 8, 2, 7. What value must be added so that the mean of all four is 8?",
+    "q": "A data set is 4, 12, 29, 35. A new value of 11 is added. What is the median of the 5 values now?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "New sorted set: 4, 11, 12, 29, 35. The median of 5 values is the 3rd one: 12.",
+    "tpl": "data:challenging:4"
+  },
+  {
+    "q": "A data set is 6, 19, 26, 40. A new value of 33 is added. What is the median of the 5 values now?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "New sorted set: 6, 19, 26, 33, 40. The median of 5 values is the 3rd one: 26.",
+    "tpl": "data:challenging:4"
+  },
+  {
+    "q": "A data set of 5 numbers has a mean of 8. After adding one new number, the mean becomes 10. What is the value of the new number?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Old total = 8 × 5 = 40. New total needed = 10 × 6 = 60. New number = 60 − 40 = 20.",
+    "tpl": "data:challenging:11"
+  },
+  {
+    "q": "A fair 9-sided die is rolled once. What is the probability of NOT rolling a 8? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "8/9"
+    ],
+    "solution": "Faces that are not 8: 8 out of 9. P = 8/9.",
+    "tpl": "data:challenging:7"
+  },
+  {
+    "q": "A player averaged 13 points over 5 games. In the next game she scored 7 points. What is her new scoring average over all 6 games?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Old total = 13 × 5 = 65. New total = 65 + 7 = 72. New average = 72 ÷ 6 = 12.",
+    "tpl": "data:challenging:9"
+  },
+  {
+    "q": "A data set of 5 numbers has a mean of 14. After adding one new number, the mean becomes 16. What is the value of the new number?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "Old total = 14 × 5 = 70. New total needed = 16 × 6 = 96. New number = 96 − 70 = 26.",
+    "tpl": "data:challenging:11"
+  },
+  {
+    "q": "A fair 8-sided die is rolled once. What is the probability of NOT rolling a 6? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "7/8"
+    ],
+    "solution": "Faces that are not 6: 7 out of 8. P = 7/8.",
+    "tpl": "data:challenging:7"
+  },
+  {
+    "q": "What is the mean (average) of all the whole numbers from 7 to 11 (inclusive)?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "For evenly spaced numbers, the mean equals the average of the first and last: (7 + 11) ÷ 2 = 18 ÷ 2 = 9.",
+    "tpl": "data:challenging:12"
+  },
+  {
+    "q": "The mean of 5 numbers is 13. 3 of them are 16, 9, 14. The other two numbers are EQUAL. What is each of those two numbers?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Total = 13 × 5 = 65. The two equal numbers sum to 65 − 39 = 26. Each = 26 ÷ 2 = 13.",
+    "tpl": "data:challenging:0"
+  },
+  {
+    "q": "A player averaged 19 points over 4 games. In the next game she scored 4 points. What is her new scoring average over all 5 games?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Old total = 19 × 4 = 76. New total = 76 + 4 = 80. New average = 80 ÷ 5 = 16.",
+    "tpl": "data:challenging:9"
+  },
+  {
+    "q": "What is the mean (average) of all the whole numbers from 10 to 20 (inclusive)?",
     "type": "typed",
     "accept": [
       "15"
     ],
-    "solution": "Four numbers averaging 8 total 32. The new value = 32 − 17 = 15."
+    "solution": "For evenly spaced numbers, the mean equals the average of the first and last: (10 + 20) ÷ 2 = 30 ÷ 2 = 15.",
+    "tpl": "data:challenging:12"
   },
   {
-    "q": "A spinner has 8 equal sections, 2 of them blue. What is the probability of landing on blue? (as a fraction)",
+    "q": "What is the mean (average) of all the whole numbers from 6 to 18 (inclusive)?",
     "type": "typed",
     "accept": [
-      "1/4",
-      "2/8"
+      "12"
     ],
-    "solution": "P(blue) = blue ÷ total = 2/8 = 1/4."
+    "solution": "For evenly spaced numbers, the mean equals the average of the first and last: (6 + 18) ÷ 2 = 24 ÷ 2 = 12.",
+    "tpl": "data:challenging:12"
   },
   {
-    "q": "Your average on 4 tests is 78. What must you score on the next test to raise your average to 82?",
+    "q": "Tests count for 60% of the grade and the final exam counts for 40%. A student has a test average of 73 and an exam score of 93. What is the final grade?",
     "type": "typed",
     "accept": [
-      "98"
+      "81"
     ],
-    "solution": "You need a total of 5 × 82 = 410. You already have 4 × 78 = 312. So you need 410 − 312 = 98."
+    "solution": "Final = (test% × test avg + exam% × exam score) ÷ 100 = (60 × 73 + 40 × 93) ÷ 100 = (4380 + 3720) ÷ 100 = 81.",
+    "tpl": "data:challenging:5"
+  },
+  {
+    "q": "Your test scores so far are 85, 91, 86, 82. To finish with a mean of 86 over 5 tests, what score do you need on the last test?",
+    "type": "typed",
+    "accept": [
+      "86"
+    ],
+    "solution": "Required total = 86 × 5 = 430. Sum so far = 344. Needed = 430 − 344 = 86.",
+    "tpl": "data:challenging:2"
+  },
+  {
+    "q": "The mean of 5 numbers is 12. 3 of them are 8, 9, 3. The other two numbers are EQUAL. What is each of those two numbers?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Total = 12 × 5 = 60. The two equal numbers sum to 60 − 20 = 40. Each = 40 ÷ 2 = 20.",
+    "tpl": "data:challenging:0"
+  },
+  {
+    "q": "A data set is 12, 13, 12, 15, 50. The outlier 50 is removed. What is the mean of the 4 remaining values?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Remaining values: 12, 13, 12, 15. Sum = 52. Mean = 52 ÷ 4 = 13.",
+    "tpl": "data:challenging:6"
+  },
+  {
+    "q": "A fair 12-sided die is rolled once. What is the probability of NOT rolling a 6? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "11/12"
+    ],
+    "solution": "Faces that are not 6: 11 out of 12. P = 11/12.",
+    "tpl": "data:challenging:7"
+  },
+  {
+    "q": "Three of the four numbers in a data set are 6, 13, and 22. The median of all four numbers is 16. What is the fourth number? (it lies between 13 and 22)",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Sorted, the two middle numbers are 13 and the unknown x, so median = (13 + x) ÷ 2 = 16. Then x = 2×16 − 13 = 19.",
+    "tpl": "data:challenging:8"
+  },
+  {
+    "q": "A player averaged 13 points over 6 games. In the next game she scored 6 points. What is her new scoring average over all 7 games?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Old total = 13 × 6 = 78. New total = 78 + 6 = 84. New average = 84 ÷ 7 = 12.",
+    "tpl": "data:challenging:9"
+  },
+  {
+    "q": "Three of the four numbers in a data set are 4, 12, and 26. The median of all four numbers is 18. What is the fourth number? (it lies between 12 and 26)",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Sorted, the two middle numbers are 12 and the unknown x, so median = (12 + x) ÷ 2 = 18. Then x = 2×18 − 12 = 24.",
+    "tpl": "data:challenging:8"
   },
   {
     "q": "The mean of five numbers is 12. Four of them are 10, 14, 8, and 16. What is the fifth number?",
@@ -499,7 +710,8 @@
       "12"
     ],
     "solution": "The five must total 5 × 12 = 60. The four known ones sum to 48, so the fifth is 60 − 48 = 12.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:data:0"
   },
   {
     "q": "A student scored 85, 90, and 95 on three tests. What score on a fourth test gives a mean of 90?",
@@ -508,7 +720,8 @@
       "90"
     ],
     "solution": "Four tests averaging 90 total 360. The first three sum to 270, so the fourth must be 360 − 270 = 90.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:data:1"
   },
   {
     "q": "The mean of six numbers is 5. If the number 10 is removed, what is the mean of the remaining five?",
@@ -517,7 +730,8 @@
       "4"
     ],
     "solution": "Six numbers averaging 5 total 30. Remove 10 → 20 left, shared by 5 numbers: 20 ÷ 5 = 4.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:data:2"
   },
   {
     "q": "Five friends have a mean age of 10. A sixth friend joins and the mean becomes 11. How old is the sixth friend?",
@@ -526,7 +740,8 @@
       "16"
     ],
     "solution": "Six people averaging 11 total 66. The first five totaled 5 × 10 = 50, so the sixth is 66 − 50 = 16.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:data:3"
   },
   {
     "q": "The numbers 4, 7, 7, 10, and x have a mean of 8. What is x?",
@@ -535,7 +750,8 @@
       "12"
     ],
     "solution": "Five numbers averaging 8 total 40. The four known ones sum to 28, so x = 40 − 28 = 12.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:data:4"
   },
   {
     "q": "A bag has 4 red, 3 blue, and 5 green marbles. What is the probability of NOT drawing a blue marble? (as a fraction)",
@@ -545,6 +761,7 @@
       "9/12"
     ],
     "solution": "There are 12 marbles, and 12 − 3 = 9 are not blue. P(not blue) = 9/12 = 3/4.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:data:5"
   }
 ]

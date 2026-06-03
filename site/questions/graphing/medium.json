@@ -1,562 +1,842 @@
 [
   {
-    "q": "Which quadrant is (3, -4) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant III",
-      "Quadrant I",
-      "Quadrant II",
-      "Quadrant IV"
+    "q": "A number increased by 8 gives 17. What is the number?",
+    "type": "typed",
+    "accept": [
+      "9"
     ],
-    "answer": 3,
-    "solution": "x +, y − → Quadrant IV."
+    "solution": "Let the number be n. n + 8 = 17, so n = 17 − 8 = 9.",
+    "tpl": "graphing:medium:8"
   },
   {
-    "q": "Which quadrant is (-3, -4) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant I",
-      "Quadrant III",
-      "Quadrant II",
-      "Quadrant IV"
+    "q": "A rectangle is 12 cm long and 9 cm wide. What is its perimeter in cm?",
+    "type": "typed",
+    "accept": [
+      "42"
     ],
-    "answer": 1,
-    "solution": "x −, y − → Quadrant III."
+    "solution": "Perimeter = 2(L + W) = 2(12 + 9) = 2(21) = 42 cm.",
+    "tpl": "graphing:medium:10"
   },
   {
-    "q": "Which quadrant is (-1, 1) in?",
+    "q": "In which quadrant is the point (7, -5)?",
     "type": "mc",
     "choices": [
       "Quadrant IV",
-      "Quadrant II",
-      "Quadrant III",
-      "Quadrant I"
-    ],
-    "answer": 1,
-    "solution": "x −, y + → Quadrant II."
-  },
-  {
-    "q": "Maya buys 5 packs of 8 markers, then gives away 10. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "5×8 = 40, − 10 = 30."
-  },
-  {
-    "q": "A taxi costs $6 plus $4 per mile. How much for a 7-mile trip?",
-    "type": "typed",
-    "accept": [
-      "34"
-    ],
-    "solution": "4×7 = 28, + $6 = $34."
-  },
-  {
-    "q": "A taxi costs $4 plus $2 per mile. How much for a 6-mile trip?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "2×6 = 12, + $4 = $16."
-  },
-  {
-    "q": "Maya buys 5 packs of 10 markers, then gives away 6. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "44"
-    ],
-    "solution": "5×10 = 50, − 6 = 44."
-  },
-  {
-    "q": "A taxi costs $4 plus $3 per mile. How much for a 6-mile trip?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "3×6 = 18, + $4 = $22."
-  },
-  {
-    "q": "Which quadrant is (4, 1) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant II",
       "Quadrant I",
       "Quadrant III",
-      "Quadrant IV"
-    ],
-    "answer": 1,
-    "solution": "x +, y + → Quadrant I."
-  },
-  {
-    "q": "Which quadrant is (5, 6) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant III",
-      "Quadrant IV",
-      "Quadrant II",
-      "Quadrant I"
-    ],
-    "answer": 3,
-    "solution": "x +, y + → Quadrant I."
-  },
-  {
-    "q": "Maya buys 6 packs of 10 markers, then gives away 11. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "49"
-    ],
-    "solution": "6×10 = 60, − 11 = 49."
-  },
-  {
-    "q": "A taxi costs $2 plus $3 per mile. How much for a 5-mile trip?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "3×5 = 15, + $2 = $17."
-  },
-  {
-    "q": "A taxi costs $2 plus $4 per mile. How much for a 5-mile trip?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "4×5 = 20, + $2 = $22."
-  },
-  {
-    "q": "Maya buys 4 packs of 8 markers, then gives away 3. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "29"
-    ],
-    "solution": "4×8 = 32, − 3 = 29."
-  },
-  {
-    "q": "Maya buys 7 packs of 8 markers, then gives away 11. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "45"
-    ],
-    "solution": "7×8 = 56, − 11 = 45."
-  },
-  {
-    "q": "A taxi costs $6 plus $3 per mile. How much for a 8-mile trip?",
-    "type": "typed",
-    "accept": [
-      "30"
-    ],
-    "solution": "3×8 = 24, + $6 = $30."
-  },
-  {
-    "q": "Which quadrant is (4, -1) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant III",
-      "Quadrant II",
-      "Quadrant IV",
-      "Quadrant I"
-    ],
-    "answer": 2,
-    "solution": "x +, y − → Quadrant IV."
-  },
-  {
-    "q": "Which quadrant is (3, 2) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant III",
-      "Quadrant II",
-      "Quadrant I",
-      "Quadrant IV"
-    ],
-    "answer": 2,
-    "solution": "x +, y + → Quadrant I."
-  },
-  {
-    "q": "Which quadrant is (5, 4) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant I",
-      "Quadrant II",
-      "Quadrant IV",
-      "Quadrant III"
-    ],
-    "answer": 0,
-    "solution": "x +, y + → Quadrant I."
-  },
-  {
-    "q": "A taxi costs $2 plus $2 per mile. How much for a 4-mile trip?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "2×4 = 8, + $2 = $10."
-  },
-  {
-    "q": "A taxi costs $6 plus $3 per mile. How much for a 7-mile trip?",
-    "type": "typed",
-    "accept": [
-      "27"
-    ],
-    "solution": "3×7 = 21, + $6 = $27."
-  },
-  {
-    "q": "Maya buys 7 packs of 10 markers, then gives away 11. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "59"
-    ],
-    "solution": "7×10 = 70, − 11 = 59."
-  },
-  {
-    "q": "A taxi costs $2 plus $3 per mile. How much for a 6-mile trip?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "3×6 = 18, + $2 = $20."
-  },
-  {
-    "q": "Maya buys 5 packs of 12 markers, then gives away 10. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "50"
-    ],
-    "solution": "5×12 = 60, − 10 = 50."
-  },
-  {
-    "q": "Which quadrant is (4, 4) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant III",
-      "Quadrant IV",
-      "Quadrant II",
-      "Quadrant I"
-    ],
-    "answer": 3,
-    "solution": "x +, y + → Quadrant I."
-  },
-  {
-    "q": "Maya buys 4 packs of 8 markers, then gives away 4. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "4×8 = 32, − 4 = 28."
-  },
-  {
-    "q": "Which quadrant is (3, -6) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant IV",
-      "Quadrant III",
-      "Quadrant I",
       "Quadrant II"
     ],
     "answer": 0,
-    "solution": "x +, y − → Quadrant IV."
+    "solution": "x is positive and y is negative, so the point is in Quadrant IV.",
+    "tpl": "graphing:medium:1"
   },
   {
-    "q": "Maya buys 7 packs of 8 markers, then gives away 4. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "52"
-    ],
-    "solution": "7×8 = 56, − 4 = 52."
-  },
-  {
-    "q": "A taxi costs $3 plus $3 per mile. How much for a 4-mile trip?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "3×4 = 12, + $3 = $15."
-  },
-  {
-    "q": "A taxi costs $5 plus $3 per mile. How much for a 8-mile trip?",
-    "type": "typed",
-    "accept": [
-      "29"
-    ],
-    "solution": "3×8 = 24, + $5 = $29."
-  },
-  {
-    "q": "Maya buys 3 packs of 10 markers, then gives away 8. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "22"
-    ],
-    "solution": "3×10 = 30, − 8 = 22."
-  },
-  {
-    "q": "Maya buys 3 packs of 8 markers, then gives away 10. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "3×8 = 24, − 10 = 14."
-  },
-  {
-    "q": "Which quadrant is (3, -1) in?",
+    "q": "How far apart are the points (-1, 2) and (-2, 2)?",
     "type": "mc",
     "choices": [
-      "Quadrant I",
+      "1",
+      "3",
+      "0",
+      "2"
+    ],
+    "answer": 0,
+    "solution": "They share the same y, so count along the horizontal line: |-1 − -2| = 1 units.",
+    "tpl": "graphing:medium:4"
+  },
+  {
+    "q": "In the ordered pair (-6, 8), what is the x-coordinate?",
+    "type": "mc",
+    "choices": [
+      "8",
+      "-1",
+      "6",
+      "-6"
+    ],
+    "answer": 3,
+    "solution": "An ordered pair is written (x, y). The x-coordinate is -6.",
+    "tpl": "graphing:medium:0"
+  },
+  {
+    "q": "In the ordered pair (8, -5), what is the x-coordinate?",
+    "type": "mc",
+    "choices": [
+      "11",
+      "-5",
+      "-8",
+      "8"
+    ],
+    "answer": 3,
+    "solution": "An ordered pair is written (x, y). The x-coordinate is 8.",
+    "tpl": "graphing:medium:0"
+  },
+  {
+    "q": "How far apart are the points (4, 4) and (4, -2)?",
+    "type": "mc",
+    "choices": [
+      "11",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 1,
+    "solution": "They share the same x, so count along the vertical line: |4 − -2| = 6 units.",
+    "tpl": "graphing:medium:5"
+  },
+  {
+    "q": "Starting at the origin (0, 0), how do you reach the point (2, 6)?",
+    "type": "mc",
+    "choices": [
+      "Left 2, up 6",
+      "Right 2, down 6",
+      "Up 2, right 6",
+      "Right 2, up 6"
+    ],
+    "answer": 3,
+    "solution": "The first number moves you right 2 (along x). The second moves you up 6 (along y).",
+    "tpl": "graphing:medium:3"
+  },
+  {
+    "q": "How far apart are the points (-5, 6) and (-5, 1)?",
+    "type": "mc",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "answer": 3,
+    "solution": "They share the same x, so count along the vertical line: |6 − 1| = 5 units.",
+    "tpl": "graphing:medium:5"
+  },
+  {
+    "q": "The point (0, 5) lies on which axis?",
+    "type": "mc",
+    "choices": [
+      "Neither axis",
+      "x-axis",
+      "Both axes (the origin)",
+      "y-axis"
+    ],
+    "answer": 3,
+    "solution": "A point with x = 0 lies on the y-axis.",
+    "tpl": "graphing:medium:2"
+  },
+  {
+    "q": "In which quadrant is the point (8, -7)?",
+    "type": "mc",
+    "choices": [
       "Quadrant II",
       "Quadrant III",
+      "Quadrant I",
       "Quadrant IV"
     ],
     "answer": 3,
-    "solution": "x +, y − → Quadrant IV."
+    "solution": "x is positive and y is negative, so the point is in Quadrant IV.",
+    "tpl": "graphing:medium:1"
   },
   {
-    "q": "Which quadrant is (-1, 3) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant II",
-      "Quadrant IV",
-      "Quadrant III",
-      "Quadrant I"
-    ],
-    "answer": 0,
-    "solution": "x −, y + → Quadrant II."
-  },
-  {
-    "q": "A taxi costs $6 plus $2 per mile. How much for a 7-mile trip?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "2×7 = 14, + $6 = $20."
-  },
-  {
-    "q": "Which quadrant is (6, 3) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant I",
-      "Quadrant IV",
-      "Quadrant II",
-      "Quadrant III"
-    ],
-    "answer": 0,
-    "solution": "x +, y + → Quadrant I."
-  },
-  {
-    "q": "Which quadrant is (5, 1) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant III",
-      "Quadrant II",
-      "Quadrant IV",
-      "Quadrant I"
-    ],
-    "answer": 3,
-    "solution": "x +, y + → Quadrant I."
-  },
-  {
-    "q": "A taxi costs $6 plus $3 per mile. How much for a 9-mile trip?",
-    "type": "typed",
-    "accept": [
-      "33"
-    ],
-    "solution": "3×9 = 27, + $6 = $33."
-  },
-  {
-    "q": "Maya buys 6 packs of 12 markers, then gives away 9. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "63"
-    ],
-    "solution": "6×12 = 72, − 9 = 63."
-  },
-  {
-    "q": "Maya buys 4 packs of 12 markers, then gives away 10. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "38"
-    ],
-    "solution": "4×12 = 48, − 10 = 38."
-  },
-  {
-    "q": "Which quadrant is (1, -1) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant I",
-      "Quadrant IV",
-      "Quadrant II",
-      "Quadrant III"
-    ],
-    "answer": 1,
-    "solution": "x +, y − → Quadrant IV."
-  },
-  {
-    "q": "A taxi costs $3 plus $4 per mile. How much for a 6-mile trip?",
-    "type": "typed",
-    "accept": [
-      "27"
-    ],
-    "solution": "4×6 = 24, + $3 = $27."
-  },
-  {
-    "q": "Maya buys 6 packs of 8 markers, then gives away 4. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "44"
-    ],
-    "solution": "6×8 = 48, − 4 = 44."
-  },
-  {
-    "q": "A taxi costs $6 plus $3 per mile. How much for a 5-mile trip?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "3×5 = 15, + $6 = $21."
-  },
-  {
-    "q": "A taxi costs $5 plus $3 per mile. How much for a 7-mile trip?",
-    "type": "typed",
-    "accept": [
-      "26"
-    ],
-    "solution": "3×7 = 21, + $5 = $26."
-  },
-  {
-    "q": "A taxi costs $5 plus $3 per mile. How much for a 5-mile trip?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "3×5 = 15, + $5 = $20."
-  },
-  {
-    "q": "A taxi costs $6 plus $4 per mile. How much for a 5-mile trip?",
-    "type": "typed",
-    "accept": [
-      "26"
-    ],
-    "solution": "4×5 = 20, + $6 = $26."
-  },
-  {
-    "q": "Which quadrant is (-3, 2) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant I",
-      "Quadrant III",
-      "Quadrant IV",
-      "Quadrant II"
-    ],
-    "answer": 3,
-    "solution": "x −, y + → Quadrant II."
-  },
-  {
-    "q": "Maya buys 5 packs of 12 markers, then gives away 6. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "54"
-    ],
-    "solution": "5×12 = 60, − 6 = 54."
-  },
-  {
-    "q": "Maya buys 4 packs of 6 markers, then gives away 11. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "4×6 = 24, − 11 = 13."
-  },
-  {
-    "q": "A taxi costs $2 plus $3 per mile. How much for a 7-mile trip?",
-    "type": "typed",
-    "accept": [
-      "23"
-    ],
-    "solution": "3×7 = 21, + $2 = $23."
-  },
-  {
-    "q": "Maya buys 4 packs of 12 markers, then gives away 9. How many does she have now?",
+    "q": "Two consecutive integers add up to 79. What is the smaller integer?",
     "type": "typed",
     "accept": [
       "39"
     ],
-    "solution": "4×12 = 48, − 9 = 39."
+    "solution": "Let them be n and n+1. n + (n+1) = 79, so 2n + 1 = 79, 2n = 78, n = 39.",
+    "tpl": "graphing:medium:11"
   },
   {
-    "q": "Which quadrant is (2, 1) in?",
+    "q": "Reflect the point (8, -4) over the x-axis. What are its new coordinates?",
     "type": "mc",
     "choices": [
-      "Quadrant III",
-      "Quadrant II",
-      "Quadrant I",
-      "Quadrant IV"
+      "(8, 4)",
+      "(-8, -4)",
+      "(-8, 4)",
+      "(-4, 8)"
     ],
-    "answer": 2,
-    "solution": "x +, y + → Quadrant I."
+    "answer": 0,
+    "solution": "Reflecting over the x-axis keeps x the same and flips the sign of y: (8, 4).",
+    "tpl": "graphing:medium:6"
   },
   {
-    "q": "A taxi costs $2 plus $2 per mile. How much for a 8-mile trip?",
+    "q": "Maria had 25 stickers and gave away 6. How many stickers does she have left?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "25 − 6 = 19 stickers.",
+    "tpl": "graphing:medium:9"
+  },
+  {
+    "q": "Reflect the point (7, 1) over the x-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(-7, 1)",
+      "(7, -1)",
+      "(1, 7)",
+      "(-7, -1)"
+    ],
+    "answer": 1,
+    "solution": "Reflecting over the x-axis keeps x the same and flips the sign of y: (7, -1).",
+    "tpl": "graphing:medium:6"
+  },
+  {
+    "q": "How far apart are the points (3, -4) and (-7, -4)?",
+    "type": "mc",
+    "choices": [
+      "11",
+      "12",
+      "10",
+      "9"
+    ],
+    "answer": 2,
+    "solution": "They share the same y, so count along the horizontal line: |3 − -7| = 10 units.",
+    "tpl": "graphing:medium:4"
+  },
+  {
+    "q": "Reflect the point (4, -7) over the y-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(-4, 7)",
+      "(4, 7)",
+      "(-4, -7)",
+      "(-7, 4)"
+    ],
+    "answer": 2,
+    "solution": "Reflecting over the y-axis keeps y the same and flips the sign of x: (-4, -7).",
+    "tpl": "graphing:medium:7"
+  },
+  {
+    "q": "In which quadrant is the point (6, 4)?",
+    "type": "mc",
+    "choices": [
+      "Quadrant II",
+      "Quadrant I",
+      "Quadrant IV",
+      "Quadrant III"
+    ],
+    "answer": 1,
+    "solution": "x is positive and y is positive, so the point is in Quadrant I.",
+    "tpl": "graphing:medium:1"
+  },
+  {
+    "q": "Starting at the origin (0, 0), how do you reach the point (1, 3)?",
+    "type": "mc",
+    "choices": [
+      "Right 1, down 3",
+      "Left 1, up 3",
+      "Right 1, up 3",
+      "Up 1, right 3"
+    ],
+    "answer": 2,
+    "solution": "The first number moves you right 1 (along x). The second moves you up 3 (along y).",
+    "tpl": "graphing:medium:3"
+  },
+  {
+    "q": "The point (6, 0) lies on which axis?",
+    "type": "mc",
+    "choices": [
+      "Neither axis",
+      "Both axes (the origin)",
+      "y-axis",
+      "x-axis"
+    ],
+    "answer": 3,
+    "solution": "A point with y = 0 lies on the x-axis.",
+    "tpl": "graphing:medium:2"
+  },
+  {
+    "q": "A rectangle is 10 cm long and 4 cm wide. What is its perimeter in cm?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Perimeter = 2(L + W) = 2(10 + 4) = 2(14) = 28 cm.",
+    "tpl": "graphing:medium:10"
+  },
+  {
+    "q": "The point (2, 0) lies on which axis?",
+    "type": "mc",
+    "choices": [
+      "Neither axis",
+      "y-axis",
+      "Both axes (the origin)",
+      "x-axis"
+    ],
+    "answer": 3,
+    "solution": "A point with y = 0 lies on the x-axis.",
+    "tpl": "graphing:medium:2"
+  },
+  {
+    "q": "A number increased by 3 gives 25. What is the number?",
+    "type": "typed",
+    "accept": [
+      "22"
+    ],
+    "solution": "Let the number be n. n + 3 = 25, so n = 25 − 3 = 22.",
+    "tpl": "graphing:medium:8"
+  },
+  {
+    "q": "Reflect the point (3, -4) over the y-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(-3, -4)",
+      "(-3, 4)",
+      "(3, 4)",
+      "(-4, 3)"
+    ],
+    "answer": 0,
+    "solution": "Reflecting over the y-axis keeps y the same and flips the sign of x: (-3, -4).",
+    "tpl": "graphing:medium:7"
+  },
+  {
+    "q": "Two consecutive integers add up to 61. What is the smaller integer?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Let them be n and n+1. n + (n+1) = 61, so 2n + 1 = 61, 2n = 60, n = 30.",
+    "tpl": "graphing:medium:11"
+  },
+  {
+    "q": "Two consecutive integers add up to 55. What is the smaller integer?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Let them be n and n+1. n + (n+1) = 55, so 2n + 1 = 55, 2n = 54, n = 27.",
+    "tpl": "graphing:medium:11"
+  },
+  {
+    "q": "How far apart are the points (1, 6) and (7, 6)?",
+    "type": "mc",
+    "choices": [
+      "6",
+      "7",
+      "11",
+      "5"
+    ],
+    "answer": 0,
+    "solution": "They share the same y, so count along the horizontal line: |1 − 7| = 6 units.",
+    "tpl": "graphing:medium:4"
+  },
+  {
+    "q": "A number increased by 4 gives 30. What is the number?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "Let the number be n. n + 4 = 30, so n = 30 − 4 = 26.",
+    "tpl": "graphing:medium:8"
+  },
+  {
+    "q": "Reflect the point (8, -3) over the y-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(-3, 8)",
+      "(8, 3)",
+      "(-8, -3)",
+      "(-8, 3)"
+    ],
+    "answer": 2,
+    "solution": "Reflecting over the y-axis keeps y the same and flips the sign of x: (-8, -3).",
+    "tpl": "graphing:medium:7"
+  },
+  {
+    "q": "Starting at the origin (0, 0), how do you reach the point (3, 6)?",
+    "type": "mc",
+    "choices": [
+      "Up 3, right 6",
+      "Left 3, up 6",
+      "Right 3, up 6",
+      "Right 3, down 6"
+    ],
+    "answer": 2,
+    "solution": "The first number moves you right 3 (along x). The second moves you up 6 (along y).",
+    "tpl": "graphing:medium:3"
+  },
+  {
+    "q": "Two consecutive integers add up to 23. What is the smaller integer?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Let them be n and n+1. n + (n+1) = 23, so 2n + 1 = 23, 2n = 22, n = 11.",
+    "tpl": "graphing:medium:11"
+  },
+  {
+    "q": "The point (7, 0) lies on which axis?",
+    "type": "mc",
+    "choices": [
+      "Neither axis",
+      "Both axes (the origin)",
+      "x-axis",
+      "y-axis"
+    ],
+    "answer": 2,
+    "solution": "A point with y = 0 lies on the x-axis.",
+    "tpl": "graphing:medium:2"
+  },
+  {
+    "q": "How far apart are the points (-6, -7) and (-6, 5)?",
+    "type": "mc",
+    "choices": [
+      "14",
+      "12",
+      "13",
+      "10"
+    ],
+    "answer": 1,
+    "solution": "They share the same x, so count along the vertical line: |-7 − 5| = 12 units.",
+    "tpl": "graphing:medium:5"
+  },
+  {
+    "q": "How far apart are the points (3, 3) and (3, -7)?",
+    "type": "mc",
+    "choices": [
+      "11",
+      "12",
+      "10",
+      "5"
+    ],
+    "answer": 2,
+    "solution": "They share the same x, so count along the vertical line: |3 − -7| = 10 units.",
+    "tpl": "graphing:medium:5"
+  },
+  {
+    "q": "A number increased by 3 gives 9. What is the number?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Let the number be n. n + 3 = 9, so n = 9 − 3 = 6.",
+    "tpl": "graphing:medium:8"
+  },
+  {
+    "q": "Starting at the origin (0, 0), how do you reach the point (4, 7)?",
+    "type": "mc",
+    "choices": [
+      "Right 4, up 7",
+      "Up 4, right 7",
+      "Left 4, up 7",
+      "Right 4, down 7"
+    ],
+    "answer": 0,
+    "solution": "The first number moves you right 4 (along x). The second moves you up 7 (along y).",
+    "tpl": "graphing:medium:3"
+  },
+  {
+    "q": "Two consecutive integers add up to 69. What is the smaller integer?",
+    "type": "typed",
+    "accept": [
+      "34"
+    ],
+    "solution": "Let them be n and n+1. n + (n+1) = 69, so 2n + 1 = 69, 2n = 68, n = 34.",
+    "tpl": "graphing:medium:11"
+  },
+  {
+    "q": "Reflect the point (3, 2) over the x-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(-3, 2)",
+      "(-3, -2)",
+      "(2, 3)",
+      "(3, -2)"
+    ],
+    "answer": 3,
+    "solution": "Reflecting over the x-axis keeps x the same and flips the sign of y: (3, -2).",
+    "tpl": "graphing:medium:6"
+  },
+  {
+    "q": "Maria had 22 stickers and gave away 9. How many stickers does she have left?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "22 − 9 = 13 stickers.",
+    "tpl": "graphing:medium:9"
+  },
+  {
+    "q": "Starting at the origin (0, 0), how do you reach the point (1, 6)?",
+    "type": "mc",
+    "choices": [
+      "Up 1, right 6",
+      "Right 1, up 6",
+      "Right 1, down 6",
+      "Left 1, up 6"
+    ],
+    "answer": 1,
+    "solution": "The first number moves you right 1 (along x). The second moves you up 6 (along y).",
+    "tpl": "graphing:medium:3"
+  },
+  {
+    "q": "Reflect the point (-3, 8) over the x-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(3, 8)",
+      "(-3, -8)",
+      "(8, -3)",
+      "(3, -8)"
+    ],
+    "answer": 1,
+    "solution": "Reflecting over the x-axis keeps x the same and flips the sign of y: (-3, -8).",
+    "tpl": "graphing:medium:6"
+  },
+  {
+    "q": "How far apart are the points (-5, -1) and (2, -1)?",
+    "type": "mc",
+    "choices": [
+      "6",
+      "8",
+      "9",
+      "7"
+    ],
+    "answer": 3,
+    "solution": "They share the same y, so count along the horizontal line: |-5 − 2| = 7 units.",
+    "tpl": "graphing:medium:4"
+  },
+  {
+    "q": "A number increased by 7 gives 28. What is the number?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Let the number be n. n + 7 = 28, so n = 28 − 7 = 21.",
+    "tpl": "graphing:medium:8"
+  },
+  {
+    "q": "How far apart are the points (5, -2) and (5, -3)?",
+    "type": "mc",
+    "choices": [
+      "3",
+      "1",
+      "2",
+      "5"
+    ],
+    "answer": 1,
+    "solution": "They share the same x, so count along the vertical line: |-2 − -3| = 1 units.",
+    "tpl": "graphing:medium:5"
+  },
+  {
+    "q": "Reflect the point (2, -5) over the y-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(-5, 2)",
+      "(-2, 5)",
+      "(2, 5)",
+      "(-2, -5)"
+    ],
+    "answer": 3,
+    "solution": "Reflecting over the y-axis keeps y the same and flips the sign of x: (-2, -5).",
+    "tpl": "graphing:medium:7"
+  },
+  {
+    "q": "A rectangle is 10 cm long and 7 cm wide. What is its perimeter in cm?",
+    "type": "typed",
+    "accept": [
+      "34"
+    ],
+    "solution": "Perimeter = 2(L + W) = 2(10 + 7) = 2(17) = 34 cm.",
+    "tpl": "graphing:medium:10"
+  },
+  {
+    "q": "In the ordered pair (-5, -2), what is the x-coordinate?",
+    "type": "mc",
+    "choices": [
+      "-2",
+      "-7",
+      "-5",
+      "5"
+    ],
+    "answer": 2,
+    "solution": "An ordered pair is written (x, y). The x-coordinate is -5.",
+    "tpl": "graphing:medium:0"
+  },
+  {
+    "q": "In which quadrant is the point (6, -6)?",
+    "type": "mc",
+    "choices": [
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV",
+      "Quadrant I"
+    ],
+    "answer": 2,
+    "solution": "x is positive and y is negative, so the point is in Quadrant IV.",
+    "tpl": "graphing:medium:1"
+  },
+  {
+    "q": "Reflect the point (-6, 5) over the x-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(6, 5)",
+      "(5, -6)",
+      "(-6, -5)",
+      "(6, -5)"
+    ],
+    "answer": 2,
+    "solution": "Reflecting over the x-axis keeps x the same and flips the sign of y: (-6, -5).",
+    "tpl": "graphing:medium:6"
+  },
+  {
+    "q": "Reflect the point (1, 3) over the y-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(3, 1)",
+      "(1, -3)",
+      "(-1, -3)",
+      "(-1, 3)"
+    ],
+    "answer": 3,
+    "solution": "Reflecting over the y-axis keeps y the same and flips the sign of x: (-1, 3).",
+    "tpl": "graphing:medium:7"
+  },
+  {
+    "q": "Two consecutive integers add up to 75. What is the smaller integer?",
+    "type": "typed",
+    "accept": [
+      "37"
+    ],
+    "solution": "Let them be n and n+1. n + (n+1) = 75, so 2n + 1 = 75, 2n = 74, n = 37.",
+    "tpl": "graphing:medium:11"
+  },
+  {
+    "q": "A rectangle is 7 cm long and 5 cm wide. What is its perimeter in cm?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Perimeter = 2(L + W) = 2(7 + 5) = 2(12) = 24 cm.",
+    "tpl": "graphing:medium:10"
+  },
+  {
+    "q": "Reflect the point (7, 1) over the y-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(1, 7)",
+      "(-7, -1)",
+      "(-7, 1)",
+      "(7, -1)"
+    ],
+    "answer": 2,
+    "solution": "Reflecting over the y-axis keeps y the same and flips the sign of x: (-7, 1).",
+    "tpl": "graphing:medium:7"
+  },
+  {
+    "q": "Maria had 29 stickers and gave away 13. How many stickers does she have left?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "29 − 13 = 16 stickers.",
+    "tpl": "graphing:medium:9"
+  },
+  {
+    "q": "The point (-4, 0) lies on which axis?",
+    "type": "mc",
+    "choices": [
+      "Both axes (the origin)",
+      "x-axis",
+      "y-axis",
+      "Neither axis"
+    ],
+    "answer": 1,
+    "solution": "A point with y = 0 lies on the x-axis.",
+    "tpl": "graphing:medium:2"
+  },
+  {
+    "q": "Maria had 34 stickers and gave away 21. How many stickers does she have left?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "34 − 21 = 13 stickers.",
+    "tpl": "graphing:medium:9"
+  },
+  {
+    "q": "Reflect the point (-4, 2) over the x-axis. What are its new coordinates?",
+    "type": "mc",
+    "choices": [
+      "(4, -2)",
+      "(2, -4)",
+      "(-4, -2)",
+      "(4, 2)"
+    ],
+    "answer": 2,
+    "solution": "Reflecting over the x-axis keeps x the same and flips the sign of y: (-4, -2).",
+    "tpl": "graphing:medium:6"
+  },
+  {
+    "q": "In the ordered pair (-4, 8), what is the y-coordinate?",
+    "type": "mc",
+    "choices": [
+      "8",
+      "-4",
+      "9",
+      "-8"
+    ],
+    "answer": 0,
+    "solution": "An ordered pair is written (x, y). The y-coordinate is 8.",
+    "tpl": "graphing:medium:0"
+  },
+  {
+    "q": "The point (8, 0) lies on which axis?",
+    "type": "mc",
+    "choices": [
+      "Both axes (the origin)",
+      "Neither axis",
+      "x-axis",
+      "y-axis"
+    ],
+    "answer": 2,
+    "solution": "A point with y = 0 lies on the x-axis.",
+    "tpl": "graphing:medium:2"
+  },
+  {
+    "q": "Maria had 36 stickers and gave away 18. How many stickers does she have left?",
     "type": "typed",
     "accept": [
       "18"
     ],
-    "solution": "2×8 = 16, + $2 = $18."
+    "solution": "36 − 18 = 18 stickers.",
+    "tpl": "graphing:medium:9"
   },
   {
-    "q": "Maya buys 5 packs of 10 markers, then gives away 9. How many does she have now?",
+    "q": "A rectangle is 10 cm long and 6 cm wide. What is its perimeter in cm?",
     "type": "typed",
     "accept": [
-      "41"
+      "32"
     ],
-    "solution": "5×10 = 50, − 9 = 41."
+    "solution": "Perimeter = 2(L + W) = 2(10 + 6) = 2(16) = 32 cm.",
+    "tpl": "graphing:medium:10"
   },
   {
-    "q": "Which quadrant is (5, 3) in?",
+    "q": "How far apart are the points (3, 3) and (3, -1)?",
     "type": "mc",
     "choices": [
-      "Quadrant III",
-      "Quadrant I",
-      "Quadrant IV",
-      "Quadrant II"
-    ],
-    "answer": 1,
-    "solution": "x +, y + → Quadrant I."
-  },
-  {
-    "q": "Which quadrant is (1, -2) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant I",
-      "Quadrant II",
-      "Quadrant III",
-      "Quadrant IV"
-    ],
-    "answer": 3,
-    "solution": "x +, y − → Quadrant IV."
-  },
-  {
-    "q": "Maya buys 7 packs of 8 markers, then gives away 10. How many does she have now?",
-    "type": "typed",
-    "accept": [
-      "46"
-    ],
-    "solution": "7×8 = 56, − 10 = 46."
-  },
-  {
-    "q": "Which quadrant is (2, -4) in?",
-    "type": "mc",
-    "choices": [
-      "Quadrant IV",
-      "Quadrant I",
-      "Quadrant III",
-      "Quadrant II"
+      "4",
+      "6",
+      "5",
+      "-6"
     ],
     "answer": 0,
-    "solution": "x +, y − → Quadrant IV."
+    "solution": "They share the same x, so count along the vertical line: |3 − -1| = 4 units.",
+    "tpl": "graphing:medium:5"
   },
   {
-    "q": "Maya buys 5 packs of 12 markers, then gives away 5. How many does she have now?",
+    "q": "In the ordered pair (-1, 8), what is the y-coordinate?",
+    "type": "mc",
+    "choices": [
+      "-1",
+      "3",
+      "-8",
+      "8"
+    ],
+    "answer": 3,
+    "solution": "An ordered pair is written (x, y). The y-coordinate is 8.",
+    "tpl": "graphing:medium:0"
+  },
+  {
+    "q": "How far apart are the points (-4, -1) and (3, -1)?",
+    "type": "mc",
+    "choices": [
+      "6",
+      "8",
+      "7",
+      "4"
+    ],
+    "answer": 2,
+    "solution": "They share the same y, so count along the horizontal line: |-4 − 3| = 7 units.",
+    "tpl": "graphing:medium:4"
+  },
+  {
+    "q": "Maria had 35 stickers and gave away 9. How many stickers does she have left?",
     "type": "typed",
     "accept": [
-      "55"
+      "26"
     ],
-    "solution": "5×12 = 60, − 5 = 55."
+    "solution": "35 − 9 = 26 stickers.",
+    "tpl": "graphing:medium:9"
+  },
+  {
+    "q": "In which quadrant is the point (3, -3)?",
+    "type": "mc",
+    "choices": [
+      "Quadrant IV",
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III"
+    ],
+    "answer": 0,
+    "solution": "x is positive and y is negative, so the point is in Quadrant IV.",
+    "tpl": "graphing:medium:1"
+  },
+  {
+    "q": "How far apart are the points (5, -3) and (4, -3)?",
+    "type": "mc",
+    "choices": [
+      "2",
+      "1",
+      "5",
+      "3"
+    ],
+    "answer": 1,
+    "solution": "They share the same y, so count along the horizontal line: |5 − 4| = 1 units.",
+    "tpl": "graphing:medium:4"
+  },
+  {
+    "q": "Starting at the origin (0, 0), how do you reach the point (3, 5)?",
+    "type": "mc",
+    "choices": [
+      "Up 3, right 5",
+      "Left 3, up 5",
+      "Right 3, down 5",
+      "Right 3, up 5"
+    ],
+    "answer": 3,
+    "solution": "The first number moves you right 3 (along x). The second moves you up 5 (along y).",
+    "tpl": "graphing:medium:3"
+  },
+  {
+    "q": "A rectangle is 12 cm long and 3 cm wide. What is its perimeter in cm?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Perimeter = 2(L + W) = 2(12 + 3) = 2(15) = 30 cm.",
+    "tpl": "graphing:medium:10"
+  },
+  {
+    "q": "In the ordered pair (5, -1), what is the x-coordinate?",
+    "type": "mc",
+    "choices": [
+      "5",
+      "-1",
+      "-5",
+      "4"
+    ],
+    "answer": 0,
+    "solution": "An ordered pair is written (x, y). The x-coordinate is 5.",
+    "tpl": "graphing:medium:0"
+  },
+  {
+    "q": "In which quadrant is the point (-6, 7)?",
+    "type": "mc",
+    "choices": [
+      "Quadrant III",
+      "Quadrant I",
+      "Quadrant IV",
+      "Quadrant II"
+    ],
+    "answer": 3,
+    "solution": "x is negative and y is positive, so the point is in Quadrant II.",
+    "tpl": "graphing:medium:1"
+  },
+  {
+    "q": "A number increased by 2 gives 16. What is the number?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Let the number be n. n + 2 = 16, so n = 16 − 2 = 14.",
+    "tpl": "graphing:medium:8"
   }
 ]

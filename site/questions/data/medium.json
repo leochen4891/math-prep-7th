@@ -1,482 +1,732 @@
 [
   {
-    "q": "Find the range of 2, 13, 11, 19.",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Range = largest − smallest = 19 − 2 = 17."
-  },
-  {
-    "q": "Find the range of 19, 20, 17, 8.",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Range = largest − smallest = 20 − 8 = 12."
-  },
-  {
-    "q": "Find the mean (average) of 4, 9, 3, 5.",
-    "type": "typed",
-    "accept": [
-      "5.25"
-    ],
-    "solution": "Add them: 4 + 9 + 3 + 5 = 21, then divide by 4: 21 ÷ 4 = 5.25."
-  },
-  {
-    "q": "Find the median of 1, 5, 7, 9, 9.",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Put them in order, then take the middle value: 7."
-  },
-  {
-    "q": "Find the mean (average) of 6, 8, 7, 2.",
-    "type": "typed",
-    "accept": [
-      "5.75"
-    ],
-    "solution": "Add them: 6 + 8 + 7 + 2 = 23, then divide by 4: 23 ÷ 4 = 5.75."
-  },
-  {
-    "q": "Find the range of 8, 14, 20, 10.",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Range = largest − smallest = 20 − 8 = 12."
-  },
-  {
-    "q": "Find the range of 13, 16, 20, 18.",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Range = largest − smallest = 20 − 13 = 7."
-  },
-  {
-    "q": "Find the range of 10, 12, 2, 20.",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Range = largest − smallest = 20 − 2 = 18."
-  },
-  {
-    "q": "Find the range of 20, 2, 18, 11.",
-    "type": "typed",
-    "accept": [
-      "18"
-    ],
-    "solution": "Range = largest − smallest = 20 − 2 = 18."
-  },
-  {
-    "q": "Find the range of 15, 13, 8, 6.",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Range = largest − smallest = 15 − 6 = 9."
-  },
-  {
-    "q": "Find the median of 1, 4, 4, 6, 7.",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Put them in order, then take the middle value: 4."
-  },
-  {
-    "q": "Find the range of 14, 10, 16, 11.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Range = largest − smallest = 16 − 10 = 6."
-  },
-  {
-    "q": "Find the mean (average) of 8, 8, 9, 3.",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Add them: 8 + 8 + 9 + 3 = 28, then divide by 4: 28 ÷ 4 = 7."
-  },
-  {
-    "q": "Find the mean (average) of 5, 2, 3, 9.",
-    "type": "typed",
-    "accept": [
-      "4.75"
-    ],
-    "solution": "Add them: 5 + 2 + 3 + 9 = 19, then divide by 4: 19 ÷ 4 = 4.75."
-  },
-  {
-    "q": "Find the mean (average) of 4, 7, 7, 8.",
-    "type": "typed",
-    "accept": [
-      "6.5"
-    ],
-    "solution": "Add them: 4 + 7 + 7 + 8 = 26, then divide by 4: 26 ÷ 4 = 6.5."
-  },
-  {
-    "q": "Find the range of 11, 10, 14, 14.",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Range = largest − smallest = 14 − 10 = 4."
-  },
-  {
-    "q": "Find the mean (average) of 8, 2, 5, 2.",
-    "type": "typed",
-    "accept": [
-      "4.25"
-    ],
-    "solution": "Add them: 8 + 2 + 5 + 2 = 17, then divide by 4: 17 ÷ 4 = 4.25."
-  },
-  {
-    "q": "Find the median of 1, 1, 5, 5, 9.",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Put them in order, then take the middle value: 5."
-  },
-  {
-    "q": "Find the median of 2, 3, 4, 6, 8.",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Put them in order, then take the middle value: 4."
-  },
-  {
-    "q": "Find the range of 18, 18, 7, 20.",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "Range = largest − smallest = 20 − 7 = 13."
-  },
-  {
-    "q": "Find the mean (average) of 8, 5, 5, 6.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Add them: 8 + 5 + 5 + 6 = 24, then divide by 4: 24 ÷ 4 = 6."
-  },
-  {
-    "q": "Find the range of 13, 1, 8, 18.",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Range = largest − smallest = 18 − 1 = 17."
-  },
-  {
-    "q": "Find the median of 1, 4, 5, 7, 9.",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Put them in order, then take the middle value: 5."
-  },
-  {
-    "q": "Find the mean (average) of 6, 8, 5, 9.",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Add them: 6 + 8 + 5 + 9 = 28, then divide by 4: 28 ÷ 4 = 7."
-  },
-  {
-    "q": "Find the median of 1, 2, 2, 5, 6.",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Put them in order, then take the middle value: 2."
-  },
-  {
-    "q": "Find the range of 1, 9, 17, 3.",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Range = largest − smallest = 17 − 1 = 16."
-  },
-  {
-    "q": "Find the mean (average) of 7, 9, 2, 6.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Add them: 7 + 9 + 2 + 6 = 24, then divide by 4: 24 ÷ 4 = 6."
-  },
-  {
-    "q": "Find the mean (average) of 3, 7, 5, 3.",
-    "type": "typed",
-    "accept": [
-      "4.5"
-    ],
-    "solution": "Add them: 3 + 7 + 5 + 3 = 18, then divide by 4: 18 ÷ 4 = 4.5."
-  },
-  {
-    "q": "Find the mean (average) of 8, 4, 7, 5.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Add them: 8 + 4 + 7 + 5 = 24, then divide by 4: 24 ÷ 4 = 6."
-  },
-  {
-    "q": "Find the mean (average) of 9, 3, 3, 9.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Add them: 9 + 3 + 3 + 9 = 24, then divide by 4: 24 ÷ 4 = 6."
-  },
-  {
-    "q": "Find the range of 20, 11, 10, 4.",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Range = largest − smallest = 20 − 4 = 16."
-  },
-  {
-    "q": "Find the median of 2, 2, 3, 4, 6.",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Put them in order, then take the middle value: 3."
-  },
-  {
-    "q": "Find the median of 1, 3, 5, 8, 9.",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Put them in order, then take the middle value: 5."
-  },
-  {
-    "q": "Find the median of 1, 3, 8, 8, 9.",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Put them in order, then take the middle value: 8."
-  },
-  {
-    "q": "Find the range of 11, 19, 16, 5.",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Range = largest − smallest = 19 − 5 = 14."
-  },
-  {
-    "q": "Find the median of 2, 3, 4, 7, 8.",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Put them in order, then take the middle value: 4."
-  },
-  {
-    "q": "Find the mean (average) of 3, 4, 2, 5.",
-    "type": "typed",
-    "accept": [
-      "3.5"
-    ],
-    "solution": "Add them: 3 + 4 + 2 + 5 = 14, then divide by 4: 14 ÷ 4 = 3.5."
-  },
-  {
-    "q": "Find the median of 3, 5, 6, 6, 9.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Put them in order, then take the middle value: 6."
-  },
-  {
-    "q": "Find the mean (average) of 8, 2, 2, 5.",
-    "type": "typed",
-    "accept": [
-      "4.25"
-    ],
-    "solution": "Add them: 8 + 2 + 2 + 5 = 17, then divide by 4: 17 ÷ 4 = 4.25."
-  },
-  {
-    "q": "Find the mean (average) of 9, 9, 7, 5.",
-    "type": "typed",
-    "accept": [
-      "7.5"
-    ],
-    "solution": "Add them: 9 + 9 + 7 + 5 = 30, then divide by 4: 30 ÷ 4 = 7.5."
-  },
-  {
-    "q": "Find the range of 8, 4, 17, 5.",
-    "type": "typed",
-    "accept": [
-      "13"
-    ],
-    "solution": "Range = largest − smallest = 17 − 4 = 13."
-  },
-  {
-    "q": "Find the mean (average) of 3, 7, 3, 6.",
-    "type": "typed",
-    "accept": [
-      "4.75"
-    ],
-    "solution": "Add them: 3 + 7 + 3 + 6 = 19, then divide by 4: 19 ÷ 4 = 4.75."
-  },
-  {
-    "q": "Find the median of 4, 4, 4, 6, 9.",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Put them in order, then take the middle value: 4."
-  },
-  {
-    "q": "Find the range of 8, 9, 18, 14.",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Range = largest − smallest = 18 − 8 = 10."
-  },
-  {
-    "q": "Find the range of 19, 20, 10, 8.",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Range = largest − smallest = 20 − 8 = 12."
-  },
-  {
-    "q": "Find the median of 2, 3, 8, 8, 9.",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Put them in order, then take the middle value: 8."
-  },
-  {
-    "q": "Find the median of 5, 5, 6, 7, 8.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Put them in order, then take the middle value: 6."
-  },
-  {
-    "q": "Find the median of 4, 5, 8, 8, 9.",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Put them in order, then take the middle value: 8."
-  },
-  {
-    "q": "Find the median of 1, 2, 7, 7, 8.",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Put them in order, then take the middle value: 7."
-  },
-  {
-    "q": "Find the median of 2, 3, 6, 8, 9.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Put them in order, then take the middle value: 6."
-  },
-  {
-    "q": "Find the mean (average) of 5, 7, 2, 5.",
-    "type": "typed",
-    "accept": [
-      "4.75"
-    ],
-    "solution": "Add them: 5 + 7 + 2 + 5 = 19, then divide by 4: 19 ÷ 4 = 4.75."
-  },
-  {
-    "q": "Find the mean (average) of 8, 7, 6, 8.",
+    "q": "Find the mean of this data set:<br>4, 4, 10, 11",
     "type": "typed",
     "accept": [
       "7.25"
     ],
-    "solution": "Add them: 8 + 7 + 6 + 8 = 29, then divide by 4: 29 ÷ 4 = 7.25."
+    "solution": "Mean = sum ÷ count = 29 ÷ 4 = 7.25.",
+    "tpl": "data:medium:11"
   },
   {
-    "q": "Find the range of 7, 4, 5, 6.",
+    "q": "A bag has 4 red marbles and 7 blue marbles. If you draw one marble at random, what is the probability it is red? (give a fraction)",
     "type": "typed",
     "accept": [
-      "3"
+      "4/11"
     ],
-    "solution": "Range = largest − smallest = 7 − 4 = 3."
+    "solution": "P(red) = favorable ÷ total = 4/11.",
+    "tpl": "data:medium:7"
   },
   {
-    "q": "Find the range of 16, 1, 10, 8.",
+    "q": "Find the mode of this data set:<br>15, 2, 10, 7, 2, 2",
     "type": "typed",
     "accept": [
-      "15"
+      "2"
     ],
-    "solution": "Range = largest − smallest = 16 − 1 = 15."
+    "solution": "The mode is the value that appears most often. 2 appears 3 times, more than any other value.",
+    "tpl": "data:medium:2"
   },
   {
-    "q": "Find the median of 2, 5, 7, 9, 9.",
+    "q": "A bag has 2 red marbles and 7 blue marbles. If you draw one marble at random, what is the probability it is red? (give a fraction)",
     "type": "typed",
     "accept": [
-      "7"
+      "2/9"
     ],
-    "solution": "Put them in order, then take the middle value: 7."
+    "solution": "P(red) = favorable ÷ total = 2/9.",
+    "tpl": "data:medium:7"
   },
   {
-    "q": "Find the mean (average) of 3, 5, 6, 4.",
+    "q": "A spinner has 6 equal sections, and 2 of them are green. What is the probability the spinner does NOT land on green? (give a fraction)",
     "type": "typed",
     "accept": [
-      "4.5"
+      "2/3",
+      "4/6"
     ],
-    "solution": "Add them: 3 + 5 + 6 + 4 = 18, then divide by 4: 18 ÷ 4 = 4.5."
+    "solution": "P(not green) = (total − green) ÷ total = 4/6 = 2/3.",
+    "tpl": "data:medium:10"
   },
   {
-    "q": "Find the median of 1, 3, 3, 4, 4.",
+    "q": "Find the median of this data set:<br>10, 8, 14, 25, 8, 27, 7",
     "type": "typed",
     "accept": [
-      "3"
+      "10"
     ],
-    "solution": "Put them in order, then take the middle value: 3."
+    "solution": "Sort: 7, 8, 8, 10, 14, 25, 27. With 7 values, the median is the middle one: 10.",
+    "tpl": "data:medium:1"
   },
   {
-    "q": "Find the median of 1, 1, 3, 3, 5.",
+    "q": "Find the median of this data set:<br>30, 23, 16, 16, 23",
     "type": "typed",
     "accept": [
-      "3"
+      "23"
     ],
-    "solution": "Put them in order, then take the middle value: 3."
+    "solution": "Sort: 16, 16, 23, 23, 30. With 5 values, the median is the middle one: 23.",
+    "tpl": "data:medium:1"
   },
   {
-    "q": "Find the mean (average) of 5, 4, 9, 2.",
+    "q": "A spinner has 10 equal sections, and 4 of them are green. What is the probability the spinner does NOT land on green? (give a fraction)",
     "type": "typed",
     "accept": [
-      "5"
+      "3/5",
+      "6/10"
     ],
-    "solution": "Add them: 5 + 4 + 9 + 2 = 20, then divide by 4: 20 ÷ 4 = 5."
+    "solution": "P(not green) = (total − green) ÷ total = 6/10 = 3/5.",
+    "tpl": "data:medium:10"
   },
   {
-    "q": "Find the range of 13, 4, 15, 13.",
+    "q": "What is the minimum (smallest) value in this data set?<br>41, 13, 31, 29, 22, 2",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Scan the list for the smallest number: 2.",
+    "tpl": "data:medium:5"
+  },
+  {
+    "q": "A spinner has 6 equal sections, and 3 of them are green. What is the probability the spinner does NOT land on green? (give a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/2",
+      "3/6"
+    ],
+    "solution": "P(not green) = (total − green) ÷ total = 3/6 = 1/2.",
+    "tpl": "data:medium:10"
+  },
+  {
+    "q": "What is the mean (average) of 30 and 34?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Mean = (30 + 34) ÷ 2 = 64 ÷ 2 = 32.",
+    "tpl": "data:medium:8"
+  },
+  {
+    "q": "How many times does the number 3 appear in this data set?<br>3, 8, 7, 4, 6, 2, 3, 9",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Count each 3 in the list: it appears 2 times.",
+    "tpl": "data:medium:9"
+  },
+  {
+    "q": "A class of 6 students has a mean test score of 18. What is the total of all their scores?",
+    "type": "typed",
+    "accept": [
+      "108"
+    ],
+    "solution": "Total = mean × count = 18 × 6 = 108.",
+    "tpl": "data:medium:6"
+  },
+  {
+    "q": "What is the mean (average) of 12 and 38?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Mean = (12 + 38) ÷ 2 = 50 ÷ 2 = 25.",
+    "tpl": "data:medium:8"
+  },
+  {
+    "q": "Find the median of this data set:<br>17, 11, 1, 18, 21",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "Sort: 1, 11, 17, 18, 21. With 5 values, the median is the middle one: 17.",
+    "tpl": "data:medium:1"
+  },
+  {
+    "q": "What is the maximum (largest) value in this data set?<br>43, 28, 32, 1, 24, 3",
+    "type": "typed",
+    "accept": [
+      "43"
+    ],
+    "solution": "Scan the list for the biggest number: 43.",
+    "tpl": "data:medium:4"
+  },
+  {
+    "q": "Find the range of this data set:<br>27, 30, 17, 21, 7, 23",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "Range = largest − smallest = 30 − 7 = 23.",
+    "tpl": "data:medium:3"
+  },
+  {
+    "q": "What is the minimum (smallest) value in this data set?<br>36, 50, 36, 30, 2, 49",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Scan the list for the smallest number: 2.",
+    "tpl": "data:medium:5"
+  },
+  {
+    "q": "Find the mean of this data set:<br>12, 8, 10, 9",
+    "type": "typed",
+    "accept": [
+      "9.75"
+    ],
+    "solution": "Mean = sum ÷ count = 39 ÷ 4 = 9.75.",
+    "tpl": "data:medium:11"
+  },
+  {
+    "q": "What is the minimum (smallest) value in this data set?<br>19, 13, 17, 23, 8, 22",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Scan the list for the smallest number: 8.",
+    "tpl": "data:medium:5"
+  },
+  {
+    "q": "Find the mean (average) of this data set:<br>18, 2, 11, 13",
     "type": "typed",
     "accept": [
       "11"
     ],
-    "solution": "Range = largest − smallest = 15 − 4 = 11."
+    "solution": "Mean = sum ÷ count = 44 ÷ 4 = 11.",
+    "tpl": "data:medium:0"
+  },
+  {
+    "q": "What is the maximum (largest) value in this data set?<br>39, 50, 20, 34, 3, 39",
+    "type": "typed",
+    "accept": [
+      "50"
+    ],
+    "solution": "Scan the list for the biggest number: 50.",
+    "tpl": "data:medium:4"
+  },
+  {
+    "q": "Find the range of this data set:<br>30, 17, 4, 36, 8, 23",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Range = largest − smallest = 36 − 4 = 32.",
+    "tpl": "data:medium:3"
+  },
+  {
+    "q": "Which value is the mode of this data set?<br>12, 9, 8, 8, 1, 8",
+    "type": "mc",
+    "choices": [
+      "12",
+      "8",
+      "9",
+      "1"
+    ],
+    "answer": 1,
+    "solution": "The mode is the most frequent value. 8 appears 3 times; the others appear once each.",
+    "tpl": "data:medium:12"
+  },
+  {
+    "q": "What is the minimum (smallest) value in this data set?<br>45, 36, 12, 3, 40, 15",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Scan the list for the smallest number: 3.",
+    "tpl": "data:medium:5"
+  },
+  {
+    "q": "What is the minimum (smallest) value in this data set?<br>32, 17, 42, 28, 8, 7",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Scan the list for the smallest number: 7.",
+    "tpl": "data:medium:5"
+  },
+  {
+    "q": "Find the mean (average) of this data set:<br>8, 16, 8, 24",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Mean = sum ÷ count = 56 ÷ 4 = 14.",
+    "tpl": "data:medium:0"
+  },
+  {
+    "q": "Which value is the mode of this data set?<br>5, 2, 3, 12, 2, 2",
+    "type": "mc",
+    "choices": [
+      "5",
+      "3",
+      "2",
+      "12"
+    ],
+    "answer": 2,
+    "solution": "The mode is the most frequent value. 2 appears 3 times; the others appear once each.",
+    "tpl": "data:medium:12"
+  },
+  {
+    "q": "Find the median of this data set:<br>23, 4, 7, 5, 19",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Sort: 4, 5, 7, 19, 23. With 5 values, the median is the middle one: 7.",
+    "tpl": "data:medium:1"
+  },
+  {
+    "q": "How many times does the number 3 appear in this data set?<br>2, 4, 3, 7, 9, 1, 8, 3",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Count each 3 in the list: it appears 2 times.",
+    "tpl": "data:medium:9"
+  },
+  {
+    "q": "What is the mean (average) of 30 and 22?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "Mean = (30 + 22) ÷ 2 = 52 ÷ 2 = 26.",
+    "tpl": "data:medium:8"
+  },
+  {
+    "q": "Find the mean of this data set:<br>7, 12, 9, 1",
+    "type": "typed",
+    "accept": [
+      "7.25"
+    ],
+    "solution": "Mean = sum ÷ count = 29 ÷ 4 = 7.25.",
+    "tpl": "data:medium:11"
+  },
+  {
+    "q": "What is the mean (average) of 36 and 6?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Mean = (36 + 6) ÷ 2 = 42 ÷ 2 = 21.",
+    "tpl": "data:medium:8"
+  },
+  {
+    "q": "A bag has 1 red marbles and 2 blue marbles. If you draw one marble at random, what is the probability it is red? (give a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/3"
+    ],
+    "solution": "P(red) = favorable ÷ total = 1/3.",
+    "tpl": "data:medium:7"
+  },
+  {
+    "q": "Which value is the mode of this data set?<br>6, 2, 6, 6, 7, 5",
+    "type": "mc",
+    "choices": [
+      "6",
+      "2",
+      "7",
+      "5"
+    ],
+    "answer": 0,
+    "solution": "The mode is the most frequent value. 6 appears 3 times; the others appear once each.",
+    "tpl": "data:medium:12"
+  },
+  {
+    "q": "A class of 5 students has a mean test score of 13. What is the total of all their scores?",
+    "type": "typed",
+    "accept": [
+      "65"
+    ],
+    "solution": "Total = mean × count = 13 × 5 = 65.",
+    "tpl": "data:medium:6"
+  },
+  {
+    "q": "What is the mean (average) of 18 and 32?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "Mean = (18 + 32) ÷ 2 = 50 ÷ 2 = 25.",
+    "tpl": "data:medium:8"
+  },
+  {
+    "q": "What is the maximum (largest) value in this data set?<br>22, 39, 1, 17, 13, 35",
+    "type": "typed",
+    "accept": [
+      "39"
+    ],
+    "solution": "Scan the list for the biggest number: 39.",
+    "tpl": "data:medium:4"
+  },
+  {
+    "q": "Find the median of this data set:<br>9, 25, 17, 10, 8",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Sort: 8, 9, 10, 17, 25. With 5 values, the median is the middle one: 10.",
+    "tpl": "data:medium:1"
+  },
+  {
+    "q": "How many times does the number 2 appear in this data set?<br>2, 5, 2, 6, 7, 8, 8, 2",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Count each 2 in the list: it appears 3 times.",
+    "tpl": "data:medium:9"
+  },
+  {
+    "q": "A bag has 5 red marbles and 5 blue marbles. If you draw one marble at random, what is the probability it is red? (give a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/2",
+      "5/10"
+    ],
+    "solution": "P(red) = favorable ÷ total = 5/10 = 1/2.",
+    "tpl": "data:medium:7"
+  },
+  {
+    "q": "A class of 7 students has a mean test score of 16. What is the total of all their scores?",
+    "type": "typed",
+    "accept": [
+      "112"
+    ],
+    "solution": "Total = mean × count = 16 × 7 = 112.",
+    "tpl": "data:medium:6"
+  },
+  {
+    "q": "A spinner has 7 equal sections, and 3 of them are green. What is the probability the spinner does NOT land on green? (give a fraction)",
+    "type": "typed",
+    "accept": [
+      "4/7"
+    ],
+    "solution": "P(not green) = (total − green) ÷ total = 4/7.",
+    "tpl": "data:medium:10"
+  },
+  {
+    "q": "Find the mode of this data set:<br>9, 13, 9, 2, 9, 3",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "The mode is the value that appears most often. 9 appears 3 times, more than any other value.",
+    "tpl": "data:medium:2"
+  },
+  {
+    "q": "Find the range of this data set:<br>16, 2, 21, 28, 40",
+    "type": "typed",
+    "accept": [
+      "38"
+    ],
+    "solution": "Range = largest − smallest = 40 − 2 = 38.",
+    "tpl": "data:medium:3"
+  },
+  {
+    "q": "Find the mean (average) of this data set:<br>5, 8, 14, 5",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Mean = sum ÷ count = 32 ÷ 4 = 8.",
+    "tpl": "data:medium:0"
+  },
+  {
+    "q": "What is the minimum (smallest) value in this data set?<br>6, 6, 33, 9, 29, 5",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Scan the list for the smallest number: 5.",
+    "tpl": "data:medium:5"
+  },
+  {
+    "q": "Find the mode of this data set:<br>13, 6, 8, 6, 6, 9",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "The mode is the value that appears most often. 6 appears 3 times, more than any other value.",
+    "tpl": "data:medium:2"
+  },
+  {
+    "q": "A class of 7 students has a mean test score of 10. What is the total of all their scores?",
+    "type": "typed",
+    "accept": [
+      "70"
+    ],
+    "solution": "Total = mean × count = 10 × 7 = 70.",
+    "tpl": "data:medium:6"
+  },
+  {
+    "q": "Find the range of this data set:<br>37, 15, 9, 38, 14, 37",
+    "type": "typed",
+    "accept": [
+      "29"
+    ],
+    "solution": "Range = largest − smallest = 38 − 9 = 29.",
+    "tpl": "data:medium:3"
+  },
+  {
+    "q": "Find the mode of this data set:<br>8, 7, 2, 7, 7, 15",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "The mode is the value that appears most often. 7 appears 3 times, more than any other value.",
+    "tpl": "data:medium:2"
+  },
+  {
+    "q": "A class of 5 students has a mean test score of 8. What is the total of all their scores?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Total = mean × count = 8 × 5 = 40.",
+    "tpl": "data:medium:6"
+  },
+  {
+    "q": "How many times does the number 1 appear in this data set?<br>8, 1, 6, 5, 1, 3, 4, 1",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Count each 1 in the list: it appears 3 times.",
+    "tpl": "data:medium:9"
+  },
+  {
+    "q": "Find the mean of this data set:<br>5, 10, 9, 9",
+    "type": "typed",
+    "accept": [
+      "8.25"
+    ],
+    "solution": "Mean = sum ÷ count = 33 ÷ 4 = 8.25.",
+    "tpl": "data:medium:11"
+  },
+  {
+    "q": "Find the mean of this data set:<br>5, 10, 11, 11",
+    "type": "typed",
+    "accept": [
+      "9.25"
+    ],
+    "solution": "Mean = sum ÷ count = 37 ÷ 4 = 9.25.",
+    "tpl": "data:medium:11"
+  },
+  {
+    "q": "What is the maximum (largest) value in this data set?<br>34, 38, 29, 44, 15, 18",
+    "type": "typed",
+    "accept": [
+      "44"
+    ],
+    "solution": "Scan the list for the biggest number: 44.",
+    "tpl": "data:medium:4"
+  },
+  {
+    "q": "Find the mode of this data set:<br>11, 5, 8, 8, 10, 8",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "The mode is the value that appears most often. 8 appears 3 times, more than any other value.",
+    "tpl": "data:medium:2"
+  },
+  {
+    "q": "A bag has 3 red marbles and 5 blue marbles. If you draw one marble at random, what is the probability it is red? (give a fraction)",
+    "type": "typed",
+    "accept": [
+      "3/8"
+    ],
+    "solution": "P(red) = favorable ÷ total = 3/8.",
+    "tpl": "data:medium:7"
+  },
+  {
+    "q": "Find the range of this data set:<br>5, 23, 33, 18, 16",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Range = largest − smallest = 33 − 5 = 28.",
+    "tpl": "data:medium:3"
+  },
+  {
+    "q": "A spinner has 6 equal sections, and 1 of them are green. What is the probability the spinner does NOT land on green? (give a fraction)",
+    "type": "typed",
+    "accept": [
+      "5/6"
+    ],
+    "solution": "P(not green) = (total − green) ÷ total = 5/6.",
+    "tpl": "data:medium:10"
+  },
+  {
+    "q": "Which value is the mode of this data set?<br>6, 9, 6, 10, 4, 6",
+    "type": "mc",
+    "choices": [
+      "4",
+      "10",
+      "9",
+      "6"
+    ],
+    "answer": 3,
+    "solution": "The mode is the most frequent value. 6 appears 3 times; the others appear once each.",
+    "tpl": "data:medium:12"
+  },
+  {
+    "q": "Which value is the mode of this data set?<br>4, 7, 1, 1, 1, 6",
+    "type": "mc",
+    "choices": [
+      "6",
+      "1",
+      "7",
+      "4"
+    ],
+    "answer": 1,
+    "solution": "The mode is the most frequent value. 1 appears 3 times; the others appear once each.",
+    "tpl": "data:medium:12"
+  },
+  {
+    "q": "Find the range of this data set:<br>27, 22, 36, 20, 25",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Range = largest − smallest = 36 − 20 = 16.",
+    "tpl": "data:medium:3"
+  },
+  {
+    "q": "Find the mode of this data set:<br>1, 12, 2, 1, 9, 1",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "The mode is the value that appears most often. 1 appears 3 times, more than any other value.",
+    "tpl": "data:medium:2"
+  },
+  {
+    "q": "Find the mean (average) of this data set:<br>19, 14, 2, 13, 22",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Mean = sum ÷ count = 70 ÷ 5 = 14.",
+    "tpl": "data:medium:0"
+  },
+  {
+    "q": "What is the maximum (largest) value in this data set?<br>23, 26, 12, 34, 34, 13",
+    "type": "typed",
+    "accept": [
+      "34"
+    ],
+    "solution": "Scan the list for the biggest number: 34.",
+    "tpl": "data:medium:4"
+  },
+  {
+    "q": "How many times does the number 6 appear in this data set?<br>6, 4, 4, 4, 6, 6, 6, 4",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Count each 6 in the list: it appears 4 times.",
+    "tpl": "data:medium:9"
+  },
+  {
+    "q": "What is the mean (average) of 26 and 12?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Mean = (26 + 12) ÷ 2 = 38 ÷ 2 = 19.",
+    "tpl": "data:medium:8"
+  },
+  {
+    "q": "A bag has 1 red marbles and 6 blue marbles. If you draw one marble at random, what is the probability it is red? (give a fraction)",
+    "type": "typed",
+    "accept": [
+      "1/7"
+    ],
+    "solution": "P(red) = favorable ÷ total = 1/7.",
+    "tpl": "data:medium:7"
+  },
+  {
+    "q": "How many times does the number 3 appear in this data set?<br>2, 7, 7, 3, 5, 2, 4, 3",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Count each 3 in the list: it appears 2 times.",
+    "tpl": "data:medium:9"
+  },
+  {
+    "q": "Find the mean (average) of this data set:<br>9, 15, 20, 4",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Mean = sum ÷ count = 48 ÷ 4 = 12.",
+    "tpl": "data:medium:0"
+  },
+  {
+    "q": "Which value is the mode of this data set?<br>1, 7, 11, 6, 1, 1",
+    "type": "mc",
+    "choices": [
+      "11",
+      "6",
+      "7",
+      "1"
+    ],
+    "answer": 3,
+    "solution": "The mode is the most frequent value. 1 appears 3 times; the others appear once each.",
+    "tpl": "data:medium:12"
+  },
+  {
+    "q": "Find the mean of this data set:<br>4, 1, 2, 4",
+    "type": "typed",
+    "accept": [
+      "2.75"
+    ],
+    "solution": "Mean = sum ÷ count = 11 ÷ 4 = 2.75.",
+    "tpl": "data:medium:11"
+  },
+  {
+    "q": "Find the mean (average) of this data set:<br>5, 11, 11, 29",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Mean = sum ÷ count = 56 ÷ 4 = 14.",
+    "tpl": "data:medium:0"
+  },
+  {
+    "q": "What is the maximum (largest) value in this data set?<br>32, 47, 30, 13, 26, 42",
+    "type": "typed",
+    "accept": [
+      "47"
+    ],
+    "solution": "Scan the list for the biggest number: 47.",
+    "tpl": "data:medium:4"
+  },
+  {
+    "q": "A spinner has 5 equal sections, and 1 of them are green. What is the probability the spinner does NOT land on green? (give a fraction)",
+    "type": "typed",
+    "accept": [
+      "4/5"
+    ],
+    "solution": "P(not green) = (total − green) ÷ total = 4/5.",
+    "tpl": "data:medium:10"
+  },
+  {
+    "q": "A class of 5 students has a mean test score of 20. What is the total of all their scores?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "Total = mean × count = 20 × 5 = 100.",
+    "tpl": "data:medium:6"
+  },
+  {
+    "q": "Find the median of this data set:<br>29, 23, 13, 12, 1, 12, 7",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Sort: 1, 7, 12, 12, 13, 23, 29. With 7 values, the median is the middle one: 12.",
+    "tpl": "data:medium:1"
   }
 ]

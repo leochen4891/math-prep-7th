@@ -1,492 +1,764 @@
 [
   {
-    "q": "Find the median of 4, 6, 7, 8, 8, 9.",
+    "q": "A data set of 7 numbers has a mean of 8. The value 14 is removed. What is the new mean of the remaining numbers?",
     "type": "typed",
     "accept": [
-      "7.5"
+      "7"
     ],
-    "solution": "With 6 numbers there are two middle ones — average them: (7 + 8) ÷ 2 = 7.5."
+    "solution": "Old total = 8 × 7 = 56. New total = 56 − 14 = 42. New mean = 42 ÷ 6 = 7.",
+    "tpl": "data:hard:4"
   },
   {
-    "q": "Find the median of 1, 1, 3, 5, 6, 9.",
+    "q": "A survey recorded: value 3 (2 times), value 8 (3 times), value 12 (1 times). What is the mean of all the data?",
     "type": "typed",
     "accept": [
-      "4"
+      "7"
     ],
-    "solution": "With 6 numbers there are two middle ones — average them: (3 + 5) ÷ 2 = 4."
+    "solution": "Sum = 3×2 + 8×3 + 12×1 = 42. Count = 6. Mean = 42 ÷ 6 = 7.",
+    "tpl": "data:hard:7"
   },
   {
-    "q": "Find the median of 1, 1, 6, 6, 7, 9.",
+    "q": "A data set of 6 numbers has a mean of 9. The value 14 is removed. What is the new mean of the remaining numbers?",
     "type": "typed",
     "accept": [
-      "6"
+      "8"
     ],
-    "solution": "With 6 numbers there are two middle ones — average them: (6 + 6) ÷ 2 = 6."
+    "solution": "Old total = 9 × 6 = 54. New total = 54 − 14 = 40. New mean = 40 ÷ 5 = 8.",
+    "tpl": "data:hard:4"
   },
   {
-    "q": "A bag has 6 red and 2 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "q": "Group A scores: 7, 9, 11, 21.<br>Group B scores: 7, 15, 9, 7, 7.<br>Which group has the higher mean?",
+    "type": "mc",
+    "choices": [
+      "They are equal",
+      "Cannot tell",
+      "Group A",
+      "Group B"
+    ],
+    "answer": 2,
+    "solution": "Mean A = 48 ÷ 4 = 12. Mean B = 45 ÷ 5 = 9. Group A is higher.",
+    "tpl": "data:hard:5"
+  },
+  {
+    "q": "A data set of 4 numbers has a mean of 8. A new value of 18 is added. What is the new mean?",
     "type": "typed",
     "accept": [
-      "3/4",
-      "6/8"
+      "10"
     ],
-    "solution": "P(red) = red ÷ total = 6/8 = 3/4."
+    "solution": "Old total = 8 × 4 = 32. New total = 32 + 18 = 50. New mean = 50 ÷ 5 = 10.",
+    "tpl": "data:hard:3"
   },
   {
-    "q": "Find the median of 1, 1, 6, 7, 8, 9.",
+    "q": "A data set of 7 numbers has a mean of 13. The value 1 is removed. What is the new mean of the remaining numbers?",
     "type": "typed",
     "accept": [
-      "6.5"
+      "15"
     ],
-    "solution": "With 6 numbers there are two middle ones — average them: (6 + 7) ÷ 2 = 6.5."
+    "solution": "Old total = 13 × 7 = 91. New total = 91 − 1 = 90. New mean = 90 ÷ 6 = 15.",
+    "tpl": "data:hard:4"
   },
   {
-    "q": "A bag has 3 red and 5 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "q": "A data set of 6 numbers has a mean of 6. A new value of 20 is added. What is the new mean?",
     "type": "typed",
     "accept": [
-      "3/8"
+      "8"
     ],
-    "solution": "P(red) = red ÷ total = 3/8."
+    "solution": "Old total = 6 × 6 = 36. New total = 36 + 20 = 56. New mean = 56 ÷ 7 = 8.",
+    "tpl": "data:hard:3"
   },
   {
-    "q": "Find the median of 2, 3, 3, 5, 5, 6.",
+    "q": "You scored 87, 89, 92 on 3 tests. What must you score on the next test to have a mean of exactly 88 across all 4 tests?",
     "type": "typed",
     "accept": [
-      "4"
+      "84"
     ],
-    "solution": "With 6 numbers there are two middle ones — average them: (3 + 5) ÷ 2 = 4."
+    "solution": "Total needed for mean 88 over 4 tests = 88 × 4 = 352. Needed score = 352 − 268 = 84.",
+    "tpl": "data:hard:2"
   },
   {
-    "q": "A bag has 5 red and 3 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "q": "A spinner has 10 equal sections; 8 are red. What is the probability of NOT landing on red? Give a fraction in simplest form.",
     "type": "typed",
     "accept": [
-      "5/8"
+      "1/5",
+      "2/10"
     ],
-    "solution": "P(red) = red ÷ total = 5/8."
+    "solution": "Not-red sections = 10 − 8 = 2. P(not red) = 2/10 = 1/5.",
+    "tpl": "data:hard:11"
   },
   {
-    "q": "Find the median of 1, 2, 2, 2, 4, 9.",
+    "q": "Find the median of this data set:<br>39, 41, 33, 22, 56, 22, 48, 22, 58",
     "type": "typed",
     "accept": [
-      "2"
+      "39"
     ],
-    "solution": "With 6 numbers there are two middle ones — average them: (2 + 2) ÷ 2 = 2."
+    "solution": "Sort: 22, 22, 22, 33, 39, 41, 48, 56, 58. The middle of 9 values is position 5: 39.",
+    "tpl": "data:hard:9"
   },
   {
-    "q": "Find the median of 1, 1, 2, 6, 9, 9.",
+    "q": "Find the median of this data set:<br>13, 32, 57, 13, 10, 19, 17, 36, 34",
     "type": "typed",
     "accept": [
-      "4"
+      "19"
     ],
-    "solution": "With 6 numbers there are two middle ones — average them: (2 + 6) ÷ 2 = 4."
+    "solution": "Sort: 10, 13, 13, 17, 19, 32, 34, 36, 57. The middle of 9 values is position 5: 19.",
+    "tpl": "data:hard:9"
   },
   {
-    "q": "Find the median of 1, 2, 3, 5, 7, 9.",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (3 + 5) ÷ 2 = 4."
-  },
-  {
-    "q": "The mean of four numbers is 5. Three of them are 4, 1, 1. What is the fourth?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "The four must total 5 × 4 = 20. Subtract the known sum: 20 − 6 = 14."
-  },
-  {
-    "q": "Find the median of 1, 4, 6, 6, 6, 7.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (6 + 6) ÷ 2 = 6."
-  },
-  {
-    "q": "A bag has 2 red and 5 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "2/7"
-    ],
-    "solution": "P(red) = red ÷ total = 2/7."
-  },
-  {
-    "q": "A bag has 3 red and 3 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "1/2",
-      "3/6"
-    ],
-    "solution": "P(red) = red ÷ total = 3/6 = 1/2."
-  },
-  {
-    "q": "Find the median of 2, 2, 6, 6, 6, 8.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (6 + 6) ÷ 2 = 6."
-  },
-  {
-    "q": "A bag has 2 red and 3 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "2/5"
-    ],
-    "solution": "P(red) = red ÷ total = 2/5."
-  },
-  {
-    "q": "A bag has 3 red and 6 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "1/3",
-      "3/9"
-    ],
-    "solution": "P(red) = red ÷ total = 3/9 = 1/3."
-  },
-  {
-    "q": "Find the median of 1, 5, 5, 7, 7, 7.",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (5 + 7) ÷ 2 = 6."
-  },
-  {
-    "q": "The mean of four numbers is 8. Three of them are 3, 1, 2. What is the fourth?",
-    "type": "typed",
-    "accept": [
-      "26"
-    ],
-    "solution": "The four must total 8 × 4 = 32. Subtract the known sum: 32 − 6 = 26."
-  },
-  {
-    "q": "The mean of four numbers is 5. Three of them are 7, 6, 7. What is the fourth?",
-    "type": "typed",
-    "accept": [
-      "0"
-    ],
-    "solution": "The four must total 5 × 4 = 20. Subtract the known sum: 20 − 20 = 0."
-  },
-  {
-    "q": "The mean of four numbers is 10. Three of them are 1, 6, 4. What is the fourth?",
-    "type": "typed",
-    "accept": [
-      "29"
-    ],
-    "solution": "The four must total 10 × 4 = 40. Subtract the known sum: 40 − 11 = 29."
-  },
-  {
-    "q": "Find the median of 1, 2, 4, 4, 5, 9.",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (4 + 4) ÷ 2 = 4."
-  },
-  {
-    "q": "Find the median of 2, 3, 7, 8, 9, 9.",
-    "type": "typed",
-    "accept": [
-      "7.5"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (7 + 8) ÷ 2 = 7.5."
-  },
-  {
-    "q": "A bag has 4 red and 5 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "4/9"
-    ],
-    "solution": "P(red) = red ÷ total = 4/9."
-  },
-  {
-    "q": "The mean of four numbers is 5. Three of them are 7, 3, 8. What is the fourth?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "The four must total 5 × 4 = 20. Subtract the known sum: 20 − 18 = 2."
-  },
-  {
-    "q": "The mean of four numbers is 5. Three of them are 5, 1, 3. What is the fourth?",
+    "q": "A data set of 5 numbers has a mean of 11. A new value of 11 is added. What is the new mean?",
     "type": "typed",
     "accept": [
       "11"
     ],
-    "solution": "The four must total 5 × 4 = 20. Subtract the known sum: 20 − 9 = 11."
+    "solution": "Old total = 11 × 5 = 55. New total = 55 + 11 = 66. New mean = 66 ÷ 6 = 11.",
+    "tpl": "data:hard:3"
   },
   {
-    "q": "The mean of four numbers is 7. Three of them are 5, 1, 4. What is the fourth?",
+    "q": "A data set is 11, 9, 10, 8. A new value of 44 is added. Which measure changes the MOST?",
+    "type": "mc",
+    "choices": [
+      "They all stay the same",
+      "The mean",
+      "The median",
+      "The mode"
+    ],
+    "answer": 1,
+    "solution": "An outlier (a value far from the rest) pulls the mean strongly toward it, while the median barely moves. The mean changes most.",
+    "tpl": "data:hard:8"
+  },
+  {
+    "q": "A data set has a smallest value of 4 and a range of 14. What is the largest value?",
     "type": "typed",
     "accept": [
       "18"
     ],
-    "solution": "The four must total 7 × 4 = 28. Subtract the known sum: 28 − 10 = 18."
+    "solution": "Range = largest − smallest, so largest = smallest + range = 4 + 14 = 18.",
+    "tpl": "data:hard:10"
   },
   {
-    "q": "The mean of four numbers is 6. Three of them are 5, 7, 3. What is the fourth?",
+    "q": "A data set of 6 numbers has a mean of 9. The value 29 is removed. What is the new mean of the remaining numbers?",
     "type": "typed",
     "accept": [
-      "9"
+      "5"
     ],
-    "solution": "The four must total 6 × 4 = 24. Subtract the known sum: 24 − 15 = 9."
+    "solution": "Old total = 9 × 6 = 54. New total = 54 − 29 = 25. New mean = 25 ÷ 5 = 5.",
+    "tpl": "data:hard:4"
   },
   {
-    "q": "The mean of four numbers is 7. Three of them are 3, 7, 1. What is the fourth?",
+    "q": "The mean of 4 numbers is 12. 3 of them are 8, 12, 9. What is the missing number?",
     "type": "typed",
     "accept": [
-      "17"
+      "19"
     ],
-    "solution": "The four must total 7 × 4 = 28. Subtract the known sum: 28 − 11 = 17."
+    "solution": "Total needed = mean × count = 12 × 4 = 48. Missing = 48 − 29 = 19.",
+    "tpl": "data:hard:1"
   },
   {
-    "q": "Find the median of 2, 5, 6, 6, 9, 9.",
-    "type": "typed",
-    "accept": [
-      "6"
+    "q": "Group A scores: 6, 4, 18, 32.<br>Group B scores: 6, 2, 16, 16.<br>Which group has the higher mean?",
+    "type": "mc",
+    "choices": [
+      "Cannot tell",
+      "Group B",
+      "Group A",
+      "They are equal"
     ],
-    "solution": "With 6 numbers there are two middle ones — average them: (6 + 6) ÷ 2 = 6."
+    "answer": 2,
+    "solution": "Mean A = 60 ÷ 4 = 15. Mean B = 40 ÷ 4 = 10. Group A is higher.",
+    "tpl": "data:hard:5"
   },
   {
-    "q": "The mean of four numbers is 10. Three of them are 9, 9, 2. What is the fourth?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "The four must total 10 × 4 = 40. Subtract the known sum: 40 − 20 = 20."
-  },
-  {
-    "q": "A bag has 2 red and 4 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "1/3",
-      "2/6"
-    ],
-    "solution": "P(red) = red ÷ total = 2/6 = 1/3."
-  },
-  {
-    "q": "The mean of four numbers is 8. Three of them are 4, 6, 1. What is the fourth?",
+    "q": "A data set has a smallest value of 10 and a range of 11. What is the largest value?",
     "type": "typed",
     "accept": [
       "21"
     ],
-    "solution": "The four must total 8 × 4 = 32. Subtract the known sum: 32 − 11 = 21."
+    "solution": "Range = largest − smallest, so largest = smallest + range = 10 + 11 = 21.",
+    "tpl": "data:hard:10"
   },
   {
-    "q": "The mean of four numbers is 10. Three of them are 9, 1, 3. What is the fourth?",
+    "q": "A data set has a smallest value of 4 and a range of 8. What is the largest value?",
     "type": "typed",
     "accept": [
-      "27"
+      "12"
     ],
-    "solution": "The four must total 10 × 4 = 40. Subtract the known sum: 40 − 13 = 27."
+    "solution": "Range = largest − smallest, so largest = smallest + range = 4 + 8 = 12.",
+    "tpl": "data:hard:10"
   },
   {
-    "q": "A bag has 2 red and 2 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "q": "The mean of 5 numbers is 11. 4 of them are 10, 4, 8, 12. What is the missing number?",
     "type": "typed",
     "accept": [
-      "1/2",
-      "2/4"
+      "21"
     ],
-    "solution": "P(red) = red ÷ total = 2/4 = 1/2."
+    "solution": "Total needed = mean × count = 11 × 5 = 55. Missing = 55 − 34 = 21.",
+    "tpl": "data:hard:1"
   },
   {
-    "q": "The mean of four numbers is 6. Three of them are 3, 1, 5. What is the fourth?",
+    "q": "A data set is 12, 12, 8, 11. A new value of 44 is added. Which measure changes the MOST?",
+    "type": "mc",
+    "choices": [
+      "The mode",
+      "The mean",
+      "The median",
+      "They all stay the same"
+    ],
+    "answer": 1,
+    "solution": "An outlier (a value far from the rest) pulls the mean strongly toward it, while the median barely moves. The mean changes most.",
+    "tpl": "data:hard:8"
+  },
+  {
+    "q": "Find the median of this data set:<br>1, 4, 2, 1, 3, 20",
     "type": "typed",
     "accept": [
-      "15"
+      "2.5"
     ],
-    "solution": "The four must total 6 × 4 = 24. Subtract the known sum: 24 − 9 = 15."
+    "solution": "Sort: 1, 1, 2, 3, 4, 20. With 6 values, the median is the average of the two middle values: (2 + 3) ÷ 2 = 2.5.",
+    "tpl": "data:hard:0"
   },
   {
-    "q": "A bag has 4 red and 3 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "q": "A spinner has 20 equal sections; 15 are red. What is the probability of NOT landing on red? Give a fraction in simplest form.",
     "type": "typed",
     "accept": [
-      "4/7"
+      "1/4",
+      "5/20"
     ],
-    "solution": "P(red) = red ÷ total = 4/7."
+    "solution": "Not-red sections = 20 − 15 = 5. P(not red) = 5/20 = 1/4.",
+    "tpl": "data:hard:11"
   },
   {
-    "q": "A bag has 5 red and 6 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "5/11"
-    ],
-    "solution": "P(red) = red ÷ total = 5/11."
-  },
-  {
-    "q": "Find the median of 2, 2, 3, 4, 5, 5.",
-    "type": "typed",
-    "accept": [
-      "3.5"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (3 + 4) ÷ 2 = 3.5."
-  },
-  {
-    "q": "The mean of four numbers is 6. Three of them are 4, 1, 4. What is the fourth?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "The four must total 6 × 4 = 24. Subtract the known sum: 24 − 9 = 15."
-  },
-  {
-    "q": "A bag has 3 red and 2 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "3/5"
-    ],
-    "solution": "P(red) = red ÷ total = 3/5."
-  },
-  {
-    "q": "The mean of four numbers is 9. Three of them are 6, 4, 9. What is the fourth?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "The four must total 9 × 4 = 36. Subtract the known sum: 36 − 19 = 17."
-  },
-  {
-    "q": "Find the median of 1, 3, 4, 7, 8, 9.",
-    "type": "typed",
-    "accept": [
-      "5.5"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (4 + 7) ÷ 2 = 5.5."
-  },
-  {
-    "q": "Find the median of 2, 6, 6, 7, 9, 9.",
-    "type": "typed",
-    "accept": [
-      "6.5"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (6 + 7) ÷ 2 = 6.5."
-  },
-  {
-    "q": "A bag has 6 red and 4 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "3/5",
-      "6/10"
-    ],
-    "solution": "P(red) = red ÷ total = 6/10 = 3/5."
-  },
-  {
-    "q": "The mean of four numbers is 7. Three of them are 1, 2, 2. What is the fourth?",
+    "q": "The mean of 5 numbers is 10. 4 of them are 11, 7, 4, 5. What is the missing number?",
     "type": "typed",
     "accept": [
       "23"
     ],
-    "solution": "The four must total 7 × 4 = 28. Subtract the known sum: 28 − 5 = 23."
+    "solution": "Total needed = mean × count = 10 × 5 = 50. Missing = 50 − 27 = 23.",
+    "tpl": "data:hard:1"
   },
   {
-    "q": "A bag has 6 red and 3 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "2/3",
-      "6/9"
-    ],
-    "solution": "P(red) = red ÷ total = 6/9 = 2/3."
-  },
-  {
-    "q": "The mean of four numbers is 9. Three of them are 4, 2, 9. What is the fourth?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "The four must total 9 × 4 = 36. Subtract the known sum: 36 − 15 = 21."
-  },
-  {
-    "q": "Find the median of 2, 4, 4, 7, 9, 9.",
-    "type": "typed",
-    "accept": [
-      "5.5"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (4 + 7) ÷ 2 = 5.5."
-  },
-  {
-    "q": "Find the median of 1, 2, 3, 4, 6, 8.",
-    "type": "typed",
-    "accept": [
-      "3.5"
-    ],
-    "solution": "With 6 numbers there are two middle ones — average them: (3 + 4) ÷ 2 = 3.5."
-  },
-  {
-    "q": "A bag has 3 red and 4 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "3/7"
-    ],
-    "solution": "P(red) = red ÷ total = 3/7."
-  },
-  {
-    "q": "A bag has 5 red and 5 blue marbles. What is the probability of drawing red? (as a fraction)",
-    "type": "typed",
-    "accept": [
-      "1/2",
-      "5/10"
-    ],
-    "solution": "P(red) = red ÷ total = 5/10 = 1/2."
-  },
-  {
-    "q": "The mean of four numbers is 6. Three of them are 3, 4, 1. What is the fourth?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "The four must total 6 × 4 = 24. Subtract the known sum: 24 − 8 = 16."
-  },
-  {
-    "q": "A bag has 4 red and 4 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "q": "A bag has 8 tiles numbered 1 to 8. 4 of them are winners. What is the probability of drawing a winner? Give your answer as a fraction in simplest form.",
     "type": "typed",
     "accept": [
       "1/2",
       "4/8"
     ],
-    "solution": "P(red) = red ÷ total = 4/8 = 1/2."
+    "solution": "P = 4/8 = 1/2 after dividing by the GCF.",
+    "tpl": "data:hard:6"
   },
   {
-    "q": "Find the median of 1, 1, 2, 2, 3, 4.",
+    "q": "A bag has 15 tiles numbered 1 to 15. 10 of them are winners. What is the probability of drawing a winner? Give your answer as a fraction in simplest form.",
     "type": "typed",
     "accept": [
-      "2"
+      "2/3",
+      "10/15"
     ],
-    "solution": "With 6 numbers there are two middle ones — average them: (2 + 2) ÷ 2 = 2."
+    "solution": "P = 10/15 = 2/3 after dividing by the GCF.",
+    "tpl": "data:hard:6"
   },
   {
-    "q": "The mean of four numbers is 7. Three of them are 4, 8, 6. What is the fourth?",
+    "q": "The mean of 5 numbers is 12. 4 of them are 14, 7, 8, 6. What is the missing number?",
     "type": "typed",
     "accept": [
-      "10"
+      "25"
     ],
-    "solution": "The four must total 7 × 4 = 28. Subtract the known sum: 28 − 18 = 10."
+    "solution": "Total needed = mean × count = 12 × 5 = 60. Missing = 60 − 35 = 25.",
+    "tpl": "data:hard:1"
   },
   {
-    "q": "A bag has 5 red and 2 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "q": "A survey recorded: value 3 (2 times), value 5 (3 times), value 9 (1 times). What is the mean of all the data?",
     "type": "typed",
     "accept": [
-      "5/7"
+      "5"
     ],
-    "solution": "P(red) = red ÷ total = 5/7."
+    "solution": "Sum = 3×2 + 5×3 + 9×1 = 30. Count = 6. Mean = 30 ÷ 6 = 5.",
+    "tpl": "data:hard:7"
   },
   {
-    "q": "The mean of four numbers is 6. Three of them are 9, 2, 7. What is the fourth?",
+    "q": "Group A scores: 12, 7, 8.<br>Group B scores: 14, 15, 10.<br>Which group has the higher mean?",
+    "type": "mc",
+    "choices": [
+      "Group B",
+      "Cannot tell",
+      "Group A",
+      "They are equal"
+    ],
+    "answer": 0,
+    "solution": "Mean A = 27 ÷ 3 = 9. Mean B = 39 ÷ 3 = 13. Group B is higher.",
+    "tpl": "data:hard:5"
+  },
+  {
+    "q": "Find the median of this data set:<br>4, 6, 10, 10",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Sort: 4, 6, 10, 10. With 4 values, the median is the average of the two middle values: (6 + 10) ÷ 2 = 8.",
+    "tpl": "data:hard:0"
+  },
+  {
+    "q": "A spinner has 20 equal sections; 2 are red. What is the probability of NOT landing on red? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "9/10",
+      "18/20"
+    ],
+    "solution": "Not-red sections = 20 − 2 = 18. P(not red) = 18/20 = 9/10.",
+    "tpl": "data:hard:11"
+  },
+  {
+    "q": "The mean of 4 numbers is 13. 3 of them are 5, 17, 14. What is the missing number?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Total needed = mean × count = 13 × 4 = 52. Missing = 52 − 36 = 16.",
+    "tpl": "data:hard:1"
+  },
+  {
+    "q": "You scored 91, 91, 80, 75 on 4 tests. What must you score on the next test to have a mean of exactly 87 across all 5 tests?",
+    "type": "typed",
+    "accept": [
+      "98"
+    ],
+    "solution": "Total needed for mean 87 over 5 tests = 87 × 5 = 435. Needed score = 435 − 337 = 98.",
+    "tpl": "data:hard:2"
+  },
+  {
+    "q": "The mean of 4 numbers is 16. 3 of them are 17, 9, 3. What is the missing number?",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "Total needed = mean × count = 16 × 4 = 64. Missing = 64 − 29 = 35.",
+    "tpl": "data:hard:1"
+  },
+  {
+    "q": "Group A scores: 13, 8, 15.<br>Group B scores: 12, 12, 14, 14.<br>Which group has the higher mean?",
+    "type": "mc",
+    "choices": [
+      "They are equal",
+      "Group B",
+      "Cannot tell",
+      "Group A"
+    ],
+    "answer": 1,
+    "solution": "Mean A = 36 ÷ 3 = 12. Mean B = 52 ÷ 4 = 13. Group B is higher.",
+    "tpl": "data:hard:5"
+  },
+  {
+    "q": "A bag has 12 tiles numbered 1 to 12. 6 of them are winners. What is the probability of drawing a winner? Give your answer as a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "1/2",
+      "6/12"
+    ],
+    "solution": "P = 6/12 = 1/2 after dividing by the GCF.",
+    "tpl": "data:hard:6"
+  },
+  {
+    "q": "A data set of 5 numbers has a mean of 12. A new value of 18 is added. What is the new mean?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Old total = 12 × 5 = 60. New total = 60 + 18 = 78. New mean = 78 ÷ 6 = 13.",
+    "tpl": "data:hard:3"
+  },
+  {
+    "q": "You scored 92, 82, 87 on 3 tests. What must you score on the next test to have a mean of exactly 82 across all 4 tests?",
+    "type": "typed",
+    "accept": [
+      "67"
+    ],
+    "solution": "Total needed for mean 82 over 4 tests = 82 × 4 = 328. Needed score = 328 − 261 = 67.",
+    "tpl": "data:hard:2"
+  },
+  {
+    "q": "A data set of 6 numbers has a mean of 10. The value 15 is removed. What is the new mean of the remaining numbers?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Old total = 10 × 6 = 60. New total = 60 − 15 = 45. New mean = 45 ÷ 5 = 9.",
+    "tpl": "data:hard:4"
+  },
+  {
+    "q": "You scored 80, 89, 71 on 3 tests. What must you score on the next test to have a mean of exactly 84 across all 4 tests?",
+    "type": "typed",
+    "accept": [
+      "96"
+    ],
+    "solution": "Total needed for mean 84 over 4 tests = 84 × 4 = 336. Needed score = 336 − 240 = 96.",
+    "tpl": "data:hard:2"
+  },
+  {
+    "q": "Find the median of this data set:<br>23, 9, 12, 24, 25, 12",
+    "type": "typed",
+    "accept": [
+      "17.5"
+    ],
+    "solution": "Sort: 9, 12, 12, 23, 24, 25. With 6 values, the median is the average of the two middle values: (12 + 23) ÷ 2 = 17.5.",
+    "tpl": "data:hard:0"
+  },
+  {
+    "q": "A data set has a smallest value of 10 and a range of 23. What is the largest value?",
+    "type": "typed",
+    "accept": [
+      "33"
+    ],
+    "solution": "Range = largest − smallest, so largest = smallest + range = 10 + 23 = 33.",
+    "tpl": "data:hard:10"
+  },
+  {
+    "q": "Group A scores: 7, 14, 14, 11, 29.<br>Group B scores: 13, 12, 17.<br>Which group has the higher mean?",
+    "type": "mc",
+    "choices": [
+      "Group A",
+      "They are equal",
+      "Cannot tell",
+      "Group B"
+    ],
+    "answer": 0,
+    "solution": "Mean A = 75 ÷ 5 = 15. Mean B = 42 ÷ 3 = 14. Group A is higher.",
+    "tpl": "data:hard:5"
+  },
+  {
+    "q": "A data set is 9, 10, 10, 12. A new value of 43 is added. Which measure changes the MOST?",
+    "type": "mc",
+    "choices": [
+      "They all stay the same",
+      "The mode",
+      "The median",
+      "The mean"
+    ],
+    "answer": 3,
+    "solution": "An outlier (a value far from the rest) pulls the mean strongly toward it, while the median barely moves. The mean changes most.",
+    "tpl": "data:hard:8"
+  },
+  {
+    "q": "Find the median of this data set:<br>25, 36, 13, 29, 30, 16, 27, 38, 60",
+    "type": "typed",
+    "accept": [
+      "29"
+    ],
+    "solution": "Sort: 13, 16, 25, 27, 29, 30, 36, 38, 60. The middle of 9 values is position 5: 29.",
+    "tpl": "data:hard:9"
+  },
+  {
+    "q": "Find the median of this data set:<br>19, 16, 8, 27",
+    "type": "typed",
+    "accept": [
+      "17.5"
+    ],
+    "solution": "Sort: 8, 16, 19, 27. With 4 values, the median is the average of the two middle values: (16 + 19) ÷ 2 = 17.5.",
+    "tpl": "data:hard:0"
+  },
+  {
+    "q": "A car travels 90 miles and then 150 miles, taking 2 hours in total. What is its average speed in miles per hour?",
+    "type": "typed",
+    "accept": [
+      "120"
+    ],
+    "solution": "Average speed = total distance ÷ total time = (90 + 150) ÷ 2 = 240 ÷ 2 = 120 mph.",
+    "tpl": "data:hard:12"
+  },
+  {
+    "q": "Find the median of this data set:<br>19, 13, 30, 9, 9, 14",
+    "type": "typed",
+    "accept": [
+      "13.5"
+    ],
+    "solution": "Sort: 9, 9, 13, 14, 19, 30. With 6 values, the median is the average of the two middle values: (13 + 14) ÷ 2 = 13.5.",
+    "tpl": "data:hard:0"
+  },
+  {
+    "q": "A bag has 12 tiles numbered 1 to 12. 8 of them are winners. What is the probability of drawing a winner? Give your answer as a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "2/3",
+      "8/12"
+    ],
+    "solution": "P = 8/12 = 2/3 after dividing by the GCF.",
+    "tpl": "data:hard:6"
+  },
+  {
+    "q": "Find the median of this data set:<br>36, 14, 34, 22, 41, 29, 33, 29, 21",
+    "type": "typed",
+    "accept": [
+      "29"
+    ],
+    "solution": "Sort: 14, 21, 22, 29, 29, 33, 34, 36, 41. The middle of 9 values is position 5: 29.",
+    "tpl": "data:hard:9"
+  },
+  {
+    "q": "Group A scores: 10, 5, 11, 22.<br>Group B scores: 18, 3, 14, 2, 18.<br>Which group has the higher mean?",
+    "type": "mc",
+    "choices": [
+      "Group B",
+      "Cannot tell",
+      "They are equal",
+      "Group A"
+    ],
+    "answer": 3,
+    "solution": "Mean A = 48 ÷ 4 = 12. Mean B = 55 ÷ 5 = 11. Group A is higher.",
+    "tpl": "data:hard:5"
+  },
+  {
+    "q": "A car travels 80 miles and then 150 miles, taking 5 hours in total. What is its average speed in miles per hour?",
+    "type": "typed",
+    "accept": [
+      "46"
+    ],
+    "solution": "Average speed = total distance ÷ total time = (80 + 150) ÷ 5 = 230 ÷ 5 = 46 mph.",
+    "tpl": "data:hard:12"
+  },
+  {
+    "q": "A data set of 6 numbers has a mean of 14. The value 24 is removed. What is the new mean of the remaining numbers?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Old total = 14 × 6 = 84. New total = 84 − 24 = 60. New mean = 60 ÷ 5 = 12.",
+    "tpl": "data:hard:4"
+  },
+  {
+    "q": "A data set has a smallest value of 13 and a range of 11. What is the largest value?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Range = largest − smallest, so largest = smallest + range = 13 + 11 = 24.",
+    "tpl": "data:hard:10"
+  },
+  {
+    "q": "A survey recorded: value 3 (1 times), value 7 (1 times), value 11 (1 times). What is the mean of all the data?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Sum = 3×1 + 7×1 + 11×1 = 21. Count = 3. Mean = 21 ÷ 3 = 7.",
+    "tpl": "data:hard:7"
+  },
+  {
+    "q": "Find the median of this data set:<br>21, 21, 15, 43, 18, 54, 47, 28, 51",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Sort: 15, 18, 21, 21, 28, 43, 47, 51, 54. The middle of 9 values is position 5: 28.",
+    "tpl": "data:hard:9"
+  },
+  {
+    "q": "A data set of 5 numbers has a mean of 7. A new value of 19 is added. What is the new mean?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Old total = 7 × 5 = 35. New total = 35 + 19 = 54. New mean = 54 ÷ 6 = 9.",
+    "tpl": "data:hard:3"
+  },
+  {
+    "q": "A data set is 8, 12, 8, 10. A new value of 60 is added. Which measure changes the MOST?",
+    "type": "mc",
+    "choices": [
+      "They all stay the same",
+      "The mean",
+      "The median",
+      "The mode"
+    ],
+    "answer": 1,
+    "solution": "An outlier (a value far from the rest) pulls the mean strongly toward it, while the median barely moves. The mean changes most.",
+    "tpl": "data:hard:8"
+  },
+  {
+    "q": "A survey recorded: value 4 (2 times), value 8 (2 times), value 11 (1 times). What is the mean of all the data?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Sum = 4×2 + 8×2 + 11×1 = 35. Count = 5. Mean = 35 ÷ 5 = 7.",
+    "tpl": "data:hard:7"
+  },
+  {
+    "q": "A car travels 90 miles and then 80 miles, taking 2 hours in total. What is its average speed in miles per hour?",
+    "type": "typed",
+    "accept": [
+      "85"
+    ],
+    "solution": "Average speed = total distance ÷ total time = (90 + 80) ÷ 2 = 170 ÷ 2 = 85 mph.",
+    "tpl": "data:hard:12"
+  },
+  {
+    "q": "A bag has 10 tiles numbered 1 to 10. 5 of them are winners. What is the probability of drawing a winner? Give your answer as a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "1/2",
+      "5/10"
+    ],
+    "solution": "P = 5/10 = 1/2 after dividing by the GCF.",
+    "tpl": "data:hard:6"
+  },
+  {
+    "q": "A data set is 8, 11, 9, 11. A new value of 50 is added. Which measure changes the MOST?",
+    "type": "mc",
+    "choices": [
+      "The mode",
+      "They all stay the same",
+      "The mean",
+      "The median"
+    ],
+    "answer": 2,
+    "solution": "An outlier (a value far from the rest) pulls the mean strongly toward it, while the median barely moves. The mean changes most.",
+    "tpl": "data:hard:8"
+  },
+  {
+    "q": "A car travels 100 miles and then 60 miles, taking 5 hours in total. What is its average speed in miles per hour?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Average speed = total distance ÷ total time = (100 + 60) ÷ 5 = 160 ÷ 5 = 32 mph.",
+    "tpl": "data:hard:12"
+  },
+  {
+    "q": "A spinner has 12 equal sections; 2 are red. What is the probability of NOT landing on red? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "5/6",
+      "10/12"
+    ],
+    "solution": "Not-red sections = 12 − 2 = 10. P(not red) = 10/12 = 5/6.",
+    "tpl": "data:hard:11"
+  },
+  {
+    "q": "A survey recorded: value 2 (1 times), value 5 (2 times), value 9 (2 times). What is the mean of all the data?",
     "type": "typed",
     "accept": [
       "6"
     ],
-    "solution": "The four must total 6 × 4 = 24. Subtract the known sum: 24 − 18 = 6."
+    "solution": "Sum = 2×1 + 5×2 + 9×2 = 30. Count = 5. Mean = 30 ÷ 5 = 6.",
+    "tpl": "data:hard:7"
   },
   {
-    "q": "A bag has 4 red and 6 blue marbles. What is the probability of drawing red? (as a fraction)",
+    "q": "A spinner has 8 equal sections; 6 are red. What is the probability of NOT landing on red? Give a fraction in simplest form.",
     "type": "typed",
     "accept": [
-      "2/5",
-      "4/10"
+      "1/4",
+      "2/8"
     ],
-    "solution": "P(red) = red ÷ total = 4/10 = 2/5."
+    "solution": "Not-red sections = 8 − 6 = 2. P(not red) = 2/8 = 1/4.",
+    "tpl": "data:hard:11"
+  },
+  {
+    "q": "A data set has a smallest value of 12 and a range of 14. What is the largest value?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "Range = largest − smallest, so largest = smallest + range = 12 + 14 = 26.",
+    "tpl": "data:hard:10"
+  },
+  {
+    "q": "A data set is 9, 11, 8, 10. A new value of 51 is added. Which measure changes the MOST?",
+    "type": "mc",
+    "choices": [
+      "The mean",
+      "They all stay the same",
+      "The mode",
+      "The median"
+    ],
+    "answer": 0,
+    "solution": "An outlier (a value far from the rest) pulls the mean strongly toward it, while the median barely moves. The mean changes most.",
+    "tpl": "data:hard:8"
+  },
+  {
+    "q": "A car travels 120 miles and then 90 miles, taking 3 hours in total. What is its average speed in miles per hour?",
+    "type": "typed",
+    "accept": [
+      "70"
+    ],
+    "solution": "Average speed = total distance ÷ total time = (120 + 90) ÷ 3 = 210 ÷ 3 = 70 mph.",
+    "tpl": "data:hard:12"
+  },
+  {
+    "q": "Find the median of this data set:<br>37, 18, 53, 25, 52, 53, 49, 44, 51",
+    "type": "typed",
+    "accept": [
+      "49"
+    ],
+    "solution": "Sort: 18, 25, 37, 44, 49, 51, 52, 53, 53. The middle of 9 values is position 5: 49.",
+    "tpl": "data:hard:9"
+  },
+  {
+    "q": "A survey recorded: value 4 (1 times), value 6 (1 times), value 10 (3 times). What is the mean of all the data?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Sum = 4×1 + 6×1 + 10×3 = 40. Count = 5. Mean = 40 ÷ 5 = 8.",
+    "tpl": "data:hard:7"
+  },
+  {
+    "q": "A bag has 12 tiles numbered 1 to 12. 2 of them are winners. What is the probability of drawing a winner? Give your answer as a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "1/6",
+      "2/12"
+    ],
+    "solution": "P = 2/12 = 1/6 after dividing by the GCF.",
+    "tpl": "data:hard:6"
+  },
+  {
+    "q": "A spinner has 6 equal sections; 4 are red. What is the probability of NOT landing on red? Give a fraction in simplest form.",
+    "type": "typed",
+    "accept": [
+      "1/3",
+      "2/6"
+    ],
+    "solution": "Not-red sections = 6 − 4 = 2. P(not red) = 2/6 = 1/3.",
+    "tpl": "data:hard:11"
+  },
+  {
+    "q": "A data set of 6 numbers has a mean of 12. A new value of 19 is added. What is the new mean?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "Old total = 12 × 6 = 72. New total = 72 + 19 = 91. New mean = 91 ÷ 7 = 13.",
+    "tpl": "data:hard:3"
+  },
+  {
+    "q": "A car travels 150 miles and then 150 miles, taking 4 hours in total. What is its average speed in miles per hour?",
+    "type": "typed",
+    "accept": [
+      "75"
+    ],
+    "solution": "Average speed = total distance ÷ total time = (150 + 150) ÷ 4 = 300 ÷ 4 = 75 mph.",
+    "tpl": "data:hard:12"
+  },
+  {
+    "q": "You scored 93, 80, 71 on 3 tests. What must you score on the next test to have a mean of exactly 86 across all 4 tests?",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "Total needed for mean 86 over 4 tests = 86 × 4 = 344. Needed score = 344 − 244 = 100.",
+    "tpl": "data:hard:2"
+  },
+  {
+    "q": "You scored 92, 73, 86, 95 on 4 tests. What must you score on the next test to have a mean of exactly 86 across all 5 tests?",
+    "type": "typed",
+    "accept": [
+      "84"
+    ],
+    "solution": "Total needed for mean 86 over 5 tests = 86 × 5 = 430. Needed score = 430 − 346 = 84.",
+    "tpl": "data:hard:2"
+  },
+  {
+    "q": "Find the median of this data set:<br>15, 1, 5, 10, 8, 12",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Sort: 1, 5, 8, 10, 12, 15. With 6 values, the median is the average of the two middle values: (8 + 10) ÷ 2 = 9.",
+    "tpl": "data:hard:0"
   }
 ]

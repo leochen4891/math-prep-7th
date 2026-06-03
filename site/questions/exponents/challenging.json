@@ -1,259 +1,705 @@
 [
   {
-    "q": "x⁴ · x⁵ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "9"
+    "q": "Which is larger?  3⁴  or  9²?",
+    "type": "mc",
+    "choices": [
+      "Equal",
+      "9²",
+      "3⁴"
     ],
-    "solution": "Multiplying same bases → add exponents: 4 + 5 = 9."
+    "answer": 0,
+    "solution": "3⁴ = 81, 9² = 81. They are equal.",
+    "tpl": "exponents:challenging:5"
   },
   {
-    "q": "x³ · x⁴ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Multiplying same bases → add exponents: 3 + 4 = 7."
-  },
-  {
-    "q": "x⁵ · x⁵ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Multiplying same bases → add exponents: 5 + 5 = 10."
-  },
-  {
-    "q": "x⁴ · x³ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Multiplying same bases → add exponents: 4 + 3 = 7."
-  },
-  {
-    "q": "What is 10³ ÷ 10?",
-    "type": "typed",
-    "accept": [
-      "100"
-    ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 100."
-  },
-  {
-    "q": "3³ + 2² × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "35"
-    ],
-    "solution": "Exponents first: 3³ = 27, 2² = 4. Then 27 + 4×2 = 35."
-  },
-  {
-    "q": "x² · x² = xⁿ.  What is n?",
+    "q": "Evaluate: √16",
     "type": "typed",
     "accept": [
       "4"
     ],
-    "solution": "Multiplying same bases → add exponents: 2 + 2 = 4."
+    "solution": "√16 = 2 × 2 = 4 since (4)² = 16.",
+    "tpl": "exponents:challenging:9"
   },
   {
-    "q": "2³ + 3² × 2 = ?",
+    "q": "Evaluate: (2 × 3)²",
     "type": "typed",
     "accept": [
-      "26"
+      "36"
     ],
-    "solution": "Exponents first: 2³ = 8, 3² = 9. Then 8 + 9×2 = 26."
+    "solution": "(2 × 3) = 6, squared = 36.",
+    "tpl": "exponents:challenging:10"
   },
   {
-    "q": "What is (3²)² ÷ 9?",
+    "q": "Which is larger?  2⁷  or  5³?",
+    "type": "mc",
+    "choices": [
+      "5³",
+      "2⁷",
+      "Equal"
+    ],
+    "answer": 1,
+    "solution": "2⁷ = 128, 5³ = 125. 2⁷ is larger.",
+    "tpl": "exponents:challenging:5"
+  },
+  {
+    "q": "Which is larger?  3³  or  5²?",
+    "type": "mc",
+    "choices": [
+      "3³",
+      "5²",
+      "Equal"
+    ],
+    "answer": 0,
+    "solution": "3³ = 27, 5² = 25. 3³ is larger.",
+    "tpl": "exponents:challenging:5"
+  },
+  {
+    "q": "Evaluate: (−3)⁵",
     "type": "typed",
     "accept": [
-      "9"
+      "-243"
     ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 9."
+    "solution": "Exponent 5 is odd → negative: -243.",
+    "tpl": "exponents:challenging:1"
   },
   {
-    "q": "x³ · x⁵ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiplying same bases → add exponents: 3 + 5 = 8."
-  },
-  {
-    "q": "What is 2³ × 2²?",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 32."
-  },
-  {
-    "q": "x⁶ · x² = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiplying same bases → add exponents: 6 + 2 = 8."
-  },
-  {
-    "q": "What is 3⁴ ÷ 3²?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 9."
-  },
-  {
-    "q": "x⁶ · x⁴ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Multiplying same bases → add exponents: 6 + 4 = 10."
-  },
-  {
-    "q": "x³ · x³ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Multiplying same bases → add exponents: 3 + 3 = 6."
-  },
-  {
-    "q": "x² · x³ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Multiplying same bases → add exponents: 2 + 3 = 5."
-  },
-  {
-    "q": "x⁵ · x² = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Multiplying same bases → add exponents: 5 + 2 = 7."
-  },
-  {
-    "q": "x⁴ · x⁶ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Multiplying same bases → add exponents: 4 + 6 = 10."
-  },
-  {
-    "q": "What is (2²)³?",
-    "type": "typed",
-    "accept": [
-      "64"
-    ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 64."
-  },
-  {
-    "q": "2³ + 2² × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Exponents first: 2³ = 8, 2² = 4. Then 8 + 4×2 = 16."
-  },
-  {
-    "q": "x⁴ · x² = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Multiplying same bases → add exponents: 4 + 2 = 6."
-  },
-  {
-    "q": "4³ + 3² × 2 = ?",
-    "type": "typed",
-    "accept": [
-      "82"
-    ],
-    "solution": "Exponents first: 4³ = 64, 3² = 9. Then 64 + 9×2 = 82."
-  },
-  {
-    "q": "x⁵ · x⁴ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Multiplying same bases → add exponents: 5 + 4 = 9."
-  },
-  {
-    "q": "x⁴ · x⁴ = xⁿ.  What is n?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiplying same bases → add exponents: 4 + 4 = 8."
-  },
-  {
-    "q": "3³ + 3² × 2 = ?",
+    "q": "Evaluate: (√49)² − 4",
     "type": "typed",
     "accept": [
       "45"
     ],
-    "solution": "Exponents first: 3³ = 27, 3² = 9. Then 27 + 9×2 = 45."
+    "solution": "√49 = 7, squared = 49; 49 − 4 = 45.",
+    "tpl": "exponents:challenging:2"
   },
   {
-    "q": "4³ + 2² × 2 = ?",
+    "q": "Evaluate: 7² + 2²",
     "type": "typed",
     "accept": [
-      "72"
+      "53"
     ],
-    "solution": "Exponents first: 4³ = 64, 2² = 4. Then 64 + 4×2 = 72."
+    "solution": "7² = 49, 2² = 4, sum = 53.",
+    "tpl": "exponents:challenging:7"
   },
   {
-    "q": "x³ · x² = xⁿ.  What is n?",
+    "q": "Evaluate: 2³ + 4² − 3",
     "type": "typed",
     "accept": [
-      "5"
+      "21"
     ],
-    "solution": "Multiplying same bases → add exponents: 3 + 2 = 5."
+    "solution": "2³ = 8; 4² = 16; 8 + 16 − 3 = 21.",
+    "tpl": "exponents:challenging:3"
   },
   {
-    "q": "x⁶ · x⁵ = xⁿ.  What is n?",
+    "q": "Evaluate: 8² + 5²",
     "type": "typed",
     "accept": [
-      "11"
+      "89"
     ],
-    "solution": "Multiplying same bases → add exponents: 6 + 5 = 11."
+    "solution": "8² = 64, 5² = 25, sum = 89.",
+    "tpl": "exponents:challenging:7"
   },
   {
-    "q": "x⁵ · x⁶ = xⁿ.  What is n?",
+    "q": "81 = 3^?  (find the exponent)",
     "type": "typed",
     "accept": [
-      "11"
+      "4"
     ],
-    "solution": "Multiplying same bases → add exponents: 5 + 6 = 11."
+    "solution": "3^4 = 81.",
+    "tpl": "exponents:challenging:4"
   },
   {
-    "q": "x⁶ · x⁶ = xⁿ.  What is n?",
+    "q": "Evaluate: (−3)⁴",
     "type": "typed",
     "accept": [
-      "12"
+      "81"
     ],
-    "solution": "Multiplying same bases → add exponents: 6 + 6 = 12."
+    "solution": "Exponent 4 is even → positive: 81.",
+    "tpl": "exponents:challenging:1"
   },
   {
-    "q": "What is 2⁵ ÷ 2²?",
+    "q": "Evaluate: 8² + 4²",
+    "type": "typed",
+    "accept": [
+      "80"
+    ],
+    "solution": "8² = 64, 4² = 16, sum = 80.",
+    "tpl": "exponents:challenging:7"
+  },
+  {
+    "q": "Evaluate: √64",
     "type": "typed",
     "accept": [
       "8"
     ],
-    "solution": "Use exponent rules (add exponents when multiplying, subtract when dividing) → 8."
+    "solution": "√64 = 2 × 4 = 8 since (8)² = 64.",
+    "tpl": "exponents:challenging:9"
   },
   {
-    "q": "x² · x⁴ = xⁿ.  What is n?",
+    "q": "Evaluate: (−4)⁴",
+    "type": "typed",
+    "accept": [
+      "256"
+    ],
+    "solution": "Exponent 4 is even → positive: 256.",
+    "tpl": "exponents:challenging:1"
+  },
+  {
+    "q": "Evaluate: 2³ + 2² − 2",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "2³ = 8; 2² = 4; 8 + 4 − 2 = 10.",
+    "tpl": "exponents:challenging:3"
+  },
+  {
+    "q": "Solve for x: 2^x = 64<br>x = ?",
     "type": "typed",
     "accept": [
       "6"
     ],
-    "solution": "Multiplying same bases → add exponents: 2 + 4 = 6."
+    "solution": "2^6 = 64, so x = 6.",
+    "tpl": "exponents:challenging:6"
+  },
+  {
+    "q": "Evaluate: √1296",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "√1296 = 6 × 6 = 36 since (36)² = 1296.",
+    "tpl": "exponents:challenging:9"
+  },
+  {
+    "q": "Evaluate: 2⁶ ÷ (2¹ · 2²)",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Denominator exponent: 1+2 = 3. 2^(6−3) = 2^3 = 8.",
+    "tpl": "exponents:challenging:8"
+  },
+  {
+    "q": "Evaluate: 9² + 7²",
+    "type": "typed",
+    "accept": [
+      "130"
+    ],
+    "solution": "9² = 81, 7² = 49, sum = 130.",
+    "tpl": "exponents:challenging:7"
+  },
+  {
+    "q": "32 = 2^?  (find the exponent)",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "2^5 = 32.",
+    "tpl": "exponents:challenging:4"
+  },
+  {
+    "q": "Give the exponent: ((x²)³)² = x^?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Multiply all: 2 × 3 × 2 = 12.",
+    "tpl": "exponents:challenging:0"
+  },
+  {
+    "q": "Solve for x: 5^x = 125<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "5^3 = 125, so x = 3.",
+    "tpl": "exponents:challenging:6"
+  },
+  {
+    "q": "Evaluate: 5² + 3²",
+    "type": "typed",
+    "accept": [
+      "34"
+    ],
+    "solution": "5² = 25, 3² = 9, sum = 34.",
+    "tpl": "exponents:challenging:7"
+  },
+  {
+    "q": "Evaluate: (3 × 5)²",
+    "type": "typed",
+    "accept": [
+      "225"
+    ],
+    "solution": "(3 × 5) = 15, squared = 225.",
+    "tpl": "exponents:challenging:10"
+  },
+  {
+    "q": "Evaluate: √900",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "√900 = 6 × 5 = 30 since (30)² = 900.",
+    "tpl": "exponents:challenging:9"
+  },
+  {
+    "q": "8 = 2^?  (find the exponent)",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "2^3 = 8.",
+    "tpl": "exponents:challenging:4"
+  },
+  {
+    "q": "Evaluate: 3³ + 3² − 3",
+    "type": "typed",
+    "accept": [
+      "33"
+    ],
+    "solution": "3³ = 27; 3² = 9; 27 + 9 − 3 = 33.",
+    "tpl": "exponents:challenging:3"
+  },
+  {
+    "q": "125 = 5^?  (find the exponent)",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "5^3 = 125.",
+    "tpl": "exponents:challenging:4"
+  },
+  {
+    "q": "Solve for x: 2^x = 32<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "2^5 = 32, so x = 5.",
+    "tpl": "exponents:challenging:6"
+  },
+  {
+    "q": "Evaluate: 7² + 7²",
+    "type": "typed",
+    "accept": [
+      "98"
+    ],
+    "solution": "7² = 49, 7² = 49, sum = 98.",
+    "tpl": "exponents:challenging:7"
+  },
+  {
+    "q": "Evaluate: 2³ + 2² − 4",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "2³ = 8; 2² = 4; 8 + 4 − 4 = 8.",
+    "tpl": "exponents:challenging:3"
+  },
+  {
+    "q": "Evaluate: (√9)² − 5",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "√9 = 3, squared = 9; 9 − 5 = 4.",
+    "tpl": "exponents:challenging:2"
+  },
+  {
+    "q": "Solve for x: 2^x = 8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "2^3 = 8, so x = 3.",
+    "tpl": "exponents:challenging:6"
+  },
+  {
+    "q": "Evaluate: 3⁷ ÷ (3¹ · 3¹)",
+    "type": "typed",
+    "accept": [
+      "243"
+    ],
+    "solution": "Denominator exponent: 1+1 = 2. 3^(7−2) = 3^5 = 243.",
+    "tpl": "exponents:challenging:8"
+  },
+  {
+    "q": "Give the exponent: ((x³)³)³ = x^?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Multiply all: 3 × 3 × 3 = 27.",
+    "tpl": "exponents:challenging:0"
+  },
+  {
+    "q": "Evaluate: 2³ + 3² − 3",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "2³ = 8; 3² = 9; 8 + 9 − 3 = 14.",
+    "tpl": "exponents:challenging:3"
+  },
+  {
+    "q": "Evaluate: (−2)³",
+    "type": "typed",
+    "accept": [
+      "-8"
+    ],
+    "solution": "Exponent 3 is odd → negative: -8.",
+    "tpl": "exponents:challenging:1"
+  },
+  {
+    "q": "Evaluate: (√9)² − 2",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "√9 = 3, squared = 9; 9 − 2 = 7.",
+    "tpl": "exponents:challenging:2"
+  },
+  {
+    "q": "Evaluate: (4 × 4)²",
+    "type": "typed",
+    "accept": [
+      "256"
+    ],
+    "solution": "(4 × 4) = 16, squared = 256.",
+    "tpl": "exponents:challenging:10"
+  },
+  {
+    "q": "Which is larger?  2⁴  or  4²?",
+    "type": "mc",
+    "choices": [
+      "4²",
+      "2⁴",
+      "Equal"
+    ],
+    "answer": 2,
+    "solution": "2⁴ = 16, 4² = 16. They are equal.",
+    "tpl": "exponents:challenging:5"
+  },
+  {
+    "q": "Solve for x: 3^x = 27<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "3^3 = 27, so x = 3.",
+    "tpl": "exponents:challenging:6"
+  },
+  {
+    "q": "Evaluate: √256",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "√256 = 4 × 4 = 16 since (16)² = 256.",
+    "tpl": "exponents:challenging:9"
+  },
+  {
+    "q": "Evaluate: √400",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "√400 = 5 × 4 = 20 since (20)² = 400.",
+    "tpl": "exponents:challenging:9"
+  },
+  {
+    "q": "Evaluate: 3⁶ ÷ (3² · 3²)",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Denominator exponent: 2+2 = 4. 3^(6−4) = 3^2 = 9.",
+    "tpl": "exponents:challenging:8"
+  },
+  {
+    "q": "Solve for x: 2^x = 16<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "2^4 = 16, so x = 4.",
+    "tpl": "exponents:challenging:6"
+  },
+  {
+    "q": "Evaluate: (√36)² − 5",
+    "type": "typed",
+    "accept": [
+      "31"
+    ],
+    "solution": "√36 = 6, squared = 36; 36 − 5 = 31.",
+    "tpl": "exponents:challenging:2"
+  },
+  {
+    "q": "Evaluate: (√64)² − 6",
+    "type": "typed",
+    "accept": [
+      "58"
+    ],
+    "solution": "√64 = 8, squared = 64; 64 − 6 = 58.",
+    "tpl": "exponents:challenging:2"
+  },
+  {
+    "q": "Evaluate: (3 × 4)²",
+    "type": "typed",
+    "accept": [
+      "144"
+    ],
+    "solution": "(3 × 4) = 12, squared = 144.",
+    "tpl": "exponents:challenging:10"
+  },
+  {
+    "q": "Evaluate: (−2)⁵",
+    "type": "typed",
+    "accept": [
+      "-32"
+    ],
+    "solution": "Exponent 5 is odd → negative: -32.",
+    "tpl": "exponents:challenging:1"
+  },
+  {
+    "q": "16 = 2^?  (find the exponent)",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "2^4 = 16.",
+    "tpl": "exponents:challenging:4"
+  },
+  {
+    "q": "64 = 4^?  (find the exponent)",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "4^3 = 64.",
+    "tpl": "exponents:challenging:4"
+  },
+  {
+    "q": "Evaluate: (√16)² − 4",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "√16 = 4, squared = 16; 16 − 4 = 12.",
+    "tpl": "exponents:challenging:2"
+  },
+  {
+    "q": "Evaluate: 2⁷ ÷ (2¹ · 2¹)",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Denominator exponent: 1+1 = 2. 2^(7−2) = 2^5 = 32.",
+    "tpl": "exponents:challenging:8"
+  },
+  {
+    "q": "Evaluate: (√16)² − 2",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "√16 = 4, squared = 16; 16 − 2 = 14.",
+    "tpl": "exponents:challenging:2"
+  },
+  {
+    "q": "Give the exponent: ((x²)³)³ = x^?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Multiply all: 2 × 3 × 3 = 18.",
+    "tpl": "exponents:challenging:0"
+  },
+  {
+    "q": "Solve for x: 3^x = 81<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "3^4 = 81, so x = 4.",
+    "tpl": "exponents:challenging:6"
+  },
+  {
+    "q": "Evaluate: 2⁷ ÷ (2² · 2¹)",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Denominator exponent: 2+1 = 3. 2^(7−3) = 2^4 = 16.",
+    "tpl": "exponents:challenging:8"
+  },
+  {
+    "q": "Evaluate: (−3)³",
+    "type": "typed",
+    "accept": [
+      "-27"
+    ],
+    "solution": "Exponent 3 is odd → negative: -27.",
+    "tpl": "exponents:challenging:1"
+  },
+  {
+    "q": "Evaluate: 4² + 5²",
+    "type": "typed",
+    "accept": [
+      "41"
+    ],
+    "solution": "4² = 16, 5² = 25, sum = 41.",
+    "tpl": "exponents:challenging:7"
+  },
+  {
+    "q": "Evaluate: 3⁷ ÷ (3² · 3²)",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Denominator exponent: 2+2 = 4. 3^(7−4) = 3^3 = 27.",
+    "tpl": "exponents:challenging:8"
+  },
+  {
+    "q": "Give the exponent: ((x²)²)² = x^?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Multiply all: 2 × 2 × 2 = 8.",
+    "tpl": "exponents:challenging:0"
+  },
+  {
+    "q": "Evaluate: (5 × 5)²",
+    "type": "typed",
+    "accept": [
+      "625"
+    ],
+    "solution": "(5 × 5) = 25, squared = 625.",
+    "tpl": "exponents:challenging:10"
+  },
+  {
+    "q": "64 = 2^?  (find the exponent)",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "2^6 = 64.",
+    "tpl": "exponents:challenging:4"
+  },
+  {
+    "q": "Evaluate: 2⁶ ÷ (2² · 2¹)",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Denominator exponent: 2+1 = 3. 2^(6−3) = 2^3 = 8.",
+    "tpl": "exponents:challenging:8"
+  },
+  {
+    "q": "Evaluate: 2³ + 3² − 2",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "2³ = 8; 3² = 9; 8 + 9 − 2 = 15.",
+    "tpl": "exponents:challenging:3"
+  },
+  {
+    "q": "Give the exponent: ((x²)²)³ = x^?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Multiply all: 2 × 2 × 3 = 12.",
+    "tpl": "exponents:challenging:0"
+  },
+  {
+    "q": "Give the exponent: ((x³)²)² = x^?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Multiply all: 3 × 2 × 2 = 12.",
+    "tpl": "exponents:challenging:0"
+  },
+  {
+    "q": "Which is larger?  2⁵  or  3³?",
+    "type": "mc",
+    "choices": [
+      "Equal",
+      "2⁵",
+      "3³"
+    ],
+    "answer": 1,
+    "solution": "2⁵ = 32, 3³ = 27. 2⁵ is larger.",
+    "tpl": "exponents:challenging:5"
+  },
+  {
+    "q": "Evaluate: (5 × 2)²",
+    "type": "typed",
+    "accept": [
+      "100"
+    ],
+    "solution": "(5 × 2) = 10, squared = 100.",
+    "tpl": "exponents:challenging:10"
+  },
+  {
+    "q": "Evaluate: (−4)⁵",
+    "type": "typed",
+    "accept": [
+      "-1024"
+    ],
+    "solution": "Exponent 5 is odd → negative: -1024.",
+    "tpl": "exponents:challenging:1"
+  },
+  {
+    "q": "Evaluate: (2 × 2)²",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "(2 × 2) = 4, squared = 16.",
+    "tpl": "exponents:challenging:10"
+  },
+  {
+    "q": "Give the exponent: ((x³)²)³ = x^?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Multiply all: 3 × 2 × 3 = 18.",
+    "tpl": "exponents:challenging:0"
+  },
+  {
+    "q": "Evaluate: √576",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "√576 = 4 × 6 = 24 since (24)² = 576.",
+    "tpl": "exponents:challenging:9"
+  },
+  {
+    "q": "Which is larger?  2⁶  or  4³?",
+    "type": "mc",
+    "choices": [
+      "4³",
+      "Equal",
+      "2⁶"
+    ],
+    "answer": 1,
+    "solution": "2⁶ = 64, 4³ = 64. They are equal.",
+    "tpl": "exponents:challenging:5"
+  },
+  {
+    "q": "Evaluate: 3³ + 4² − 3",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "3³ = 27; 4² = 16; 27 + 16 − 3 = 40.",
+    "tpl": "exponents:challenging:3"
   },
   {
     "q": "What is 2¹⁰?",
@@ -263,7 +709,8 @@
       "1,024"
     ],
     "solution": "Build it up: 2⁵ = 32, and 2¹⁰ = 2⁵ × 2⁵ = 32 × 32 = 1024. (A handy one to memorize!)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:exponents:0"
   },
   {
     "q": "Which is larger, 3⁴ or 4³?",
@@ -276,7 +723,8 @@
     ],
     "answer": 0,
     "solution": "3⁴ = 81 and 4³ = 64. So 3⁴ is larger. (Same digits, different order of base and exponent — they're not equal!)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:exponents:1"
   },
   {
     "q": "If 2ⁿ = 32, what is n?",
@@ -285,7 +733,8 @@
       "5"
     ],
     "solution": "Count the doublings: 2, 4, 8, 16, 32 — that's five 2's multiplied. So 2⁵ = 32 and n = 5.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:exponents:2"
   },
   {
     "q": "What is the units (ones) digit of 3⁴?",
@@ -294,7 +743,8 @@
       "1"
     ],
     "solution": "3⁴ = 81, whose units digit is 1. (The units digits of powers of 3 cycle 3, 9, 7, 1, 3, 9, 7, 1, …)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:exponents:3"
   },
   {
     "q": "Simplify (2³ × 2²) ÷ 2⁴.",
@@ -303,7 +753,8 @@
       "2"
     ],
     "solution": "Add exponents when multiplying: 2³ × 2² = 2⁵. Subtract when dividing: 2⁵ ÷ 2⁴ = 2¹ = 2.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:exponents:4"
   },
   {
     "q": "What is √144 + √25?",
@@ -312,6 +763,7 @@
       "17"
     ],
     "solution": "√144 = 12 (since 12² = 144) and √25 = 5. Add: 12 + 5 = 17.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:exponents:5"
   }
 ]

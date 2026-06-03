@@ -166,6 +166,9 @@ for (const chapter of Object.keys(COMP)) {
   // idempotent: skip items already present (by question text) and any ||OVERRIDE authoring flags
   const have = new Set(existing.map(x => x.q));
   const clean = COMP[chapter].filter(x => !x.solution.includes("||OVERRIDE") && !have.has(x.q));
+  // Each competition question is its own unique template id so the "<=2 per template"
+  // test rule never groups distinct hand-authored problems together.
+  clean.forEach((x, i) => { x.tpl = "comp:" + chapter + ":" + i; });
   const merged = existing.concat(clean);
   fs.writeFileSync(file, JSON.stringify(merged, null, 2) + "\n");
   added += clean.length;

@@ -1,419 +1,675 @@
 [
   {
-    "q": "What is the side length of the largest square tile that can exactly tile a 72-by-12 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "12"
+    "q": "What is the greatest common factor of 29 and 30?",
+    "type": "mc",
+    "choices": [
+      "1",
+      "2",
+      "30",
+      "29"
     ],
-    "solution": "The tile's side must divide both 72 and 12, and the largest such number is the GCF = 12."
+    "answer": 0,
+    "solution": "Consecutive integers share no common factor other than 1, so the GCF is 1.",
+    "tpl": "numbertheory:challenging:7"
   },
   {
-    "q": "What is the side length of the largest square tile that can exactly tile a 48-by-4 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The tile's side must divide both 48 and 4, and the largest such number is the GCF = 4."
-  },
-  {
-    "q": "Two numbers are 8 and 9. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 8 × 9 = 72."
-  },
-  {
-    "q": "Two lights blink every 4 seconds and every 12 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "They sync again at the LCM of 4 and 12, which is 12 seconds."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 80-by-8 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The tile's side must divide both 80 and 8, and the largest such number is the GCF = 8."
-  },
-  {
-    "q": "Two numbers are 9 and 6. What is (their GCF) × (their LCM)?",
+    "q": "Two numbers are 18 and 27. Their greatest common factor is 9. Using GCF × LCM = product, find their LCM.",
     "type": "typed",
     "accept": [
       "54"
     ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 9 × 6 = 54."
+    "solution": "GCF × LCM = 18 × 27 = 486. So LCM = 486 ÷ 9 = 54.",
+    "tpl": "numbertheory:challenging:11"
   },
   {
-    "q": "What is the side length of the largest square tile that can exactly tile a 8-by-4 floor with no cutting?",
+    "q": "What is the smallest whole number greater than 2 that leaves a remainder of 2 when divided by both 5 and 7?",
     "type": "typed",
     "accept": [
-      "4"
+      "37"
     ],
-    "solution": "The tile's side must divide both 8 and 4, and the largest such number is the GCF = 4."
+    "solution": "Such numbers are r more than a common multiple of 5 and 7. LCM(5,7) = 35, so the answer is 35 + 2 = 37.",
+    "tpl": "numbertheory:challenging:3"
   },
   {
-    "q": "What is the side length of the largest square tile that can exactly tile a 66-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 66 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "Two numbers are 8 and 12. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "96"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 8 × 12 = 96."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 24-by-12 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "The tile's side must divide both 24 and 12, and the largest such number is the GCF = 12."
-  },
-  {
-    "q": "Two lights blink every 4 seconds and every 9 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "They sync again at the LCM of 4 and 9, which is 36 seconds."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 36-by-4 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The tile's side must divide both 36 and 4, and the largest such number is the GCF = 4."
-  },
-  {
-    "q": "Two numbers are 10 and 6. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 6 = 60."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 28-by-4 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "The tile's side must divide both 28 and 4, and the largest such number is the GCF = 4."
-  },
-  {
-    "q": "Two numbers are 11 and 7. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "77"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 7 = 77."
-  },
-  {
-    "q": "Two numbers are 12 and 11. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "132"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 12 × 11 = 132."
-  },
-  {
-    "q": "Two numbers are 7 and 9. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "63"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 7 × 9 = 63."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 36-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 36 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "Two numbers are 10 and 8. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "80"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 8 = 80."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 12-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 12 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "Two lights blink every 6 seconds and every 9 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "q": "Three buses leave a station together. They return every 6, 9, and 6 minutes. After how many minutes do all three leave together again?",
     "type": "typed",
     "accept": [
       "18"
     ],
-    "solution": "They sync again at the LCM of 6 and 9, which is 18 seconds."
+    "solution": "Find LCM(6, 9, 6): LCM(6,9) = 18, then LCM with 6 = 18 minutes.",
+    "tpl": "numbertheory:challenging:5"
   },
   {
-    "q": "Two numbers are 11 and 10. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "110"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 10 = 110."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 48-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 48 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "Two lights blink every 6 seconds and every 6 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "They sync again at the LCM of 6 and 6, which is 6 seconds."
-  },
-  {
-    "q": "Two numbers are 11 and 11. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "121"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 11 × 11 = 121."
-  },
-  {
-    "q": "Two numbers are 8 and 11. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "88"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 8 × 11 = 88."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 32-by-8 floor with no cutting?",
+    "q": "How many of the factors of 48 are even numbers?",
     "type": "typed",
     "accept": [
       "8"
     ],
-    "solution": "The tile's side must divide both 32 and 8, and the largest such number is the GCF = 8."
+    "solution": "48 has 10 factors in all. The odd factors are the divisors of 3 (there are 2). So even factors = 10 − 2 = 8.",
+    "tpl": "numbertheory:challenging:10"
   },
   {
-    "q": "What is the side length of the largest square tile that can exactly tile a 24-by-8 floor with no cutting?",
+    "q": "How many positive divisors does 144 have?",
     "type": "typed",
     "accept": [
-      "8"
+      "15"
     ],
-    "solution": "The tile's side must divide both 24 and 8, and the largest such number is the GCF = 8."
+    "solution": "144 = 2⁴ × 3². Multiply (exponent + 1) for each prime: that gives 15 divisors.",
+    "tpl": "numbertheory:challenging:1"
   },
   {
-    "q": "What is the side length of the largest square tile that can exactly tile a 60-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 60 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "Two lights blink every 4 seconds and every 6 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "q": "How many whole numbers from 1 to 180 are divisible by both 3 and 5?",
     "type": "typed",
     "accept": [
       "12"
     ],
-    "solution": "They sync again at the LCM of 4 and 6, which is 12 seconds."
+    "solution": "Divisible by both 3 and 5 means divisible by their LCM, 15. 180 ÷ 15 = 12, so there are 12 such numbers.",
+    "tpl": "numbertheory:challenging:6"
   },
   {
-    "q": "Two lights blink every 6 seconds and every 10 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "30"
+    "q": "What is the greatest common factor of 15 and 16?",
+    "type": "mc",
+    "choices": [
+      "1",
+      "16",
+      "15",
+      "2"
     ],
-    "solution": "They sync again at the LCM of 6 and 10, which is 30 seconds."
+    "answer": 0,
+    "solution": "Consecutive integers share no common factor other than 1, so the GCF is 1.",
+    "tpl": "numbertheory:challenging:7"
   },
   {
-    "q": "What is the side length of the largest square tile that can exactly tile a 56-by-8 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The tile's side must divide both 56 and 8, and the largest such number is the GCF = 8."
-  },
-  {
-    "q": "Two numbers are 10 and 11. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "110"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 11 = 110."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 40-by-8 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "The tile's side must divide both 40 and 8, and the largest such number is the GCF = 8."
-  },
-  {
-    "q": "Two lights blink every 8 seconds and every 10 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "40"
-    ],
-    "solution": "They sync again at the LCM of 8 and 10, which is 40 seconds."
-  },
-  {
-    "q": "Two numbers are 6 and 12. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 12 = 72."
-  },
-  {
-    "q": "Two numbers are 8 and 7. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "56"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 8 × 7 = 56."
-  },
-  {
-    "q": "Two numbers are 12 and 8. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "96"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 12 × 8 = 96."
-  },
-  {
-    "q": "Two lights blink every 6 seconds and every 12 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "They sync again at the LCM of 6 and 12, which is 12 seconds."
-  },
-  {
-    "q": "Two lights blink every 8 seconds and every 9 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "72"
-    ],
-    "solution": "They sync again at the LCM of 8 and 9, which is 72 seconds."
-  },
-  {
-    "q": "Two lights blink every 8 seconds and every 12 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "They sync again at the LCM of 8 and 12, which is 24 seconds."
-  },
-  {
-    "q": "Two numbers are 8 and 10. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "80"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 8 × 10 = 80."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 30-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 30 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "Two lights blink every 4 seconds and every 10 seconds. They just blinked together. After how many seconds will they next blink together?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "They sync again at the LCM of 4 and 10, which is 20 seconds."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 72-by-6 floor with no cutting?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "The tile's side must divide both 72 and 6, and the largest such number is the GCF = 6."
-  },
-  {
-    "q": "Two numbers are 9 and 10. What is (their GCF) × (their LCM)?",
-    "type": "typed",
-    "accept": [
-      "90"
-    ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 9 × 10 = 90."
-  },
-  {
-    "q": "What is the side length of the largest square tile that can exactly tile a 44-by-4 floor with no cutting?",
+    "q": "How many of the factors of 28 are even numbers?",
     "type": "typed",
     "accept": [
       "4"
     ],
-    "solution": "The tile's side must divide both 44 and 4, and the largest such number is the GCF = 4."
+    "solution": "28 has 6 factors in all. The odd factors are the divisors of 7 (there are 2). So even factors = 6 − 2 = 4.",
+    "tpl": "numbertheory:challenging:10"
   },
   {
-    "q": "Two numbers are 12 and 12. What is (their GCF) × (their LCM)?",
+    "q": "Two numbers are 24 and 36. Their greatest common factor is 12. Using GCF × LCM = product, find their LCM.",
     "type": "typed",
     "accept": [
-      "144"
+      "72"
     ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 12 × 12 = 144."
+    "solution": "GCF × LCM = 24 × 36 = 864. So LCM = 864 ÷ 12 = 72.",
+    "tpl": "numbertheory:challenging:11"
   },
   {
-    "q": "What is the side length of the largest square tile that can exactly tile a 84-by-12 floor with no cutting?",
+    "q": "What is the smallest whole number greater than 1 that leaves a remainder of 1 when divided by both 6 and 7?",
+    "type": "typed",
+    "accept": [
+      "43"
+    ],
+    "solution": "Such numbers are r more than a common multiple of 6 and 7. LCM(6,7) = 42, so the answer is 42 + 1 = 43.",
+    "tpl": "numbertheory:challenging:3"
+  },
+  {
+    "q": "What is the smallest positive number that leaves a remainder of 3 when divided by 4 and a remainder of 3 when divided by 4?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Each remainder is one less than its divisor, so the number is one less than a common multiple. LCM(4,4) = 4, so the answer is 4 − 1 = 3.",
+    "tpl": "numbertheory:challenging:8"
+  },
+  {
+    "q": "How many factors does 21 have? (All of them are odd.)",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "21 = 3 × 7, so the number of factors is 4.",
+    "tpl": "numbertheory:challenging:2"
+  },
+  {
+    "q": "How many factors does 63 have? (All of them are odd.)",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "63 = 3² × 7, so the number of factors is 6.",
+    "tpl": "numbertheory:challenging:2"
+  },
+  {
+    "q": "Two numbers are 24 and 16. Their greatest common factor is 8. Using GCF × LCM = product, find their LCM.",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "GCF × LCM = 24 × 16 = 384. So LCM = 384 ÷ 8 = 48.",
+    "tpl": "numbertheory:challenging:11"
+  },
+  {
+    "q": "Two numbers have a GCF of 4 and an LCM of 112. One of the numbers is 28. What is the other number?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "GCF × LCM = product of the numbers: 4 × 112 = 448. Other number = 448 ÷ 28 = 16.",
+    "tpl": "numbertheory:challenging:0"
+  },
+  {
+    "q": "How many whole numbers from 1 to 180 are divisible by both 4 and 5?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Divisible by both 4 and 5 means divisible by their LCM, 20. 180 ÷ 20 = 9, so there are 9 such numbers.",
+    "tpl": "numbertheory:challenging:6"
+  },
+  {
+    "q": "What is the smallest whole number greater than 4 that leaves a remainder of 4 when divided by both 5 and 9?",
+    "type": "typed",
+    "accept": [
+      "49"
+    ],
+    "solution": "Such numbers are r more than a common multiple of 5 and 9. LCM(5,9) = 45, so the answer is 45 + 4 = 49.",
+    "tpl": "numbertheory:challenging:3"
+  },
+  {
+    "q": "The number 6 is the product of two different primes. How many factors does it have?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "6 = 2 × 3. A product of two distinct primes always has exactly 4 factors: 1, 2, 3, and 6.",
+    "tpl": "numbertheory:challenging:4"
+  },
+  {
+    "q": "How many of the factors of 24 are even numbers?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "24 has 8 factors in all. The odd factors are the divisors of 3 (there are 2). So even factors = 8 − 2 = 6.",
+    "tpl": "numbertheory:challenging:10"
+  },
+  {
+    "q": "What is the smallest positive number that leaves a remainder of 2 when divided by 3 and a remainder of 5 when divided by 6?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Each remainder is one less than its divisor, so the number is one less than a common multiple. LCM(3,6) = 6, so the answer is 6 − 1 = 5.",
+    "tpl": "numbertheory:challenging:8"
+  },
+  {
+    "q": "The number 14 is the product of two different primes. How many factors does it have?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "14 = 2 × 7. A product of two distinct primes always has exactly 4 factors: 1, 2, 7, and 14.",
+    "tpl": "numbertheory:challenging:4"
+  },
+  {
+    "q": "Three buses leave a station together. They return every 3, 9, and 6 minutes. After how many minutes do all three leave together again?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Find LCM(3, 9, 6): LCM(3,9) = 9, then LCM with 6 = 18 minutes.",
+    "tpl": "numbertheory:challenging:5"
+  },
+  {
+    "q": "What is the smallest whole number greater than 1 that leaves a remainder of 1 when divided by both 6 and 6?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Such numbers are r more than a common multiple of 6 and 6. LCM(6,6) = 6, so the answer is 6 + 1 = 7.",
+    "tpl": "numbertheory:challenging:3"
+  },
+  {
+    "q": "What is the greatest common factor of 14 and 15?",
+    "type": "mc",
+    "choices": [
+      "2",
+      "1",
+      "14",
+      "15"
+    ],
+    "answer": 1,
+    "solution": "Consecutive integers share no common factor other than 1, so the GCF is 1.",
+    "tpl": "numbertheory:challenging:7"
+  },
+  {
+    "q": "What is the smallest whole number greater than 3 that leaves a remainder of 3 when divided by both 5 and 9?",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "Such numbers are r more than a common multiple of 5 and 9. LCM(5,9) = 45, so the answer is 45 + 3 = 48.",
+    "tpl": "numbertheory:challenging:3"
+  },
+  {
+    "q": "How many of the factors of 36 are even numbers?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "36 has 9 factors in all. The odd factors are the divisors of 9 (there are 3). So even factors = 9 − 3 = 6.",
+    "tpl": "numbertheory:challenging:10"
+  },
+  {
+    "q": "Two numbers have a GCF of 8 and an LCM of 224. One of the numbers is 56. What is the other number?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "GCF × LCM = product of the numbers: 8 × 224 = 1792. Other number = 1792 ÷ 56 = 32.",
+    "tpl": "numbertheory:challenging:0"
+  },
+  {
+    "q": "How many of the factors of 72 are even numbers?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "72 has 12 factors in all. The odd factors are the divisors of 9 (there are 3). So even factors = 12 − 3 = 9.",
+    "tpl": "numbertheory:challenging:10"
+  },
+  {
+    "q": "How many positive divisors does 100 have?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "100 = 2² × 5². Multiply (exponent + 1) for each prime: that gives 9 divisors.",
+    "tpl": "numbertheory:challenging:1"
+  },
+  {
+    "q": "How many whole numbers from 1 to 60 are divisible by both 2 and 5?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Divisible by both 2 and 5 means divisible by their LCM, 10. 60 ÷ 10 = 6, so there are 6 such numbers.",
+    "tpl": "numbertheory:challenging:6"
+  },
+  {
+    "q": "How many factors does 15 have? (All of them are odd.)",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "15 = 3 × 5, so the number of factors is 4.",
+    "tpl": "numbertheory:challenging:2"
+  },
+  {
+    "q": "Two numbers have a GCF of 4 and an LCM of 56. One of the numbers is 28. What is the other number?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "GCF × LCM = product of the numbers: 4 × 56 = 224. Other number = 224 ÷ 28 = 8.",
+    "tpl": "numbertheory:challenging:0"
+  },
+  {
+    "q": "How many factors does 45 have? (All of them are odd.)",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "45 = 3² × 5, so the number of factors is 6.",
+    "tpl": "numbertheory:challenging:2"
+  },
+  {
+    "q": "The number 35 is the product of two different primes. How many factors does it have?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "35 = 5 × 7. A product of two distinct primes always has exactly 4 factors: 1, 5, 7, and 35.",
+    "tpl": "numbertheory:challenging:4"
+  },
+  {
+    "q": "The number 21 is the product of two different primes. How many factors does it have?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "21 = 3 × 7. A product of two distinct primes always has exactly 4 factors: 1, 3, 7, and 21.",
+    "tpl": "numbertheory:challenging:4"
+  },
+  {
+    "q": "How many positive divisors does 72 have?",
     "type": "typed",
     "accept": [
       "12"
     ],
-    "solution": "The tile's side must divide both 84 and 12, and the largest such number is the GCF = 12."
+    "solution": "72 = 2³ × 3². Multiply (exponent + 1) for each prime: that gives 12 divisors.",
+    "tpl": "numbertheory:challenging:1"
   },
   {
-    "q": "Two numbers are 6 and 11. What is (their GCF) × (their LCM)?",
+    "q": "How many of the factors of 40 are even numbers?",
     "type": "typed",
     "accept": [
-      "66"
+      "6"
     ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 6 × 11 = 66."
+    "solution": "40 has 8 factors in all. The odd factors are the divisors of 5 (there are 2). So even factors = 8 − 2 = 6.",
+    "tpl": "numbertheory:challenging:10"
   },
   {
-    "q": "Two numbers are 10 and 10. What is (their GCF) × (their LCM)?",
+    "q": "What is the greatest common factor of 24 and 25?",
+    "type": "mc",
+    "choices": [
+      "25",
+      "2",
+      "1",
+      "24"
+    ],
+    "answer": 2,
+    "solution": "Consecutive integers share no common factor other than 1, so the GCF is 1.",
+    "tpl": "numbertheory:challenging:7"
+  },
+  {
+    "q": "What is the largest prime factor of 84?",
     "type": "typed",
     "accept": [
-      "100"
+      "7"
     ],
-    "solution": "A neat fact: GCF × LCM always equals the product of the two numbers, so 10 × 10 = 100."
+    "solution": "84 = 2² × 3 × 7, so the largest prime factor is 7.",
+    "tpl": "numbertheory:challenging:9"
   },
   {
-    "q": "Two lights blink every 8 seconds and every 6 seconds. They just blinked together. After how many seconds will they next blink together?",
+    "q": "What is the largest prime factor of 90?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "90 = 2 × 3² × 5, so the largest prime factor is 5.",
+    "tpl": "numbertheory:challenging:9"
+  },
+  {
+    "q": "What is the smallest whole number greater than 3 that leaves a remainder of 3 when divided by both 6 and 6?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Such numbers are r more than a common multiple of 6 and 6. LCM(6,6) = 6, so the answer is 6 + 3 = 9.",
+    "tpl": "numbertheory:challenging:3"
+  },
+  {
+    "q": "What is the largest prime factor of 140?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "140 = 2² × 5 × 7, so the largest prime factor is 7.",
+    "tpl": "numbertheory:challenging:9"
+  },
+  {
+    "q": "Two numbers are 12 and 20. Their GCF is 4. What is their LCM?",
+    "type": "typed",
+    "accept": [
+      "60"
+    ],
+    "solution": "GCF × LCM = 12 × 20, so LCM = 240 ÷ 4 = 60.",
+    "tpl": "numbertheory:challenging:0"
+  },
+  {
+    "q": "What is the smallest positive number that leaves a remainder of 4 when divided by 5 and a remainder of 4 when divided by 5?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Each remainder is one less than its divisor, so the number is one less than a common multiple. LCM(5,5) = 5, so the answer is 5 − 1 = 4.",
+    "tpl": "numbertheory:challenging:8"
+  },
+  {
+    "q": "Two numbers are 24 and 27. Their greatest common factor is 3. Using GCF × LCM = product, find their LCM.",
+    "type": "typed",
+    "accept": [
+      "216"
+    ],
+    "solution": "GCF × LCM = 24 × 27 = 648. So LCM = 648 ÷ 3 = 216.",
+    "tpl": "numbertheory:challenging:11"
+  },
+  {
+    "q": "Three buses leave a station together. They return every 6, 8, and 12 minutes. After how many minutes do all three leave together again?",
     "type": "typed",
     "accept": [
       "24"
     ],
-    "solution": "They sync again at the LCM of 8 and 6, which is 24 seconds."
+    "solution": "Find LCM(6, 8, 12): LCM(6,8) = 24, then LCM with 12 = 24 minutes.",
+    "tpl": "numbertheory:challenging:5"
+  },
+  {
+    "q": "How many whole numbers from 1 to 66 are divisible by both 3 and 6?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Divisible by both 3 and 6 means divisible by their LCM, 6. 66 ÷ 6 = 11, so there are 11 such numbers.",
+    "tpl": "numbertheory:challenging:6"
+  },
+  {
+    "q": "What is the smallest positive number that leaves a remainder of 4 when divided by 5 and a remainder of 3 when divided by 4?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Each remainder is one less than its divisor, so the number is one less than a common multiple. LCM(5,4) = 20, so the answer is 20 − 1 = 19.",
+    "tpl": "numbertheory:challenging:8"
+  },
+  {
+    "q": "How many whole numbers from 1 to 240 are divisible by both 4 and 5?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Divisible by both 4 and 5 means divisible by their LCM, 20. 240 ÷ 20 = 12, so there are 12 such numbers.",
+    "tpl": "numbertheory:challenging:6"
+  },
+  {
+    "q": "How many positive divisors does 96 have?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "96 = 2⁵ × 3. Multiply (exponent + 1) for each prime: that gives 12 divisors.",
+    "tpl": "numbertheory:challenging:1"
+  },
+  {
+    "q": "Two numbers are 24 and 45. Their greatest common factor is 3. Using GCF × LCM = product, find their LCM.",
+    "type": "typed",
+    "accept": [
+      "360"
+    ],
+    "solution": "GCF × LCM = 24 × 45 = 1080. So LCM = 1080 ÷ 3 = 360.",
+    "tpl": "numbertheory:challenging:11"
+  },
+  {
+    "q": "Two numbers have a GCF of 6 and an LCM of 60. One of the numbers is 30. What is the other number?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "GCF × LCM = product of the numbers: 6 × 60 = 360. Other number = 360 ÷ 30 = 12.",
+    "tpl": "numbertheory:challenging:0"
+  },
+  {
+    "q": "Two numbers are 30 and 27. Their greatest common factor is 3. Using GCF × LCM = product, find their LCM.",
+    "type": "typed",
+    "accept": [
+      "270"
+    ],
+    "solution": "GCF × LCM = 30 × 27 = 810. So LCM = 810 ÷ 3 = 270.",
+    "tpl": "numbertheory:challenging:11"
+  },
+  {
+    "q": "What is the greatest common factor of 33 and 34?",
+    "type": "mc",
+    "choices": [
+      "1",
+      "33",
+      "2",
+      "34"
+    ],
+    "answer": 0,
+    "solution": "Consecutive integers share no common factor other than 1, so the GCF is 1.",
+    "tpl": "numbertheory:challenging:7"
+  },
+  {
+    "q": "What is the largest prime factor of 198?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "198 = 2 × 3² × 11, so the largest prime factor is 11.",
+    "tpl": "numbertheory:challenging:9"
+  },
+  {
+    "q": "How many factors does 75 have? (All of them are odd.)",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "75 = 3 × 5², so the number of factors is 6.",
+    "tpl": "numbertheory:challenging:2"
+  },
+  {
+    "q": "What is the smallest positive number that leaves a remainder of 4 when divided by 5 and a remainder of 5 when divided by 6?",
+    "type": "typed",
+    "accept": [
+      "29"
+    ],
+    "solution": "Each remainder is one less than its divisor, so the number is one less than a common multiple. LCM(5,6) = 30, so the answer is 30 − 1 = 29.",
+    "tpl": "numbertheory:challenging:8"
+  },
+  {
+    "q": "Three buses leave a station together. They return every 6, 8, and 6 minutes. After how many minutes do all three leave together again?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Find LCM(6, 8, 6): LCM(6,8) = 24, then LCM with 6 = 24 minutes.",
+    "tpl": "numbertheory:challenging:5"
+  },
+  {
+    "q": "How many factors does 135 have? (All of them are odd.)",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "135 = 3³ × 5, so the number of factors is 8.",
+    "tpl": "numbertheory:challenging:2"
+  },
+  {
+    "q": "What is the greatest common factor of 17 and 18?",
+    "type": "mc",
+    "choices": [
+      "2",
+      "17",
+      "1",
+      "18"
+    ],
+    "answer": 2,
+    "solution": "Consecutive integers share no common factor other than 1, so the GCF is 1.",
+    "tpl": "numbertheory:challenging:7"
+  },
+  {
+    "q": "Three buses leave a station together. They return every 3, 5, and 10 minutes. After how many minutes do all three leave together again?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "Find LCM(3, 5, 10): LCM(3,5) = 15, then LCM with 10 = 30 minutes.",
+    "tpl": "numbertheory:challenging:5"
+  },
+  {
+    "q": "What is the largest prime factor of 126?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "126 = 2 × 3² × 7, so the largest prime factor is 7.",
+    "tpl": "numbertheory:challenging:9"
+  },
+  {
+    "q": "How many positive divisors does 120 have?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "120 = 2³ × 3 × 5. Multiply (exponent + 1) for each prime: that gives 16 divisors.",
+    "tpl": "numbertheory:challenging:1"
+  },
+  {
+    "q": "The number 15 is the product of two different primes. How many factors does it have?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "15 = 3 × 5. A product of two distinct primes always has exactly 4 factors: 1, 3, 5, and 15.",
+    "tpl": "numbertheory:challenging:4"
+  },
+  {
+    "q": "What is the smallest positive number that leaves a remainder of 3 when divided by 4 and a remainder of 5 when divided by 6?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Each remainder is one less than its divisor, so the number is one less than a common multiple. LCM(4,6) = 12, so the answer is 12 − 1 = 11.",
+    "tpl": "numbertheory:challenging:8"
+  },
+  {
+    "q": "What is the largest prime factor of 165?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "165 = 3 × 5 × 11, so the largest prime factor is 11.",
+    "tpl": "numbertheory:challenging:9"
+  },
+  {
+    "q": "How many positive divisors does 36 have?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "36 = 2² × 3². Multiply (exponent + 1) for each prime: that gives 9 divisors.",
+    "tpl": "numbertheory:challenging:1"
+  },
+  {
+    "q": "Three buses leave a station together. They return every 4, 8, and 10 minutes. After how many minutes do all three leave together again?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "Find LCM(4, 8, 10): LCM(4,8) = 8, then LCM with 10 = 40 minutes.",
+    "tpl": "numbertheory:challenging:5"
+  },
+  {
+    "q": "The number 33 is the product of two different primes. How many factors does it have?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "33 = 3 × 11. A product of two distinct primes always has exactly 4 factors: 1, 3, 11, and 33.",
+    "tpl": "numbertheory:challenging:4"
+  },
+  {
+    "q": "How many whole numbers from 1 to 140 are divisible by both 2 and 7?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Divisible by both 2 and 7 means divisible by their LCM, 14. 140 ÷ 14 = 10, so there are 10 such numbers.",
+    "tpl": "numbertheory:challenging:6"
+  },
+  {
+    "q": "Two numbers have a GCF of 6 and an LCM of 120. One of the numbers is 30. What is the other number?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "GCF × LCM = product of the numbers: 6 × 120 = 720. Other number = 720 ÷ 30 = 24.",
+    "tpl": "numbertheory:challenging:0"
   },
   {
     "q": "What is the smallest whole number greater than 1 that is both a perfect square AND a perfect cube?",
@@ -422,7 +678,8 @@
       "64"
     ],
     "solution": "To be both a square and a cube, a number must be a 6th power. The smallest is 2⁶ = 64 (it equals 8² and also 4³).",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:numbertheory:0"
   },
   {
     "q": "How many factors does 36 have?",
@@ -431,7 +688,8 @@
       "9"
     ],
     "solution": "36 = 2² × 3². The number of factors is (2+1) × (2+1) = 9. (They are 1, 2, 3, 4, 6, 9, 12, 18, 36.)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:numbertheory:1"
   },
   {
     "q": "Two numbers have a GCF of 4 and an LCM of 60. If one of the numbers is 12, what is the other?",
@@ -440,7 +698,8 @@
       "20"
     ],
     "solution": "GCF × LCM = product of the numbers, so 4 × 60 = 240 = 12 × other. The other number is 240 ÷ 12 = 20.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:numbertheory:2"
   },
   {
     "q": "What is the sum of the first five prime numbers?",
@@ -449,7 +708,8 @@
       "28"
     ],
     "solution": "The first five primes are 2, 3, 5, 7, 11. Their sum is 2 + 3 + 5 + 7 + 11 = 28.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:numbertheory:3"
   },
   {
     "q": "What is the smallest number greater than 1 that leaves a remainder of 1 when divided by 2, 3, and 4?",
@@ -458,7 +718,8 @@
       "13"
     ],
     "solution": "A number 1 more than a common multiple of 2, 3, 4 works. LCM(2, 3, 4) = 12, so 12 + 1 = 13.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:numbertheory:4"
   },
   {
     "q": "Which of these numbers is prime?",
@@ -471,6 +732,7 @@
     ],
     "answer": 2,
     "solution": "51 = 3×17, 57 = 3×19, 91 = 7×13 — all composite. 59 has no factors but 1 and itself, so 59 is prime.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:numbertheory:5"
   }
 ]

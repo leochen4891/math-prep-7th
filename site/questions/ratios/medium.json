@@ -1,91 +1,85 @@
 [
   {
-    "q": "What is 15% of 80?",
+    "q": "A basket has 4 pens and 9 pencils. Write the ratio of pens to pencils in simplest form.",
     "type": "typed",
     "accept": [
-      "12"
+      "4/9"
     ],
-    "solution": "0.15 × 80 = 12."
+    "solution": "Ratio 4:9 → divide by GCD 1 → 4:9.",
+    "tpl": "ratios:medium:0"
   },
   {
-    "q": "What is 15% of 20?",
+    "q": "A car goes 12 words in 4 minutes. What is the unit rate (words per minute)?",
     "type": "typed",
     "accept": [
       "3"
     ],
-    "solution": "0.15 × 20 = 3."
+    "solution": "12 ÷ 4 = 3 words per minute.",
+    "tpl": "ratios:medium:3"
   },
   {
-    "q": "What is 45% of 60?",
+    "q": "Simplify the ratio 16 : 6 to lowest terms.",
     "type": "typed",
     "accept": [
-      "27"
+      "8/3",
+      "16/6"
     ],
-    "solution": "0.45 × 60 = 27."
+    "solution": "16:6 share factor 2 → 8:3.",
+    "tpl": "ratios:medium:1"
   },
   {
-    "q": "Solve the proportion 2/5 = x/15<br>x = ?",
+    "q": "Solve the proportion: 4/6 = x/36<br>x = ?",
     "type": "typed",
     "accept": [
-      "6"
+      "24"
     ],
-    "solution": "Cross multiply: 2×15 ÷ 5 = 6."
+    "solution": "Cross-multiply: 4×36 = 6×x → x = 24.",
+    "tpl": "ratios:medium:4"
   },
   {
-    "q": "Solve the proportion 3/4 = x/16<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Cross multiply: 3×16 ÷ 4 = 12."
-  },
-  {
-    "q": "The ratio of red to blue is 3:5. If there are 6 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Scale up: 6 ÷ 3 = 2, × 5 = 10."
-  },
-  {
-    "q": "The ratio of red to blue is 3:3. If there are 6 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Scale up: 6 ÷ 3 = 2, × 3 = 6."
-  },
-  {
-    "q": "Solve the proportion 2/2 = x/4<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Cross multiply: 2×4 ÷ 2 = 4."
-  },
-  {
-    "q": "The ratio of red to blue is 3:4. If there are 9 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Scale up: 9 ÷ 3 = 3, × 4 = 12."
-  },
-  {
-    "q": "The ratio of red to blue is 2:3. If there are 8 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Scale up: 8 ÷ 2 = 4, × 3 = 12."
-  },
-  {
-    "q": "The ratio of red to blue is 3:5. If there are 12 red, how many blue?",
+    "q": "What percent of 90 is 18?",
     "type": "typed",
     "accept": [
       "20"
     ],
-    "solution": "Scale up: 12 ÷ 3 = 4, × 5 = 20."
+    "solution": "18 ÷ 90 = 0.2 = 20%.",
+    "tpl": "ratios:medium:6"
+  },
+  {
+    "q": "A basket has 3 cats and 10 dogs. Write the ratio of cats to dogs in simplest form.",
+    "type": "typed",
+    "accept": [
+      "3/10"
+    ],
+    "solution": "Ratio 3:10 → divide by GCD 1 → 3:10.",
+    "tpl": "ratios:medium:0"
+  },
+  {
+    "q": "5 notebooks cost $35. At that rate, how much do 7 notebooks cost (in dollars)?",
+    "type": "typed",
+    "accept": [
+      "49"
+    ],
+    "solution": "Each = $35 ÷ 5 = $7. 7 × $7 = $49.",
+    "tpl": "ratios:medium:7"
+  },
+  {
+    "q": "Solve the proportion: 8/6 = x/42<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "56"
+    ],
+    "solution": "Cross-multiply: 8×42 = 6×x → x = 56.",
+    "tpl": "ratios:medium:4"
+  },
+  {
+    "q": "What is 75% of 60?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "75% = 0.75; 0.75 × 60 = 45.",
+    "tpl": "ratios:medium:5"
   },
   {
     "q": "What is 25% of 80?",
@@ -93,374 +87,617 @@
     "accept": [
       "20"
     ],
-    "solution": "0.25 × 80 = 20."
+    "solution": "25% = 0.25; 0.25 × 80 = 20.",
+    "tpl": "ratios:medium:5"
   },
   {
-    "q": "What is 45% of 40?",
+    "q": "7 notebooks cost $56. At that rate, how much do 10 notebooks cost (in dollars)?",
     "type": "typed",
     "accept": [
-      "18"
+      "80"
     ],
-    "solution": "0.45 × 40 = 18."
+    "solution": "Each = $56 ÷ 7 = $8. 10 × $8 = $80.",
+    "tpl": "ratios:medium:7"
   },
   {
-    "q": "What is 25% of 20?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "0.25 × 20 = 5."
-  },
-  {
-    "q": "The ratio of red to blue is 2:5. If there are 6 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Scale up: 6 ÷ 2 = 3, × 5 = 15."
-  },
-  {
-    "q": "The ratio of red to blue is 2:5. If there are 4 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Scale up: 4 ÷ 2 = 2, × 5 = 10."
-  },
-  {
-    "q": "The ratio of red to blue is 2:4. If there are 6 red, how many blue?",
+    "q": "A sum of $36 is split in the ratio 3:3:3. How much is one share for the part with ratio 3? (dollars)",
     "type": "typed",
     "accept": [
       "12"
     ],
-    "solution": "Scale up: 6 ÷ 2 = 3, × 4 = 12."
+    "solution": "Total parts = 9. Each part = $36 ÷ 9 = $4. Times 3 = $12.",
+    "tpl": "ratios:medium:10"
   },
   {
-    "q": "Solve the proportion 1/6 = x/12<br>x = ?",
+    "q": "A train travels at 40 mph for 5 hours. How far does it go (miles)?",
     "type": "typed",
     "accept": [
-      "2"
+      "200"
     ],
-    "solution": "Cross multiply: 1×12 ÷ 6 = 2."
+    "solution": "distance = rate × time = 40 × 5 = 200 miles.",
+    "tpl": "ratios:medium:8"
   },
   {
-    "q": "What is 15% of 60?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "0.15 × 60 = 9."
-  },
-  {
-    "q": "The ratio of red to blue is 2:3. If there are 6 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Scale up: 6 ÷ 2 = 3, × 3 = 9."
-  },
-  {
-    "q": "Solve the proportion 4/4 = x/8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Cross multiply: 4×8 ÷ 4 = 8."
-  },
-  {
-    "q": "The ratio of red to blue is 3:3. If there are 9 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Scale up: 9 ÷ 3 = 3, × 3 = 9."
-  },
-  {
-    "q": "The ratio of red to blue is 2:4. If there are 4 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Scale up: 4 ÷ 2 = 2, × 4 = 8."
-  },
-  {
-    "q": "Solve the proportion 1/3 = x/6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Cross multiply: 1×6 ÷ 3 = 2."
-  },
-  {
-    "q": "What is 45% of 100?",
-    "type": "typed",
-    "accept": [
-      "45"
-    ],
-    "solution": "0.45 × 100 = 45."
-  },
-  {
-    "q": "What is 45% of 20?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "0.45 × 20 = 9."
-  },
-  {
-    "q": "Solve the proportion 1/4 = x/8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Cross multiply: 1×8 ÷ 4 = 2."
-  },
-  {
-    "q": "The ratio of red to blue is 3:4. If there are 12 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Scale up: 12 ÷ 3 = 4, × 4 = 16."
-  },
-  {
-    "q": "Solve the proportion 1/4 = x/12<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Cross multiply: 1×12 ÷ 4 = 3."
-  },
-  {
-    "q": "What is 25% of 40?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "0.25 × 40 = 10."
-  },
-  {
-    "q": "What is 25% of 60?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "0.25 × 60 = 15."
-  },
-  {
-    "q": "Solve the proportion 2/5 = x/20<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Cross multiply: 2×20 ÷ 5 = 8."
-  },
-  {
-    "q": "Solve the proportion 1/5 = x/20<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Cross multiply: 1×20 ÷ 5 = 4."
-  },
-  {
-    "q": "Solve the proportion 2/6 = x/12<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Cross multiply: 2×12 ÷ 6 = 4."
-  },
-  {
-    "q": "The ratio of red to blue is 2:4. If there are 8 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Scale up: 8 ÷ 2 = 4, × 4 = 16."
-  },
-  {
-    "q": "The ratio of red to blue is 3:5. If there are 9 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "Scale up: 9 ÷ 3 = 3, × 5 = 15."
-  },
-  {
-    "q": "The ratio of red to blue is 2:5. If there are 8 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Scale up: 8 ÷ 2 = 4, × 5 = 20."
-  },
-  {
-    "q": "What is 35% of 80?",
-    "type": "typed",
-    "accept": [
-      "28"
-    ],
-    "solution": "0.35 × 80 = 28."
-  },
-  {
-    "q": "Solve the proportion 3/6 = x/24<br>x = ?",
+    "q": "Solve the proportion: 2/4 = x/24<br>x = ?",
     "type": "typed",
     "accept": [
       "12"
     ],
-    "solution": "Cross multiply: 3×24 ÷ 6 = 12."
+    "solution": "Cross-multiply: 2×24 = 4×x → x = 12.",
+    "tpl": "ratios:medium:4"
   },
   {
-    "q": "What is 25% of 100?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "0.25 × 100 = 25."
-  },
-  {
-    "q": "What is 15% of 40?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "0.15 × 40 = 6."
-  },
-  {
-    "q": "The ratio of red to blue is 3:4. If there are 6 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Scale up: 6 ÷ 3 = 2, × 4 = 8."
-  },
-  {
-    "q": "The ratio of red to blue is 2:3. If there are 4 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Scale up: 4 ÷ 2 = 2, × 3 = 6."
-  },
-  {
-    "q": "Solve the proportion 1/3 = x/9<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Cross multiply: 1×9 ÷ 3 = 3."
-  },
-  {
-    "q": "Solve the proportion 1/2 = x/6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Cross multiply: 1×6 ÷ 2 = 3."
-  },
-  {
-    "q": "What is 15% of 100?",
-    "type": "typed",
-    "accept": [
-      "15"
-    ],
-    "solution": "0.15 × 100 = 15."
-  },
-  {
-    "q": "Solve the proportion 3/5 = x/10<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Cross multiply: 3×10 ÷ 5 = 6."
-  },
-  {
-    "q": "What is 35% of 60?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "0.35 × 60 = 21."
-  },
-  {
-    "q": "The ratio of red to blue is 3:3. If there are 12 red, how many blue?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Scale up: 12 ÷ 3 = 4, × 3 = 12."
-  },
-  {
-    "q": "What is 35% of 20?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "0.35 × 20 = 7."
-  },
-  {
-    "q": "What is 35% of 40?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "0.35 × 40 = 14."
-  },
-  {
-    "q": "Solve the proportion 5/5 = x/10<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "Cross multiply: 5×10 ÷ 5 = 10."
-  },
-  {
-    "q": "Solve the proportion 2/5 = x/10<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Cross multiply: 2×10 ÷ 5 = 4."
-  },
-  {
-    "q": "What is 35% of 100?",
-    "type": "typed",
-    "accept": [
-      "35"
-    ],
-    "solution": "0.35 × 100 = 35."
-  },
-  {
-    "q": "What is 45% of 80?",
+    "q": "Find the missing value: 2 : 6 = 12 : ?",
     "type": "typed",
     "accept": [
       "36"
     ],
-    "solution": "0.45 × 80 = 36."
+    "solution": "2 was multiplied by 6 to get 12, so 6×6 = 36.",
+    "tpl": "ratios:medium:2"
   },
   {
-    "q": "Solve the proportion 5/6 = x/24<br>x = ?",
+    "q": "A basket has 5 cats and 4 dogs. Write the ratio of cats to dogs in simplest form.",
+    "type": "typed",
+    "accept": [
+      "5/4"
+    ],
+    "solution": "Ratio 5:4 → divide by GCD 1 → 5:4.",
+    "tpl": "ratios:medium:0"
+  },
+  {
+    "q": "What is 50% of 60?",
+    "type": "typed",
+    "accept": [
+      "30"
+    ],
+    "solution": "50% = 0.5; 0.5 × 60 = 30.",
+    "tpl": "ratios:medium:5"
+  },
+  {
+    "q": "Simplify the ratio 10 : 4 to lowest terms.",
+    "type": "typed",
+    "accept": [
+      "5/2",
+      "10/4"
+    ],
+    "solution": "10:4 share factor 2 → 5:2.",
+    "tpl": "ratios:medium:1"
+  },
+  {
+    "q": "A train travels at 21 mph for 2 hours. How far does it go (miles)?",
+    "type": "typed",
+    "accept": [
+      "42"
+    ],
+    "solution": "distance = rate × time = 21 × 2 = 42 miles.",
+    "tpl": "ratios:medium:8"
+  },
+  {
+    "q": "What percent of 24 is 6?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "6 ÷ 24 = 0.25 = 25%.",
+    "tpl": "ratios:medium:6"
+  },
+  {
+    "q": "A recipe uses 2 cups of flour per batch. How many cups for 3 batches?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "2 × 3 = 6 cups.",
+    "tpl": "ratios:medium:9"
+  },
+  {
+    "q": "A sum of $18 is split in the ratio 1:4:1. How much is one share for the part with ratio 1? (dollars)",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Total parts = 6. Each part = $18 ÷ 6 = $3. Times 1 = $3.",
+    "tpl": "ratios:medium:10"
+  },
+  {
+    "q": "A car goes 55 dollars in 5 items. What is the unit rate (dollars each)?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "55 ÷ 5 = 11 dollars each.",
+    "tpl": "ratios:medium:3"
+  },
+  {
+    "q": "A car goes 90 words in 6 minutes. What is the unit rate (words per minute)?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "90 ÷ 6 = 15 words per minute.",
+    "tpl": "ratios:medium:3"
+  },
+  {
+    "q": "A basket has 10 red and 9 blue. Write the ratio of red to blue in simplest form.",
+    "type": "typed",
+    "accept": [
+      "10/9"
+    ],
+    "solution": "Ratio 10:9 → divide by GCD 1 → 10:9.",
+    "tpl": "ratios:medium:0"
+  },
+  {
+    "q": "A recipe uses 3 cups of flour per batch. How many cups for 5 batches?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "3 × 5 = 15 cups.",
+    "tpl": "ratios:medium:9"
+  },
+  {
+    "q": "What percent of 60 is 15?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "15 ÷ 60 = 0.25 = 25%.",
+    "tpl": "ratios:medium:6"
+  },
+  {
+    "q": "A sum of $10 is split in the ratio 4:4:2. How much is one share for the part with ratio 4? (dollars)",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Total parts = 10. Each part = $10 ÷ 10 = $1. Times 4 = $4.",
+    "tpl": "ratios:medium:10"
+  },
+  {
+    "q": "Find the missing value: 9 : 3 = 36 : ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "9 was multiplied by 4 to get 36, so 3×4 = 12.",
+    "tpl": "ratios:medium:2"
+  },
+  {
+    "q": "Find the missing value: 6 : 2 = 12 : ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "6 was multiplied by 2 to get 12, so 2×2 = 4.",
+    "tpl": "ratios:medium:2"
+  },
+  {
+    "q": "A car goes 8 words in 2 minutes. What is the unit rate (words per minute)?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "8 ÷ 2 = 4 words per minute.",
+    "tpl": "ratios:medium:3"
+  },
+  {
+    "q": "Solve the proportion: 9/9 = x/27<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Cross-multiply: 9×27 = 9×x → x = 27.",
+    "tpl": "ratios:medium:4"
+  },
+  {
+    "q": "What is 40% of 80?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "40% = 0.4; 0.4 × 80 = 32.",
+    "tpl": "ratios:medium:5"
+  },
+  {
+    "q": "A train travels at 48 mph for 6 hours. How far does it go (miles)?",
+    "type": "typed",
+    "accept": [
+      "288"
+    ],
+    "solution": "distance = rate × time = 48 × 6 = 288 miles.",
+    "tpl": "ratios:medium:8"
+  },
+  {
+    "q": "Solve the proportion: 3/3 = x/12<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Cross-multiply: 3×12 = 3×x → x = 12.",
+    "tpl": "ratios:medium:4"
+  },
+  {
+    "q": "A recipe uses 3 cups of flour per batch. How many cups for 2 batches?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "3 × 2 = 6 cups.",
+    "tpl": "ratios:medium:9"
+  },
+  {
+    "q": "Simplify the ratio 15 : 10 to lowest terms.",
+    "type": "typed",
+    "accept": [
+      "3/2",
+      "15/10"
+    ],
+    "solution": "15:10 share factor 5 → 3:2.",
+    "tpl": "ratios:medium:1"
+  },
+  {
+    "q": "Find the missing value: 4 : 3 = 8 : ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "4 was multiplied by 2 to get 8, so 3×2 = 6.",
+    "tpl": "ratios:medium:2"
+  },
+  {
+    "q": "A basket has 5 boys and 6 girls. Write the ratio of boys to girls in simplest form.",
+    "type": "typed",
+    "accept": [
+      "5/6"
+    ],
+    "solution": "Ratio 5:6 → divide by GCD 1 → 5:6.",
+    "tpl": "ratios:medium:0"
+  },
+  {
+    "q": "What percent of 20 is 5?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "5 ÷ 20 = 0.25 = 25%.",
+    "tpl": "ratios:medium:6"
+  },
+  {
+    "q": "Simplify the ratio 16 : 56 to lowest terms.",
+    "type": "typed",
+    "accept": [
+      "2/7",
+      "16/56"
+    ],
+    "solution": "16:56 share factor 8 → 2:7.",
+    "tpl": "ratios:medium:1"
+  },
+  {
+    "q": "8 notebooks cost $32. At that rate, how much do 11 notebooks cost (in dollars)?",
+    "type": "typed",
+    "accept": [
+      "44"
+    ],
+    "solution": "Each = $32 ÷ 8 = $4. 11 × $4 = $44.",
+    "tpl": "ratios:medium:7"
+  },
+  {
+    "q": "A car goes 20 dollars in 5 items. What is the unit rate (dollars each)?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "20 ÷ 5 = 4 dollars each.",
+    "tpl": "ratios:medium:3"
+  },
+  {
+    "q": "5 notebooks cost $45. At that rate, how much do 8 notebooks cost (in dollars)?",
+    "type": "typed",
+    "accept": [
+      "72"
+    ],
+    "solution": "Each = $45 ÷ 5 = $9. 8 × $9 = $72.",
+    "tpl": "ratios:medium:7"
+  },
+  {
+    "q": "Simplify the ratio 32 : 28 to lowest terms.",
+    "type": "typed",
+    "accept": [
+      "8/7",
+      "32/28"
+    ],
+    "solution": "32:28 share factor 4 → 8:7.",
+    "tpl": "ratios:medium:1"
+  },
+  {
+    "q": "What is 50% of 40?",
     "type": "typed",
     "accept": [
       "20"
     ],
-    "solution": "Cross multiply: 5×24 ÷ 6 = 20."
+    "solution": "50% = 0.5; 0.5 × 40 = 20.",
+    "tpl": "ratios:medium:5"
   },
   {
-    "q": "Solve the proportion 1/2 = x/4<br>x = ?",
+    "q": "A train travels at 29 mph for 5 hours. How far does it go (miles)?",
+    "type": "typed",
+    "accept": [
+      "145"
+    ],
+    "solution": "distance = rate × time = 29 × 5 = 145 miles.",
+    "tpl": "ratios:medium:8"
+  },
+  {
+    "q": "A recipe uses 5 cups of flour per batch. How many cups for 3 batches?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "5 × 3 = 15 cups.",
+    "tpl": "ratios:medium:9"
+  },
+  {
+    "q": "A sum of $36 is split in the ratio 4:1:4. How much is one share for the part with ratio 4? (dollars)",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Total parts = 9. Each part = $36 ÷ 9 = $4. Times 4 = $16.",
+    "tpl": "ratios:medium:10"
+  },
+  {
+    "q": "5 notebooks cost $35. At that rate, how much do 8 notebooks cost (in dollars)?",
+    "type": "typed",
+    "accept": [
+      "56"
+    ],
+    "solution": "Each = $35 ÷ 5 = $7. 8 × $7 = $56.",
+    "tpl": "ratios:medium:7"
+  },
+  {
+    "q": "A train travels at 27 mph for 4 hours. How far does it go (miles)?",
+    "type": "typed",
+    "accept": [
+      "108"
+    ],
+    "solution": "distance = rate × time = 27 × 4 = 108 miles.",
+    "tpl": "ratios:medium:8"
+  },
+  {
+    "q": "A recipe uses 2 cups of flour per batch. How many cups for 2 batches?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "2 × 2 = 4 cups.",
+    "tpl": "ratios:medium:9"
+  },
+  {
+    "q": "A train travels at 65 mph for 3 hours. How far does it go (miles)?",
+    "type": "typed",
+    "accept": [
+      "195"
+    ],
+    "solution": "distance = rate × time = 65 × 3 = 195 miles.",
+    "tpl": "ratios:medium:8"
+  },
+  {
+    "q": "Simplify the ratio 42 : 48 to lowest terms.",
+    "type": "typed",
+    "accept": [
+      "7/8",
+      "42/48"
+    ],
+    "solution": "42:48 share factor 6 → 7:8.",
+    "tpl": "ratios:medium:1"
+  },
+  {
+    "q": "Solve the proportion: 6/5 = x/10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Cross-multiply: 6×10 = 5×x → x = 12.",
+    "tpl": "ratios:medium:4"
+  },
+  {
+    "q": "What percent of 20 is 8?",
+    "type": "typed",
+    "accept": [
+      "40"
+    ],
+    "solution": "8 ÷ 20 = 0.4 = 40%.",
+    "tpl": "ratios:medium:6"
+  },
+  {
+    "q": "A car goes 45 dollars in 5 items. What is the unit rate (dollars each)?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "45 ÷ 5 = 9 dollars each.",
+    "tpl": "ratios:medium:3"
+  },
+  {
+    "q": "A sum of $36 is split in the ratio 3:4:2. How much is one share for the part with ratio 3? (dollars)",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Total parts = 9. Each part = $36 ÷ 9 = $4. Times 3 = $12.",
+    "tpl": "ratios:medium:10"
+  },
+  {
+    "q": "Find the missing value: 6 : 3 = 12 : ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "6 was multiplied by 2 to get 12, so 3×2 = 6.",
+    "tpl": "ratios:medium:2"
+  },
+  {
+    "q": "A train travels at 48 mph for 3 hours. How far does it go (miles)?",
+    "type": "typed",
+    "accept": [
+      "144"
+    ],
+    "solution": "distance = rate × time = 48 × 3 = 144 miles.",
+    "tpl": "ratios:medium:8"
+  },
+  {
+    "q": "A basket has 5 boys and 4 girls. Write the ratio of boys to girls in simplest form.",
+    "type": "typed",
+    "accept": [
+      "5/4"
+    ],
+    "solution": "Ratio 5:4 → divide by GCD 1 → 5:4.",
+    "tpl": "ratios:medium:0"
+  },
+  {
+    "q": "3 notebooks cost $27. At that rate, how much do 5 notebooks cost (in dollars)?",
+    "type": "typed",
+    "accept": [
+      "45"
+    ],
+    "solution": "Each = $27 ÷ 3 = $9. 5 × $9 = $45.",
+    "tpl": "ratios:medium:7"
+  },
+  {
+    "q": "A basket has 3 cats and 3 dogs. Write the ratio of cats to dogs in simplest form.",
+    "type": "typed",
+    "accept": [
+      "1/1",
+      "3/3"
+    ],
+    "solution": "Ratio 3:3 → divide by GCD 3 → 1:1.",
+    "tpl": "ratios:medium:0"
+  },
+  {
+    "q": "A recipe uses 3 cups of flour per batch. How many cups for 3 batches?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "3 × 3 = 9 cups.",
+    "tpl": "ratios:medium:9"
+  },
+  {
+    "q": "What percent of 70 is 14?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "14 ÷ 70 = 0.2 = 20%.",
+    "tpl": "ratios:medium:6"
+  },
+  {
+    "q": "A sum of $9 is split in the ratio 2:3:4. How much is one share for the part with ratio 2? (dollars)",
     "type": "typed",
     "accept": [
       "2"
     ],
-    "solution": "Cross multiply: 1×4 ÷ 2 = 2."
+    "solution": "Total parts = 9. Each part = $9 ÷ 9 = $1. Times 2 = $2.",
+    "tpl": "ratios:medium:10"
   },
   {
-    "q": "Solve the proportion 4/5 = x/10<br>x = ?",
+    "q": "A recipe uses 4 cups of flour per batch. How many cups for 4 batches?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "4 × 4 = 16 cups.",
+    "tpl": "ratios:medium:9"
+  },
+  {
+    "q": "Find the missing value: 4 : 3 = 24 : ?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "4 was multiplied by 6 to get 24, so 3×6 = 18.",
+    "tpl": "ratios:medium:2"
+  },
+  {
+    "q": "What is 10% of 60?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "10% = 0.1; 0.1 × 60 = 6.",
+    "tpl": "ratios:medium:5"
+  },
+  {
+    "q": "A sum of $8 is split in the ratio 4:3:1. How much is one share for the part with ratio 4? (dollars)",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Total parts = 8. Each part = $8 ÷ 8 = $1. Times 4 = $4.",
+    "tpl": "ratios:medium:10"
+  },
+  {
+    "q": "6 notebooks cost $42. At that rate, how much do 9 notebooks cost (in dollars)?",
+    "type": "typed",
+    "accept": [
+      "63"
+    ],
+    "solution": "Each = $42 ÷ 6 = $7. 9 × $7 = $63.",
+    "tpl": "ratios:medium:7"
+  },
+  {
+    "q": "Find the missing value: 7 : 4 = 14 : ?",
     "type": "typed",
     "accept": [
       "8"
     ],
-    "solution": "Cross multiply: 4×10 ÷ 5 = 8."
+    "solution": "7 was multiplied by 2 to get 14, so 4×2 = 8.",
+    "tpl": "ratios:medium:2"
+  },
+  {
+    "q": "What is 5% of 20?",
+    "type": "typed",
+    "accept": [
+      "1"
+    ],
+    "solution": "5% = 0.05; 0.05 × 20 = 1.",
+    "tpl": "ratios:medium:5"
+  },
+  {
+    "q": "A car goes 42 words in 3 minutes. What is the unit rate (words per minute)?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "42 ÷ 3 = 14 words per minute.",
+    "tpl": "ratios:medium:3"
+  },
+  {
+    "q": "What percent of 48 is 12?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "12 ÷ 48 = 0.25 = 25%.",
+    "tpl": "ratios:medium:6"
+  },
+  {
+    "q": "Solve the proportion: 3/4 = x/8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Cross-multiply: 3×8 = 4×x → x = 6.",
+    "tpl": "ratios:medium:4"
+  },
+  {
+    "q": "Simplify the ratio 27 : 21 to lowest terms.",
+    "type": "typed",
+    "accept": [
+      "9/7",
+      "27/21"
+    ],
+    "solution": "27:21 share factor 3 → 9:7.",
+    "tpl": "ratios:medium:1"
   }
 ]

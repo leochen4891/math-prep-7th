@@ -1,578 +1,746 @@
 [
   {
-    "q": "Solve: x/4 = 5<br>x = ?",
+    "q": "A number plus 5 equals 12. What is the number?",
     "type": "typed",
     "accept": [
-      "20"
+      "7"
     ],
-    "solution": "Multiply both sides by 4: x = 20."
+    "solution": "n + 5 = 12 → n = 7.",
+    "tpl": "equations:medium:6"
   },
   {
-    "q": "Which value of x makes  x + 1 > 8  true?",
-    "type": "mc",
-    "choices": [
-      "x = 5",
-      "x = 6",
-      "x = 8",
-      "x = 7"
+    "q": "A number plus 11 equals 25. What is the number?",
+    "type": "typed",
+    "accept": [
+      "14"
     ],
-    "answer": 2,
-    "solution": "x + 1 > 8 means x > 7. The smallest whole number greater than 7 is 8."
+    "solution": "n + 11 = 25 → n = 14.",
+    "tpl": "equations:medium:6"
   },
   {
-    "q": "Solve: 4x − 4 = 32<br>x = ?",
+    "q": "Solve: 3x = 33<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Divide both sides by 3: x = 33 ÷ 3 = 11.",
+    "tpl": "equations:medium:2"
+  },
+  {
+    "q": "Solve: x + 4 = 21<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "Subtract 4 from both sides: x = 21 − 4 = 17.",
+    "tpl": "equations:medium:0"
+  },
+  {
+    "q": "Solve: x − 2 = 21<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "Add 2 to both sides: x = 21 + 2 = 23.",
+    "tpl": "equations:medium:1"
+  },
+  {
+    "q": "Solve: 2x − 3 = 15<br>x = ?",
     "type": "typed",
     "accept": [
       "9"
     ],
-    "solution": "Add 4 → 4x = 36. Divide by 4 → x = 9."
+    "solution": "Add 3: 2x = 18. Divide by 2: x = 9.",
+    "tpl": "equations:medium:5"
   },
   {
-    "q": "Solve: x/3 = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "21"
-    ],
-    "solution": "Multiply both sides by 3: x = 21."
-  },
-  {
-    "q": "Which value of x makes  x + 5 > 10  true?",
-    "type": "mc",
-    "choices": [
-      "x = 4",
-      "x = 3",
-      "x = 6",
-      "x = 5"
-    ],
-    "answer": 2,
-    "solution": "x + 5 > 10 means x > 5. The smallest whole number greater than 5 is 6."
-  },
-  {
-    "q": "Solve: 2x − 3 = 3<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Add 3 → 2x = 6. Divide by 2 → x = 3."
-  },
-  {
-    "q": "Solve: 3x − 8 = 1<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Add 8 → 3x = 9. Divide by 3 → x = 3."
-  },
-  {
-    "q": "Solve: x/4 = 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiply both sides by 4: x = 8."
-  },
-  {
-    "q": "Solve the inequality: x + 3 > 8",
-    "type": "mc",
-    "choices": [
-      "x > 8",
-      "x < 8",
-      "x < 5",
-      "x > 5"
-    ],
-    "answer": 3,
-    "solution": "Subtract 3 from both sides: x > 8 − 3, so x > 5."
-  },
-  {
-    "q": "Solve: x/3 = 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Multiply both sides by 3: x = 6."
-  },
-  {
-    "q": "Solve: x/2 = 4<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiply both sides by 2: x = 8."
-  },
-  {
-    "q": "Solve: 3x − 7 = -1<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Add 7 → 3x = 6. Divide by 3 → x = 2."
-  },
-  {
-    "q": "Solve: x/4 = 8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "Multiply both sides by 4: x = 32."
-  },
-  {
-    "q": "Solve: x/4 = 3<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Multiply both sides by 4: x = 12."
-  },
-  {
-    "q": "Solve: 2x + 9 = 23<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Subtract 9 → 2x = 14. Divide by 2 → x = 7."
-  },
-  {
-    "q": "Solve: 4x − 8 = 20<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Add 8 → 4x = 28. Divide by 4 → x = 7."
-  },
-  {
-    "q": "Which value of x makes  x + 8 > 7  true?",
-    "type": "mc",
-    "choices": [
-      "x = -2",
-      "x = -1",
-      "x = 0",
-      "x = -3"
-    ],
-    "answer": 2,
-    "solution": "x + 8 > 7 means x > -1. The smallest whole number greater than -1 is 0."
-  },
-  {
-    "q": "Solve: 4x − 6 = 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Add 6 → 4x = 8. Divide by 4 → x = 2."
-  },
-  {
-    "q": "Solve: x/4 = 9<br>x = ?",
+    "q": "Solve: x ÷ 6 = 6<br>x = ?",
     "type": "typed",
     "accept": [
       "36"
     ],
-    "solution": "Multiply both sides by 4: x = 36."
+    "solution": "Multiply both sides by 6: x = 6 × 6 = 36.",
+    "tpl": "equations:medium:3"
   },
   {
-    "q": "Solve the inequality: x + 3 > 5",
-    "type": "mc",
-    "choices": [
-      "x > 5",
-      "x < 5",
-      "x < 2",
-      "x > 2"
-    ],
-    "answer": 3,
-    "solution": "Subtract 3 from both sides: x > 5 − 3, so x > 2."
-  },
-  {
-    "q": "Solve the inequality: x + 6 > 7",
-    "type": "mc",
-    "choices": [
-      "x > 7",
-      "x > 1",
-      "x < 1",
-      "x < 7"
-    ],
-    "answer": 1,
-    "solution": "Subtract 6 from both sides: x > 7 − 6, so x > 1."
-  },
-  {
-    "q": "Solve: 4x + 2 = 34<br>x = ?",
+    "q": "Solve: 2x = 16<br>x = ?",
     "type": "typed",
     "accept": [
       "8"
     ],
-    "solution": "Subtract 2 → 4x = 32. Divide by 4 → x = 8."
+    "solution": "Divide both sides by 2: x = 16 ÷ 2 = 8.",
+    "tpl": "equations:medium:2"
   },
   {
-    "q": "Solve the inequality: x + 8 > 9",
-    "type": "mc",
-    "choices": [
-      "x > 9",
-      "x < 1",
-      "x < 9",
-      "x > 1"
-    ],
-    "answer": 3,
-    "solution": "Subtract 8 from both sides: x > 9 − 8, so x > 1."
-  },
-  {
-    "q": "Which value of x makes  x + 4 > 8  true?",
-    "type": "mc",
-    "choices": [
-      "x = 4",
-      "x = 2",
-      "x = 3",
-      "x = 5"
-    ],
-    "answer": 3,
-    "solution": "x + 4 > 8 means x > 4. The smallest whole number greater than 4 is 5."
-  },
-  {
-    "q": "Solve the inequality: x + 5 > 9",
-    "type": "mc",
-    "choices": [
-      "x < 4",
-      "x > 4",
-      "x < 9",
-      "x > 9"
-    ],
-    "answer": 1,
-    "solution": "Subtract 5 from both sides: x > 9 − 5, so x > 4."
-  },
-  {
-    "q": "Which value of x makes  x + 7 > 7  true?",
-    "type": "mc",
-    "choices": [
-      "x = -1",
-      "x = 1",
-      "x = -2",
-      "x = 0"
-    ],
-    "answer": 1,
-    "solution": "x + 7 > 7 means x > 0. The smallest whole number greater than 0 is 1."
-  },
-  {
-    "q": "Solve: 4x + 6 = 14<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "2"
-    ],
-    "solution": "Subtract 6 → 4x = 8. Divide by 4 → x = 2."
-  },
-  {
-    "q": "Solve the inequality: x + 3 > 6",
-    "type": "mc",
-    "choices": [
-      "x < 3",
-      "x < 6",
-      "x > 3",
-      "x > 6"
-    ],
-    "answer": 2,
-    "solution": "Subtract 3 from both sides: x > 6 − 3, so x > 3."
-  },
-  {
-    "q": "Which value of x makes  x + 8 > 8  true?",
-    "type": "mc",
-    "choices": [
-      "x = -1",
-      "x = 1",
-      "x = -2",
-      "x = 0"
-    ],
-    "answer": 1,
-    "solution": "x + 8 > 8 means x > 0. The smallest whole number greater than 0 is 1."
-  },
-  {
-    "q": "Solve: 4x + 5 = 21<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Subtract 5 → 4x = 16. Divide by 4 → x = 4."
-  },
-  {
-    "q": "Solve the inequality: x + 4 > 7",
-    "type": "mc",
-    "choices": [
-      "x < 7",
-      "x < 3",
-      "x > 7",
-      "x > 3"
-    ],
-    "answer": 3,
-    "solution": "Subtract 4 from both sides: x > 7 − 4, so x > 3."
-  },
-  {
-    "q": "Solve: 3x + 6 = 27<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Subtract 6 → 3x = 21. Divide by 3 → x = 7."
-  },
-  {
-    "q": "Solve the inequality: x + 4 > 13",
-    "type": "mc",
-    "choices": [
-      "x < 13",
-      "x > 13",
-      "x < 9",
-      "x > 9"
-    ],
-    "answer": 3,
-    "solution": "Subtract 4 from both sides: x > 13 − 4, so x > 9."
-  },
-  {
-    "q": "Solve: x/4 = 4<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "Multiply both sides by 4: x = 16."
-  },
-  {
-    "q": "Which value of x makes  x + 3 > 5  true?",
-    "type": "mc",
-    "choices": [
-      "x = 1",
-      "x = 2",
-      "x = 3",
-      "x = 0"
-    ],
-    "answer": 2,
-    "solution": "x + 3 > 5 means x > 2. The smallest whole number greater than 2 is 3."
-  },
-  {
-    "q": "Solve: 5x + 3 = 48<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Subtract 3 → 5x = 45. Divide by 5 → x = 9."
-  },
-  {
-    "q": "Solve: 4x + 7 = 27<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Subtract 7 → 4x = 20. Divide by 4 → x = 5."
-  },
-  {
-    "q": "Solve the inequality: x + 5 > 12",
-    "type": "mc",
-    "choices": [
-      "x > 7",
-      "x > 12",
-      "x < 12",
-      "x < 7"
-    ],
-    "answer": 0,
-    "solution": "Subtract 5 from both sides: x > 12 − 5, so x > 7."
-  },
-  {
-    "q": "Which value of x makes  x + 8 > 6  true?",
-    "type": "mc",
-    "choices": [
-      "x = -3",
-      "x = -2",
-      "x = -1",
-      "x = -4"
-    ],
-    "answer": 2,
-    "solution": "x + 8 > 6 means x > -2. The smallest whole number greater than -2 is -1."
-  },
-  {
-    "q": "Solve the inequality: x + 4 > 5",
-    "type": "mc",
-    "choices": [
-      "x < 1",
-      "x > 5",
-      "x < 5",
-      "x > 1"
-    ],
-    "answer": 3,
-    "solution": "Subtract 4 from both sides: x > 5 − 4, so x > 1."
-  },
-  {
-    "q": "Solve: 2x − 2 = 8<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Add 2 → 2x = 10. Divide by 2 → x = 5."
-  },
-  {
-    "q": "Solve: 4x − 6 = 22<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Add 6 → 4x = 28. Divide by 4 → x = 7."
-  },
-  {
-    "q": "Solve: x/2 = 6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Multiply both sides by 2: x = 12."
-  },
-  {
-    "q": "Solve the inequality: x + 9 > 14",
-    "type": "mc",
-    "choices": [
-      "x < 5",
-      "x > 14",
-      "x < 14",
-      "x > 5"
-    ],
-    "answer": 3,
-    "solution": "Subtract 9 from both sides: x > 14 − 9, so x > 5."
-  },
-  {
-    "q": "Solve: 3x + 2 = 23<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Subtract 2 → 3x = 21. Divide by 3 → x = 7."
-  },
-  {
-    "q": "Solve: x/4 = 6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "Multiply both sides by 4: x = 24."
-  },
-  {
-    "q": "Solve: 3x + 6 = 33<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "Subtract 6 → 3x = 27. Divide by 3 → x = 9."
-  },
-  {
-    "q": "Solve: x/3 = 6<br>x = ?",
+    "q": "Solve: x + 5 = 23<br>x = ?",
     "type": "typed",
     "accept": [
       "18"
     ],
-    "solution": "Multiply both sides by 3: x = 18."
+    "solution": "Subtract 5 from both sides: x = 23 − 5 = 18.",
+    "tpl": "equations:medium:0"
   },
   {
-    "q": "Solve: 4x + 8 = 36<br>x = ?",
+    "q": "Solve: 4x = 44<br>x = ?",
     "type": "typed",
     "accept": [
-      "7"
+      "11"
     ],
-    "solution": "Subtract 8 → 4x = 28. Divide by 4 → x = 7."
+    "solution": "Divide both sides by 4: x = 44 ÷ 4 = 11.",
+    "tpl": "equations:medium:2"
   },
   {
-    "q": "Solve: 2x − 2 = 10<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Add 2 → 2x = 12. Divide by 2 → x = 6."
-  },
-  {
-    "q": "Solve: 4x − 7 = 25<br>x = ?",
+    "q": "Solve: 4x + 11 = 43<br>x = ?",
     "type": "typed",
     "accept": [
       "8"
     ],
-    "solution": "Add 7 → 4x = 32. Divide by 4 → x = 8."
+    "solution": "Subtract 11: 4x = 32. Divide by 4: x = 8.",
+    "tpl": "equations:medium:4"
   },
   {
-    "q": "Solve the inequality: x + 8 > 13",
+    "q": "Solve the inequality: x + 8 > 12",
     "type": "mc",
     "choices": [
-      "x > 13",
-      "x > 5",
-      "x < 13",
-      "x < 5"
+      "x < 3",
+      "x > 4",
+      "x < 4",
+      "x > 5"
     ],
     "answer": 1,
-    "solution": "Subtract 8 from both sides: x > 13 − 8, so x > 5."
+    "solution": "Subtract 8 from both sides: x > 12 − 8 = 4.",
+    "tpl": "equations:medium:9"
   },
   {
-    "q": "Solve: 5x + 4 = 19<br>x = ?",
+    "q": "Solve: 2x + 2 = 12<br>x = ?",
     "type": "typed",
     "accept": [
-      "3"
+      "5"
     ],
-    "solution": "Subtract 4 → 5x = 15. Divide by 5 → x = 3."
+    "solution": "Subtract 2: 2x = 10. Divide by 2: x = 5.",
+    "tpl": "equations:medium:4"
   },
   {
-    "q": "Solve: 2x − 6 = 0<br>x = ?",
+    "q": "Solve: x + 2 = 20<br>x = ?",
     "type": "typed",
     "accept": [
-      "3"
+      "18"
     ],
-    "solution": "Add 6 → 2x = 6. Divide by 2 → x = 3."
+    "solution": "Subtract 2 from both sides: x = 20 − 2 = 18.",
+    "tpl": "equations:medium:0"
   },
   {
-    "q": "Which value of x makes  x + 1 > 5  true?",
-    "type": "mc",
-    "choices": [
-      "x = 5",
-      "x = 3",
-      "x = 4",
-      "x = 2"
-    ],
-    "answer": 0,
-    "solution": "x + 1 > 5 means x > 4. The smallest whole number greater than 4 is 5."
-  },
-  {
-    "q": "Which value of x makes  x + 2 > 5  true?",
-    "type": "mc",
-    "choices": [
-      "x = 4",
-      "x = 1",
-      "x = 3",
-      "x = 2"
-    ],
-    "answer": 0,
-    "solution": "x + 2 > 5 means x > 3. The smallest whole number greater than 3 is 4."
-  },
-  {
-    "q": "Which value of x makes  x + 6 > 8  true?",
-    "type": "mc",
-    "choices": [
-      "x = 3",
-      "x = 1",
-      "x = 0",
-      "x = 2"
-    ],
-    "answer": 0,
-    "solution": "x + 6 > 8 means x > 2. The smallest whole number greater than 2 is 3."
-  },
-  {
-    "q": "Solve: 3x − 4 = 2<br>x = ?",
+    "q": "Solve: x − 8 = -1<br>x = ?",
     "type": "typed",
     "accept": [
+      "7"
+    ],
+    "solution": "Add 8 to both sides: x = -1 + 8 = 7.",
+    "tpl": "equations:medium:1"
+  },
+  {
+    "q": "Solve: x + 11 = 26<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Subtract 11 from both sides: x = 26 − 11 = 15.",
+    "tpl": "equations:medium:0"
+  },
+  {
+    "q": "Solve: x ÷ 6 = 9<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "54"
+    ],
+    "solution": "Multiply both sides by 6: x = 9 × 6 = 54.",
+    "tpl": "equations:medium:3"
+  },
+  {
+    "q": "Solve: x/4 + 8 = 16<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Subtract 8: x/4 = 8. Multiply by 4: x = 32.",
+    "tpl": "equations:medium:8"
+  },
+  {
+    "q": "Which value of x makes x + 8 > 18 true?",
+    "type": "mc",
+    "choices": [
+      "9",
+      "13",
+      "5",
+      "10"
+    ],
+    "answer": 1,
+    "solution": "Need x > 10. 13 > 10 ✓.",
+    "tpl": "equations:medium:11"
+  },
+  {
+    "q": "Which value of x makes 5x + 8 = 23 true?",
+    "type": "mc",
+    "choices": [
+      "3",
+      "5",
+      "4",
       "2"
     ],
-    "solution": "Add 4 → 3x = 6. Divide by 3 → x = 2."
+    "answer": 0,
+    "solution": "Test x = 3: 5×3 + 8 = 23. ✓",
+    "tpl": "equations:medium:7"
   },
   {
-    "q": "Solve: 2x + 3 = 21<br>x = ?",
+    "q": "A number plus 6 equals 17. What is the number?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "n + 6 = 17 → n = 11.",
+    "tpl": "equations:medium:6"
+  },
+  {
+    "q": "Solve the inequality: x + 11 > 5",
+    "type": "mc",
+    "choices": [
+      "x > -6",
+      "x < -6",
+      "x < -7",
+      "x > -5"
+    ],
+    "answer": 0,
+    "solution": "Subtract 11 from both sides: x > 5 − 11 = -6.",
+    "tpl": "equations:medium:9"
+  },
+  {
+    "q": "Which value of x makes 2x + 7 = 13 true?",
+    "type": "mc",
+    "choices": [
+      "5",
+      "4",
+      "2",
+      "3"
+    ],
+    "answer": 3,
+    "solution": "Test x = 3: 2×3 + 7 = 13. ✓",
+    "tpl": "equations:medium:7"
+  },
+  {
+    "q": "Solve the inequality: 3x ≤ 15",
+    "type": "mc",
+    "choices": [
+      "x ≥ 4",
+      "x ≤ 6",
+      "x ≥ 5",
+      "x ≤ 5"
+    ],
+    "answer": 3,
+    "solution": "Divide both sides by 3 (positive, no flip): x ≤ 5.",
+    "tpl": "equations:medium:10"
+  },
+  {
+    "q": "A number plus 4 equals 17. What is the number?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "n + 4 = 17 → n = 13.",
+    "tpl": "equations:medium:6"
+  },
+  {
+    "q": "Solve: 6x − 10 = 26<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Add 10: 6x = 36. Divide by 6: x = 6.",
+    "tpl": "equations:medium:5"
+  },
+  {
+    "q": "Solve: 4x + 2 = 30<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Subtract 2: 4x = 28. Divide by 4: x = 7.",
+    "tpl": "equations:medium:4"
+  },
+  {
+    "q": "Solve: 6x + 8 = 26<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Subtract 8: 6x = 18. Divide by 6: x = 3.",
+    "tpl": "equations:medium:4"
+  },
+  {
+    "q": "Which value of x makes x + 8 > 13 true?",
+    "type": "mc",
+    "choices": [
+      "2",
+      "5",
+      "0",
+      "8"
+    ],
+    "answer": 3,
+    "solution": "Need x > 5. 8 > 5 ✓.",
+    "tpl": "equations:medium:11"
+  },
+  {
+    "q": "Solve: 6x − 12 = 18<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Add 12: 6x = 30. Divide by 6: x = 5.",
+    "tpl": "equations:medium:5"
+  },
+  {
+    "q": "Solve: 3x = 24<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Divide both sides by 3: x = 24 ÷ 3 = 8.",
+    "tpl": "equations:medium:2"
+  },
+  {
+    "q": "Solve: 8x = 88<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Divide both sides by 8: x = 88 ÷ 8 = 11.",
+    "tpl": "equations:medium:2"
+  },
+  {
+    "q": "Solve the inequality: 6x ≤ 12",
+    "type": "mc",
+    "choices": [
+      "x ≥ 2",
+      "x ≤ 3",
+      "x ≤ 2",
+      "x ≥ 1"
+    ],
+    "answer": 2,
+    "solution": "Divide both sides by 6 (positive, no flip): x ≤ 2.",
+    "tpl": "equations:medium:10"
+  },
+  {
+    "q": "Solve: x ÷ 7 = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "21"
+    ],
+    "solution": "Multiply both sides by 7: x = 3 × 7 = 21.",
+    "tpl": "equations:medium:3"
+  },
+  {
+    "q": "Solve: x − 9 = -3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Add 9 to both sides: x = -3 + 9 = 6.",
+    "tpl": "equations:medium:1"
+  },
+  {
+    "q": "A number plus 3 equals 16. What is the number?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "n + 3 = 16 → n = 13.",
+    "tpl": "equations:medium:6"
+  },
+  {
+    "q": "Solve: 2x + 1 = 13<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract 1: 2x = 12. Divide by 2: x = 6.",
+    "tpl": "equations:medium:4"
+  },
+  {
+    "q": "Which value of x makes x + 2 > 7 true?",
+    "type": "mc",
+    "choices": [
+      "0",
+      "9",
+      "5",
+      "3"
+    ],
+    "answer": 1,
+    "solution": "Need x > 5. 9 > 5 ✓.",
+    "tpl": "equations:medium:11"
+  },
+  {
+    "q": "Which value of x makes x + 1 > 11 true?",
+    "type": "mc",
+    "choices": [
+      "10",
+      "12",
+      "5",
+      "9"
+    ],
+    "answer": 1,
+    "solution": "Need x > 10. 12 > 10 ✓.",
+    "tpl": "equations:medium:11"
+  },
+  {
+    "q": "Solve the inequality: 2x ≤ 10",
+    "type": "mc",
+    "choices": [
+      "x ≥ 4",
+      "x ≤ 6",
+      "x ≥ 5",
+      "x ≤ 5"
+    ],
+    "answer": 3,
+    "solution": "Divide both sides by 2 (positive, no flip): x ≤ 5.",
+    "tpl": "equations:medium:10"
+  },
+  {
+    "q": "Solve the inequality: x + 10 > 3",
+    "type": "mc",
+    "choices": [
+      "x < -7",
+      "x < -8",
+      "x > -7",
+      "x > -6"
+    ],
+    "answer": 2,
+    "solution": "Subtract 10 from both sides: x > 3 − 10 = -7.",
+    "tpl": "equations:medium:9"
+  },
+  {
+    "q": "Solve: x − 11 = 8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "Add 11 to both sides: x = 8 + 11 = 19.",
+    "tpl": "equations:medium:1"
+  },
+  {
+    "q": "Solve the inequality: 3x ≤ 12",
+    "type": "mc",
+    "choices": [
+      "x ≤ 4",
+      "x ≥ 3",
+      "x ≤ 5",
+      "x ≥ 4"
+    ],
+    "answer": 0,
+    "solution": "Divide both sides by 3 (positive, no flip): x ≤ 4.",
+    "tpl": "equations:medium:10"
+  },
+  {
+    "q": "Solve: x/2 + 7 = 9<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Subtract 7: x/2 = 2. Multiply by 2: x = 4.",
+    "tpl": "equations:medium:8"
+  },
+  {
+    "q": "Solve: 3x + 7 = 28<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Subtract 7: 3x = 21. Divide by 3: x = 7.",
+    "tpl": "equations:medium:4"
+  },
+  {
+    "q": "Solve: 2x − 3 = 11<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Add 3: 2x = 14. Divide by 2: x = 7.",
+    "tpl": "equations:medium:5"
+  },
+  {
+    "q": "Solve: 4x = 16<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Divide both sides by 4: x = 16 ÷ 4 = 4.",
+    "tpl": "equations:medium:2"
+  },
+  {
+    "q": "Solve: x + 15 = 24<br>x = ?",
     "type": "typed",
     "accept": [
       "9"
     ],
-    "solution": "Subtract 3 → 2x = 18. Divide by 2 → x = 9."
+    "solution": "Subtract 15 from both sides: x = 24 − 15 = 9.",
+    "tpl": "equations:medium:0"
   },
   {
-    "q": "Which value of x makes  x + 7 > 9  true?",
+    "q": "Solve: x − 13 = -7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Add 13 to both sides: x = -7 + 13 = 6.",
+    "tpl": "equations:medium:1"
+  },
+  {
+    "q": "Solve the inequality: 5x ≤ 10",
     "type": "mc",
     "choices": [
-      "x = 3",
-      "x = 0",
-      "x = 1",
-      "x = 2"
+      "x ≤ 3",
+      "x ≥ 2",
+      "x ≤ 2",
+      "x ≥ 1"
+    ],
+    "answer": 2,
+    "solution": "Divide both sides by 5 (positive, no flip): x ≤ 2.",
+    "tpl": "equations:medium:10"
+  },
+  {
+    "q": "Solve: x + 4 = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Subtract 4 from both sides: x = 7 − 4 = 3.",
+    "tpl": "equations:medium:0"
+  },
+  {
+    "q": "Which value of x makes 4x + 6 = 18 true?",
+    "type": "mc",
+    "choices": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": 1,
+    "solution": "Test x = 3: 4×3 + 6 = 18. ✓",
+    "tpl": "equations:medium:7"
+  },
+  {
+    "q": "Solve the inequality: x + 9 > 12",
+    "type": "mc",
+    "choices": [
+      "x > 4",
+      "x < 3",
+      "x < 2",
+      "x > 3"
+    ],
+    "answer": 3,
+    "solution": "Subtract 9 from both sides: x > 12 − 9 = 3.",
+    "tpl": "equations:medium:9"
+  },
+  {
+    "q": "Solve: x ÷ 4 = 5<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "20"
+    ],
+    "solution": "Multiply both sides by 4: x = 5 × 4 = 20.",
+    "tpl": "equations:medium:3"
+  },
+  {
+    "q": "Solve the inequality: x + 4 > 15",
+    "type": "mc",
+    "choices": [
+      "x > 11",
+      "x < 10",
+      "x < 11",
+      "x > 12"
     ],
     "answer": 0,
-    "solution": "x + 7 > 9 means x > 2. The smallest whole number greater than 2 is 3."
+    "solution": "Subtract 4 from both sides: x > 15 − 4 = 11.",
+    "tpl": "equations:medium:9"
+  },
+  {
+    "q": "Which value of x makes x + 2 > 12 true?",
+    "type": "mc",
+    "choices": [
+      "14",
+      "9",
+      "5",
+      "10"
+    ],
+    "answer": 0,
+    "solution": "Need x > 10. 14 > 10 ✓.",
+    "tpl": "equations:medium:11"
+  },
+  {
+    "q": "Solve: x/4 + 4 = 12<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Subtract 4: x/4 = 8. Multiply by 4: x = 32.",
+    "tpl": "equations:medium:8"
+  },
+  {
+    "q": "Which value of x makes x + 4 > 11 true?",
+    "type": "mc",
+    "choices": [
+      "2",
+      "9",
+      "5",
+      "7"
+    ],
+    "answer": 1,
+    "solution": "Need x > 7. 9 > 7 ✓.",
+    "tpl": "equations:medium:11"
+  },
+  {
+    "q": "Solve: x/2 + 3 = 9<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Subtract 3: x/2 = 6. Multiply by 2: x = 12.",
+    "tpl": "equations:medium:8"
+  },
+  {
+    "q": "A number plus 11 equals 19. What is the number?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "n + 11 = 19 → n = 8.",
+    "tpl": "equations:medium:6"
+  },
+  {
+    "q": "Which value of x makes 4x + 7 = 15 true?",
+    "type": "mc",
+    "choices": [
+      "2",
+      "1",
+      "4",
+      "3"
+    ],
+    "answer": 0,
+    "solution": "Test x = 2: 4×2 + 7 = 15. ✓",
+    "tpl": "equations:medium:7"
+  },
+  {
+    "q": "Solve: x/3 + 2 = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Subtract 2: x/3 = 5. Multiply by 3: x = 15.",
+    "tpl": "equations:medium:8"
+  },
+  {
+    "q": "Solve: x − 11 = -2<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Add 11 to both sides: x = -2 + 11 = 9.",
+    "tpl": "equations:medium:1"
+  },
+  {
+    "q": "Solve: x/2 + 1 = 4<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Subtract 1: x/2 = 3. Multiply by 2: x = 6.",
+    "tpl": "equations:medium:8"
+  },
+  {
+    "q": "Which value of x makes 2x + 3 = 13 true?",
+    "type": "mc",
+    "choices": [
+      "7",
+      "5",
+      "4",
+      "6"
+    ],
+    "answer": 1,
+    "solution": "Test x = 5: 2×5 + 3 = 13. ✓",
+    "tpl": "equations:medium:7"
+  },
+  {
+    "q": "Solve the inequality: 2x ≤ 6",
+    "type": "mc",
+    "choices": [
+      "x ≤ 3",
+      "x ≤ 4",
+      "x ≥ 3",
+      "x ≥ 2"
+    ],
+    "answer": 0,
+    "solution": "Divide both sides by 2 (positive, no flip): x ≤ 3.",
+    "tpl": "equations:medium:10"
+  },
+  {
+    "q": "Solve: x ÷ 2 = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Multiply both sides by 2: x = 3 × 2 = 6.",
+    "tpl": "equations:medium:3"
+  },
+  {
+    "q": "Solve: 4x − 3 = 5<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Add 3: 4x = 8. Divide by 4: x = 2.",
+    "tpl": "equations:medium:5"
+  },
+  {
+    "q": "Solve the inequality: x + 8 > 7",
+    "type": "mc",
+    "choices": [
+      "x > 0",
+      "x < -1",
+      "x > -1",
+      "x < -2"
+    ],
+    "answer": 2,
+    "solution": "Subtract 8 from both sides: x > 7 − 8 = -1.",
+    "tpl": "equations:medium:9"
+  },
+  {
+    "q": "Solve: 2x − 5 = 13<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Add 5: 2x = 18. Divide by 2: x = 9.",
+    "tpl": "equations:medium:5"
+  },
+  {
+    "q": "Which value of x makes 5x + 1 = 36 true?",
+    "type": "mc",
+    "choices": [
+      "8",
+      "9",
+      "6",
+      "7"
+    ],
+    "answer": 3,
+    "solution": "Test x = 7: 5×7 + 1 = 36. ✓",
+    "tpl": "equations:medium:7"
+  },
+  {
+    "q": "Solve: x ÷ 8 = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "56"
+    ],
+    "solution": "Multiply both sides by 8: x = 7 × 8 = 56.",
+    "tpl": "equations:medium:3"
   }
 ]

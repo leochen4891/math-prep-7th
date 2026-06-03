@@ -1,495 +1,780 @@
 [
   {
-    "q": "Solve: (x + 1)/3 = 3<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Multiply both sides by 3: x + 1 = 9. Subtract 1: x = 8."
-  },
-  {
-    "q": "Solve: 3x + 2 = 2x + 10<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Move variables to one side: 1x = 10 − 2 = 8, so x = 8."
-  },
-  {
-    "q": "Solve: 4x + 7 = x + 28<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Move variables to one side: 3x = 28 − 7 = 21, so x = 7."
-  },
-  {
-    "q": "Solve: 2(x − 1) = x + 1<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Distribute: 2x − 2 = x + 1. Then 1x = 3, x = 3."
-  },
-  {
-    "q": "Solve the inequality: 2x + 4 < x + 7",
+    "q": "Solve: 1x + 2 < 4x − 4",
     "type": "mc",
     "choices": [
-      "x < 7",
-      "x > 7",
-      "x < 3",
-      "x > 3"
-    ],
-    "answer": 2,
-    "solution": "Subtract x and 4 from both sides: 1x < 3, so x < 3."
-  },
-  {
-    "q": "Solve: (x + 2)/2 = 4<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Multiply both sides by 2: x + 2 = 8. Subtract 2: x = 6."
-  },
-  {
-    "q": "Solve: 3x + 9 = 2x + 14<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Move variables to one side: 1x = 14 − 9 = 5, so x = 5."
-  },
-  {
-    "q": "Solve: 5x + 4 = 2x + 13<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "3"
-    ],
-    "solution": "Move variables to one side: 3x = 13 − 4 = 9, so x = 3."
-  },
-  {
-    "q": "Solve: 2(x − 1) = x + 6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Distribute: 2x − 2 = x + 6. Then 1x = 8, x = 8."
-  },
-  {
-    "q": "Solve: 5x + 4 = x + 32<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Move variables to one side: 4x = 32 − 4 = 28, so x = 7."
-  },
-  {
-    "q": "Solve the inequality: −2x < -4  (watch the sign!)",
-    "type": "mc",
-    "choices": [
-      "x < -4",
       "x > 2",
-      "x > -4",
-      "x < 2"
-    ],
-    "answer": 1,
-    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 2."
-  },
-  {
-    "q": "Solve: 2(x − 1) = x + 4<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "Distribute: 2x − 2 = x + 4. Then 1x = 6, x = 6."
-  },
-  {
-    "q": "Solve: (x + 2)/2 = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "12"
-    ],
-    "solution": "Multiply both sides by 2: x + 2 = 14. Subtract 2: x = 12."
-  },
-  {
-    "q": "Solve: (x + 4)/4 = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "24"
-    ],
-    "solution": "Multiply both sides by 4: x + 4 = 28. Subtract 4: x = 24."
-  },
-  {
-    "q": "Solve: 2(x − 1) = x + 2<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Distribute: 2x − 2 = x + 2. Then 1x = 4, x = 4."
-  },
-  {
-    "q": "Solve the inequality: −2x < -8  (watch the sign!)",
-    "type": "mc",
-    "choices": [
-      "x > -8",
-      "x < 4",
-      "x > 4",
-      "x < -8"
-    ],
-    "answer": 2,
-    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 4."
-  },
-  {
-    "q": "Solve: (x + 1)/2 = 3<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "5"
-    ],
-    "solution": "Multiply both sides by 2: x + 1 = 6. Subtract 1: x = 5."
-  },
-  {
-    "q": "Solve: 3(x − 1) = x + 5<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Distribute: 3x − 3 = x + 5. Then 2x = 8, x = 4."
-  },
-  {
-    "q": "Solve the inequality: 3x + 2 < x + 16",
-    "type": "mc",
-    "choices": [
-      "x < 16",
-      "x < 7",
-      "x > 7",
-      "x > 16"
-    ],
-    "answer": 1,
-    "solution": "Subtract x and 2 from both sides: 2x < 14, so x < 7."
-  },
-  {
-    "q": "Solve the inequality: −2x < -10  (watch the sign!)",
-    "type": "mc",
-    "choices": [
-      "x > -10",
-      "x < -10",
-      "x < 5",
-      "x > 5"
-    ],
-    "answer": 3,
-    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 5."
-  },
-  {
-    "q": "Solve the inequality: 3x + 1 < x + 15",
-    "type": "mc",
-    "choices": [
-      "x > 15",
-      "x < 15",
-      "x > 7",
-      "x < 7"
-    ],
-    "answer": 3,
-    "solution": "Subtract x and 1 from both sides: 2x < 14, so x < 7."
-  },
-  {
-    "q": "Solve: (x + 4)/3 = 7<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "17"
-    ],
-    "solution": "Multiply both sides by 3: x + 4 = 21. Subtract 4: x = 17."
-  },
-  {
-    "q": "Solve: 3(x − 1) = x + 13<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "8"
-    ],
-    "solution": "Distribute: 3x − 3 = x + 13. Then 2x = 16, x = 8."
-  },
-  {
-    "q": "Solve the inequality: −2x < -12  (watch the sign!)",
-    "type": "mc",
-    "choices": [
-      "x < -12",
-      "x > 6",
-      "x < 6",
-      "x > -12"
-    ],
-    "answer": 1,
-    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 6."
-  },
-  {
-    "q": "Solve: (x + 4)/3 = 6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "14"
-    ],
-    "solution": "Multiply both sides by 3: x + 4 = 18. Subtract 4: x = 14."
-  },
-  {
-    "q": "Solve: 5x + 8 = x + 24<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Move variables to one side: 4x = 24 − 8 = 16, so x = 4."
-  },
-  {
-    "q": "Solve the inequality: 3x + 1 < x + 11",
-    "type": "mc",
-    "choices": [
-      "x < 11",
-      "x > 5",
-      "x < 5",
-      "x > 11"
-    ],
-    "answer": 2,
-    "solution": "Subtract x and 1 from both sides: 2x < 10, so x < 5."
-  },
-  {
-    "q": "Solve the inequality: 2x + 5 < x + 9",
-    "type": "mc",
-    "choices": [
-      "x < 9",
-      "x < 4",
-      "x > 4",
-      "x > 9"
-    ],
-    "answer": 1,
-    "solution": "Subtract x and 5 from both sides: 1x < 4, so x < 4."
-  },
-  {
-    "q": "Solve the inequality: 3x + 3 < x + 17",
-    "type": "mc",
-    "choices": [
-      "x < 7",
-      "x < 17",
-      "x > 17",
-      "x > 7"
+      "x ≥ 2",
+      "x < 2",
+      "x ≤ 2"
     ],
     "answer": 0,
-    "solution": "Subtract x and 3 from both sides: 2x < 14, so x < 7."
+    "solution": "Subtract 1x and add 4: 6 < 3x. Divide by 3: x > 2.",
+    "tpl": "equations:challenging:10"
   },
   {
-    "q": "Solve the inequality: 2x + 4 < x + 9",
-    "type": "mc",
-    "choices": [
-      "x < 9",
-      "x > 9",
-      "x > 5",
-      "x < 5"
-    ],
-    "answer": 3,
-    "solution": "Subtract x and 4 from both sides: 1x < 5, so x < 5."
-  },
-  {
-    "q": "Solve the inequality: 3x + 3 < x + 11",
-    "type": "mc",
-    "choices": [
-      "x < 4",
-      "x > 11",
-      "x > 4",
-      "x < 11"
-    ],
-    "answer": 0,
-    "solution": "Subtract x and 3 from both sides: 2x < 8, so x < 4."
-  },
-  {
-    "q": "Solve: 3x + 3 = 2x + 8<br>x = ?",
+    "q": "Solve: (4/3)x = 4<br>x = ?",
     "type": "typed",
     "accept": [
-      "5"
+      "3"
     ],
-    "solution": "Move variables to one side: 1x = 8 − 3 = 5, so x = 5."
+    "solution": "Multiply both sides by 3/4: x = 4 × 3/4 = 3.",
+    "tpl": "equations:challenging:2"
   },
   {
-    "q": "Solve: 5x + 2 = 2x + 20<br>x = ?",
+    "q": "A rectangle has perimeter 30 and width 6. Find the length.<br>L = ?",
     "type": "typed",
     "accept": [
-      "6"
+      "9"
     ],
-    "solution": "Move variables to one side: 3x = 20 − 2 = 18, so x = 6."
+    "solution": "2(L + 6) = 30 → L + 6 = 15 → L = 9.",
+    "tpl": "equations:challenging:9"
   },
   {
-    "q": "Solve the inequality: 2x + 2 < x + 6",
-    "type": "mc",
-    "choices": [
-      "x > 4",
-      "x < 4",
-      "x > 6",
-      "x < 6"
-    ],
-    "answer": 1,
-    "solution": "Subtract x and 2 from both sides: 1x < 4, so x < 4."
-  },
-  {
-    "q": "Solve: 3x + 9 = x + 13<br>x = ?",
+    "q": "Solve: 3(x + 2) + 3(x + 4) = 30<br>x = ?",
     "type": "typed",
     "accept": [
       "2"
     ],
-    "solution": "Move variables to one side: 2x = 13 − 9 = 4, so x = 2."
+    "solution": "Expand: 6x + 18 = 30. Subtract 18: 6x = 12. Divide: x = 2.",
+    "tpl": "equations:challenging:1"
   },
   {
-    "q": "Solve: 5x + 1 = x + 17<br>x = ?",
+    "q": "Two consecutive integers add up to 39. What is the SMALLER integer?",
     "type": "typed",
     "accept": [
-      "4"
+      "19"
     ],
-    "solution": "Move variables to one side: 4x = 17 − 1 = 16, so x = 4."
+    "solution": "n + (n+1) = 39 → 2n + 1 = 39 → 2n = 38 → n = 19.",
+    "tpl": "equations:challenging:4"
   },
   {
-    "q": "Solve: (x + 5)/4 = 4<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Multiply both sides by 4: x + 5 = 16. Subtract 5: x = 11."
-  },
-  {
-    "q": "Solve: 3(x − 1) = x + 11<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Distribute: 3x − 3 = x + 11. Then 2x = 14, x = 7."
-  },
-  {
-    "q": "Solve the inequality: 3x + 4 < x + 10",
-    "type": "mc",
-    "choices": [
-      "x < 3",
-      "x > 3",
-      "x < 10",
-      "x > 10"
-    ],
-    "answer": 0,
-    "solution": "Subtract x and 4 from both sides: 2x < 6, so x < 3."
-  },
-  {
-    "q": "Solve: 4x + 3 = x + 21<br>x = ?",
+    "q": "Solve: 11 − 4x = -1 − 2x<br>x = ?",
     "type": "typed",
     "accept": [
       "6"
     ],
-    "solution": "Move variables to one side: 3x = 21 − 3 = 18, so x = 6."
+    "solution": "Add 4x both sides: 11 = -1 + 2x. Subtract -1: 12 = 2x. Divide: x = 6.",
+    "tpl": "equations:challenging:3"
   },
   {
-    "q": "Solve: 3(x − 1) = x + 3<br>x = ?",
+    "q": "If x = 4, solve for y: 3x + 4y = 24<br>y = ?",
     "type": "typed",
     "accept": [
       "3"
     ],
-    "solution": "Distribute: 3x − 3 = x + 3. Then 2x = 6, x = 3."
+    "solution": "3×4 = 12. 4y = 24 − 12 = 12. y = 3.",
+    "tpl": "equations:challenging:7"
   },
   {
-    "q": "Solve: 2(x − 1) = x + 5<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "Distribute: 2x − 2 = x + 5. Then 1x = 7, x = 7."
-  },
-  {
-    "q": "Solve: (x + 4)/4 = 6<br>x = ?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Multiply both sides by 4: x + 4 = 24. Subtract 4: x = 20."
-  },
-  {
-    "q": "Solve: 3(x − 1) = x + 7<br>x = ?",
+    "q": "Solve: (4/5)x = 4<br>x = ?",
     "type": "typed",
     "accept": [
       "5"
     ],
-    "solution": "Distribute: 3x − 3 = x + 7. Then 2x = 10, x = 5."
+    "solution": "Multiply both sides by 5/4: x = 4 × 5/4 = 5.",
+    "tpl": "equations:challenging:2"
   },
   {
-    "q": "Solve: (x + 5)/2 = 3<br>x = ?",
+    "q": "Solve: 2(x + 1) + 2(x + 1) = 24<br>x = ?",
     "type": "typed",
     "accept": [
-      "1"
+      "5"
     ],
-    "solution": "Multiply both sides by 2: x + 5 = 6. Subtract 5: x = 1."
+    "solution": "Expand: 4x + 4 = 24. Subtract 4: 4x = 20. Divide: x = 5.",
+    "tpl": "equations:challenging:1"
   },
   {
-    "q": "Solve: 3x + 3 = 2x + 7<br>x = ?",
+    "q": "If x = 4, solve for y: 3x + 4y = 28<br>y = ?",
     "type": "typed",
     "accept": [
       "4"
     ],
-    "solution": "Move variables to one side: 1x = 7 − 3 = 4, so x = 4."
+    "solution": "3×4 = 12. 4y = 28 − 12 = 16. y = 4.",
+    "tpl": "equations:challenging:7"
   },
   {
-    "q": "Solve: (x + 3)/3 = 5<br>x = ?",
+    "q": "Solve: 1x + 2 < 4x − 13",
+    "type": "mc",
+    "choices": [
+      "x ≤ 5",
+      "x ≥ 5",
+      "x < 5",
+      "x > 5"
+    ],
+    "answer": 3,
+    "solution": "Subtract 1x and add 13: 15 < 3x. Divide by 3: x > 5.",
+    "tpl": "equations:challenging:10"
+  },
+  {
+    "q": "Solve: 14 − 6x = -6 − 1x<br>x = ?",
     "type": "typed",
     "accept": [
-      "12"
+      "4"
     ],
-    "solution": "Multiply both sides by 3: x + 3 = 15. Subtract 3: x = 12."
+    "solution": "Add 6x both sides: 14 = -6 + 5x. Subtract -6: 20 = 5x. Divide: x = 4.",
+    "tpl": "equations:challenging:3"
   },
   {
-    "q": "Solve: (x + 4)/3 = 5<br>x = ?",
+    "q": "A rectangle has perimeter 24 and width 3. Find the length.<br>L = ?",
     "type": "typed",
     "accept": [
-      "11"
+      "9"
     ],
-    "solution": "Multiply both sides by 3: x + 4 = 15. Subtract 4: x = 11."
+    "solution": "2(L + 3) = 24 → L + 3 = 12 → L = 9.",
+    "tpl": "equations:challenging:9"
   },
   {
-    "q": "Solve: 3(x − 1) = x + 9<br>x = ?",
+    "q": "Solve: 3(x + 2) > 27",
+    "type": "mc",
+    "choices": [
+      "x ≥ 7",
+      "x < 7",
+      "x ≤ 7",
+      "x > 7"
+    ],
+    "answer": 3,
+    "solution": "Divide by 3: x + 2 > 9. Subtract 2: x > 7.",
+    "tpl": "equations:challenging:5"
+  },
+  {
+    "q": "Solve: 35 − 2x ≥ 27",
+    "type": "mc",
+    "choices": [
+      "x ≤ 4",
+      "x ≥ 4",
+      "x > 4",
+      "x < 4"
+    ],
+    "answer": 0,
+    "solution": "Subtract 35: −2x ≥ -8. Divide by −2 and FLIP: x ≤ 4.",
+    "tpl": "equations:challenging:6"
+  },
+  {
+    "q": "Solve: 33 − 3x ≥ 15",
+    "type": "mc",
+    "choices": [
+      "x ≤ 6",
+      "x < 6",
+      "x ≥ 6",
+      "x > 6"
+    ],
+    "answer": 0,
+    "solution": "Subtract 33: −3x ≥ -18. Divide by −3 and FLIP: x ≤ 6.",
+    "tpl": "equations:challenging:6"
+  },
+  {
+    "q": "Solve: (x − 5)/3 = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Multiply by 3: x − 5 = 9. Add 5: x = 14.",
+    "tpl": "equations:challenging:8"
+  },
+  {
+    "q": "Solve: 11 − 4x = -3 − 2x<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Add 4x both sides: 11 = -3 + 2x. Subtract -3: 14 = 2x. Divide: x = 7.",
+    "tpl": "equations:challenging:3"
+  },
+  {
+    "q": "Solve: 2(x + 1) > 10",
+    "type": "mc",
+    "choices": [
+      "x < 4",
+      "x > 4",
+      "x ≤ 4",
+      "x ≥ 4"
+    ],
+    "answer": 1,
+    "solution": "Divide by 2: x + 1 > 5. Subtract 1: x > 4.",
+    "tpl": "equations:challenging:5"
+  },
+  {
+    "q": "Solve: 28 − 5x = 12 − 1x<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Add 5x both sides: 28 = 12 + 4x. Subtract 12: 16 = 4x. Divide: x = 4.",
+    "tpl": "equations:challenging:3"
+  },
+  {
+    "q": "If x = 2, solve for y: 2x + 4y = 12<br>y = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "2×2 = 4. 4y = 12 − 4 = 8. y = 2.",
+    "tpl": "equations:challenging:7"
+  },
+  {
+    "q": "Solve: 4(x + 3) > 40",
+    "type": "mc",
+    "choices": [
+      "x ≤ 7",
+      "x > 7",
+      "x < 7",
+      "x ≥ 7"
+    ],
+    "answer": 1,
+    "solution": "Divide by 4: x + 3 > 10. Subtract 3: x > 7.",
+    "tpl": "equations:challenging:5"
+  },
+  {
+    "q": "Solve: 4(x + 1) + 4(x + 1) = 56<br>x = ?",
     "type": "typed",
     "accept": [
       "6"
     ],
-    "solution": "Distribute: 3x − 3 = x + 9. Then 2x = 12, x = 6."
+    "solution": "Expand: 8x + 8 = 56. Subtract 8: 8x = 48. Divide: x = 6.",
+    "tpl": "equations:challenging:1"
   },
   {
-    "q": "Solve the inequality: 3x + 3 < x + 15",
+    "q": "Solve: 27 − 5x = 9 − 2x<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Add 5x both sides: 27 = 9 + 3x. Subtract 9: 18 = 3x. Divide: x = 6.",
+    "tpl": "equations:challenging:3"
+  },
+  {
+    "q": "Solve: 3(x + 1) > 15",
     "type": "mc",
     "choices": [
-      "x > 15",
-      "x < 15",
-      "x < 6",
-      "x > 6"
+      "x > 4",
+      "x < 4",
+      "x ≥ 4",
+      "x ≤ 4"
     ],
-    "answer": 2,
-    "solution": "Subtract x and 3 from both sides: 2x < 12, so x < 6."
+    "answer": 0,
+    "solution": "Divide by 3: x + 1 > 5. Subtract 1: x > 4.",
+    "tpl": "equations:challenging:5"
   },
   {
-    "q": "Solve: 2(x − 1) = x + 3<br>x = ?",
+    "q": "Solve: (x − 2)/4 = 2<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Multiply by 4: x − 2 = 8. Add 2: x = 10.",
+    "tpl": "equations:challenging:8"
+  },
+  {
+    "q": "A rectangle has perimeter 42 and width 9. Find the length.<br>L = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "2(L + 9) = 42 → L + 9 = 21 → L = 12.",
+    "tpl": "equations:challenging:9"
+  },
+  {
+    "q": "Two consecutive integers add up to 29. What is the SMALLER integer?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "n + (n+1) = 29 → 2n + 1 = 29 → 2n = 28 → n = 14.",
+    "tpl": "equations:challenging:4"
+  },
+  {
+    "q": "Solve: (x − 8)/5 = 4<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "28"
+    ],
+    "solution": "Multiply by 5: x − 8 = 20. Add 8: x = 28.",
+    "tpl": "equations:challenging:8"
+  },
+  {
+    "q": "Two consecutive integers add up to 17. What is the SMALLER integer?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "n + (n+1) = 17 → 2n + 1 = 17 → 2n = 16 → n = 8.",
+    "tpl": "equations:challenging:4"
+  },
+  {
+    "q": "Solve: 3(x + 1) = 1x + 19<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Expand: 3x + 3 = 1x + 19. Subtract 1x: 2x + 3 = 19. Solve: x = 8.",
+    "tpl": "equations:challenging:0"
+  },
+  {
+    "q": "Solve: (x − 8)/4 = 4<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Multiply by 4: x − 8 = 16. Add 8: x = 24.",
+    "tpl": "equations:challenging:8"
+  },
+  {
+    "q": "Solve: (x − 6)/4 = 7<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "34"
+    ],
+    "solution": "Multiply by 4: x − 6 = 28. Add 6: x = 34.",
+    "tpl": "equations:challenging:8"
+  },
+  {
+    "q": "If x = 2, solve for y: 2x + 3y = 19<br>y = ?",
     "type": "typed",
     "accept": [
       "5"
     ],
-    "solution": "Distribute: 2x − 2 = x + 3. Then 1x = 5, x = 5."
+    "solution": "2×2 = 4. 3y = 19 − 4 = 15. y = 5.",
+    "tpl": "equations:challenging:7"
   },
   {
-    "q": "Solve the inequality: −2x < -6  (watch the sign!)",
+    "q": "Solve: (3/3)x = 6<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Multiply both sides by 3/3: x = 6 × 3/3 = 6.",
+    "tpl": "equations:challenging:2"
+  },
+  {
+    "q": "Solve: 1x + 3 < 6x − 17",
     "type": "mc",
     "choices": [
-      "x > 3",
-      "x < -6",
-      "x > -6",
-      "x < 3"
+      "x > 4",
+      "x < 4",
+      "x ≥ 4",
+      "x ≤ 4"
     ],
     "answer": 0,
-    "solution": "Divide both sides by −2. Dividing by a NEGATIVE number flips the inequality: x > 3."
+    "solution": "Subtract 1x and add 17: 20 < 5x. Divide by 5: x > 4.",
+    "tpl": "equations:challenging:10"
   },
   {
-    "q": "Solve the inequality: 3x + 2 < x + 6",
+    "q": "Solve: 24 − 4x ≥ -4",
     "type": "mc",
     "choices": [
+      "x < 7",
+      "x ≥ 7",
+      "x > 7",
+      "x ≤ 7"
+    ],
+    "answer": 3,
+    "solution": "Subtract 24: −4x ≥ -28. Divide by −4 and FLIP: x ≤ 7.",
+    "tpl": "equations:challenging:6"
+  },
+  {
+    "q": "A rectangle has perimeter 28 and width 3. Find the length.<br>L = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "2(L + 3) = 28 → L + 3 = 14 → L = 11.",
+    "tpl": "equations:challenging:9"
+  },
+  {
+    "q": "Solve: (2/4)x = 8<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Multiply both sides by 4/2: x = 8 × 4/2 = 16.",
+    "tpl": "equations:challenging:2"
+  },
+  {
+    "q": "Solve: (2/5)x = 2<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Multiply both sides by 5/2: x = 2 × 5/2 = 5.",
+    "tpl": "equations:challenging:2"
+  },
+  {
+    "q": "Solve: (3/3)x = 9<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "Multiply both sides by 3/3: x = 9 × 3/3 = 9.",
+    "tpl": "equations:challenging:2"
+  },
+  {
+    "q": "A rectangle has perimeter 28 and width 4. Find the length.<br>L = ?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "2(L + 4) = 28 → L + 4 = 14 → L = 10.",
+    "tpl": "equations:challenging:9"
+  },
+  {
+    "q": "Solve: 3(x + 3) > 27",
+    "type": "mc",
+    "choices": [
+      "x ≥ 6",
       "x > 6",
-      "x < 6",
-      "x < 2",
-      "x > 2"
+      "x ≤ 6",
+      "x < 6"
+    ],
+    "answer": 1,
+    "solution": "Divide by 3: x + 3 > 9. Subtract 3: x > 6.",
+    "tpl": "equations:challenging:5"
+  },
+  {
+    "q": "Solve: 2(x + 1) + 3(x + 3) = 21<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Expand: 5x + 11 = 21. Subtract 11: 5x = 10. Divide: x = 2.",
+    "tpl": "equations:challenging:1"
+  },
+  {
+    "q": "If x = 1, solve for y: 2x + 4y = 18<br>y = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "2×1 = 2. 4y = 18 − 2 = 16. y = 4.",
+    "tpl": "equations:challenging:7"
+  },
+  {
+    "q": "A rectangle has perimeter 18 and width 2. Find the length.<br>L = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "2(L + 2) = 18 → L + 2 = 9 → L = 7.",
+    "tpl": "equations:challenging:9"
+  },
+  {
+    "q": "Solve: 4(x + 4) = 2x + 28<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Expand: 4x + 16 = 2x + 28. Subtract 2x: 2x + 16 = 28. Solve: x = 6.",
+    "tpl": "equations:challenging:0"
+  },
+  {
+    "q": "A rectangle has perimeter 22 and width 2. Find the length.<br>L = ?",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "2(L + 2) = 22 → L + 2 = 11 → L = 9.",
+    "tpl": "equations:challenging:9"
+  },
+  {
+    "q": "Solve: 6(x + 1) = 2x + 22<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Expand: 6x + 6 = 2x + 22. Subtract 2x: 4x + 6 = 22. Solve: x = 4.",
+    "tpl": "equations:challenging:0"
+  },
+  {
+    "q": "Solve: (x − 2)/5 = 3<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "Multiply by 5: x − 2 = 15. Add 2: x = 17.",
+    "tpl": "equations:challenging:8"
+  },
+  {
+    "q": "Solve: 2(x + 3) + 3(x + 3) = 40<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "5"
+    ],
+    "solution": "Expand: 5x + 15 = 40. Subtract 15: 5x = 25. Divide: x = 5.",
+    "tpl": "equations:challenging:1"
+  },
+  {
+    "q": "Solve: 30 − 4x ≥ 14",
+    "type": "mc",
+    "choices": [
+      "x ≤ 4",
+      "x ≥ 4",
+      "x < 4",
+      "x > 4"
+    ],
+    "answer": 0,
+    "solution": "Subtract 30: −4x ≥ -16. Divide by −4 and FLIP: x ≤ 4.",
+    "tpl": "equations:challenging:6"
+  },
+  {
+    "q": "Solve: 6(x + 5) = 1x + 65<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "7"
+    ],
+    "solution": "Expand: 6x + 30 = 1x + 65. Subtract 1x: 5x + 30 = 65. Solve: x = 7.",
+    "tpl": "equations:challenging:0"
+  },
+  {
+    "q": "Solve: 3(x + 3) > 15",
+    "type": "mc",
+    "choices": [
+      "x ≥ 2",
+      "x > 2",
+      "x ≤ 2",
+      "x < 2"
+    ],
+    "answer": 1,
+    "solution": "Divide by 3: x + 3 > 5. Subtract 3: x > 2.",
+    "tpl": "equations:challenging:5"
+  },
+  {
+    "q": "Two consecutive integers add up to 51. What is the SMALLER integer?",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "n + (n+1) = 51 → 2n + 1 = 51 → 2n = 50 → n = 25.",
+    "tpl": "equations:challenging:4"
+  },
+  {
+    "q": "Solve: 3(x + 4) + 2(x + 4) = 30<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Expand: 5x + 20 = 30. Subtract 20: 5x = 10. Divide: x = 2.",
+    "tpl": "equations:challenging:1"
+  },
+  {
+    "q": "Solve: (4/4)x = 16<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Multiply both sides by 4/4: x = 16 × 4/4 = 16.",
+    "tpl": "equations:challenging:2"
+  },
+  {
+    "q": "Solve: 32 − 2x ≥ 22",
+    "type": "mc",
+    "choices": [
+      "x < 5",
+      "x ≤ 5",
+      "x > 5",
+      "x ≥ 5"
+    ],
+    "answer": 1,
+    "solution": "Subtract 32: −2x ≥ -10. Divide by −2 and FLIP: x ≤ 5.",
+    "tpl": "equations:challenging:6"
+  },
+  {
+    "q": "Solve: 2x + 5 < 5x − 16",
+    "type": "mc",
+    "choices": [
+      "x ≥ 7",
+      "x ≤ 7",
+      "x > 7",
+      "x < 7"
     ],
     "answer": 2,
-    "solution": "Subtract x and 2 from both sides: 2x < 4, so x < 2."
+    "solution": "Subtract 2x and add 16: 21 < 3x. Divide by 3: x > 7.",
+    "tpl": "equations:challenging:10"
+  },
+  {
+    "q": "Two consecutive integers add up to 53. What is the SMALLER integer?",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "n + (n+1) = 53 → 2n + 1 = 53 → 2n = 52 → n = 26.",
+    "tpl": "equations:challenging:4"
+  },
+  {
+    "q": "Solve: 4(x + 1) = 1x + 10<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Expand: 4x + 4 = 1x + 10. Subtract 1x: 3x + 4 = 10. Solve: x = 2.",
+    "tpl": "equations:challenging:0"
+  },
+  {
+    "q": "Two consecutive integers add up to 33. What is the SMALLER integer?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "n + (n+1) = 33 → 2n + 1 = 33 → 2n = 32 → n = 16.",
+    "tpl": "equations:challenging:4"
+  },
+  {
+    "q": "Solve: 2x + 4 < 5x − 17",
+    "type": "mc",
+    "choices": [
+      "x ≤ 7",
+      "x ≥ 7",
+      "x > 7",
+      "x < 7"
+    ],
+    "answer": 2,
+    "solution": "Subtract 2x and add 17: 21 < 3x. Divide by 3: x > 7.",
+    "tpl": "equations:challenging:10"
+  },
+  {
+    "q": "Solve: 26 − 6x = 18 − 2x<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Add 6x both sides: 26 = 18 + 4x. Subtract 18: 8 = 4x. Divide: x = 2.",
+    "tpl": "equations:challenging:3"
+  },
+  {
+    "q": "Solve: 21 − 4x ≥ -3",
+    "type": "mc",
+    "choices": [
+      "x ≤ 6",
+      "x ≥ 6",
+      "x < 6",
+      "x > 6"
+    ],
+    "answer": 0,
+    "solution": "Subtract 21: −4x ≥ -24. Divide by −4 and FLIP: x ≤ 6.",
+    "tpl": "equations:challenging:6"
+  },
+  {
+    "q": "Two consecutive integers add up to 47. What is the SMALLER integer?",
+    "type": "typed",
+    "accept": [
+      "23"
+    ],
+    "solution": "n + (n+1) = 47 → 2n + 1 = 47 → 2n = 46 → n = 23.",
+    "tpl": "equations:challenging:4"
+  },
+  {
+    "q": "Solve: 2x + 3 < 6x − 9",
+    "type": "mc",
+    "choices": [
+      "x ≥ 3",
+      "x < 3",
+      "x ≤ 3",
+      "x > 3"
+    ],
+    "answer": 3,
+    "solution": "Subtract 2x and add 9: 12 < 4x. Divide by 4: x > 3.",
+    "tpl": "equations:challenging:10"
+  },
+  {
+    "q": "Solve: 2(x + 4) > 16",
+    "type": "mc",
+    "choices": [
+      "x > 4",
+      "x ≥ 4",
+      "x < 4",
+      "x ≤ 4"
+    ],
+    "answer": 0,
+    "solution": "Divide by 2: x + 4 > 8. Subtract 4: x > 4.",
+    "tpl": "equations:challenging:5"
+  },
+  {
+    "q": "Solve: 4(x + 2) = 2x + 14<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Expand: 4x + 8 = 2x + 14. Subtract 2x: 2x + 8 = 14. Solve: x = 3.",
+    "tpl": "equations:challenging:0"
+  },
+  {
+    "q": "Solve: 1x + 5 < 5x − 7",
+    "type": "mc",
+    "choices": [
+      "x ≤ 3",
+      "x < 3",
+      "x > 3",
+      "x ≥ 3"
+    ],
+    "answer": 2,
+    "solution": "Subtract 1x and add 7: 12 < 4x. Divide by 4: x > 3.",
+    "tpl": "equations:challenging:10"
+  },
+  {
+    "q": "Solve: 3(x + 2) + 4(x + 4) = 50<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "4"
+    ],
+    "solution": "Expand: 7x + 22 = 50. Subtract 22: 7x = 28. Divide: x = 4.",
+    "tpl": "equations:challenging:1"
+  },
+  {
+    "q": "If x = 1, solve for y: 4x + 2y = 10<br>y = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "4×1 = 4. 2y = 10 − 4 = 6. y = 3.",
+    "tpl": "equations:challenging:7"
+  },
+  {
+    "q": "Solve: 20 − 4x ≥ 0",
+    "type": "mc",
+    "choices": [
+      "x ≥ 5",
+      "x > 5",
+      "x < 5",
+      "x ≤ 5"
+    ],
+    "answer": 3,
+    "solution": "Subtract 20: −4x ≥ -20. Divide by −4 and FLIP: x ≤ 5.",
+    "tpl": "equations:challenging:6"
+  },
+  {
+    "q": "Solve: 13 − 3x = 9 − 1x<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "2"
+    ],
+    "solution": "Add 3x both sides: 13 = 9 + 2x. Subtract 9: 4 = 2x. Divide: x = 2.",
+    "tpl": "equations:challenging:3"
+  },
+  {
+    "q": "Solve: 5(x + 2) = 1x + 22<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "Expand: 5x + 10 = 1x + 22. Subtract 1x: 4x + 10 = 22. Solve: x = 3.",
+    "tpl": "equations:challenging:0"
+  },
+  {
+    "q": "If x = 2, solve for y: 3x + 3y = 15<br>y = ?",
+    "type": "typed",
+    "accept": [
+      "3"
+    ],
+    "solution": "3×2 = 6. 3y = 15 − 6 = 9. y = 3.",
+    "tpl": "equations:challenging:7"
+  },
+  {
+    "q": "Solve: (x − 3)/4 = 2<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "Multiply by 4: x − 3 = 8. Add 3: x = 11.",
+    "tpl": "equations:challenging:8"
   },
   {
     "q": "Solve: 2(x + 3) = 3(x − 1).",
@@ -498,7 +783,8 @@
       "9"
     ],
     "solution": "Distribute both sides: 2x + 6 = 3x − 3. Subtract 2x: 6 = x − 3. Add 3: x = 9. Check: 2(12) = 24 and 3(8) = 24. ✓",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:equations:0"
   },
   {
     "q": "Solve: x/2 + x/3 = 10.",
@@ -507,7 +793,8 @@
       "12"
     ],
     "solution": "Multiply every term by 6 (the common denominator) to clear fractions: 3x + 2x = 60, so 5x = 60 and x = 12.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:equations:1"
   },
   {
     "q": "If 3x − 7 = 2x + 5, what is x + 4?",
@@ -516,7 +803,8 @@
       "16"
     ],
     "solution": "Solve first: subtract 2x → x − 7 = 5, then add 7 → x = 12. The question asks for x + 4 = 16. (Don't stop at x!)",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:equations:2"
   },
   {
     "q": "Solve: 5 − 2(x − 1) = 1.",
@@ -525,7 +813,8 @@
       "3"
     ],
     "solution": "Distribute: 5 − 2x + 2 = 1, so 7 − 2x = 1. Then −2x = −6 and x = 3.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:equations:3"
   },
   {
     "q": "The sum of a number and twice the number is 27. What is the number?",
@@ -534,6 +823,7 @@
       "9"
     ],
     "solution": "Let the number be x. Then x + 2x = 3x = 27, so x = 9.",
-    "source": "competition"
+    "source": "competition",
+    "tpl": "comp:equations:4"
   }
 ]

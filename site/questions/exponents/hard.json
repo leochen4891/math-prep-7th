@@ -1,370 +1,650 @@
 [
   {
-    "q": "What is 9² − 3²?",
+    "q": "Evaluate: (−6)³",
     "type": "typed",
     "accept": [
-      "72"
+      "-216"
     ],
-    "solution": "Square each first: 9² = 81, 3² = 9. Then 81 − 9 = 72."
+    "solution": "An odd power keeps the negative sign: (−6)³ = −216.",
+    "tpl": "exponents:hard:1"
   },
   {
-    "q": "If x² = 64, what is the positive value of x?",
+    "q": "Evaluate: 4³ − 3³",
     "type": "typed",
     "accept": [
-      "8"
+      "37"
     ],
-    "solution": "√64 = 8, since 8² = 64."
+    "solution": "4³ = 64, 3³ = 27, difference = 37.",
+    "tpl": "exponents:hard:3"
   },
   {
-    "q": "What is 3³ − 3²?",
+    "q": "Evaluate: 6 × 10³",
     "type": "typed",
     "accept": [
-      "18"
+      "6000"
     ],
-    "solution": "Powers first: 3³ = 27 and 3² = 9. Then 27 − 9 = 18."
+    "solution": "6 × 1000 = 6000.",
+    "tpl": "exponents:hard:10"
   },
   {
-    "q": "What is (-2)⁵?",
-    "type": "typed",
-    "accept": [
-      "-32"
-    ],
-    "solution": "(-2) multiplied by itself 5 times = -32. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "What is 9² − 2²?",
-    "type": "typed",
-    "accept": [
-      "77"
-    ],
-    "solution": "Square each first: 9² = 81, 2² = 4. Then 81 − 4 = 77."
-  },
-  {
-    "q": "What is 6² − 4²?",
-    "type": "typed",
-    "accept": [
-      "20"
-    ],
-    "solution": "Square each first: 6² = 36, 4² = 16. Then 36 − 16 = 20."
-  },
-  {
-    "q": "What is (-6)²?",
-    "type": "typed",
-    "accept": [
-      "36"
-    ],
-    "solution": "(-6) multiplied by itself 2 times = 36. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "If x² = 81, what is the positive value of x?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "√81 = 9, since 9² = 81."
-  },
-  {
-    "q": "What is 6² − 2²?",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "Square each first: 6² = 36, 2² = 4. Then 36 − 4 = 32."
-  },
-  {
-    "q": "What is 4³ − 4²?",
-    "type": "typed",
-    "accept": [
-      "48"
-    ],
-    "solution": "Powers first: 4³ = 64 and 4² = 16. Then 64 − 16 = 48."
-  },
-  {
-    "q": "What is 8² − 5²?",
-    "type": "typed",
-    "accept": [
-      "39"
-    ],
-    "solution": "Square each first: 8² = 64, 5² = 25. Then 64 − 25 = 39."
-  },
-  {
-    "q": "If x² = 49, what is the positive value of x?",
-    "type": "typed",
-    "accept": [
-      "7"
-    ],
-    "solution": "√49 = 7, since 7² = 49."
-  },
-  {
-    "q": "What is 11² − 2²?",
-    "type": "typed",
-    "accept": [
-      "117"
-    ],
-    "solution": "Square each first: 11² = 121, 2² = 4. Then 121 − 4 = 117."
-  },
-  {
-    "q": "What is 3⁴?",
-    "type": "typed",
-    "accept": [
-      "81"
-    ],
-    "solution": "3 multiplied 4 times = 81."
-  },
-  {
-    "q": "What is 8² − 4²?",
-    "type": "typed",
-    "accept": [
-      "48"
-    ],
-    "solution": "Square each first: 8² = 64, 4² = 16. Then 64 − 16 = 48."
-  },
-  {
-    "q": "What is 2³ − 2²?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "Powers first: 2³ = 8 and 2² = 4. Then 8 − 4 = 4."
-  },
-  {
-    "q": "What is 10² − 4²?",
-    "type": "typed",
-    "accept": [
-      "84"
-    ],
-    "solution": "Square each first: 10² = 100, 4² = 16. Then 100 − 16 = 84."
-  },
-  {
-    "q": "What is (-3)³?",
+    "q": "Evaluate: (−3)³",
     "type": "typed",
     "accept": [
       "-27"
     ],
-    "solution": "(-3) multiplied by itself 3 times = -27. (Even power → positive, odd → negative.)"
+    "solution": "An odd power keeps the negative sign: (−3)³ = −27.",
+    "tpl": "exponents:hard:1"
   },
   {
-    "q": "If x² = 144, what is the positive value of x?",
+    "q": "Evaluate: (3 + 4)²",
     "type": "typed",
     "accept": [
-      "12"
+      "49"
     ],
-    "solution": "√144 = 12, since 12² = 144."
+    "solution": "(3 + 4) = 7, then squared = 49.",
+    "tpl": "exponents:hard:4"
   },
   {
-    "q": "If x² = 121, what is the positive value of x?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "√121 = 11, since 11² = 121."
-  },
-  {
-    "q": "What is 2⁸?",
-    "type": "typed",
-    "accept": [
-      "256"
-    ],
-    "solution": "2 multiplied 8 times = 256."
-  },
-  {
-    "q": "What is 4³?",
-    "type": "typed",
-    "accept": [
-      "64"
-    ],
-    "solution": "4 multiplied 3 times = 64."
-  },
-  {
-    "q": "What is 2³ − 4²?",
-    "type": "typed",
-    "accept": [
-      "-8"
-    ],
-    "solution": "Powers first: 2³ = 8 and 4² = 16. Then 8 − 16 = -8."
-  },
-  {
-    "q": "If x² = 16, what is the positive value of x?",
-    "type": "typed",
-    "accept": [
-      "4"
-    ],
-    "solution": "√16 = 4, since 4² = 16."
-  },
-  {
-    "q": "What is 3⁵?",
-    "type": "typed",
-    "accept": [
-      "243"
-    ],
-    "solution": "3 multiplied 5 times = 243."
-  },
-  {
-    "q": "What is 2³ − 3²?",
-    "type": "typed",
-    "accept": [
-      "-1"
-    ],
-    "solution": "Powers first: 2³ = 8 and 3² = 9. Then 8 − 9 = -1."
-  },
-  {
-    "q": "What is 2⁶?",
-    "type": "typed",
-    "accept": [
-      "64"
-    ],
-    "solution": "2 multiplied 6 times = 64."
-  },
-  {
-    "q": "What is (-2)⁴?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "(-2) multiplied by itself 4 times = 16. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "If x² = 36, what is the positive value of x?",
-    "type": "typed",
-    "accept": [
-      "6"
-    ],
-    "solution": "√36 = 6, since 6² = 36."
-  },
-  {
-    "q": "If x² = 100, what is the positive value of x?",
-    "type": "typed",
-    "accept": [
-      "10"
-    ],
-    "solution": "√100 = 10, since 10² = 100."
-  },
-  {
-    "q": "What is (-4)²?",
-    "type": "typed",
-    "accept": [
-      "16"
-    ],
-    "solution": "(-4) multiplied by itself 2 times = 16. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "What is 9² − 4²?",
-    "type": "typed",
-    "accept": [
-      "65"
-    ],
-    "solution": "Square each first: 9² = 81, 4² = 16. Then 81 − 16 = 65."
-  },
-  {
-    "q": "What is (-2)³?",
-    "type": "typed",
-    "accept": [
-      "-8"
-    ],
-    "solution": "(-2) multiplied by itself 3 times = -8. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "What is 2⁵?",
-    "type": "typed",
-    "accept": [
-      "32"
-    ],
-    "solution": "2 multiplied 5 times = 32."
-  },
-  {
-    "q": "What is 2⁷?",
-    "type": "typed",
-    "accept": [
-      "128"
-    ],
-    "solution": "2 multiplied 7 times = 128."
-  },
-  {
-    "q": "What is 3³ − 4²?",
-    "type": "typed",
-    "accept": [
-      "11"
-    ],
-    "solution": "Powers first: 3³ = 27 and 4² = 16. Then 27 − 16 = 11."
-  },
-  {
-    "q": "What is 7² − 3²?",
-    "type": "typed",
-    "accept": [
-      "40"
-    ],
-    "solution": "Square each first: 7² = 49, 3² = 9. Then 49 − 9 = 40."
-  },
-  {
-    "q": "What is 4³ − 2²?",
-    "type": "typed",
-    "accept": [
-      "60"
-    ],
-    "solution": "Powers first: 4³ = 64 and 2² = 4. Then 64 − 4 = 60."
-  },
-  {
-    "q": "What is 4³ − 3²?",
-    "type": "typed",
-    "accept": [
-      "55"
-    ],
-    "solution": "Powers first: 4³ = 64 and 3² = 9. Then 64 − 9 = 55."
-  },
-  {
-    "q": "What is 5³?",
-    "type": "typed",
-    "accept": [
-      "125"
-    ],
-    "solution": "5 multiplied 3 times = 125."
-  },
-  {
-    "q": "What is 11² − 4²?",
-    "type": "typed",
-    "accept": [
-      "105"
-    ],
-    "solution": "Square each first: 11² = 121, 4² = 16. Then 121 − 16 = 105."
-  },
-  {
-    "q": "What is 3³ − 2²?",
-    "type": "typed",
-    "accept": [
-      "23"
-    ],
-    "solution": "Powers first: 3³ = 27 and 2² = 4. Then 27 − 4 = 23."
-  },
-  {
-    "q": "What is (-3)²?",
-    "type": "typed",
-    "accept": [
-      "9"
-    ],
-    "solution": "(-3) multiplied by itself 2 times = 9. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "What is (-5)²?",
-    "type": "typed",
-    "accept": [
-      "25"
-    ],
-    "solution": "(-5) multiplied by itself 2 times = 25. (Even power → positive, odd → negative.)"
-  },
-  {
-    "q": "If x² = 25, what is the positive value of x?",
+    "q": "Evaluate: √9 + √4",
     "type": "typed",
     "accept": [
       "5"
     ],
-    "solution": "√25 = 5, since 5² = 25."
+    "solution": "√9 = 3, √4 = 2, sum = 5.",
+    "tpl": "exponents:hard:8"
   },
   {
-    "q": "What is 7² − 4²?",
+    "q": "Evaluate: 2³ − 3² × 5",
+    "type": "typed",
+    "accept": [
+      "-37"
+    ],
+    "solution": "2³ = 8; 3² × 5 = 9 × 5 = 45; 8 − 45 = -37.",
+    "tpl": "exponents:hard:7"
+  },
+  {
+    "q": "Evaluate: 3⁵ ÷ 3²",
+    "type": "typed",
+    "accept": [
+      "27"
+    ],
+    "solution": "Subtract exponents: 3^(5−2) = 3^3 = 27.",
+    "tpl": "exponents:hard:6"
+  },
+  {
+    "q": "Evaluate: 2³ − 3² × 4",
+    "type": "typed",
+    "accept": [
+      "-28"
+    ],
+    "solution": "2³ = 8; 3² × 4 = 9 × 4 = 36; 8 − 36 = -28.",
+    "tpl": "exponents:hard:7"
+  },
+  {
+    "q": "Evaluate: 2⁵ ÷ 2¹",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Subtract exponents: 2^(5−1) = 2^4 = 16.",
+    "tpl": "exponents:hard:6"
+  },
+  {
+    "q": "Evaluate: 5² − 3²",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "5² = 25, 3² = 9, difference = 16.",
+    "tpl": "exponents:hard:2"
+  },
+  {
+    "q": "Evaluate: 7² − 1²",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "7² = 49, 1² = 1, difference = 48.",
+    "tpl": "exponents:hard:2"
+  },
+  {
+    "q": "Evaluate: 4³ − 2² × 4",
+    "type": "typed",
+    "accept": [
+      "48"
+    ],
+    "solution": "4³ = 64; 2² × 4 = 4 × 4 = 16; 64 − 16 = 48.",
+    "tpl": "exponents:hard:7"
+  },
+  {
+    "q": "Evaluate: 6 × 10⁴",
+    "type": "typed",
+    "accept": [
+      "60000"
+    ],
+    "solution": "6 × 10000 = 60000.",
+    "tpl": "exponents:hard:10"
+  },
+  {
+    "q": "Evaluate: 4³ − 2² × 5",
+    "type": "typed",
+    "accept": [
+      "44"
+    ],
+    "solution": "4³ = 64; 2² × 5 = 4 × 5 = 20; 64 − 20 = 44.",
+    "tpl": "exponents:hard:7"
+  },
+  {
+    "q": "Evaluate: 3³ · 3³",
+    "type": "typed",
+    "accept": [
+      "729"
+    ],
+    "solution": "Add exponents: 3^(3+3) = 3^6 = 729.",
+    "tpl": "exponents:hard:5"
+  },
+  {
+    "q": "Evaluate: √16 + √25",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "√16 = 4, √25 = 5, sum = 9.",
+    "tpl": "exponents:hard:8"
+  },
+  {
+    "q": "Solve for the positive value of x: x² = 169<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "x = √169 = 13.",
+    "tpl": "exponents:hard:9"
+  },
+  {
+    "q": "Evaluate: √64 + √9",
+    "type": "typed",
+    "accept": [
+      "11"
+    ],
+    "solution": "√64 = 8, √9 = 3, sum = 11.",
+    "tpl": "exponents:hard:8"
+  },
+  {
+    "q": "Evaluate: 2³ − 2² × 5",
+    "type": "typed",
+    "accept": [
+      "-12"
+    ],
+    "solution": "2³ = 8; 2² × 5 = 4 × 5 = 20; 8 − 20 = -12.",
+    "tpl": "exponents:hard:7"
+  },
+  {
+    "q": "Evaluate: 9 × 10⁴",
+    "type": "typed",
+    "accept": [
+      "90000"
+    ],
+    "solution": "9 × 10000 = 90000.",
+    "tpl": "exponents:hard:10"
+  },
+  {
+    "q": "Give the exponent: (x² · x⁴)³ = x^?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "Inside: 2+4 = 6. Then × 3 = 18.",
+    "tpl": "exponents:hard:11"
+  },
+  {
+    "q": "Give the exponent: (x⁴ · x³)² = x^?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "Inside: 4+3 = 7. Then × 2 = 14.",
+    "tpl": "exponents:hard:11"
+  },
+  {
+    "q": "Evaluate: 11² − 2²",
+    "type": "typed",
+    "accept": [
+      "117"
+    ],
+    "solution": "11² = 121, 2² = 4, difference = 117.",
+    "tpl": "exponents:hard:2"
+  },
+  {
+    "q": "Evaluate: (−4)³",
+    "type": "typed",
+    "accept": [
+      "-64"
+    ],
+    "solution": "An odd power keeps the negative sign: (−4)³ = −64.",
+    "tpl": "exponents:hard:1"
+  },
+  {
+    "q": "Evaluate: 4³ − 1³",
+    "type": "typed",
+    "accept": [
+      "63"
+    ],
+    "solution": "4³ = 64, 1³ = 1, difference = 63.",
+    "tpl": "exponents:hard:3"
+  },
+  {
+    "q": "Evaluate: (2 + 1)²",
+    "type": "typed",
+    "accept": [
+      "9"
+    ],
+    "solution": "(2 + 1) = 3, then squared = 9.",
+    "tpl": "exponents:hard:4"
+  },
+  {
+    "q": "Evaluate: 3³ − 2² × 2",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "3³ = 27; 2² × 2 = 4 × 2 = 8; 27 − 8 = 19.",
+    "tpl": "exponents:hard:7"
+  },
+  {
+    "q": "Evaluate: 6² − 1²",
+    "type": "typed",
+    "accept": [
+      "35"
+    ],
+    "solution": "6² = 36, 1² = 1, difference = 35.",
+    "tpl": "exponents:hard:2"
+  },
+  {
+    "q": "Evaluate: (4 + 4)²",
+    "type": "typed",
+    "accept": [
+      "64"
+    ],
+    "solution": "(4 + 4) = 8, then squared = 64.",
+    "tpl": "exponents:hard:4"
+  },
+  {
+    "q": "Evaluate: √49 + √64",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "√49 = 7, √64 = 8, sum = 15.",
+    "tpl": "exponents:hard:8"
+  },
+  {
+    "q": "Give the exponent: (x² · x²)³ = x^?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Inside: 2+2 = 4. Then × 3 = 12.",
+    "tpl": "exponents:hard:11"
+  },
+  {
+    "q": "Simplify and give the exponent: (x³)⁴ = x^?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Multiply exponents: 3 × 4 = 12.",
+    "tpl": "exponents:hard:0"
+  },
+  {
+    "q": "Evaluate: 10⁵ ÷ 10¹",
+    "type": "typed",
+    "accept": [
+      "10000"
+    ],
+    "solution": "Subtract exponents: 10^(5−1) = 10^4 = 10000.",
+    "tpl": "exponents:hard:6"
+  },
+  {
+    "q": "Solve for the positive value of x: x² = 324<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "18"
+    ],
+    "solution": "x = √324 = 18.",
+    "tpl": "exponents:hard:9"
+  },
+  {
+    "q": "Solve for the positive value of x: x² = 196<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "14"
+    ],
+    "solution": "x = √196 = 14.",
+    "tpl": "exponents:hard:9"
+  },
+  {
+    "q": "Evaluate: 2 × 10⁴",
+    "type": "typed",
+    "accept": [
+      "20000"
+    ],
+    "solution": "2 × 10000 = 20000.",
+    "tpl": "exponents:hard:10"
+  },
+  {
+    "q": "Evaluate: 3⁶ ÷ 3²",
+    "type": "typed",
+    "accept": [
+      "81"
+    ],
+    "solution": "Subtract exponents: 3^(6−2) = 3^4 = 81.",
+    "tpl": "exponents:hard:6"
+  },
+  {
+    "q": "Simplify and give the exponent: (x⁵)³ = x^?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Multiply exponents: 5 × 3 = 15.",
+    "tpl": "exponents:hard:0"
+  },
+  {
+    "q": "Simplify and give the exponent: (x⁵)² = x^?",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "Multiply exponents: 5 × 2 = 10.",
+    "tpl": "exponents:hard:0"
+  },
+  {
+    "q": "Evaluate: 7² − 4²",
     "type": "typed",
     "accept": [
       "33"
     ],
-    "solution": "Square each first: 7² = 49, 4² = 16. Then 49 − 16 = 33."
+    "solution": "7² = 49, 4² = 16, difference = 33.",
+    "tpl": "exponents:hard:2"
+  },
+  {
+    "q": "Evaluate: 6³ − 1³",
+    "type": "typed",
+    "accept": [
+      "215"
+    ],
+    "solution": "6³ = 216, 1³ = 1, difference = 215.",
+    "tpl": "exponents:hard:3"
+  },
+  {
+    "q": "Evaluate: (5 + 2)²",
+    "type": "typed",
+    "accept": [
+      "49"
+    ],
+    "solution": "(5 + 2) = 7, then squared = 49.",
+    "tpl": "exponents:hard:4"
+  },
+  {
+    "q": "Solve for the positive value of x: x² = 289<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "17"
+    ],
+    "solution": "x = √289 = 17.",
+    "tpl": "exponents:hard:9"
+  },
+  {
+    "q": "Give the exponent: (x⁴ · x⁴)² = x^?",
+    "type": "typed",
+    "accept": [
+      "16"
+    ],
+    "solution": "Inside: 4+4 = 8. Then × 2 = 16.",
+    "tpl": "exponents:hard:11"
+  },
+  {
+    "q": "Evaluate: 3³ · 3²",
+    "type": "typed",
+    "accept": [
+      "243"
+    ],
+    "solution": "Add exponents: 3^(3+2) = 3^5 = 243.",
+    "tpl": "exponents:hard:5"
+  },
+  {
+    "q": "Evaluate: 5³ − 3³",
+    "type": "typed",
+    "accept": [
+      "98"
+    ],
+    "solution": "5³ = 125, 3³ = 27, difference = 98.",
+    "tpl": "exponents:hard:3"
+  },
+  {
+    "q": "Evaluate: 10⁵ ÷ 10²",
+    "type": "typed",
+    "accept": [
+      "1000"
+    ],
+    "solution": "Subtract exponents: 10^(5−2) = 10^3 = 1000.",
+    "tpl": "exponents:hard:6"
+  },
+  {
+    "q": "Evaluate: 3² · 3³",
+    "type": "typed",
+    "accept": [
+      "243"
+    ],
+    "solution": "Add exponents: 3^(2+3) = 3^5 = 243.",
+    "tpl": "exponents:hard:5"
+  },
+  {
+    "q": "Give the exponent: (x⁴ · x⁴)³ = x^?",
+    "type": "typed",
+    "accept": [
+      "24"
+    ],
+    "solution": "Inside: 4+4 = 8. Then × 3 = 24.",
+    "tpl": "exponents:hard:11"
+  },
+  {
+    "q": "Evaluate: 11² − 4²",
+    "type": "typed",
+    "accept": [
+      "105"
+    ],
+    "solution": "11² = 121, 4² = 16, difference = 105.",
+    "tpl": "exponents:hard:2"
+  },
+  {
+    "q": "Evaluate: 5³ · 5²",
+    "type": "typed",
+    "accept": [
+      "3125"
+    ],
+    "solution": "Add exponents: 5^(3+2) = 5^5 = 3125.",
+    "tpl": "exponents:hard:5"
+  },
+  {
+    "q": "Evaluate: (−8)³",
+    "type": "typed",
+    "accept": [
+      "-512"
+    ],
+    "solution": "An odd power keeps the negative sign: (−8)³ = −512.",
+    "tpl": "exponents:hard:1"
+  },
+  {
+    "q": "Evaluate: 2² · 2³",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Add exponents: 2^(2+3) = 2^5 = 32.",
+    "tpl": "exponents:hard:5"
+  },
+  {
+    "q": "Evaluate: √36 + √49",
+    "type": "typed",
+    "accept": [
+      "13"
+    ],
+    "solution": "√36 = 6, √49 = 7, sum = 13.",
+    "tpl": "exponents:hard:8"
+  },
+  {
+    "q": "Solve for the positive value of x: x² = 144<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "x = √144 = 12.",
+    "tpl": "exponents:hard:9"
+  },
+  {
+    "q": "Evaluate: 2⁶ ÷ 2¹",
+    "type": "typed",
+    "accept": [
+      "32"
+    ],
+    "solution": "Subtract exponents: 2^(6−1) = 2^5 = 32.",
+    "tpl": "exponents:hard:6"
+  },
+  {
+    "q": "Evaluate: (5 + 1)²",
+    "type": "typed",
+    "accept": [
+      "36"
+    ],
+    "solution": "(5 + 1) = 6, then squared = 36.",
+    "tpl": "exponents:hard:4"
+  },
+  {
+    "q": "Give the exponent: (x² · x³)³ = x^?",
+    "type": "typed",
+    "accept": [
+      "15"
+    ],
+    "solution": "Inside: 2+3 = 5. Then × 3 = 15.",
+    "tpl": "exponents:hard:11"
+  },
+  {
+    "q": "Simplify and give the exponent: (x⁴)³ = x^?",
+    "type": "typed",
+    "accept": [
+      "12"
+    ],
+    "solution": "Multiply exponents: 4 × 3 = 12.",
+    "tpl": "exponents:hard:0"
+  },
+  {
+    "q": "Simplify and give the exponent: (x³)² = x^?",
+    "type": "typed",
+    "accept": [
+      "6"
+    ],
+    "solution": "Multiply exponents: 3 × 2 = 6.",
+    "tpl": "exponents:hard:0"
+  },
+  {
+    "q": "Evaluate: 2 × 10³",
+    "type": "typed",
+    "accept": [
+      "2000"
+    ],
+    "solution": "2 × 1000 = 2000.",
+    "tpl": "exponents:hard:10"
+  },
+  {
+    "q": "Evaluate: 5³ − 1³",
+    "type": "typed",
+    "accept": [
+      "124"
+    ],
+    "solution": "5³ = 125, 1³ = 1, difference = 124.",
+    "tpl": "exponents:hard:3"
+  },
+  {
+    "q": "Solve for the positive value of x: x² = 361<br>x = ?",
+    "type": "typed",
+    "accept": [
+      "19"
+    ],
+    "solution": "x = √361 = 19.",
+    "tpl": "exponents:hard:9"
+  },
+  {
+    "q": "Evaluate: √16 + √36",
+    "type": "typed",
+    "accept": [
+      "10"
+    ],
+    "solution": "√16 = 4, √36 = 6, sum = 10.",
+    "tpl": "exponents:hard:8"
+  },
+  {
+    "q": "Evaluate: 5² · 5³",
+    "type": "typed",
+    "accept": [
+      "3125"
+    ],
+    "solution": "Add exponents: 5^(2+3) = 5^5 = 3125.",
+    "tpl": "exponents:hard:5"
+  },
+  {
+    "q": "Evaluate: 4 × 10²",
+    "type": "typed",
+    "accept": [
+      "400"
+    ],
+    "solution": "4 × 100 = 400.",
+    "tpl": "exponents:hard:10"
+  },
+  {
+    "q": "Evaluate: (−5)³",
+    "type": "typed",
+    "accept": [
+      "-125"
+    ],
+    "solution": "An odd power keeps the negative sign: (−5)³ = −125.",
+    "tpl": "exponents:hard:1"
+  },
+  {
+    "q": "Evaluate: (−2)³",
+    "type": "typed",
+    "accept": [
+      "-8"
+    ],
+    "solution": "An odd power keeps the negative sign: (−2)³ = −8.",
+    "tpl": "exponents:hard:1"
+  },
+  {
+    "q": "Evaluate: 3³ − 1³",
+    "type": "typed",
+    "accept": [
+      "26"
+    ],
+    "solution": "3³ = 27, 1³ = 1, difference = 26.",
+    "tpl": "exponents:hard:3"
+  },
+  {
+    "q": "Evaluate: (4 + 1)²",
+    "type": "typed",
+    "accept": [
+      "25"
+    ],
+    "solution": "(4 + 1) = 5, then squared = 25.",
+    "tpl": "exponents:hard:4"
+  },
+  {
+    "q": "Simplify and give the exponent: (x⁴)² = x^?",
+    "type": "typed",
+    "accept": [
+      "8"
+    ],
+    "solution": "Multiply exponents: 4 × 2 = 8.",
+    "tpl": "exponents:hard:0"
   }
 ]

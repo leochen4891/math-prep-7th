@@ -134,8 +134,20 @@ function mapPoolQ(raw, level) {
   else { out.accept = raw.accept; }
   return out;
 }
+// Build a 20-question test with AT MOST 2 questions from any single template.
 function pick20(pool, level) {
-  return shuffleArr(pool).slice(0, Math.min(20, pool.length)).map(r => mapPoolQ(r, level));
+  const shuffled = shuffleArr(pool);
+  const perTpl = {};
+  const chosen = [];
+  for (const r of shuffled) {
+    const t = r.tpl || ("u" + chosen.length);
+    if ((perTpl[t] || 0) < 2) { perTpl[t] = (perTpl[t] || 0) + 1; chosen.push(r); if (chosen.length >= 20) break; }
+  }
+  // Fallback (shouldn't trigger: every tier has 10+ templates): if too few templates, top up.
+  if (chosen.length < 20) {
+    for (const r of shuffled) { if (chosen.indexOf(r) === -1) { chosen.push(r); if (chosen.length >= 20) break; } }
+  }
+  return chosen.slice(0, 20).map(r => mapPoolQ(r, level));
 }
 
 function screenChooseLevel(chapterId) {
